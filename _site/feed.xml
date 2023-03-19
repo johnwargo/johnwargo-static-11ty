@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>John M. Wargo</title>
+  <subtitle>Tech tidbits and other stuff</subtitle>
+  <link href="https://johnwargo.com/feed.xml" rel="self"/>
+  <link href="https://johnwargo.com/"/>
+  <updated>2023-03-19T10:49:52Z</updated>
+  <id>https://johnwargo.com/</id>
+  <author>
+    <name>John M. Wargo</name>
+    <email>john@johnwargo.com</email>
+  </author>
+</feed>

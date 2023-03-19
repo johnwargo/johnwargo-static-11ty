@@ -1,0 +1,24 @@
+{
+  "name": "johnwargo",
+  "version": "1.0.0",
+  "description": "The static site generated version of [johnwargo.com](https://johnwargo.com), implemented using [Eleventy](https://www.11ty.dev/).",
+  "author": "John M. Wargo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnwargo/random-errors-11ty"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "eleventy --serve",
+    "build": "gen-build-info && eleventy",
+    "pbuild": "npm version patch && gen-build-info src/_data && eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
+    "markdown-it-attrs": "^4.1.6"
+  },
+  "keywords": []  
+}
