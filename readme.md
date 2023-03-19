@@ -22,3 +22,6 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [ ] Newsletter sign up
 * [ ] Automatically tweet and mastodon new posts?
 * [ ] Discussions
+
+
+![Home Page](images/image-01.png)
