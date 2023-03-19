@@ -11,7 +11,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "eleventy --serve",
-    "build": "gen-build-info && eleventy",
+    "build": "gen-build-info src && eleventy",
     "pbuild": "npm version patch && gen-build-info src/_data && eleventy"
   },
   "devDependencies": {

@@ -70,6 +70,11 @@ module.exports = eleventyConfig => {
 		return JSON.stringify(variable);
 	});
 
+	const english = new Intl.DateTimeFormat("en");
+	eleventyConfig.addFilter("niceDate", function (d) {
+		return english.format(d);
+	});
+
 	eleventyConfig.addPassthroughCopy("src/_data/*");
 	eleventyConfig.addPassthroughCopy("src/favicon/*");
 	eleventyConfig.addPassthroughCopy("src/assets/css/*");
