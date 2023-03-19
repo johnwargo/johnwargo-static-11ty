@@ -75,29 +75,29 @@ module.exports = eleventyConfig => {
 		return english.format(d);
 	});
 
-	eleventyConfig.addPassthroughCopy("src/_data/*");
-	eleventyConfig.addPassthroughCopy("src/favicon/*");
-	eleventyConfig.addPassthroughCopy("src/assets/css/*");
-	eleventyConfig.addPassthroughCopy("src/assets/js/*");
-	eleventyConfig.addPassthroughCopy("src/assets/sass/*");
-	eleventyConfig.addPassthroughCopy("src/assets/webfonts/*");
+	// eleventyConfig.addPassthroughCopy("src/_data/*");
+	// eleventyConfig.addPassthroughCopy("src/favicon/*");
+	// eleventyConfig.addPassthroughCopy("src/assets/css/*");
+	// eleventyConfig.addPassthroughCopy("src/assets/js/*");
+	// eleventyConfig.addPassthroughCopy("src/assets/sass/*");
+	// eleventyConfig.addPassthroughCopy("src/assets/webfonts/*");
 	// Images folders, assumes cascading folders per year
-	eleventyConfig.addPassthroughCopy("src/images/*");	
-	eleventyConfig.addPassthroughCopy("src/images/2009/*");	
-	eleventyConfig.addPassthroughCopy("src/images/2010/*");	
-	eleventyConfig.addPassthroughCopy("src/images/2011/*");	
-	eleventyConfig.addPassthroughCopy("src/images/2012/*");	
-	eleventyConfig.addPassthroughCopy("src/images/2013/*");	
-	eleventyConfig.addPassthroughCopy("src/images/2014/*");	
-	eleventyConfig.addPassthroughCopy("src/images/2015/*");	
-	eleventyConfig.addPassthroughCopy("src/images/2016/*");	
-	eleventyConfig.addPassthroughCopy("src/images/2017/*");	
-	eleventyConfig.addPassthroughCopy("src/images/2018/*");	
-	eleventyConfig.addPassthroughCopy("src/images/2019/*");	
-	eleventyConfig.addPassthroughCopy("src/images/2020/*");	
-	eleventyConfig.addPassthroughCopy("src/images/2021/*");	
-	eleventyConfig.addPassthroughCopy("src/images/2022/*");	
-	eleventyConfig.addPassthroughCopy("src/images/2023/*");	
+	// eleventyConfig.addPassthroughCopy("src/images/*");	
+	// eleventyConfig.addPassthroughCopy("src/images/2009/*");	
+	// eleventyConfig.addPassthroughCopy("src/images/2010/*");	
+	// eleventyConfig.addPassthroughCopy("src/images/2011/*");	
+	// eleventyConfig.addPassthroughCopy("src/images/2012/*");	
+	// eleventyConfig.addPassthroughCopy("src/images/2013/*");	
+	// eleventyConfig.addPassthroughCopy("src/images/2014/*");	
+	// eleventyConfig.addPassthroughCopy("src/images/2015/*");	
+	// eleventyConfig.addPassthroughCopy("src/images/2016/*");	
+	// eleventyConfig.addPassthroughCopy("src/images/2017/*");	
+	// eleventyConfig.addPassthroughCopy("src/images/2018/*");	
+	// eleventyConfig.addPassthroughCopy("src/images/2019/*");	
+	// eleventyConfig.addPassthroughCopy("src/images/2020/*");	
+	// eleventyConfig.addPassthroughCopy("src/images/2021/*");	
+	// eleventyConfig.addPassthroughCopy("src/images/2022/*");	
+	// eleventyConfig.addPassthroughCopy("src/images/2023/*");	
 
 	return {
 		dir: {
