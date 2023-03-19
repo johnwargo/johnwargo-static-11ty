@@ -18,7 +18,8 @@
     "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
+    "joomla-to-markdown": "^0.0.14",
     "markdown-it-attrs": "^4.1.6"
   },
-  "keywords": []  
+  "keywords": []
 }
