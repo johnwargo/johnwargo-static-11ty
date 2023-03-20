@@ -20,7 +20,7 @@ siteTitle: John M. Wargo
       }
     </style>
 
-    <title>{{ title }}</title>
+    <title>{{ siteTitle }}</title>
   </head>
   <body>
 
@@ -45,14 +45,15 @@ siteTitle: John M. Wargo
               <a {% if page.url == "/about/" %}class="nav-link active"aria-current="page"{% else %}class="nav-link"{% endif %}href="/about">About</a>
             </li>
             <li class="nav-item">
-              <a {% if page.url == "/archive/" %}class="nav-link active"aria-current="page"{% else %}class="nav-link"{% endif %}href="/archive">Archives</a>
+              <a {% if page.url == "/categories/" %}class="nav-link active"aria-current="page"{% else %}class="nav-link"{% endif %}href="/categories">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a {% if page.url == "/statistics/" %}class="nav-link active"aria-current="page"{% else %}class="nav-link"{% endif %}href="/statistics">Statistics</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-
-    <h1>{{ title }}</h1>
 
     {{ content }}
 

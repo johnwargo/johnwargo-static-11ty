@@ -1,0 +1,12 @@
+---
+title: Statistics
+layout: default
+---
+
+<header>
+  <h2>{{ title }}</h2>
+</header>
+
+<p>This site hosts {{ collections.posts.length | commaize }} posts.</p>
+<p>The first post published {{ collections.posts[0].date | date: "%B %-d, %Y" }}.</p>
+<p>The latest post published {{ collections.posts[collections.posts.length -1].date | date: "%B %-d, %Y" }}.</p>

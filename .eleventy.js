@@ -13,15 +13,15 @@ module.exports = eleventyConfig => {
 
 	// https://github.com/11ty/eleventy/issues/2301
 	const mdOptions = {
-    html: true,
-    breaks: true,
-    linkify: true,
-  };
-  const markdownLib = markdownIt(mdOptions)
-    .use(markdownItAttrs)
-    .disable("code");
+		html: true,
+		breaks: true,
+		linkify: true,
+	};
+	const markdownLib = markdownIt(mdOptions)
+		.use(markdownItAttrs)
+		.disable("code");
 
-  eleventyConfig.setLibrary("md", markdownLib);
+	eleventyConfig.setLibrary("md", markdownLib);
 
 	// From ray camden's blog, first paragraph as excerpt
 	eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
@@ -73,6 +73,10 @@ module.exports = eleventyConfig => {
 	const english = new Intl.DateTimeFormat("en");
 	eleventyConfig.addFilter("niceDate", function (d) {
 		return english.format(d);
+	});
+
+	eleventyConfig.addFilter("commaize", function (num) {
+		return num.toLocaleString("us-en");
 	});
 
 	// eleventyConfig.addPassthroughCopy("src/_data/*");
