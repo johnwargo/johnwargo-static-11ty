@@ -1,0 +1,57 @@
+[
+  {
+    "category": "BlackBerry",
+    "count": 71,
+    "description": ""
+  },
+  {
+    "category": "Content Management Systems",
+    "count": 15,
+    "description": ""
+  },
+  {
+    "category": "Guests",
+    "count": 1,
+    "description": ""
+  },
+  {
+    "category": "IBM Lotus Domino",
+    "count": 33,
+    "description": ""
+  },
+  {
+    "category": "Internet of Things (IoT)",
+    "count": 32,
+    "description": ""
+  },
+  {
+    "category": "Miscellaneous",
+    "count": 146,
+    "description": ""
+  },
+  {
+    "category": "Mobile",
+    "count": 35,
+    "description": ""
+  },
+  {
+    "category": "Mobile Development",
+    "count": 97,
+    "description": ""
+  },
+  {
+    "category": "Stupid Developer Tricks",
+    "count": 9,
+    "description": ""
+  },
+  {
+    "category": "Uncategorized",
+    "count": 1,
+    "description": "Articles with no category assigned"
+  },
+  {
+    "category": "Web Development",
+    "count": 5,
+    "description": ""
+  }
+]

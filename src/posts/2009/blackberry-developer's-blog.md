@@ -5,4 +5,4 @@ categories: [BlackBerry]
 tags: post
 ---
 
-RIM just launched the [BlackBerry Developer's Blog](http://blackberry.com/developers/blog "BlackBerry Developer's Blog"). I'm excited to see RIM writing developer oriented articles again - instead of stiff knowledge base articles, the blog should be written in a more conversational tone and will likely provide some interesting insights like RIM used to provide in the Developer Journal Articles (which no longer seem to be on RIM's web site).  I'm going to be reading this one every day to see what end up there.
+RIM just launched the [BlackBerry Developer's Blog](http://blackberry.com/developers/blog). I'm excited to see RIM writing developer oriented articles again - instead of stiff knowledge base articles, the blog should be written in a more conversational tone and will likely provide some interesting insights like RIM used to provide in the Developer Journal Articles (which no longer seem to be on RIM's web site).  I'm going to be reading this one every day to see what end up there.
