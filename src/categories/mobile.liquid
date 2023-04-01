@@ -4,10 +4,13 @@ pagination:
   data: collections.post
   size: 20
   alias: catposts
-category: ""
+  before: function(paginationData, fullData){ return paginationData.filter((item)
+    => item.categories.includes("Mobile"));}
+category: Mobile
 eleventyComputed:
   title: "Category: {{ category }}"
-permalink: "categories/{{ category }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
+permalink: categories/{{ category }}/{% if pagination.pageNumber != 0 %}page-{{
+  pagination.pageNumber }}/{% endif %}
 ---
 
 <header>
