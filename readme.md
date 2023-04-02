@@ -2,15 +2,16 @@
 
 The static site generated version of [johnwargo.com](https://johnwargo.com), implemented using [Eleventy](https://www.11ty.dev/).
 
-* [ ] Implement core 11ty project
-* [ ] Select template and implement (elemental, faction, )
-* [ ] Syntax highlights
-* [ ] Copy posts to project
-* [ ] Copy image files to project
+* [x] Implement core 11ty project
 * [ ] Publish site on Netlify
 * [ ] Use jmw-test.com domain
-* [ ] RSS feed and link in menu
 * [ ] Categories page with descriptions
+* [ ] Syntax highlights
+* [ ] Select template and implement (elemental, faction, )
+* [ ] Export latest Joomla files, clean them up
+* [ ] Copy posts to project
+* [ ] Copy image files to project
+* [ ] RSS feed and link in menu
 * [ ] Sitemap (all pages && posts)
 * [ ] Section - Publications (books, articles, etc. from johnwargobooks.com)
 * [ ] Section - Code projects (from johnwargo.dev)
@@ -18,7 +19,7 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [ ] Section - Sightings
 * [ ] Add Buy Me a Coffee
 * [ ] Algolia Search
-* [ ] Minification
+* [ ] Minification - https://learneleventyfromscratch.com/lesson/31.html#minifying-html-output
 * [ ] Newsletter sign up
 * [ ] Automatically tweet and mastodon new posts?
 * [ ] Discussions
