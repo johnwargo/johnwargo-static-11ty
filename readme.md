@@ -30,3 +30,5 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [ ] Discussions
 
 ![Home Page](images/image-01.png)
+
+https://www.favicon-generator.org/

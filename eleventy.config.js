@@ -87,13 +87,18 @@ module.exports = eleventyConfig => {
 		return num.toLocaleString("us-en");
 	});
 
-	// eleventyConfig.addPassthroughCopy("src/_data/*");
-	// eleventyConfig.addPassthroughCopy("src/favicon/*");
-	// eleventyConfig.addPassthroughCopy("src/assets/css/*");
-	// eleventyConfig.addPassthroughCopy("src/assets/js/*");
-	// eleventyConfig.addPassthroughCopy("src/assets/sass/*");
-	// eleventyConfig.addPassthroughCopy("src/assets/webfonts/*");
+	// Copy the favicon files to the root folder
+	eleventyConfig.addPassthroughCopy({ 'src/favicon/*': '/' });
+	// Copy the data files
+	eleventyConfig.addPassthroughCopy("src/_data/*");
+	// https://www.lenesaile.com/en/blog/organizing-the-eleventy-config-file/
+	["src/assets/css/", "src/assets/js/", "src/assets/sass/", "src/assets/webfonts/"].forEach((path) => {
+		eleventyConfig.addPassthroughCopy(path);
+	});
+	
+	
 	// Images folders, assumes cascading folders per year
+	// TODO: Do this image file copy in a loop of years
 	// eleventyConfig.addPassthroughCopy("src/images/*");	
 	// eleventyConfig.addPassthroughCopy("src/images/2009/*");	
 	// eleventyConfig.addPassthroughCopy("src/images/2010/*");	
@@ -111,12 +116,12 @@ module.exports = eleventyConfig => {
 	// eleventyConfig.addPassthroughCopy("src/images/2022/*");	
 	// eleventyConfig.addPassthroughCopy("src/images/2023/*");	
 
-	
+
 	// Only minify HTML if we are in production because it slows builds
 	if (isProduction) {
 		eleventyConfig.addTransform('htmlmin', htmlMinTransform);
 	}
-	
+
 	return {
 		dir: {
 			input: 'src',
