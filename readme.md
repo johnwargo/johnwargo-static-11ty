@@ -24,7 +24,7 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [ ] Section - Sightings
 * [ ] Add Buy Me a Coffee
 * [ ] Algolia Search
-
+* [ ] Get `gen-build-info` working on Netlify
 * [ ] Newsletter sign up
 * [ ] Automatically tweet and mastodon new posts?
 * [ ] Discussions
