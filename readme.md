@@ -23,6 +23,7 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [ ] Section - Code projects (from johnwargo.dev)
 * [ ] Section - Related Sites (all of the other sites I maintain)
 * [ ] Section - Sightings
+* [ ] Google Analytics
 * [ ] Add Buy Me a Coffee
 * [ ] Algolia Search
 * [ ] Newsletter sign up
