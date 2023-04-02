@@ -2,7 +2,7 @@
 
 The static site generated version of [johnwargo.com](https://johnwargo.com), implemented using [Eleventy](https://www.11ty.dev/).
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/aa267b37-8e36-458a-9ccd-18f6a6e62e8e/deploy-status)](https://app.netlify.com/sites/johnwargo/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9c776198-312a-450e-a329-fbb33e7afa79/deploy-status)](https://app.netlify.com/sites/johnwargo/deploys)
 
 ## Tasks
 
