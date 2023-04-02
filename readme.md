@@ -3,6 +3,7 @@
 The static site generated version of [johnwargo.com](https://johnwargo.com), implemented using [Eleventy](https://www.11ty.dev/).
 
 * [x] Implement core 11ty project
+* [x] Minification - https://learneleventyfromscratch.com/lesson/31.html#minifying-html-output
 * [ ] Publish site on Netlify
 * [ ] Use jmw-test.com domain
 * [ ] Categories page with descriptions
@@ -19,7 +20,7 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [ ] Section - Sightings
 * [ ] Add Buy Me a Coffee
 * [ ] Algolia Search
-* [ ] Minification - https://learneleventyfromscratch.com/lesson/31.html#minifying-html-output
+
 * [ ] Newsletter sign up
 * [ ] Automatically tweet and mastodon new posts?
 * [ ] Discussions
