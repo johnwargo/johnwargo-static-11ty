@@ -5,6 +5,14 @@ const markdownItAttrs = require("markdown-it-attrs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
+// Transforms
+// https://learneleventyfromscratch.com/lesson/31.html#minifying-html-output
+const htmlMinTransform = require('./src/transforms/html-min.js');
+
+// Create a helpful production flag
+const isProduction = process.env.NODE_ENV === 'production';
+
+
 module.exports = eleventyConfig => {
 
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
@@ -103,6 +111,12 @@ module.exports = eleventyConfig => {
 	// eleventyConfig.addPassthroughCopy("src/images/2022/*");	
 	// eleventyConfig.addPassthroughCopy("src/images/2023/*");	
 
+	
+	// Only minify HTML if we are in production because it slows builds
+	if (isProduction) {
+		eleventyConfig.addTransform('htmlmin', htmlMinTransform);
+	}
+	
 	return {
 		dir: {
 			input: 'src',
