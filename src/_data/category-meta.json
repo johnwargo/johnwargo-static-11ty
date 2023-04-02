@@ -12,12 +12,12 @@
   {
     "category": "Guests",
     "count": 1,
-    "description": ""
+    "description": "Articles written by Guest Authors."
   },
   {
     "category": "IBM Lotus Domino",
     "count": 33,
-    "description": ""
+    "description": "Articles related to IBM Lotus Notes and/or Domino; mostly around development topics."
   },
   {
     "category": "Internet of Things (IoT)",
