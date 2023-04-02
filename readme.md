@@ -4,6 +4,8 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/aa267b37-8e36-458a-9ccd-18f6a6e62e8e/deploy-status)](https://app.netlify.com/sites/johnwargo/deploys)
 
+## Tasks
+
 * [x] Implement core 11ty project
 * [x] Minification - https://learneleventyfromscratch.com/lesson/31.html#minifying-html-output
 * [x] Publish site on Netlify
