@@ -9,7 +9,8 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Implement core 11ty project
 * [x] Minification - https://learneleventyfromscratch.com/lesson/31.html#minifying-html-output
 * [x] Publish site on Netlify
-* [ ] Use jmw-test.com domain
+* [x] Use jmw-test.com domain
+* [ ] Deploy Netlify site cert
 * [ ] Categories page with descriptions
 * [ ] Syntax highlights
 * [ ] Select template and implement (elemental, faction, )
