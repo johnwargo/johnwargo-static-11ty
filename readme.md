@@ -26,6 +26,7 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [ ] Google Analytics
 * [ ] Add Buy Me a Coffee
 * [ ] Algolia Search
+* [ ] Anchor Links? https://rhianvanesch.com/posts/2021/02/09/adding-heading-anchor-links-to-an-eleventy-site/
 * [ ] Newsletter sign up
 * [ ] Automatically tweet and mastodon new posts?
 * [ ] Discussions
