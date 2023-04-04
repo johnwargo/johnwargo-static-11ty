@@ -13,11 +13,13 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Get `gen-build-info` working on Netlify
 * [x] Categories page with descriptions
 * [x] Syntax highlights
+* [ ] Add image to about page
 * [ ] Select template and implement (elemental, faction)
 * [ ] Footer
-* [ ] Export latest Joomla files and clean them up ()
+* [ ] Export latest Joomla articles
 * [ ] Copy post files to project
 * [ ] Copy image files to project
+* [ ] Clean up exported articles
 * [ ] Next/Previous buttons on Post page
 * [ ] RSS feed and link in menu
 * [ ] Sitemap (all pages && posts)
@@ -28,6 +30,7 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [ ] Google Analytics
 * [ ] Add Buy Me a Coffee
 * [ ] Algolia Search
+* [ ] Make professional You tube account and move stuff
 * [ ] Anchor Links? https://rhianvanesch.com/posts/2021/02/09/adding-heading-anchor-links-to-an-eleventy-site/
 * [ ] Newsletter sign up
 * [ ] Automatically tweet and mastodon new posts?
