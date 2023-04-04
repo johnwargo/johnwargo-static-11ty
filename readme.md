@@ -13,7 +13,7 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Get `gen-build-info` working on Netlify
 * [x] Categories page with descriptions
 * [x] Syntax highlights
-* [ ] Add image to about page
+* [x] Add image to about page
 * [ ] Select template and implement (elemental, faction)
 * [ ] Footer
 * [ ] Export latest Joomla articles

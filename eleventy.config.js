@@ -95,27 +95,14 @@ module.exports = eleventyConfig => {
 	["src/assets/css/", "src/assets/js/", "src/assets/sass/", "src/assets/webfonts/"].forEach((path) => {
 		eleventyConfig.addPassthroughCopy(path);
 	});
-	
-	
-	// Images folders, assumes cascading folders per year
-	// TODO: Do this image file copy in a loop of years
-	eleventyConfig.addPassthroughCopy("src/images/*");	
-	// eleventyConfig.addPassthroughCopy("src/images/2009/*");	
-	// eleventyConfig.addPassthroughCopy("src/images/2010/*");	
-	// eleventyConfig.addPassthroughCopy("src/images/2011/*");	
-	// eleventyConfig.addPassthroughCopy("src/images/2012/*");	
-	// eleventyConfig.addPassthroughCopy("src/images/2013/*");	
-	// eleventyConfig.addPassthroughCopy("src/images/2014/*");	
-	// eleventyConfig.addPassthroughCopy("src/images/2015/*");	
-	// eleventyConfig.addPassthroughCopy("src/images/2016/*");	
-	// eleventyConfig.addPassthroughCopy("src/images/2017/*");	
-	// eleventyConfig.addPassthroughCopy("src/images/2018/*");	
-	// eleventyConfig.addPassthroughCopy("src/images/2019/*");	
-	// eleventyConfig.addPassthroughCopy("src/images/2020/*");	
-	// eleventyConfig.addPassthroughCopy("src/images/2021/*");	
-	// eleventyConfig.addPassthroughCopy("src/images/2022/*");	
-	// eleventyConfig.addPassthroughCopy("src/images/2023/*");	
 
+
+	// Images folders, assumes cascading folders per year
+	eleventyConfig.addPassthroughCopy("src/images/*");
+	let thisYear = new Date().getFullYear();
+	for (let i = 2009; i <= thisYear; i++) {
+		eleventyConfig.addPassthroughCopy(`src/images/${i}/*`);
+	}
 
 	// Only minify HTML if we are in production because it slows builds
 	if (isProduction) {
