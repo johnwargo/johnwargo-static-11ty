@@ -3,6 +3,8 @@ title: About
 layout: default
 ---
 
+![Avatar](/images/jmw-avatar-200.png)
+
 <header>
   <h2>{{ title }}</h2>
 </header>
