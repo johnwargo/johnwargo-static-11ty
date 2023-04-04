@@ -34,7 +34,12 @@ module.exports = eleventyConfig => {
 	// From ray camden's blog, first paragraph as excerpt
 	eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
 	function extractExcerpt(post) {
+		// No page content?
 		if (!post.templateContent) return '';
+		if (post.templateContent.indexOf('<h1>') == 0) return '';
+		if (post.templateContent.indexOf('<h2>') == 0) return '';
+		// page starts with an image
+		if (post.templateContent.indexOf('<p><img') == 0) return '';
 		if (post.templateContent.indexOf('</p>') > 0) {
 			let end = post.templateContent.indexOf('</p>');
 			return post.templateContent.substr(0, end + 4);
