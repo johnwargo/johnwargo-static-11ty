@@ -5,7 +5,7 @@ pagination:
   size: 20
   alias: catposts
   before: function(paginationData, fullData){ return paginationData.filter((item)
-    => item.categories.includes("Mobile"));}
+    => item.data.categories.includes("Mobile"));}
 category: Mobile
 eleventyComputed:
   title: "Category: {{ category }}"
@@ -22,6 +22,13 @@ permalink: categories/{{ category }}/{% if pagination.pageNumber != 0 %}page-{{
 {% for post in catposts reversed %}
   <div>
     <a href="{{post.url}}">{{ post.data.title }}</a>, posted {{ post.date | niceDate }}
+    <p>Categories:&nbsp;
+      {% for cat in post.data.categories %}
+        {{ cat }}
+        {% unless forloop.last %},&nbsp;
+        {% endunless %}
+      {% endfor %}
+    </p>
     {% excerpt post %}
   </div>
 {% endfor %}
