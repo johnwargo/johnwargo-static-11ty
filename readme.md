@@ -11,12 +11,14 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Publish site on Netlify
 * [x] Use jmw-test.com domain
 * [x] Get `gen-build-info` working on Netlify
-* [ ] Categories page with descriptions
+* [x] Categories page with descriptions
 * [ ] Syntax highlights
 * [ ] Select template and implement (elemental, faction)
+* [ ] Footer
 * [ ] Export latest Joomla files and clean them up
 * [ ] Copy post files to project
 * [ ] Copy image files to project
+* [ ] Next/Previous buttons on Post page
 * [ ] RSS feed and link in menu
 * [ ] Sitemap (all pages && posts)
 * [ ] Section - Publications (books, articles, etc. from johnwargobooks.com)

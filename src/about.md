@@ -11,7 +11,7 @@ I'm John M. Wargo; I'm a professional software developer, writer, presenter, fat
 
 I'm a geek, not a nerd (there **is** a difference). I'm currently a Principal Product Manager at OutSystems.
 
-I registered this domain and built this site as a way for me to post information about different and interesting things I encountered in the technical world. I'm pretty opinionated, so when I see something silly in the world, especially in mobile applications, I write about it. I
+I registered this domain and built this site as a way for me to post information about different and interesting things I encountered in the technical world. I'm pretty opinionated, so when I see something silly in the world, especially in mobile applications, I write about it.
 
 Any opinion or comment I post on this site is my personal opinion only. Nothing I say here should be considered a statement made by my employer. It's just me saying what's on my mind at the time.
 
