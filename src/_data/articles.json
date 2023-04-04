@@ -1,29 +1,4 @@
-// TODO: Add URL to this list?
-export const publicationList = [
-    "Advisor Expert on Lotus Notes & Domino R5 Magazine",
-    "Dr. Dobb's Journal",
-    "e-Pro Magazine",
-    "HackSpace Magazine",
-    "InformIT",
-    "Make Magazine",
-    "Medium",
-    "The MagPi Magazine",
-    "The View Magazine",
-    "PhoneGap Blog"
-];
-
-// An empty Article
-// ,{
-//     "title": "",
-//     "url": "",
-//     "format": 1,
-//     "description": "",
-//     "publication": "",
-//     "pubMonth": ,
-//     "pubYear": 2021
-// }
-
-export const articleList = [
+[
     {
         "title": "Make the Switch",
         "url": "https://makezine.com/go/electronic-relays",
@@ -347,7 +322,8 @@ export const articleList = [
         "publication": "Advisor Expert on Lotus Notes & Domino R5 Magazine",
         "pubMonth": 5,
         "pubYear": 2002
-    }, {
+    },
+    {
         "title": "Which to Use: Cordova or PhoneGap?",
         "url": "https://www.informit.com/articles/article.aspx?p=2478076",
         "format": 1,
@@ -355,7 +331,8 @@ export const articleList = [
         "publication": "InformIT",
         "pubMonth": 2,
         "pubYear": 2016
-    }, {
+    },
+    {
         "title": "A Better Way to Exercise Cordova Plugins",
         "url": "https://cordova.apache.org/howto/2018/02/02/cordova-simulate.html",
         "format": 1,
@@ -363,7 +340,8 @@ export const articleList = [
         "publication": "PhoneGap Blog",
         "pubMonth": 2,
         "pubYear": 2018
-    }, {
+    },
+    {
         "title": "It’s Almost Impossible to Get Real Developer Support Anymore",
         "url": "https://johnwargo.medium.com/it-is-almost-impossible-to-get-developer-support-anymore-5c2a23e3feaa",
         "format": 1,
@@ -371,7 +349,8 @@ export const articleList = [
         "publication": "Medium",
         "pubMonth": 3,
         "pubYear": 2021
-    }, {
+    },
+    {
         "title": "Submitting Questions on Stack Overflow as a Last Resort",
         "url": "https://johnwargo.medium.com/submitting-questions-on-stack-overflow-as-last-resort-8219a710f744",
         "format": 1,
@@ -379,7 +358,8 @@ export const articleList = [
         "publication": "Medium",
         "pubMonth": 4,
         "pubYear": 2021
-    }, {
+    },
+    {
         "title": "Industry Analysts Must Get Their Facts Right",
         "url": "https://johnwargo.medium.com/industry-analysts-must-get-their-facts-right-4e1c67bfc35a",
         "format": 1,
@@ -387,7 +367,8 @@ export const articleList = [
         "publication": "Medium",
         "pubMonth": 8,
         "pubYear": 2021
-    }, {
+    },
+    {
         "title": "But I Don’t Know Dart",
         "url": "https://johnwargo.medium.com/but-i-dont-know-dart-c1b4e2380191",
         "format": 1,
@@ -396,4 +377,4 @@ export const articleList = [
         "pubMonth": 8,
         "pubYear": 2021
     }
-];
+]

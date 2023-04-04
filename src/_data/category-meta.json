@@ -2,7 +2,7 @@
   {
     "category": "BlackBerry",
     "count": 71,
-    "description": "Articles about the BlackBerry platform, BlackBerry development, and my time working at BlackBerry (Research in Motion)"
+    "description": "Articles about the BlackBerry platform, BlackBerry development, and my time working at BlackBerry (Research in Motion)."
   },
   {
     "category": "Content Management Systems",
@@ -22,36 +22,36 @@
   {
     "category": "Internet of Things (IoT)",
     "count": 32,
-    "description": ""
+    "description": "Posts related to Microcontrollers, single board computers, and other stuff."
   },
   {
     "category": "Miscellaneous",
     "count": 146,
-    "description": ""
+    "description": "Posts that didn't fit in any other categories."
   },
   {
     "category": "Mobile",
     "count": 35,
-    "description": ""
+    "description": "Posts related to mobile phones and mobility in general."
   },
   {
     "category": "Mobile Development",
     "count": 97,
-    "description": ""
+    "description": "Posts related to mobile app development."
   },
   {
     "category": "Stupid Developer Tricks",
     "count": 9,
-    "description": ""
+    "description": "Posts calling out the results of stupid things software developers do."
   },
   {
     "category": "Uncategorized",
     "count": 1,
-    "description": "Articles with no category assigned"
+    "description": "Posts with no category assigned."
   },
   {
     "category": "Web Development",
     "count": 5,
-    "description": ""
+    "description": "Posts related to web development topics, development tools, strategies, etc."
   }
 ]
