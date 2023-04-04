@@ -4,7 +4,7 @@ pagination:
   data: collections.post
   size: 20
   alias: catposts
-category: ""
+category: 
 eleventyComputed:
   title: "Category: {{ category }}"
 permalink: "categories/{{ category }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
