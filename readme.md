@@ -12,7 +12,7 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Use jmw-test.com domain
 * [x] Get `gen-build-info` working on Netlify
 * [x] Categories page with descriptions
-* [ ] Syntax highlights
+* [x] Syntax highlights
 * [ ] Select template and implement (elemental, faction)
 * [ ] Footer
 * [ ] Export latest Joomla files and clean them up
