@@ -1,16 +1,21 @@
----
-layout: default
-pagination:
-  data: collections.post
-  size: 20
-  alias: catposts
-  before: function(paginationData, fullData){ return paginationData.filter((item)
-    => item.data.categories.includes("BlackBerry"));}
-category: BlackBerry
-eleventyComputed:
-  title: "Category: {{ category }}"
-permalink: categories/{{ category }}/{% if pagination.pageNumber != 0 %}page-{{
-  pagination.pageNumber }}/{% endif %}
+---js
+{
+  "layout": "default",
+  "pagination": {
+    "data": "collections.post",
+    "size": 20,
+    "alias": "catposts",
+    "before": function(paginationData, fullData){ 
+      console.dir(paginationData);
+      return paginationData.filter((item) => item.data.categories.includes('BlackBerry'));
+    }
+  },
+  "category": "BlackBerry",
+  "eleventyComputed": {
+    "title": "Category: {{ category }}"
+  },
+  "permalink": "categories/{{ category }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
+}
 ---
 
 <header>
