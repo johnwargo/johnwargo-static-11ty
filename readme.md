@@ -15,7 +15,7 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Syntax highlights
 * [ ] Select template and implement (elemental, faction)
 * [ ] Footer
-* [ ] Export latest Joomla files and clean them up
+* [ ] Export latest Joomla files and clean them up ()
 * [ ] Copy post files to project
 * [ ] Copy image files to project
 * [ ] Next/Previous buttons on Post page
