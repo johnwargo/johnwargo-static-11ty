@@ -3,11 +3,13 @@ title: Site Statistics
 layout: default
 ---
 
+{% assign lastIndex = collections.posts.length | minus: 1 %}
+
 <header>
   <h2>{{ title }}</h2>
 </header>
 
 <p>This site hosts {{ collections.posts.length | commaize }} posts.</p>
-<p>The first post published on {{ collections.posts[0].date | date: "%B %-d, %Y" }}.</p>
-<p>The last post published on {{ lastPostDate | date: "%B %-d, %Y" }} - Ugh,why doesn't this work.</p>
-<p>The site deployed {{ buildinfo.buildCounter | commaize }} times</p>
+<p>The first post published {{ collections.posts[0].date | date: "%B %-d, %Y" }}.</p>
+<p>The most recent post published {{ collections.posts[lastIndex].date | date: "%B %-d, %Y" }}.</p>
+<p>The site deployed {{ buildinfo.buildCounter | commaize }} times.</p>
