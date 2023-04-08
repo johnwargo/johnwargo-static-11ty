@@ -9,5 +9,5 @@ layout: default
 
 <p>This site hosts {{ collections.posts.length | commaize }} posts.</p>
 <p>The first post published on {{ collections.posts[0].date | date: "%B %-d, %Y" }}.</p>
-<p>The last post published on {{ collections.posts[0].date | date: "%B %-d, %Y" }}.</p>
+<p>The last post published on {{ lastPostDate | date: "%B %-d, %Y" }} - Ugh,why doesn't this work.</p>
 <p>The site deployed {{ buildinfo.buildCounter | commaize }} times</p>
