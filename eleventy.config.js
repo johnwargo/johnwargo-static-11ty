@@ -57,16 +57,16 @@ module.exports = eleventyConfig => {
 		return Array.from(categories);
 	});
 
-	eleventyConfig.addFilter("filterByCategory", function (posts, cat) {
-		// case matters, so let's lowercase the desired category, cat	and we will 
-		// lowercase our posts categories as well
-		cat = cat.toLowerCase();
-		let result = posts.filter(p => {
-			let cats = p.data.categories.map(s => s.toLowerCase());
-			return cats.includes(cat);
-		});
-		return result;
-	});
+	// eleventyConfig.addFilter("filterByCategory", function (posts, cat) {
+	// 	// case matters, so let's lowercase the desired category, cat	and we will 
+	// 	// lowercase our posts categories as well
+	// 	cat = cat.toLowerCase();
+	// 	let result = posts.filter(p => {
+	// 		let cats = p.data.categories.map(s => s.toLowerCase());
+	// 		return cats.includes(cat);
+	// 	});
+	// 	return result;
+	// });
 
 	// https://www.raymondcamden.com/2020/06/24/adding-algolia-search-to-eleventy-and-netlify
 	// Remove <code>.*</code>, remove HTML, then with plain text, limit to 5k chars
