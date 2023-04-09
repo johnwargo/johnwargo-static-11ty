@@ -15,7 +15,7 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Syntax highlights
 * [x] Add image to about page
 * [x] Fix category links for categories with more than one word
-* [ ] Select template and implement (elemental, faction)
+* [ ] Select template and implement (Editorial, **Faction**, Future Imperfect)
 * [ ] Footer
 * [ ] Export latest Joomla! articles
 * [ ] Copy post files to project
