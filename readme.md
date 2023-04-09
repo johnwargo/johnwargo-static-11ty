@@ -15,8 +15,8 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Syntax highlights
 * [x] Add image to about page
 * [x] Fix category links for categories with more than one word
-* [ ] Select template and implement (Editorial, **Faction**, Future Imperfect)
-* [ ] Footer
+* [x] Select template and implement (Editorial, **Faction**, Future Imperfect)
+* [x] Footer
 * [ ] Export latest Joomla! articles
 * [ ] Copy post files to project
 * [ ] Copy image files to project
@@ -28,7 +28,7 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [ ] Section - Code projects (from johnwargo.dev)
 * [ ] Section - Related Sites (all of the other sites I maintain)
 * [ ] Section - Sightings
-* [ ] Google Analytics
+* [x] Google Analytics
 * [ ] Add Buy Me a Coffee
 * [ ] Algolia Search
 * [ ] Make professional You tube account and move stuff
