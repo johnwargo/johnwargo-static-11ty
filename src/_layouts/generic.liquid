@@ -8,21 +8,35 @@ Faction by Pixelarity
 pixelarity.com | hello@pixelarity.com
 License: pixelarity.com/license
 --><html>
+
   <head>
-    <title>{{ siteTitle }}: Home</title>
+    <title>{{ siteTitle }}: {{ title }}</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="{{ "/" | htmlBaseUrl }}assets/css/main.css" />
-    {% include 'icons.html' %}
     {% include 'google-analytics.html' %}
   </head>
+
   <body class="is-preload">
     {% include 'header.html' %}
     <div class="wrapper">
-      {{ content }}
-      {% include 'sidebar.html' %}
+      <section class="main">
+        <section>
+          <header>
+            <h1>{{ title }}
+            </h1>
+          </header>
+          {{ content }}
+        </section>
+      </section>
     </div>
-    {% include 'footer.html' %}
+
+    <footer id="footer">
+      {% include 'copyright.html' %}
+    </footer>
+
     {% include 'page-scripts.html' %}
+
   </body>
+
 </html>

@@ -9,7 +9,7 @@ layout: generic
 
 {% for catData in categories %}
   <p>
-    <a href="{{ "/" | htmlBaseUrl }}category/{{ catData.category | slugify }}">{{ catData.category | capitalize }}</a>
+    <a href="{{ "/" | htmlBaseUrl }}category/{{ catData.category | slugify }}">{{ catData.category }}</a>
     ({{ catData.count }} posts)
     {% if catData.description %}
       <br/>
