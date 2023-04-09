@@ -1,13 +1,18 @@
----
-layout: generic
-pagination:
-  data: collections.post
-  size: 20
-  alias: catposts
-category: 
-eleventyComputed:
-  title: "Category: {{ category }}"
-permalink: "category/{{ category | slugify }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
+---js
+{
+  "layout": "generic",
+  "pagination": {
+    "data": "collections.post",
+    "size": 20,
+    "alias": "catposts",
+    "before": function(paginationData, fullData){ return paginationData.filter((item) => item.data.categories.includes('Miscellaneous'));}
+  },
+  "category": "Miscellaneous",
+  "eleventyComputed": {
+    "title": "Category: {{ category }}"
+  },
+  "permalink": "category/{{ category | slugify }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
+}
 ---
 
 <p>All posts for a single category, in reverse chronological order.</p>
