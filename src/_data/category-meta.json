@@ -45,11 +45,6 @@
     "description": "Posts calling out the results of stupid things software developers do."
   },
   {
-    "category": "Uncategorized",
-    "count": 1,
-    "description": "Posts with no category assigned."
-  },
-  {
     "category": "Web Development",
     "count": 5,
     "description": "Posts related to web development topics, development tools, strategies, etc."
