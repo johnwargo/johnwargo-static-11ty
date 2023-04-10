@@ -14,14 +14,16 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Categories page with descriptions
 * [x] Syntax highlights
 * [x] Add image to about page
+* [x] Google Analytics
 * [x] Fix category links for categories with more than one word
 * [x] Select template and implement (Editorial, **Faction**, Future Imperfect)
 * [x] Footer
-* [ ] Add Description to post frontmatter and update post listings to use it
+* [ ] Update article lists to use description where its available
 * [ ] Export latest Joomla! articles
 * [ ] Copy post files to project
 * [ ] Copy image files to project
-* [ ] Clean up exported articles
+* [ ] Add Description to post frontmatter and update post listings to use it
+* [ ] Clean up exported articles (images, external links, hhtp// => https://)
 * [ ] Next/Previous buttons on Post page
 * [ ] RSS feed and link in menu
 * [ ] Sitemap (all pages && posts)
@@ -29,7 +31,6 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [ ] Section - Code projects (from johnwargo.dev)
 * [ ] Section - Related Sites (all of the other sites I maintain)
 * [ ] Section - Sightings
-* [x] Google Analytics
 * [ ] Add Buy Me a Coffee
 * [ ] Algolia Search
 * [ ] Make professional You tube account and move stuff
