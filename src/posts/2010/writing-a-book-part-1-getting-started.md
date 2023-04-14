@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-![](/images/stories/book.jpg)After I completed [BlackBerry Development Fundamentals](https://www.bbdevfundamentals.com), I thought I’d write some articles that outlined some of the process I followed to complete the manuscript. What follows is the first part of a series of articles that document the tools and procedures I used to help make the creation of the manuscript as painless as possible. In this installment, I’ll lay out the issues I had to address and in subsequent articles describe each of the solutions I used to solve them.
+![](/images/book.jpg)After I completed [BlackBerry Development Fundamentals](https://www.bbdevfundamentals.com), I thought I’d write some articles that outlined some of the process I followed to complete the manuscript. What follows is the first part of a series of articles that document the tools and procedures I used to help make the creation of the manuscript as painless as possible. In this installment, I’ll lay out the issues I had to address and in subsequent articles describe each of the solutions I used to solve them.
 
 Writing a large word document is not that hard, but dealing with a complete manuscript (and associated image files) was rather challenging. As I worked, I quickly noticed that I was going to have a problem keeping my chapter files in good shape. I knew I’d be working on the manuscript from both my desktop PC when working at home and my laptop while on the road. The issue then was how do I keep all of the files accurately synchronized between the two systems and how do I maintain the integrity of the files as I worked on them.
 

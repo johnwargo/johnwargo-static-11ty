@@ -9,7 +9,7 @@ tags: post
 
 I’ve been doing a lot of IoT projects lately; both for work and for personal growth (fun). I want to be a bit more structured in how I secure microcontroller boards, so I’ve been picking up different packs of spacers, standoffs, screws and so on. I was working on a project where I needed M2 standoffs, so I hopped on Amazon to see if they had something I could use. I found a promising collection of standoffs, screws and nuts in [https://www.amazon.com/gp/product/B013ZWM1F6](https://www.amazon.com/gp/product/B013ZWM1F6). I ordered it and it quickly arrived at my door (who doesn’t love Amazon Prime?).
 
-![](/images/stories/2017/amazon-review-1.png)
+![](/images/2017/amazon-review-1.png)
 
 Figure 1
 
@@ -23,7 +23,7 @@ However, whoever created this kit didn’t take into account how it would be use
 
 I fired up my trusty browser and submitted this as a product review thinking it would be quickly published. Nope, not so much. A few minutes later, I received the following email:
 
-![](/images/stories/2017/amazon-review-2.png)
+![](/images/2017/amazon-review-2.png)
 
 Figure 2
 

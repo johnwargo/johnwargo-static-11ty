@@ -38,19 +38,19 @@ Assembling the Hardware
 
 Figure 1 shows the parts I used for this project (minus the power supply). The Unicorn HAT on the left is facing down so you can easily see the female headers on the back of the board that match the male Pi’s GPIO headers.
 
-![](/images/stories/2016/pi-reminder-01_1.jpg) 
+![](/images/2016/pi-reminder-01_1.jpg) 
 
 Figure 1 – Project Parts Ready For Assembly
 
 Flip the Unicorn HAT over and align the GPIO Pins with the female header socket on the HAT as shown in Figure 2
 
-![](/images/stories/2016/pi-reminder-02_1.jpg) 
+![](/images/2016/pi-reminder-02_1.jpg) 
 
 Figure 2 – Unicorn HAT Connected to the Raspberry Pi
 
 With the HAT properly positioned, push down gently to seat the board securely on the Raspberry Pi as shown in Figure 3.
 
-![](/images/stories/2016/pi-reminder-03_1.jpg) 
+![](/images/2016/pi-reminder-03_1.jpg) 
 
 Figure 3 – Completed HAT installation
 
@@ -58,13 +58,13 @@ Right now, the HAT is floating free over the Pi, connected only through the head
 
 Next, install the Pi and HAT in the case as shown in Figure 4, then attach the cover (not shown).
 
-![](/images/stories/2016/pi-reminder-04_1.jpg) 
+![](/images/2016/pi-reminder-04_1.jpg) 
 
 Figure 4 – Installing the Project Components in the Case
 
 At this point, the hardware is all installed and ready to go. When finished, the Pi will only need network and power connections, but for the remainder of the setup process, you’re going to need a display (monitor), keyboard, and mouse. Connect those components to the Pi as shown in Figure 5. Don’t connect power, you have some more work to do before you can do that.
 
-![](/images/stories/2016/pi-reminder-05_1.png) 
+![](/images/2016/pi-reminder-05_1.png) 
 
 Figure 5 – Hardware Installation Completed
 
@@ -75,7 +75,7 @@ The Raspberry PI needs an OS to boot, so grab Micro SD card then follow the inst
 
 At this point, you’re ready to power up the Pi. Turn on your monitor then plug the power supply into a power outlet and the Micro USB port on the Pi (upper right corner of the Pi shown in Figure 5). You have a few steps to perform. The first step is to configure some system-wide settings on the Raspberry Pi. You could get away without doing this, but you may run into problems later if you don’t compete these steps. To start, open the Raspberry menu in the upper left corner of the Pi screen. In the menu that appears, select Preferences then select Raspberry Pi Configuration as shown in Figure 6.
 
-![](/images/stories/2016/pi-reminder-06_1.png) 
+![](/images/2016/pi-reminder-06_1.png) 
 
 Figure 6 – Opening the Raspberry Pi Configuration Utility
 
@@ -87,7 +87,7 @@ If you want, use this opportunity to change the host name for the Pi device. In 
 
 As a US-based hacker, I find that the default settings don’t work for me. Switch to the Localisation tab and check all of the settings exposed there to ensure its properly configured for your locale, time zone and keyboard settings. Click the OK button when you’re done to save your changes. Don’t be surprised if you’re prompted to reboot the Pi.
 
-![](/images/stories/2016/pi-reminder-07_1.png) 
+![](/images/2016/pi-reminder-07_1.png) 
 
 Figure 7 – Raspberry Pi Configuration Utility
 
@@ -135,13 +135,13 @@ Configuring Access to Google Calendar
 
 Before the project’s software can access your Google Calendar, you need to setup a developer account with Google (if you don’t already have one) and define an application in the Google Developer Console that makes use of the Google Calendar APIs. Start by opening a browser window and navigating to [https://console.developers.google.com](https://console.developers.google.com). Login or create an account then look for the developer console shown in Figure 8.
 
-![](/images/stories/2016/pi-reminder-08_1.png) 
+![](/images/2016/pi-reminder-08_1.png) 
 
 Figure 8 – Google API Developer Console
 
 Click the link for Calendar API highlighted in the figure and Enable the API then define an application for this project. Once that’s done, you’ll need to create credentials for your project as shown in Figure 9.
 
-![](/images/stories/2016/pi-reminder-09_1.png) 
+![](/images/2016/pi-reminder-09_1.png) 
 
 Figure 9 – Google API Application Credentials
 
@@ -158,13 +158,13 @@ Using the folder example from earlier, you would issue the following commands:
 
 If everything is setup correctly, the python code will execute and show a screen similar to the one shown in Figure 10.
 
-![](/images/stories/2016/pi-reminder-10_1.png) 
+![](/images/2016/pi-reminder-10_1.png) 
 
 Figure 10 – Executing the Reminder Code for the First Time
 
 At this point, the application will open the default browser and display the page shown in Figure 11.
 
-![](/images/stories/2016/pi-reminder-11_1.png) 
+![](/images/2016/pi-reminder-11_1.png) 
 
 Figure 11 – Google Account Login Page
 
@@ -172,13 +172,13 @@ Login to your Google account and click the Next button. If you’re like me, you
 
 After you provide your password, the browser will prompt you to authorize the project’s Python application to access your calendar as shown in Figure 12. The application name, Pi Reminder in this case, will be the same one you created in the Google Developer Console just a few steps back.
 
-![](/images/stories/2016/pi-reminder-12_1.png) 
+![](/images/2016/pi-reminder-12_1.png) 
 
 Figure 12 – Google Calendar API Authorization
 
 After you complete the authentication process, the browser will display a page similar to the one shown in Figure 13. At this point you can close the browser window.
 
-![](/images/stories/2016/pi-reminder-13_1.png) 
+![](/images/2016/pi-reminder-13_1.png) 
 
 Figure 13 – Completed Google Calendar Authorization
 
@@ -189,7 +189,7 @@ The easiest way to execute the command again is to simply press the keyboard’s
 
 At this point, the application should connect to the authorized calendar and start checking for appointments as shown in Figure 14. To see a video of the app in action, see: [https://youtu.be/X111pAaEP-k](https://youtu.be/X111pAaEP-k).
 
-![](/images/stories/2016/pi-reminder-14_1.png) 
+![](/images/2016/pi-reminder-14_1.png) 
 
 Figure 14 – Pi Reminder Checking for Appointments
 

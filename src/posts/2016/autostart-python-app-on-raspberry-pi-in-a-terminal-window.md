@@ -140,4 +140,4 @@ To save your changes, press ctrl-o then press the Enter key. Next, press ctrl-x 
 
 Here’s an example from a project I’m working on that opens two windows:
 
-![](/images/stories/2016/pi-weather-monitor-startup-640.png)
+![](/images/2016/pi-weather-monitor-startup-640.png)

@@ -20,7 +20,7 @@ By John M. Wargo & August M. Wargo
 
 It's always…interesting to see how much involvement the Scouts have vs. their parents in making the cars. For the most part, I've let my son do what he wants with his car; I've guided him, but let him cut the car, sand it, paint it and so on. I really only got directly involved when it came to putting the wheels on as he didn't, until recently, have the physical strength and control needed to do that right.
 
-![](/images/stories/2016/arduino-pinewood-derby-01.png)
+![](/images/2016/arduino-pinewood-derby-01.png)
 
 Figure 1 – A Boy and His Arduino Powered Pinewood Derby Car
 

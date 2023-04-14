@@ -15,7 +15,7 @@ Anyway, I was doing some testing in the Chrome browser and decided to go over to
 
 PhoneGap includes the Weinre debugger which is a cool application that allows you to debug applications on a device, but watch what's happening in a desktop browser. I've been using it during my work on the book since it makes on-device debugging so much easier. Anyway, I was in Weinre poking around at the application's HTML when I noticed that part of the application screen (on-device) was acting weird. Take a look at the following screen shot:
 
-![](/images/stories/device-2011-12-08-162826.png)
+![](/images/device-2011-12-08-162826.png)
 
 The miles input field had some weird stuff around it and I could see the highlight moving to different fields. Turns out that as I highlighted the page elements in the desktop browser, the client-side application highlights the element I was pointing to - in real-time. I expected the device application to update the console on the desktop, but what I wasn't expecting was for the client-side appliction to also react to what I was doing on the desktop. Way, way cool.
 

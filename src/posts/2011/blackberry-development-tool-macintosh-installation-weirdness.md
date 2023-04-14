@@ -11,7 +11,7 @@ I was excited to learn at BlackBerry DevCon 2011 that RIM had finally released t
 
 The tools download as a zip file, a different zip file for BlackBerry vs. Playbook development. That's not that big of a deal, except the zip files contain an application installer with EXACTLY the same name. Instead of naming the packager within each zip file with a name appropriate for the particular installer, they named them both the same and it causes problems. Take a look at Figure 1, you'll see the two zip files (with separate file names) but then two applications, both with the same name (although the second one has a 2 after it's file name).
 
- ![Finder Image](/images/stories/2011/bb_dev_tool_install0.png)
+ ![Finder Image](/images/2011/bb_dev_tool_install0.png)
 
 Figure 1
 
@@ -19,7 +19,7 @@ How do you tell which one is which? You can tell by the file sizes (very differe
 
 OK, when I got around to installing the tools, I came across something I'd never seen before on a Macintosh. Take a look at Figure 2, it shows the first screen you see when installing the tools. When I first saw this message, I had absolutely no idea what to do with the information. I knew that Windows would allow me to run an installer as an Administrator, but had no idea how to do that on a Macintosh.
 
- ![](/images/stories/2011/bb_dev_tool_install1.png)
+ ![](/images/2011/bb_dev_tool_install1.png)
 
 Figure 2
 
@@ -27,7 +27,7 @@ I closed the installer and poked around to see if I could figure out how to run 
 
 Guess what? It prompted me for the Administrator's (me) password as shown in Figure 3 and proceeded to perform the installation.
 
- ![](/images/stories/2011/bb_dev_tool_install2.png)
+ ![](/images/2011/bb_dev_tool_install2.png)
 
 Figure 3
 

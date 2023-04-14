@@ -9,7 +9,7 @@ tags: post
 
 I was registering for access to the Sencha forums ([www.sencha.com](https://www.sencha.com)) today when I saw the following on the registration form:
 
-![](/images/stories/2012/silly_captcha.png)
+![](/images/2012/silly_captcha.png)
 
 Figure 1
 

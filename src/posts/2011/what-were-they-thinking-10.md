@@ -19,7 +19,7 @@ Let me show you what I mean:
 
 When looking at the application home screen shown in Figure 1, it's really hard to tell that the icons shown there are clickable. They look like they're disabled. They use color for the logout button and the DevCon logo, but deliberately didn't use color to indicate clickable areas on the home screen. Those icons are dull and truly (to me) do not look like anything I should be able to click on.
 
- ![](/images/stories/2011/bb_devcon_2011_app0.png)
+ ![](/images/2011/bb_devcon_2011_app0.png)
 
 Figure 1
 
@@ -31,7 +31,7 @@ One thing I noticed though, and I probably wouldn't have noticed it except that 
 
 Another thing I noticed, and this is a HUGE pet peeve for me, is that when you open the agenda or my schedule, the application doesn't by default open the current day's schedule. The application knows what day it is and it knows I'm opening my schedule, why not default to opening the current day's schedule then give me options to select different days if I want? The designer of the application has to think about how the application will be used; in this case they didn't. 99% of the time I'm going to be looking at my current day's calendar, why not show it to me first instead of making me click the current day every single time I open that part of the application. I shouldn't have to make a selection on the screen shown in Figure 2 every single time I open that part of the application.
 
- ![](/images/stories/2011/bb_devcon_2011_app1.png)
+ ![](/images/2011/bb_devcon_2011_app1.png)
 
 Figure 2
 
@@ -41,11 +41,11 @@ Another thing I noticed about Figure 2 is that it's impossible to tell that the 
 
 The next thing really surprised me since it's such a simple thing and it's pretty glaring. Take a look at Figures 3 and 4 below. Notice how much bigger the DevCon icon is compared to other icons on the BlackBerry and Playbook. The icon seems to match the 'theme' of the device or at least not look out of place against the other icons, but no effort was made to make the icon proportional to the other icons on the device.
 
-![](/images/stories/2011/bb_devcon_2011_app2.png)
+![](/images/2011/bb_devcon_2011_app2.png)
 
 Figure 3
 
- ![](/images/stories/2011/bb_devcon_2011_app3.png)
+ ![](/images/2011/bb_devcon_2011_app3.png)
 
 Figure 4
 

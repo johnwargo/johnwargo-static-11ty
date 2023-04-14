@@ -20,7 +20,7 @@ Implementation – Enabling SSH
 
 The first step in the process is to enable SSH on the Pi. It’s fairly easy to do this, simply open the Raspberry Pi Configuration utility (open the Pi menu and select Preferences, then Raspberry Pi Configuration). In the dialog that appears (Figure 1), select the Interfaces tab then enable SSH as shown in the figure. When you click the OK button, the Pi will reboot with SSH enabled.
 
-![](/images/stories/2016/raspberry_pi_configuration.png)
+![](/images/2016/raspberry_pi_configuration.png)
 
 Figure 1 – Raspberry Pi Configuration Application Interfaces Tab
 
@@ -30,7 +30,7 @@ The next thing you need to do is figure out how your desktop development environ
 
 So, I opened a terminal window on the Pi and typed in the command and received the results shown in Figure 2. The first time I did this (OK, it was a couple of times) I didn’t get the results I wanted. I’d type in the command, but I’d get back an IP address of 127.0.1.1 which is a local address (only accessible from the PI) and something that wouldn’t work for me. I finally figured out the problem, I used a lower case i and that got me completely different results.
 
-![](/images/stories/2016/raspberry_pi_hostname.png)
+![](/images/2016/raspberry_pi_hostname.png)
 
 Figure 2 – Using the hostname command to determine the Pi IP address
 
@@ -40,7 +40,7 @@ Another way to get the IP address is to execute the following terminal command:
 
 With this command, you get the results shown in Figure 3.
 
-![](/images/stories/2016/raspberry_pi_ifconfig.png)
+![](/images/2016/raspberry_pi_ifconfig.png)
 
 Figure 3 – Using the ifconfig command to determine the PI IP address
 
@@ -51,7 +51,7 @@ Configuring WebStorm
 
 Now that I know how to reach my Pi and the SSH software is installed, it’s time to configure my WebStorm project to publish my code to it. In WebStorm, open the Tools menu, select Deployment then Configuration; you should see a dialog similar to the one shown in Figure 4.
 
-![](/images/stories/2016/webstorm_pi_1_640.png)
+![](/images/2016/webstorm_pi_1_640.png)
 
 Figure 4 – Configuring a Connection in WebStorm
 
@@ -67,7 +67,7 @@ The first thing you’ll want to do is click the green plus sign in the upper-le
 
 Once you’ve validated the connection, switch over to the Mappings tab shown in Figure 5.
 
-![](/images/stories/2016/webstorm_pi_2_640.png)
+![](/images/2016/webstorm_pi_2_640.png)
 
 Figure 5 – Mapping the local file system to the remote host
 
@@ -77,7 +77,7 @@ In the Deployment path on server ‘Pi’ field, enter the home folder path wher
 
 There will be files/folders in my project’s source folder that I don’t want copied over to the Pi, do I used the Excluded Paths tab to specify the content I wanted excluded as shown in Figure 6.
 
-![](/images/stories/2016/webstorm_pi_3_640.png)
+![](/images/2016/webstorm_pi_3_640.png)
 
 Figure 6 – Excluding folders published to the Pi
 

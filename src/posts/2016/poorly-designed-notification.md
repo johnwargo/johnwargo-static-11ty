@@ -11,7 +11,7 @@ I really enjoy analyzing apps, notification emails and other technological imple
 
 I was traveling last week to the Xamarin Evolve conference and received the following text message from my primary airline:
 
-![gate change notification](/images/stories/2016/aa-gate-change-notice-cropped.png)
+![gate change notification](/images/2016/aa-gate-change-notice-cropped.png)
 
 I already knew about the gate change, so I didn’t pay much attention to the notification until later when it struck me that American Airlines really failed in getting me the information I needed.  
 Don’t get me wrong, I like getting the notifications, but this one isn’t useful to me until I open it. It’s telling me there’s a gate change, great, useful information. What’s the next piece of information I need? Well, I do need to know which flight, but in this case, I only had one flight that day, so telling me what the flight number and the source and destination airport is useless to me. If you think about it, unless you’re someone who memorizes flight information, then the only really important information for me is the departure and arrival cities.

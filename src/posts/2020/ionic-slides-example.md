@@ -15,4 +15,4 @@ Anyway, I figured out how to do it and published a complete Ionic sample app tha
 
 When you open the app, you see the screen shown in the following figure. Tap the first option to see an image-only example. The second has text on the pages. It’s pretty straightforward and the repo includes all the source and styling to get the look I got. I’m not a huge CSS guy, so I know there’s a lot more I could do to make it beautiful, I’ll leave that up to you.
 
-![](/images/stories/2020/home-page.png)
+![](/images/2020/home-page.png)

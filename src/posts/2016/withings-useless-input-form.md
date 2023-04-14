@@ -11,7 +11,7 @@ I use the Withings ([https://www.withings.com/us/en/](https://www.withings.com/u
 
 Every week or so, the Withings app sends me an email summary of my stats. In this morning’s email, they offered me a chance to set a weight goal, and I quickly clicked on the link. After logging me in, I’m presented with the following form:
 
-![Withings Set Weight Goal](/images/stories/2016/withings-weight-goal.png)
+![Withings Set Weight Goal](/images/2016/withings-weight-goal.png)
 
 Figure 1
 

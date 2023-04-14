@@ -17,7 +17,7 @@ Then I started thinking about Adobe Brackets. This code editor worked on Windows
 
 I started digging into the Brackets code to see how they’d done it. A while back, a colleague convinced me that Brackets was written in PhoneGap, but in reading around on the blogs it quickly became clear that it was created using the Chromium Embedded Framework ([https://code.google.com/p/chromiumembedded/](https://code.google.com/p/chromiumembedded/)).
 
-![](/images/stories/2014/cef-site-640.png)
+![](/images/2014/cef-site-640.png)
 
 Figure 1
 
@@ -34,7 +34,7 @@ Even the Brackets source didn’t help me as it’s just the source code for the
   
 Finally, I started searching around again to find some post or article somewhere that told me what I needed to do to make this thing my own. I finally stumbled on an article from Intel at [https://software.intel.com/en-us/html5/blogs/an-html5-project-with-chromium-embedded-framework.](https://software.intel.com/en-us/html5/blogs/an-html5-project-with-chromium-embedded-framework.) Here they told me exactly what I needed to do to make the CEF my own – open a configuration file and edit a particular variable to point it to the web application content you want to load.
 
-![](/images/stories/2014/cef-intel-page.png)
+![](/images/2014/cef-intel-page.png)
 
 Figure 2
 

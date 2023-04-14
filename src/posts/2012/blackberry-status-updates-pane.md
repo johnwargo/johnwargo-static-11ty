@@ -9,7 +9,7 @@ tags: post
 
 I’m struggling to find value in the BlackBerry 7 Status Pane that appears at the top of the BlackBerry home screen and, when clicked, displays the screen shown in Figure 1 below.
 
-![](/images/stories/blackberry_status_pane.jpg)
+![](/images/blackberry_status_pane.jpg)
 
 Figure 1
 

@@ -11,13 +11,13 @@ I’m trying to wrap up an article series for The View (www.eview.com) on develo
 
 I’ve created a simple competitive information database in Notes and exposed it to mobile devices using several methods. I first built a Rhodes application (www.rhomobile.com) that synchronized data with the Domino server and wrote a series of articles about it. You can see a sample screen shot of the Rhodes application in Figure 1.
 
-![](/images/stories/2013/domino-405-error-1.png)
+![](/images/2013/domino-405-error-1.png)
 
 Figure 1
 
 Next I did the same thing using Sencha Touch (www.sencha.com); you can see the application in Figure 2.
 
-![](/images/stories/2013/domino-405-error-2.png)
+![](/images/2013/domino-405-error-2.png)
 
 Figure 2
 
@@ -39,7 +39,7 @@ PUT /view/compete.nsf/(rest2)?openagent/2035EE2523E794D785257B4900086A2C&\_dc=13
 
 You can see the complete Domino log entry in Figure 3.
 
-![](/images/stories/2013/domino-405-error-3.png)
+![](/images/2013/domino-405-error-3.png)
 
 Figure 3
 
@@ -51,7 +51,7 @@ Can anyone help me understand more about this problem and hopefully (although ho
 
 In a side note, I wanted to take a look at the server’s notes.ini file and remember that I’d written a utility (back in 1996) called Configuration Manager for Lotus Notes that allowed me to work with a sorted version of the notes.ini . So funny that a utility I wrote 19 years ago is still useful. What fun!
 
-![](/images/stories/2013/domino-405-error-4.png)
+![](/images/2013/domino-405-error-4.png)
 
 Figure 4
 

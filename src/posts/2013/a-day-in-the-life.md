@@ -9,7 +9,7 @@ tags: post
 
 A few months back I was looking at some marketing material for one of our competitors (I don’t really remember which one, but I think I have an idea) and noticed the following graphic portraying a day in the life of a mobile worker.
 
-![A Day In the Life](/images/stories/2013/a-day-in-the-life.png "A Day In the Life")
+![A Day In the Life](/images/2013/a-day-in-the-life.png "A Day In the Life")
 
 What struck me as interesting is how they portray the different systems this mobile worker uses throughout the day. I understand having a laptop, smartphone and tablet. I expect the smartphone to be used while in motion, the tablet used when more time is available or when more ‘stuff’ needs to be done and laptop when heavy typing, creative work or just high quantity of mail filing (iOS is horrible for enterprise mail use simply for that reason alone) is needed.
 

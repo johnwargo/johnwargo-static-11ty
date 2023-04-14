@@ -7,7 +7,7 @@ categories: [BlackBerry]
 tags: post
 ---
 
-![](/images/stories/2011/rim.jpg)I don’t know if you heard about it or not, but a [RIM executive published an open letter to his bosses](https://www.bgr.com/2011/06/30/open-letter-to-blackberry-bosses-senior-rim-exec-tells-all-as-company-crumbles-around-him/): Mike L and Jim B of RIM. It’s an interesting read and it had to be said. It’s really sad, but RIM has been slow in its response to market changes and it’s likely that they won’t be able to recover.
+![](/images/2011/rim.jpg)I don’t know if you heard about it or not, but a [RIM executive published an open letter to his bosses](https://www.bgr.com/2011/06/30/open-letter-to-blackberry-bosses-senior-rim-exec-tells-all-as-company-crumbles-around-him/): Mike L and Jim B of RIM. It’s an interesting read and it had to be said. It’s really sad, but RIM has been slow in its response to market changes and it’s likely that they won’t be able to recover.
 
 Their development tools are sub-par and it takes a ridiculous amount of time to release them. Where Apple and Android pre-release their development tools or at least ship them on the same day the device is announced, RIM does prolonged betas and in one case delivered the SDK out of beta only after a device that used the particular SDK had been in market for almost 6 months. Ridiculous.
 

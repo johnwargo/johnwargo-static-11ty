@@ -18,7 +18,7 @@ The problem with these timers is that you must manually set the on/off times, pl
 
 To help get around these limitations, its time for a better light timer. With this project, you’ll build a microcontroller-driven light timer that sets its own internal clock automatically via the Internet and turns the light on and off on an exact schedule. The project uses a Wi-Fi enabled Arduino device, and uses the device’s Wi-Fi connection to query an Internet time server for the current time. I used a real-time clock (RTC) module to store the time between sessions just in case the device can’t connect to the Internet to determine the current time on startup. Figure 1 shows the completed project.
 
-![](/images/stories/2018/better-light-timer-01.png)
+![](/images/2018/better-light-timer-01.png)
 
 Figure 1 - The Better Light Timer
 
@@ -61,19 +61,19 @@ Assembling the Hardware
 
 The Feather MO Wi-Fi and FeatherWing boards are sold as stand-alone boards; even though they’re designed to stack on top of eachother, there’s no hardware included to connect them together. That’s why I added the female and stacking headers to the project. You’ll use the stacking headers with the FeatherWing board and the female headers with the Feather board as shown in Figure 2.
 
-![](/images/stories/2018/better-light-timer-02.png)
+![](/images/2018/better-light-timer-02.png)
 
 Figure 2 – Microcontroller Boards and Header Components
 
 Mount the female headers on the top of the Feather; you’ll want the header sockets facing up so that you can mount the FeatherWing board on top of the Feather later. You can see what this looks like in Figure 3. The Feather boards don’t use the same number of header pins on each side of the board, so pay attention to which headers you put on each side. Flip the board over and solder the header pins, making sure that the headers are flush against the surface of the board.
 
-![](/images/stories/2018/better-light-timer-03.png)
+![](/images/2018/better-light-timer-03.png)
 
 Figure 3 – Feather Components Stacked Together
 
 Next, insert the shorter posts from the stacking headers through the outside holes in the bottom of the FeatherWing board. If you look closely at the board (Figure 4), you’ll notice that the board has two sets of pin holes. The outside holes are for mounting the headers, the inside holes are for external connections to those pins; you’ll see how this works later. For now, make sure you place the headers in the correct set of holes; you won’t be able to connect the FeatherWing to the Feather board later if you make a mistake here.
 
-![](/images/stories/2018/better-light-timer-04.png)
+![](/images/2018/better-light-timer-04.png)
 
 Figure 4 – Adalogger FeatherWing RTC Board
 
@@ -81,7 +81,7 @@ With the headers in place, solder the pins in place on the top of the board. Wit
 
 Mount the Powerswitch Tail on the board, positioning the device close to one side of the board. You’ll need to leave room for the enclosure, so position both on the board as you sort out the position for the PT. Make sure that the connections (the three holes shown face of the device) on the PT are facing the open/empty portion of the board as shown in Figure 5. Drill pilot holes in the board where you want to mount the device, then use two screws to secure it to the board in the selected position.
 
-![](/images/stories/2018/better-light-timer-05.png)
+![](/images/2018/better-light-timer-05.png)
 
 Figure 5 – Mounting the Powerswitch Tail
 
@@ -89,25 +89,25 @@ Figure 5 – Mounting the Powerswitch Tail
 
 Using a drill or drill press, drill a hole in one end of the enclosure bottom for the power cord. The hole should be big enough for the power cable to fit in loosely. I always find that its easiest to drill this hole with the enclosure cover on, that way the plastic doesn’t bend as you put pressure on it with the drill. Cut through the hole to the top of the enclosure to make the opening U-shaped as shown in Figure 6. Make sure that the hole is low enough that the USB power cable can fit through the hole with the lid on.
 
-![](/images/stories/2018/better-light-timer-06.png)
+![](/images/2018/better-light-timer-06.png)
 
 Figure 6 – Power Cable Hole
 
 Drill a hole in the side of the enclosure for the wires that will connect from the microcontroller to the PT as shown in Figure 7. I drilled two holes so I could run one wire through each, but you could easily use only one hole – just make sure its big enough for two wires.
 
-![](/images/stories/2018/better-light-timer-07.png)
+![](/images/2018/better-light-timer-07.png)
 
 Figure 7 – Enclosure Holes for Wires to the Powertail
 
 Remove the nut and washer from the push button and select a drill bit that is only slightly larger than the opening in the washer. Using that drill bit, drill a hole in the enclosure lid for the push button. You’ll want to drill the hole with the lid attached to the enclosure (to keep the lid from flexing as you drill). Make sure you’re not drilling the hole too close to the edge as that will overlap the side of the enclosure. Position the button hole out of the way (lower-left or lower-right corner of the lid) as shown in Figure 8.
 
-![](/images/stories/2018/better-light-timer-08.png)
+![](/images/2018/better-light-timer-08.png)
 
 Figure 8 – Push Button Hole in Enclosure Cover
 
 Solder two 3” wires to the push button connectors as shown in Figure 9. To keep any of the project component from shorting the button, I used shrink tubing to cover the soldered connections as shown in the figure.
 
-![](/images/stories/2018/better-light-timer-09.png)
+![](/images/2018/better-light-timer-09.png)
 
 Figure 9 – Wiring the Push Button
 
@@ -115,7 +115,7 @@ Mount the push button in the enclosure lid, making sure the button is on top of 
 
 Cut three wires about 4 inches long: one black and two red. Solder one of the push button wires to the black wire and one of the red wires. At this point, you’ll have three wires soldered together as shown in the top of Figure 10. Use electrical tape or shrink tubing to cover the soldered connection.
 
-![](/images/stories/2018/better-light-timer-10.png)
+![](/images/2018/better-light-timer-10.png)
 
 Figure 10 – Wiring Everything Together
 
@@ -123,7 +123,7 @@ OK, before we go any further, lets talk about the connections we’ll make to th
 
 For this project, we need one input and one output: the input comes from the push button, and the output is the voltage connection to the PT. In a few minutes, we’re going to connect the output to the Feather’s A1 connection, and the push button to the Feather’s A2 connection. Take a moment and study Figure 11, it shows the Feather board pinouts. On the left side of the board you’ll see the three connections we’re going to use for this project: Ground (labeled GND in the figure), A1, and A2.
 
-![](/images/stories/2018/better-light-timer-11.png)
+![](/images/2018/better-light-timer-11.png)
 
 Figure 11 – Feather MO WiFi Pinout Diagram
 

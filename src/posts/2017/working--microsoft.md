@@ -9,7 +9,7 @@ tags: post
 
 I started working at Microsoft last week - and there was much rejoicing (an obscure Monty Python reference). I’ve joined the Azure division as a Principal Program Manager on the team building [Visual Studio Mobile Center](https://www.visualstudio.com/vs/mobile-center/) (Microsoft’s cloud service for mobile developers). I’m very excited about this new role, as it allows me to get back into the mobile development space, and lets me be a developer (instead of a tester) again. I’ll write more about what I’m working about as I get more involved in the product.
 
-![Microsoft Visual Studio Mobile Center](/images/stories/2017/microsoft-mobile-center.png "Microsoft Visual Studio Mobile Center")
+![Microsoft Visual Studio Mobile Center](/images/2017/microsoft-mobile-center.png "Microsoft Visual Studio Mobile Center")
 
 Microsoft Visual Studio Mobile Center
 

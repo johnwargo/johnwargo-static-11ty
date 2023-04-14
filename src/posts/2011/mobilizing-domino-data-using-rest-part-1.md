@@ -57,10 +57,10 @@ JSON stands for JavaScript Object Notation and it’s a way of representing data
 
 In JSON, an array looks like this:
 
-![](/images/stories/jsonarray.gif)  
+![](/images/jsonarray.gif)  
 And an Object looks like this:
 
-![](/images/stories/jsonobject.gif)  
+![](/images/jsonobject.gif)  
 You’ll see how these apply in the following section.
 
 \*JSON Images shamelessly ‘borrowed’ from [www.json.org](https://www.json.org).

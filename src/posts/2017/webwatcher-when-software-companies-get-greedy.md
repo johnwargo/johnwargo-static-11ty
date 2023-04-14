@@ -13,7 +13,7 @@ I pretty quickly learned that I’d made a mistake with my purchase.
 
 The capabilities WebWatcher provides are useful and work fairly well, but the parent portal is very cumbersome to use and looks like it was created with really, really outdated tools. It has a dated look that seems out of place with all of the beautiful web interfaces available today. Apparently WebWatcher isn’t using its income to improve the UX or UI of its tools. As you can see in the figure below, the admin UI looks very…web 1.0 app circa 2001.
 
-![WebWatcher Admin Console](/images/stories/2017/webwatcher-01.png)
+![WebWatcher Admin Console](/images/2017/webwatcher-01.png)
 
 Figure 1 – WebWatcher Admin Console
 
@@ -23,7 +23,7 @@ Next, I realized that WebWatcher only holds collected data for a short period of
 
 This was the first indication of WebWatcher’s greedy nature. As you can see from Figure 2, it will cost you another $10 per month ($120US per year) for 100 MB of storage. If your kids take a lot of photos, that storage will disappear pretty quickly.
 
-![WebWatcher Storage Pricing](/images/stories/2017/webwatcher-02.png)
+![WebWatcher Storage Pricing](/images/2017/webwatcher-02.png)
 
 Figure 2 – WebWatcher Storage Pricing
 
@@ -35,7 +35,7 @@ Now, their pricing might be high because they’re running their own data center
 
 The only reference to storage appears when you add a license to the shopping cart as shown in the following figure. Here, they tell you that you get unlimited data storage for your viewing period. There’s no mention anywhere of what your viewing period is. Right now it’s 7 days, to view any of your data after that, you have to buy storage.
 
-![WebWatcher Add-on Products](/images/stories/2017/webwatcher-03.png)
+![WebWatcher Add-on Products](/images/2017/webwatcher-03.png)
 
 Figure 3 – WebWatcher Add-on Products
 

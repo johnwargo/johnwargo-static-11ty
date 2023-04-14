@@ -37,7 +37,7 @@ Mounting the board is easy, it comes with the appropriate female headers you nee
 
 Seeed Studio recommends putting some electrical tape on top of the Raspberry Pi Ethernet port before mounting the board. If you mount the board without using standoffs (as I’ve done in the example figure below), there’s a chance the board will make contact with the Ethernet port housing and cause a problem.
 
-![](/images/stories/2017/seed-figure-01.png)
+![](/images/2017/seed-figure-01.png)
 
 Figure 1
 
@@ -50,13 +50,13 @@ Enabling I2C
 
 The relay board communicates with the Raspberry Pi through an I2C interface ([https://en.wikipedia.org/wiki/I%C2%B2C](https://en.wikipedia.org/wiki/I%C2%B2C)). This interface is disabled by default in the Pi’s Raspbian OS, so you’ll have to turn it on before you can use the board. Power up the Pi and let it boot to the graphical interface. When it’s up and running, open the **Pi** menu, select **Preferences**, then **Raspberry Pi Configuration** as shown in the following figure:
 
-![](/images/stories/2017/seed-figure-02.png)
+![](/images/2017/seed-figure-02.png)
 
 Figure 2
 
 In the window that opens, select the **Interfaces** tab as shown in the following figure. Enable the option next to I2C as shown in the figure and click the **OK** button to continue. When you reboot the PC, the Pi should see the relay board. In the next section, we’ll verify that the Pi sees the relay board.
 
-![](/images/stories/2017/seed-figure-03.png)
+![](/images/2017/seed-figure-03.png)
 
 Figure 3
 
@@ -69,7 +69,7 @@ With the I2C interface enabled, it’s time to make sure the Raspberry Pi sees t
 
 The application will display a dump of the recognized I2C devices as shown in the following figure. In this example, there’s only one I2C board on the system, the relay board configured at an address of 20. You’ll see how this value is important later in this article.
 
-![](/images/stories/2017/seed-figure-04.png)
+![](/images/2017/seed-figure-04.png)
 
 Figure 4
 
@@ -144,7 +144,7 @@ To run the test application, open a terminal window, navigate to where you’ve 
 
     python ./seeed_relay_test.py
 
-![](/images/stories/2017/seed-figure-05.png)
+![](/images/2017/seed-figure-05.png)
 
 Figure 5
 
@@ -197,7 +197,7 @@ The application will:
 
 The module will write indicators to the console as it performs each step as shown in the following figure:
 
-![](/images/stories/2017/seed-figure-06.png)
+![](/images/2017/seed-figure-06.png)
 
 Figure 6
 

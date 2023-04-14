@@ -9,7 +9,7 @@ tags: post
 
 For years, I've had this problem in Microsoft Outlook where Outlook will populate only the country field for select contacts. I've never done it purposefully, but somehow either because of some weird sync process or other reason, I had a bunch of contacts with no address, only a country set for them.
 
-![](/images/stories/2015/michael-palin-contact-card.png)
+![](/images/2015/michael-palin-contact-card.png)
 
 Figure 1 – Michael Palin Contact Card (NOT his real contact information)
 

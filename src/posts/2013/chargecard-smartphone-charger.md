@@ -9,11 +9,11 @@ tags: post
 
 I was reading through one of my tech magazines the other day (I can’t remember whether it was PC Magazine or Popular Science, sorry) and noticed this cool charger cable called ChargeCard ([www.chargecardproject.com](https://www.chargecardproject.com)). I used to travel a lot and bring a bunch of cables and so on with me in a little pouch. Over time, the pouch has gotten bigger and bigger and now, with all of the devices I carry with me, it looks like this:
 
- ![My Current Cable Pouch](/images/stories/2013/chargecard1.png "My Current Cable Pouch")
+ ![My Current Cable Pouch](/images/2013/chargecard1.png "My Current Cable Pouch")
 
 Anyways, the ChargeCard is a single, credit card-sized piece of rubber/plastic that includes two USB connectors. There’s a micro USB connector for your standard BlackBerry, Android device and so on plus there’s a USB Type A connector for plugging into your laptop or PC USB receptacle. The card is about the thickness of two credit cards and looks like this:
 
-![ChargeCard](/images/stories/2013/chargecard2.png "ChargeCard") 
+![ChargeCard](/images/2013/chargecard2.png "ChargeCard") 
 
 The exposed micro USB connector plugs into most any modern smartphone except for any iOS product. The PC USB connector is made of a flexible rubber-like material which allows you to bend it out of the card and insert it in the appropriate USB receptacle on your PC.
 

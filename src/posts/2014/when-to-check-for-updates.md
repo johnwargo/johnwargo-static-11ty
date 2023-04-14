@@ -19,7 +19,7 @@ Anyway, I started looking around for a potential culprit. My Android dev tools w
 
 When I tried the command again, I got the following…
 
-![](/images/stories/2014/ionic-error-20140811-1.png) 
+![](/images/2014/ionic-error-20140811-1.png) 
 
 Figure 1
 
@@ -39,7 +39,7 @@ Why would you tell me I’m running an older version of a tool only AFTER I’ve
 
 OK, so I updated the Ionic CLI and ran the command again, only to receive the same error – apparently the Ionic CLI can install Cordova plugins, but not their own as shown below.
 
-![](/images/stories/2014/ionic-error-20140811-2.png) 
+![](/images/2014/ionic-error-20140811-2.png) 
 
 Figure 2
 

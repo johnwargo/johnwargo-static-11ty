@@ -15,13 +15,13 @@ That’s not good programming.
 
 One of the things I noticed as I worked with the application was that the developer didn’t make any accommodation for changing the orientation of the device. I use a BlackBerry Torch 9800, from AT&T of course, and it has a touch screen and slide out keyboard. I can change the orientation of the device and get better screen real estate for the browser and some applications.  When you look at the application in portrait mode, you’ll see something similar to what’s shown in Figure 1.
 
-![](/images/stories/2011/bb_app_world_app_3.jpg)  
+![](/images/2011/bb_app_world_app_3.jpg)  
 Figure 1
 
   
 When you switch the device to landscape orientation, you’ll see a screen similar to the one shown in Figure 2.
 
-![](/images/stories/2011/bb_app_world_app_4.jpg)  
+![](/images/2011/bb_app_world_app_4.jpg)  
 Figure 2
 
 Notice that the screen doesn’t orient itself to make full use of the screen real estate available when the device is in landscape orientation. This makes no sense to me. BlackBerry Device Software has API’s that allow the developer to react to orientation changes since BlackBerry Device Software 4.7. These API’s allow a developer to adjust the layout of their application’s screens when the user rotates the device. The application clearly adjusts the header so it looks correct in this orientation, but why didn’t they make it so the home screen options adjust their layout as well?  What’s the sense in making me scroll down to access the third row of icons when I have the room to fit at least two of them in that blank space to the right.

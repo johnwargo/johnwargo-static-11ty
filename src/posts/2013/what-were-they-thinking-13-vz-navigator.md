@@ -9,7 +9,7 @@ tags: post
 
 While I worked at AT&T, I became a big fan of the TeleNav Navigator application which later became AT&T Navigator. The interface was intuitive and it worked pretty well. When I joined SAP, they gave me a Verizon BlackBerry 9900 and I lost access to the navigation solution I was accustomed to using. On Verizon, they have their own navigation solution called VZ Navigator; here’s what it looks like:
 
- ![](/images/stories/2013/verizon-navigation-app-1.png)
+ ![](/images/2013/verizon-navigation-app-1.png)
 
 Figure 1
 
@@ -17,7 +17,7 @@ I was using it recently to navigate somewhere and noticed something about the UI
 
 When you press the volume buttons on the side of the device to increase or decrease volume, instead of actually increasing or decreasing the navigation volume (which is what ANY smartphone user will expect), the application instead opens up the dialog shown in Figure 2.
 
- ![](/images/stories/2013/verizon-navigation-app-2.png)
+ ![](/images/2013/verizon-navigation-app-2.png)
 
 Figure 2
 

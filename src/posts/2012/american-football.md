@@ -19,7 +19,7 @@ First of all, today, less than a week before the Super Bowl, I couldn’t find t
 
 Something else interesting was the advertisement at the top of the site’s home page – shown in the following figure. Help me understand something – why does the NFL need to sell advertisements on their home page? The site is likely hugely popular and they get a gazillion dollars from their licensed products, why would they need advertisements? It makes no sense – they’re a huge brand and can stand alone on their brand. Why would they possibly need ad revenue? Are things that tough at the NFL?
 
-![](/images/stories/2012/nfl.png)
+![](/images/2012/nfl.png)
 
 Figure 1
 

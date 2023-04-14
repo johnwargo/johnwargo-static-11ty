@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-![](/images/stories/2012/wargo_rhomobile_example.png)As I mentioned previously, I wrote a long (4 part) series of articles for The View on how to use Rhomobile Rhodes and RhoConnect to mobilize a Domino application. Well, I’m a bit behind notifying you that Part 1 and Part 2 of the article series have been published.
+![](/images/2012/wargo_rhomobile_example.png)As I mentioned previously, I wrote a long (4 part) series of articles for The View on how to use Rhomobile Rhodes and RhoConnect to mobilize a Domino application. Well, I’m a bit behind notifying you that Part 1 and Part 2 of the article series have been published.
 
 Part 1 is entitled [_Mobilizing Domino Data Using Rhodes and RhoConnect, Part 1 — Getting Started_](https://bit.ly/LghLGR). The article provides a detailed overview of Rhodes and RhoConnect plus shows how to create a simple Rhodes application (that will be enhanced in subsequent articles). The figure to the right shows the simple default Rhodes application we'll be enhancing in the article series.
 

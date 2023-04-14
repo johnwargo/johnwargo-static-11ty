@@ -13,37 +13,37 @@ I’d encountered this problem while working on Apache Cordova 3 Programming and
 
 OK, so when I plugged the device in, Windows twirled and whirled for a while trying to install the appropriate device driver. After much work, it finally decided that it couldn’t do so and displayed an error message. When I looked at the Windows Device Manager, I noticed what is shown in the following figure, that it recognized the device, but simply didn’t know what to do with it. Notice under ‘Other devices’ that the Nexus 7 is listed.
 
-![](/images/stories/2013/nexus-7-setup_1.png)
+![](/images/2013/nexus-7-setup_1.png)
 
 Figure 1
 
 So, I knew that Google provides special USB device driver as part of their SDK, so I fired up the SDK tools and made sure to select the Google USB Driver as shown in the following figure.
 
-![](/images/stories/2013/nexus-7-setup_2.png)
+![](/images/2013/nexus-7-setup_2.png)
 
 Figure 2
 
 With that in place, I was ready to fix this problem. In Windows Device Manager, back in Figure 1, I right-clicked on the Nexus 7 entry and from the menu that appeared I selected Update Driver Software. In the dialog that appears, I selected Browse my computer for driver software as shown in the Figure 3.
 
-![](/images/stories/2013/nexus-7-setup_3.png)
+![](/images/2013/nexus-7-setup_3.png)
 
 Figure 3
 
 Next I was prompted to identify where Windows should search for the driver. I could have let it search the whole drive, but I knew that the driver I wanted was likely in the folder where I’d installed the Android development tools (ADT), so I simply pointed it to that folder then clicked next to begin the search.
 
-![](/images/stories/2013/nexus-7-setup_4.png)
+![](/images/2013/nexus-7-setup_4.png)
 
 Figure 4
 
 After a while, it found the driver, installed it then displayed the results screen shown in Figure 5.
 
- ![](/images/stories/2013/nexus-7-setup_5.png)
+ ![](/images/2013/nexus-7-setup_5.png)
 
 Figure 5
 
 Closing the dialog and looking again at the Windows Device Manager as shown in Figure 6, you’ll see that the Nexus 7 is now recognized by Windows as an Android Composite ADB Interface device.
 
-![](/images/stories/2013/nexus-7-setup_6.png)
+![](/images/2013/nexus-7-setup_6.png)
 
 Figure 6
 

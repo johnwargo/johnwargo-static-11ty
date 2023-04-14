@@ -124,7 +124,7 @@ What I’d like to see is them trying to actually block the hackers from trying 
 
 Anyway, I took a look at the admin tools console and noticed the following:
 
-![Website login surge](/images/stories/2016/website-login-surge-640.png) 
+![Website login surge](/images/2016/website-login-surge-640.png) 
 
 Figure 1
 

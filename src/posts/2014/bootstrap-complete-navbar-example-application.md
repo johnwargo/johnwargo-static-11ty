@@ -17,7 +17,7 @@ Anyway, I found a post on Stack Overflow that showed the JavaScript code needed 
 
 Let me show you what I created:
 
-![](/images/stories/2014/bootstrap1.png)
+![](/images/2014/bootstrap1.png)
 
 Figure 1
 

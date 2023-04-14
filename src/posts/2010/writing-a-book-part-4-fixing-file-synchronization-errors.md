@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-![](/images/stories/book.jpg)OK, here’s final article in the series. So far I’ve talked about the method I used to backup my manuscript files through every part of the editing process and I’ve covered how I synchronized the files between my laptop and desktop computers as I went. In today’s installment, I’m going to address a problem I created by synchronizing the files between systems. It caught me by surprise several times and forced me to make changes to how I managed the files. Ultimately it’s the reason I decided to write the article series.
+![](/images/book.jpg)OK, here’s final article in the series. So far I’ve talked about the method I used to backup my manuscript files through every part of the editing process and I’ve covered how I synchronized the files between my laptop and desktop computers as I went. In today’s installment, I’m going to address a problem I created by synchronizing the files between systems. It caught me by surprise several times and forced me to make changes to how I managed the files. Ultimately it’s the reason I decided to write the article series.
 
 As I worked through the manuscript, I regularly moved things around within the chapters. I would reorder chapters as I worked through them to get the right order (Research In Motion never, ever, agreed with the placement of chapter 3) and I would rework the order of the content within the chapters as well. On top of all that, as I neared completion of the manuscript and started seeing how long it was going to be (it was approaching 600 pages and I only had a contract for a 400 page book) my editor started whacking images (a lot of them) in order to get the book within the budgeted size.
 
@@ -59,7 +59,7 @@ I quickly encountered a problem – I was running Vista 64 and the Power Tools �
 
 To use the utility, you open Windows Explorer, select the files you want to manipulate the right-click to bring up a list of options. Select ‘Change Date’ from the list of options and you will be presented with a dialog similar to the one shown in the following figure.
 
-![](/images/stories/powertools2.png)  
+![](/images/powertools2.png)  
 Figure 1
 
 In this case, I change all date/time stamps (created, modified an accessed) and set them all to the current time. Once everything’s set the way I needed it, I would click the ‘Accept’ button to commit the changes. The following listing shows the results.

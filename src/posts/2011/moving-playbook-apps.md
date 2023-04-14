@@ -13,6 +13,6 @@ One of the things I've been trying to do, and have not been able to figure out h
 
 Take a look at the attached photo - I can't move apps where I want them to be on the PlayBook, but someone at RIM has apparently decided that the BlackBerry World Conference Application is a game. Makes no sense to me.
 
-![BlackBerry PlayBook Games Tab](/images/stories/2011/playbook_games_tab.jpg "BlackBerry PlayBook Games Tab")
+![BlackBerry PlayBook Games Tab](/images/2011/playbook_games_tab.jpg "BlackBerry PlayBook Games Tab")
 
 Another question I have, and this applies to many smartphone platforms, why can't you have a longer application title and have it wrap on the screen? There's no reason why those application titles should be truncated when there's so much extra room available on the screen. Makes no sense to me.

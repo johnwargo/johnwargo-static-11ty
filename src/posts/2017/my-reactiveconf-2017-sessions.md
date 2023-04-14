@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-![ReactiveConf Logo](/images/stories/2017/reactiveconf.png)
+![ReactiveConf Logo](/images/2017/reactiveconf.png)
 
 **Note:** removed obsolete attachments November 11, 2022
 

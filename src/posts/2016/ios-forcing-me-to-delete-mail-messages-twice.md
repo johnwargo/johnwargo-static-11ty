@@ -11,7 +11,7 @@ Once again iOS is making my life harder for me. I’m one of those people who ha
 
 Unfortunately, that won’t work. Apple, in its infinite wisdom, has decided that when I delete a message from my inbox on iOS that I really don’t want it deleted from my device right now. As you can see in Figure 1, when I delete a message from my inbox, the soonest it will be deleted from the server is after one day.
 
-![iOS Advanced Mail Settings - Remove Message](/images/stories/2016/ios-mail-settings-advanced-delete-mail.png)
+![iOS Advanced Mail Settings - Remove Message](/images/2016/ios-mail-settings-advanced-delete-mail.png)
 
 Figure 1
 

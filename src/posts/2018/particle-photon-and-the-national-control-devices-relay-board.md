@@ -49,7 +49,7 @@ So, if you [look at this image](https://media.ncd.io/sites/2/20170721142843/MCP2
 
 Normally I’d simply take a picture of my hardware, but I’ve already completed assembly of my project and I’d have to take it apart to grab a photo. I had a reason to take the project apart, so here’s a photo that shows how the Photon fits on the relay board.
 
- ![](/images/stories/2018/ncd-relay-particle.png)
+ ![](/images/2018/ncd-relay-particle.png)
 
 Using the GPIO Ports
 --------------------

@@ -11,7 +11,7 @@ A while back, I built a Python library for the Seeed Studio Raspberry Pi Relay C
 
 When you install the application and configure the Pi to execute the project’s server task at startup, you can point your Pi browser to `http://127.0.0.1:5000` and you’ll see the following interface:
 
-![](/images/stories/2017/pi-relay-controller-01.png)
+![](/images/2017/pi-relay-controller-01.png)
 
 Figure 1
 
@@ -25,7 +25,7 @@ To access the web application from outside of your Pi, you’ll have to first de
 
 The Pi will display network configuration settings for each of the device’s network interfaces. If you’re running the Pi on a wired network connection, then you would use the inet addr highlighted in the following figure. If using a Wi-Fi network interface, then you’ll want the address for the wlan0 interface.
 
-![](/images/stories/2017/pi-relay-controller-02.png)
+![](/images/2017/pi-relay-controller-02.png)
 
 Figure 2
 
@@ -35,7 +35,7 @@ With that address in hand, simply use it to access the controller. Open the brow
 
 The web application uses Bootstrap, so it will automatically render correctly on any size screen. For example, the following figure shows the same web application running on my Nexus 7 tablet.
 
-![](/images/stories/2017/pi-relay-controller-03.png)
+![](/images/2017/pi-relay-controller-03.png)
 
 Figure 3
 

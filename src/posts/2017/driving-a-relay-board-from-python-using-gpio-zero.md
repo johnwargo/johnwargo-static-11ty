@@ -11,7 +11,7 @@ As you may have noticed, I’ve been working on a few projects lately that use r
 
 Anyway I got this cool Paddle Breakout HAT from ModMyPi, so I had an easy way to wire up the Pi to the relay board. I connected the relay board to the Pi’s 5V output, Ground, and GPIO pin 18 then wrote a simple app to test it out. It worked! First try. Here’s a picture of the setup, the board on the left is the relay testing jig I wrote about here.
 
-![](/images/stories/2017/pi-relay-board-setup.png)
+![](/images/2017/pi-relay-board-setup.png)
 
 I created a GitHub Gist with the code, you can find that here in an easily digestible format: [https://gist.github.com/johnwargo/ea5edc8516b24e0658784ae116628277](https://gist.github.com/johnwargo/ea5edc8516b24e0658784ae116628277).  
 The code uses the GPIO Zero library to interact with the relay board. You basically define an output device using the following code:

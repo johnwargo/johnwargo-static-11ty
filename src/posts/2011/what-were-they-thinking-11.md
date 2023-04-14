@@ -9,7 +9,7 @@ tags: post
 
 US Airways is such a technology unsavvy airline. I've been signed up for alerts for a long time now, but they just refuse to alert me when it's time to check in for example. Their day of travel alerts are next to useless as well (see Figure 1). They're notifying me that my flight is expected to be on time, but they refuse to tell me what gate the flight is scheduled to depart from.
 
-![](/images/stories/2011/usair_alert.png)
+![](/images/2011/usair_alert.png)
 
 Figure 1
 

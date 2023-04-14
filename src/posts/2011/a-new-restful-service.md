@@ -11,7 +11,7 @@ I have published several articles on this site that illustrated different types 
 
 With my original web services, the idea was that a mobile application would send a request for a list of contacts that matched a search string then, when an application user selected a user, the application would make another call to the server to obtain the details for the selected contact. This process is illustrated in Figure 1.
 
-![](/images/stories/2011/drawing1.png)
+![](/images/2011/drawing1.png)
 
 Figure 1 – Two-part Request Process
 
@@ -27,7 +27,7 @@ Apple’s Dashcode IDE has some pretty cool features that make it easy to work w
 
 So, I decided to rewrite my Domino Directory lookup agent so all of the relevant data could be retrieved with a single call to the RESTful agent as shown in Figure 2.
 
-![](/images/stories/2011/drawing2.png)
+![](/images/2011/drawing2.png)
 
 Figure 2 – Single Part Request Process
 
@@ -65,7 +65,7 @@ The brackets (the ‘\[‘ and ’\]’ characters) are used to define an array 
 
 To obtain this output, all you need is a simple agent in a Domino Directory database. To create the RESTful service, create a new agent in your Domino Directory and set the agent properties shown in Figure 3. The agent is a web agent; it is triggered by a URL request triggered by the mobile application (or web browser). It uses an ‘On Event’ trigger and the event is defined as ‘Agent list selection.’
 
-![](/images/stories/2011/image3.png)
+![](/images/2011/image3.png)
 
 Figure 3 – Domino RESTful Agent Properties
 

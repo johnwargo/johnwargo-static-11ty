@@ -11,7 +11,7 @@ I’m at the BlackBerry World conference this week and I thought it was a good t
 
 Take a look at the following screen shot; you’ll see the warning that it will take from 2 to 3 minutes to load the data for the application. Unfortunately, this delay (and the corresponding warning) happens every single time you load the application (yep, every single time). I don’t know about you, but no mobile application should take 2 to 3 minutes to start up; that’s completely unacceptable.
 
-![](/images/stories/bb_app_world_app_1.jpg)
+![](/images/bb_app_world_app_1.jpg)
 
 Figure 1 – BlackBerry World Conference Application Startup Screen
 
@@ -29,7 +29,7 @@ Somebody wasn’t thinking.
 
 One good thing I saw was that the developer coded the application so the ‘my schedule’ portion of the app doesn’t show days where you don’t have sessions scheduled. If you take a look at Figure 2, you’ll see that it’s not showing events for Thursday because I don’t have anything scheduled for that day. That’s good attention to detail.
 
-![](/images/stories/bb_app_world_app_2.jpg)
+![](/images/bb_app_world_app_2.jpg)
 
 Figure 2 – My Schedule
 

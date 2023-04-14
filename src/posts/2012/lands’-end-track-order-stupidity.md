@@ -13,13 +13,13 @@ Why is it then that Lands’ End won’t give you an easy way to track your orde
 
 I got an email from them for an order I placed (shhhhh, it’s a gift for my Wife) that included the track order button shown in the figure below:
 
-![Lands' End Shipped Order Confirmation Email](/images/stories/2012/lands_end_1.png "Lands' End Shipped Order Confirmation Email")
+![Lands' End Shipped Order Confirmation Email](/images/2012/lands_end_1.png "Lands' End Shipped Order Confirmation Email")
 
 Figure 1 – Lands’ End Shipped Order Confirmation Email
 
 Being interested in knowing where said order was, I clicked said Track Order button and was presented with the following page:
 
-![Lands’ End Track Order Page](/images/stories/2012/lands_end_2.png "Lands’ End Track Order Page")
+![Lands’ End Track Order Page](/images/2012/lands_end_2.png "Lands’ End Track Order Page")
 
 Figure 2 – Lands’ End Track Order Page
 

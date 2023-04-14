@@ -9,7 +9,7 @@ tags: post
 
 Last week I received a copy of my [_PhoneGap Essentials_](https://phonegapessentials.com) which had been translated into Korean (at least I think it’s the Korean translation, I can’t actually be sure – as I don’t read Korean). Here is the book, perhaps you can read it:
 
-![](/images/stories/2013/phonegap-essentials-korean-cover-480.png)
+![](/images/2013/phonegap-essentials-korean-cover-480.png)
 
 Figure 1
 
@@ -17,7 +17,7 @@ Anyway, apparently the book has been licensed for translation into Korean and Tr
 
 What’s interesting about this version of the book is that it’s a much better implementation of the book (or at least, the cover). The cover stock is much thicker than the US version , plus it has this pebbled feel to it. Also, the cover extends beyond the width of the book and the extra material is folder over inside the cover, so they have some extra writing there – pretty cool. You can see it here in the following blurry image:
 
-![](/images/stories/2013/phonegap-essentials-korean-cover-flap-480.png)
+![](/images/2013/phonegap-essentials-korean-cover-flap-480.png)
 
 Figure 2
 
