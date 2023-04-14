@@ -1,6 +1,6 @@
 ---
 title: Alt-rbdb
-description: 
+description: Describes an interesting feature of RIM internal BlackBerry devices.
 date: 2009-12-15
 headerImage: 
 categories: [BlackBerry]

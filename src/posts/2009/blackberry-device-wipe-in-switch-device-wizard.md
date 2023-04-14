@@ -7,7 +7,7 @@ categories: [BlackBerry]
 tags: post
 ---
 
-In the more recent versions of the BlackBerry Desktop Manager (DM) they added an automatic update feature which I just saw work for the first time last week. My 4.7 DM prompted me then automatically upgraded to DM 5.0. I decided this week to switch back to my BlackBerry 8900 from my BlackBerry Bold 9000 and noticed something interesting as the device switch wizard completed - it had copied everything from my old device to the new one then the program asked if I wanted to reconnect my old devcie and wipe it. Nice!
+In the more recent versions of the BlackBerry Desktop Manager (DM) they added an automatic update feature which I just saw work for the first time last week. My 4.7 DM prompted me then automatically upgraded to DM 5.0. I decided this week to switch back to my BlackBerry 8900 from my BlackBerry Bold 9000 and noticed something interesting as the device switch wizard completed - it had copied everything from my old device to the new one then the program asked if I wanted to reconnect my old device and wipe it. Nice!
 
 It's not a feature I'll ever use because you have to make sure everything is working on the new device before you wipe the old one, but less experienced users will like how complete the process is now.
 

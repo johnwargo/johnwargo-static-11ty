@@ -12,7 +12,7 @@ I host all of my sites on fatcow.com, they’re really great and have some amazi
 
 Anyway, yesterday I was working on setting up blackberrybooks.org and I launched the installation like I normally do. When it came time to pick the installation folder, I accepted the default and populated the other fields on the installation form as shown in the following figure:
 
-![](images/stories/joomla install.jpg "FatCow InstallCentral")
+![FatCow InstallCentral](/images/joomla-install.jpg)
 
 What I forgot to pay attention to was that www.mcnellysoftworks.com actually pointed to a subfolder called ‘home’ within my FatCow account. That way I can have my ‘home’ folder and a separate folder for each of the other sites I manage there. So, when InstallCentral installed Joomla!, it dutifully put it exactly where I asked it to be placed and that was ‘/home/bbbooks’  which is not where I wanted it, I wanted it in a folder called ‘/bbbooks’ off of the root.
 
@@ -40,7 +40,6 @@ It worked!  Woohoo, it worked! So, I now had the files where I needed them and 
 1.  Performed a database backup (because when I uninstall the Joomla! instance, InstallCentral will drop all of the database tables)
 2.  Uninstalled the Joomla! instance in InstallCentral
 3.  Restored the database from my local backup
-
   
 Who’d a thunkit, it worked!!! I got the whole thing moved and the InstallCentral installation list all cleaned up and it’s working great.
 

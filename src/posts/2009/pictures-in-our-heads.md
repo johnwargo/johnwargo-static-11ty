@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-I'm a big fan of Robert X. Cringely (although lately he's gotten a little flaky) and I was just reading an article he wrote called '[Pictures in our heads](http://www.cringely.com/2009/11/pictures-in-our-heads/ "Pictures in Our Heads")' that discusses the future of mobile computing from a very interesting angle.
+I'm a big fan of Robert X. Cringely (although lately he's gotten a little flaky) and I was just reading an article he wrote called '[Pictures in our heads](http://www.cringely.com/2009/11/pictures-in-our-heads/){target="_blank"}' that discusses the future of mobile computing from a very interesting angle.
 
 He points out that desktop computer sales are about to peak (I believe that, but I still love having a honking fast desktop) and shows how mobile devices are advancing at a faster pace than PC's or laptops.Of note was his comment:
 

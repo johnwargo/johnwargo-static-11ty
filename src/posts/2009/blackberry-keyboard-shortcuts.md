@@ -13,7 +13,7 @@ On the BlackBerry smartphone, most business people spend the majority of their t
 
 When you open the BlackBerry ‘Messages’ application, the highlight is always on the current date. To create a new email message, merely press the enter key with the date selected and the BlackBerry will open a new message for you to start typing in. There’s no need to click the menu button and select ‘Compose Email.’
 
-![BlackBerry Message List](images/stories/messages client.jpg "BlackBerry Message List")
+![BlackBerry Message List](/images/2009/messages-client.jpg)
 
 To open an email message, there’s no need to click the trackball or use the menu to open a message, just select the message and press the ‘Enter’ key.
 
@@ -44,4 +44,4 @@ So, when you’ve gotten off of a plane or left a meeting and you want to get ca
 
 I remember reading a comparison between BlackBerry and Windows Mobile and the reviewer complained about how ‘hard’ it was to press the ‘alt’ key to type a period at the end of every sentence. When typing any text on a BlackBerry, you can always press the space bar twice in succession to enter a period. When you press the key combination, the BlackBerry replaces the two spaces with a period and a space.  Makes it a lot easier, eh?
 
-There are a lot more of them, you can find a good article (and a lot more shortcuts) at [http://crackberry.com/blackberry-101-beginners-guide-keyboard-shortcuts](http://crackberry.com/blackberry-101-beginners-guide-keyboard-shortcuts).
+There are a lot more of them, you can find a good article (and a lot more shortcuts) at [http://crackberry.com/blackberry-101-beginners-guide-keyboard-shortcuts](http://crackberry.com/blackberry-101-beginners-guide-keyboard-shortcuts){target="_blank"}.

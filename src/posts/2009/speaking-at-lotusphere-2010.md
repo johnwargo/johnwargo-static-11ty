@@ -7,7 +7,7 @@ categories: [IBM Lotus Domino]
 tags: post
 ---
 
-![](images/stories/ls-10-168x64-b-b.gif)
+![](images/2009/ls-10-168x64-b-b.gif)
 
 I’m excited to announce that I’ve been selected to present two sessions at Lotusphere 2010.
 
@@ -17,12 +17,12 @@ Rob and I have been working on the outline for the session and it’s really beg
 
 Here's a link to the session abstract:
 
-[https://www-950.ibm.com/events/wwe/lotus/lsph2010.nsf/sessionabstract?openform&sessionid=BP212](https://www-950.ibm.com/events/wwe/lotus/lsph2010.nsf/sessionabstract?openform&sessionid=BP212)
+[https://www-950.ibm.com/events/wwe/lotus/lsph2010.nsf/sessionabstract?openform&sessionid=BP212](https://www-950.ibm.com/events/wwe/lotus/lsph2010.nsf/sessionabstract?openform&sessionid=BP212){target="_blank"}
 
 The other session I’m doing is called ‘_Beyond the Mobile Browser – Building Rich Mobile Applications for Domino._’ It’s really an extension of the first session. In this one, I’m going to demonstrate how to build several mobile rich client applications that talk to a Domino Database. The assumption here is that although the browser is cool and all – that sometimes the browser isn’t sufficient for your application. Perhaps the user needs to manipulate data while disconnected from the network (on a plane for example or when in a business location without wireless coverage) or integrate with other applications on the device (such as the contacts, tasks or messages application). This session is an new and improved version of a session I did at the View Domino Administrator/Developer Conference in Boston earlier this year. I’m going to be building a rich client in Java (for the BlackBerry platform), Windows Mobile and probably Android. I’d like to do iPhone, but I don’t have a Macintosh and just don’t have the relevant skills right now.
 
 Here's a link to the session abstract:
 
-[https://www-950.ibm.com/events/wwe/lotus/lsph2010.nsf/sessionabstract?openform&sessionid=AD114](https://www-950.ibm.com/events/wwe/lotus/lsph2010.nsf/sessionabstract?openform&sessionid=AD114)
+[https://www-950.ibm.com/events/wwe/lotus/lsph2010.nsf/sessionabstract?openform&sessionid=AD114](https://www-950.ibm.com/events/wwe/lotus/lsph2010.nsf/sessionabstract?openform&sessionid=AD114){target="_blank"}
 
 Anyway, both sessions should be high energy, very interesting sessions. Please plan on attending if you’re at Lotusphere. The sample code for the applications will be posted to this site in January during the conference.

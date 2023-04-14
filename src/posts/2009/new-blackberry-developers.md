@@ -7,11 +7,11 @@ categories: [BlackBerry]
 tags: post
 ---
 
-My wife pointed me to a [BlackBerry Forums post](http://supportforums.blackberry.com/rim/board/message?board.id=java_dev&thread.id=36729) this morning from a developer looking for information on how to get started with BlackBerry Development. The resposnes were that no good books existed and that all you needed was access to the BlackBerry Developer's web site and the JavaDocs for the Java development tools. I happen to not agree. While RIM has a lot of great information on their web site, most of it was written from the standpoint that you kinda already know what you're doing. There is some development 101 stuff there, but there's no place to find everything there is to know about how to build BlackBerry applications.
+My wife pointed me to a [BlackBerry Forums post](http://supportforums.blackberry.com/rim/board/message?board.id=java_dev&thread.id=36729){target="_blank"} this morning from a developer looking for information on how to get started with BlackBerry Development. The responses were that no good books existed and that all you needed was access to the BlackBerry Developer's web site and the JavaDocs for the Java development tools. I happen to not agree. While RIM has a lot of great information on their web site, most of it was written from the standpoint that you kinda already know what you're doing. There is some development 101 stuff there, but there's no place to find everything there is to know about how to build BlackBerry applications.
 
 That's why I wrote the book.
 
-One of the forum members had posted a link to a [list of (very useful) links](http://supportforums.blackberry.com/rim/board/message?board.id=java_dev&thread.id=13264&jump=true) for a BlackBerry Developer, but they focused on Java Development. when I replied with information about my book, he responded with:
+One of the forum members had posted a link to a [list of (very useful) links](http://supportforums.blackberry.com/rim/board/message?board.id=java_dev&thread.id=13264&jump=true){target="_blank"} for a BlackBerry Developer, but they focused on Java Development. when I replied with information about my book, he responded with:
 
 > "IMHO this information is far more better than any existing book on bb development. Long time ago when I started with BB development I had only JDE samples at hands. And it (with RIM API javadocs) was more than enough to study this technology."
 
@@ -33,6 +33,6 @@ There is still a whole ton of ancillary information that must be understood befo
 
 and a whole bunch more. You can't just stare at the sample code or the JavaDocs and understand BlackBerry Development. You need more - and that's just what my book provides.
 
-Check it out when you get a chance: [www.bbdevfundamentals.com](http://www.bbdevfundamentals.com).
+Check it out when you get a chance: [www.bbdevfundamentals.com](http://www.bbdevfundamentals.com){target="_blank"}.
 
 Sorry about  the advertisement.

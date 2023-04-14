@@ -13,9 +13,10 @@ I knew it was a scam as soon as I read further: “Best of Business Award in the
 
 Here’s the text of the message:
 
-![](images/stories/internet scam 20091216.png)
+![Figure 1](/images/2009/internet-scam-20091216.png)
+Figure 1
 
-I started looking around to try to see if this message had anything in it that would help me understand the nature of the scam, but it didn’t look funky at all. I went to their web site and noticed that it was just a front for what looked like a fake organization. As soon as I saw the announcement that the company was funded by the Federal Government (in very poor English) I knew I had a confirmed scam. I searched around the Internet and found the following link: http://www.scam.com/showthread.php?p=806477 explaining the source of the scam.
+I started looking around to try to see if this message had anything in it that would help me understand the nature of the scam, but it didn’t look funky at all. I went to their web site and noticed that it was just a front for what looked like a fake organization. As soon as I saw the announcement that the company was funded by the Federal Government (in very poor English) I knew I had a confirmed scam. I searched around the Internet and found the following link: https://www.scam.com/showthread.php?p=806477 explaining the source of the scam.
 
 Apparently they give out these ‘awards’ and charge you an exorbitant fee for a plaque you can display in your place of business. I wonder how many unsuspecting people get duped by these guys or how many pay the fee for the plaque and don’t know any better.
 

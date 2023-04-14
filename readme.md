@@ -20,12 +20,14 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Footer
 * [x] Export latest Joomla! articles
 * [x] Copy post files to project
-* [ ] Copy image files to project
+* [x] Copy image files to project
 * [ ] Clean up exported articles (images, external links, hhtp// => https://)
+* [ ] Add descriptions to all articles
 * [ ] Do something with the galleries images (likely kill them)
 * [ ] Update article lists to use description where its available
 * [ ] Next/Previous Post buttons on Post page
 * [ ] List View pagination, show in-between pages
+* [ ] Delete unused images
 * [ ] RSS feed and link in menu
 * [ ] Sitemap (all pages && posts)
 * [ ] Section - Publications (books, articles, etc. from johnwargobooks.com)
@@ -39,7 +41,11 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [ ] Newsletter sign up
 * [ ] Automatically tweet and mastodon new posts?
 * [ ] Discussions
+* [ ] Statistics page show bar graph of posts/year
 
 ![Home Page](images/image-01.png)
 
 https://www.favicon-generator.org/
+
+
+{target="_blank"}

@@ -7,7 +7,7 @@ categories: [BlackBerry]
 tags: post
 ---
 
-I attended the the [BlackBerry Web Development webinar](http://supportforums.blackberry.com/t5/BlackBerry-Developer-s-Blog/BlackBerry-Developers-Webinar-Web-Development-and-Toolkits/ba-p/325108) today and it was interesting. they went through a good concise overview of web development then dug into the new web development tools. I'm always surprised though that the internal developers from RIM **NEVER** do live demos. Whenever they want to show how any of the technology works, they'd always fire up a recorded demo and play it. What's the fun in that? When I demonstrated the tools, I always did it live. 
+I attended the the [BlackBerry Web Development webinar](https://supportforums.blackberry.com/t5/BlackBerry-Developer-s-Blog/BlackBerry-Developers-Webinar-Web-Development-and-Toolkits/ba-p/325108) today and it was interesting. they went through a good concise overview of web development then dug into the new web development tools. I'm always surprised though that the internal developers from RIM **NEVER** do live demos. Whenever they want to show how any of the technology works, they'd always fire up a recorded demo and play it. What's the fun in that? When I demonstrated the tools, I always did it live. 
 
 Anyway, when the session wrapped up, there were a whole bunch of questions people sent in. Some were kinda lame (sorry) but some were really good. Mike Kirkup hopped on for the Q&A session and jumped in on some of the more political questions.
 

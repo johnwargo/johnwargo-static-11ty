@@ -9,4 +9,4 @@ tags: post
 
 I'd forgotten something even older than the MS-DOS books I posted about yesterday. Remember this? Also in my collection (I have two of them)
 
-![Old IBM PC Manuals](images/stories/charlie chaplin.jpg "Old IBM PC Manuals")
+![Old IBM PC Manuals](/images/2009/charlie-chaplin.jpg)

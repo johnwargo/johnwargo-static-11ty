@@ -11,8 +11,8 @@ Have you ever wanted an easy way to see what HTTP Header and CGI variables were 
 
 Here's a sample screen shot from a BlackBerry device illustrating what the application looks like:
 
-![](images/stories/jmw08_11.jpg "Header Dump Page")
+![Header Dump Page](images/2009/jmw08-11.jpg)
 
-I just posted an article about the application and the Domino database to my [BlackBerry Development Fundamentals](http://bbdevfundamentals.com/code-samples/header-dump-domino.html) site. Check it out when you get a chance (only if you're interested of course).
+I just posted an article about the application and the Domino database to my [BlackBerry Development Fundamentals](https://bbdevfundamentals.com/code-samples/header-dump-domino.html){target="_blank"} site. Check it out when you get a chance (only if you're interested of course).
 
 There's a piece of the application that shows what JavaScript information is available to the BlackBerry Browser - I noticed while I was working on the book that it isn't working on BlackBerry Device Software 4.6 and higher - sorry, but I haven't gotten around to fixing it yet.

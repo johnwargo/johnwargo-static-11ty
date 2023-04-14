@@ -10,10 +10,14 @@ tags: post
 I'm working on a BlackBerry Java application that uses the DeviceInfo class to determine information about the device the application is running on. The original version of the program I wrote used DeviceInfo.isInHolster() to determine whether the device is in the holster or not, but the documentation says that method has been deprecated. The problem is that it doesn't say what to use in its place (actually, I finally noticed the 'Deprecated' link at the top of the JavaDocs that listed the objects, methods and fields that had been deprecated but that's not the point of this story).  
   
 It turns out that the method has been implemented (of sorts) in net.rim.device.api.system.Sensor. Unfortunately, instead of returning a simple Boolean True or False, it has been implemented through a call to:  
-{codecitation class="brush: java; gutter: false"}  
-getState(Sensor.HOLSTER)  
-{/codecitation}Which returns an integer value.I struggled with this because I'm just not a day to day Java developer. What I missed in the docs was that it returns an integer and the possible states are Sensor.STATE\_IN\_HOLSTER and Sensor.STATE\_OUT\_OF\_HOLSTER. Here's what it said:  
-{codecitation class="brush: text; gutter: false"}  
+
+```java
+getState(Sensor.HOLSTER)
+```
+
+Which returns an integer value.I struggled with this because I'm just not a day to day Java developer. What I missed in the docs was that it returns an integer and the possible states are `Sensor.STATE_IN_HOLSTER` and `Sensor.STATE_OUT_OF_HOLSTER`. Here's what it said:  
+
+```text
 getState  
   
 public static int getState(int sensorId)  
@@ -28,11 +32,11 @@ Throws:
 IllegalArgumentException - If sensorId does not represent a supported sensor  
 Since:  
 JDE 4.6.0
-
-{/codecitation}
+```
 
 Anyway, I finally figured it out this morning with some help from Sanyu from RIM. Here's an application that uses a SensorListener to determine sensor state:  
-{codecitation class="brush: java; gutter: true;"}  
+
+```java
 package com.jwargo.SensorTest;  
   
 import net.rim.device.api.ui.UiApplication;  
@@ -76,5 +80,4 @@ setTitle(lblTitle);
 }  
   
 }
-
-{/codecitation}
+```

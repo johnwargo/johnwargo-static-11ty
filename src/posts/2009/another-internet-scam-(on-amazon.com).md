@@ -1,6 +1,6 @@
 ---
-title: Another Internet Scam (on Amazon.com)
-description: 
+title: A Book Scam on Amazon.com
+description: I encountered a vendor on Amazon 'selling' a copy of my book at a ridiculous price.
 date: 2009-11-24
 headerImage: 
 categories: [Miscellaneous]
@@ -9,20 +9,19 @@ tags: post
 
 As you may or may not know, BlackBerry Development Fundamentals was not actually my first book. If you’re reading this from my Amazon Author page, then it’s easy to see that.
 
-I was a Soccer (Football for those who know better) Official for about half of my life and on the day I retired and I left my last Referee meeting (it ended up being my next to last meeting, but that’s another story I’ll probably not share) I decided to write a book for brand new Soccer referees. I’d been a Referee Instructor, worked Professional matches (both Indoor and Outdoor) and travelled all across the US working games so I thought I had a lot of good insights to share.
+I was a Soccer (Football for those who know better) Official for about half of my life and on the day I retired and I left my last Referee meeting (it ended up being my next to last meeting, but that’s another story I’ll probably not share) I decided to write a book for brand new Soccer referees. I’d been a Referee Instructor, worked Professional matches (both Indoor and Outdoor) and traveled all across the US working games so I thought I had a lot of good insights to share.
 
-I know of many people who ‘decide’ to write a book but never do, but in this case, I promised myself that I’d actually write the book – and I did! I discussed it with my wife, spent some nights and a week of vacation and finished it. It actually took longer to lay it out in Adobe Framemaker and go through many review cycles than it did to write it.
+I know of many people who ‘decide’ to write a book but never do, but in this case, I promised myself that I’d actually write the book – and I did! I discussed it with my wife, spent some nights and a week of vacation and finished it. It actually took longer to lay it out in Adobe FrameMaker and go through many review cycles than it did to write it.
 
-Anyway, I wrote it and it’s published - it's called [What Now?: The Essential Guide for New Soccer Referees](http://www.amazon.com/gp/product/1419682334?ie=UTF8&tag=mcnsof-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1419682334)![](http://www.assoc-amazon.com/e/ir?t=mcnsof-20&l=as2&o=1&a=1419682334). It’s available on amazon.com and not many people have actually purchased it (although it is a great book if I do say myself). It’s targeted at brand new Soccer Referees – the ones who walk out of their first Referee clinic with glazed eyes and ask themselves ‘What now?’ The clinics are so chock full of information and there’s so much to know, that new referees leave and just don’t know what to do next. The book specifically covers that – starting the minute the clinic ends and taking you through to the beginning of your second game. I thought it was a pretty cool idea and many people who have read it have agreed.
+Anyway, I wrote it and it’s published - it's called [What Now?: The Essential Guide for New Soccer Referees](https://www.amazon.com/gp/product/1419682334?ie=UTF8&tag=mcnsof-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1419682334)![](http://www.assoc-amazon.com/e/ir?t=mcnsof-20&l=as2&o=1&a=1419682334){target="_blank"}. It’s available on amazon.com and not many people have actually purchased it (although it is a great book if I do say myself). It’s targeted at brand new Soccer Referees – the ones who walk out of their first Referee clinic with glazed eyes and ask themselves ‘What now?’ The clinics are so chock full of information and there’s so much to know, that new referees leave and just don’t know what to do next. The book specifically covers that – starting the minute the clinic ends and taking you through to the beginning of your second game. I thought it was a pretty cool idea and many people who have read it have agreed.
 
 Anyway, the reason I’m writing about the book here is because of this sort of scam going on at amazon.com that I just can’t figure out. The book’s on sale on amazon.com through a subsidiary called Book Surge. It’s publish on demand, so when you place an order for the book, they dig up the source file, print and bind a copy of the book, stuff it in an envelope (with an amazon.com label of course) and plunk it in the mail. Sounds pretty simple, doesn’t it?
 
 So here’s where the scam comes in – and I have to be honest and say that I really don’t understand it. Here it goes…
 
 You can buy the book brand new and in perfect shape (Perfect Bound even – it’s an industry term) for $14.95US. Seems pretty straight forward. Now, when you go to my book’s page here, you’ll see that there are vendors selling both new and used copies of the book. Take a look:
-
   
-![What Now? On Amazon.Com](images/stories/what now on amazon.jpg "What Now? On Amazon.Com")
+![What Now? On Amazon.Com](/images/2009/what-now-on-amazon.jpg)
 
 Now, what I don’t understand is why there are vendors out there selling the book for twice and even almost 3 times the standard price of the book? If you can get the book for $14.95, why would you buy it at $35.00 or more? It just doesn’t make sense. Now, if I was famous (I’m not) or if it was a special copy of the book (signed for example, which I know they aren’t – I know I haven’t signed any), it could be worth more money, but not what these places are charging.
 
