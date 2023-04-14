@@ -51,7 +51,7 @@ What should happen is the server sends a page to the browser with content announ
 
 The way to confirm what is being sent to the BlackBerry Browser by the web server is to view the page's source code. By looking at the page source, you can see exactly what the server sent and see if anything was sent at all. To view the page's source, open the application in the browser then hold down the keyboard's ALT key and type RBVS (which stands I think for RIM BlackBerry View Source). When you finish typing those four characters and release the ALT key, the BlackBerry source viewer application will open and display the source for the page as shown in Figure 1.
 
-![](images/stories/screenshot-nov1810-073702a.jpg)
+![](/images/stories/screenshot-nov1810-073702a.jpg)
 
 Figure 1 – The BlackBerry Browser Source Viewer
 
@@ -73,7 +73,7 @@ If the answer is yes and the device in question is running a version of the Blac
 
 If the answer is yes and the device in question is running BlackBerry Device Software 4.6 or higher, then the problem is very easy to fix. Even though BlackBerry Device Software 4.6 implemented a read-write DOM (rather than the read-only DOM from previous versions), JavaScript for some bizarre reason was turned off by default. You should be able to open browser options, enable JavaScript, reload the page in the browser and see that all is well with the application. With BlackBerry Device Software 6, Research In Motion finally enabled JavaScript by default.
 
-You can actually build your web site so it turns the JavaScript on by default, you can read about this feature in BlackBerry Development Fundamentals (www.bbdevfundamentals.com) or I've written an article about it here: [http://johnwargo.com/index.php/blackberry/programmatically-enabling-javascript-in-the-blackberry-browser.html.](index.php/blackberry/programmatically-enabling-javascript-in-the-blackberry-browser.html.)
+You can actually build your web site so it turns the JavaScript on by default, you can read about this feature in BlackBerry Development Fundamentals (www.bbdevfundamentals.com) or I've written an article about it here: [https://johnwargo.com/index.php/blackberry/programmatically-enabling-javascript-in-the-blackberry-browser.html.](index.php/blackberry/programmatically-enabling-javascript-in-the-blackberry-browser.html.)
 
 ### Conclusion
 

@@ -15,7 +15,7 @@ Fortunately for me, the folks at Adobe gave me a free USB battery at PhoneGap Da
 
 As the battery started to lose its charge, the warning shown in the figure below started to appear. Not a big deal, I like being notified that I’m running low on juice. The problem is that I couldn’t get the darn thing to go away.
 
-![BlackBerry Charge Warning](images/stories/2014/blackberry-10-battery-warning.png "BlackBerry Charge Warning") 
+![BlackBerry Charge Warning](/images/stories/2014/blackberry-10-battery-warning.png "BlackBerry Charge Warning") 
 
 Figure 1
 

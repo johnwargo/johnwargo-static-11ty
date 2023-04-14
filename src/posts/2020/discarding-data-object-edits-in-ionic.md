@@ -21,7 +21,7 @@ When this happened, I reached out again to Ionic and they provided me with a lit
 
 The app’s main screen looks like the following figure. It lists a couple of simple data object properties plus options for the traditional Ionic back button edit process plus a second option where the user can make changes to the data then cancel or save their changes.
 
-![](images/stories/2020/home.png)
+![](/images/stories/2020/home.png)
 
 I also recorded a video demonstration of the app at [https://www.youtube.com/watch?v=nJPmmxR8\_iY](https://www.youtube.com/watch?v=nJPmmxR8_iY)
 

@@ -13,7 +13,7 @@ Notice I’m calling it spam and not SPAM or Spam. In an email context, spam is 
 
 Anyways, spammers have been trying all sorts of tricks to get past filters, and it’s always interesting to see how it works inside. This morning I received the following email message.
 
- ![](images/stories/2013/spam-1-10-28-2013_640.png)
+ ![](/images/stories/2013/spam-1-10-28-2013_640.png)
 
 Figure 1
 
@@ -23,7 +23,7 @@ Looking at the email, you can see that the email content is in a san serif font 
 
 Anyway, I always look at the email message source to make sure and when I looked at the source for this message, I found the following:
 
-![](images/stories/2013/spam-2-10-28-2013_640.png) 
+![](/images/stories/2013/spam-2-10-28-2013_640.png) 
 
 Figure 2
 
@@ -31,7 +31,7 @@ The way to tell that this email did not come from PayPal is through the links to
 
 Notice too the link to ‘validate my account info’ – this one is the tricky part. If you look at this, you should notice immediately that it looks like it is pointing you to PayPal because the link points to paypal.com, right? Wrong. The link URL begins with paypal.com, but in reality, the URL is a very long and complicated subdomain of givarperu dot org. Anyone who thinks they know what they’re doing, including spam filters I think, will see that the URL begins with [https://paypal.com](https://paypal.com) and assume it’s pointing to PayPal when it is actually pointing to a server registered in Lima Peru, see the domain registration below.
 
-![](images/stories/2013/spam-3-10-28-2013.png)
+![](/images/stories/2013/spam-3-10-28-2013.png)
 
 Figure 3
 

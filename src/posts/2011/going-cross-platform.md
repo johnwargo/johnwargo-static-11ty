@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-I came across an article in APC Magazine this week that discusses problems developers have with cross platform mobile development. The article is called [Smartphone Devlopment: Going Cross Platform](http://apcmag.com/smartphone-development-going-cross-platform.htm) and what interested me was what was being said about iPhone development.
+I came across an article in APC Magazine this week that discusses problems developers have with cross platform mobile development. The article is called [Smartphone Devlopment: Going Cross Platform](https://apcmag.com/smartphone-development-going-cross-platform.htm) and what interested me was what was being said about iPhone development.
 
 There’s this perception in the market that since the iPhone platform is so cool and the apps are so beautiful, that it must be easy to develop for the platform. There’s so much bias out there in favor of the iPhone that it is hard to get an honest assessment without appearing bigoted against iPhone.  I did some iPhone development in preparation for a conference presentation last year and even though I had more than 20 years of experience as a professional software developer, the development approach to iPhone development and the archaic Objective-C were so hard to work with that I wasn’t able to finish the application in time for the conference session. I worked on it for weeks and weeks and had to give up because it was just incomprehensible to me.
 

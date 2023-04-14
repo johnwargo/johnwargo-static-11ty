@@ -13,4 +13,4 @@ I'd purchased a copy of Using Drupal and noticed that it contained a chapter on 
 
 The problem with Drupal is that although there are a ton of plug-ins available - very few of them (or at least very few of the ones I was using) have any sort of documentation. It's too bad, but as you probably know geeks just don't like writing documentation.
 
-I gave up and built the site using the [Book Library](http://ordasoft.com/Book-Library/booklibrary-basic.html){target="_blank"} module for Joomla.  It took me about an hour to completely build the site in Joomla. I hope I get another chance to try Drupal again - it's an amazing CMS, much more flexible and tunable than Joomla.
+I gave up and built the site using the [Book Library](https://ordasoft.com/Book-Library/booklibrary-basic.html){target="_blank"} module for Joomla.  It took me about an hour to completely build the site in Joomla. I hope I get another chance to try Drupal again - it's an amazing CMS, much more flexible and tunable than Joomla.

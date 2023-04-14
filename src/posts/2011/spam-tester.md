@@ -11,7 +11,7 @@ I run a WordPress blog and setup the registration option so friends and family (
 
 You've got to love it though when spammers register for your site and clearly identify themselves as spammers. Take a look at the following screen shot:
 
-![](images/stories/testspam.png)
+![](/images/stories/testspam.png)
 
 The person registered for the site and the email address they're using tells it like it is: someone testing some spamming software.
 

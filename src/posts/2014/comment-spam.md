@@ -11,7 +11,7 @@ I mentioned this on twitter a while back, but I’m consistently amazed by how m
 
 Anyway, I had some issues with the CAPTCHA on this site, and my comments plugin provider isn’t responding to any forum posts on the topic so I had to just leave the comments on and use the plugin’s moderation capabilities to weed out the spam. What’s interesting about this is that I generally only get spam on just one of my posts as shown in the figure below.
 
-![](images/stories/2014/comment-spam-1.png)
+![](/images/stories/2014/comment-spam-1.png)
 
 I don’t know what it is about that particular topic that attracts the spammers, but it sure does (to the tune of about 50 spam comments a week).
 

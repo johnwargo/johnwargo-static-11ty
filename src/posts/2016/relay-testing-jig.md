@@ -11,13 +11,13 @@ I’ve been doing a few projects lately that work with relays. One was a Particl
 
 Anyway, while browsing around on the Adafruit web site, I discovered their Perma-Proto boards ([https://www.adafruit.com/products/591](https://www.adafruit.com/products/591)). These things are breadboards (of a sort) that you solder components into. They’re a nice, easy way to quickly build projects in a more permanent way.
 
-![](images/stories/2016/adafruit-perma-proto-board.png)
+![](/images/stories/2016/adafruit-perma-proto-board.png)
 
 Figure 1 - Adafruit Proto-board - Image used with permission
 
 I bought a handful and they sat around for a while looking for something to do. As I wired up yet another LED configuration, I remembered these boards and started thinking. I decided to create a relay testing jig using a proto-board, some LEDs, resistors and a battery. You can see the finished project in the following figure.
 
-![](images/stories/2016/relay-testing-jig-cropped-640.png)
+![](/images/stories/2016/relay-testing-jig-cropped-640.png)
 
 Figure 2 - Relay Testing Jig
 
@@ -25,7 +25,7 @@ The battery provides power for each of the LEDs, but the negative wire to the LE
 
 Here's a rough circuit diagram. My long term goal (who knows, perhaps it will become a short term goal) is to learn how to use Fritzing. Once I do, I’ll come back and provide a circuit diagram for this project so you can easily create your own.
 
-![](images/stories/2016/relay-testing-jig.png)
+![](/images/stories/2016/relay-testing-jig.png)
 
 Figure 3 - Circuit Diagram
 

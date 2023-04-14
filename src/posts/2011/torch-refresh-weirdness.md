@@ -13,4 +13,4 @@ Yesterday morning though, I went into my office to begin my work day and found t
 
 Later in the day, I was trying to do something with it and it became unresponsive and hard to use. At one point, I was trying to do something and it took a while to catch up with what I was trying to do and it left itself in the state shown the following figure - weird.
 
-![screen capture of the BlackBerry Torch 9800 with rendering problems](images/stories/screenshot-jan1011-032943p.jpg "BlackBerry Torch 9800 Screen Weirdness")
+![screen capture of the BlackBerry Torch 9800 with rendering problems](/images/stories/screenshot-jan1011-032943p.jpg "BlackBerry Torch 9800 Screen Weirdness")

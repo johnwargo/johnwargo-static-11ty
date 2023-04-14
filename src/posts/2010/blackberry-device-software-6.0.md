@@ -19,6 +19,6 @@ First of all, the developer really can’t code to the OS, he or she codes to th
 
 If you take a look at the screen shot that follows, you’ll see that my BlackBerry Bold 9700 is running BlackBerry Device Software 5.0.0.405 (basically BlackBerry Device Software 5.0) and Platform 5.1.0.112. The platform then is the BlackBerry OS version.
 
-![BlackBerry Options Screen](images/stories/screenshot-jun2310-083122a.jpg "BlackBerry Options Screen")
+![BlackBerry Options Screen](/images/stories/screenshot-jun2310-083122a.jpg "BlackBerry Options Screen")
 
 If you look at this and think about what’s coming out in the next month or so, you should expect then that the above screen for a yet to be announced device would show v6.0.0.x (or something like that) for the BlackBerry Device Software and most likely a Platform of 5.2.x.x.x (which is the device OS).

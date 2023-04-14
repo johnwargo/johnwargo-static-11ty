@@ -15,7 +15,7 @@ I was in Madrid a while back (at the SAP SAPPHIRE NOW! & TechEd conferences) and
 
 Yeah, that’s a feature I want on my mobile device.
 
-![Calendar Entry](images/stories/2013/calendar-entry.png "Calendar Entry")
+![Calendar Entry](/images/stories/2013/calendar-entry.png "Calendar Entry")
 
 Figure 1
 
@@ -25,7 +25,7 @@ Anyway, I suddenly understood why my colleague missed the meeting. He was in a d
 
 I poked around at this for a while and I finally found the answer. For some bizarre reason, Apple iOS doesn’t show appointments on your calendar at the correct time unless you change one of the settings on the device. Take a look at Figure 2, it shows Calendar settings under the General tab, notice the setting labeled ‘Time Zone Support’? Well, when you turn that setting off, the device shows appointments using the current time zone set on the device.
 
-![iOS Calendar Settings](images/stories/2013/ios_calendar_settings.png "iOS Calendar Settings")
+![iOS Calendar Settings](/images/stories/2013/ios_calendar_settings.png "iOS Calendar Settings")
 
 Figure 2
 

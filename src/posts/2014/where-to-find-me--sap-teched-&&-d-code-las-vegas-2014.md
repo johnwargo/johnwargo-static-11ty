@@ -25,7 +25,7 @@ I’ll also be available for a networking session entitled “_Hybrid Developmen
 
 I have a second networking session with Senthil Krishnapillai entitled “_Use the SAP Fiori User Experience for Improved Connectivity and Security_” scheduled for Thursday, October 23, 2014 from 3:30 PM to 4:00 PM. In this session, we’ll cover how to enhance the security of SAP Fiori on mobile devices.
 
-The remainder of my time, however much that will be, will be spent at the Fiori Café talking about [Fiori Mobile](http://scn.sap.com/community/mobile/blog/2014/10/13/update-on-fiori-mobile). Come by the Café to learn more about SAP Fiori, a lot of subject matter experts will be on hand to answer your questions.
+The remainder of my time, however much that will be, will be spent at the Fiori Café talking about [Fiori Mobile](https://scn.sap.com/community/mobile/blog/2014/10/13/update-on-fiori-mobile). Come by the Café to learn more about SAP Fiori, a lot of subject matter experts will be on hand to answer your questions.
 
 I will have a few copies of my latest book on hand, so I’ll likely raffle them off in my sessions.  Who knows, perhaps you can leave with a copy.
 

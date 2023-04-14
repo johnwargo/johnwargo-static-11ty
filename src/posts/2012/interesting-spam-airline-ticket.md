@@ -11,7 +11,7 @@ I just received yet another interesting spam message in my inbox. Well actually 
 
 Anyways, here’s a screen shot of the email.
 
-![](images/stories/2012/spam_20120402.png)
+![](/images/stories/2012/spam_20120402.png)
 
 Figure 1
 

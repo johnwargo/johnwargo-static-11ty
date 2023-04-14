@@ -22,7 +22,7 @@ Every week or so, I receive the same email from the FatCow Security team:
 
 During a routine scan, the security team at FatCow discovered infected files in your "account\_name" account. Typically, these security vulnerabilities are due to the presence of an outdated application or script in your account.
 
-You can view a list of the infected files in the /stats directory of your account, in a file named 'websitescan.txt.' You can find more information on how to access this file, interpret its contents, and remove infected files in the article below: [http://www.fatcow.com/knowledgebase/beta/article.bml?ArticleID=437](http://www.fatcow.com/knowledgebase/beta/article.bml?ArticleID=437)
+You can view a list of the infected files in the /stats directory of your account, in a file named 'websitescan.txt.' You can find more information on how to access this file, interpret its contents, and remove infected files in the article below: [https://www.fatcow.com/knowledgebase/beta/article.bml?ArticleID=437](https://www.fatcow.com/knowledgebase/beta/article.bml?ArticleID=437)
 
 Please make sure to check any file backup(s) you have for a clean copy of the infected files. If you have clean copies, you can upload those. If not, once you get the infected files cleaned or removed, we recommend you keep regular backups of your website going forward
 
@@ -124,7 +124,7 @@ What I’d like to see is them trying to actually block the hackers from trying 
 
 Anyway, I took a look at the admin tools console and noticed the following:
 
-![Website login surge](images/stories/2016/website-login-surge-640.png) 
+![Website login surge](/images/stories/2016/website-login-surge-640.png) 
 
 Figure 1
 

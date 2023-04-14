@@ -9,7 +9,7 @@ tags: post
 
 I’ve always been surprised at how major brands and larger organizations ignore smartphone users in their email blasts. I’m an American Express customer and get email promotions from them on a regular basis. When I open one of their messages, I see something similar to the screen shot shown below.
 
-![](images/stories/2013/promotional_email1.png)
+![](/images/stories/2013/promotional_email1.png)
 
 Figure 1
 
@@ -19,6 +19,6 @@ I need to do some testing on this, but since the email is in HTML format, can’
 
 In my mind, BlackBerry was the worst offender – take a look at the following screen shot. This was taken a while ago, but it was an email to BlackBerry users, with specific instructions that the message would look best on a desktop computer. At least they moved the content to the left margin so the email is at least readable on a mobile device.
 
-![](images/stories/2011/rim_email2.png)
+![](/images/stories/2011/rim_email2.png)
 
 Figure 2

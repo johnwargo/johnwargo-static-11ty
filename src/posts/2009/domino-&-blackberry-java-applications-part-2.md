@@ -43,13 +43,13 @@ Now that you have the toolkit installed, it’s time to build the Java stub you 
 To make sure your service is working, you should open the service’s WSDL in the browser using the following URL:
 
 ```text
-http://server-name/db-name.nsf/domdirlookup?wsdl
+https://server-name/db-name.nsf/domdirlookup?wsdl
 ```
 
 Be sure to use the correct server name, database file name and service name for your implementation of the service. For my test environment, the WSDL URL looks like this:
 
 ```text
-http://jwargo1/bb\_names.nsf/domdirlookup?wsdl
+https://jwargo1/bb\_names.nsf/domdirlookup?wsdl
 ```
 
 When I paste this URL into the browser, I will see the following page (or something similar):  
@@ -232,7 +232,7 @@ public class DomDirLookup\_Stub implements com.johnwargo.domdirlookup.DomDirLook
   
   public DomDirLookup\_Stub() {  
     \_propertyNames = new String\[\] {ENDPOINT\_ADDRESS\_PROPERTY};  
-    \_propertyValues = new Object\[\] {"http://jwargo1:80/bb\_names.nsf/domdirlookup?OpenWebService"};  
+    \_propertyValues = new Object\[\] {"https://jwargo1:80/bb\_names.nsf/domdirlookup?OpenWebService"};  
   }  
   
   public void \_setProperty(String name, Object value) {  

@@ -13,7 +13,7 @@ When designing a form or dialog, it's important to remember that if you're askin
 
 On the other hand, some sites require that the user make a decision or selection every time they access a site or an area in a site. I don't have a problem with that, sometimes it's necessary and the user just has to deal with it. An example of this is shown in Figure 1.
 
-![](images/stories/2015/hsa-web-form.png)
+![](/images/stories/2015/hsa-web-form.png)
 
 Figure 1
 

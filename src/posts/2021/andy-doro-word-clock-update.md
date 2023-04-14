@@ -9,7 +9,7 @@ tags: post
 
 When I first discovered [Andy Doro’s Word Clock](https://github.com/andydoro/WordClock-NeoMatrix8x8) project, I immediately fell in love with it and knew I had to build one. I quickly downloaded everything I needed, then ordered the enclosure pieces from [Ponoko](https://www.ponoko.com/).
 
-![](images/stories/2021/assembled.jpg)
+![](/images/stories/2021/assembled.jpg)
 
 The clock ran in our guest bathroom for more than a year before I noticed that the time was off. Looking into things, I realized that the temperature change in the bathroom (my son takes loooooong, hot showers) and the temperature sensitivity of the real-time clock (RTC) caused the time to shift.
 

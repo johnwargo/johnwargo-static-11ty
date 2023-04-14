@@ -7,7 +7,7 @@ categories: [Internet of Things (IoT)]
 tags: post
 ---
 
-If you’ve read my most recent stuff in Make Magazine ([4 Ways to Control Electronic Relays](https://makezine.com/2018/03/19/control-electronic-relays/)), you know I like working with relays. One of the projects I showed in that article is a garage door opener project I built using a [Particle Photon](https://www.particle.io/products/hardware/photon-wifi) and a relay controller from a company called Control Everything. I needed to build a couple of these devices for some family and friends, but my original relay board is no longer available. Control Everything is now [National Control Devices](http://ncd.io), and the small and simple Photon Relay board is now the [1-Channel 1-Amp SPDT Signal Relay Board + 7 GPIO with IoT Interface](https://store.ncd.io/product/1-channel-1-amp-spdt-signal-relay-board-7-gpio-with-iot-interface/).
+If you’ve read my most recent stuff in Make Magazine ([4 Ways to Control Electronic Relays](https://makezine.com/2018/03/19/control-electronic-relays/)), you know I like working with relays. One of the projects I showed in that article is a garage door opener project I built using a [Particle Photon](https://www.particle.io/products/hardware/photon-wifi) and a relay controller from a company called Control Everything. I needed to build a couple of these devices for some family and friends, but my original relay board is no longer available. Control Everything is now [National Control Devices](https://ncd.io), and the small and simple Photon Relay board is now the [1-Channel 1-Amp SPDT Signal Relay Board + 7 GPIO with IoT Interface](https://store.ncd.io/product/1-channel-1-amp-spdt-signal-relay-board-7-gpio-with-iot-interface/).
 
 Just in case you’re interested, here’s the specs (from the NCD website) on the new board:
 
@@ -49,7 +49,7 @@ So, if you [look at this image](https://media.ncd.io/sites/2/20170721142843/MCP2
 
 Normally I’d simply take a picture of my hardware, but I’ve already completed assembly of my project and I’d have to take it apart to grab a photo. I had a reason to take the project apart, so here’s a photo that shows how the Photon fits on the relay board.
 
- ![](images/stories/2018/ncd-relay-particle.png)
+ ![](/images/stories/2018/ncd-relay-particle.png)
 
 Using the GPIO Ports
 --------------------

@@ -9,7 +9,7 @@ tags: post
 
 I’ve been having weird problems with the cordova prepare command and finally figured out the problem, so I thought I’d write about it here so others who are having the same problem can hopefully (although hope is not a strategy) find a resolution.
 
-I’m product manager for an SAP product which is essentially a set of SAP Mobile Platform (SMP) plugins for Apache Cordova. You can read about the product at [http://scn.sap.com/blogs/johnwargo/2013/09/22/sap-mobile-platform-and-apache-cordova](http://scn.sap.com/blogs/johnwargo/2013/09/22/sap-mobile-platform-and-apache-cordova)) and [http://scn.sap.com/blogs/johnwargo/2013/10/21/an-introduction-to-smp-kapsel](http://scn.sap.com/blogs/johnwargo/2013/10/21/an-introduction-to-smp-kapsel).
+I’m product manager for an SAP product which is essentially a set of SAP Mobile Platform (SMP) plugins for Apache Cordova. You can read about the product at [https://scn.sap.com/blogs/johnwargo/2013/09/22/sap-mobile-platform-and-apache-cordova](https://scn.sap.com/blogs/johnwargo/2013/09/22/sap-mobile-platform-and-apache-cordova)) and [https://scn.sap.com/blogs/johnwargo/2013/10/21/an-introduction-to-smp-kapsel](https://scn.sap.com/blogs/johnwargo/2013/10/21/an-introduction-to-smp-kapsel).
 
 Anyways, I’m working on a Kitchen Sink application which shows developers how to use all of the Kapsel plugins and I noticed that some of the plugins simply weren’t working. Looking into the problem, it became clear to me that the plugin JavaScipt source code wasn’t being copied over to the Android project during the cordova prepare process.
 

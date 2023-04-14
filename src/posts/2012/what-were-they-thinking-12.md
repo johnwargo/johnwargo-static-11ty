@@ -18,7 +18,7 @@ It just doesn’t make sense – why do they continue to produce unusable applic
 
 Let’s take a look at the app. When I first launched the application, I saw what’s shown in Figure 1.
 
-![BlackBerry World Application Screen Shot 1](images/stories/2012/bbworld_app_2012_1.png)
+![BlackBerry World Application Screen Shot 1](/images/stories/2012/bbworld_app_2012_1.png)
 
 Figure 1
 
@@ -28,7 +28,7 @@ Taking a hint from Windows or Mac OS, disabled options usually appear without an
 
 This particular effect is even more prominent in the BlackBerry 10 Jam application shown in the figure below. In this example, the icons look even worse. Clearly nothing except for ‘Share This’ is a valid option, right?  The dull grey tone of the remaining icons on the screen screams ‘this option is disabled.’
 
-![BlackBerry World Application Screen Shot 2](images/stories/2012/bbworld_app_2012_2.png)
+![BlackBerry World Application Screen Shot 2](/images/stories/2012/bbworld_app_2012_2.png)
 
 Figure 2
 
@@ -40,7 +40,7 @@ Whoever developed this application didn’t take into account users like me who 
 
 When you scroll down the page, you see what I’m showing in Figure 3. Why did the developer feel the need to use a background graphic that’s far bigger than what is needed for the application? When you scroll to the bottom of the icon list, it should stop immediately below the last screen element displayed. It should not take up so much additional space on the screen. There’s no need to waste the space like this.
 
-![BlackBerry World Application Screen Shot ](images/stories/2012/bbworld_app_2012_3.jpg)
+![BlackBerry World Application Screen Shot ](/images/stories/2012/bbworld_app_2012_3.jpg)
 
 Figure 3
 
@@ -48,7 +48,7 @@ Now, I know the developer setup that background image to accommodate all of the 
 
 All that aside, I can’t seem to use the application since when I start it, I get the following error and I can’t do anything with my schedule.
 
-![BlackBerry World Application Screen Shot 4](images/stories/2012/bbworld_app_2012_4.png)
+![BlackBerry World Application Screen Shot 4](/images/stories/2012/bbworld_app_2012_4.png)
 
 Figure 4
 

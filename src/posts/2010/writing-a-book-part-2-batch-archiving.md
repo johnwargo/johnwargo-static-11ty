@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-![](images/stories/book.jpg)As I mentioned in the first article in this series ([here](index.php?option=com_content&view=article&id=194:writing1&catid=9&Itemid=17)), I needed a way to have a sort of version control system (VCS) without installing a version control system. I wanted something simple, something that would work regardless of whether I was connected to a network. What I decided to do was use the batch file processing capabilities of [WinZip](http://www.winzip.com) to create complete backups of the manuscript (including all documents and images). With this system in place, I could execute the batch process at the end of any editing session (or in the middle if I had a lot of changes) and have a complete backup of everything in case I needed to revert to some older version or dig up some old content I’d deleted and shouldn’t have.
+![](/images/stories/book.jpg)As I mentioned in the first article in this series ([here](index.php?option=com_content&view=article&id=194:writing1&catid=9&Itemid=17)), I needed a way to have a sort of version control system (VCS) without installing a version control system. I wanted something simple, something that would work regardless of whether I was connected to a network. What I decided to do was use the batch file processing capabilities of [WinZip](https://www.winzip.com) to create complete backups of the manuscript (including all documents and images). With this system in place, I could execute the batch process at the end of any editing session (or in the middle if I had a lot of changes) and have a complete backup of everything in case I needed to revert to some older version or dig up some old content I’d deleted and shouldn’t have.
 
 Before I begin, it’s probably important to let you know that while I was working on the manuscript and before I had a contract with a publisher, my working title for the book was Fundamentals of BlackBerry Application Development. Throughout this article and others in the series, you’ll probably notice that I named everything with the abbreviated version of the title: FoBAD. What’s funny though is that I also registered a web domain for the book as a placeholder. All of the options I wanted were already taken, so I went ahead and registered bbdevfundamentals.com. I figured I’d grab that domain and later, when I had the final title, at least I’d have a domain to use if the one connected to the official title was taken. As I negotiated with the publisher for the title, imagine my surprise when the final name my publisher came up with was BlackBerry Development Fundamentals which, when abbreviated, matched the name of the domain I already secured for the book’s site.
 
@@ -19,13 +19,13 @@ The requirements for the solution were:
 
 Now let’s dig into how to setup the batch process I needed for my project. When you open any of the later versions of WinZip in Classic mode, you’ll see a window similar to the one shown in Figure 1. You’ll need to click on the ‘Backup’ tab to expose the options you need to create batch processes.
 
-![](images/stories/winzip1.png)
+![](/images/stories/winzip1.png)
 
 Figure 1
 
 As highlighted in the figure, select ‘Create’ to create a new backup job. WinZip will prompt you to provide a file name for your backup job. I suggest you put the job somewhere else than the folder you will be backing up. Use either you’re my Documents folder or, as shown in the figure, a folder immediately above the folder you will be backing-up. In this case, I named the file FoBAD Backup.
 
-![](images/stories/winzip2.png)
+![](/images/stories/winzip2.png)
 
 Figure 2
 
@@ -33,61 +33,61 @@ With the WinZip job created, it’s time to start configuring the settings for t
 
 In the next part of the wizard, you’re prompted to identify the files and folders that are included and excluded from the backup job.  In this case, I want to backup the contents of my FoBAD folder, but I don’t want to have to store my backups somewhere else. So, I’m including the FoBAD folder but excluding my Backup folder (as shown in Figure 3. For the manuscript, I also had a folder where I stored all of the source code and research documentation I used as reference for the book. Since the content of that folder never got updated (only new items added to it) I didn’t feel the need to include those files in my backup – it would take up too much hard drive space to be useful and I can always replace the content through an internet search. You can see the folders I’m excluding by looking for the ‘Exc+Sub’ in the Action column in the figure.
 
-![](images/stories/winzip3.png)
+![](/images/stories/winzip3.png)
 
 Figure 3
 
 Click the ‘Select items…’ button to pick the items that are included and excluded from the backup job. The file selection dialog is shown in Figure 4. Place a check mark on the files or folders you want included.
 
-![](images/stories/winzip4.png)
+![](/images/stories/winzip4.png)
 
 Figure 4
 
 In the next step of the wizard, you can select which type of backup being performed. For my manuscript backup, I selected a normal backup which grabs all files regardless of the file’s archive attribute setting. You can also use settings that allow for an incremental backup, differential backup or an update (refresh the contents of an existing backup archive).
 
-![](images/stories/winzip5.png)
+![](/images/stories/winzip5.png)
 
 Figure 5
 
 Next the wizard prompts you to select some additional settings for the archive. I like to use the selection for relative folder information – that way I don’t end up with the full folder path in my archive. With relative folders set, only the folder structure information below the starting folder is included with each file.
 
-![](images/stories/winzip6.png)
+![](/images/stories/winzip6.png)
 
 Figure 6
 
 In the next step is where the batch processing capabilities of WinZip become most useful. As you can see in Figure 7, you can specify a root file name for the backup (in the ‘Zip File Name’ field) then append the current date and/or time to the file name as well.
 
-![](images/stories/winzip7.png)
+![](/images/stories/winzip7.png)
 
 Figure 7
 
 This feature supports additional options as shown in Figure 8.
 
-![](images/stories/winzip8.png)
+![](/images/stories/winzip8.png)
 
 Figure 8
 
 You can also click the ‘Subfolder Options…’ button to specify the output folder options shown in Figure 9.
 
-![](images/stories/winzip9.png)
+![](/images/stories/winzip9.png)
 
 Figure 9
 
 Or you can click the ‘Special Folders…’ button to specify the output folder options shown in Figure 10
 
-![](images/stories/winzip10.png)
+![](/images/stories/winzip10.png)
 
 Figure 10
 
 Clicking the next button gives you a summary of the job’s settings as shown in Figure 11.
 
-![](images/stories/winzip11.png)
+![](/images/stories/winzip11.png)
 
 Figure 11
 
 As this point, what I have is a backup job that backs up my manuscript folder but ignores the Backup and Research folders. The archive is called ‘FoBAD BackupFILEDATETIME.zip’ or ‘FoBAD BackupFILEDATETIME.zipx’ depending on which system I created the backup on. Figure 12 shows a snapshot of my Backup folder listing all of my backups.
 
-![](images/stories/winzip12.png)
+![](/images/stories/winzip12.png)
 
 Figure 12
 

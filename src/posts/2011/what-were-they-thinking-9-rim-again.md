@@ -11,7 +11,7 @@ For a long time now, I’ve been running a series on mobile applications, highli
 
 I received the following email this morning from Research In Motion. I’d signed up for updates, so they would notify me when new software was available for my device.  I thought it was a good idea to keep my BlackBerry device up to date and it was great to receive the notification.
 
-![](images/stories/2011/rim_email1.png)
+![](/images/stories/2011/rim_email1.png)
 
 Figure 1
 
@@ -25,7 +25,7 @@ What they did was format the message so it had a nice layout when opened in the 
 
 Here’s what the message looked like on my BlackBerry:
 
-![](images/stories/2011/rim_email2.png)
+![](/images/stories/2011/rim_email2.png)
 
 Figure 2
 

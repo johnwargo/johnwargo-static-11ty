@@ -7,9 +7,9 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-Linus Torvalds created a distributed revision control and source code management system called git: [http://en.wikipedia.org/wiki/Git\_(software)](http://en.wikipedia.org/wiki/Git_(software)). Git is pronounced like ‘get’, substituting an ‘i’ for the ‘e’ in get. The open source world has embraced it in a big way and it’s how you install most anything related to Apache Cordova.
+Linus Torvalds created a distributed revision control and source code management system called git: [https://en.wikipedia.org/wiki/Git\_(software)](https://en.wikipedia.org/wiki/Git_(software)). Git is pronounced like ‘get’, substituting an ‘i’ for the ‘e’ in get. The open source world has embraced it in a big way and it’s how you install most anything related to Apache Cordova.
 
-Git is also an English slang word for ‘a silly, incompetent, stupid, annoying, senile elderly or childish person’: [http://en.wikipedia.org/wiki/Git\_(slang)](http://en.wikipedia.org/wiki/Git_(slang)). I’m a huge Monty Python fan and learned about git from the (my favorite) Argument Clinic sketch ([http://www.youtube.com/watch?v=kQFKtI6gn9Y](http://www.youtube.com/watch?v=kQFKtI6gn9Y)).
+Git is also an English slang word for ‘a silly, incompetent, stupid, annoying, senile elderly or childish person’: [https://en.wikipedia.org/wiki/Git\_(slang)](https://en.wikipedia.org/wiki/Git_(slang)). I’m a huge Monty Python fan and learned about git from the (my favorite) Argument Clinic sketch ([https://www.youtube.com/watch?v=kQFKtI6gn9Y](https://www.youtube.com/watch?v=kQFKtI6gn9Y)).
 
 I never quite made the connection between the two until recently.
 

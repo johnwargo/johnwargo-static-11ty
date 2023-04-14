@@ -17,11 +17,11 @@ Then I started thinking about Adobe Brackets. This code editor worked on Windows
 
 I started digging into the Brackets code to see how they’d done it. A while back, a colleague convinced me that Brackets was written in PhoneGap, but in reading around on the blogs it quickly became clear that it was created using the Chromium Embedded Framework ([https://code.google.com/p/chromiumembedded/](https://code.google.com/p/chromiumembedded/)).
 
-![](images/stories/2014/cef-site-640.png)
+![](/images/stories/2014/cef-site-640.png)
 
 Figure 1
 
-So, I started digging around in the CEF documentation and found a bunch of information. There was an introduction page at [https://code.google.com/p/chromiumembedded/](https://code.google.com/p/chromiumembedded/), a tutorial at [http://code.google.com/p/chromiumembedded/wiki/Tutorial](http://code.google.com/p/chromiumembedded/wiki/Tutorial) and some general usage stuff at [http://code.google.com/p/chromiumembedded/wiki/GeneralUsage.](http://code.google.com/p/chromiumembedded/wiki/GeneralUsage.) Nice! I love it when an open source project has actual guides (that’s one of the things I love about Apache Cordova).
+So, I started digging around in the CEF documentation and found a bunch of information. There was an introduction page at [https://code.google.com/p/chromiumembedded/](https://code.google.com/p/chromiumembedded/), a tutorial at [https://code.google.com/p/chromiumembedded/wiki/Tutorial](https://code.google.com/p/chromiumembedded/wiki/Tutorial) and some general usage stuff at [https://code.google.com/p/chromiumembedded/wiki/GeneralUsage.](https://code.google.com/p/chromiumembedded/wiki/GeneralUsage.) Nice! I love it when an open source project has actual guides (that’s one of the things I love about Apache Cordova).
 
 I quickly read through all of that material and quickly discovered that after reading all of it, I still didn’t understand how it ‘worked.’ The materials talked about where to download the stuff and how to build it, but nothing about how to ‘use’ it. The tutorial and usage guides talked about threads, callbacks, plugins and all sorts of stuff, but nothing about how to actually ‘use’ it. It’s clear that after I downloaded all of these files, I had something I could run and use, but how did I actually make it do what I wanted it to do?
 
@@ -34,7 +34,7 @@ Even the Brackets source didn’t help me as it’s just the source code for the
   
 Finally, I started searching around again to find some post or article somewhere that told me what I needed to do to make this thing my own. I finally stumbled on an article from Intel at [https://software.intel.com/en-us/html5/blogs/an-html5-project-with-chromium-embedded-framework.](https://software.intel.com/en-us/html5/blogs/an-html5-project-with-chromium-embedded-framework.) Here they told me exactly what I needed to do to make the CEF my own – open a configuration file and edit a particular variable to point it to the web application content you want to load.
 
-![](images/stories/2014/cef-intel-page.png)
+![](/images/stories/2014/cef-intel-page.png)
 
 Figure 2
 
@@ -50,7 +50,7 @@ Developers, please listen to me. When you’re documenting your stuff, assume no
 
 Want to hear a little confession from me? I’ve honestly never manipulated an XML document programmatically. Yep, that’s true. Want to know why? Because I could never figure out how to do so. When I first tried to do it in Delphi, there were some tools to help me do it, but no matter how hard I tried, I simply couldn’t find any documentation or example anywhere that showed me how to actually use the tools. The tool documentation clearly explained to me what methods and properties were available, but nowhere could I find anything that showed me how to create an object, assign it to some XML then retrieve properties from it. I’m sorry, but I’ve been a professional software developer for more than 30 years, but sometimes you simply have to show me how things work. I no longer have the patience to hack away at something for hours to figure it out.
 
-Back when I was doing Java development on BlackBerry, I was trying to figure out how to use KSOAP ([http://kobjects.org/ksoap2/index.html](http://kobjects.org/ksoap2/index.html)) to allow an application to consume XML-based web services. Like I said earlier, the docs explained the methods and properties, but never, nowhere, anywhere did it show me how to use any of it in a sentence. I wasn’t a heavy duty Java developer (never have been) so I simply didn’t have the background I need to be able to understand how to use this thing.
+Back when I was doing Java development on BlackBerry, I was trying to figure out how to use KSOAP ([https://kobjects.org/ksoap2/index.html](https://kobjects.org/ksoap2/index.html)) to allow an application to consume XML-based web services. Like I said earlier, the docs explained the methods and properties, but never, nowhere, anywhere did it show me how to use any of it in a sentence. I wasn’t a heavy duty Java developer (never have been) so I simply didn’t have the background I need to be able to understand how to use this thing.
 
 Again, I could have figured it out, but I had a wife, kids and some books to write, I simply didn’t have the bandwidth to plug through it in order to sort it out myself.
 

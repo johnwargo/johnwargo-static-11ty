@@ -9,4 +9,4 @@ tags: post
 
 I'm not sure what this means, but a former colleague shared this image with me. Apparently the Singapore Government Library web site has entries for some of my books. How cool is that?
 
-![](images/stories/2016/singapore-library.PNG)
+![](/images/stories/2016/singapore-library.PNG)

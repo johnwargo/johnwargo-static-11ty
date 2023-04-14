@@ -11,6 +11,6 @@ A few weeks ago [I posted an article](index.php?option=com_content&view=article&
 
 My point in the article is that everyone does fancy email blasts with lots of graphics and centered content. That simply doesn’t work for mobile devices and I wrote that post in an effort to get people to start thinking about the target audience and adjust their content accordingly. I noticed the other day that the smart folks at Evernote have it figured out, take a look at the email content in the following screen shot:
 
-![Evernote email content](images/stories/2013/evernote-email.png)
+![Evernote email content](/images/stories/2013/evernote-email.png)
 
 Notice that it used color and some font treatments, but that doesn’t detract from the email message’s readability on a small screen (like the BlackBerry used to take the screen shot). That’s the way it should be done!

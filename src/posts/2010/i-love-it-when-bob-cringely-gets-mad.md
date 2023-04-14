@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-Robert X Cringely used to publish on [www.pbs.org](http://www.pbs.org) and now publishes his own blog at [www.cringely.com](http://www.cringely.com/). He has done a bunch of cool things related to the PC industry over the years – including being the author of [Accidental Empires: How the Boys of Silicon Valley Make Their Millions, Battle Foreign Competition, and Still Can't Get a Date](http://www.amazon.com/gp/product/0887308554?ie=UTF8&tag=mcnsof-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0887308554)![](http://www.assoc-amazon.com/e/ir?t=mcnsof-20&l=as2&o=1&a=0887308554) which I really loved.
+Robert X Cringely used to publish on [www.pbs.org](https://www.pbs.org) and now publishes his own blog at [www.cringely.com](https://www.cringely.com/). He has done a bunch of cool things related to the PC industry over the years – including being the author of [Accidental Empires: How the Boys of Silicon Valley Make Their Millions, Battle Foreign Competition, and Still Can't Get a Date](https://www.amazon.com/gp/product/0887308554?ie=UTF8&tag=mcnsof-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0887308554)![](https://www.assoc-amazon.com/e/ir?t=mcnsof-20&l=as2&o=1&a=0887308554) which I really loved.
 
 Anyway, he writes about US Security every once in a while and recently published the following regarding how hard it was for US Officials to determine whether this Christmas Day Bomber was a terrorist:
 
@@ -17,4 +17,4 @@ Anyway, he writes about US Security every once in a while and recently published
 > 
 > How is it that we can run our credit card operations so well and our national security so poorly?”
 
-He’s right and has every right to be mad. Read the full article: [http://www.cringely.com/2010/01/predict-me-im-from-the-government.](http://www.cringely.com/2010/01/predict-me-im-from-the-government/)
+He’s right and has every right to be mad. Read the full article: [https://www.cringely.com/2010/01/predict-me-im-from-the-government.](https://www.cringely.com/2010/01/predict-me-im-from-the-government/)

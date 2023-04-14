@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-![Image of a PhoneGap application running on bada](images/stories/2012/jmw04_23.png)If you remember a while ago I published an article (which can be found [here](index.php?option=com_content&view=article&id=308:phonegap-a-samsung-bada&catid=14:mobile-development&Itemid=22)) that explained some of the issues I encountered trying to build and run a PhoneGap application for the Samsung bada OS. Well, with the help of the developer who wrote the bada code for PhoneGap I was able to finally figure it out, get it working and finished the bada chapter for PhoneGap Essentials.
+![Image of a PhoneGap application running on bada](/images/stories/2012/jmw04_23.png)If you remember a while ago I published an article (which can be found [here](index.php?option=com_content&view=article&id=308:phonegap-a-samsung-bada&catid=14:mobile-development&Itemid=22)) that explained some of the issues I encountered trying to build and run a PhoneGap application for the Samsung bada OS. Well, with the help of the developer who wrote the bada code for PhoneGap I was able to finally figure it out, get it working and finished the bada chapter for PhoneGap Essentials.
 
 First I’m going to complain a little and then I’ll tell you what you need to do to build PhoneGap applications for bada.
 
@@ -30,7 +30,7 @@ DISCLAIMER: THIS IMPLEMENTATION DOES NOT WORK WITH THE BADA 2.x SDK. ONLY 1.2 is
 
 So, in order to be able to use this for your bada applications, you will have had to already downloaded this older SDK (before Samsung pulled it from their web site). If you didn’t do that, you’re out of luck.
 
-I just noticed too that actual instructions for building bada applications for PhoneGap are now posted to the PhoneGap web site: [http://phonegap.com/start#bada.](http://phonegap.com/start#bada.)
+I just noticed too that actual instructions for building bada applications for PhoneGap are now posted to the PhoneGap web site: [https://phonegap.com/start#bada.](https://phonegap.com/start#bada.)
 
 Conclusion
 ----------

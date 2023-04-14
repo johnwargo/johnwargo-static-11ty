@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-I’m a big fan of open source content management systems (CMS) and I’ve built several web sites using Joomla!, Drupal and Concrete5 plus I experiment with many others. I’m also a huge fan of [FatCow](http://www.fatcow.com/join/index.bml?AffID=607551) and recommend them to anyone who is looking for a great hosting provider.
+I’m a big fan of open source content management systems (CMS) and I’ve built several web sites using Joomla!, Drupal and Concrete5 plus I experiment with many others. I’m also a huge fan of [FatCow](https://www.fatcow.com/join/index.bml?AffID=607551) and recommend them to anyone who is looking for a great hosting provider.
 
 With all of my experience with these tools, I was really frustrated a while back when I stopped being able to install many of these tools in my hosting account. My existing application installations worked great, I simply couldn’t install anything new. I would create a SQL database on my server, FTP the application’s files to a folder on the server then start the installation process only to have it fail. For the Joomla! 2.5 install for example, it would get to a page during the installation process and simply hang.  I looked in the server’s error logs and really couldn’t find specifics about what was going wrong.
 

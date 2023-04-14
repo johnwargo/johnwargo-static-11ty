@@ -15,21 +15,21 @@ For many years I’ve had a personal, family web site (different from this, my t
 
 For many years, since the late 1980’s actually, I’ve had this side company called McNelly SoftWorks www.mcnellysoftworks.com. Over the years, I’ve assigned all of my copyrights to the company and done any side work under the company’s name. Back in 2005, after I sold my shares in a Northeastern Ohio-based software and consulting firm, I ran McNelly SoftWorks as a full-time business and even created several commercial software products that are still available for sale today. About that time, I created a web site for the company using NetObjects Fusion – a web site generator that at the time was pretty interesting and cool (to me).
 
-One of the long-term items on my to-do list though was to migrate the company’s static web site I created using NetObjects Fusion to something more dynamic. I originally thought I’d create it using Joomla (www.joomla.org) or perhaps Concrete5 ([http://www.concrete5.org](http://www.concrete5.org)), but never got around to doing anything with it. Last week I finally got around to doing something with the site and I’m very happy with the results. The coolest thing, and the primary reason for this post, is that everything I did for the site was automatically mobile device friendly – simply because of the tools I selected to create the site.
+One of the long-term items on my to-do list though was to migrate the company’s static web site I created using NetObjects Fusion to something more dynamic. I originally thought I’d create it using Joomla (www.joomla.org) or perhaps Concrete5 ([https://www.concrete5.org](https://www.concrete5.org)), but never got around to doing anything with it. Last week I finally got around to doing something with the site and I’m very happy with the results. The coolest thing, and the primary reason for this post, is that everything I did for the site was automatically mobile device friendly – simply because of the tools I selected to create the site.
 
 Let me explain what I mean…
 
-Figure 1 shows the new McNelly SoftWorks web site I launched this weekend. The site was created using WordPress and a very simple and clean template I found called Tiga ([http://wordpress.org/extend/themes/tiga](http://wordpress.org/extend/themes/tiga)).
+Figure 1 shows the new McNelly SoftWorks web site I launched this weekend. The site was created using WordPress and a very simple and clean template I found called Tiga ([https://wordpress.org/extend/themes/tiga](https://wordpress.org/extend/themes/tiga)).
 
 As I setup the site, I wanted the company logo and a simple menu at the top and the content filling most of the rest of the page. For the products area, I added a sub-menu which I was very easily able to assign to the right column of the page with the article content listed on the left. Overall, I really loved the simplicity of the site and how clean the UI was. I worked Friday night and Saturday morning on the site and was very happy with the results.
 
-![McNelly SoftWorks web site](images/stories/2012/mcnelly_softworks_products_page_640.png)
+![McNelly SoftWorks web site](/images/stories/2012/mcnelly_softworks_products_page_640.png)
 
 Figure 1 – McNelly SoftWorks web site
 
 My son had a cub scouts meeting on Friday and as I waited for his meeting to wrap-up I fired up my BlackBerry browser to see how the site looked on the device’s smaller screen. I was very surprised to see that the site was completely mobile friendly and looked amazing on the BlackBerry.  Looking back, I noticed that the Tiga template was listed as being mobile friendly – I’d completely missed that when I selected it. Figure 2 shows the site on my BlackBerry Bold 9930 device browser.
 
-![McNelly SoftWorks Home Page on the BlackBerry Browser](images/stories/2012/wordpress%20site%20on%20blackberry%201.png)
+![McNelly SoftWorks Home Page on the BlackBerry Browser](/images/stories/2012/wordpress%20site%20on%20blackberry%201.png)
 
 Figure 2 – McNelly SoftWorks Home Page on the BlackBerry Browser
 
@@ -37,26 +37,26 @@ On the BlackBerry side, the BES or BIS services pre-process the web content auto
 
 When you open the products page shown in Figure 1, the ‘side’ menu gets added, but because of the limited real estate on the BlackBerry screen, it’s shifted by the template to immediately below the page content as shown in Figure 3.
 
-![McNelly SoftWorks Products Menu on the BlackBerry Browser](images/stories/2012/wordpress%20site%20on%20blackberry%202.png)
+![McNelly SoftWorks Products Menu on the BlackBerry Browser](/images/stories/2012/wordpress%20site%20on%20blackberry%202.png)
 
 Figure 3 – McNelly SoftWorks Products Menu on the BlackBerry Browser
 
-I tested every aspect of the site on the BlackBerry and it works great – what an excellent way to have both desktop and mobile friendly sites from a single template (without having to resort to the WordPress mobile Plug-in [http://wordpress.org/extend/plugins/wordpress-mobile-pack/](http://wordpress.org/extend/plugins/wordpress-mobile-pack/)).
+I tested every aspect of the site on the BlackBerry and it works great – what an excellent way to have both desktop and mobile friendly sites from a single template (without having to resort to the WordPress mobile Plug-in [https://wordpress.org/extend/plugins/wordpress-mobile-pack/](https://wordpress.org/extend/plugins/wordpress-mobile-pack/)).
 
 For those who would like to see the site on an Android device, take a look at Figure 4.
 
-![McNelly SoftWorks Products Menu on an Android Device](images/stories/2012/wordpress%20site%20on%20android.png)  
+![McNelly SoftWorks Products Menu on an Android Device](/images/stories/2012/wordpress%20site%20on%20android.png)  
 Figure 4 – McNelly SoftWorks Products Menu on an Android Device
 
 On an Android Tablet (Nexus 7 in this case), the site looks like what’s shown in Figure 5.
 
-![McNelly SoftWorks Products Menu on an Android Tablet](images/stories/2012/wordpress%20site%20on%20android%20tablet.png)
+![McNelly SoftWorks Products Menu on an Android Tablet](/images/stories/2012/wordpress%20site%20on%20android%20tablet.png)
 
 Figure 5 – McNelly SoftWorks Products Menu on an Android Tablet
 
 And, of course, for those of you who have to see this on an iOS device, Figure 4 covers that option.
 
-![McNelly SoftWorks Products Menu on an iOS Device](images/stories/2012/wordpress%20site%20on%20ios.png)
+![McNelly SoftWorks Products Menu on an iOS Device](/images/stories/2012/wordpress%20site%20on%20ios.png)
 
 Figure 6 – McNelly SoftWorks Products Menu on an iOS Device
 

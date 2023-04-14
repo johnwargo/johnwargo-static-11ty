@@ -28,7 +28,7 @@ Beginning with BlackBerry Device Software 4.2, Research in Motion added the abil
 
 After I left Research in Motion, I continued to present at the same conferences and added the Midwest Lotus User Group (MWLUG) conference to my standard tour. Because of the Web Services capabilities of Microsoft Visual Studio, it was pretty easy to add a demo of a Windows Mobile application to my presentations as well.
 
-The iPhone and Android platforms were released without the ability to connect to XML-based Web services, so I had to find a different way for those platforms to connect to Domino. Android includes the JSON libraries from [json.org](http://www.json.org), and there were several versions of JSON libraries for the iPhone platform up there as well, so I decided I’d use REST and JSON to accommodate Android and iPhone. At Lotusphere 2010, while recovering from pneumonia, I added an Android demo to the presentation and was even able to show an almost complete (I never finished it) iPhone example as well. At the conference I promised I’d publish an article here demonstrating how I built the Android application, so here it begins (finally). This article is the first part of a new series that’s all about how to use REST and JSON to mobilize Domino data on Android. There’ll be two articles in this series here, plus I’ll eventually publish an article in the View illustrating the iPhone application.
+The iPhone and Android platforms were released without the ability to connect to XML-based Web services, so I had to find a different way for those platforms to connect to Domino. Android includes the JSON libraries from [json.org](https://www.json.org), and there were several versions of JSON libraries for the iPhone platform up there as well, so I decided I’d use REST and JSON to accommodate Android and iPhone. At Lotusphere 2010, while recovering from pneumonia, I added an Android demo to the presentation and was even able to show an almost complete (I never finished it) iPhone example as well. At the conference I promised I’d publish an article here demonstrating how I built the Android application, so here it begins (finally). This article is the first part of a new series that’s all about how to use REST and JSON to mobilize Domino data on Android. There’ll be two articles in this series here, plus I’ll eventually publish an article in the View illustrating the iPhone application.
 
 The Sample Application
 ----------------------
@@ -38,7 +38,7 @@ In case you missed the first part of this series, the application we’re buildi
 About REST
 ----------
 
-REST stands for [Representational State Transfer](http://en.wikipedia.org/wiki/Representational_State_Transfer) and essentially it’s a form of Web Service where parameters for a request are sent on the URL to the server and the server’s response is returned in the body of the HTTP response typically in XML or JSON format although it could be in any format. RESTful Web Services are much easier to use then XML Web Services since it’s so much less work to call the service and there’s much less overhead when the data is returned as JSON rather than XML.
+REST stands for [Representational State Transfer](https://en.wikipedia.org/wiki/Representational_State_Transfer) and essentially it’s a form of Web Service where parameters for a request are sent on the URL to the server and the server’s response is returned in the body of the HTTP response typically in XML or JSON format although it could be in any format. RESTful Web Services are much easier to use then XML Web Services since it’s so much less work to call the service and there’s much less overhead when the data is returned as JSON rather than XML.
 
 About JSON
 ----------
@@ -57,28 +57,28 @@ JSON stands for JavaScript Object Notation and it’s a way of representing data
 
 In JSON, an array looks like this:
 
-![](images/stories/jsonarray.gif)  
+![](/images/stories/jsonarray.gif)  
 And an Object looks like this:
 
-![](images/stories/jsonobject.gif)  
+![](/images/stories/jsonobject.gif)  
 You’ll see how these apply in the following section.
 
-\*JSON Images shamelessly ‘borrowed’ from [www.json.org](http://www.json.org).
+\*JSON Images shamelessly ‘borrowed’ from [www.json.org](https://www.json.org).
 
 Designing the JSON Agent
 ------------------------
 
 In the Web Services version of the agent I created for the BlackBerry and Windows Mobile versions of the mobile application, I created a single service that supported two operations: GetUserList and GetUserDetails. Since the needs for this application were for there to be the same two operations and each operation would be called by a URL, it would seem to make sense to make a separate Domino web agent for each operation. Unfortunately, that approach would require two agents and a bunch of duplicated code between them, so I decided to create a single agent that exposed the two operations through a single interface. So, there is going to be a single Domino agent called by the mobile application and different results would be returned to the calling program depending on what information is passed on the URL to the Domino server.
 
-So, the URL a mobile application will be using to use the service will look like this:{codecitation class="brush:text; gutter:false"}http://server/database.nsf/domdirlookuprest?openagent&cmd=COMMAND&searchstr=SEARCHSTRING{/codecitation}
+So, the URL a mobile application will be using to use the service will look like this:{codecitation class="brush:text; gutter:false"}https://server/database.nsf/domdirlookuprest?openagent&cmd=COMMAND&searchstr=SEARCHSTRING{/codecitation}
 
 Where the ‘cmd=’ and ‘searchStr=’ portions of the URL are places where the calling program can pass in parameters to control what the service returns.
 
-To obtain a list of contacts whose last name begins with ‘war’, the mobile application will call the following URL:{codecitation class="brush:text; gutter:false"}http://server\_name/bbnames.nsf/domdirlookuprest?openagent&cmd=list&searchstr=war{/codecitation}
+To obtain a list of contacts whose last name begins with ‘war’, the mobile application will call the following URL:{codecitation class="brush:text; gutter:false"}https://server\_name/bbnames.nsf/domdirlookuprest?openagent&cmd=list&searchstr=war{/codecitation}
 
 In this case, the cmd is ‘list’ and the searchStr is ‘War’ – when the agent runs on the Domino server, it will return the following JSON array (assuming that there are two contacts defined in the database whose last names begin with War):{codecitation class="brush:text; gutter:false"}\["John Wargo", "Anna Wargo"\]{/codecitation}
 
-Once a mobile application’s user selects a contact, the agent is called again with the following URL:{codecitation class="brush:text; gutter:false"}http://localhost/bbnames.nsf/domdirlookuprest?openagent&cmd=details&searchstr=john+wargo{/codecitation}
+Once a mobile application’s user selects a contact, the agent is called again with the following URL:{codecitation class="brush:text; gutter:false"}https://localhost/bbnames.nsf/domdirlookuprest?openagent&cmd=details&searchstr=john+wargo{/codecitation}
 
 In this case, the cmd is ‘details’ and the searchStr is my contact name. When the agent runs on the Domino server, it will return the following JSON object (notice that the first call, the call to get the list, returns a JSON array, while the second call (for the details) returns an object):
 
@@ -95,7 +95,7 @@ That’s it, that’s all there is to the agent I’m showing you how to build i
 
 Probably asking yourself “Why not use the JSON capabilities already built into Domino to provide this functionality?” Well, Domino’s ability to generate JSON output is designed for rendering views in a format that’s easy for an application to process. Using the following URL:
 
-{codecitation class="brush:text; gutter:false"}http://server1/database.nsf.nsf/viewname?ReadViewEntries&OutputFormat=JSON{/codecitation}
+{codecitation class="brush:text; gutter:false"}https://server1/database.nsf.nsf/viewname?ReadViewEntries&OutputFormat=JSON{/codecitation}
 
 would cause the Domino server to render the view as JSON, it doesn’t help us here because we’re passing in search strings and trying to retrieve only one document. It could be done (I think) with a single category view, but taking that approach was much more work than I wanted to do.
 

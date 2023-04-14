@@ -19,7 +19,7 @@ It seems that most web applications today use the default HTML text input field 
 
 When the user places the cursor into this field on a mobile device, he or she will see something like what is shown in Figure 1. The user can type anything they want into the input field using the default input keyboard provided by the mobile device.
 
-![](images/stories/2015/email_input_1_640.png)
+![](/images/stories/2015/email_input_1_640.png)
 
 Figure 1
 
@@ -31,7 +31,7 @@ With HTML5, there's a special email input field you can invoke using:
 
 With this input type, the mobile browser automatically displays an email address-friendly keyboard as shown in Figure 2.
 
-![](images/stories/2015/email_input_2_640.png)
+![](/images/stories/2015/email_input_2_640.png)
 
 Figure 2
 

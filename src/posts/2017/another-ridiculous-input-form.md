@@ -9,7 +9,7 @@ tags: post
 
 Welcome to another installment of Stupid Developer Tricks. In this particular instance, I was filling out a form on a particular web site when I encountered the following:
 
-![](images/stories/2017/ridiculous-form-01.png)
+![](/images/stories/2017/ridiculous-form-01.png)
 
 Figure 1
 

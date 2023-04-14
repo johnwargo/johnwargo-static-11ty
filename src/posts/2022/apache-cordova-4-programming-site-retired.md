@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-![](images/AC4P-160.png)
+![](/images/AC4P-160.png)
 
 I shutdown the web site for my Apache Cordova 4 Programming book today. The book published way back in 2015, and Apache Cordova has evolved a lot since then.
 

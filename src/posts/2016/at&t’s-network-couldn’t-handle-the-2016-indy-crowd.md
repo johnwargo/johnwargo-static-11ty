@@ -15,7 +15,7 @@ Data service is blocked.
 
 Here’s a screen shot of the error:
 
-![](images/stories/2016/att-data-violation-cropped.png)
+![](/images/stories/2016/att-data-violation-cropped.png)
 
 Figure 1
 

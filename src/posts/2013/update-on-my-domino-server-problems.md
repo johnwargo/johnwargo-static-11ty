@@ -11,37 +11,37 @@ Thanks to all of you who helped out last week trying to help me fix my Domino co
 
 I updated the server document so it uses internet sites documents:
 
-![](images/stories/2013/domino%20problem%200.png)
+![](/images/stories/2013/domino%20problem%200.png)
 
 Figure 0
 
 I now have an Internet Sites document with the following information:
 
-![](images/stories/2013/domino%20problem%201.png)
+![](/images/stories/2013/domino%20problem%201.png)
 
 Figure 1
 
 On the Configuration tab, here’s where I’m enabling HTTP PUT and DELETE.
 
-![](images/stories/2013/domino%20problem%202.png)
+![](/images/stories/2013/domino%20problem%202.png)
 
 Figure 2
 
 When I open a browser and launch the Sencha Touch app, it renders its UI then connects to the Domino server to request the data using the RESTful agent I’ve created. Here’s the Domino log document for the GET request:
 
-![](images/stories/2013/domino%20problem%203.png)
+![](/images/stories/2013/domino%20problem%203.png)
 
 Figure 3
 
 After the browser receives the 401 error, it prompts me for the credentials then repeats the request to the Domino server as shown in the following figure:
 
-![](images/stories/2013/domino%20problem%204.png)
+![](/images/stories/2013/domino%20problem%204.png)
 
 Figure 4
 
 So far, expected behavior, right? When I edit a document in the Sencha Touch application, the Sencha Proxy tries to PUT the data back on the server and I get the following error:
 
-![](images/stories/2013/domino%20problem%205.png)
+![](/images/stories/2013/domino%20problem%205.png)
 
 Figure 5
 

@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-![](images/acac-cover-160.png)
+![](/images/acac-cover-160.png)
 
 I shutdown the web site for my Apache Cordova API Cookbook book today. The book came out in 2014, and Apache Cordova has evolved a lot since then. Many of the source code examples in the book may still be valuable to new Cordova developers, but I’ve not validated any of the code against current Cordova versions in many years.
 

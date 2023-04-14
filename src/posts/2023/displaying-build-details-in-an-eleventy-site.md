@@ -96,7 +96,7 @@ In your Eleventy project, Eleventy automatically makes the \`buildinfo.json\` fi
 
 When you look at the site, you’ll see this in the footer of every page:
 
-![](images/stories/2023/random-errors-footer.png)
+![](/images/stories/2023/random-errors-footer.png)
 
 I built this with the understanding that I would run this process locally on my development workstation. Once the process updates the package version and writes the JSON file, I can just commit the files to my local repo and synchronize them with the cloud. My hosting site, in this case [Netlify](https://www.netlify.com/) picks up the changes, generates the site (again), and publishes it.
 

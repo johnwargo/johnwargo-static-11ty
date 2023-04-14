@@ -128,7 +128,7 @@ Note: the only lines, I think, you really need are the following:
 
 Here’s where I learned this trick: [https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=80096](https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=80096).
 
-The next solution is a little easier and you can read about it here: [http://www.raspberrypi-spy.co.uk/2014/05/how-to-autostart-apps-in-rasbian-lxde-desktop](http://www.raspberrypi-spy.co.uk/2014/05/how-to-autostart-apps-in-rasbian-lxde-desktop). All you have to do is add an entry into a specific file and it will run your bash script at startup. Open a terminal window and execute the following command:
+The next solution is a little easier and you can read about it here: [https://www.raspberrypi-spy.co.uk/2014/05/how-to-autostart-apps-in-rasbian-lxde-desktop](https://www.raspberrypi-spy.co.uk/2014/05/how-to-autostart-apps-in-rasbian-lxde-desktop). All you have to do is add an entry into a specific file and it will run your bash script at startup. Open a terminal window and execute the following command:
 
 `sudo nano ~/.config/lxsession/LXDE-pi/autostart`
 
@@ -140,4 +140,4 @@ To save your changes, press ctrl-o then press the Enter key. Next, press ctrl-x 
 
 Here’s an example from a project I’m working on that opens two windows:
 
-![](images/stories/2016/pi-weather-monitor-startup-640.png)
+![](/images/stories/2016/pi-weather-monitor-startup-640.png)

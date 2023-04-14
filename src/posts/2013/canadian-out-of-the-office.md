@@ -33,4 +33,4 @@ Here are some fun facts about Canada that you may not already know:
 
 10\. Forget the Loch Ness Monster: Canada has its own mysterious lake creature, Ogopogo, who reportedly lives in Lake Okanagan, British Columbia.
 
-And my absolute favourite fact: Canadians consume more mac and cheese than any nation on earth (source: [http://www.canadiangeographic.ca/kids/fun-facts/](http://www.canadiangeographic.ca/kids/fun-facts/)).
+And my absolute favourite fact: Canadians consume more mac and cheese than any nation on earth (source: [https://www.canadiangeographic.ca/kids/fun-facts/](https://www.canadiangeographic.ca/kids/fun-facts/)).

@@ -11,7 +11,7 @@ Whenever I publish a book with my publisher, they always pick one chapter and po
 
 Get it? Please buy my books. I write them because I like to write and think I have a special skill when it comes to describing technical topics, but at the end of the day I like the extra income. Buy my books, please?
 
-Anyway, today, my publisher, Addison-Wesley/Pearson Education, published a chapter from my latest book. The book is called Apache Cordova API Cookbook, and they selected Chapter 1: An Introduction to Apache Cordova ([http://www.informit.com/articles/article.aspx?p=2235541](http://www.informit.com/articles/article.aspx?p=2235541)).
+Anyway, today, my publisher, Addison-Wesley/Pearson Education, published a chapter from my latest book. The book is called Apache Cordova API Cookbook, and they selected Chapter 1: An Introduction to Apache Cordova ([https://www.informit.com/articles/article.aspx?p=2235541](https://www.informit.com/articles/article.aspx?p=2235541)).
 
 The publisher usually consults with me on which chapter to publish – they typically ask me which one or ones I would suggest then go off and pick one then put it online. This time they simply picked one and went with it, so I didn’t have any say in what happened here.
 

@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-I’ve been trying to build a sample application using [Ionic](http://ionicframework.com/), an HTML5 framework specifically designed for hybrid applications. I read the instructions, downloaded the code and initiated the command to create a new project.
+I’ve been trying to build a sample application using [Ionic](https://ionicframework.com/), an HTML5 framework specifically designed for hybrid applications. I read the instructions, downloaded the code and initiated the command to create a new project.
 
 What happened? Failure.
 
@@ -19,7 +19,7 @@ Anyway, I started looking around for a potential culprit. My Android dev tools w
 
 When I tried the command again, I got the following…
 
-![](images/stories/2014/ionic-error-20140811-1.png) 
+![](/images/stories/2014/ionic-error-20140811-1.png) 
 
 Figure 1
 
@@ -39,7 +39,7 @@ Why would you tell me I’m running an older version of a tool only AFTER I’ve
 
 OK, so I updated the Ionic CLI and ran the command again, only to receive the same error – apparently the Ionic CLI can install Cordova plugins, but not their own as shown below.
 
-![](images/stories/2014/ionic-error-20140811-2.png) 
+![](/images/stories/2014/ionic-error-20140811-2.png) 
 
 Figure 2
 

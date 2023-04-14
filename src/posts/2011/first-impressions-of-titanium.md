@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-I've been poking around at [Appcelerator](http://www.appcelerator.com) Titanium for the last week or so and I have to admit that I'm really not impressed. It looked like a really interesting solution, but:
+I've been poking around at [Appcelerator](https://www.appcelerator.com) Titanium for the last week or so and I have to admit that I'm really not impressed. It looked like a really interesting solution, but:
 
 1.  There's absolutely no documentation - what 'documentation' they do have is nothing more than a sample application called Kitchen Sink that has examples of everything Titanium can do inside of it.
 2.  It took me hours (and I do mean hours) to get the kitchen sink demo to run in the Android simulator. I followed Einstein's definition of Crazy (doing the same steps over and over again expecting different results) before it finally just worked. There's no docs on how to run it, no instructions, nothing. You can find all sorts of posts on their help area from people who had the same experience I had. I finally found something that explained why it wasn't running. I implemented the fix and still couldn't get it to work. I created several new VM's with clean configs and finally on about the 6th try it finally worked.

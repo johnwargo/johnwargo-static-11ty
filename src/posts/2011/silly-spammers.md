@@ -15,7 +15,7 @@ In the last year, I’ve received a whole bunch of spam designed to look like th
 
 What’s funny is watching the spammers as they test their spamming software. I received the following email today:
 
-![](images/stories/2011/spam%2020111227.png)
+![](/images/stories/2011/spam%2020111227.png)
 
 Figure 1
 

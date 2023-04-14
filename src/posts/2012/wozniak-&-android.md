@@ -15,7 +15,7 @@ Even RIM, who hasn’t done a lot of smart things lately, was smart enough to st
 
 Anyway, iOS are cool devices, but unusable for someone who needs to actually manage a real inbox.
 
-I laughed out loud when I saw an article today entitled ‘_Steve Wozniak sings Android praises_’ located here: [http://www.tgdaily.com/mobility-brief/60837-steve-wozniak-sings-android-praises.](http://www.tgdaily.com/mobility-brief/60837-steve-wozniak-sings-android-praises.)
+I laughed out loud when I saw an article today entitled ‘_Steve Wozniak sings Android praises_’ located here: [https://www.tgdaily.com/mobility-brief/60837-steve-wozniak-sings-android-praises.](https://www.tgdaily.com/mobility-brief/60837-steve-wozniak-sings-android-praises.)
 
 My favorite quote from the article? Here ya go:
 

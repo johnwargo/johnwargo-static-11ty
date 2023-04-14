@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-I’m working on a project that involves graphing data from a MongoDB collection using Google Charts. For this particular project, I’m collecting weather data (temperature, humidity, and barometric pressure) data on a Raspberry Pi, storing it in a MongoDB collection and delivering a web interface for viewing and graphing the data. I’m built the web interface using Flask ([http://flask.pocoo.org/](http://flask.pocoo.org/)), so there’s some flaskness in the sample code.
+I’m working on a project that involves graphing data from a MongoDB collection using Google Charts. For this particular project, I’m collecting weather data (temperature, humidity, and barometric pressure) data on a Raspberry Pi, storing it in a MongoDB collection and delivering a web interface for viewing and graphing the data. I’m built the web interface using Flask ([https://flask.pocoo.org/](https://flask.pocoo.org/)), so there’s some flaskness in the sample code.
 
 As I worked on the part of the web app that graphs the weather data, I decided to use Google Charts as the client-side rendering library. I’d not worked with it before, so this seemed like a good way to learn it. As I poked and prodded at the Charts documentation, I learned that I had to deliver my data in a specific format for Google Charts to be able to make use of it, and the data coming out of the Python Mongo driver (pymongo) wasn’t giving me what I needed, or at least, wasn’t giving it to me in a usable format. I had find working, so I was able to get the data I needed from the collection, but it had to be reformatted before sending it to Google Charts.
 

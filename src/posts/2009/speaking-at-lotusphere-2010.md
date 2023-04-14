@@ -7,7 +7,7 @@ categories: [IBM Lotus Domino]
 tags: post
 ---
 
-![](images/2009/ls-10-168x64-b-b.gif)
+![](/images/2009/ls-10-168x64-b-b.gif)
 
 I’m excited to announce that I’ve been selected to present two sessions at Lotusphere 2010.
 

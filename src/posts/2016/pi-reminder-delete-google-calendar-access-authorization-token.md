@@ -11,7 +11,7 @@ Note: This article refers to an older version of the Pi Remind application. In a
 
 I’m in the process of changing jobs, so after I left my previous employer’s employment, I needed to reconfigure the Pi Reminder app to point it to my personal calendar profile instead of my work profile. If you remember the process, when you execute the Pi Reminder code on the Raspberry for the first time, it walks you through a process of authorizing the app to access your calendar (shown in Figure 1).
 
-![Google Calendar Authorization Page](images/stories/2016/pi-remind-delete-auth-00.png)
+![Google Calendar Authorization Page](/images/stories/2016/pi-remind-delete-auth-00.png)
 
 Figure 1 – Authorizing Pi Reminder to Access a Google Calendar
 
@@ -29,19 +29,19 @@ Start by opening a terminal window. Once there, execute the following command:
 
 The terminal will display the output shown in Figure 2 then open the Raspbian file manager application (shown in Figure 3), PCManFM.
 
-![Raspbian terminal window](images/stories/2016/pi-remind-delete-auth-01.png)
+![Raspbian terminal window](/images/stories/2016/pi-remind-delete-auth-01.png)
 
 Figure 2 – Raspbian Terminal Application
 
 In the file manager, navigate to the file system’s /root folder as shown in the figure then double-click the .credentials folder to open it.
 
-![Raspbian file manger window](images/stories/2016/pi-remind-delete-auth-02.png)
+![Raspbian file manger window](/images/stories/2016/pi-remind-delete-auth-02.png)
 
 Figure 3 – Raspbian File Manager
 
 Inside the folder is a file called pi\_remind.json (shown in Figure 4), that’s the file we’re looking for. Delete the file then close the file manager.
 
-![Raspbian file manager window](images/stories/2016/pi-remind-delete-auth-03.png)
+![Raspbian file manager window](/images/stories/2016/pi-remind-delete-auth-03.png)
 
 Figure 4 – Google API Access Token File
 

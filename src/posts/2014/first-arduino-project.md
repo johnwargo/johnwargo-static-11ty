@@ -14,9 +14,9 @@ Anyway, my son’s a gadget geek as well. He’s 10, so all he knows is smartpho
 Anyway, I’ve been playing around a bit with the Raspberry Pi (I’ve posted several articles here about my experiences) and I’ve always wanted to play with some programmable microcontrollers. My neighbor got me to take a look at some microcontrollers from Texas Instruments, but I’ve not done anything with them yet. I’m most interested in the Arduino, but again haven’t had time to play much with it...until now.
 
 My son and I were discussing possible geek projects to work on and we decided to trick out a…well, it’s a secret, but I’ll write about it as soon as I can. We decided we needed a very small package for this project and I knew the Arduino was going to be too big. So I started looking around at smaller versions of the Arduino to use. The first one I found was the Teensy ([https://www.pjrc.com/teensy/](https://www.pjrc.com/teensy/)), its super small, and I think this is the one we’ll ultimately use for our ‘project.’  
-I wanted to breadboard this out first, so I picked up an Arduino Micro ([http://arduino.cc/en/Main/arduinoBoardMicro](http://arduino.cc/en/Main/arduinoBoardMicro)) from Adafruit ([https://www.adafruit.com/products/1086](https://www.adafruit.com/products/1086)) – very nice, very small (although bigger than the super small Teensy). This one comes with headers (the Teensy doesn’t) and fits nicely into a breadboard as you can see from the following figure.
+I wanted to breadboard this out first, so I picked up an Arduino Micro ([https://arduino.cc/en/Main/arduinoBoardMicro](https://arduino.cc/en/Main/arduinoBoardMicro)) from Adafruit ([https://www.adafruit.com/products/1086](https://www.adafruit.com/products/1086)) – very nice, very small (although bigger than the super small Teensy). This one comes with headers (the Teensy doesn’t) and fits nicely into a breadboard as you can see from the following figure.
 
-![First Arduino Project](images/stories/2014/arduino-1.png "First Arduino Project")
+![First Arduino Project](/images/stories/2014/arduino-1.png "First Arduino Project")
 
 Figure 1
 

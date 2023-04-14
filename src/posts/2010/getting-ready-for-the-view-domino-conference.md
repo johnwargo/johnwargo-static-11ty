@@ -7,9 +7,9 @@ categories: [IBM Lotus Domino]
 tags: post
 ---
 
-![](images/stories/view-domino2010.gif)
+![](/images/stories/view-domino2010.gif)
 
-I've gotten involved with the [View Domino Admin/Developer Conference](http://www.viewadmin2010.com/eview/admin10bos.nsf/homepage?readForm) again this year. The 2010 conference will be held in Boston (as usual) and runs from May 12th through the 14th.
+I've gotten involved with the [View Domino Admin/Developer Conference](https://www.viewadmin2010.com/eview/admin10bos.nsf/homepage?readForm) again this year. The 2010 conference will be held in Boston (as usual) and runs from May 12th through the 14th.
 
 For this year's conference, I'm doing my Domino Rich Client application session I did last year at the conference and also this year at Lotusphere. Of course I have to change it up a bit between each session. In last year's View conference, I showed how to build a Domino Web Service (the same web service I've written about [here](index.php?option=com_content&view=article&id=45:dbja1&catid=3&Itemid=5)) then how to build a BlackBerry MDS Runtime application that talked to the service, a BlackBerry Java application and a Windows Mobile application.
 

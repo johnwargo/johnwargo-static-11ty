@@ -16,7 +16,7 @@ This project is an Arduino variant of the Pimoroni Firefly Light ([https://learn
 
 When I discovered the project, I thought it was really cool, but they threw a lot of hardware (a Raspberry Pi, two HATS and a battery) into the solution, so I wanted to see if I could build something with less parts and for less money. This version of project uses an Arduino compatible board (you could use most any Arduino for this project), a battery module and a battery. Here’s a video of the white twinkle lights ([https://vimeo.com/193441242](https://vimeo.com/193441242)) in action, and here’s a Christmas version ([https://vimeo.com/198351699](https://vimeo.com/198351699)) that uses Red and Green LEDs.
 
-![](images/stories/2017/arduino-twinkle-lights-figure-01.png)
+![](/images/stories/2017/arduino-twinkle-lights-figure-01.png)
 
 Figure 1 – White Twinkle Lights in a Jar
 
@@ -37,8 +37,8 @@ If you chose to use a different microcontroller, you can replace the Adafruit Pr
 
 For the white LED version, I used the following hardware:
 
-*   Ikea ENSIDIG Glass Jar ([http://www.ikea.com/us/en/catalog/products/10239888](http://www.ikea.com/us/en/catalog/products/10239888)).
-*   2 Ikea SÄRDAL LED light chain with 12 lights ([http://www.ikea.com/us/en/catalog/products/60277514](http://www.ikea.com/us/en/catalog/products/60277514)).
+*   Ikea ENSIDIG Glass Jar ([https://www.ikea.com/us/en/catalog/products/10239888](https://www.ikea.com/us/en/catalog/products/10239888)).
+*   2 Ikea SÄRDAL LED light chain with 12 lights ([https://www.ikea.com/us/en/catalog/products/60277514](https://www.ikea.com/us/en/catalog/products/60277514)).
 
 For the Christmas version, I used the following hardware:
 
@@ -53,37 +53,37 @@ Hardware Assembly
 
 Start by assembling the Adafruit Pro Trinket LiIon/LiPoly Backpack Add-On. To enable the use of a SPST switch to power on/off the board, cut the trace connecting the two holes highlighted in the following figure. This disconnects the board’s power output, but once you connect a switch between those two holes, you’ll be able to control power to the Trinket board.
 
-![](images/stories/2017/arduino-twinkle-lights-figure-02.png)
+![](/images/stories/2017/arduino-twinkle-lights-figure-02.png)
 
 Figure 2 - Adafruit Pro Trinket LiIon/LiPoly Backpack Add-On Board
 
 Solder the included headers to the Adafruit Pro Trinket LiIon/LiPoly Backpack Add-On. The header pins connect to the three holes in the lower-left corner of the board as shown in the previous figure. Insert the headers through the board from the bottom (the figure shows the board from a top view) and the black plastic part of the header is flush against the bottom of the board. The easiest way to do this is to insert the header pins in a breadboard, then mount the board on top for soldering as shown in the figure.
 
-![](images/stories/2017/arduino-twinkle-lights-figure-03.png)
+![](/images/stories/2017/arduino-twinkle-lights-figure-03.png)
 
 Figure 3 – Soldering the Header Pins to the Battery Charger
 
 Cut two short lengths of wire, then strip the ends and solder an end of each wire to the switch.
 
-![](images/stories/2017/arduino-twinkle-lights-figure-04.png)
+![](/images/stories/2017/arduino-twinkle-lights-figure-04.png)
 
 Figure 4 – Battery Charger and Switch
 
 Finally, solder the open wire ends to the switch holes (highlighted in red in Figure 2. Since the hardware will be bumped around in the glass jar, I placed shrink tubing around the solder connections to protect them from being shorted out.
 
-![](images/stories/2017/arduino-twinkle-lights-figure-05.png)
+![](/images/stories/2017/arduino-twinkle-lights-figure-05.png)
 
 Figure 5 Battery Charger Connected to the Switch
 
 Solder the Adafruit Pro Trinket LiIon/LiPoly Backpack Add-On onto the Arduino Pro Trinket 3V. The board mounts to the Battery, Ground and USB 5V pins shown in the upper-right corner of the board as shown in Figure 6.
 
-![](images/stories/2017/arduino-twinkle-lights-figure-06.png) 
+![](/images/stories/2017/arduino-twinkle-lights-figure-06.png) 
 
 Figure 6 – Adafruit Pro Trinket Pinouts
 
 To protect the USB connector on the Trinket board, I placed a small piece of electrical tape on top of the board’s USB connector. Figure 7 shows the completed board assembly.
 
-![](images/stories/2017/arduino-twinkle-lights-figure-07.png)
+![](/images/stories/2017/arduino-twinkle-lights-figure-07.png)
 
 Figure 7 – Completed Board Assembly
 
@@ -93,13 +93,13 @@ For the Adafruit color LEDs, use a Philips screwdriver to remove the screws from
 
 When you cut the wires, quickly tie a knot in the negative wire – that way, when you’re soldering the wires to the board in the next step, you’ll be able to tell which is which. In the strands I had, the positive wire was coated with a white stripe, so it was easy for me to tell the difference between the two wires (without knotting one of them).
 
-![](images/stories/2017/arduino-twinkle-lights-figure-08.png) 
+![](/images/stories/2017/arduino-twinkle-lights-figure-08.png) 
 
 Figure 8 – Colored LED Strand
 
 For the SÄRDAL LED light chain units, use a Philips screwdriver to remove the screws from both the top and bottom of the battery case. The LED strand connects to a circuit board inside the battery case, make note of which wires are connected to the battery's positive (+) and negative (-) terminals. As you can see from the following figure, the board is labeled with + and – symbols, so it’s easy to tell which wire is which. Tie a simple knot in the negative (-) wire– that way, when you’re soldering the wires to the board in the next step, you’ll be able to tell which is which.
 
-![](images/stories/2017/arduino-twinkle-lights-figure-09.png)
+![](/images/stories/2017/arduino-twinkle-lights-figure-09.png)
 
 Figure 9 – White LED Strand Battery Unit
 
@@ -109,7 +109,7 @@ Solder the wires from the LED strands to the appropriate pins on the Arduino Pro
 
 NOTE: The picture isn't acurate, when I built this unit, I soldered the wires to the WRONG HOLES. I've since fixed this, and need to take a new photo for here. Sorry.
 
-![](images/stories/2017/arduino-twinkle-lights-figure-10.png)
+![](/images/stories/2017/arduino-twinkle-lights-figure-10.png)
 
 Figure 10 – Completed Assembly
 
@@ -119,7 +119,7 @@ Connect the Trinket to your PC using a USB cable and download the project's comp
 
 Stuff the whole contraption into the jar, turn it on, and close the lid. You're done!
 
-![](images/stories/2017/arduino-twinkle-lights-figure-11.png)
+![](/images/stories/2017/arduino-twinkle-lights-figure-11.png)
 
 Figure 11 – The Christmas Version of the Project in Action
 
@@ -130,7 +130,7 @@ For the white lights, the strand is so long and the lights so large, that stuffi
 
 In Figure 11, the lights are rather small and the strand short, so the hardware stands out more prominently. The mason jar implementation provides an interesting option for mounting the hardware. I drilled some holes in the lid, and using two standoffs and screws, mounted the hardware to the underside of the lid. I then used two-sided tape to adhere the battery to the lid, underneath the microcontroller (see Figure 12). With this approach, you simply remove the top to charge the battery or flip the switch, reducing stress on the assembly.
 
-![](images/stories/2017/arduino-twinkle-lights-figure-12.png)
+![](/images/stories/2017/arduino-twinkle-lights-figure-12.png)
 
 Figure 12 – Mounting the Hardware to the Mason Jar Lid
 

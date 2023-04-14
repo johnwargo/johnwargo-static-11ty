@@ -7,7 +7,7 @@ categories: [Content Management Systems]
 tags: post
 ---
 
-I’ve upgraded a few sites lately from Joomla! 1.5 to Joomla! 2.5 using [jUpgrade](http://extensions.joomla.org/extensions/migration-a-conversion/joomla-migration/11658). The upgrade from 1.5 to 2.5 isn’t exactly an upgrade, it’s more of a migration, so you really have to use tools like jUpgrade to make it work.
+I’ve upgraded a few sites lately from Joomla! 1.5 to Joomla! 2.5 using [jUpgrade](https://extensions.joomla.org/extensions/migration-a-conversion/joomla-migration/11658). The upgrade from 1.5 to 2.5 isn’t exactly an upgrade, it’s more of a migration, so you really have to use tools like jUpgrade to make it work.
 
 JUpgrade installs as a Joomla! Component and adds its own options to the Joomla! Components  menu. It essentially downloads a version of Joomla! 2.5, installs it in a sub-folder from your original Joomla! 1.5 installation then copies ‘all’ of your stuff to the new site. At the end of the rather quick and painless process, you have two copies of your Joomla! site; one in the site’s original location and another in a sub-folder called ‘jupgrade’. You maintain access to your original site, but have this new version to work with to test to make sure everything migrated OK (it didn’t, trust me) and to upgrade your template, extensions and so on. Chances are your Joomla! 1.5 template won’t be compatible with Joomla! 2.5, so no matter what, you’ll have to acquire, install and configure an updated template in your upgraded (migrated) web site.
 
@@ -32,7 +32,7 @@ I also noticed that on several of my migrated sites, any Newsflash Module settin
 SH404SEF
 --------
 
-I use the [SH404SEF](http://anything-digital.com/sh404sef/seo-analytics-and-security-for-joomla.html) SEO, analytics and security module from Anything Digital on several of my sites. I noticed that during the jUpgrade migration process, something goes wrong and SH404SEF stops working correctly. For this site, I’ve not been able to resolve the issues I have – even with support from Anything Digital. If you look at links on this site, you’ll notice that I have the external link symbol appearing to let you, my readers, know when I’m sending you somewhere else. It’s a feature of the SH404SEF component and I like it. If you look at some of the articles that precede this one on the site, you’ll notice that some links (but not all) that point to external sites have the symbol but not others. I can’t figure it out nor can I fix it.
+I use the [SH404SEF](https://anything-digital.com/sh404sef/seo-analytics-and-security-for-joomla.html) SEO, analytics and security module from Anything Digital on several of my sites. I noticed that during the jUpgrade migration process, something goes wrong and SH404SEF stops working correctly. For this site, I’ve not been able to resolve the issues I have – even with support from Anything Digital. If you look at links on this site, you’ll notice that I have the external link symbol appearing to let you, my readers, know when I’m sending you somewhere else. It’s a feature of the SH404SEF component and I like it. If you look at some of the articles that precede this one on the site, you’ll notice that some links (but not all) that point to external sites have the symbol but not others. I can’t figure it out nor can I fix it.
 
 Recommendation is to completely uninstall SH404SEF before starting the migration, and then reinstall it later. I’m not sure it that will help, but it’s worth a try.
 

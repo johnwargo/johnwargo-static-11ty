@@ -11,7 +11,7 @@ As I posted last week, I’m working on a project on the Raspberry Pi. As I’m 
 
 As any hardware developer does, before I started, I made sure my Pi had the latest version of Raspian, the default OS for the Pi. In this case, I grabbed the latest version of Raspian from [https://www.raspberrypi.org/downloads/raspbian/](https://www.raspberrypi.org/downloads/raspbian/). In this case, it’s Raspian Jessie (February 2016) as shown in Figure 1.
 
-![](images/stories/2016/pi-node-express-1_640.png)
+![](/images/stories/2016/pi-node-express-1_640.png)
 
 Figure 1 – Raspian Download Page
 

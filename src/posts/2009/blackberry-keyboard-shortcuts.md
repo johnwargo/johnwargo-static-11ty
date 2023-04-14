@@ -44,4 +44,4 @@ So, when you’ve gotten off of a plane or left a meeting and you want to get ca
 
 I remember reading a comparison between BlackBerry and Windows Mobile and the reviewer complained about how ‘hard’ it was to press the ‘alt’ key to type a period at the end of every sentence. When typing any text on a BlackBerry, you can always press the space bar twice in succession to enter a period. When you press the key combination, the BlackBerry replaces the two spaces with a period and a space.  Makes it a lot easier, eh?
 
-There are a lot more of them, you can find a good article (and a lot more shortcuts) at [http://crackberry.com/blackberry-101-beginners-guide-keyboard-shortcuts](http://crackberry.com/blackberry-101-beginners-guide-keyboard-shortcuts){target="_blank"}.
+There are a lot more of them, you can find a good article (and a lot more shortcuts) at [https://crackberry.com/blackberry-101-beginners-guide-keyboard-shortcuts](https://crackberry.com/blackberry-101-beginners-guide-keyboard-shortcuts){target="_blank"}.

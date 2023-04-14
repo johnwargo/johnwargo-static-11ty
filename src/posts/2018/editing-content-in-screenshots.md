@@ -23,7 +23,7 @@ Using your browser’s developer tools, you can edit the content of any page. Wh
 
 Let me give you an example, since I work for Microsoft, I thought I’d use the Azure portal as an example. If you look at the following figure, you can see that the portal thinks my email address is joe dev at acmedynamite dot com and my user name is Joe Developer. Those aren’t my actual account details, I simply changed them before taking the screenshot.
 
-![Microsoft Azure Portal (modified)](images/stories/2018/web-content-editing-01.png "Microsoft Azure Portal (modified)")
+![Microsoft Azure Portal (modified)](/images/stories/2018/web-content-editing-01.png "Microsoft Azure Portal (modified)")
 
 Microsoft Azure Portal (modified)
 
@@ -34,7 +34,7 @@ Fixing URLs first
 -----------------
 
 If you’re going to include the browser’s address bar in your screenshot as I’ve done in the previous example, you must make sure you edit the URL to remove any personally identifiable information (PII). If, for example, your site’s URL was something like this:  
-[http://myimportantsite/somefolder/login&user=someconfidentialusername](http://myimportantsite/somefolder/login&user=someconfidentialusername)
+[https://myimportantsite/somefolder/login&user=someconfidentialusername](https://myimportantsite/somefolder/login&user=someconfidentialusername)
 
 You’ll should edit out the PII, replacing it with useful, but non-confidential data. For example, many sites use Globally Unique Identifiers (GUID) in URLs to help the server identify the resources, and those often end up in URLs. If you look at the previous figure, you can see that the name for an automatically generated mobile app resource I created in Azure consists of the word mobile plus a GID. Since the full, internal name for resources you use in your app are something you won’t want others accessing, when I take a screenshot of a page loading that particular resource, I’ll simply let the page load, then edit the URL displayed in the browser, removing any information others can use to access that resource, before taking the screenshot. The edited URL doesn’t affect anything, all the existing links on the page will continue to work as expected.
 
@@ -46,13 +46,13 @@ Google Chrome Dev Tools
 
 To ‘fix’ content on a page using the Chrome browser, open the browser to the page you want to screenshot. Next, open the Chrome developer tools (press Ctrl-Shift-I on Windows) then select the Elements tab (highlighted as step 1 in the following figure).
 
-![Chrome Developer Tools](images/stories/2018/web-content-editing-02.png "Chrome Developer Tools")
+![Chrome Developer Tools](/images/stories/2018/web-content-editing-02.png "Chrome Developer Tools")
 
 Chrome Developer Tools
 
 Use search to locate the text you want to edit; press Ctrl-F on Windows or Command-F on macOS, then type the text you want to find on the page (step 2 in the figure). Chrome will highlight the selected text on the page (step 3 in the figure).
 
-![Chrome Developer Tools: Searching Text](images/stories/2018/web-content-editing-03.png "Chrome Developer Tools: Searching Text")
+![Chrome Developer Tools: Searching Text](/images/stories/2018/web-content-editing-03.png "Chrome Developer Tools: Searching Text")
 
 Chrome Developer Tools: Searching Text
 
@@ -62,7 +62,7 @@ When you press the Enter key to end input, the page will update with your change
 
 You can also use the Chrome Inspector to locate the source for a particular element on the page. Click the icon highlighted in the following figure, then point to the page element you want to edit. The developer tools will highlight the selected text in the Elements pane - simply double-click on the text you want to edit and make your changes.
 
-![Chrome Developer Tools: Inspector](images/stories/2018/web-content-editing-04.png "Chrome Developer Tools: Inspector")
+![Chrome Developer Tools: Inspector](/images/stories/2018/web-content-editing-04.png "Chrome Developer Tools: Inspector")
 
 Chrome Developer Tools: Inspector
 
@@ -71,7 +71,7 @@ Firefox Dev Tools
 
 The Firefox developer tools work a little differently. Open the page you want to screenshot in Firefox, then press Ctrl-Shift-I to open the developer tools. Then use the search field highlighted in the following figure to find the content you want to edit. If your page has more than one instance of your search text, Firefox doesn’t display a visual mechanism to navigate between the different instances. Instead, press enter in the search field to navigate to the next instance.
 
-![Firefox Developer Tools](images/stories/2018/web-content-editing-05.png "Firefox Developer Tools")
+![Firefox Developer Tools](/images/stories/2018/web-content-editing-05.png "Firefox Developer Tools")
 
 Firefox Developer Tools
 
@@ -82,7 +82,7 @@ Edge Dev Tools
 
 In the Edge browser, things are about the same except that you press F12 to open the developer tools. Once there, you can use the search window highlighted in the following figure to find the text you want to update. Notice that for multiple search hits, Edge gives you arrows you can use to move between instances.
 
-![Microsoft Edge Developer Tools](images/stories/2018/web-content-editing-06.png "Microsoft Edge Developer Tools")
+![Microsoft Edge Developer Tools](/images/stories/2018/web-content-editing-06.png "Microsoft Edge Developer Tools")
 
 Microsoft Edge Developer Tools
 

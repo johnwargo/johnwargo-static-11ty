@@ -14,7 +14,7 @@ Thanks to all of you who helped out last week as I struggled to get my IBM Lotus
 
 Essentially, I was building a sample Sencha Touch application for an article series I’m writing for The View (www.eview.com) and the Sencha Touch proxy by default uses different HTTP request types for each of the CRUD operations. The Domino server was refusing PUT and DELETE even though there were settings in the Domino Directory which enabled the server to accept them as shown in the following figure:
 
-![](images/stories/2013/domino%20problem%202.png)
+![](/images/stories/2013/domino%20problem%202.png)
 
 Figure 1
 

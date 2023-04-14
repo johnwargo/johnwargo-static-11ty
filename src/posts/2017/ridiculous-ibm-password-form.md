@@ -12,7 +12,7 @@ I needed to make some changes to my IBM newsletter subscription recently, so I c
 
 When I clicked the “Reset My Password” link I received, I was presented with this form:
 
-![](images/stories/2017/ridiculous-ibm-password-form-01.png)
+![](/images/stories/2017/ridiculous-ibm-password-form-01.png)
 
 Figure 1
 
@@ -24,7 +24,7 @@ OK, this makes absolutely no sense. This is IBM, I know they produce security pr
 
 OK, so I thought for a while, and came up with the perfect password to use. As I started typing, the form changed to what you see below.
 
-![](images/stories/2017/ridiculous-ibm-password-form-02.png)
+![](/images/stories/2017/ridiculous-ibm-password-form-02.png)
 
 Figure 2
 
@@ -41,7 +41,7 @@ OK, so now I know I need an 8 character password, so I’m good, right?
 Nope, there’s another warning as well that I can’t figure out. It’s possible the form is telling me that I can’t use a previous password, but that’s not guaranteed since the message is vague. Is it warning me that I shouldn’t use a previous password or telling me that I can’t use a previous password? Also, when it tells me not to use another password, is that another password I used previously on this site? Or another password I’ve used anywhere else at any time? I can’t tell, can you?  
 Well, at this point, I’m going to wing it and start to enter the password I’ve picked for myself. As I type this password, the form changes yet again. Only now does it have more password requirement information for me.
 
-![](images/stories/2017/ridiculous-ibm-password-form-03.png)
+![](/images/stories/2017/ridiculous-ibm-password-form-03.png)
 
 Figure 3
 
@@ -49,7 +49,7 @@ So, apparently you have to keep adjusting the password you want to use as the pa
 
 Finally, after poking and prodding at the password, changing what I’m planning to use every time the password form gave me additional information about the password requirements, I was eventually able to enter an acceptable password.
 
-![](images/stories/2017/ridiculous-ibm-password-form-04.png)
+![](/images/stories/2017/ridiculous-ibm-password-form-04.png)
 
 Figure 4
 

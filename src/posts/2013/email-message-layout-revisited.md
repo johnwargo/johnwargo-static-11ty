@@ -13,7 +13,7 @@ I know that the people creating these emails were taking mobile devices into acc
 
 I received a couple of emails today which made me think about this topic. The one shown in Figure 1 below is what started me thinking about this. Notice how the content goes off the right side of the screen.
 
-![](images/stories/2013/email-formatting1_640.png)
+![](/images/stories/2013/email-formatting1_640.png)
 
 Figure 1
 
@@ -23,7 +23,7 @@ That was my point of my previous post – don’t waste screen space by unnecess
 
 REI on the other hand, paid special attention to what they did and sent me the email shown in Figure 2 below. Notice how the email renders beautifully? They centered the content, but at least at the same time made sure that they didn’t go past the right margin either.
 
-![](images/stories/2013/email-formatting2_640.png)
+![](/images/stories/2013/email-formatting2_640.png)
 
 Figure 2
 

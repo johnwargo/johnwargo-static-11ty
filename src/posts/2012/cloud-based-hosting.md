@@ -9,4 +9,4 @@ tags: post
 
 Saw this in an email tonight from Network Solutions. Since when is hosting not cloud-based?
 
-![](images/stories/2012/cloud-based-hosting.png)
+![](/images/stories/2012/cloud-based-hosting.png)

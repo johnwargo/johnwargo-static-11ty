@@ -11,19 +11,19 @@ I’m staying in San Francisco this week and when I checked into my hotel, they 
 
 For some bizarre reason, Hilton requires some legal process to get my key; I had to agree to some terms in order to use this option (I don’t understand why, and I didn’t read them before I accepted them). I eventually got an email letting me know that my digital key was being generated and would be delivered to my phone (actually the hotel app on the phone) once my room was ready. When I got to my hotel and opened the app, I saw what you see in the following figure; a button in the lower-left corner with an option to open my room using the app. Nice!
 
-![Digital Room Key 1](images/stories/2018/digital-hotel-key-01.png "Digital Room Key 1")
+![Digital Room Key 1](/images/stories/2018/digital-hotel-key-01.png "Digital Room Key 1")
 
 Digital Room Key 1
 
 When I tapped on the key, I was instructed to get close to the door I wanted to open as shown in the following figure. I’m assuming it’s using Bluetooth Low Energy to detect if I’m close to the door, and hopefully it knows which door I’m close to.
 
-![Digital Room Key 2](images/stories/2018/digital-hotel-key-02.png "Digital Room Key 2")
+![Digital Room Key 2](/images/stories/2018/digital-hotel-key-02.png "Digital Room Key 2")
 
 Digital Room Key 2
 
 Once the system recognizes the phone/app, the page/screen changes to a button you can use to actually open the door. God forbid that you’d be in a hurry, as this process takes much longer that it takes to pull a key out of your pocket and use it. If there was a rapist or robber on your tail, you’d be a victim before you could ever have the door open.
 
-![Digital Room Key 3](images/stories/2018/digital-hotel-key-03.png "Digital Room Key 3")
+![Digital Room Key 3](/images/stories/2018/digital-hotel-key-03.png "Digital Room Key 3")
 
 Digital Room Key 3
 
@@ -35,13 +35,13 @@ When I went to the gym this morning, a sign outside the door said I could find t
 
 It turns out that that little unlabeled blue key icon on the middle-top right of the screen opens some options for the key system. You can either access your room key or the key manager (whatever that is).
 
-![Digital Room Key 4](images/stories/2018/digital-hotel-key-04.png "Digital Room Key 4")
+![Digital Room Key 4](/images/stories/2018/digital-hotel-key-04.png "Digital Room Key 4")
 
 Digital Room Key 4
 
 I only needed one key, so I had no idea what the key manager would be used for. I imagined I’d use it if I needed keys to two rooms (when I’m traveling with my family for example). Well, this inappropriately labeled option grants me access to other keys I’ll need when I’m staying at the hotel as you can see from the following figure.
 
-![Digital Room Key 5](images/stories/2018/digital-hotel-key-05.png "Digital Room Key 5")
+![Digital Room Key 5](/images/stories/2018/digital-hotel-key-05.png "Digital Room Key 5")
 
 Digital Room Key 5
 

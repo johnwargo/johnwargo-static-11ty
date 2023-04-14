@@ -7,11 +7,11 @@ categories: [Stupid Developer Tricks]
 tags: post
 ---
 
-I use the Withings ([http://www.withings.com/us/en/](http://www.withings.com/us/en/)) app to track my blood pressure and weight. I dropped a bunch of weight a few years ago and it helps me stay on track when I track it. My blood pressure has been wonky, so tracking that is a good thing as well. I’d like to get one of those scales and a Sphygmomanometer that automatically updates the app, but for now I’m doing it manually.
+I use the Withings ([https://www.withings.com/us/en/](https://www.withings.com/us/en/)) app to track my blood pressure and weight. I dropped a bunch of weight a few years ago and it helps me stay on track when I track it. My blood pressure has been wonky, so tracking that is a good thing as well. I’d like to get one of those scales and a Sphygmomanometer that automatically updates the app, but for now I’m doing it manually.
 
 Every week or so, the Withings app sends me an email summary of my stats. In this morning’s email, they offered me a chance to set a weight goal, and I quickly clicked on the link. After logging me in, I’m presented with the following form:
 
-![Withings Set Weight Goal](images/stories/2016/withings-weight-goal.png)
+![Withings Set Weight Goal](/images/stories/2016/withings-weight-goal.png)
 
 Figure 1
 
@@ -21,7 +21,7 @@ You can't tell from the figure, but the input field is a spinner, with up and do
 
 The form’s asking me for my desired weight, and I’m trying to enter my desired weight, but it won’t let me. I guess, I can’t tell from any of the details on the form, they’re asking me to enter a weight difference, not an actual weight target – but then how exactly is that a weight goal? By asking me for a weight difference, apparently I’m supposed to be entering a weight loss goal, not a weight goal. Sigh.
 
-Notice too that the input field allows me to spin to a negative number; apparently the developer of this form didn’t know about the HTML input field ‘min’ attribute ([http://www.w3schools.com/tags/att\_input\_min.asp](http://www.w3schools.com/tags/att_input_min.asp)) that would have allowed him (or her) to restrict the input to only positive numbers.
+Notice too that the input field allows me to spin to a negative number; apparently the developer of this form didn’t know about the HTML input field ‘min’ attribute ([https://www.w3schools.com/tags/att\_input\_min.asp](https://www.w3schools.com/tags/att_input_min.asp)) that would have allowed him (or her) to restrict the input to only positive numbers.
 
 Notice as well that I can only set a weight loss goal of 7 lbs. or greater. What if I only needed to lose 5 lbs., apparently I would not be able to set such a worthless goal using this form.
 
