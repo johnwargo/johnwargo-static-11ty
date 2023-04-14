@@ -50,3 +50,7 @@ https://www.favicon-generator.org/
 
 
 {target="_blank"}
+
+
+{% highlight liquid %}
+{% endhighlight %}
