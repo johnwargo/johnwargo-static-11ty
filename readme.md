@@ -18,12 +18,12 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Fix category links for categories with more than one word
 * [x] Select template and implement (Editorial, **Faction**, Future Imperfect)
 * [x] Footer
-* [ ] Add Description to post frontmatter and update post listings to use it
-* [ ] Update article lists to use description where its available
-* [ ] Export latest Joomla! articles
-* [ ] Copy post files to project
+* [x] Export latest Joomla! articles
+* [x] Copy post files to project
 * [ ] Copy image files to project
 * [ ] Clean up exported articles (images, external links, hhtp// => https://)
+* [ ] Do something with the galleries images (likely kill them)
+* [ ] Update article lists to use description where its available
 * [ ] Next/Previous Post buttons on Post page
 * [ ] List View pagination, show in-between pages
 * [ ] RSS feed and link in menu

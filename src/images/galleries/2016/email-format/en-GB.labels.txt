@@ -1,0 +1,12 @@
+bad-email-formatting-1-640.png|FedEx Delivery Notification|
+bad-email-formatting-2-640.png|Control Everything Email Blast|
+bad-email-formatting-3-640.png|Live Nation Concert Update|
+bad-email-formatting-4-640.png|AT&T Notification|
+bad-email-formatting-5-640.png|Amazon Notification|
+bad-email-formatting-6-640.png|Craftsman Notification|
+bad-email-formatting-7-640.png|AllRecipes Notification|
+bad-email-formatting-8_640.png|Bands In Town Notification|
+bad-email-formatting-9-640.png|Dollar Shave Club|
+bad-email-formatting-10-640.png|Pottery Barn|
+bad-email-formatting-11-640.png|Pandora|
+bad-email-formatting-12-640.png|Fleming's Steak House|
