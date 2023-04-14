@@ -11,6 +11,6 @@ In preparation for my presentation at Lotusphere tomorrow, I've been beating my 
 
 Anyway, I have the Domino server running on my laptop and I've been trying to connect to it from the Android Emulator for about a day now. You can't use localhost, because localhost on a mobile device (whether it be an actual device or an emulator) points to the local device. The emulator therefore doesn't know about the local laptop through that reference (which is what you'd do to do any local testing laptop app to laptop app).
 
-The orginal web site where I found this information is no longer up, so here's the details:
+The original web site where I found this information is no longer up, so here's the details:
 
 For an Android application running on the Android Emulator, to allow the application to access network resources running on the system running the emulator use the IP address 10.0.2.2.

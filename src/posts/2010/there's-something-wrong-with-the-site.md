@@ -15,7 +15,7 @@ Update: I've been poking and prodding at this and I just can't figure it out. It
 
 > Hello John,  
 >   
-> In Joomla Configuration settings, we have disabled and enabled 'Search Engine Friendly URLs', 'Use Apache mod\_rewrite' ,'Add suffix to URLs' and set .htaccess file, still the website links loads with broken themes. It appears that you had installed any new joomla modules or plugins. Please disable those plugins and check the website functionality from your end.
+> In Joomla Configuration settings, we have disabled and enabled 'Search Engine Friendly URLs', 'Use Apache mod_rewrite' ,'Add suffix to URLs' and set .htaccess file, still the website links loads with broken themes. It appears that you had installed any new joomla modules or plugins. Please disable those plugins and check the website functionality from your end.
 
 Which is effectively telling me nothing. Yes, I have added extensions, but when I opened the ticket I told them I disabled everything and it didn't change anything.
 

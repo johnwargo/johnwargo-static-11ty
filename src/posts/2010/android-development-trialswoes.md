@@ -13,10 +13,12 @@ I took the XML-based web service I created for the BlackBerry Java and Windows M
 
 I created a Android Java project in Eclipse and started coding through my sample application, reading a couple of books as I went. I got the main application working, got the search box and the button that called the service working and was finally able to connect to the local Domino server to request the data (read about that here). As I tried to figure out the Android ListView widget, my application crashed and I just couldn’t get any further. I poked and prodded in Eclipse and the simulator and just couldn’t get anywhere.  Whenever I load the application, I get the following screen:
 
-![Android Application Error](/images/android error.png "Android Application Error")  
+![Android Application Error](/images/2010/android-error.png)
+
 It’s something in the startup of the application, but it’s not telling me anything about the source of the problem. On the flight home, I read more about the LogCat view in Eclipse that would allow me to see what Android is saying when the application crashes. It turns out that there’s an uncaught exception being generated when the application starts. Here’s the relevant log lines:
 
-{codecitation class="brush:text; gutter:true"}01-25 15:57:16.082: ERROR/AndroidRuntime(244): Uncaught handler: thread main exiting due to uncaught exception  
+```text
+01-25 15:57:16.082: ERROR/AndroidRuntime(244): Uncaught handler: thread main exiting due to uncaught exception  
 01-25 15:57:16.092: ERROR/AndroidRuntime(244): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.johnwargo.contactlookup/com.johnwargo.contactlookup.main}: java.lang.ClassCastException: android.widget.TextView  
 01-25 15:57:16.092: ERROR/AndroidRuntime(244):     at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2496)  
 01-25 15:57:16.092: ERROR/AndroidRuntime(244):     at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2512)  
@@ -34,7 +36,8 @@ It’s something in the startup of the application, but it’s not telling me an
 01-25 15:57:16.092: ERROR/AndroidRuntime(244):     at com.johnwargo.contactlookup.main.onCreate(main.java:58)  
 01-25 15:57:16.092: ERROR/AndroidRuntime(244):     at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1047)  
 01-25 15:57:16.092: ERROR/AndroidRuntime(244):     at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2459)  
-01-25 15:57:16.092: ERROR/AndroidRuntime(244):     ... 11 more{/codecitation}
+01-25 15:57:16.092: ERROR/AndroidRuntime(244):     ... 11 more
+```
 
 At least I know what’s happening now – all I need to do now is figure out the source of the problem. I’m disturbed that I’m not getting more information in the UI about the problem. On the BlackBerry platform, you’d get an error message identifying that there is an uncaught exception and listing the exception that should be caught. If I had that information, I think I could find this problem pretty quickly.
 
@@ -42,6 +45,8 @@ OK, so I dug into the code and found the problem. I was using EditText and TextV
 
 The line containing the information I needed is here:
 
-{codecitation class="brush:text; gutter:true"}01-25 15:57:16.092: ERROR/AndroidRuntime(244): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.johnwargo.contactlookup/com.johnwargo.contactlookup.main}: java.lang.ClassCastException: android.widget.TextView{/codecitation}
+```text
+01-25 15:57:16.092: ERROR/AndroidRuntime(244): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.johnwargo.contactlookup/com.johnwargo.contactlookup.main}: java.lang.ClassCastException: android.widget.TextView
+```
 
 Next step is to figure out how to use an Android ListView widget to display the array of names that is returned by the Domino server. Stay tuned…

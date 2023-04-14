@@ -20,4 +20,5 @@ As you probably know, they take pictures everywhere at the park and try to get y
 There’s got to be a mobile application in here somewhere.
 
 I’m thinking that an amusement park could offer customers a mobile application to help make this even easier. You download a free copy of the mobile application before going to the park then enter in your credit card information. As you finish the ride and get funneled through the area to view the photos that were just taken, you can acquire the photo directly from your mobile phone; nothing to carry around the remainder of the day. When you find a picture you like, you enter the ride number then the photo number. Your credit card could be charged directly and you could even be offered a discount by using the application. It would certainly cost the amusement park less money since there’d be no printing or copying files to a memory stick that would just get lost. The photo could be emailed to the device, sent via MMS or even downloaded directly to the application running on the phone.  
+
 Yeah, that would be something I would be interested in. I’d probably buy more photos.

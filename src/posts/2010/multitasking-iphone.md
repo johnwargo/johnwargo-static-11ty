@@ -7,7 +7,7 @@ categories: [Mobile]
 tags: post
 ---
 
-The big announcement this week came from Apple who finally announced background processing for the iPhone and iPad. Here's a snippet from [an article in PC Magazine](https://www.pcmag.com/article2/0,2817,2362406,00.asp):
+The big announcement this week came from Apple who finally announced background processing for the iPhone and iPad. Here's a snippet from [an article in PC Magazine](https://www.pcmag.com/article2/0,2817,2362406,00.asp){target="_blank"}:
 
 > Within multitasking, Jobs also highlighted several capabilities, acknowledging that the company had been outpaced by other mobile operating systems with multitasking capabilities, just as other companies passed them in adding cut-and-paste capabilities. "We weren't first to this party, but we're going to be the best," Jobs said.
 > 
@@ -23,6 +23,6 @@ Regarding Multitasking - how is Apple thinking double-clicking a button and brin
 
 It's not even true multitasking - notice how the article references that applications that are pushed to the background are suspended? They're not running, their used memory is stored and retrieved later when the application is reactivated. I'm sorry, but that's not multitasking. I understand how a mobile platform would want to have the ability to suspend background tasks when memory is low, but applications should be able to run in the background and only give up their memory when needed.
 
-Imagine a user who's about to beging a time consuming task. He starts the task then switches to another application to do something productive while the original application is doing its stuff. In this scenario the user expects the application to continue with its processing, but according to the description of the 'feature' that's not what will happen.
+Imagine a user who's about to begging a time consuming task. He starts the task then switches to another application to do something productive while the original application is doing its stuff. In this scenario the user expects the application to continue with its processing, but according to the description of the 'feature' that's not what will happen.
 
-The iPhone and the iPad are amazing devices, but I'm still continually stunned by Apple's analysis of the market and what it thinks its users will accept as reasonable. Of course, I'v ebeen having some serious arguments lateley with some friends of mine and one of them contends that Apple is catering to people who don't care about these features and that they'll just take whatever Apple gives them. I have to admit I don't get it.
+The iPhone and the iPad are amazing devices, but I'm still continually stunned by Apple's analysis of the market and what it thinks its users will accept as reasonable. Of course, I've been having some serious arguments lately with some friends of mine and one of them contends that Apple is catering to people who don't care about these features and that they'll just take whatever Apple gives them. I have to admit I don't get it.

@@ -9,7 +9,7 @@ tags: post
 
 **Note:** removed obsolete attachments November 11, 2022
 
-A lot of people have asked me to post the slide deck from my Lotusphere 2010 _Beyond the Browser: Building Rich Client Applications for Domino_ (AD114) session. I wasn't sure whether I was allowed to post it, but I received the following confirmation from the track manager:
+A lot of people have asked me to post the slide deck from my Lotusphere 2010 *Beyond the Browser: Building Rich Client Applications for Domino* (AD114) session. I wasn't sure whether I was allowed to post it, but I received the following confirmation from the track manager:
 
 "Attendees can download whole tracks from Lotusphere online so please direct them there if for some reason they are not aware.  For non-attendees, you can post the slides on your site."
 
