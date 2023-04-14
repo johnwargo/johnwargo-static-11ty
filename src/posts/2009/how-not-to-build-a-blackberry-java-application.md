@@ -26,7 +26,7 @@ Figure 1
 
 As you scroll from menu item to menu item, the application uses this smooth fade-in ad fade-out for the selected menu item then changes the entire background image (as shown in the following figure).
   
-![Figure 2](/images/2009/devconapp-2.jpg)
+![Figure 2](/images/2009/devcon-app-2.jpg)
 Figure 2
 
 OK, so not only do I have a very busy (too busy) background image for the application, I have to wait as the application applies fancy effects to the menu and swaps out the complete background for the application. Yet another waste of my time and a huge waste of device battery life.  Developers should not add screen effects that slow down application performance for the user. If you can implement them without affecting the user, great – otherwise leave them out of your application.
