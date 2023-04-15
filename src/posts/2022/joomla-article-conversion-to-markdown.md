@@ -13,9 +13,9 @@ With that in mind, I started thinking about how I could easily migrate all of my
 
 I knew Jekyll uses markdown files and Eleventy supports them as well, so I decided to convert my content to markdown thinking that with the right conversion template, I could migrate my site's articles to almost any CMS. 
 
-I've published several node CLI modules in the past (for managing Jekyll assets and to simplify the Moddable CLI), so I decided I'd build this one in Node as well. I recently learned about the Open CLI Framework ([https://oclif.io/](https://oclif.io/)) and wanted a chance to learn that framework.
+I've published several node CLI modules in the past (for managing Jekyll assets and to simplify the Moddable CLI), so I decided I'd build this one in Node as well. I recently learned about the Open CLI Framework ([https://oclif.io/](https://oclif.io/){target="_blank"}) and wanted a chance to learn that framework.
 
-The result of all of this is that I recently published a node module called Joomla to Markdown (joomla-to-markdown) available at [https://www.npmjs.com/package/joomla-to-markdown](https://www.npmjs.com/package/joomla-to-markdown). 
+The result of all of this is that I recently published a node module called Joomla to Markdown (joomla-to-markdown) available at [https://www.npmjs.com/package/joomla-to-markdown](https://www.npmjs.com/package/joomla-to-markdown){target="_blank"}. 
 
 To use this module, export your Joomla site's Categories and Content tables to JSON files using MySQL Admin (or similar tool). Then, with a couple of simple terminal commands you can parse the article and category content and output a separate markdown file for each article in the Joomla site. 
 
