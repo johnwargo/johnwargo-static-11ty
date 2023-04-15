@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-![](/images/book.jpg)
+![](/images/common/book.jpg)
 
 OK, here’s final article in the series. So far I’ve talked about the method I used to backup my manuscript files through every part of the editing process and I’ve covered how I synchronized the files between my laptop and desktop computers as I went. In today’s installment, I’m going to address a problem I created by synchronizing the files between systems. It caught me by surprise several times and forced me to make changes to how I managed the files. Ultimately it’s the reason I decided to write the article series.
 

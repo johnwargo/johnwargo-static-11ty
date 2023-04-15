@@ -21,11 +21,9 @@ Ugh.
 
 I'm trying to figure out what's going to happen to them in the next 6 months:
 
-1\. No new devices till late in the year (they've already announced that)
-
-2\. Unbearable pressure to get rid of Mike and Jim
-
-3\. Acquisition?
+1. No new devices till late in the year (they've already announced that)
+2. Unbearable pressure to get rid of Mike and Jim
+3. Acquisition?
 
 They're going to be acquired. So many pundits believe it will be Microsoft, but that makes absolutely no sense. I just can't figure out who'd buy them and why. On top of that, what would be left when the purchase completed? The best and brightest minds are leaving en masse, my former colleagues at RIM are Linking In to me in great numbers lately. RIM is Mike L, but I can't imagine Mike staying after any acquisition, so how great can BlackBerry be with Mike at the design helm? Time will tell.
 

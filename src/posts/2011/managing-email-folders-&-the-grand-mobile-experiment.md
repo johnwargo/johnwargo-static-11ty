@@ -31,4 +31,4 @@ Anyway, I’m going to use the Quantum as my primary device this week and see ho
 
 Next week I’m going to switch to either the Motorola Bravo or the Motorola Flipside. Those are both Android 2.1 devices, so I’m going to give each a week as my primary device.
 
-Following that I should be receiving the Motorola Atrix (which I’m really excited about using) and the HTC Inspire (which is AT&T’s First 4G \[marketing 4G, not technology 4G, we’re already there with HSPA+\] device). Stay tuned for how it all works out for me.
+Following that I should be receiving the Motorola Atrix (which I’m really excited about using) and the HTC Inspire (which is AT&T’s First 4G [marketing 4G, not technology 4G, we’re already there with HSPA+] device). Stay tuned for how it all works out for me.

@@ -23,4 +23,4 @@ Also frustrating is the loss of the delete key. In word or in other applications
 
 I’m also finding that I have difficulty moving the cursor from word to word in the word processor of choice. I’m so used to using Crtl plus the arrow keys to skip words.  I know you can still do some of these things with corresponding keys on the Mac keyboard, but I find that the implementation of some of these features is inconsistent between applications. Ugh!
 
-I’m excitedly waiting for [Henge Docks](https://www.hengedocks.com) to release their dock for the Macbook Pro 17” - once that happens, I can plug this thing into my KVM and have a full IBM keyboard to use.  I've been waiting for months and there's been little progress.  Not sure why they're not releasing products.
+I’m excitedly waiting for [Henge Docks](https://www.hengedocks.com){target="_blank"} to release their dock for the Macbook Pro 17” - once that happens, I can plug this thing into my KVM and have a full IBM keyboard to use.  I've been waiting for months and there's been little progress.  Not sure why they're not releasing products.

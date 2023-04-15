@@ -1,5 +1,5 @@
 ---
-title: What Were They Thinking #9 RIM Again
+title: What Were They Thinking 9 (RIM Again)
 description: 
 date: 2011-07-13
 headerImage: 
@@ -11,8 +11,7 @@ For a long time now, I’ve been running a series on mobile applications, highli
 
 I received the following email this morning from Research In Motion. I’d signed up for updates, so they would notify me when new software was available for my device.  I thought it was a good idea to keep my BlackBerry device up to date and it was great to receive the notification.
 
-![](/images/2011/rim_email1.png)
-
+![Figure 1](/images/2011/rim_email1.png)
 Figure 1
 
 What struck me as odd was not that the image they’d included in the email didn’t load, but instead that they included a note at the top of the message saying:
@@ -25,8 +24,7 @@ What they did was format the message so it had a nice layout when opened in the 
 
 Here’s what the message looked like on my BlackBerry:
 
-![](/images/2011/rim_email2.png)
-
+![Figure 2](/images/2011/rim_email2.png)
 Figure 2
 
 Yes, I have my fonts cranked up (I’m old), so it’s bigger that it would be on your device.  The image at the top of the message doesn’t appear on my BlackBerry device either, so I’m not sure what’s going on there.

@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-![](/images/book.jpg)
+![](/images/common/book.jpg)
 
 As I mentioned in the first article in this series here, I needed a way to have a sort of version control system (VCS) without installing a version control system. I wanted something simple, something that would work regardless of whether I was connected to a network. What I decided to do was use the batch file processing capabilities of [WinZip](https://www.winzip.com){target="_blank"} to create complete backups of the manuscript (including all documents and images). With this system in place, I could execute the batch process at the end of any editing session (or in the middle if I had a lot of changes) and have a complete backup of everything in case I needed to revert to some older version or dig up some old content I’d deleted and shouldn’t have.
 

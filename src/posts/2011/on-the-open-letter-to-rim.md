@@ -7,13 +7,15 @@ categories: [BlackBerry]
 tags: post
 ---
 
-![](/images/2011/rim.jpg)I don’t know if you heard about it or not, but a [RIM executive published an open letter to his bosses](https://www.bgr.com/2011/06/30/open-letter-to-blackberry-bosses-senior-rim-exec-tells-all-as-company-crumbles-around-him/): Mike L and Jim B of RIM. It’s an interesting read and it had to be said. It’s really sad, but RIM has been slow in its response to market changes and it’s likely that they won’t be able to recover.
+![](/images/2011/rim.jpg)
+
+I don’t know if you heard about it or not, but a [RIM executive published an open letter to his bosses](https://www.bgr.com/2011/06/30/open-letter-to-blackberry-bosses-senior-rim-exec-tells-all-as-company-crumbles-around-him/){target="_blank"}: Mike L and Jim B of RIM. It’s an interesting read and it had to be said. It’s really sad, but RIM has been slow in its response to market changes and it’s likely that they won’t be able to recover.
 
 Their development tools are sub-par and it takes a ridiculous amount of time to release them. Where Apple and Android pre-release their development tools or at least ship them on the same day the device is announced, RIM does prolonged betas and in one case delivered the SDK out of beta only after a device that used the particular SDK had been in market for almost 6 months. Ridiculous.
 
 I was trying to get my demo machine ready for a presentation at The View Developer Conference last week and had upgraded one of my BlackBerry Java projects that I was going to show at the conference. When I loaded the project, Eclipse gave me all sorts of errors that I just couldn’t resolve. I quickly called a former colleague at RIM and he informed me that he never imports old projects into Eclipse; he created a new project every time and copied his code over into the project.  Ugh! Is that world class development? No ! Is it at least acceptable? No way!
 
-Is Apple’s Platform better? No, absolutely not. I wrote about this a few weeks ago, but developing for the iPhone is much, much harder than it is for any other mobile platform I’ve worked with (I’ve worked with a lot). In [a previous article on this site](index.php?option=com_content&view=article&id=246:going-cross-platform&catid=14&Itemid=22), I referred to a post by an Australian developer who confirmed my conclusion.
+Is Apple’s Platform better? No, absolutely not. I wrote about this a few weeks ago, but developing for the iPhone is much, much harder than it is for any other mobile platform I’ve worked with (I’ve worked with a lot). In a previous article on this site, I referred to a post by an Australian developer who confirmed my conclusion.
 
 RIM gets hammered because its technology is so old, but the iOS tools are even older. BlackBerry development’s primary language is Java which was released in 1995. NextStep, the stuff that Objective-C (and all iOS development) is based on was released in 1989. iOS has no Garbage collection capabilities, the developer has to manage the lifecycle of all objects – there’s not another popular smartphone platform in market that has that same limitation. In Objective-C, all references to variables are through pointers – that’s so 1980’s (or so Pascal), the development world is way past that approach. Compared to every other modern development language, Objective-C code has so many quirks that it’s essentially unreadable (to me anyway – and I’ve been a professional developer for almost 30 years).
 

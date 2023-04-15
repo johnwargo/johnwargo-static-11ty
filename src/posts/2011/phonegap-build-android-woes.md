@@ -7,9 +7,9 @@ categories: [Mobile Development]
 tags: post
 ---
 
-I've been using the heck out of PhoneGap Build these last few weeks as I work through the API chapters in _PhoneGap Essentials_.
+I've been using the heck out of PhoneGap Build these last few weeks as I work through the API chapters in *PhoneGap Essentials*.
 
-For the last three weeks, the process for building BlackBerry applications was broken, it would build an app for you, but it wouldn't include the phnegap.js file, so none of the PhoneGap features in the application would work. They finally fixed it today, but it was broken for about 20 days, and that was painful.
+For the last three weeks, the process for building BlackBerry applications was broken, it would build an app for you, but it wouldn't include the `phonegap.js` file, so none of the PhoneGap features in the application would work. They finally fixed it today, but it was broken for about 20 days, and that was painful.
 
 Recently, I've been focusing on Android development since the BlackBerry stuff was broken. Unfortunately the Android stuff is partially broken as well. You can build an app for Android using PhoneGap Build, but about 70% of the time, the application that's built for you won't install on an Android device.
 

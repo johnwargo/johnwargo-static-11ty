@@ -7,7 +7,10 @@ categories: [Mobile Development]
 tags: post
 ---
 
-I was working on Chapter 12 of PhoneGap Essentials tonight and I created a quick PhoneGap application to test something I wanted to verify about the JavaScript alert() function. When I tested the application, I noticed something interesting, taking a look at the following code - when I ran the application on an iOS simulator, the Test 2 alert executed before the Test 1 alert.{codecitation class="brush:javascript; gutter:true"}<!DOCTYPE html>  
+I was working on Chapter 12 of PhoneGap Essentials tonight and I created a quick PhoneGap application to test something I wanted to verify about the JavaScript alert() function. When I tested the application, I noticed something interesting, taking a look at the following code - when I ran the application on an iOS simulator, the Test 2 alert executed before the Test 1 alert.
+
+```html
+<!DOCTYPE html>  
 <html>  
   <head>  
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />  
@@ -32,9 +35,10 @@ I was working on Chapter 12 of PhoneGap Essentials tonight and I created a quick
         <h1>Alert Test</h1>  
       <p>This is a test application.</p>        
   </body>  
-</html>{/codecitation}
+</html>
+```
 
-I know that PhoneGap had finished initializing since the deviceready event fired, but apparently there's something going on that would cause the first alert to queue up and only execute after the second alert, the one using the standard JavaScript alert instead of the PhoneGap alert function, fired.
+I know that PhoneGap had finished initializing since the `deviceready` event fired, but apparently there's something going on that would cause the first alert to queue up and only execute after the second alert, the one using the standard JavaScript alert instead of the PhoneGap alert function, fired.
 
 Interesting. Not important, but interesting.
 

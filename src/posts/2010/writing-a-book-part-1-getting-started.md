@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-![](/images/book.jpg)
+![](/images/common/book.jpg)
 
 After I completed BlackBerry Development Fundamentals, I thought I’d write some articles that outlined some of the process I followed to complete the manuscript. What follows is the first part of a series of articles that document the tools and procedures I used to help make the creation of the manuscript as painless as possible. In this installment, I’ll lay out the issues I had to address and in subsequent articles describe each of the solutions I used to solve them.
 
