@@ -7,4 +7,4 @@ categories: [Mobile Development]
 tags: post
 ---
 
-I recently published the source code repository for my upcoming [Learning Progressive Web Apps](https://amzn.to/2SgvJjq) (PWA) book. You can find the repository on GitHub at [https://github.com/johnwargo/learning-pwa-code](https://github.com/johnwargo/learning-pwa-code).
+I recently published the source code repository for my upcoming [Learning Progressive Web Apps](https://amzn.to/2SgvJjq){target="_blank"} (PWA) book. You can find the repository on GitHub at [https://github.com/johnwargo/learning-pwa-code](https://github.com/johnwargo/learning-pwa-code){target="_blank"}.

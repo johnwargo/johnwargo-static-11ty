@@ -54,12 +54,12 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 
 https://www.favicon-generator.org/
 
-
 {target="_blank"}
 
+![Blackberry Development Fundamentals Cover](/images/covers/bbdf-cover-160.png)
 ![Apache Cordova API Cookbook Cover](/images/covers/acac-cover-160.png)
+![Apache Cordova 4 Programming Cover](/images/covers/ac4p-cover-160.png)
 ![PhoneGap Essentials Cover](/images/covers/phonegap-essentials-cover-160.png)
-
 
 {% highlight liquid %}
 {% endhighlight %}

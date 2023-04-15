@@ -7,6 +7,6 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-Received the cover for [Learning Progressive Web Apps](https://amzn.to/2UoBAC0) today, what do you think?
+Received the cover for [Learning Progressive Web Apps](https://amzn.to/2UoBAC0){target="_blank"} today, what do you think?
 
-![](/images/learning-pwa-512.png)
+![Learning Progressive Web Apps Cover](/images/covers/learning-pwa-512.png)

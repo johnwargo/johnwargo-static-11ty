@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-I've been really interested in Progressive Web Apps for the last couple of years, and I finally convinced my publisher it was time for a new book on the topic. The book is called [Learning Progressive Web Apps](https://amzn.to/2UoBAC0) and it will be available around Christmas time.
+I've been really interested in Progressive Web Apps for the last couple of years, and I finally convinced my publisher it was time for a new book on the topic. The book is called [Learning Progressive Web Apps](https://amzn.to/2UoBAC0){target="_blank"} and it will be available around Christmas time.
 
 If you've read any of my Apache Cordova books, you'll know that Adobe PhoneGap and Apache Cordova were created to address a gap in mobile development capabilities. The project team went out on a limb early saying that they're plan was to make Apache Cordova obsolete - well, it's progressive web apps that does this. 
 

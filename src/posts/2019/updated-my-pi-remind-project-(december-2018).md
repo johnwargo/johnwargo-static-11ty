@@ -7,7 +7,7 @@ categories: [Internet of Things (IoT)]
 tags: post
 ---
 
-I've been running my Pi Remind project at my desk now for several years. I started with the Pi Remind ([https://github.com/johnwargo/pi-remind](https://github.com/johnwargo/pi-remind)), but then upgraded the hardware to the higher resolution Pi Remind HD ([https://github.com/johnwargo/pi-remind-hd](https://github.com/johnwargo/pi-remind-hd)) hardware. The project essentially gives me a visual reminder when I have an upcoming appointment on my personal calendar. My personal calendar is online using Google Calendar, so it's easy for the Raspberry Pi to connect to my calendar through Google's public API.
+I've been running my Pi Remind project at my desk now for several years. I started with the Pi Remind ([https://github.com/johnwargo/pi-remind](https://github.com/johnwargo/pi-remind){target="_blank"}), but then upgraded the hardware to the higher resolution Pi Remind HD ([https://github.com/johnwargo/pi-remind-hd](https://github.com/johnwargo/pi-remind-hd){target="_blank"}) hardware. The project essentially gives me a visual reminder when I have an upcoming appointment on my personal calendar. My personal calendar is online using Google Calendar, so it's easy for the Raspberry Pi to connect to my calendar through Google's public API.
 
 When I created my original project, my employer at the time used the G-Suite for corporate email, calendar, etc., so I was able to get all of my work calendar reminders on it - that's ultimately why I created the project.  I work at Microsoft now and, while I can connect to Office 365 from the Raspberry Pi, I didn't want to take the risk as It would require me messing with the corporate directory. Perhaps some day I'll get around to updating the project for my work calendar; we'll see.
 
@@ -15,8 +15,8 @@ Anyway, I'd been having a problem with power in my home office, for some reason 
 
 I have two options to fix this problem:
 
-1.  Configure the Pi to wait for the network before booting (described at [https://www.raspberrypi.org/blog/latest-raspbian-update/](https://www.raspberrypi.org/blog/latest-raspbian-update/))
-2.  Modify my project's code so it detects that it's not been able to connect to the network for a number of minutes (defaults to 10), then reboots the Pi so it can reconnect.
+1. Configure the Pi to wait for the network before booting (described at [https://www.raspberrypi.org/blog/latest-raspbian-update/](https://www.raspberrypi.org/blog/latest-raspbian-update/){target="_blank"})
+2. Modify my project's code so it detects that it's not been able to connect to the network for a number of minutes (defaults to 10), then reboots the Pi so it can reconnect.
 
 I chose not to use the first option since I didn't want the Pi sitting there in limbo if my network didn't come up in a reasonable time. The project displays a red warning light (LED) when it can't see the network, so it was better for me if it booted, then notified me via the HAT's LEDs that it couldn't connect to the network.
 
