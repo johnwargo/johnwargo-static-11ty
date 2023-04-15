@@ -11,7 +11,9 @@ Lately, I've been working on a project using the Particle Photon. The project's 
 
 During my testing, I encountered the following error:
 
-`Function myverylongfunction name not found`
+```text
+Function myverylongfunction name not found
+```
 
 Of course, I studied my Particle C code for a while looking for the problem to no avail. I could not find the problem.
 
@@ -19,9 +21,9 @@ I have three functions in my app, so I thought for some reason the Photon was li
 
 I noticed that the function that wasn't working had a name longer than the rest, so I shortened it and suddenly it started working. If you encounter this issue, know that the maximum function name length is 12 characters. What I don't understand is why this is even an error I had to figure out. The Particle Cloud is parsing the request and looking for a function that matches the name I've provided on the URL. If the functiion name is longer than 12 characters, then tell me that I've passed a function name that's too long. Don't tell me you can't find the function. I knew I was providing the right function name, the one that matched my code, but the Particle Cloud couldn't recognize it because it's too long - that's the perfect time for an error message back from the service that reads something like "The function name is too long." That, for sure, would have shortened my troubleshooting time.
 
-You can find the complete documentation here: [https://docs.particle.io/reference/firmware/photon](https://docs.particle.io/reference/firmware/photon).
+You can find the complete documentation here: [https://docs.particle.io/reference/firmware/photon](https://docs.particle.io/reference/firmware/photon){target="_blank"}.
 
-Post Script:
+Postscript:
 
 OK, so I learned a few things since posting this. I submitted part of this article to the community forums and got a bunch of responses. Several people who responded seemed to think that it was a good idea to fix this. Unfortunately, many other folks had a pretty antagonistic attitude about this; apparently they think this is pretty clearly documented and there's no reason to make this idiot (me) proof. So, if you're just getting started, recognize that the Particle Community doesn't care to catch some errors you may have missed.
 

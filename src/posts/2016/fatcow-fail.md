@@ -11,8 +11,7 @@ I'm about done with FatCow. As you may know, I've been a big fan of FatCow and m
 
 So, what happened?
 
-False Positive
-==============
+## False Positive
 
 Well, in order to better protect their customers' sites and to help generate additional sales for their SiteLock product offering, FatCow has started performing periodic, free security scans. What's weird is that they're selling SiteLock, but not using SiteLock for the scans. The issue for me is that scanner repeatedly kicks out false positives and its driving me crazy.
 
@@ -20,28 +19,30 @@ Let me give you some examples.
 
 Every week or so, I receive the same email from the FatCow Security team:
 
-During a routine scan, the security team at FatCow discovered infected files in your "account\_name" account. Typically, these security vulnerabilities are due to the presence of an outdated application or script in your account.
+"During a routine scan, the security team at FatCow discovered infected files in your "account\_name" account. Typically, these security vulnerabilities are due to the presence of an outdated application or script in your account.
 
-You can view a list of the infected files in the /stats directory of your account, in a file named 'websitescan.txt.' You can find more information on how to access this file, interpret its contents, and remove infected files in the article below: [https://www.fatcow.com/knowledgebase/beta/article.bml?ArticleID=437](https://www.fatcow.com/knowledgebase/beta/article.bml?ArticleID=437)
+You can view a list of the infected files in the /stats directory of your account, in a file named 'websitescan.txt.' You can find more information on how to access this file, interpret its contents, and remove infected files in the article below: [https://www.fatcow.com/knowledgebase/beta/article.bml?ArticleID=437](https://www.fatcow.com/knowledgebase/beta/article.bml?ArticleID=437){target="_blank"}.
 
 Please make sure to check any file backup(s) you have for a clean copy of the infected files. If you have clean copies, you can upload those. If not, once you get the infected files cleaned or removed, we recommend you keep regular backups of your website going forward
 
 However, If you don't feel comfortable removing the infected files yourself, or would like to talk to a security expert, we recommend that you contact our preferred partner, SiteLock. You can find out about their security solutions at https://www.fatcow.com/product/sitelock, or call them directly at 1-855-378-6200.
 
-Finally, to learn more about how to keep your site safe, visit the article below: http://www.fatcow.com/knowledgebase/beta/article.bml?ArticleID=2324#Nugget\_5264 .
+Finally, to learn more about how to keep your site safe, visit the article below: http://www.fatcow.com/knowledgebase/beta/article.bml?ArticleID=2324#Nugget_5264 .
 
 Sincerely,  
-The FatCow Team
+The FatCow Team"
 
 That's cool, right? Proactive scanning of my site coupled with providing me with all sorts of information about what this means and how to fix it. So, I quickly jumped on my site and looked at the file; here's the contents:
 
+```text
 Scan started at - Tue Apr 19 14:52:35 EDT 2016  
-/home/log/admintools\_breaches.log.1: EIG.PHP.Backdoor.ArbEval-7.UNOFFICIAL FOUND
+/home/log/admintools_breaches.log.1: EIG.PHP.Backdoor.ArbEval-7.UNOFFICIAL FOUND
 
 \----------- SCAN SUMMARY -----------  
 Infected files: 1  
 Time: 751.499 sec (12 m 31 s)  
 Scan ended at - Tue Apr 19 15:05:07 EDT 2016
+```
 
 The infected file? It's a log file created by the Akeeba Admin Tools plugin. I use this tool on my Joomla sites to block attacks and, when it recognizes an attack, it blocks the IP address of the attacker then logs the activity to a log file.
 
@@ -51,22 +52,19 @@ I've also gotten these infected file notifications on FatCow's server-generated 
 
 So, I told the folks at FatCow that they're getting false positives and I get the following response:
 
-Hello,  
+"Hello,  
 Thank you for your reply.
 
 You have received the message from sitelock saying there are infected files in the account. If you have removed the infected files from the account and if you wish to scan the account again, please let us know. With authentication to the account: You can provide us the authentication of the account by answering security question set in the account: Question removed for security? You can check the security answer by going to: https://www.fatcow.com/secureControl/security-question.html?pid=4059212 .
 
 Also, we have given below some suggestions to safeguard your website:
 
-\+ generate a strong password combination for account, FTP, database and mailboxes.
+* generate a strong password combination for account, FTP, database and mailboxes.
+* scan local computer with good antivirus, antispyware programs and clean bad programs.
+* keep the software up-to-date with vendors/developers, and seek their support/forums for any known vulnerabilities/fixes/workarounds available.
+* upgrade all the applications in your account to the latest version – this also applies to plugins, themes, modules, etc.
 
-\+ scan local computer with good antivirus, antispyware programs and clean bad programs.
-
-\+ keep the software up-to-date with vendors/developers, and seek their support/forums for any known vulnerabilities/fixes/workarounds available.
-
-\+ upgrade all the applications in your account to the latest version – this also applies to plugins, themes, modules, etc.
-
-If you have any further questions, please feel free to contact us, We are available 24x7.
+If you have any further questions, please feel free to contact us, We are available 24x7."
 
 So, I' haven't removed anything from the site as there's no infected files but let them know about the issue and all the FatCow security team can think of is to let me know that I can have the scan repeated if I email them some additional security information. This conversation so far has been a complete waste of time.
 
@@ -78,14 +76,13 @@ As I wrote this blog post, I got fed up and decided to call their support line t
 
 It gets worse.
 
-Shutdown Account
-================
+## Shutdown Account
 
 My sun was a Cub Scout and I helped setup and run my son's Cub Scout Pack web site. We've both since moved on, but they reach out to me every once in a while, when they're having a problem. At one point, FatCow shut down the site and, because it's a volunteer organization running it, nobody noticed the email from FatCow explaining why they did it. That's not good.
 
 So, I logged into the pack's FatCow account and found the following:
 
-Hello,
+"Hello,
 
 This message is to inform you that we have detected spam emails originating from a script in your account. Our monitoring tools have suspected the following file:
 
@@ -106,17 +103,17 @@ In order to re-enable the account, we ask you or your administrator reply to thi
 Sincerely,
 
 Ganesh P  
-Senior Technical Specialist
+Senior Technical Specialist"
 
 Um, yeah, we're not sending spam, I'm sure of it. So I responded and told them we were not sending spam and that they needed to unlock the account. Here's what they said:
 
-I can understand your concern.
+"I can understand your concern.
 
-Please download 'logs.txt' file which is inside 'stats' folder from Filemanager tool which will show logs of email sending from script /administrator/index.php. If you analyze this mail log, you can notice email sending to webmaster@sitename.org with subject 'Automatic\_IP\_blocking\_notification\_for' . This seems like issue with configuration settings inside Joomla admin panel.
+Please download 'logs.txt' file which is inside 'stats' folder from Filemanager tool which will show logs of email sending from script /administrator/index.php. If you analyze this mail log, you can notice email sending to webmaster@sitename.org with subject 'Automatic_IP_blocking_notification_for' . This seems like issue with configuration settings inside Joomla admin panel.
 
-I have now removed suspension on wbsite and CGI service for your account. Please log in to admin panel of website at http://sitename.org/administrator/ and recheck the configuration settings.
+I have now removed suspension on website and CGI service for your account. Please log in to admin panel of website at http://sitename.org/administrator/ and recheck the configuration settings.
 
-Thank you for clarification about Joomla module. Our server monitoring tool taken it as a suspicious activity and thus suspended services for your account. However, we have revoked the suspension on your account. In any case if you are exceeding the email limits, it will take it as spamming. This is the reason we are suspending the services for your account.
+Thank you for clarification about Joomla module. Our server monitoring tool taken it as a suspicious activity and thus suspended services for your account. However, we have revoked the suspension on your account. In any case if you are exceeding the email limits, it will take it as spamming. This is the reason we are suspending the services for your account."
 
 What's wild about this is that in their response, they actually provide the proof that the server isn't sending spam. By their very words, they're describing that the server is sending out emails notifying the webmaster that someone is trying to break into the site. Automated threat detection systems are great, but in this case, automatically shutting down the site was a really bad idea.
 
@@ -125,15 +122,13 @@ What I'd like to see is them trying to actually block the hackers from trying to
 Anyway, I took a look at the admin tools console and noticed the following:
 
 ![Website login surge](/images/2016/website-login-surge-640.png) 
-
 Figure 1
 
 As you can see from the figure, the server was humming along, then suddenly had more than 8,000 bad login attempts in a very short period of time. This site has a maximum of about 100 users, no more than 10 or so would ever be on the site at the same time, so clearly there's a problem. Does my hosting account need to be shut down because of it? No, not really. Are the hackers getting in? Nope, they're not, and each IP address is being blocked, so they have to come up with a new one to try again. Clearly there's a botnet at work here.
 
 FatCow's made some serious changes to their support policies. Where I could create a new support ticket or call them any time I wanted, they've since removed those abilities and force everyone to have an online chat first. What's funny is the content to submit a ticket and the phone number are still on the support page, they simply hide them after the page renders in order to force you through the chat process. Chat doesn't work very well when there's a long wait. The first time I tried it, the hold time was like 20 minutes, so I got to work on something else as I waited. A technician finally got on the chat, but I'd forgotten that I'd started a chat and couldn't figure out what that chiming was from my PC.
 
-Making Some Progress
-====================
+## Making Some Progress
 
 Now, I've been pretty vocal with FatCow about this issue, every week, when they send me an infection notice, I sometimes politely, but sometimes not so politely let them know it's a false positive. When they send the notification, FatCow also notifies SiteLock, so their folks quickly call me trying to sell me more services. I've discussed this with SiteLock, and that's how I know it's the FatCow malware scanner, not SiteLock's that's causing the false positive.
 

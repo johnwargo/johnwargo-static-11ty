@@ -10,7 +10,6 @@ tags: post
 I posted a little while ago about how marketing organizations were ignoring mobile clients when crafting email blasts and provided some examples (which I continue to update as I find more). My analysis of these emails focused mainly on how the email messages are not formatted correctly for smaller devices, but as I looked into this more, I realized that many of these email messages, not marketing blasts, but specific notification emails sent directly to me, weren't structured in a way that made them immediately useful to me as the consumer. Take the following email notification from American Airlines for example:
 
 ![American Airlines Flight Notification](/images/2016/email-formatting-for-use-640.png) 
-
 Figure 1 – American Airlines Departure Reminder Email
 
 When you look at the email on my Nexus 5x device as shown in the figure, there is no useful information displayed once I open the email. All I can tell by looking at this email is that I have a departure coming up and that it has a specific record locator. The developer who crafted this email message paid no attention to providing me with useful information above the fold (in the first page displayed).
@@ -33,15 +32,15 @@ Now onto the body of the email. As you can see, the content styling isn't setup 
 
 So, what details of this flight are important for me to know in this notification? As I thought through this, the following list came to mind:
 
-*   Destination City – I'm flying and may have more than one flight today, so probably care most about which leg of the flight I'm being notified about.
-*   Departure City – Seeing this would help me understand exactly which flight leg we're talking about
-*   Flight Number – Isn't amazing that the airline has given me the record locator twice, but never once mentioned the flight number?
-*   Departure gate
-*   Status – what's the current status of the flight
-*   Planned departure time – this one and the following could be on the same line.
-*   Current departure time
-*   Planned arrival time – this one and the following could be on the same line.
-*   Expected arrival time
+* Destination City – I'm flying and may have more than one flight today, so probably care most about which leg of the flight I'm being notified about.
+* Departure City – Seeing this would help me understand exactly which flight leg we're talking about
+* Flight Number – Isn't amazing that the airline has given me the record locator twice, but never once mentioned the flight number?
+* Departure gate
+* Status – what's the current status of the flight
+* Planned departure time – this one and the following could be on the same line.
+* Current departure time
+* Planned arrival time – this one and the following could be on the same line.
+* Expected arrival time
 
 The order should probably be adjusted and some of the items can be listed together, but that's basically the gist of what I need to know about a flight in a departure notification. All (or at least most) of that information should appear on the initial screen that appears when the user opens the email.
 
@@ -49,11 +48,11 @@ For a reasonably sized device, that information should appear without the reader
 
 Here's what I would do: For the subject line, I would get the user to the most important information as quickly as possible:
 
-Flight FLIGHT\_NUMBER: STATUS, Gate GATE\_NUMBER
+Flight FLIGHT_NUMBER: STATUS, Gate GATE_NUMBER
 
 Or
 
-DEPARTURE\_CITY: STATUS, Gate GATE\_NUMBER
+DEPARTURE_CITY: STATUS, Gate GATE_NUMBER
 
 That's it. I know that I'm flying and I know which airline sent the email, so I really don't need to know anything else in the subject line. With that information in place, I can tell, without even opening the email, whether I need to open the email and read more. If the details in the subject line are complete, there's actually no need to open the email unless I want more details.
 
@@ -63,9 +62,9 @@ Any additional information, including links to do other things with the airline 
 
 The best litmus test for app or email UI verification is how many actions does it take to get the user to the exact information they need at the time they need it:
 
-*   The best option is none; the user gets a notification, the notification appears in the device's notification area and displays enough information to impart some knowledge to the reader. That's the best approach and not actually that hard to accomplish if you actually work at it. In this case, the user never needs to even open the email or email client.
-*   Next comes one action; the user has to open their email client. Once the message appears in the messages list, if the subject line is thoughtfully crafted, the user can gain useful knowledge by simply reading the subject line.
-*   Barely acceptable is two actions; the user has to open the email client and open the email message.
-*   Unacceptable is what I've shown above; the user has to open the email client, open the email message, AND then scroll down in the message to gain useful insights into the flight's status. I'm assuming here that useful information will be visible after only one swipe, it's possible more than one swipe will be needed to get to the useful information and that would be horrible.
+* The best option is none; the user gets a notification, the notification appears in the device's notification area and displays enough information to impart some knowledge to the reader. That's the best approach and not actually that hard to accomplish if you actually work at it. In this case, the user never needs to even open the email or email client.
+* Next comes one action; the user has to open their email client. Once the message appears in the messages list, if the subject line is thoughtfully crafted, the user can gain useful knowledge by simply reading the subject line.
+* Barely acceptable is two actions; the user has to open the email client and open the email message.
+* Unacceptable is what I've shown above; the user has to open the email client, open the email message, AND then scroll down in the message to gain useful insights into the flight's status. I'm assuming here that useful information will be visible after only one swipe, it's possible more than one swipe will be needed to get to the useful information and that would be horrible.
 
 As developers, we have to stand up and be thoughtful in how we impart information in small spaces. The email shown above was created from the airline's perspective; the record locator is how they think of the reservation, so the developer implementing this system applied that same thought process to the message content. She (or he) didn't put themselves in the reader's shoes and organize the content in the way that made the most sense to the content's target. That's a shameful lack of effort in what could be a great opportunity to impress a customer in his time of need.
