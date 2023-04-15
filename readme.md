@@ -52,6 +52,7 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 
 ![Home Page](images/image-01.png)
 
+https://pixelarity.com/faction
 https://www.favicon-generator.org/
 
 {target="_blank"}

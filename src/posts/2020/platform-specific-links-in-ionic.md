@@ -12,9 +12,7 @@ When I submitted the Time Slicer app to the Apple App Store, they rejected it. T
 What surprised me though was Apple's reason for rejecting me:
 
 > We noticed that your app or its metadata includes irrelevant third-party platform information.
-> 
 > Specifically, your app includes non-iOS device images in the tutorial screens.
-> 
 > Referencing third-party platforms in your app or its metadata is not permitted on the App Store unless there is specific interactive functionality.
 
 Aaah, Yes – the app screen shots in the app's Intro and About pages. Well that was unexpected (unexpected because I never read Apple's publishing guidelines), but not a big issue to fix.
@@ -29,13 +27,13 @@ First I updated the TypeScript code for each page (into.page.ts and about.page.t
 
 Added an import for the Platform module:
 
-```typescript
+```ts
 import {, Platform } from '@ionic/angular';
 ```
 
 Next I updated the constructor to instantiate the platform variable:
 
-```typescript
+```ts
 constructor(
   public platform: Platform,
 ) { }
@@ -43,7 +41,7 @@ constructor(
 
 Then I added a variable called runningOn to the top of the page class:
 
-```typescript
+```ts
 runningOn: String = 'android';
 ```
 
@@ -51,7 +49,7 @@ This sets the default platform to Android and will cause the Android screen shot
 
 On Init, we need the app to set the platform to iOS if running on iOS, so I added the following code:
 
-```typeScript
+```ts
 ngOnInit() {
   // If we're on iOS, show iOS images
   if (this.platform.is('ios')) {
@@ -64,7 +62,7 @@ This resets the runningOn variable appropriately on iOS devices.
 
 This is what the Intro Page code looks like in its entirety:
 
-```typescript
+```ts
 import { Component, OnInit } from '@angular/core';
 import { NavController, Platform } from '@ionic/angular';
 import { Storage } from '@ionic/storage';
@@ -111,7 +109,7 @@ This changes the URL, appending the platform name at runtime and loading the cor
 
 The Ionic Platform module does not offer a method to retrieve the platform name (it should), so you must ask it for each platform. So, to add support for Electron-specific images, then the ngOnInit code would look like this:
 
-```typescript
+```ts
 ngOnInit() {
   // If we're on iOS, show iOS images
   if (this.platform.is('ios')) {

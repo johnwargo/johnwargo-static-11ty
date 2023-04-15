@@ -1,0 +1,56 @@
+{% assign latest_posts = collections.blog | reverse %}
+
+  <aside class="sidebar">
+
+  <!-- Blurb -->
+  <section>
+    <h2>Amazon Author Page</h2>
+    <p>I've published 8 books so far, you can view and order most of them from My Amazon Author Page.
+    </p>
+    <ul class="actions">
+      <li>
+        <a
+          href="https://www.amazon.com/stores/author/B002BLY6VU/allbooks"
+          class="button"
+          target="_blank">Learn More</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Posts -->
+  <section>
+    <h2>Recent Posts</h2>
+    <ul class="posts">
+      {% for post in latest_posts limit: 10 %}
+        <a href="{{post.url | slugify}}">{{ post.data.title }}</a>
+        <span class="date">{{ post.date | niceDate }}</span>
+      {% endfor %}
+    </ul>
+    <ul class="actions">
+      <li>
+        <a href="{{ "/" | htmlBaseUrl }}articles" class="button">More Posts</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Featured posts -->
+  <section class="featured-posts">
+    <h2>Sed aliquam</h2>
+    <article>
+      <a href="#" class="image fit"><img src="images/pic05.jpg" alt=""></a>
+      <header>
+        <span class="date">September 19, 2016</span>
+        <h3>
+          <a href="#">Non velit accumsan cursus gravida amet sapien</a>
+        </h3>
+      </header>
+      <p>Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis varius.</p>
+      <ul class="actions">
+        <li>
+          <a href="#" class="button">Continue Reading</a>
+        </li>
+      </ul>
+    </article>
+  </section>
+
+</aside>
