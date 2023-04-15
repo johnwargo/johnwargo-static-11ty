@@ -23,11 +23,11 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Copy image files to project
 * [x] Search and replace hhtp:// => https://
 * [ ] Clean up exported articles (images, external links)
+* [ ] Do something with the galleries images (likely kill them)
 * [ ] Assign correct style to image files
-* [ ] Move Stories images to date folders
+* [ ] Add post cover image based on category
 * [ ] Copy files over
 * [ ] Add descriptions to all articles, make page to check
-* [ ] Do something with the galleries images (likely kill them)
 * [ ] Update article lists to use description where its available
 * [ ] Run Link Checker
 * [ ] Next/Previous Post buttons on Post pages
@@ -41,12 +41,13 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [ ] Section - Sightings
 * [ ] Add Buy Me a Coffee
 * [ ] Algolia Search
+* [ ] Statistics page show bar graph of posts/year, and average time between posts
 * [ ] Make professional You tube account and move stuff
 * [ ] Anchor Links? https://rhianvanesch.com/posts/2021/02/09/adding-heading-anchor-links-to-an-eleventy-site/
 * [ ] Newsletter sign up
 * [ ] Automatically tweet and mastodon new posts?
 * [ ] Discussions
-* [ ] Statistics page show bar graph of posts/year, and average time between posts
+
 
 ![Home Page](images/image-01.png)
 
