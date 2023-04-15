@@ -7,9 +7,9 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-Many years ago (I can't remember how many), I bought a USeless Maching kit from [Frivolous Engineering](https://www.instructables.com/member/Frivolous%20Engineering/instructables/). It's this amazing kit that enables you to build a machine that when you turn it on, it immediately turns itself off; a finger pokes out the lid to flip the power switch back to off again.
+Many years ago (I can't remember how many), I bought a Useless Machine kit from [Frivolous Engineering](https://www.instructables.com/member/Frivolous%20Engineering/instructables/){target="_blank"}. It's this amazing kit that enables you to build a machine that when you turn it on, it immediately turns itself off; a finger pokes out the lid to flip the power switch back to off again.
 
-![](/images/2020/uesless-machine_1.jpg)
+![Useless Machine Image](/images/2020/uesless-machine_1.jpg)
 
 I bought it so I could build it with one of my children and was pleasantly surprised when Elizabeth wanted to build it with me. We had an amazing hour or so putting this thing together and big laughs every time we turned it on.
 
@@ -23,4 +23,4 @@ On the Fourth of July weekend, I had a lot of free time (because we were safe an
 
 I took it apart, reassembled it, and guffawed as usual every time I turned it on (and it turned itself off). My kids are old enough that I think the experimentation period is over and I can put it out without worrying that someone's going to break it. It's now sitting in my office, right at the top of a bookshelf that sits next to the stairs down to the first floor. I thought I'd put it there for any visitors to play with, but I find that I flip that little switch every time I leave my office. Guffawing every time.
 
-Here's where you can buy one of the current versions of the project: [https://www.spikenzielabs.com/Catalog/useless-machine/the-useless-machine-kit-diy-soldering-edition?cPath=1&](https://www.spikenzielabs.com/Catalog/useless-machine/the-useless-machine-kit-diy-soldering-edition?cPath=1&) Enjoy!
+Here's where you can buy one of the current versions of the project: [https://www.spikenzielabs.com/Catalog/useless-machine/the-useless-machine-kit-diy-soldering-edition?cPath=1&](https://www.spikenzielabs.com/Catalog/useless-machine/the-useless-machine-kit-diy-soldering-edition?cPath=1&){target="_blank"}.

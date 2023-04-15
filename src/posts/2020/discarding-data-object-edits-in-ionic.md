@@ -15,14 +15,12 @@ When I first encountered this, I poked and prodded at the issue for a long time 
 
 It's a simple and elegant solution, but a solution I had a hard time finding when I needed it.
 
-Back with Ionic 3, the recommended solution was to use the Lodash ([https://lodash.com/](https://lodash.com/)) clone method to make the clone, and that worked great for a while. Later versions of either Ionic or the Lodash library broke things, so I could no longer use Lodash to solve this particular problem.
+Back with Ionic 3, the recommended solution was to use the Lodash ([https://lodash.com/](https://lodash.com/){target="_blank"}) clone method to make the clone, and that worked great for a while. Later versions of either Ionic or the Lodash library broke things, so I could no longer use Lodash to solve this particular problem.
 
-When this happened, I reached out again to Ionic and they provided me with a little, custom clone object I could use for my Ionic apps. Since I originally had a problem finding a solution for this, I decided I'd publish a complete sample application that demonstrated the solution. I finally got around to completing the sample yesterday and published the project (with a complete explanation of the code) to the Ionic Edit Object Sample [https://github.com/johnwargo/ionic-edit-object-sample](https://github.com/johnwargo/ionic-edit-object-sample) repository.
+When this happened, I reached out again to Ionic and they provided me with a little, custom clone object I could use for my Ionic apps. Since I originally had a problem finding a solution for this, I decided I'd publish a complete sample application that demonstrated the solution. I finally got around to completing the sample yesterday and published the project (with a complete explanation of the code) to the Ionic Edit Object Sample [https://github.com/johnwargo/ionic-edit-object-sample](https://github.com/johnwargo/ionic-edit-object-sample){target="_blank"} repository.
 
 The app's main screen looks like the following figure. It lists a couple of simple data object properties plus options for the traditional Ionic back button edit process plus a second option where the user can make changes to the data then cancel or save their changes.
 
-![](/images/2020/home.png)
+![Application Home](/images/2020/home.png)
 
-I also recorded a video demonstration of the app at [https://www.youtube.com/watch?v=nJPmmxR8\_iY](https://www.youtube.com/watch?v=nJPmmxR8_iY)
-
-{youtube}nJPmmxR8\_iY{/youtube}
+I also recorded a video demonstration of the app at [https://www.youtube.com/watch?v=nJPmmxR8\_iY](https://www.youtube.com/watch?v=nJPmmxR8_iY){target="_blank"}
