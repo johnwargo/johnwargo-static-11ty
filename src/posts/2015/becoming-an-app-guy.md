@@ -27,16 +27,16 @@ I'm getting ready to make a BIG career change and because the company I'll be wo
 
 Already, I'm finding myself spending more and more time with the following apps:
 
-*   Sonos: controlling the music that surrounds me
-*   Pandora: when I want to listen to music when I only have my tablet or smartphone near
-*   Zinio: Unfortunately, a few of the publications I read are ONLY available in electronic format; I HATE that.
-*   Pocket
-*   Flipboard: I LOVE flipboard, that's how I get all my news now
-*   Evernote
-*   Amazon
-*   Banking and Credit card apps: direct deposit is way overdue.
-*   Dropbox
-*   Google Drive and apps
+* Sonos: controlling the music that surrounds me
+* Pandora: when I want to listen to music when I only have my tablet or smartphone near
+* Zinio: Unfortunately, a few of the publications I read are ONLY available in electronic format; I HATE that.
+* Pocket
+* Flipboard: I LOVE flipboard, that's how I get all my news now
+* Evernote
+* Amazon
+* Banking and Credit card apps: direct deposit is way overdue.
+* Dropbox
+* Google Drive and apps
 
 I used to hate the zinio app, but it's gotten better although it's still flawed in a great many ways, at least it works most of the time (which is an improvement).
 
