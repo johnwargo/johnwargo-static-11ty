@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-I'm a [SiteLock](https://www.sitelock.com/) customer; my hosting provider offers the service at a discount, so I signed up for it on several of the sites I manage. My ISP uses SiteLock to scan customer accounts for malware, and, of course, SiteLock tries to upsell me on more rigorous scanning.
+I'm a [SiteLock](https://www.sitelock.com/){target="_blank"} customer; my hosting provider offers the service at a discount, so I signed up for it on several of the sites I manage. My ISP uses SiteLock to scan customer accounts for malware, and, of course, SiteLock tries to upsell me on more rigorous scanning.
 
 A few weeks ago, I received an unsolicited email from Justin McCulloch, a SiteLock Security Consultant, informing me that they'd detected a problem with the site. Here's what he said in the email:
 

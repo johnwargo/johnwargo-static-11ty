@@ -7,7 +7,7 @@ categories: [Internet of Things (IoT)]
 tags: post
 ---
 
-A while back, I created a remote [garage door opener](https://github.com/johnwargo/particle-garage-door-controller) project using the [Particle platform](https://www.particle.io/).
+A while back, I created a remote [garage door opener](https://github.com/johnwargo/particle-garage-door-controller){target="_blank"} project using the [Particle platform](https://www.particle.io/){target="_blank"}.
 
 The Particle Platform (devices and cloud services) enables developers to write code running on an Arduino-compatible device that can be remotely executed via a cloud service. Connect a Photon and a relay to a garage opener and you have the gist of my project.
 
@@ -25,38 +25,38 @@ I'm not a native mobile developer, so the mobile app I'd deliver would be an Apa
 
 I poked and prodded at several potential solutions, but none panned out. I wanted (needed) this architecture to be both simple and secure, and nothing good came to mind. I started asking a colleague about possible options for encrypting the data using JavaScript and he quickly suggested using a serverless function to encrypt the data.
 
-I tried to quickly discount this approach because I didn't want to pay for compute in the cloud, but then he reminded me that I could use Azure Functions for free (Microsoft offers Azure Functions in a free tier for a ridiculous number of function calls per month \[more than I think I'll ever use for this project\]).
+I tried to quickly discount this approach because I didn't want to pay for compute in the cloud, but then he reminded me that I could use Azure Functions for free (Microsoft offers Azure Functions in a free tier for a ridiculous number of function calls per month [more than I think I'll ever use for this project]).
 
 To prove the validity of this solution, I logged into my personal Azure account, created an Azure App Service Functions instance and got to work. Before long I had it working; it was quick, simple, and a rather elegant solution to my problem. The purpose of this article is to show you how I did it in order to help others who may have this same problem.
 
 For my implementation, I created two services:
 
-*   `setSingleUseCode`
-*   `pushButtonWithCode`
+* `setSingleUseCode`
+* `pushButtonWithCode`
 
 The `setSingleUseCode` function:
 
-1.  Gets the Particle Access Token and Device ID in the body of an HTTP request.
-2.  Generates a single use code
-3.  Calls my project's Particle API to register the single-use code with the selected device (by the Device ID passed to the function)
-4.  Once the function knows that the single-use code was successfully registered with the Photon device, it:
-    1.  Creates a JSON object containing Access Token, Device ID, and Single-use code.
-    2.  Encrypts the JSON object using my super special, secret encrypting key.
-    3.  Builds a URL for my hosted web application, appending the encrypted data as a parameter in the URL.
-    4.  Returns the URL to the calling application.
+1. Gets the Particle Access Token and Device ID in the body of an HTTP request.
+2. Generates a single use code
+3. Calls my project's Particle API to register the single-use code with the selected device (by the Device ID passed to the function)
+4. Once the function knows that the single-use code was successfully registered with the Photon device, it:
+    1. Creates a JSON object containing Access Token, Device ID, and Single-use code.
+    2. Encrypts the JSON object using my super special, secret encrypting key.
+    3. Builds a URL for my hosted web application, appending the encrypted data as a parameter in the URL.
+    4. Returns the URL to the calling application.
 
 The calling application copies the URL to the clipboard, enabling the user to open and email or SMS message, and paste the URL in the message body.  
 
 When the receiving user invokes the URL, my hosted web application opens, then:
 
-1.  Validates the format of the URL (that the encrypted data is there).
-2.  Displays a button the user clicks/taps to open the garage door.
-3.  When the user clicks/taps the button, the application invokes the `pushButtonWithCode` Azure function, passing it the encrypted data from the URL.
+1. Validates the format of the URL (that the encrypted data is there).
+2. Displays a button the user clicks/taps to open the garage door.
+3. When the user clicks/taps the button, the application invokes the `pushButtonWithCode` Azure function, passing it the encrypted data from the URL.
 
 The `pushButtonWithCode` function:
 
-*   Decrypts the data from the request
-*   Uses the decrypted Access Token, Device ID, and single-use code to call the Particle Cloud and invoke a function on the selected Particle Photon device.
+* Decrypts the data from the request
+* Uses the decrypted Access Token, Device ID, and single-use code to call the Particle Cloud and invoke a function on the selected Particle Photon device.
 
 That's it, a very simple and elegant solution to my problem. Implementation-wise, it's a couple of hundred lines of JavaScript code (most of it shared across the two functions). Performance is great, and my only cost is a few cents a month to pay for the Azure storage used to store information about my functions.
 

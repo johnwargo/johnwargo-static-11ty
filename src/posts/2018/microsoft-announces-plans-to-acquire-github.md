@@ -23,7 +23,7 @@ Open Source won!
 
 Software companies (like Microsoft) still exist, but the most large companies run their more modern software on open source stacks. Software companies adapted and switched to a pay per use approach (cloud services, SaaS, and PaaS) or they offer additional capabilities or support for open source solutions. There's still a lot of for fee apps out there, but the world has switched to open source for so much software nowadays that it's hard to imagine paying big dollars for software like we did in the past.
 
-Microsoft has fully embraced open source. They're the biggest publisher of open source software on GitHub. Visual Studio Code, a free, open source developer editor from Microsoft is the most popular editor used by developers worldwide. Don't forget the Monaco editor ([https://github.com/Microsoft/monaco-editor](https://github.com/Microsoft/monaco-editor)) the editor at the core of Visual Studio Code is open source and available for anyone to use any way they want to.
+Microsoft has fully embraced open source. They're the biggest publisher of open source software on GitHub. Visual Studio Code, a free, open source developer editor from Microsoft is the most popular editor used by developers worldwide. Don't forget the Monaco editor ([https://github.com/Microsoft/monaco-editor](https://github.com/Microsoft/monaco-editor{target="_blank"}) the editor at the core of Visual Studio Code is open source and available for anyone to use any way they want to.
 
 Those naysayers who are freaking out about our pending purchase (Microsoft hasn't purchased GitHub yet), do they realize that Monaco is likely used in many products that compete with Microsoft products and Microsoft doesn't care?
 

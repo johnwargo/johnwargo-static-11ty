@@ -37,8 +37,8 @@ My real issue here though is that whomever coded this, doesn't clear the results
 
 If the ticket is a winner, confetti falls from the top of the screen and the results panel updates with the prize, so it's easy to see that the scan works. When scanning two losing tickets in sequence, there's no way for me to tell whether the app just failed scanning the second ticket. Designers and developers:
 
-*   Think through all use cases.
-*   Watch real users actually use your app
-*   Ask questions of people who don't already know how to use your app
+* Think through all use cases.
+* Watch real users actually use your app
+* Ask questions of people who don't already know how to use your app
 
 The most interesting things I've learned from users is how they use tools in different ways than the tool (app) designer expected. That's one of the most interesting aspects of using Analytics tools to track how users use your app - you can sit in your office or cubicle and 'see' the path people take through your app. With that data in hand, make decisions on where to invest your efforts, or how to update your app designs to better accommodate your user's needs.
