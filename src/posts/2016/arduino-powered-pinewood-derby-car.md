@@ -14,7 +14,7 @@ Introduction
 
 By John M. Wargo & August M. Wargo
 
-**August:** My dad and I had an idea that our last pinewood derby car should be really cool. My dad is a geek and really good with electronics so he did most of the coding. I did most of the design. I thought that it was a lot of fun because I got to spend more time with my dad and got to do a lot of things that I like. I couldn’t wait until the race to see how fast it was. It did not win a single race. But we did win the most unique car design. It was the best Cub Scout experience I've ever had.
+**August:** My dad and I had an idea that our last pinewood derby car should be really cool. My dad is a geek and really good with electronics so he did most of the coding. I did most of the design. I thought that it was a lot of fun because I got to spend more time with my dad and got to do a lot of things that I like. I couldn't wait until the race to see how fast it was. It did not win a single race. But we did win the most unique car design. It was the best Cub Scout experience I've ever had.
 
 **John:** My son is in Cub Scouts and for years we've been building Boy Scouts of America Pinewood Derby ([www.pinewoodderby.org](https://www.pinewoodderby.org)) cars with the rest of the pack. I've always invited my son's Den into my workshop so the other scouts and their Dads can make use of my tools to build their cars. The Boy Scouts has a policy against Cub Scouts using power tools, but with the right guidance we've gotten along.
 

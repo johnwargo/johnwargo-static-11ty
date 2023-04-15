@@ -24,4 +24,4 @@ Be ready for lots of innovative mobile app samples, demos and useful information
 How to participate in the Q&A session:  
 If you have a Twitter account, use #SAPQA #Mobile to send your questions during and 1-hour after the webcast. Please use the same hashtags to share your comments and to follow the conversations.
 
-To register for the event, please use the following link: [https://bit.ly/LClcmh.](https://bit.ly/LClcmh.)
+To register for the event, please use the following link: [https://bit.ly/LClcmh](https://bit.ly/LClcmh){target="_blank"}

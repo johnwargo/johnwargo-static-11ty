@@ -7,7 +7,7 @@ categories: [IBM Lotus Domino]
 tags: post
 ---
 
-The first part of a series on mobilizing IBM Lotus Domino data for mobile platforms that don’t directly support XML-based Web Services (like Android and the iPhone).
+The first part of a series on mobilizing IBM Lotus Domino data for mobile platforms that don't directly support XML-based Web Services (like Android and the iPhone).
 
 ## Introduction
 
@@ -24,19 +24,19 @@ Beginning with BlackBerry Device Software 4.2, Research in Motion added the abil
 
 After I left Research in Motion, I continued to present at the same conferences and added the Midwest Lotus User Group (MWLUG) conference to my standard tour. Because of the Web Services capabilities of Microsoft Visual Studio, it was pretty easy to add a demo of a Windows Mobile application to my presentations as well.
 
-The iPhone and Android platforms were released without the ability to connect to XML-based Web services, so I had to find a different way for those platforms to connect to Domino. Android includes the JSON libraries from [json.org](https://www.json.org){target="_blank"}, and there were several versions of JSON libraries for the iPhone platform up there as well, so I decided I’d use REST and JSON to accommodate Android and iPhone. At Lotusphere 2010, while recovering from pneumonia, I added an Android demo to the presentation and was even able to show an almost complete (I never finished it) iPhone example as well. At the conference I promised I’d publish an article here demonstrating how I built the Android application, so here it begins (finally). This article is the first part of a new series that’s all about how to use REST and JSON to mobilize Domino data on Android. There’ll be two articles in this series here, plus I’ll eventually publish an article in the View illustrating the iPhone application.
+The iPhone and Android platforms were released without the ability to connect to XML-based Web services, so I had to find a different way for those platforms to connect to Domino. Android includes the JSON libraries from [json.org](https://www.json.org){target="_blank"}, and there were several versions of JSON libraries for the iPhone platform up there as well, so I decided I'd use REST and JSON to accommodate Android and iPhone. At Lotusphere 2010, while recovering from pneumonia, I added an Android demo to the presentation and was even able to show an almost complete (I never finished it) iPhone example as well. At the conference I promised I'd publish an article here demonstrating how I built the Android application, so here it begins (finally). This article is the first part of a new series that's all about how to use REST and JSON to mobilize Domino data on Android. There'll be two articles in this series here, plus I'll eventually publish an article in the View illustrating the iPhone application.
 
 ## The Sample Application
 
-In case you missed the first part of this series, the application we’re building here allows a mobile user to lookup contacts in the Domino Directory. The assumption here is that most every Domino customer has some extra database of contacts and mobile users will need the ability to lookup contact information. This is the same process as demonstrated in the original series; it’s just modified so it leverages JSON instead of Web Services.
+In case you missed the first part of this series, the application we're building here allows a mobile user to lookup contacts in the Domino Directory. The assumption here is that most every Domino customer has some extra database of contacts and mobile users will need the ability to lookup contact information. This is the same process as demonstrated in the original series; it's just modified so it leverages JSON instead of Web Services.
 
 ## About REST
 
-REST stands for [Representational State Transfer](https://en.wikipedia.org/wiki/Representational_State_Transfer){target="_blank"} and essentially it’s a form of Web Service where parameters for a request are sent on the URL to the server and the server’s response is returned in the body of the HTTP response typically in XML or JSON format although it could be in any format. RESTful Web Services are much easier to use then XML Web Services since it’s so much less work to call the service and there’s much less overhead when the data is returned as JSON rather than XML.
+REST stands for [Representational State Transfer](https://en.wikipedia.org/wiki/Representational_State_Transfer){target="_blank"} and essentially it's a form of Web Service where parameters for a request are sent on the URL to the server and the server's response is returned in the body of the HTTP response typically in XML or JSON format although it could be in any format. RESTful Web Services are much easier to use then XML Web Services since it's so much less work to call the service and there's much less overhead when the data is returned as JSON rather than XML.
 
 ## About JSON
 
-JSON stands for JavaScript Object Notation and it’s a way of representing data in a textual format that’s easy to parse and manipulate. To quote json.org (www.json.org):
+JSON stands for JavaScript Object Notation and it's a way of representing data in a textual format that's easy to parse and manipulate. To quote json.org (www.json.org):
 
 > “JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language, Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.
 > 
@@ -54,9 +54,9 @@ In JSON, an array looks like this:
 And an Object looks like this:
 
 ![](/images/2011/jsonobject.gif)  
-You’ll see how these apply in the following section.
+You'll see how these apply in the following section.
 
-*JSON Images shamelessly ‘borrowed’ from [www.json.org](https://www.json.org){target="_blank"}.
+*JSON Images shamelessly 'borrowed' from [www.json.org](https://www.json.org){target="_blank"}.
 
 ## Designing the JSON Agent
 
@@ -70,7 +70,7 @@ https://server/database.nsf/domdirlookuprest?openagent&cmd=COMMAND&searchstr=SEA
 
 Where the `cmd=` and `searchStr=` portions of the URL are places where the calling program can pass in parameters to control what the service returns.
 
-To obtain a list of contacts whose last name begins with ‘war’, the mobile application will call the following URL:
+To obtain a list of contacts whose last name begins with 'war', the mobile application will call the following URL:
 
 ```text
 https://server\_name/bbnames.nsf/domdirlookuprest?openagent&cmd=list&searchstr=war
@@ -82,13 +82,13 @@ In this case, the cmd is `list` and the searchStr is 'War' – when the agent ru
 ["John Wargo", "Anna Wargo"]
 ```
 
-Once a mobile application’s user selects a contact, the agent is called again with the following URL:
+Once a mobile application's user selects a contact, the agent is called again with the following URL:
 
 ```text
 https://localhost/bbnames.nsf/domdirlookuprest?openagent&cmd=details&searchstr=john+wargo
 ```
 
-In this case, the cmd is ‘details’ and the searchStr is my contact name. When the agent runs on the Domino server, it will return the following JSON object (notice that the first call, the call to get the list, returns a JSON array, while the second call (for the details) returns an object):
+In this case, the cmd is 'details' and the searchStr is my contact name. When the agent runs on the Domino server, it will return the following JSON object (notice that the first call, the call to get the list, returns a JSON array, while the second call (for the details) returns an object):
 
 ```json
 {  
@@ -101,19 +101,19 @@ In this case, the cmd is ‘details’ and the searchStr is my contact name. Whe
 }
 ```
 
-That’s it, that’s all there is to the agent I’m showing you how to build in this article.
+That's it, that's all there is to the agent I'm showing you how to build in this article.
 
-Probably asking yourself “Why not use the JSON capabilities already built into Domino to provide this functionality?” Well, Domino’s ability to generate JSON output is designed for rendering views in a format that’s easy for an application to process. Using the following URL:
+Probably asking yourself “Why not use the JSON capabilities already built into Domino to provide this functionality?” Well, Domino's ability to generate JSON output is designed for rendering views in a format that's easy for an application to process. Using the following URL:
 
 ```text
 https://server1/database.nsf.nsf/viewname?ReadViewEntries&OutputFormat=JSON
 ```
 
-would cause the Domino server to render the view as JSON, it doesn’t help us here because we’re passing in search strings and trying to retrieve only one document. It could be done (I think) with a single category view, but taking that approach was much more work than I wanted to do.
+would cause the Domino server to render the view as JSON, it doesn't help us here because we're passing in search strings and trying to retrieve only one document. It could be done (I think) with a single category view, but taking that approach was much more work than I wanted to do.
 
 ## Building the JSON Agent
 
-Let’s dig into the agent. A sample database that contains this agent is attached at the bottom of this article.
+Let's dig into the agent. A sample database that contains this agent is attached at the bottom of this article.
 
 It essentially begins with the standard stuff I put into any Domino agent:
 
@@ -123,7 +123,7 @@ Option Declare
 Option Base 1
 ```
 
-Then I define some common variables I’ll need as I process the database view:
+Then I define some common variables I'll need as I process the database view:
 
 ```vb
 'Notes Objects  
@@ -149,11 +149,11 @@ Const errorStr = |ERROR: |
 Const quoteStr = |"|
 ```
 
-It’s the Initialize subroutine where all of the processing happens. Remember, the service works by having essentially a single URL that’s called by the calling program. Parameters passed on the URL instruct the agent what to do. The Initialize subroutine essentially does nothing but parse the URL and call the appropriate subroutine depending on which command (‘list’ or ‘details’) is passed to the agent on the URL.  
+It's the Initialize subroutine where all of the processing happens. Remember, the service works by having essentially a single URL that's called by the calling program. Parameters passed on the URL instruct the agent what to do. The Initialize subroutine essentially does nothing but parse the URL and call the appropriate subroutine depending on which command ('list' or 'details') is passed to the agent on the URL.  
 
-Since we’re trying to output JSON in this agent, Initialize begins with a print statement that causes Domino to skip the building of an HTML page to be sent to the calling program. If this wasn’t there, Domino would assume the agent was delivering HTML content and would prepend the beginning parts of a web page to the agent’s output.
+Since we're trying to output JSON in this agent, Initialize begins with a print statement that causes Domino to skip the building of an HTML page to be sent to the calling program. If this wasn't there, Domino would assume the agent was delivering HTML content and would prepend the beginning parts of a web page to the agent's output.
 
-Next, the agent gets a handle to the current Notes Session object, database object then the agent’s context (through set doc = s.DocumentContext). After that, the agent gets the URL string from the document context and parses it through repeated calls to the GetCmdLineValue function. Once it knows what command has been sent (list or details) and what search string to use, it calls the appropriate subroutine (GetContactList or GetContactDetails) to lookup the appropriate document(s) and output the necessary JSON text.
+Next, the agent gets a handle to the current Notes Session object, database object then the agent's context (through set doc = s.DocumentContext). After that, the agent gets the URL string from the document context and parses it through repeated calls to the GetCmdLineValue function. Once it knows what command has been sent (list or details) and what search string to use, it calls the appropriate subroutine (GetContactList or GetContactDetails) to lookup the appropriate document(s) and output the necessary JSON text.
 
 ```vb
 Sub Initialize()  
@@ -345,4 +345,4 @@ End sub
 
 ## Conclusion
 
-That’s all there is to it. In the next installment, I’ll show you how to build an Android application that consumes the service. It only took me a year to deliver on my promise to publish this article. I wonder how long it will take me to publish the next one article. Stay tuned.
+That's all there is to it. In the next installment, I'll show you how to build an Android application that consumes the service. It only took me a year to deliver on my promise to publish this article. I wonder how long it will take me to publish the next one article. Stay tuned.

@@ -15,7 +15,7 @@ In an earlier article, I showed how to access build information in an Ionic appl
 Manipulating the Project Configuration File
 -------------------------------------------
 
-ReactJS projects use node-based tooling like most web-based frameworks, so they already have an easy to update place to maintain the application’s version number - in the project’s package.json file. Here’s a stripped-down version of the package.json file from a new project I just created:
+ReactJS projects use node-based tooling like most web-based frameworks, so they already have an easy to update place to maintain the application's version number - in the project's package.json file. Here's a stripped-down version of the package.json file from a new project I just created:
 
 {  
  "name": "react-app",  

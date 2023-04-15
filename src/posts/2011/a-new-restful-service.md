@@ -7,22 +7,22 @@ categories: [IBM Lotus Domino]
 tags: post
 ---
 
-I have published several articles on this site that illustrated different types of web services for Domino that I have used in some mobile applications. Domino easily supports XML-based web services and platforms such as BlackBerry and Windows Mobile have inherent capabilities that allow applications to consume XML-based web services. Other platforms on the other hand don’t have built-in support for XML-based web services, so I’ve had to implement RESTful services for applications built for other platforms such as Android and iOS. More recently I’ve decided to make a change to the RESTful agent I’ve been using for my applications and thought I’d document the changes here.
+I have published several articles on this site that illustrated different types of web services for Domino that I have used in some mobile applications. Domino easily supports XML-based web services and platforms such as BlackBerry and Windows Mobile have inherent capabilities that allow applications to consume XML-based web services. Other platforms on the other hand don't have built-in support for XML-based web services, so I've had to implement RESTful services for applications built for other platforms such as Android and iOS. More recently I've decided to make a change to the RESTful agent I've been using for my applications and thought I'd document the changes here.
 
 With my original web services, the idea was that a mobile application would send a request for a list of contacts that matched a search string then, when an application user selected a user, the application would make another call to the server to obtain the details for the selected contact. This process is illustrated in Figure 1.
 
 ![Figure 1 – Two-part Request Process](/images/2011/drawing1.png)
 Figure 1 – Two-part Request Process
 
-When I first started doing mobile development, performance was important. The networks were slow and mobile devices had limited processing power, memory and battery life. In order to make the most efficient use of the network and increase performance and battery life for the device, I built the services to make the best use of network and processing power. What this meant was that the services would be designed to send a little data as possible over the wireless network and to ensure that data that would possibly not be used by the mobile application wouldn’t be sent across the wireless network.
+When I first started doing mobile development, performance was important. The networks were slow and mobile devices had limited processing power, memory and battery life. In order to make the most efficient use of the network and increase performance and battery life for the device, I built the services to make the best use of network and processing power. What this meant was that the services would be designed to send a little data as possible over the wireless network and to ensure that data that would possibly not be used by the mobile application wouldn't be sent across the wireless network.
 
 So, in my design, I deliberately built the services so the first request simply retrieved a list of contacts that matched the search string then allowed the application to get detailed contact information only after they determined which contact they were interested in.
 
-It seemed like a good approach and has served me rather well. The problem with this approach though is that it makes building the mobile application more difficult. There are two calls to the server and the results have to be parsed twice as well. If the mobile user selects one contact, then decides it’s the wrong one and switches to another, there’s another trip to the server for more data.
+It seemed like a good approach and has served me rather well. The problem with this approach though is that it makes building the mobile application more difficult. There are two calls to the server and the results have to be parsed twice as well. If the mobile user selects one contact, then decides it's the wrong one and switches to another, there's another trip to the server for more data.
 
-It’s efficient on the network, but inefficient within the application. The thing is, mobile users and mobile device manufacturers stopped caring about network usage and battery life a long time ago. Users want whatever they want and they want it now.
+It's efficient on the network, but inefficient within the application. The thing is, mobile users and mobile device manufacturers stopped caring about network usage and battery life a long time ago. Users want whatever they want and they want it now.
 
-Apple’s Dashcode IDE has some pretty cool features that make it easy to work with remote data sets. When you build a Browser project using one of Dashcode’s wizards, the application expects a list of records and the details behind the list to all be delivered to the application at one time. The result is only one trip to the server, and a better user experience. There’s only one trip forth and back from the server which makes the user feel better, but we’re delivering data to the mobile device application that the user may never look at. Oh well.
+Apple's Dashcode IDE has some pretty cool features that make it easy to work with remote data sets. When you build a Browser project using one of Dashcode's wizards, the application expects a list of records and the details behind the list to all be delivered to the application at one time. The result is only one trip to the server, and a better user experience. There's only one trip forth and back from the server which makes the user feel better, but we're delivering data to the mobile device application that the user may never look at. Oh well.
 
 So, I decided to rewrite my Domino Directory lookup agent so all of the relevant data could be retrieved with a single call to the RESTful agent as shown in Figure 2.
 
@@ -72,14 +72,14 @@ The JSON text returned from the server in this case is an array of JavaScript ob
   
 I can use this data in my application by only pulling out the list of FullName values when presenting a list of contacts, then digging in and displaying the contact details only after a contact has been selected within the application.
 
-The brackets (the `[` and `]` characters) are used to define an array and the curly braces ( the ‘{‘ and ‘}’ characters) are used to define a JavaScript object. So, what you’re seeing is a essentially a two element array, where each element is a complete JavaScript object describing contact details for a user defined in the Domino Directory database.
+The brackets (the `[` and `]` characters) are used to define an array and the curly braces ( the '{' and '}' characters) are used to define a JavaScript object. So, what you're seeing is a essentially a two element array, where each element is a complete JavaScript object describing contact details for a user defined in the Domino Directory database.
 
-To obtain this output, all you need is a simple agent in a Domino Directory database. To create the RESTful service, create a new agent in your Domino Directory and set the agent properties shown in Figure 3. The agent is a web agent; it is triggered by a URL request triggered by the mobile application (or web browser). It uses an ‘On Event’ trigger and the event is defined as ‘Agent list selection.’
+To obtain this output, all you need is a simple agent in a Domino Directory database. To create the RESTful service, create a new agent in your Domino Directory and set the agent properties shown in Figure 3. The agent is a web agent; it is triggered by a URL request triggered by the mobile application (or web browser). It uses an 'On Event' trigger and the event is defined as 'Agent list selection.'
 
 ![Figure 3 – Domino RESTful Agent Properties](/images/2011/image3.png)
 Figure 3 – Domino RESTful Agent Properties
 
-Most of the agent’s work is done in the Initialize subroutine which performs the following steps:
+Most of the agent's work is done in the Initialize subroutine which performs the following steps:
 
 1.    Parse the incoming URL to determine the search string being passed in by the calling program.  
 2.    Search the ($VIMPeopleByLastName) view to locate all users defined in the database whose last name begins with the characters provided in the search string.  
@@ -256,4 +256,4 @@ End If
 End Function
 ```
 
-After you’ve entered all of the code into the agent, be sure to test the results by pasting the service URL (using your own server and database values) into the desktop browser.
+After you've entered all of the code into the agent, be sure to test the results by pasting the service URL (using your own server and database values) into the desktop browser.

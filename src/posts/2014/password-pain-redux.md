@@ -13,10 +13,10 @@ I was playing around with the Intel XDK development tools for web applications. 
 
 ![Intel XDK Registration Form](/images/2014/intel-stupid-password.png "Intel XDK Registration Form")
 
-So, I dutifully added a special character (I’m not telling you which one) and clicked Submit again only to find out that they had yet another requirement. Apparently you also have to have a number in your password, but Intel made no effort to inform me of any of this.
+So, I dutifully added a special character (I'm not telling you which one) and clicked Submit again only to find out that they had yet another requirement. Apparently you also have to have a number in your password, but Intel made no effort to inform me of any of this.
 
-At this point, I’ve failed twice and I still don’t know if my password with a special character AND a number will actually fulfill the requirements. I crossed my fingers and clicked Submit for the third time only to find out that I had actually, unbeknownst to me, complied with the password requirements. Woohoo!
+At this point, I've failed twice and I still don't know if my password with a special character AND a number will actually fulfill the requirements. I crossed my fingers and clicked Submit for the third time only to find out that I had actually, unbeknownst to me, complied with the password requirements. Woohoo!
 
-Developers, when you have an input form that has specific input requirements – TELL ME WHAT THEY ARE. I shouldn’t have to guess what your password requirements are; you know what they are, so tell me BEFORE I start typing in my password. I know you have limited screen real estate for listing out the requirements, but there’s no reason you can’t give me a button or a link to click on to view the requirements.
+Developers, when you have an input form that has specific input requirements – TELL ME WHAT THEY ARE. I shouldn't have to guess what your password requirements are; you know what they are, so tell me BEFORE I start typing in my password. I know you have limited screen real estate for listing out the requirements, but there's no reason you can't give me a button or a link to click on to view the requirements.
 
-I’m assuming you like your users and actually want us to use your development tools – so don’t make it so hard for us to actually use them.
+I'm assuming you like your users and actually want us to use your development tools – so don't make it so hard for us to actually use them.

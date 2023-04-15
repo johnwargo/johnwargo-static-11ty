@@ -7,9 +7,9 @@ categories: [IBM Lotus Domino]
 tags: post
 ---
 
-I’m trying to wrap up an article series for The View (www.eview.com) on developing Sencha Touch applications for IBM Lotus Domino and ran into a problem that I can’t seem to find a solution for – can you help me out? Please?
+I'm trying to wrap up an article series for The View (www.eview.com) on developing Sencha Touch applications for IBM Lotus Domino and ran into a problem that I can't seem to find a solution for – can you help me out? Please?
 
-I’ve created a simple competitive information database in Notes and exposed it to mobile devices using several methods. I first built a Rhodes application (www.rhomobile.com) that synchronized data with the Domino server and wrote a series of articles about it. You can see a sample screen shot of the Rhodes application in Figure 1.
+I've created a simple competitive information database in Notes and exposed it to mobile devices using several methods. I first built a Rhodes application (www.rhomobile.com) that synchronized data with the Domino server and wrote a series of articles about it. You can see a sample screen shot of the Rhodes application in Figure 1.
 
 ![](/images/2013/domino-405-error-1.png)
 
@@ -23,7 +23,7 @@ Figure 2
 
 As you can see, I finally got around to populating the application with more interesting content.
 
-Anyway, as I worked through the Rhodes application, I discovered that by default, the Domino server was blocking HTTP PUT and DELETE requests, so I had to put the following line in the server’s notes.ini file:
+Anyway, as I worked through the Rhodes application, I discovered that by default, the Domino server was blocking HTTP PUT and DELETE requests, so I had to put the following line in the server's notes.ini file:
 
 HTTPEnableMethods=PUT,DELETE
 
@@ -43,19 +43,19 @@ You can see the complete Domino log entry in Figure 3.
 
 Figure 3
 
-I’ve searched and searched and can’t seem to find the solution to this problem.
+I've searched and searched and can't seem to find the solution to this problem.
 
-Nothing’s changed on the server and there’s only a few references I can find about that HTTPEnableMethods ini parameter. Most of the stuff I can find on the 405 error all relates to configuring a Domino server to use WebDAV (which I’m not using in this case \[am I?\]). This was working just fine for my Rhodes application but now fails for the Sencha Touch application and they’re both essentially using the same RESTful service.
+Nothing's changed on the server and there's only a few references I can find about that HTTPEnableMethods ini parameter. Most of the stuff I can find on the 405 error all relates to configuring a Domino server to use WebDAV (which I'm not using in this case \[am I?\]). This was working just fine for my Rhodes application but now fails for the Sencha Touch application and they're both essentially using the same RESTful service.
 
 Can anyone help me understand more about this problem and hopefully (although hope is not a strategy) fix it?
 
-In a side note, I wanted to take a look at the server’s notes.ini file and remember that I’d written a utility (back in 1996) called Configuration Manager for Lotus Notes that allowed me to work with a sorted version of the notes.ini . So funny that a utility I wrote 19 years ago is still useful. What fun!
+In a side note, I wanted to take a look at the server's notes.ini file and remember that I'd written a utility (back in 1996) called Configuration Manager for Lotus Notes that allowed me to work with a sorted version of the notes.ini . So funny that a utility I wrote 19 years ago is still useful. What fun!
 
 ![](/images/2013/domino-405-error-4.png)
 
 Figure 4
 
-I wonder if I should do an update (the DRCC ini reference link isn’t working anymore). You can see the application in Figure 4. I just looked and Wolcott Systems Group has pulled the link to this utility from their web site. No surprise, but sad.
+I wonder if I should do an update (the DRCC ini reference link isn't working anymore). You can see the application in Figure 4. I just looked and Wolcott Systems Group has pulled the link to this utility from their web site. No surprise, but sad.
 
 Update Apr 11, 2013
 

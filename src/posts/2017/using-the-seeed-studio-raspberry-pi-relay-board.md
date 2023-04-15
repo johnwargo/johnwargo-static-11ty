@@ -15,7 +15,7 @@ When I finally got around to playing with the hardware, I used (or should I say 
 
 I sent Seeed Studios an email asking for help and posted a couple of questions on their community forums, but had to wait more than a month to get a response. When I finally did hear back, it was to let me know that they were on vacation and it would be an even longer wait for help. Sigh. Finally, they contacted me and offered to help.
 
-After another week of sending them screen shots, I finally got useful information and was able to get the board operational. The purpose of this article (and associated Github repository at [https://github.com/johnwargo/Seed-Studio-Relay-Board](https://github.com/johnwargo/Seed-Studio-Relay-Board)) is to show you how to use the board so you’ll avoid the issues I had.
+After another week of sending them screen shots, I finally got useful information and was able to get the board operational. The purpose of this article (and associated Github repository at [https://github.com/johnwargo/Seed-Studio-Relay-Board](https://github.com/johnwargo/Seed-Studio-Relay-Board)) is to show you how to use the board so you'll avoid the issues I had.
 
 **Update**: After publishing this article, I shared this information with the folks at Seeed Studio. They then updated their Wiki article with information directly copied from this article and the associated GitHub repository readme file. So, you'll finally find good, useful information on their product Wiki page - because I wrote it.
 
@@ -28,33 +28,33 @@ The steps for installing the board and verifying that it works includes the foll
 3.  Validate that the Raspberry Pi recognizes the board
 4.  Run some Python code to exercise the board
 
-In the rest of this article, I’ll show you how to do all of those things.
+In the rest of this article, I'll show you how to do all of those things.
 
 Mounting the Relay Board
 ========================
 
-Mounting the board is easy, it comes with the appropriate female headers you need to mount it on any Raspberry Pi board with male headers. Note: You’ll have to add male headers to the Raspberry Pi Zero to use the board.
+Mounting the board is easy, it comes with the appropriate female headers you need to mount it on any Raspberry Pi board with male headers. Note: You'll have to add male headers to the Raspberry Pi Zero to use the board.
 
-Seeed Studio recommends putting some electrical tape on top of the Raspberry Pi Ethernet port before mounting the board. If you mount the board without using standoffs (as I’ve done in the example figure below), there’s a chance the board will make contact with the Ethernet port housing and cause a problem.
+Seeed Studio recommends putting some electrical tape on top of the Raspberry Pi Ethernet port before mounting the board. If you mount the board without using standoffs (as I've done in the example figure below), there's a chance the board will make contact with the Ethernet port housing and cause a problem.
 
 ![](/images/2017/seed-figure-01.png)
 
 Figure 1
 
-For a production project, I’d definitely recommend using standoffs to hold the two boards in place.
+For a production project, I'd definitely recommend using standoffs to hold the two boards in place.
 
-The relay board is configured for an older Raspberry Pi with a 26 pin header, so when you connected it to a Raspberry Pi with 40 pin headers, you’ll need to shift it all the way to the side like I’ve shown in the figure. If you don’t align the pins correctly, you’ll have problems later as it simply won’t work.
+The relay board is configured for an older Raspberry Pi with a 26 pin header, so when you connected it to a Raspberry Pi with 40 pin headers, you'll need to shift it all the way to the side like I've shown in the figure. If you don't align the pins correctly, you'll have problems later as it simply won't work.
 
 Enabling I2C
 ============
 
-The relay board communicates with the Raspberry Pi through an I2C interface ([https://en.wikipedia.org/wiki/I%C2%B2C](https://en.wikipedia.org/wiki/I%C2%B2C)). This interface is disabled by default in the Pi’s Raspbian OS, so you’ll have to turn it on before you can use the board. Power up the Pi and let it boot to the graphical interface. When it’s up and running, open the **Pi** menu, select **Preferences**, then **Raspberry Pi Configuration** as shown in the following figure:
+The relay board communicates with the Raspberry Pi through an I2C interface ([https://en.wikipedia.org/wiki/I%C2%B2C](https://en.wikipedia.org/wiki/I%C2%B2C)). This interface is disabled by default in the Pi's Raspbian OS, so you'll have to turn it on before you can use the board. Power up the Pi and let it boot to the graphical interface. When it's up and running, open the **Pi** menu, select **Preferences**, then **Raspberry Pi Configuration** as shown in the following figure:
 
 ![](/images/2017/seed-figure-02.png)
 
 Figure 2
 
-In the window that opens, select the **Interfaces** tab as shown in the following figure. Enable the option next to I2C as shown in the figure and click the **OK** button to continue. When you reboot the PC, the Pi should see the relay board. In the next section, we’ll verify that the Pi sees the relay board.
+In the window that opens, select the **Interfaces** tab as shown in the following figure. Enable the option next to I2C as shown in the figure and click the **OK** button to continue. When you reboot the PC, the Pi should see the relay board. In the next section, we'll verify that the Pi sees the relay board.
 
 ![](/images/2017/seed-figure-03.png)
 
@@ -63,19 +63,19 @@ Figure 3
 Validating the Raspberry Pi Sees the Relay Board
 ================================================
 
-With the I2C interface enabled, it’s time to make sure the Raspberry Pi sees the relay board. Open a terminal window on the Pi and execute the following command:
+With the I2C interface enabled, it's time to make sure the Raspberry Pi sees the relay board. Open a terminal window on the Pi and execute the following command:
 
     i2cdetect -y -r 1
 
-The application will display a dump of the recognized I2C devices as shown in the following figure. In this example, there’s only one I2C board on the system, the relay board configured at an address of 20. You’ll see how this value is important later in this article.
+The application will display a dump of the recognized I2C devices as shown in the following figure. In this example, there's only one I2C board on the system, the relay board configured at an address of 20. You'll see how this value is important later in this article.
 
 ![](/images/2017/seed-figure-04.png)
 
 Figure 4
 
-You’re supposed to be able to use switches on the relay board to set the I2C address, but the Seeed Studio Wiki page contains no information on how that is accomplished. There are 4 DIP switches on the board, but your guess is as good as mine as to what they do. So, let’s see what happens when you change them.
+You're supposed to be able to use switches on the relay board to set the I2C address, but the Seeed Studio Wiki page contains no information on how that is accomplished. There are 4 DIP switches on the board, but your guess is as good as mine as to what they do. So, let's see what happens when you change them.
 
-There are four switches, three labeled A0 through A2, and one labeled NC. I’m going to assume the NC means **No Connection** and leave that out of my analysis. Each switch has a high and a low setting, so the following table will lay out how to use them to set an I2C address for the board:
+There are four switches, three labeled A0 through A2, and one labeled NC. I'm going to assume the NC means **No Connection** and leave that out of my analysis. Each switch has a high and a low setting, so the following table will lay out how to use them to set an I2C address for the board:
 
 Table 1: Relay Board Switch Settings
 
@@ -138,9 +138,9 @@ Low
 Running the Seeed Studio Test Application
 =========================================
 
-The Seeed Studio Wiki includes the source code for a sample application you can run to test your application. The source code is listed on the Wiki, but when you copy it and paste it into your Python development environment, it won’t run correctly. Python uses indentation to indicate blocks of code, and when you copy the code from the Wiki, it’s not formatted properly for use. To make it easier for you, I formatted the code and included it in the Github repository listed earlier. Grab the code from there and you’ll be able to easily complete the following step.
+The Seeed Studio Wiki includes the source code for a sample application you can run to test your application. The source code is listed on the Wiki, but when you copy it and paste it into your Python development environment, it won't run correctly. Python uses indentation to indicate blocks of code, and when you copy the code from the Wiki, it's not formatted properly for use. To make it easier for you, I formatted the code and included it in the Github repository listed earlier. Grab the code from there and you'll be able to easily complete the following step.
 
-To run the test application, open a terminal window, navigate to where you’ve extracted the sample application and run the application using the following command:
+To run the test application, open a terminal window, navigate to where you've extracted the sample application and run the application using the following command:
 
     python ./seeed_relay_test.py
 
@@ -148,7 +148,7 @@ To run the test application, open a terminal window, navigate to where you’ve 
 
 Figure 5
 
-When prompted for input, you’ll type commands to turn the relays on and off:
+When prompted for input, you'll type commands to turn the relays on and off:
 
 *   Typing 1on, 2on, 3on, or 4on and pressing enter will cause the specified relay to turn on.
 *   Typing 1off, 2off, 3off, or 4off and pressing enter will cause the specified relay to turn off
@@ -207,4 +207,4 @@ The code that does all this looks like the following:
 
     # turn all of the relays onrelay_all_on()# wait a secondtime.sleep(1)# turn all of the relays offrelay_all_off()# wait a secondtime.sleep(1)# now cycle each relay every second in an infinite loopwhile True:   for i in range(1, 5):  relay_on(i)  time.sleep(1)  relay_off(i)
 
-That’s it, that’s all there is to it. Enjoy.
+That's it, that's all there is to it. Enjoy.

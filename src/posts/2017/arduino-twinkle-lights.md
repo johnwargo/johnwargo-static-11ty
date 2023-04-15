@@ -14,13 +14,13 @@ Introduction
 
 This project is an Arduino variant of the Pimoroni Firefly Light ([https://learn.pimoroni.com/tutorial/sandyj/firefly-light](https://learn.pimoroni.com/tutorial/sandyj/firefly-light)) project. Basically you place two strings of battery-powered LEDs into a glass jar and use a microcontroller to fade one strand up while the other strand fades down. The fade up/down process repeats for as long as the microcontroller has power. You could even add 1 or more strands of lights to the project if you want.
 
-When I discovered the project, I thought it was really cool, but they threw a lot of hardware (a Raspberry Pi, two HATS and a battery) into the solution, so I wanted to see if I could build something with less parts and for less money. This version of project uses an Arduino compatible board (you could use most any Arduino for this project), a battery module and a battery. Here’s a video of the white twinkle lights ([https://vimeo.com/193441242](https://vimeo.com/193441242)) in action, and here’s a Christmas version ([https://vimeo.com/198351699](https://vimeo.com/198351699)) that uses Red and Green LEDs.
+When I discovered the project, I thought it was really cool, but they threw a lot of hardware (a Raspberry Pi, two HATS and a battery) into the solution, so I wanted to see if I could build something with less parts and for less money. This version of project uses an Arduino compatible board (you could use most any Arduino for this project), a battery module and a battery. Here's a video of the white twinkle lights ([https://vimeo.com/193441242](https://vimeo.com/193441242)) in action, and here's a Christmas version ([https://vimeo.com/198351699](https://vimeo.com/198351699)) that uses Red and Green LEDs.
 
 ![](/images/2017/arduino-twinkle-lights-figure-01.png)
 
 Figure 1 – White Twinkle Lights in a Jar
 
-You can find the project’s source code at [https://github.com/johnwargo/Arduino-Twinkle-Lights](https://github.com/johnwargo/Arduino-Twinkle-Lights). A PDF version of this article is available in the Attachments section (at the very bottom of the article).
+You can find the project's source code at [https://github.com/johnwargo/Arduino-Twinkle-Lights](https://github.com/johnwargo/Arduino-Twinkle-Lights). A PDF version of this article is available in the Attachments section (at the very bottom of the article).
 
 Hardware Components
 ===================
@@ -51,7 +51,7 @@ The LED strand is smaller for the Christmas version, so I used a smaller jar. A 
 Hardware Assembly
 =================
 
-Start by assembling the Adafruit Pro Trinket LiIon/LiPoly Backpack Add-On. To enable the use of a SPST switch to power on/off the board, cut the trace connecting the two holes highlighted in the following figure. This disconnects the board’s power output, but once you connect a switch between those two holes, you’ll be able to control power to the Trinket board.
+Start by assembling the Adafruit Pro Trinket LiIon/LiPoly Backpack Add-On. To enable the use of a SPST switch to power on/off the board, cut the trace connecting the two holes highlighted in the following figure. This disconnects the board's power output, but once you connect a switch between those two holes, you'll be able to control power to the Trinket board.
 
 ![](/images/2017/arduino-twinkle-lights-figure-02.png)
 
@@ -81,23 +81,23 @@ Solder the Adafruit Pro Trinket LiIon/LiPoly Backpack Add-On onto the Arduino Pr
 
 Figure 6 – Adafruit Pro Trinket Pinouts
 
-To protect the USB connector on the Trinket board, I placed a small piece of electrical tape on top of the board’s USB connector. Figure 7 shows the completed board assembly.
+To protect the USB connector on the Trinket board, I placed a small piece of electrical tape on top of the board's USB connector. Figure 7 shows the completed board assembly.
 
 ![](/images/2017/arduino-twinkle-lights-figure-07.png)
 
 Figure 7 – Completed Board Assembly
 
-Next, you’ll need to disassemble the light strand units. Each comes with a battery pack and switch, but since we’re driving them from the Trinket, you won’t need those parts.
+Next, you'll need to disassemble the light strand units. Each comes with a battery pack and switch, but since we're driving them from the Trinket, you won't need those parts.
 
-For the Adafruit color LEDs, use a Philips screwdriver to remove the screws from the battery case and open the case. The LED strand connects to the switch and battery contacts as shown in the figure. Make note of which wires are connected to the battery's positive (+) and negative (-) terminals. In my case, the contact in the lower battery slot connects to the battery’s positive (+) terminal and the one at the top connects to the negative (-) terminal. I could tell this because the case was embossed with little + and – signs.
+For the Adafruit color LEDs, use a Philips screwdriver to remove the screws from the battery case and open the case. The LED strand connects to the switch and battery contacts as shown in the figure. Make note of which wires are connected to the battery's positive (+) and negative (-) terminals. In my case, the contact in the lower battery slot connects to the battery's positive (+) terminal and the one at the top connects to the negative (-) terminal. I could tell this because the case was embossed with little + and – signs.
 
-When you cut the wires, quickly tie a knot in the negative wire – that way, when you’re soldering the wires to the board in the next step, you’ll be able to tell which is which. In the strands I had, the positive wire was coated with a white stripe, so it was easy for me to tell the difference between the two wires (without knotting one of them).
+When you cut the wires, quickly tie a knot in the negative wire – that way, when you're soldering the wires to the board in the next step, you'll be able to tell which is which. In the strands I had, the positive wire was coated with a white stripe, so it was easy for me to tell the difference between the two wires (without knotting one of them).
 
 ![](/images/2017/arduino-twinkle-lights-figure-08.png) 
 
 Figure 8 – Colored LED Strand
 
-For the SÄRDAL LED light chain units, use a Philips screwdriver to remove the screws from both the top and bottom of the battery case. The LED strand connects to a circuit board inside the battery case, make note of which wires are connected to the battery's positive (+) and negative (-) terminals. As you can see from the following figure, the board is labeled with + and – symbols, so it’s easy to tell which wire is which. Tie a simple knot in the negative (-) wire– that way, when you’re soldering the wires to the board in the next step, you’ll be able to tell which is which.
+For the SÄRDAL LED light chain units, use a Philips screwdriver to remove the screws from both the top and bottom of the battery case. The LED strand connects to a circuit board inside the battery case, make note of which wires are connected to the battery's positive (+) and negative (-) terminals. As you can see from the following figure, the board is labeled with + and – symbols, so it's easy to tell which wire is which. Tie a simple knot in the negative (-) wire– that way, when you're soldering the wires to the board in the next step, you'll be able to tell which is which.
 
 ![](/images/2017/arduino-twinkle-lights-figure-09.png)
 
@@ -126,7 +126,7 @@ Figure 11 – The Christmas Version of the Project in Action
 Mounting
 ========
 
-For the white lights, the strand is so long and the lights so large, that stuffing the whole contraption in a jar works quite well. The hardware just sits at the bottom of the jar and is hardly noticed, especially in darker rooms. To charge the battery, or flip the switch, you’d have to pull the whole assembly out of the jar and put it back when you’re done.
+For the white lights, the strand is so long and the lights so large, that stuffing the whole contraption in a jar works quite well. The hardware just sits at the bottom of the jar and is hardly noticed, especially in darker rooms. To charge the battery, or flip the switch, you'd have to pull the whole assembly out of the jar and put it back when you're done.
 
 In Figure 11, the lights are rather small and the strand short, so the hardware stands out more prominently. The mason jar implementation provides an interesting option for mounting the hardware. I drilled some holes in the lid, and using two standoffs and screws, mounted the hardware to the underside of the lid. I then used two-sided tape to adhere the battery to the lid, underneath the microcontroller (see Figure 12). With this approach, you simply remove the top to charge the battery or flip the switch, reducing stress on the assembly.
 
@@ -134,22 +134,22 @@ In Figure 11, the lights are rather small and the strand short, so the hardware 
 
 Figure 12 – Mounting the Hardware to the Mason Jar Lid
 
-The Project’s Code
+The Project's Code
 ==================
 
-The project’s code is pretty simple. At the beginning, you’ll find code that initializes the variables used by the application:
+The project's code is pretty simple. At the beginning, you'll find code that initializes the variables used by the application:
 
     //Analog output pin assignments
 
-If you connect the LED strand’s positive wires to different Trinket Analog output pins, you’ll need to change the values assigned to pin0 and pin1.
+If you connect the LED strand's positive wires to different Trinket Analog output pins, you'll need to change the values assigned to pin0 and pin1.
 
 Right now, the application powers the LED strands from 0 to 255 as the strand brightens, and from 255 to 0 as the strand darkens. As each voltage value is assigned to the output pin, the application delays for `delayVal`milliseconds. So, to make the strands fade more quickly, reduce the number assigned to this variable. To make the strands fade more slowly, increase the value assigned to this variable.
 
-The `setup`method initializes the variables the application uses to track which strand (by its output pin number) is brightening and which is darkening. Since we’re just starting, and both strands are dark, the code starts by fading `pin1`up to maximum output voltage. Once it’s done, everything is initialized and its time to start flipping both strands.
+The `setup`method initializes the variables the application uses to track which strand (by its output pin number) is brightening and which is darkening. Since we're just starting, and both strands are dark, the code starts by fading `pin1`up to maximum output voltage. Once it's done, everything is initialized and its time to start flipping both strands.
 
     void setup() {
 
-The `loop`method flips the up and down pin variables (`upPin`and `downPin`), then fades the strand connected to `upPin`up to maximum voltage while simultaneously fading the strand connected to `downPin`down to 0. When it’s all done, it waits for a second (1000 milliseconds) before repeating the process again.
+The `loop`method flips the up and down pin variables (`upPin`and `downPin`), then fades the strand connected to `upPin`up to maximum voltage while simultaneously fading the strand connected to `downPin`down to 0. When it's all done, it waits for a second (1000 milliseconds) before repeating the process again.
 
 `void loop() {`
 

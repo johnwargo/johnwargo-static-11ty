@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-My first book was a Soccer Referee book called _What Now? The Essential Guide for New Soccer Referees_. I'd officiated for about 23 years and when I retired I decided to write a book and share all those tidbits I learned that could help a New Soccer Referee get started. The book's been on sale since 2007 and I'm still selling a few copies a month. Just for fun I spent a little time today updating the web site for the book. The site is at [www.newsoccerref.com.](https://www.newsoccerref.com.) It's very simple right now, I've got some more stuff to put up there in the next few weeks.
+My first book was a Soccer Referee book called *What Now? The Essential Guide for New Soccer Referees*. I'd officiated for about 23 years and when I retired I decided to write a book and share all those tidbits I learned that could help a New Soccer Referee get started. The book's been on sale since 2007 and I'm still selling a few copies a month. Just for fun I spent a little time today updating the web site for the book. The site is at www.newsoccerref.com.
 
 I have to get updated flyers made, I've moved since the book was published, and I'm thinking of adding a sample chapter or part of a chapter to the site.
 

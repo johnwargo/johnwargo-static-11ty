@@ -15,19 +15,19 @@ In the previous installment in this series, I showed how to build a simple Domin
 
 ## First a Little Background
 
-I should probably explain that the BlackBerry Platform added support for JSR 172 with the release of BlackBerry Device Software 4.3. It’s JSR 172, the [J2ME Web Services Specification](https://jcp.org/en/jsr/detail?id=172){target="_blank"}, which gives BlackBerry Java applications the ability to easily consume web services. You could do the work without using JSR 172, using something like [kSOAP 2](https://ksoap2.sourceforge.net/){target="_blank"}, but then you:
+I should probably explain that the BlackBerry Platform added support for JSR 172 with the release of BlackBerry Device Software 4.3. It's JSR 172, the [J2ME Web Services Specification](https://jcp.org/en/jsr/detail?id=172){target="_blank"}, which gives BlackBerry Java applications the ability to easily consume web services. You could do the work without using JSR 172, using something like [kSOAP 2](https://ksoap2.sourceforge.net/){target="_blank"}, but then you:
 
-*   Wouldn’t be using a standard
+*   Wouldn't be using a standard
 *   Would be relying upon an ancillary library to do the work
 *   Would have a larger application to deploy since your application needs access to all those extra library classes
 
-Anyway, if you ask about this topic on the BlackBerry forums, you’ll receive responses that say JSR 172 is junk and you should use kSOAP 2 and others (like me) who will tell you it’s pretty easy and you should just use the stuff baked into the BlackBerry platform. Use the stuff that’s baked into the BlackBerry platform – it’s going to be much easier for you all around.
+Anyway, if you ask about this topic on the BlackBerry forums, you'll receive responses that say JSR 172 is junk and you should use kSOAP 2 and others (like me) who will tell you it's pretty easy and you should just use the stuff baked into the BlackBerry platform. Use the stuff that's baked into the BlackBerry platform – it's going to be much easier for you all around.
 
-So, the way this JSR 172 stuff works is you download the [Sun Java Wireless Toolkit for CLDC](https://java.sun.com/products/sjwtoolkit/){target="_blank"} and use a little utility that comes with it to analyze your web service’s WSDL (web service description language) file and build a Java  stub class your Java application can call to consume the web service. Building the stub takes just a few minutes and calling the stub from your Java application is very easy as well.
+So, the way this JSR 172 stuff works is you download the [Sun Java Wireless Toolkit for CLDC](https://java.sun.com/products/sjwtoolkit/){target="_blank"} and use a little utility that comes with it to analyze your web service's WSDL (web service description language) file and build a Java  stub class your Java application can call to consume the web service. Building the stub takes just a few minutes and calling the stub from your Java application is very easy as well.
 
 ## Getting Started
 
-To get this process rolling, go to Sun’s web site and download the Sun Java Wireless Toolkit for CLDC – the link is provided in the previous paragraph. After you have downloaded the package, run its installation program to install it on your local hard drive. As someone complained on the forums last week, it’s a whole lot of stuff for that one little utility. Unfortunately that’s true – the toolkit has a whole bunch of tools and utilities in it, we’re only using a very small part of it. I don’t know of any other way to get this to work than to just install the whole thing and live with it. After you install it, you’ll find a folder for the toolkit off the root of your system’s hard drive as shown in the following figure.
+To get this process rolling, go to Sun's web site and download the Sun Java Wireless Toolkit for CLDC – the link is provided in the previous paragraph. After you have downloaded the package, run its installation program to install it on your local hard drive. As someone complained on the forums last week, it's a whole lot of stuff for that one little utility. Unfortunately that's true – the toolkit has a whole bunch of tools and utilities in it, we're only using a very small part of it. I don't know of any other way to get this to work than to just install the whole thing and live with it. After you install it, you'll find a folder for the toolkit off the root of your system's hard drive as shown in the following figure.
 
 ![Figure 1](/images/2009/dbja2-1.jpg)
 Figure 1
@@ -39,8 +39,8 @@ Figure 2
 
 ## Generating the Java Stub
 
-Now that you have the toolkit installed, it’s time to build the Java stub you need to consume the service. For this part of the process, you must make sure that the database containing the web service is on a Domino server and the ACL is set correctly. You will also need to make sure that the Programming Model and SOAP Message format are set correctly in your web service. Refer to Figure 4 in the first installment in this series for information on how the service should be configured.  
-To make sure your service is working, you should open the service’s WSDL in the browser using the following URL:
+Now that you have the toolkit installed, it's time to build the Java stub you need to consume the service. For this part of the process, you must make sure that the database containing the web service is on a Domino server and the ACL is set correctly. You will also need to make sure that the Programming Model and SOAP Message format are set correctly in your web service. Refer to Figure 4 in the first installment in this series for information on how the service should be configured.  
+To make sure your service is working, you should open the service's WSDL in the browser using the following URL:
 
 ```text
 https://server-name/db-name.nsf/domdirlookup?wsdl
@@ -57,35 +57,35 @@ When I paste this URL into the browser, I will see the following page (or someth
 ![Figure 3](/images/2009/dbja2-3.jpg)
 Figure 3
 
-Note that some browsers such as Google Chrome don’t know how to render WSDL files. When I opened the same URL in the Chrome browser, all I got was a blank page.
+Note that some browsers such as Google Chrome don't know how to render WSDL files. When I opened the same URL in the Chrome browser, all I got was a blank page.
 
-Once you have a working WSDL URL, you’re ready to generate your stubs. In the Start menu folder for the Sun Java Wireless Toolkit (shown in Figure 2) select the ‘Utilities’ shortcut. Windows will open a screen similar to the one shown below:  
+Once you have a working WSDL URL, you're ready to generate your stubs. In the Start menu folder for the Sun Java Wireless Toolkit (shown in Figure 2) select the 'Utilities' shortcut. Windows will open a screen similar to the one shown below:  
    
 ![Figure 4](/images/2009/dbja2-4.jpg)
 Figure 4
 
-Scroll down and select the item labeled ‘Stub Generator’ and click the ‘Launch’ button. The stub generator program will open as shown below:
+Scroll down and select the item labeled 'Stub Generator' and click the 'Launch' button. The stub generator program will open as shown below:
 
 ![Figure 5](/images/2009/dbja2-5.jpg)
 Figure 5
 
-In the dialog, paste the Domino WSDL file URL into the ‘WSDL Filename or URL’ field on the form. You DO NOT want to navigate to a folder where you have exported the WSDL from the database – an exported WSDL does not contain the destination information the stub program will need to locate the server and database file name containing the web service. 
+In the dialog, paste the Domino WSDL file URL into the 'WSDL Filename or URL' field on the form. You DO NOT want to navigate to a folder where you have exported the WSDL from the database – an exported WSDL does not contain the destination information the stub program will need to locate the server and database file name containing the web service. 
 
-For the ‘Output Path’, specify a folder location on your hard drive where you want the stub class files created. For ‘Output Package’ specify the package name you want to use for the stub class. In this case, I’m saving the output to c:\dev\java and the program will create the necessary subfolders to match the output package (com.johnwargo.domdirlookup).  
+For the 'Output Path', specify a folder location on your hard drive where you want the stub class files created. For 'Output Package' specify the package name you want to use for the stub class. In this case, I'm saving the output to c:\dev\java and the program will create the necessary subfolders to match the output package (com.johnwargo.domdirlookup).  
    
 ![Figure 6](/images/2009/dbja2-6.jpg)
 Figure 6
 
-The program will gyrate for a few seconds and inform you that the process completed. When you open Windows Explorer and look at the output path, What you’ll find is a complete folder structure shown below:  
+The program will gyrate for a few seconds and inform you that the process completed. When you open Windows Explorer and look at the output path, What you'll find is a complete folder structure shown below:  
    
 ![Figure 7](/images/2009/dbja2-7.jpg)
 Figure 7
 
 Notice that the stub files were created in c:\dev\java\com\johnwargo\domdirlookup – the concatenation of the output folder and the output package name.
 
-What you have here are four class files that implement all of the technology you need to consume the web service described by the WSDL you passed to the Stub Generator. Let’s tear into the files…
+What you have here are four class files that implement all of the technology you need to consume the web service described by the WSDL you passed to the Stub Generator. Let's tear into the files…
 
-The USERLIST.java file contains the code that implements the UserList class (it’s an array of string, remember?) that’s returned by the web service when you pass in a search string and call the GetUserList method. All the stub generator does here is create the string array and the appropriate setters and getters for the class. Here’s the code:
+The USERLIST.java file contains the code that implements the UserList class (it's an array of string, remember?) that's returned by the web service when you pass in a search string and call the GetUserList method. All the stub generator does here is create the string array and the appropriate setters and getters for the class. Here's the code:
 
 ```java
 // This class was generated by the JAXRPC SI, do not edit.  
@@ -114,7 +114,7 @@ public class USERLIST {
 }
 ```
 
-The USERINFO.java file does the same thing, but for the UserInfo class defined in the web service. In this case, it’s not as simple as a string array, it’s a class that contains string values for each of the fields of the contact record (it’s a person document, remember?) the web service returns when the GetUserInfo method is called and passed a contact name in the search string. It contains the class definition and the setters and getters for each of the fields we’re returning for the selected contact name. Here’s the code:
+The USERINFO.java file does the same thing, but for the UserInfo class defined in the web service. In this case, it's not as simple as a string array, it's a class that contains string values for each of the fields of the contact record (it's a person document, remember?) the web service returns when the GetUserInfo method is called and passed a contact name in the search string. It contains the class definition and the setters and getters for each of the fields we're returning for the selected contact name. Here's the code:
 
 ```java
 // This class was generated by the JAXRPC SI, do not edit.  
@@ -193,7 +193,7 @@ public class USERINFO {
 }
 ```
 
-The interface your Java program will use to consume the web service is defined in the DomDirLookup.java file.  The interface extends java.rim.Remote (which is how it can connect to the web service) and defines the two methods that are called by the Java application. It defines GetUserList and GetUserInfo – remember them? They’re the two functions defined in the Domino web service we’re calling. Here’s the code:
+The interface your Java program will use to consume the web service is defined in the DomDirLookup.java file.  The interface extends java.rim.Remote (which is how it can connect to the web service) and defines the two methods that are called by the Java application. It defines GetUserList and GetUserInfo – remember them? They're the two functions defined in the Domino web service we're calling. Here's the code:
 
 ```java
 // This class was generated by 172 StubGenerator.  
@@ -210,7 +210,7 @@ public interface DomDirLookup extends java.rmi.Remote {
 }
 ```
 
-The final file is called DomDirLookup\_Stub.java and it contains the implementation of the two methods defined in the DomDirLookup.java file. This is where all of the work is done to connect to the Domino server and consume the web service. Here’s the code:
+The final file is called DomDirLookup\_Stub.java and it contains the implementation of the two methods defined in the DomDirLookup.java file. This is where all of the work is done to connect to the Domino server and consume the web service. Here's the code:
 
 ```java
 // This class was generated by 172 StubGenerator.  
@@ -413,10 +413,10 @@ public class DomDirLookup\_Stub implements com.johnwargo.domdirlookup.DomDirLook
 }
 ```
   
-I’m not going to explain everything that’s happening in the code – the easiest thing to do is assume it works and ignore the details. However, if you’re like me and you have a bunch of spare time on your hands it would probably be fun to dig through the code to see what it’s doing.  As far as we’re concerned, it’s a black box we’re going to use to provide the plumbing we need to talk to the service.
+I'm not going to explain everything that's happening in the code – the easiest thing to do is assume it works and ignore the details. However, if you're like me and you have a bunch of spare time on your hands it would probably be fun to dig through the code to see what it's doing.  As far as we're concerned, it's a black box we're going to use to provide the plumbing we need to talk to the service.
 
 ## In the Next Installment
 
-In the next installment in this series I’ll demonstrate how to write the Java application that talks to the Domino Web Service.
+In the next installment in this series I'll demonstrate how to write the Java application that talks to the Domino Web Service.
 
 NOTE: After publishing this article I received so many questions that I added a [part 2.5](index.php?option=com_content&view=article&id=47:dbja2&catid=2&Itemid=4) article that describes some of the limitations of the stub generator. Be sure to give it a read before continuing on to [part 3](index.php?option=com_content&view=article&id=67:bbdja3&catid=2&Itemid=4).

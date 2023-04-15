@@ -1,5 +1,5 @@
 ---
-title: AT&T’s Network Couldn’t Handle the 2016 Indy Crowd
+title: AT&T's Network Couldn't Handle the 2016 Indy Crowd
 description: 
 date: 2016-05-31
 headerImage: 
@@ -13,12 +13,12 @@ Restricted access changed
 
 Data service is blocked.
 
-Here’s a screen shot of the error:
+Here's a screen shot of the error:
 
 ![](/images/2016/att-data-violation-cropped.png)
 
 Figure 1
 
-While the error message isn’t very clear, I wasn’t surprised. Even though Verizon sponsored the event, I’m sure of the 500k participants at the race, a good many of them were AT&T customers and the network simply got overloaded. Having previously worked at AT&T, I know they work really hard to accommodate large crowds at events, but this one, being the largest event EVER, was probably more than they could handle.
+While the error message isn't very clear, I wasn't surprised. Even though Verizon sponsored the event, I'm sure of the 500k participants at the race, a good many of them were AT&T customers and the network simply got overloaded. Having previously worked at AT&T, I know they work really hard to accommodate large crowds at events, but this one, being the largest event EVER, was probably more than they could handle.
 
 A former colleague apparently tried to call and text me during the race in order to meet and grab a beer, but he was never able to get through to me. After leaving the event everything went back to normal.

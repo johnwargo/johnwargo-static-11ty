@@ -7,9 +7,9 @@ categories: [BlackBerry]
 tags: post
 ---
 
-Something’s up with the latest version of the Facebook app for BlackBerry. Parts of the UI simply don’t work and I don’t know how to let BlackBerry know about it. Apps like TeleNav Navigator have a feedback function which allows you to let them know when something doesn’t work or if you have suggestions for the application. All of the different mobile OS are adding APIs for Twitter, Facebook and so on, why not add a feedback API that allows an app to send customer comments/feedback to the developer? No sense in each developer writing their own when it can simply be a default API on the device.
+Something's up with the latest version of the Facebook app for BlackBerry. Parts of the UI simply don't work and I don't know how to let BlackBerry know about it. Apps like TeleNav Navigator have a feedback function which allows you to let them know when something doesn't work or if you have suggestions for the application. All of the different mobile OS are adding APIs for Twitter, Facebook and so on, why not add a feedback API that allows an app to send customer comments/feedback to the developer? No sense in each developer writing their own when it can simply be a default API on the device.
 
-Anyway, to my problem! If you look at Figure 1, you’ll see the standard Facebook home screen running on my BlackBerry Bold 9930. Notice the three images at the top center (in the blue bar). What it’s showing me is that there are three ‘view’s available here and that one of them has new items.
+Anyway, to my problem! If you look at Figure 1, you'll see the standard Facebook home screen running on my BlackBerry Bold 9930. Notice the three images at the top center (in the blue bar). What it's showing me is that there are three 'view's available here and that one of them has new items.
 
 ![](/images/2013/blackberry-facebook-1.png) 
 
@@ -21,7 +21,7 @@ Unfortunately, when I tap on one of those images (or even click on them using th
 
 Figure 2
 
-Same thing with the little globe icon – click on it and it highlights but doesn’t change anything on the screen.
+Same thing with the little globe icon – click on it and it highlights but doesn't change anything on the screen.
 
 ![](/images/2013/blackberry-facebook-3.png) 
 
