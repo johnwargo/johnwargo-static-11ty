@@ -10,7 +10,7 @@ tags: post
 I received an interesting email from this site this morning, a comment by someone who's trying to tell me that this site's registration WILL BE TERMINATED soon. Here's the text of the email I received:
 
 ```text
-Joe Miller <[info@domainworld.com>](mailto:info@domainworld.com>);
+Joe Miller (info@domainworld.com)
 
 Notice#: 491343  
 Date: 2021-01-12
