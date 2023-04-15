@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-I was up on Amazon this morning and I noticed the following review of my latest book ([Learning Progressive Web Apps](https://learningpwa.com)):
+I was up on Amazon this morning and I noticed the following review of my latest book ([Learning Progressive Web Apps](https://learningpwa.com){target="_blank"}):
 
 > Though the author is clearly passionate about PWAs, the writing is poorly edited and the explanations are incomplete. Examples are repeated and reprinted 2-3 times, as are instructions for running sample code.
 > 

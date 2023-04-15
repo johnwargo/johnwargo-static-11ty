@@ -7,7 +7,7 @@ categories: [Web Development]
 tags: post
 ---
 
-Earlier this year, I worked on a desktop app project using Ionic where the app imports a CSV file and does some processing on it. After I parsed the CSV file data using Papa Parse ([https://www.npmjs.com/package/ngx-papaparse](https://www.npmjs.com/package/ngx-papaparse)) I wanted to display the parsed data back to the page so the user could validate that it parsed correctly.
+Earlier this year, I worked on a desktop app project using Ionic where the app imports a CSV file and does some processing on it. After I parsed the CSV file data using Papa Parse ([https://www.npmjs.com/package/ngx-papaparse](https://www.npmjs.com/package/ngx-papaparse){target="_blank"}) I wanted to display the parsed data back to the page so the user could validate that it parsed correctly.
 
 I knew what I needed: something that built a comma-separated list in an array so I could easily render it in Ionic. Now, I knew Ionic (and Angular) had a pretty powerful pipes capability where you pass data through a pipe to transform it as its rendered on the page.
 
