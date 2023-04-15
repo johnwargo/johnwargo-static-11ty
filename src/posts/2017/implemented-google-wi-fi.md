@@ -9,8 +9,7 @@ tags: post
 
 I had an interesting SMS conversation with my son the other day. The conversation went like this:
 
-![](/images/2017/google-wi-fi-01.png)
-
+![Google Wi-Fi 1](/images/2017/google-wi-fi-01.png)
 Figure 1
 
 I was at a concert with my wife (we saw Jonny Lang) and we noticed that the kids were watching a show on the Apple TV (I'll explain how later) when they were supposed to be in going to bed, so I turned off Wi-Fi to the Apple TV. Here's the story...
@@ -31,28 +30,24 @@ It only took a few minutes and I was all setup. A quick test with my mobile devi
 
 I started poking around in the Google Wi-Fi mobile app (Google insists in calling it WiFi, but since that's not how you spell Wi-Fi, I'm not going to use their spelling); the app opens to a view of your network:
 
-![](/images/2017/google-wi-fi-02.png)
-
+![Google Wi-Fi 2](/images/2017/google-wi-fi-02.png)
 Figure 2
 
 Here, I can quickly tell whether my Internet connection is up. I can view the status of my Wi-Fi units, and I can view all of the devices on the network (wired or Wi-Fi).
 
 When you tap on the Wi-Fi points, you'll see each of the units and the current device's connectivity to each. In the following image, you can see that I have a good connection to the Family Room and a poor connection to the 'Hallway' device. This is good as the Family Room device is closest to me, but even if that one goes down, I can still see signal from the device that's furthest away.
 
-![](/images/2017/google-wi-fi-03.png)
-
+![Google Wi-Fi 3](/images/2017/google-wi-fi-03.png)
 Figure 3
 
 You can also test the network, notice the 'Test Mesh' button in the bottom-right corner of the figure. When you tap on the button, the app begins a network check:
 
-![](/images/2017/google-wi-fi-04.png)
-
+![Google Wi-Fi 4](/images/2017/google-wi-fi-04.png)
 Figure 4
 
 Followed by a Mesh check:
 
-![](/images/2017/google-wi-fi-05.png)
-
+![Google Wi-Fi 5](/images/2017/google-wi-fi-05.png)
 Figure 5
 
 And finally the Wi-Fi network (which I'm not showing). Anyway, there's lots of information about the network which is really useful and very easy to use (especially compared to the Linksys solution I used previously).
@@ -63,8 +58,7 @@ On to the SMS conversation I showed you at the top of the article. One of the th
 
 I quickly setup a family group for my twins and added their smartphones, tablets and Chromebooks to the list. With that in place, I configured the group so it shut off network access to those devices on school nights between 9:30 PM and 6 AM as shown in the following figure.
 
-![](/images/2017/google-wi-fi-10.png)
-
+![Google Wi-Fi 6](/images/2017/google-wi-fi-10.png)
 Figure 6
 
 With this in place, Sundays through Thursday nights, the twins' access shuts down when it's time for them to be in bed. Nice stuff.

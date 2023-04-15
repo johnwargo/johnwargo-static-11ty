@@ -6,14 +6,12 @@ headerImage:
 categories: [Stupid Developer Tricks]
 tags: post
 ---
-
   
 I needed to make some changes to my IBM newsletter subscription recently, so I clicked the ubiquitous Update Your Subscription link on the bottom of one of the newsletters. It had been a while since I logged in, so I had to go through the password reset process to get in. No worries, IBM had that covered, right? Yep, they sure did.
 
 When I clicked the “Reset My Password” link I received, I was presented with this form:
 
 ![](/images/2017/ridiculous-ibm-password-form-01.png)
-
 Figure 1
 
 Now I know IBM cares about password security, and they'd force me to use some ridiculous, convoluted password character combination, but surprisingly the Create your new password form said ABSOLUTELY NOTHING about what those password requirements were.
@@ -25,7 +23,6 @@ OK, this makes absolutely no sense. This is IBM, I know they produce security pr
 OK, so I thought for a while, and came up with the perfect password to use. As I started typing, the form changed to what you see below.
 
 ![](/images/2017/ridiculous-ibm-password-form-02.png)
-
 Figure 2
 
 Aaaah, so IBM does care about password security, but chose to wait until AFTER I'd decided on a password to use before telling me what the password requirements are. This makes no sense – why wait until I've started typing a password to tell me what I need to include in my password? That is never a good idea. Statistically, there's limited chance I'm going to get this right without knowing what the password requirements are, so what this means is that EVERY SINGLE USER who uses this form will have to correct their chosen password upon receiving this previously hidden information. Ugh!
@@ -42,7 +39,6 @@ Nope, there's another warning as well that I can't figure out. It's possible the
 Well, at this point, I'm going to wing it and start to enter the password I've picked for myself. As I type this password, the form changes yet again. Only now does it have more password requirement information for me.
 
 ![](/images/2017/ridiculous-ibm-password-form-03.png)
-
 Figure 3
 
 So, apparently you have to keep adjusting the password you want to use as the password continues to provide pertinent information as you type. You've got to kidding me – does IBM hate its customers?
@@ -50,7 +46,6 @@ So, apparently you have to keep adjusting the password you want to use as the pa
 Finally, after poking and prodding at the password, changing what I'm planning to use every time the password form gave me additional information about the password requirements, I was eventually able to enter an acceptable password.
 
 ![](/images/2017/ridiculous-ibm-password-form-04.png)
-
 Figure 4
 
 What an absolutely horrible experience. Now, it could have been worse, but as password forms go, this is pretty horrible. You know what's the funniest part of this? Developers, as you work on implementing password forms, or any other type of form, be sure to give the user all of the information they need to accurately populate the form. Don't wait for them to make an error to tell them what they need to fill out your form. Tell them right up front. Identify all required fields, show input field patterns when they exist (like phone number, date or credit card) and treat them like you like them, not like you consider how to fill out the form to be a mystery.
