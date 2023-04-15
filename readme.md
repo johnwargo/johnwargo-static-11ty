@@ -57,6 +57,9 @@ https://www.favicon-generator.org/
 
 {target="_blank"}
 
+![Apache Cordova API Cookbook Cover](/images/covers/acac-cover-160.png)
+![PhoneGap Essentials Cover](/images/covers/phonegap-essentials-cover-160.png)
+
 
 {% highlight liquid %}
 {% endhighlight %}

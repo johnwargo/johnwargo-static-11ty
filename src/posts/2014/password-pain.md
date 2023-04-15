@@ -12,15 +12,13 @@ I recently learned about a cool web development server for the Raspberry Pi. I w
 As I set it up and started playing with it, I was hit by one of my pet peeves. First you fire up the server then connect to it via your desktop browser (right, it's not something you use on your Pi, but instead something you host on your Pi and connect to it from your desktop PC). When you connect to the server, you're prompted to provide a password in order to access the system as shown in the following figure.
 
 ![Coder Password Prompt](/images/2014/coder-password-error-1.png)
-
 Figure 1
 
 Honestly I'm really not sure why I need a secure connection to my Pi (notice the HTTPS in the browser's address field) and I'm also not sure why I need a password, but I'll dig into that at some later time.
 
 Anyway, so it wants me to use a password so I went ahead and typed on in. After clicking the 'Save My Password' button shown in the figure, what I see next is the following:
 
-![Coder Password Error](/images/2014/coder-password-error-2.png "Coder Password Error")
-
+![Coder Password Error](/images/2014/coder-password-error-2.png)
 Figure 2
 
 There it is – one of my biggest developer pet peeves. If you know that you're going to want me to include upper case, lower case and numbers in my password, why not tell me BEFORE I tell you the password I want to use?
