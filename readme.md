@@ -49,8 +49,15 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [ ] Automatically tweet and mastodon new posts?
 * [ ] Discussions
 
+## After Data Import
+
+![Home Page 20230415](images/image-02.png)
+
+## Initial Version
 
 ![Home Page](images/image-01.png)
+
+## Extra Stuff
 
 https://pixelarity.com/faction
 https://www.favicon-generator.org/

@@ -3,6 +3,8 @@ title: Home
 layout: home
 ---
 
+{% assign latest_posts = collections.posts | reverse %}
+
 <!-- Main -->
 <section class="main">
 
@@ -71,48 +73,54 @@ layout: home
     </article>
   </section>
 
-  <!-- Spotlights -->
-  <section class="spotlights alt">
-    <article>
-      <a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
-      <h3>Sit amet posuere risus amet lorem faucibus lectus</h3>
-      <p>Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac magna consequat.</p>
-      <ul class="actions">
-        <li>
-          <a href="#" class="button">Learn More</a>
-        </li>
-      </ul>
-    </article>
-    <article>
-      <a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
-      <h3>Ante sed fermentum tempus vitae eleifend magna</h3>
-      <p>Quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis felis elementum.</p>
-      <ul class="actions">
-        <li>
-          <a href="#" class="button">Learn More</a>
-        </li>
-      </ul>
-    </article>
-    <article>
-      <a href="#" class="image fit"><img src="images/pic03.jpg" alt=""></a>
-      <h3>Lorem ipsum dolor sit amet consectetur adipiscing</h3>
-      <p>Purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-      <ul class="actions">
-        <li>
-          <a href="#" class="button">Learn More</a>
-        </li>
-      </ul>
-    </article>
-    <article>
-      <a href="#" class="image fit"><img src="images/pic04.jpg" alt=""></a>
-      <h3>Duis vulputate amet tincidunt lacinia velit aliquet</h3>
-      <p>Mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt lorem ipsum dolor sit amet.</p>
-      <ul class="actions">
-        <li>
-          <a href="#" class="button">Learn More</a>
-        </li>
-      </ul>
-    </article>
+</section>
+
+<aside class="sidebar">
+  <!-- Posts -->
+  <section>
+    <h2>Recent Posts</h2>
+    <ul class="posts">
+      {% for post in latest_posts limit: 10 %}
+        <a style="cursor: pointer" href="{{post.url | slugify}}">{{ post.data.title }}</a>
+        <span class="date">{{ post.date | niceDate }}</span>
+      {% endfor %}
+    </ul>
+    <ul class="actions">
+      <li>
+        <a
+          href="{{ "/" | htmlBaseUrl }}articles"
+          class="button"
+          target="_blank">More Posts</a>
+      </li>
+    </ul>
   </section>
 
-</section>
+  <section>
+    <h2>Buy Me A Coffee</h2>
+    <p>If the posts and other content provided here helps you learn something new or solve a problem, consider buying me a coffee.
+    </p>
+    <ul class="actions">
+      <li>
+        <a
+          href="https://www.buymeacoffee.com/johnwargo"
+          class="button"
+          target="_blank">Do it!</a>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Amazon Author Page</h2>
+    <p>I've published 8 books so far, you can view and order most of them from My Amazon Author Page.
+    </p>
+    <ul class="actions">
+      <li>
+        <a
+          href="https://www.amazon.com/stores/author/B002BLY6VU/allbooks"
+          class="button"
+          target="_blank">Learn More</a>
+      </li>
+    </ul>
+  </section>
+
+</aside>
