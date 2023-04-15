@@ -9,7 +9,7 @@ tags: post
 
 I'm struggling to find value in the BlackBerry 7 Status Pane that appears at the top of the BlackBerry home screen and, when clicked, displays the screen shown in Figure 1 below.
 
-![Figure 1](/images/blackberry_status_pane.jpg)
+![Figure 1](/images/2012/blackberry_status_pane.jpg)
 Figure 1
 
 When you look at the image, it should be clear that there's really very little information displayed on the screen. Now, when I wrote about things like this in the past, I got comments back that the issue I'm experiencing is related to my device's current font settings. Those comments were correct, the problem is caused by my font settings. My problem is that I have older eyes and the BlackBerry is the only popular smartphone that allows me to set system-wide font settings. On my BlackBerry devices, I crank up the font size and I can sometimes (if there's bright light) read the screen without my glasses on.
