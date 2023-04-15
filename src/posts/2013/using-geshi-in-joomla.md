@@ -9,7 +9,7 @@ tags: post
 
 If you've been poking around within this site, you may have noticed that I used to post a bunch of source code to the site. I don't write as much code as I used to and much less than I'm accustomed to, but when I setup this site, I found myself posting a bunch of code and wanting to make it render properly on the site's pages.
 
-Being new to Joomla!, I poked around a bit and noticed that there was a code highlighting plug-in called GeSHi installed as one of the core plug-ins in any Joomla! implementation. I thought all of my problems were solved, so I started trying to figure out how to make this code highlighter work. A search of the Joomla! documentation proved to me that nobody on the Joomla! project though it was important to document how this plug-in worked. I continued my search and found the GeSHi plug-in's home page at [https://qbnz.com/highlighter.](https://qbnz.com/highlighter.)  As I poked around on the site, I found a bunch of information about how to implement GeSHi within a php-based web site, but nothing that told me how to use the plug-in in my Joomla! site. I quickly gave up on GeSHi and started looking elsewhere.
+Being new to Joomla!, I poked around a bit and noticed that there was a code highlighting plug-in called GeSHi installed as one of the core plug-ins in any Joomla! implementation. I thought all of my problems were solved, so I started trying to figure out how to make this code highlighter work. A search of the Joomla! documentation proved to me that nobody on the Joomla! project though it was important to document how this plug-in worked. I continued my search and found the GeSHi plug-in's home page at [https://qbnz.com/highlighter](https://qbnz.com/highlighter){target="_blank"}  As I poked around on the site, I found a bunch of information about how to implement GeSHi within a php-based web site, but nothing that told me how to use the plug-in in my Joomla! site. I quickly gave up on GeSHi and started looking elsewhere.
 
 In the Joomla! extension directory, I found another plug-in called Code Citation which seemed to be exactly what I was looking for. It was a standard Joomla! plug-in, so it was installed in no time, and there was actually documentation on how to use it in your Joomla! web sites. I quickly installed it and over the years used it everywhere in this site.
 
@@ -17,15 +17,17 @@ When I upgraded to Joomla! 2.5, I encountered problems with Code Citation but ev
 
 Even though I was able to get it working on this site, something was different about the BlackBerry Development Fundamentals site, and the plug-in wouldn't work there. Every time I got close to a page that used Code Citation, the server would deliver a blank page.  I'd pestered the developer of the plug-in so much when I was trying to get Code Citation working on this site, that I didn't feel right bugging him again. Besides, I really wanted to figure out the GeSHi plug-in anyway, so I set about finally buckling down and figuring it out.
 
-First, I found this site: [https://www.bitsensei.com/web/joomla/9-using-geshi-in-joomla/](https://www.bitsensei.com/web/joomla/9-using-geshi-in-joomla/) which explained how the default Joomla! implementation of GeSHi didn't include all of the supported language plug-ins (Joomla! only includes a few of the many included with the default GeSHi installation) and how to update the site to include all languages. Additionally, it mentioned how to invoke the plug-in within your web site, but not how to actually implement that on your site's pages. Ugh! So close.
+First, I found this site: [https://www.bitsensei.com/web/joomla/9-using-geshi-in-joomla/](https://www.bitsensei.com/web/joomla/9-using-geshi-in-joomla/){target="_blank"} which explained how the default Joomla! implementation of GeSHi didn't include all of the supported language plug-ins (Joomla! only includes a few of the many included with the default GeSHi installation) and how to update the site to include all languages. Additionally, it mentioned how to invoke the plug-in within your web site, but not how to actually implement that on your site's pages. Ugh! So close.
 
-Next, I found the following site:  [https://dotcomxl.com/index.php/tutorials/web-design/115-joomla-syntax-highlighter](https://dotcomxl.com/index.php/tutorials/web-design/115-joomla-syntax-highlighter) which finally had the information I needed to make this work. The article first provided all sorts of information about how to enhance the output of GeSHI then finally at the end of the article I saw this:
+Next, I found the following site:  [https://dotcomxl.com/index.php/tutorials/web-design/115-joomla-syntax-highlighter](https://dotcomxl.com/index.php/tutorials/web-design/115-joomla-syntax-highlighter){target="_blank"} which finally had the information I needed to make this work. The article first provided all sorts of information about how to enhance the output of GeSHI then finally at the end of the article I saw this:
 
 Now that the plugin is enabled, if you want to show code in your articles you should switch to HTML view in your WYSIWYG editor and use this format:
 
+```text
 <pre xml:lang=”java”>  
 Inert your Java Code here  
 </pre>
+```
 
 That's exactly what I'd been searching for – the other sites mentioned the pre tag, but not how you inserted the code into your article. When using Code Citation, the Code Citation processing tags go at the beginning and end of your code – you don't need to switch to the HTML editor to enable it. GeSHi apparently requires that, but it wasn't described that way in all of the sites I looked to for help.
 

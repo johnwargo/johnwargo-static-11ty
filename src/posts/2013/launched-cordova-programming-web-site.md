@@ -7,4 +7,6 @@ categories: [Mobile Development]
 tags: post
 ---
 
-Today I launched the web site for my upcoming book called Apache Cordova 3 Programming; you can find the site at [www.cordovaprogramming.com](https://www.cordovaprogramming.com). The book is written but still going through the editing process. stay tuned.
+![Cordova 3 Programming](/images/covers/acp-cover-160.png)
+
+Today I launched the web site for my upcoming book called Apache Cordova 3 Programming; you can find the site at [www.cordovaprogramming.com](https://www.cordovaprogramming.com){target="_blank"}. The book is written but still going through the editing process. stay tuned.

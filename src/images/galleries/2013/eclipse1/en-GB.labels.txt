@@ -1,4 +1,0 @@
-Eclipse 1.png|Eclipse 1|<b>Description</b><br />Trying to launch the BlackBerry Simulator (which isn't supported on Mac OS)
-Eclipse 2.png|Eclipse 2|<b>Description</b><br />DLL Error - on Macintosh?
-Eclipse 3.png|Eclipse 3|<b>Description</b><br />Pre-processor infite loop - Part 1
-Eclipse 4.png|Eclipse 4|<b>Description</b><br />Pre-processor infite loop - Part 2

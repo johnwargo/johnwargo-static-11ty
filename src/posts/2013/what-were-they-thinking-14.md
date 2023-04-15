@@ -1,5 +1,5 @@
 ---
-title: What Were They Thinking #14
+title: What Were They Thinking 14
 description: 
 date: 2013-08-18
 headerImage: 
@@ -21,8 +21,10 @@ Did I mention that they're a bunch of idiots?
 
 I'm not sure, but do you think the developer who built the application could have done a little math and done the following:
 
+```text
 MaxValue = Current Year – 80  
 Min value = CurrentYear + MinimumAgeForSports  
 CalculateYearList(minValue, maxValue)
+```
 
 This is just another find example of a mobile application developer not thinking as they work on an application.

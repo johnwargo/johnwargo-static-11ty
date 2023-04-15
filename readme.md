@@ -23,6 +23,7 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Copy image files to project
 * [x] Search and replace hhtp:// => https://
 * [ ] Clean up exported articles (images, external links)
+* [ ] Validate all articles
 * [ ] Do something with the galleries images (likely kill them)
 * [ ] Assign correct style to image files
 * [ ] Add post cover image based on category

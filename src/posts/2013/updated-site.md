@@ -25,6 +25,12 @@ I thought about switching to the built-in GsSHi, which was now better documented
 
 So, I put everything down and stepped away for a while. Of course, life happens and holidays too, so it was not until a couple of days ago that I picked it back up again (about 5months later). I started really looking at the content, trying to figure out why the plug-in was failing. I quickly learned that only some of the pages were generating errors, the plug-in worked on some articles, but not all. Of course, then I started looking at the differences between the articles that worked and the ones that didn't – and found the problem. It was my fault all along!
 
-CodeCitation uses some markup you add to your content to identify the areas that you want it to manipulate. In that markup, you add a class element and identify the brush you want to use (language) to markup the content as shown below. {codecitation class="brush:text; gutter:false"}class="brush:vb; gutter:false"{/codecitation}In this example, the brush is set to vb (for Visual Basic). Notice the semicolon between the 'brush' and 'gutter' attributes? Well, in the articles I was having trouble with, I'd forgotten to include the semicolon separator between those two elements. Apparently Joomla! 1.5 didn't have a problem with that but Joomla! 2.5 did. That's it, that's all was wrong; I updated a couple of articles and the site was ready to go live.
+CodeCitation uses some markup you add to your content to identify the areas that you want it to manipulate. In that markup, you add a class element and identify the brush you want to use (language) to markup the content as shown below.
+
+```text
+class="brush:vb; gutter:false"
+```
+
+In this example, the brush is set to vb (for Visual Basic). Notice the semicolon between the 'brush' and 'gutter' attributes? Well, in the articles I was having trouble with, I'd forgotten to include the semicolon separator between those two elements. Apparently Joomla! 1.5 didn't have a problem with that but Joomla! 2.5 did. That's it, that's all was wrong; I updated a couple of articles and the site was ready to go live.
 
 I'm going to let this thing sit for a while then start the upgrade to Joomla! 3.0. Stay tuned.

@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-My publisher told me about a cross-platform mobile framework today called Calatrava ([https://calatrava.github.io/](https://calatrava.github.io/)). I still need to do some reading about what it really is, but something in the announcement caught my eye:
+My publisher told me about a cross-platform mobile framework today called Calatrava ([https://calatrava.github.io/](https://calatrava.github.io/){target="_blank"}). I still need to do some reading about what it really is, but something in the announcement caught my eye:
 
 "Mobile is the oncoming train of the future of computing. For more and more users their mobile device is becoming their first way to reach everything on the Internet. You need to be on-board with this. But there are three platforms to support: iOS, Android and Mobile Web."
 

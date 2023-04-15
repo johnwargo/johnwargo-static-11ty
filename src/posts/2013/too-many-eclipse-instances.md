@@ -15,11 +15,17 @@ The Android development tools embraced Eclipse early on and worked very hard to 
 
 I just downloaded the latest version of the Android SDK and noticed that the installer was gone (not sure I'm really a fan of that) and there was a new folder included in the download with a complete instance of Eclipse. OK, so Google's now telling us that they suggest that you do your Android development with their instance of the Eclipse IDE.
 
-The BlackBerry Java SDK is fickle, very fickle. Even though the Android DSK has embraced most any version of Eclipse, with the BlackBerry Java SDK, it supports only Eclipse version 3.7 ([https://developer.blackberry.com/java/download/requirements/](https://developer.blackberry.com/java/download/requirements/)). That wouldn't be that bad, except that 3.7 is pretty old. So, imagine you're using the latest and greatest Eclipse stuff to do Android or some other development, you're going to have to maintain a completely separate, older version of Eclipse simply for BlackBerry development.
+The BlackBerry Java SDK is fickle, very fickle. Even though the Android DSK has embraced most any version of Eclipse, with the BlackBerry Java SDK, it supports only Eclipse version 3.7 ([https://developer.blackberry.com/java/download/requirements/](https://developer.blackberry.com/java/download/requirements/){target="_blank"}). That wouldn't be that bad, except that 3.7 is pretty old. So, imagine you're using the latest and greatest Eclipse stuff to do Android or some other development, you're going to have to maintain a completely separate, older version of Eclipse simply for BlackBerry development.
 
 Here's some screen shots of what you get when you successfully install then try to run the BlackBerry Java development SDK in a current version of Eclipse.
 
-{gallery}2013/eclipse1{/gallery}
+![Figure 1](/images/2013/eclipse-1.png)
+
+![Figure 2](/images/2013/eclipse-2.png)
+
+![Figure 3](/images/2013/eclipse-3.png)
+
+![Figure 4](/images/2013/eclipse-4.png)
 
 What was particularly maddening about this particular problem was that the error messages about the pre-processor configuration are cyclical, the one message appears, then you're prompted to restart Eclipse then the error message appears, then you're prompted to restart Eclipse. It never ends.  
 Notice too the error messages about missing a DLL? Unfortunately, that error was generated on a Macintosh – not sure there's a lot of DLLs on a Mac.
