@@ -6,7 +6,7 @@
   },
   {
     "category": "Content Management Systems",
-    "count": 15,
+    "count": 17,
     "description": "Articles related to my usage and experimentation with Content Management Systems (CMS)."
   },
   {
@@ -26,17 +26,17 @@
   },
   {
     "category": "Miscellaneous",
-    "count": 146,
+    "count": 145,
     "description": "Posts that didn't fit in any other categories."
   },
   {
     "category": "Mobile",
-    "count": 35,
+    "count": 34,
     "description": "Posts related to mobile phones and mobility in general."
   },
   {
     "category": "Mobile Development",
-    "count": 97,
+    "count": 94,
     "description": "Posts related to mobile app development."
   },
   {
@@ -45,8 +45,13 @@
     "description": "Posts calling out the results of stupid things software developers do."
   },
   {
+    "category": "Uncategorised",
+    "count": 1,
+    "description": ""
+  },
+  {
     "category": "Web Development",
-    "count": 5,
+    "count": 6,
     "description": "Posts related to web development topics, development tools, strategies, etc."
   }
 ]
