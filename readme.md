@@ -26,7 +26,10 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Clean up exported articles (images, external links)
 * [x] Add Buy Me a Coffee to home page
 * [ ] Validate all articles
+* [ ] Fix mobile menu and dropdown menu
 * [ ] Assign correct style to image files
+* [ ] Publish 11ty-cat-pages
+* [ ] Add 11ty-cat-pages to build process
 * [ ] Add Buy Me a Coffee to posts
 * [ ] Add post cover image based on category
 * [ ] Copy files over
