@@ -1,6 +1,6 @@
 {
-  "categoriesFolder": "src/category",
-  "dataFileName": "src/_data/category-meta.json",
+  "categoryFolder": "src/category",
+  "dataFileName": "category-meta.json",
   "dataFolder": "src/_data",
   "postsFolder": "src/posts",
   "templateFileName": "11ty-cat-pages.liquid"
