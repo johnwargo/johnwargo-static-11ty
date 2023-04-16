@@ -101,10 +101,12 @@ module.exports = eleventyConfig => {
 		eleventyConfig.addPassthroughCopy(path);
 	});
 
-	// Images folders, assumes cascading folders per year
+	// Images folders
 	eleventyConfig.addPassthroughCopy("src/images/*");
+	eleventyConfig.addPassthroughCopy("src/images/avatar/*");
 	eleventyConfig.addPassthroughCopy("src/images/common/*");
 	eleventyConfig.addPassthroughCopy("src/images/covers/*");
+	// Assumes cascading folders per year
 	let thisYear = new Date().getFullYear();
 	for (let i = 2009; i <= thisYear; i++) {
 		eleventyConfig.addPassthroughCopy(`src/images/${i}/*`);
