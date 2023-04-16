@@ -28,8 +28,8 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [ ] Validate all articles
 * [ ] Fix mobile menu and dropdown menu
 * [ ] Assign correct style to image files
-* [ ] Publish 11ty-cat-pages
-* [ ] Add 11ty-cat-pages to build process
+* [x] Publish 11ty-cat-pages
+* [x] Add 11ty-cat-pages to build process
 * [ ] Add Buy Me a Coffee to posts
 * [ ] Add post cover image based on category
 * [ ] Copy files over

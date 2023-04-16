@@ -11,13 +11,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "eleventy --serve",
-    "build": "gen-build-info src/_data && eleventy",
+    "build": "11ty-cat-pages && gen-build-info src/_data && eleventy",
     "pbuild": "npm version patch && 11ty-cat-pages && gen-build-info src/_data && eleventy"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
+    "eleventy-category-pages": "^0.0.1",
     "generate-build-info": "^0.0.3",
     "html-minifier": "^4.0.0",
     "markdown-it-attrs": "^4.1.6"
