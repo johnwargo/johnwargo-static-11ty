@@ -16,3 +16,5 @@ Anyway, for my presentation, I decided to present on *Building Mobile Applicatio
 You can find the project source code I demonstrated on [Github](https://github.com/johnwargo/NCDevCon-2017){target="_blank"}. I posted the slide deck at slideshare.net, but I can't find it there anymore. I'll update the link tomorrow and update this blog. Finally, a video of the presentation can be found on the conference's [YouTube Page](https://www.youtube.com/watch?v=nYHdbvPewu4&index=13&list=PLz6r7YssJoKSlZk78GeJdIlLzXcSg4w1d){target="_blank"}.
 
 Don't laugh too hard as you watch me try to stuff two hours of presentation materials into 50 minutes. Next year I'll make sure to pick a topic I can easily cover in the allotted time.
+
+https://www.youtube.com/watch?v=nYHdbvPewu4

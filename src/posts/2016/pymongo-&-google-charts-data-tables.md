@@ -15,6 +15,37 @@ Here's a complete Python snippet that shows how to do it:
 
 ```python
 from bson.json_util import dumps
+from config import Config
+from flask import Flask
+from flask_pymongo import PyMongo
+
+app = Flask(__name__)
+# setup the parameters for our MongoDB connection
+app.config['MONGO_HOST'] = Config.MONGO_URL
+app.config['MONGO_PORT'] = Config.MONGO_PORT
+app.config['MONGO_DBNAME'] = Config.MONGO_DB
+app.config['MONGO_USERNAME'] = Config.MONGO_USER
+app.config['MONGO_PASSWORD'] = Config.MONGO_PASSWORD
+
+# this project is using Flask, so initialize the mongo driver with app information
+mongo = PyMongo(app)
+
+# search the collection for data
+cursor = mongo.db.measurements.find(search_criteria, field_list).sort(sort_criteria)
+# did we get data back from the call to find()?
+if cursor:
+ print("Cursor contains {} documents".format(cursor.count()))
+ # create an empty results object
+ data_list = []
+ # now loop through all of the documents in the cursor
+ for doc in cursor: 
+ value_list = [doc['timestamp'], doc['temp_f'], doc['humidity'], doc['pressure']]
+ data_list.append(value_list)
+ return dumps(data_list)
+else:
+ print("Cursor is empty")
+ # return an empty result
+ return "[]"
 ```
 
 Let's tear apart the code…
@@ -37,6 +68,13 @@ In my use case, I needed the data as an array of arrays (the Google Charts Data 
 
 ```python
 if cursor:
+    # create an empty results object
+    data_list = []
+    # now loop through all of the documents in the cursor
+    for doc in cursor:    
+        value_list = [doc['timestamp'], doc['temp_f'], doc['humidity'], doc['pressure']]
+        data_list.append(value_list)
+    return dumps(data_list)
 ```
 
 The first thing the code does is checks to see if there's even a cursor; just in case the call to find() failed for some reason. Once the app knows it has data, it loops through the data and creates an array containing the measurement values then appends the new array to an existing array of results data.
@@ -44,7 +82,11 @@ The first thing the code does is checks to see if there's even a cursor; just in
 Where the call to dumps(cursor) would return something like the following:
 
 ```json
-[{"pressure": 25.77, "temp_f": 82.9, "timestamp": "July 21, 2016 @ 08:50 AM", "humidity": 80.0}, {"pressure": 28.2, "temp_f": 80.1, "timestamp": "July 21, 2016 @ 08:40 AM", "humidity": 10.0}, {"pressure": 25.55, "temp_f": 72.1, "timestamp": "July 21, 2016 @ 08:30 AM", "humidity": 70.0}, {"pressure": 25.97, "temp_f": 71.2, "timestamp": "July 21, 2016 @ 08:20 AM", "humidity": 40.0}]
+[{"pressure": 25.77, "temp_f": 82.9, "timestamp": "July 21, 2016 @ 08:50 AM", 
+"humidity": 80.0}, {"pressure": 28.2, "temp_f": 80.1, "timestamp": "July 21, 2016 @ 08:40 AM", 
+"humidity": 10.0}, {"pressure": 25.55, "temp_f": 72.1, "timestamp": "July 21, 2016 @ 08:30 AM", 
+"humidity": 70.0}, {"pressure": 25.97, "temp_f": 71.2, "timestamp": "July 21, 2016 @ 08:20 AM", 
+"humidity": 40.0}]
 ```
 
 This code returns something like the following:
@@ -59,6 +101,26 @@ Now, if you know anything about Google Charts Data Table format, you were probab
 
 ```js
 $.getJSON(chart_url, function () {
+  console.log("Successfully sent request, waiting for response...");
+}).done(function (jsonData) {
+    console.log("Done");
+    // create the data table object
+    var data = new google.visualization.DataTable();
+    // define the data table's columns
+    data.addColumn('datetime', 'Time');
+    data.addColumn('number', 'Temperature');
+    data.addColumn('number', 'Humidity');
+    data.addColumn('number', 'Pressure');
+    // add data to the data table
+    data.addRows(jsonData);
+    // Instantiate and draw our chart, passing in some options.
+    chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+    //then draw the chart
+    chart.draw(data, options);
+}).fail(function () {
+    var msgText = "Unable to retrieve data from the server";
+    console.error(msgText);
+});
 ```
 
 I'm still working on the project, so the code's not complete, but you will be able to find the complete project source code at [https://github.com/johnwargo/pi\_weather\_monitor](https://github.com/johnwargo/pi_weather_monitor){target="_blank"} once I complete the project.

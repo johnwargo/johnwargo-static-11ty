@@ -21,6 +21,8 @@ To make this work, you publish multiple versions of your React Native applicatio
 
 I've attached my presentation at the bottom of this article, for more details on my session, check out my blog post on the Visual Studio App Center blog (coming soon).
 
+https://www.youtube.com/watch?v=X9iqnovPGyY
+
 Even though I only planned on delivering one session at the conference, I found ways to deliver some additional sessions:
 
 * The conference scheduled several quick, 10-minute lightning talks on a variety of topics, so I volunteered to deliver one. They had an online vote to see if anyone wanted to see my presentation, and I got voted in. In my session (they only allocated me 4 minutes, but that was enough) I demonstrated how to use a new feature of Visual Studio Code to enhance developer productivity. You basically add [//@ts-check to](mailto://ts-check to) the top of any JavaScript file, and Visual Studio Code applies the TypeScript compiler to the file and highlights JavaScript errors you wouldn't know about otherwise.

@@ -18,39 +18,39 @@ Of the articles I found online, several had startup process running the app, but
 
 To start, I created a simple script file that starts my Python app:
 
-shell
+```shell
 #!/bin/bash 
 echo "Starting Pi Remind"
 /usr/bin/sudo python /home/pi/pi_remind/remind.py
-
+```
 
 Notice that for this app, it will only run under supervisor privileges, so I execute the python command using sudo. The python command happens to be in the /usr/bin/ folder, alongside sudo, so I didn't need to provide a full path to the python command in the bash script.
 
 Before enabling auto startup, I'd probably better test the script first, right? Open a terminal window, navigate to the folder where the script is located and execute the following command:
 
-shell
+```shell
 ./start-remind.sh
-
+```
 
 You got a permission denied error message, right? That's the first fault point in this process, the bash script is solid, but the OS simply doesn't know it can execute it. So, before you can execute the bash script, you have to set its execution bit using the following:
 
-shell
+```shell
 chmod +x start-remind.sh
-
+```
 
 With that in place, you should be able to execute the script from the terminal.
 
 Now on to the next potential problem. When I first crafted my app, I expected that I'd execute it directly from the app folder using:
 
-shell
+```shell
 sudo python ./remind.py
-
+```
 
 So I didn't pay any special attention to how the app accessed local files. That creates a problem for auto startup. Let me give you an example.
 
 In one of my apps, I opened the app's configuration file using the following code:
 
-python
+```python
 # setup the config parser
 Config = ConfigParser.ConfigParser()
 print("\nOpening configuration file")
@@ -60,18 +60,18 @@ try:
 except:
   print("Exception:", sys.exc_info()[0], slash_n)
   sys.exit(1)
-
+```
 
 That worked wonderfully when executing my app from the folder where it resides. As soon as I tried to execute it from a startup script, it would fail miserably and NOT show me any indicators as to why it wasn't working. The solution? Test the script from another folder, like this:
 
-shell
+```shell
 cd /
 /home/pi/pi_remind/start-remind.sh
-
+```
 
 The terminal window will remain open and you can view, and correct, any errors that appear. For my app, I had to replace the code anywhere where I tried to open a local file, and instead pass the complete path to the project folder like this:
 
-python
+```python
 # setup the config parser
 Config = ConfigParser.ConfigParser()
 print("\nOpening configuration file")
@@ -83,7 +83,7 @@ try:
 except:
   print("Exception:", sys.exc_info()[0], slash_n)
   sys.exit(1)
-
+```
 
 With that script file in place, the script will execute from anywhere and I'm ready to go.
 

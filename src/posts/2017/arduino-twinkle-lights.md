@@ -7,11 +7,9 @@ categories: [Internet of Things (IoT)]
 tags: post
 ---
 
-## Introduction
+This project is an Arduino variant of the Pimoroni Firefly Light ([https://learn.pimoroni.com/tutorial/sandyj/firefly-light](https://learn.pimoroni.com/tutorial/sandyj/firefly-light){target="_blank"}) project. Basically you place two strings of battery-powered LEDs into a glass jar and use a microcontroller to fade one strand up while the other strand fades down. The fade up/down process repeats for as long as the microcontroller has power. You could even add 1 or more strands of lights to the project if you want.
 
 **Note:** removed outdated attachments November 11, 2022
-
-This project is an Arduino variant of the Pimoroni Firefly Light ([https://learn.pimoroni.com/tutorial/sandyj/firefly-light](https://learn.pimoroni.com/tutorial/sandyj/firefly-light){target="_blank"}) project. Basically you place two strings of battery-powered LEDs into a glass jar and use a microcontroller to fade one strand up while the other strand fades down. The fade up/down process repeats for as long as the microcontroller has power. You could even add 1 or more strands of lights to the project if you want.
 
 When I discovered the project, I thought it was really cool, but they threw a lot of hardware (a Raspberry Pi, two HATS and a battery) into the solution, so I wanted to see if I could build something with less parts and for less money. This version of project uses an Arduino compatible board (you could use most any Arduino for this project), a battery module and a battery. Here's a video of the white twinkle lights ([https://vimeo.com/193441242](https://vimeo.com/193441242){target="_blank"}) in action, and here's a Christmas version ([https://vimeo.com/198351699](https://vimeo.com/198351699){target="_blank"}) that uses Red and Green LEDs.
 
