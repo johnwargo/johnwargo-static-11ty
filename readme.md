@@ -26,6 +26,7 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Clean up exported articles (images, external links)
 * [x] Add Buy Me a Coffee to home page
 * [ ] Validate all articles
+* [ ] https://www.npmjs.com/package/eleventy-plugin-youtube-embed
 * [ ] Fix mobile menu and dropdown menu
 * [ ] Assign correct style to image files
 * [x] Publish 11ty-cat-pages
