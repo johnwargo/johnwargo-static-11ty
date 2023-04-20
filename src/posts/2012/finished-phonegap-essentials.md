@@ -7,6 +7,8 @@ categories: [Mobile Development]
 tags: post
 ---
 
+![PhoneGap Essentials Cover](/images/covers/phonegap-essentials-cover-160)
+
 I didn't get a chance to write a formal post about this, but on December 11th I finished the writing process of my forthcoming PhoneGap book called *PhoneGap Essentials*. I had a contract with the publisher that said I had to deliver the manuscript on February 2nd, but I delivered it about 6 weeks earlier – whew! It was a lot of work and a lot of fun, I really like writing.
 
 Right now the manuscript is going through a technical review; an experienced PhoneGap developer is reading through the manuscript, testing all the code and making comments back to me. I can't say who it is doing the review right now, but it's someone who really knows PhoneGap, so I'm excited to have him on the review team. So far he's delivered his comments on 19 of the book's 25 chapters, so hopefully he will be done soon.

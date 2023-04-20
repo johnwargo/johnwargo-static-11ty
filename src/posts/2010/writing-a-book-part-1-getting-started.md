@@ -29,7 +29,7 @@ OK, now that I've described the mistakes I made, let's dig into the issues I had
 
 The first thing I needed to do was figure out how I was going to be able to keep every possible version of every chapter's content. Being a developer geek, you'd think I'd use some sort of version control system, but I didn't have one at my disposal and didn't want to take the time to set one up and learn its tricks when I just needed to be writing.
 
-When working with deliverables for my employer or a customer, I always save a new version of the file every time I open it for editing and use the current date in the file name to keep them separate. What I do is append the date to the end of the file name in the following format: yyyymmdd. Using this format, the file names for a particular file would look like this:
+When working with deliverables for my employer or a customer, I always save a new version of the file every time I open it for editing and use the current date in the file name to keep them separate. What I do is append the date to the end of the file name in the following format: `yyyymmdd`. Using this format, the file names for a particular file would look like this:
 
 ```text
 Samplefile 20100131.docx  
@@ -38,7 +38,7 @@ Samplefile 20100303.docx
 Samplefile 20100421.docx  
 ```
 
-What happens when you do it this way is Windows automatically sorts the file names by date in the file name. It's easy to do and automatic in Windows. It always surprises me when people try to do this, but use the date in a different format (mmm-dd-yyyy, mmddyyyy, mmm ddyyyy or ddmmmyyyy) because Windows will sort these alphabetically and December will come before January. If you're going to append the date to a file name, do it in a way that saves you time later searching for the file (use yyyymmdd format).
+What happens when you do it this way is Windows automatically sorts the file names by date in the file name. It's easy to do and automatic in Windows. It always surprises me when people try to do this, but use the date in a different format (`mmm-dd-yyyy`, `mmddyyyy, mmm ddyyyy` or `ddmmmyyyy`) because Windows will sort these alphabetically and December will come before January. If you're going to append the date to a file name, do it in a way that saves you time later searching for the file (use yyyymmdd format).
 
 Anyway, when it came to my chapter files, I didn't want to use that approach. I knew that when I submitted the chapter files to the publisher that I had to have them in a particular format (author initials plus chapter number – so: JMW01, JMW02, JMW03 and so on) and I didn't want to have to rename the files before I submitted them (remove the date from the file name). So, I had to stick with a single file name for each chapter, but still wanted to keep an archival copy of each file. What I ended up doing was using the batch processing capabilities of WinZip to create a file I would execute at the end of every editing session (or in the middle as well if I was making a lot of serious changes) to create a zip archive of the manuscript. By doing this, I used more disk space than I needed to, but had every single version of every file at my disposal. It was never any trouble to go back and find a previous edit of the file. I'll walk you through how I set this up in a later installment of this series.
 

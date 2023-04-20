@@ -23,11 +23,11 @@ Next, I found the following site:  [https://dotcomxl.com/index.php/tutorials/we
 
 Now that the plugin is enabled, if you want to show code in your articles you should switch to HTML view in your WYSIWYG editor and use this format:
 
-```text
+{% highlight liquid %}
 <pre xml:lang=”java”>  
 Inert your Java Code here  
 </pre>
-```
+{% endhighlight %}
 
 That's exactly what I'd been searching for – the other sites mentioned the pre tag, but not how you inserted the code into your article. When using Code Citation, the Code Citation processing tags go at the beginning and end of your code – you don't need to switch to the HTML editor to enable it. GeSHi apparently requires that, but it wasn't described that way in all of the sites I looked to for help.
 

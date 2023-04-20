@@ -1,5 +1,5 @@
 ---
-title: First Amazon Review is In...
+title: First Amazon Review is In
 description: 
 date: 2009-11-30
 headerImage: 
@@ -11,12 +11,11 @@ Well, the first review of *BlackBerry Development Fundamentals* has been posted 
 
 If you want a real, unbiased review of the book, please read the following reviews. The first was written by an experienced BlackBerry Developer and the second by an experienced BlackBerry guy who wants to be a BlackBerry Developer:
 
-[BlackBerry Development Fundamentals Reviewed (www.notesberry.org)](https://www.notesberry.org/notesberry/blog.nsf/d6plinks/JHOK-7XEKVB){target="_blank"}
-
-[Review: BlackBerry Development Fundamentals Book by John M. Wargo (www.berryreview.com)](https://www.berryreview.com/2009/11/03/review-blackberry-development-fundamentals-book-by-john-m-wargo/){target="_blank"}
+* [BlackBerry Development Fundamentals Reviewed (www.notesberry.org)](https://www.notesberry.org/notesberry/blog.nsf/d6plinks/JHOK-7XEKVB){target="_blank"}
+* [Review: BlackBerry Development Fundamentals Book by John M. Wargo (www.berryreview.com)](https://www.berryreview.com/2009/11/03/review-blackberry-development-fundamentals-book-by-john-m-wargo/){target="_blank"}
 
 If you're interested in hearing me talk more about where the book fits and more, please read Ben Pijor's interview on www.port3101.org:
 
-[Interview with Author and BlackBerry Developer John Wargo (www.port3101.org)](https://blog.port3101.org/pinjo/136-interview-author-blackberry-developer-john-wargo.html){target="_blank"}
+* [Interview with Author and BlackBerry Developer John Wargo (www.port3101.org)](https://blog.port3101.org/pinjo/136-interview-author-blackberry-developer-john-wargo.html){target="_blank"}
 
 If you've read the book and you find it useful, will you please help me out by writing a review on amazon? I really need people to see more than just that one (bad) review. Thanks in advance!

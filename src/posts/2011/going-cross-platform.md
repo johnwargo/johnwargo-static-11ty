@@ -17,9 +17,9 @@ I laugh when I hear people complain that the BlackBerry development stuff is 'ol
 
 Let's take a look at some important tidbits from the article:
 
-“Going to iPhone development feels like a backwards step from programming in managed environments like Java and .NET, where memory management, exception handling and the like are automatic,” 
+> “Going to iPhone development feels like a backwards step from programming in managed environments like Java and .NET, where memory management, exception handling and the like are automatic,” 
 
-“The iPhone stuff is still in the dark ages in terms of programming environments: you've got to keep track of everything,” he continues. “Objective C tries to make sure everybody understands who's responsible for freeing up what, but it feels like going backwards; being able to have Java-like memory management makes a big difference for developers.”
+> “The iPhone stuff is still in the dark ages in terms of programming environments: you've got to keep track of everything,” he continues. “Objective C tries to make sure everybody understands who's responsible for freeing up what, but it feels like going backwards; being able to have Java-like memory management makes a big difference for developers.”
 
 In a rapidly-growing market where iPhone support is the de rigeur standard for developers and a necessary step to access the world's largest and most successful App Store, Powell's comments may sound like heresy. But with Android having rapidly emerged as a viable alternative over the past year, it reflects the growing realization among many developers that iOS is no longer the be-all and end-all of mobile operating systems.
 

@@ -7,8 +7,6 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-![](/images/common/book.jpg)
-
 OK, here's final article in the series. So far I've talked about the method I used to backup my manuscript files through every part of the editing process and I've covered how I synchronized the files between my laptop and desktop computers as I went. In today's installment, I'm going to address a problem I created by synchronizing the files between systems. It caught me by surprise several times and forced me to make changes to how I managed the files. Ultimately it's the reason I decided to write the article series.
 
 As I worked through the manuscript, I regularly moved things around within the chapters. I would reorder chapters as I worked through them to get the right order (Research In Motion never, ever, agreed with the placement of chapter 3) and I would rework the order of the content within the chapters as well. On top of all that, as I neared completion of the manuscript and started seeing how long it was going to be (it was approaching 600 pages and I only had a contract for a 400 page book) my editor started whacking images (a lot of them) in order to get the book within the budgeted size.
@@ -36,7 +34,8 @@ As I was removing image files from the manuscript and renaming subsequent files 
 
 Say for example I needed to remove image 1 (JMW01_01.jpg) from the manuscript; it was something that wasn't that important for the book and because of space constraints my editor has asked me to remove it. Now, once the file was been removed, I had to rename all of the following image files so there's a consistent naming scheme for everything. So, removing the first image file and renaming all of the other files (quite a pain I might say) would result in the following folder listing:
 
-{codecitation class="brush:text; gutter:false"}Folder listing of C:\Users\John Wargo\Documents\Publications\FoBAD\JMW01\  
+```text
+Folder listing of C:\Users\John Wargo\Documents\Publications\FoBAD\JMW01\  
   
 Backup of JMW01.wbk    8/11/2009 9:05:59 AM    40 kb  
 JMW01.docx             8/11/2009 9:06:30 AM    41 kb  
@@ -44,7 +43,8 @@ JMW01.zip              8/11/2009 9:06:36 AM    377 kb
 JMW01_01.jpg           4/1/2009 7:24:41 PM     63 kb  
 JMW01_02.jpg           4/10/2009 7:24:41 PM    63 kb  
 JMW01_03.jpg           4/1/2009 7:37:29 AM     73 kb  
-JMW01_04.jpg           4/15/2009 7:47:13 AM    71 kb{/codecitation}
+JMW01_04.jpg           4/15/2009 7:47:13 AM    71 kb
+```
 
 Now, knowing that Second Copy has been diligently copying all of the files up to the server, it already has a copy of JMW01_01.jpg up on the server and, because of the renaming of the local files, has a different file date and time than the one on my local hard drive (remember, it used to be JMW01_02.jpg and it had a newer file date/time). The next time Second Copy runs, it's going to see that the server copy of the file has a newer date/time stamp than the one on my local hard drive. It's going to replace the local copy of the file (the former JMW01_02.jpg) with the newer file from the server (the former JMW01_01.jpg).  
 When Second Copy gets done with its sync, the old JMW01_02.jpg (now called JMW01_01.jpg) will be replaced by the original JMW01_01.jpg from the server. Because JMW01_03.jpg has replaced JMW01_02.jpg (due to me renaming the files) the old JMW01_02.jpg is gone, deleted by Second Copy as it copied the old JMW01_01.jpg down from the server. Ouch! This created quite a mess.

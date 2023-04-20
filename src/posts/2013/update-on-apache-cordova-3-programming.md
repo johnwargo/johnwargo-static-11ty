@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-![Apache Cordova 3 Programming](images/covers/acp-cover-160.png)
+![Apache Cordova 3 Programming](/images/covers/acp-cover-160.png)
 
 I finished writing Apache Cordova 3 Programming back in September and now I'm in the production phase with the book. The different sections of the book have been reviewed by several of my colleagues plus several members of the Cordova development team. Right now I'm about halfway through with the copyediting process and hope to have it finished by Monday.
 

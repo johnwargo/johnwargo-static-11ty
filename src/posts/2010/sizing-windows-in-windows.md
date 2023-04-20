@@ -13,7 +13,7 @@ A long time ago I went looking for a utility I could use to set the size of wind
 
 When you install Sizer, it installs an application that, when launched, places an icon in the Windows system tray (shown in Figure 1 with an orange box around it) and also enables a context menu that you (shown in Figure 3) can use to resize any window.
 
-![Figure 1](/images/sizer system tray.png)  
+![Sizer System Tray Icon](/images/sizer-system-tray.png)  
 Figure 1 – Sizer System Tray Icon
 
 ## Configuring the Program

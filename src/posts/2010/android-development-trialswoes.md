@@ -1,5 +1,5 @@
 ---
-title: Android Development TrialsWoes
+title: Android Development Trials & Woes
 description: 
 date: 2010-01-26
 headerImage: 

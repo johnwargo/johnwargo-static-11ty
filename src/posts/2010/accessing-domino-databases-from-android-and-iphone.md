@@ -19,4 +19,4 @@ I wasn't able to get the Android example done in time for Lotusphere (not withou
 
 I'm most of the way through building the same application for the iPhone. It's been a nightmare building the application – Objective-C is so weird and complicated that I'm really struggling to finish the last part of the application. I'm planning to finish the application in time for the conference, I think I can do it, but like I said, I'm struggling. I'm probably not going to publish anything here about the iPhone application – I'm going to see if I can get an article about the application published in the View. Stay tuned on that one. Just to whet your appetite here's a screen shot of the application.
 
-![iPhone Contact Lookup Application](/images/2010/screenshot-2010-04-19)
+![iPhone Contact Lookup Application](/images/2010/screenshot-2010-04-19.png)

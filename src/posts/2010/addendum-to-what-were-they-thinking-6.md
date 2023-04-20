@@ -1,5 +1,5 @@
 ---
-title: Addendum to What Were They Thinking #6
+title: Addendum to What Were They Thinking 6
 description: 
 date: 2010-03-26
 headerImage: 

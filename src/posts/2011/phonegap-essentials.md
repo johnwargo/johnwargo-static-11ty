@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-![](/images/covers/phonegap_essentials_cover_160.png)
+![PhoneGap Essentials Cover](/images/covers/phonegap-essentials-cover-160.png)
 
 Lots going on here on the book front. Last week, my publisher and I agreed on a different title for my PhoneGap book. It's going to be called *PhoneGap Essentials*, and we even finally have a cover for the book as well.
 

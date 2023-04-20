@@ -7,6 +7,8 @@ categories: [Miscellaneous]
 tags: post
 ---
 
+![The Maker's Guide to the Zombie Apocalypse Cover](/images/2016/zombie_cover.png)
+
 A Book Review
 
 I recently received a copy of Simon Monk's [*The Maker's Guide to the Zombie Apocalypse*](https://shop.oreilly.com/product/9781593276676.do?sortby=publicationDate){target="_blank"}. I'd read several of Simon's books (*Programming the BeagleBone Black* and *Make: Getting Started with the Photon*). I've enjoyed his books, and they've helped me learn how to work with the Photon and BeagleBone Black.

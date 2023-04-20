@@ -7,9 +7,9 @@ categories: [BlackBerry]
 tags: post
 ---
 
-![](/images/2009/beginning-blackbery-development-120.png)
-
 On my flights home from the 2009 BlackBerry Developer Conference in San Francisco I had a chance to read Anthony Rizk's [Beginning BlackBerry Development](https://www.amazon.com/gp/product/1430272252?ie=UTF8&tag=mcnsof-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1430272252)![](https://www.assoc-amazon.com/e/ir?t=mcnsof-20&l=as2&o=1&a=1430272252){target="_blank"}. I wasn't one of the lucky folks who received a free copy of the book at the conference – I'd received it in advance of the event and brought it with me to read on the plane home. Anthony did sign it for me at the conference, so that was fun. When I discovered that the book was on its way, I contacted Anthony to find out about his book and see how it compared to mine. It turns out that they're very complimentary – they both address beginning developers, but cover different parts of the topic.
+
+![](/images/2009/beginning-blackbery-development-120.png)
 
 The book is really good – I enjoyed reading it and learned some things I've always wanted to know. First of all, although the title doesn't say this, the book is a Java book – targeted at BlackBerry developers who want to get started writing Java applications for the BlackBerry platform. It doesn't cover anything about web development and only covers the platform (BES and MDS) very lightly. You should already be comfortable with Java development; the book doesn't cover any of the basics, only the BlackBerry specific stuff you'll need to know to work on the platform. It's a rather short book, only about 240 pages, so don't expect it to cover any particular topic in great detail.
 

@@ -11,7 +11,7 @@ As look at the world around me, I'm surprised that in the world of the connected
 
 The local Charlotte BIG insurance company is Novant Health, and they're usually pretty organized. I was in one of their facilities a while back and noticed that there was free Wi-Fi, so I decided to connect. After selecting the SSID and connecting to the network, I was presented with the confirmation page shown in Figure 1.
 
-![](/images/2014/poorly formatted page.png)
+![A poorly formatted web page example](/images/2014/poorly-formatted-page.png)
 Figure 1
 
 So, what's happening here is that Novant Health recognized that they had a lot of mobile users within their facility and made a conscious decision to provide them with a little extra service (free Wi-Fi) but made no effort to make the confirmation page friendly to mobile devices. Sigh.

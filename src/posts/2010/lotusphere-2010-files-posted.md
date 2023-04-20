@@ -9,11 +9,9 @@ tags: post
 
 As promised, the final database and project files for my AD114 session from Lotusphere 2010 have been posted to the files area of the site.The available files are:
 
-[Domino Database (with the XML-based and RESTful services code)](/files/ls2010-ad114.zip)
-
-[BlackBerry Java Project](/files/ls2010-ad114-bb.zip)
-
-[Windows Mobile Project](/files/ls2010-ad114-winmo.zip)
+* [Domino Database (with the XML-based and RESTful services code)](/files/ls2010-ad114.zip)
+* [BlackBerry Java Project](/files/ls2010-ad114-bb.zip)
+* [Windows Mobile Project](/files/ls2010-ad114-winmo.zip)
 
 I spent some time on the plane ride home reading through another Android development book and got some new insights to the problems I was having with the demo. I will spend some time working on that project in the next few weeks (in between the move to NC and my real job) and hope to have something posted by the end of February. Bug me if you don't see it by then.
 

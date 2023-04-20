@@ -7,17 +7,15 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-![](/images/common/book.jpg)
-
 As I mentioned in the first article in this series here, I needed a way to have a sort of version control system (VCS) without installing a version control system. I wanted something simple, something that would work regardless of whether I was connected to a network. What I decided to do was use the batch file processing capabilities of [WinZip](https://www.winzip.com){target="_blank"} to create complete backups of the manuscript (including all documents and images). With this system in place, I could execute the batch process at the end of any editing session (or in the middle if I had a lot of changes) and have a complete backup of everything in case I needed to revert to some older version or dig up some old content I'd deleted and shouldn't have.
 
 Before I begin, it's probably important to let you know that while I was working on the manuscript and before I had a contract with a publisher, my working title for the book was Fundamentals of BlackBerry Application Development. Throughout this article and others in the series, you'll probably notice that I named everything with the abbreviated version of the title: FoBAD. What's funny though is that I also registered a web domain for the book as a placeholder. All of the options I wanted were already taken, so I went ahead and registered bbdevfundamentals.com. I figured I'd grab that domain and later, when I had the final title, at least I'd have a domain to use if the one connected to the official title was taken. As I negotiated with the publisher for the title, imagine my surprise when the final name my publisher came up with was BlackBerry Development Fundamentals which, when abbreviated, matched the name of the domain I already secured for the book's site.
 
 The requirements for the solution were:
 
-1.    The ability to execute the backup without selecting the files I wanted backed up every time  
-2.    The ability to automatically set the backup archive file name using the current date and time – this allowed me to have a unique file name for every backup which would automatically sort as needed in any file listing (Windows Explorer or My Computer).  
-3.    Take up as little file space as possible
+1. The ability to execute the backup without selecting the files I wanted backed up every time  
+2. The ability to automatically set the backup archive file name using the current date and time – this allowed me to have a unique file name for every backup which would automatically sort as needed in any file listing (Windows Explorer or My Computer).  
+3. Take up as little file space as possible
 
 Now let's dig into how to setup the batch process I needed for my project. When you open any of the later versions of WinZip in Classic mode, you'll see a window similar to the one shown in Figure 1. You'll need to click on the 'Backup' tab to expose the options you need to create batch processes.
 

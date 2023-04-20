@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-I'm going to try to coin a new phrase this afternoon in my Browser Development tricks session at Lotusphere 2010. I wanted to write about it here first, just in case it takes off and I get credit for the idea ![Wink](plugins/editors/jce/tiny_mce/plugins/emotions/img/smiley-wink.gif){target="_blank"}. The term is "Battery Bit" or, as I decided to try out early this morning, 'Battery Bit Time.' I'll explain what it means in a little bit (no pun intended).
+I'm going to try to coin a new phrase this afternoon in my Browser Development tricks session at Lotusphere 2010. I wanted to write about it here first, just in case it takes off and I get credit for the idea. The term is "Battery Bit" or, as I decided to try out early this morning, 'Battery Bit Time.' I'll explain what it means in a little bit (no pun intended).
 
 I've been doing a lot of analysis of the wireless development space and have noticed a couple of trends. The biggest one is that developers have begun (mostly because of the iPhone) to completely disregard the network and the limited capabilities of mobile devices when they build their applications – especially their mobile web applications. We're dealing with small devices with limited processing capacity, limited memory and limited battery life, and developers are regularly building apps that no longer take that into consideration. They're treating these smartphones like they're desktop computers and that's causing problems for everyone.
 

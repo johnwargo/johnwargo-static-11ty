@@ -17,4 +17,4 @@ If you happen to be attending the [BlackBerry Developer Conference](https://www.
 
 Here's the full cover in case you wanted to look at it:
 
-![BlackBerry Development Fundamentals Cover](/images/wargo-cover-640.jpg)
+![BlackBerry Development Fundamentals Cover](/images/covers/wargo-cover-640.jpg)
