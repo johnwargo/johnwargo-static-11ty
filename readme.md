@@ -27,12 +27,12 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Do something with the galleries images (likely kill them)
 * [x] Clean up exported articles (images, external links)
 * [x] Add Buy Me a Coffee to home page
-* [ ] Validate all articles
-* [ ] Fix mobile menu and dropdown menu
+* [x] Validate all articles
 * [ ] https://www.npmjs.com/package/eleventy-plugin-date
 * [ ] https://www.npmjs.com/package/eleventy-plugin-youtube-embed
 * [ ] https://www.11ty.dev/docs/plugins/image/
 * [ ] Assign correct style to image files
+* [ ] Fix mobile menu and dropdown menu
 * [ ] Add Buy Me a Coffee to posts
 * [ ] Next/Previous Post buttons on Post pages
 * [ ] Add post cover image based on category
