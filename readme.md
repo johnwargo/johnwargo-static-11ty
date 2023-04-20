@@ -18,6 +18,8 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Fix category links for categories with more than one word
 * [x] Select template and implement (Editorial, **Faction**, Future Imperfect)
 * [x] Footer
+* [x] Publish 11ty-cat-pages
+* [x] Add 11ty-cat-pages to build process
 * [x] Export latest Joomla! articles
 * [x] Copy post files to project
 * [x] Copy image files to project
@@ -26,18 +28,18 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Clean up exported articles (images, external links)
 * [x] Add Buy Me a Coffee to home page
 * [ ] Validate all articles
-* [ ] https://www.npmjs.com/package/eleventy-plugin-youtube-embed
 * [ ] Fix mobile menu and dropdown menu
+* [ ] https://www.npmjs.com/package/eleventy-plugin-date
+* [ ] https://www.npmjs.com/package/eleventy-plugin-youtube-embed
+* [ ] https://www.11ty.dev/docs/plugins/image/
 * [ ] Assign correct style to image files
-* [x] Publish 11ty-cat-pages
-* [x] Add 11ty-cat-pages to build process
 * [ ] Add Buy Me a Coffee to posts
+* [ ] Next/Previous Post buttons on Post pages
 * [ ] Add post cover image based on category
-* [ ] Copy files over
+* [ ] Copy files folder content over
 * [ ] Add descriptions to all articles, make page to check
 * [ ] Update article lists to use description where its available
 * [ ] Run Link Checker
-* [ ] Next/Previous Post buttons on Post pages
 * [ ] List View pagination, show in-between pages
 * [ ] Delete unused images
 * [ ] RSS feed and link in menu

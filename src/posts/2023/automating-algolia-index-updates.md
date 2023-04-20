@@ -1,6 +1,6 @@
 ---
 title: Automating Algolia Index Updates
-description: 
+description: Describes a utility I created to help Eleventy site owners to automate updating their Algolia indices outside of the build process.
 date: 2023-03-19
 headerImage: 
 categories: [Web Development]

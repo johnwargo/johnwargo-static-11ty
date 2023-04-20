@@ -21,6 +21,27 @@ layout: home
       to find anything anywhere on the site.</p>
   </section>
 
+  <section>
+    <h3>
+      <a href="{{ "/" | htmlBaseUrl }}articles">Recent Posts</a>
+    </h3>
+    <ul class="posts">
+      {% for post in latest_posts limit: 10 %}
+        <li>
+          <h4>
+            <a style="cursor: pointer" href="{{post.url}}">{{ post.data.title }}</a>
+          </h4>
+          <span class="date">{{ post.date | niceDate }}</span>
+          {% if post.data.description %}
+            {{ post.data.description }}
+          {% else %}
+            {% excerpt post %}
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
   <!-- Features -->
   <section class="features alt">
     <article class="icon solid fa-newspaper">
@@ -76,18 +97,17 @@ layout: home
 </section>
 
 <aside class="sidebar">
-  <!-- Posts -->
   <section>
-    <h2>Recent Posts</h2>
-    <ul class="posts">
-      {% for post in latest_posts limit: 10 %}
-        <a style="cursor: pointer" href="{{post.url}}">{{ post.data.title }}</a>
-        <span class="date">{{ post.date | niceDate }}</span>
-      {% endfor %}
-    </ul>
+    <h2>Popular Posts</h2>
+    <!-- <ul class="posts">
+    {% for post in latest_posts limit: 10 %}
+    <a style="cursor: pointer" href="{{post.url}}">{{ post.data.title }}</a>
+    <span class="date">{{ post.date | niceDate }}</span>
+    {% endfor %}
+    </ul> -->
     <ul class="actions">
       <li>
-        <a href="{{ "/" | htmlBaseUrl }}articles" class="button">More Posts</a>
+        <a href="{{ "/" | htmlBaseUrl }}articles" class="button">All Posts</a>
       </li>
     </ul>
   </section>
