@@ -10,7 +10,7 @@ eleventyComputed:
 permalink: "category/{{ category | slugify }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
 ---
 
-{% include 'pagination-nav.html' %}
+{% include 'pagination-count.html' %}
 
 <p>All posts for a single category, in reverse chronological order.</p>
 
