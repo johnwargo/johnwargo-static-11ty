@@ -30,6 +30,7 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Validate all articles
 * [x] https://www.npmjs.com/package/eleventy-plugin-date
 * [x] https://www.npmjs.com/package/eleventy-plugin-youtube-embed
+* [ ] Fix Categories page entry heading and format
 * [ ] https://www.11ty.dev/docs/plugins/image/
 * [ ] Assign correct style to image files
 * [ ] Fix mobile menu and dropdown menu

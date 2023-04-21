@@ -12,12 +12,26 @@ permalink: "category/{{ category | slugify }}/{% if pagination.pageNumber != 0 %
 
 <p>All posts for a single category, in reverse chronological order.</p>
 
-{% for post in catposts reversed %}
-  <div>
-    <a href="{{post.url}}">{{ post.data.title }}</a>, posted {{ post.date | readableDate }}
-    {% excerpt post %}
-  </div>
-{% endfor %}
+<ul class="posts">
+  {% for post in catposts reversed %}
+    <li>
+      <h4>
+        <a href="{{post.url}}" style="cursor: pointer">{{ post.data.title }}</a>
+      </h4>
+      Posted {{ post.date | readableDate }}
+      {% if post.data.categories.length > 0 %}
+        in
+        {% for cat in post.data.categories %}
+          <a href="/category/{{ cat | slugify }}">{{ cat }}</a>
+          {% unless forloop.last %},&nbsp;
+          {% endunless %}
+        {% endfor %}
+      {% endif %}
+      <br/>
+      {% excerpt post %}
+    </li>
+  {% endfor %}
+</ul>
 
 <p>
   {% if pagination.href.previous %}
