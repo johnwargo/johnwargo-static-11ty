@@ -1,0 +1,16 @@
+{% assign endPage = pagination.pages.length | minus: 2 %}
+{% if pagination.pages.length > 1 %}
+  <p>Page {{ pagination.pageNumber | plus: 1 }} of {{ pagination.pages.length }}</p>
+  <p>
+    {% if pagination.href.previous %}
+      <button type="button" onclick="location.href='{{ pagination.href.first }}'">First</button>
+      <button type="button" onclick="location.href='{{ pagination.href.previous }}'">Previous</button>
+    {% endif %}
+    {% if pagination.href.next %}
+      <button type="button" onclick="location.href='{{ pagination.href.next }}'">Next</button>
+    {% endif %}
+    {% if pagination.pageNumber < endPage %}
+      <button type="button" onclick="location.href='{{ pagination.href.last }}'">Last</button>
+    {% endif %}
+  </p>
+{% endif %}

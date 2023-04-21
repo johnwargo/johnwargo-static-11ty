@@ -26,7 +26,7 @@ The following list is a likely incomplete list of all of the resources I used to
 * []()
 * []()
 
-The following lists the tools I created to help me better migrate and manage the site:
+The following lists the tools I created to help me better migrate the site from Joomla! and manage the site going forward. There should be a blog post here for each of these tools. As soon, of course, as I write them.
 
 * [Joomla! to Markdown](https://www.npmjs.com/package/joomla-to-markdown)
 * [Eleventy Category Pages](https://www.npmjs.com/package/eleventy-category-pages)
@@ -49,14 +49,9 @@ How to make a markdown link open in a new tab:
 [](){target="_blank"}
 ```
 
-### Links to Book cover images:
+This only works if you follow the instructions in [target="_blank" links in markdown](https://github.com/11ty/eleventy/issues/2301).
 
-![Blackberry Development Fundamentals Cover](/images/covers/bbdf-cover-160.png)
-![Apache Cordova API Cookbook Cover](/images/covers/acac-cover-160.png)
-![Apache Cordova 4 Programming Cover](/images/covers/ac4p-cover-160.png)
-![PhoneGap Essentials Cover](/images/covers/phonegap-essentials-cover-160.png)
-
-### How to hide Liquid from Liquid
+### How to hide Liquid, From, Well Liquid
 
 Use the following codes to show Liquid template language in a post
 
@@ -65,3 +60,10 @@ Use the following codes to show Liquid template language in a post
 
 {% endhighlight %}
 ```
+
+### Links to Book cover images:
+
+![Blackberry Development Fundamentals Cover](/images/covers/bbdf-cover-160.png)
+![Apache Cordova API Cookbook Cover](/images/covers/acac-cover-160.png)
+![Apache Cordova 4 Programming Cover](/images/covers/ac4p-cover-160.png)
+![PhoneGap Essentials Cover](/images/covers/phonegap-essentials-cover-160.png)

@@ -15,9 +15,7 @@
 }
 ---
 
-{% if pagination.pages.length > 1 %}
-  <p>Page {{ pagination.pageNumber | plus: 1 }} of {{ pagination.pages.length }}</p>
-{% endif %}
+{% include 'pagination-nav.html' %}
 
 <p>All posts for a single category, in reverse chronological order.</p>
 
@@ -42,16 +40,4 @@
   {% endfor %}
 </ul>
 
-{% if pagination.pages.length > 1 %}
-  <p>Page {{ pagination.pageNumber | plus: 1 }} of {{ pagination.pages.length }}</p>
-  <p>
-    {% if pagination.href.previous %}
-      <button type="button" onclick="location.href='{{ pagination.href.first }}'">First</button>
-      <button type="button" onclick="location.href='{{ pagination.href.previous }}'">Previous</button>
-    {% endif %}
-    {% if pagination.href.next %}
-      <button type="button" onclick="location.href='{{ pagination.href.next }}'">Next</button>
-      <button type="button" onclick="location.href='{{ pagination.href.last }}'">Last</button>
-    {% endif %}
-  </p>
-{% endif %}
+{% include 'pagination-nav.html' %}
