@@ -1,10 +1,8 @@
 # John Wargo (Eleventy)
 
-The static site generated version of [johnwargo.com](https://johnwargo.com), implemented using [Eleventy](https://www.11ty.dev/).
+The static site generated version of [johnwargo.com](https://johnwargo.com), implemented using [Eleventy](https://www.11ty.dev/) hosted on [GitHub](https://github.com/johnwargo/johnwargo-static-11ty).
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9c776198-312a-450e-a329-fbb33e7afa79/deploy-status)](https://app.netlify.com/sites/johnwargo/deploys)
-
-[GitHub](https://github.com/johnwargo/johnwargo-static-11ty)
 
 ## Tasks
 
