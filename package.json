@@ -1,6 +1,6 @@
 {
   "name": "johnwargo",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "The static site generated version of [johnwargo.com](https://johnwargo.com), implemented using [Eleventy](https://www.11ty.dev/).",
   "author": "John M. Wargo",
   "repository": {
@@ -11,9 +11,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "eleventy --serve",
-    "build": "11ty-cat-pages && eleventy",
-    "lbuild": "11ty-cat-pages && gen-build-info src/_data && eleventy",
-    "pbuild": "npm version patch && 11ty-cat-pages && gen-build-info src/_data && eleventy"
+    "build": "eleventy",
+    "pbuild": "gen-build-info src/_data && 11ty-cat-pages && eleventy"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.0",

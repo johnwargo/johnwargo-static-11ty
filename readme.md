@@ -33,6 +33,7 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Put PWA Book link on top of sidebar
 * [x] Add page number to `articles.liquid`
 * [x] Add page number to Category page (`11ty-cat-pages.liquid`)
+* [ ] Add GitHub build process and Netlify trigger
 * [ ] Fix Category page entry heading and format
 * [ ] Fix mobile menu and dropdown menu
 * [ ] Update article lists to use description where its available
