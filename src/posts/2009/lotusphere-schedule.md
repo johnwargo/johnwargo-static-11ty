@@ -7,9 +7,9 @@ categories: [IBM Lotus Domino]
 tags: post
 ---
 
-![Lotusphere Logo](/images/2009/ls.gif)
-
 I received the Lotusphere schedule last week. I was very excited to see that our BP212 session was selected to be a repeat session - that's never happened to me before. Way cool.
+
+![Lotusphere Logo](/images/2009/ls.gif)
 
 Here's the schedule:
 

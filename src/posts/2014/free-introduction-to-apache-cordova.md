@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-![Inform IT Web site image](/images/covers/introduction-to-apache-cordova-120.png)
+![Inform IT Web site image](/images/2014/introduction-to-apache-cordova-120.png)
 
 Whenever I publish a book with my publisher, they always pick one chapter and post it online for anyone to read. Picking the right chapter has always been a challenge for me because I want them to publish a chapter that's interesting enough to make you want to buy the book while at the same time not being so good that you get everything you need and don't buy the book.
 

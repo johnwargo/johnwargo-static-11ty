@@ -98,20 +98,11 @@ layout: home
 
 <aside class="sidebar">
   <section>
-    <h2>Popular Posts</h2>
-    <!-- <ul class="posts">
-    {% for post in latest_posts limit: 10 %}
-    <a style="cursor: pointer" href="{{post.url}}">{{ post.data.title }}</a>
-    <span class="date">{{ post.date | readableDate }}</span>
-    {% endfor %}
-    </ul> -->
-    <ul class="actions">
-      <li>
-        <a href="{{ "/" | htmlBaseUrl }}articles" class="button">All Posts</a>
-      </li>
-    </ul>
+    <h2>Learning Progressive Web Apps</h2>
+    <a href="https://www.amazon.com/Learning-Progressive-Apps-Wargo-John-ebook/dp/B084T4JK3S" target="_blank">
+      <img src="/images/covers/learning-pwa-160.jpg" />
+    </a>
   </section>
-
   <section>
     <h2>Buy Me A Coffee</h2>
     <p>If the posts and other content provided here helps you learn something new or solve a problem, consider buying me a coffee.
@@ -125,7 +116,15 @@ layout: home
       </li>
     </ul>
   </section>
-
+  <section>
+    <h2>Popular Posts</h2>
+    <p>View the most popular articles based on Google Analytics.</p>
+    <ul class="actions">
+      <li>
+        <a href="{{ "/" | htmlBaseUrl }}popular" class="button">Go!</a>
+      </li>
+    </ul>
+  </section>
   <section>
     <h2>Amazon Author Page</h2>
     <p>I've published 8 books so far, you can view and order most of them from My Amazon Author Page.

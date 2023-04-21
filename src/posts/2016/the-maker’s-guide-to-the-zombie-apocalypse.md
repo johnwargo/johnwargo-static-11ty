@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-![The Maker's Guide to the Zombie Apocalypse Cover](/images/2016/zombie_cover.png)
+![The Maker's Guide to the Zombie Apocalypse Cover](/images/2016/zombie-cover-160.png)
 
 A Book Review
 

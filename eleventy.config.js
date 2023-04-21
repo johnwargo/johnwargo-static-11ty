@@ -39,13 +39,13 @@ module.exports = eleventyConfig => {
 	function extractExcerpt(post) {
 		// No page content?
 		if (!post.templateContent) return '';
-		if (post.templateContent.indexOf('<h1>') == 0) return '';
-		if (post.templateContent.indexOf('<h2>') == 0) return '';
-		// page starts with an image
-		if (post.templateContent.indexOf('<p><img') == 0) return '';
+		// if (post.templateContent.indexOf('<h1>') == 0) return '';
+		// if (post.templateContent.indexOf('<h2>') == 0) return '';
+		// if (post.templateContent.indexOf('<p><img') == 0) return '';
 		if (post.templateContent.indexOf('</p>') > 0) {
+			let start = post.templateContent.indexOf('<p>');
 			let end = post.templateContent.indexOf('</p>');
-			return post.templateContent.substr(0, end + 4);
+			return post.templateContent.substr(start, end + 4);
 		}
 		return post.templateContent;
 	}
@@ -60,16 +60,9 @@ module.exports = eleventyConfig => {
 		return Array.from(categories);
 	});
 
-	// eleventyConfig.addFilter("filterByCategory", function (posts, cat) {
-	// 	// case matters, so let's lowercase the desired category, cat	and we will 
-	// 	// lowercase our posts categories as well
-	// 	cat = cat.toLowerCase();
-	// 	let result = posts.filter(p => {
-	// 		let cats = p.data.categories.map(s => s.toLowerCase());
-	// 		return cats.includes(cat);
-	// 	});
-	// 	return result;
-	// });
+	eleventyConfig.addCollection("topten", function (collectionApi) {
+		return [];
+	});
 
 	// https://www.raymondcamden.com/2020/06/24/adding-algolia-search-to-eleventy-and-netlify
 	// Remove <code>.*</code>, remove HTML, then with plain text, limit to 5k chars

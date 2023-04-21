@@ -1,5 +1,5 @@
 ---
-title: What were they thinking...
+title: What were they thinking?
 description: 
 date: 2009-12-09
 headerImage: 
