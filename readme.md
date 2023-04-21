@@ -33,7 +33,7 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Put PWA Book link on top of sidebar
 * [x] Add page number to `articles.liquid`
 * [x] Add page number to Category page (`11ty-cat-pages.liquid`)
-* [ ] https://www.11ty.dev/docs/plugins/image/
+* [x] https://www.11ty.dev/docs/plugins/image/
 * [ ] Assign correct style to image files
 * [ ] Fix Category page entry heading and format
 * [ ] Fix mobile menu and dropdown menu
@@ -77,7 +77,7 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 https://pixelarity.com/faction
 https://www.favicon-generator.org/
 
-{target="_blank"}
+[](){target="_blank"}
 
 ![Blackberry Development Fundamentals Cover](/images/covers/bbdf-cover-160.png)
 ![Apache Cordova API Cookbook Cover](/images/covers/acac-cover-160.png)
