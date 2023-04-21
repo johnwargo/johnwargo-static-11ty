@@ -31,13 +31,13 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] https://www.npmjs.com/package/eleventy-plugin-date
 * [x] https://www.npmjs.com/package/eleventy-plugin-youtube-embed
 * [x] Put PWA Book link on top of sidebar
-* [ ] Add page number to articles.liquid
-* [ ] Add page number to Category page (`11ty-cat-pages.liquid`)
+* [x] Add page number to `articles.liquid`
+* [x] Add page number to Category page (`11ty-cat-pages.liquid`)
 * [ ] https://www.11ty.dev/docs/plugins/image/
 * [ ] Assign correct style to image files
-* [ ] Update article lists to use description where its available
 * [ ] Fix Category page entry heading and format
 * [ ] Fix mobile menu and dropdown menu
+* [ ] Update article lists to use description where its available
 * [ ] Fix selection of first paragraph in post
 * [ ] Add Buy Me a Coffee to posts
 * [ ] Next/Previous Post buttons on Post pages

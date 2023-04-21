@@ -8,11 +8,15 @@ pagination:
   reverse: true
 ---
 
+{% if pagination.pages.length > 1 %}
+  <p>Page {{ pagination.pageNumber | plus: 1 }} of {{ pagination.pages.length }}</p>
+{% endif %}
+
 <p>This page lists all articles in reverse chronological order. Use the
   <a href="{{ "/" | htmlBaseUrl }}categories">Categories</a>
   page to view the list of categories or
   <a href="{{ "/" | htmlBaseUrl }}search">Search</a>
-  to find a particular article.</p>
+  to locate a particular article.</p>
 
 <ul class="posts">
   {% for post in posts %}
@@ -35,11 +39,16 @@ pagination:
   {% endfor %}
 </ul>
 
-<p>
-  {% if pagination.href.previous %}
-    <button type="button" onclick="location.href='{{ pagination.href.previous }}'">Previous</button>
-  {% endif %}
-  {% if pagination.href.next %}
-    <button type="button" onclick="location.href='{{ pagination.href.next }}'">Next</button>
-  {% endif %}
-</p>
+{% if pagination.pages.length > 1 %}
+  <p>Page {{ pagination.pageNumber | plus: 1 }} of {{ pagination.pages.length }}</p>
+  <p>
+    {% if pagination.href.previous %}
+      <button type="button" onclick="location.href='{{ pagination.href.first }}'">First</button>
+      <button type="button" onclick="location.href='{{ pagination.href.previous }}'">Previous</button>
+    {% endif %}
+    {% if pagination.href.next %}
+      <button type="button" onclick="location.href='{{ pagination.href.next }}'">Next</button>
+      <button type="button" onclick="location.href='{{ pagination.href.last }}'">Last</button>
+    {% endif %}
+  </p>
+{% endif %}

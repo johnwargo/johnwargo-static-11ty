@@ -10,6 +10,10 @@ eleventyComputed:
 permalink: "category/{{ category | slugify }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
 ---
 
+{% if pagination.pages.length > 1 %}
+  <p>Page {{ pagination.pageNumber | plus: 1 }} of {{ pagination.pages.length }}</p>
+{% endif %}
+
 <p>All posts for a single category, in reverse chronological order.</p>
 
 <ul class="posts">
@@ -33,11 +37,16 @@ permalink: "category/{{ category | slugify }}/{% if pagination.pageNumber != 0 %
   {% endfor %}
 </ul>
 
-<p>
-  {% if pagination.href.previous %}
-    <button type="button" onclick="location.href='{{ pagination.href.previous }}'">Previous</button>
-  {% endif %}
-  {% if pagination.href.next %}
-    <button type="button" onclick="location.href='{{ pagination.href.next }}'">Next</button>
-  {% endif %}
-</p>
+{% if pagination.pages.length > 1 %}
+  <p>Page {{ pagination.pageNumber | plus: 1 }} of {{ pagination.pages.length }}</p>
+  <p>
+    {% if pagination.href.previous %}
+      <button type="button" onclick="location.href='{{ pagination.href.first }}'">First</button>
+      <button type="button" onclick="location.href='{{ pagination.href.previous }}'">Previous</button>
+    {% endif %}
+    {% if pagination.href.next %}
+      <button type="button" onclick="location.href='{{ pagination.href.next }}'">Next</button>
+      <button type="button" onclick="location.href='{{ pagination.href.last }}'">Last</button>
+    {% endif %}
+  </p>
+{% endif %}
