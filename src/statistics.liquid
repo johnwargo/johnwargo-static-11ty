@@ -20,12 +20,12 @@ layout: generic
     </tr>
     <tr>
       <td>First Post</td>
-      <td>{{ collections.posts[0].date | date: "%B %-d, %Y" }}</td>
+      <td>{{ collections.posts[0].date | readableDate }}</td>
     </tr>
     <tr>
       <td>Latest Post</td>
       <td>
-        {{ collections.posts[lastIndex].date | date: "%B %-d, %Y" }}</td>
+        {{ collections.posts[lastIndex].date | readableDate }}</td>
     </tr>
     <tr>
       <td>Deployments</td>

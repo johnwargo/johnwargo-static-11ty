@@ -1,12 +1,12 @@
 [
   {
     "category": "BlackBerry",
-    "count": 71,
+    "count": 69,
     "description": "Articles about the BlackBerry platform, BlackBerry development, and my time working at BlackBerry (Research in Motion)."
   },
   {
     "category": "Content Management Systems",
-    "count": 17,
+    "count": 16,
     "description": "Articles related to my usage and experimentation with Content Management Systems (CMS)."
   },
   {
@@ -16,7 +16,7 @@
   },
   {
     "category": "IBM Lotus Domino",
-    "count": 33,
+    "count": 32,
     "description": "Articles related to IBM Lotus Notes and/or Domino; mostly around development topics."
   },
   {
@@ -26,12 +26,12 @@
   },
   {
     "category": "Miscellaneous",
-    "count": 145,
+    "count": 138,
     "description": "Posts that didn't fit in any other categories."
   },
   {
     "category": "Mobile",
-    "count": 34,
+    "count": 31,
     "description": "Posts related to mobile phones and mobility in general."
   },
   {

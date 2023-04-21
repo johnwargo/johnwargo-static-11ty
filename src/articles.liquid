@@ -18,7 +18,7 @@ pagination:
   <p>
     <a href="{{post.url}}">{{ post.data.title }}</a>,
     <strong>Posted</strong>
-    {{ post.date | niceDate }}&nbsp;
+    {{ post.date | readableDate }}&nbsp;
     {% if post.data.categories.length > 0 %}
       in
       {% for cat in post.data.categories %}

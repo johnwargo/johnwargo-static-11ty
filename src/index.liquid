@@ -31,7 +31,7 @@ layout: home
           <h4>
             <a style="cursor: pointer" href="{{post.url}}">{{ post.data.title }}</a>
           </h4>
-          <span class="date">{{ post.date | niceDate }}</span>
+          <span class="date">{{ post.date | readableDate }}</span>
           {% if post.data.description %}
             {{ post.data.description }}
           {% else %}
@@ -102,7 +102,7 @@ layout: home
     <!-- <ul class="posts">
     {% for post in latest_posts limit: 10 %}
     <a style="cursor: pointer" href="{{post.url}}">{{ post.data.title }}</a>
-    <span class="date">{{ post.date | niceDate }}</span>
+    <span class="date">{{ post.date | readableDate }}</span>
     {% endfor %}
     </ul> -->
     <ul class="actions">
