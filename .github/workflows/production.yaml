@@ -31,7 +31,10 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }} 
-    - name: Curl request
-      run: curl -X POST -d {} https://api.netlify.com/build_hooks/64430b2915a2690352879b28
-
-
+    - name: Netlify Deploy 
+      uses: jsmrcaga/action-netlify-deploy@master
+      with:
+        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        NETLIFY_DEPLOY_MESSAGE: "Prod deploy v${{ github.ref }}"
+        NETLIFY_DEPLOY_TO_PROD: true
