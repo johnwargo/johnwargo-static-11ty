@@ -33,12 +33,12 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Put PWA Book link on top of sidebar
 * [x] Add page number to `articles.liquid`
 * [x] Add page number to Category page (`11ty-cat-pages.liquid`)
-* [x] https://www.11ty.dev/docs/plugins/image/
-* [ ] Assign correct style to image files
 * [ ] Fix Category page entry heading and format
 * [ ] Fix mobile menu and dropdown menu
 * [ ] Update article lists to use description where its available
 * [ ] Fix selection of first paragraph in post
+* [ ] https://www.11ty.dev/docs/plugins/image/
+* [ ] Rebuild image file links
 * [ ] Add Buy Me a Coffee to posts
 * [ ] Next/Previous Post buttons on Post pages
 * [ ] Add post cover image based on category
