@@ -39,9 +39,9 @@ module.exports = eleventyConfig => {
 	function extractExcerpt(post) {
 		// No page content?
 		if (!post.templateContent) return '';
-		// if (post.templateContent.indexOf('<h1>') == 0) return '';
-		// if (post.templateContent.indexOf('<h2>') == 0) return '';
-		// if (post.templateContent.indexOf('<p><img') == 0) return '';
+		if (post.templateContent.indexOf('<h1>') == 0) return '';
+		if (post.templateContent.indexOf('<h2>') == 0) return '';
+		if (post.templateContent.indexOf('<p><img') == 0) return '';
 		if (post.templateContent.indexOf('</p>') > 0) {
 			let start = post.templateContent.indexOf('<p>');
 			let end = post.templateContent.indexOf('</p>');

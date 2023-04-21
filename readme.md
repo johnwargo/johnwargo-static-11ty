@@ -30,7 +30,8 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] Validate all articles
 * [x] https://www.npmjs.com/package/eleventy-plugin-date
 * [x] https://www.npmjs.com/package/eleventy-plugin-youtube-embed
-* [ ] Put PWA Book link on top of sidebar
+* [x] Put PWA Book link on top of sidebar
+* [ ] Fix selection of first paragraph in post
 * [ ] https://www.11ty.dev/docs/plugins/image/
 * [ ] Assign correct style to image files
 * [ ] Fix Categories page entry heading and format
