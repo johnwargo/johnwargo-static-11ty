@@ -22,9 +22,9 @@ layout: home
   </section>
 
   <section>
-    <h3>
+    <h2>
       <a href="{{ "/" | htmlBaseUrl }}articles">Recent Posts</a>
-    </h3>
+    </h2>
     <ul class="posts">
       {% for post in latest_posts limit: 10 %}
         <li>
@@ -104,6 +104,15 @@ layout: home
     </a>
   </section>
   <section>
+    <h2>Popular Posts</h2>
+    <p>View the most popular articles based on Google Analytics.</p>
+    <ul class="actions">
+      <li>
+        <a href="{{ "/" | htmlBaseUrl }}popular" class="button">Go!</a>
+      </li>
+    </ul>
+  </section>
+  <section>
     <h2>Buy Me A Coffee</h2>
     <p>If the posts and other content provided here helps you learn something new or solve a problem, consider buying me a coffee.
     </p>
@@ -113,15 +122,6 @@ layout: home
           href="https://www.buymeacoffee.com/johnwargo"
           class="button"
           target="_blank">Do it!</a>
-      </li>
-    </ul>
-  </section>
-  <section>
-    <h2>Popular Posts</h2>
-    <p>View the most popular articles based on Google Analytics.</p>
-    <ul class="actions">
-      <li>
-        <a href="{{ "/" | htmlBaseUrl }}popular" class="button">Go!</a>
       </li>
     </ul>
   </section>

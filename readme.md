@@ -31,29 +31,32 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 * [x] https://www.npmjs.com/package/eleventy-plugin-date
 * [x] https://www.npmjs.com/package/eleventy-plugin-youtube-embed
 * [x] Put PWA Book link on top of sidebar
-* [ ] Fix selection of first paragraph in post
 * [ ] https://www.11ty.dev/docs/plugins/image/
 * [ ] Assign correct style to image files
-* [ ] Fix Categories page entry heading and format
+* [ ] Update article lists to use description where its available
+* [ ] Fix Category page entry heading and format
 * [ ] Fix mobile menu and dropdown menu
+* [ ] Fix selection of first paragraph in post
 * [ ] Add Buy Me a Coffee to posts
 * [ ] Next/Previous Post buttons on Post pages
 * [ ] Add post cover image based on category
 * [ ] Copy files folder content over
 * [ ] Add descriptions to all articles, make page to check
-* [ ] Update article lists to use description where its available
-* [ ] Run Link Checker
-* [ ] List View pagination, show in-between pages
-* [ ] Delete unused images
+* [ ] Algolia Search
 * [ ] RSS feed and link in menu
 * [ ] Sitemap (all pages && posts)
+* [ ] List View pagination, show in-between pages
+* [ ] Run Link Checker
+* [ ] Delete unused images
 * [ ] Section - Publications (books, articles, etc. from johnwargobooks.com)
 * [ ] Section - Code projects (from johnwargo.dev)
 * [ ] Section - Related Sites (all of the other sites I maintain)
 * [ ] Section - Sightings
-* [ ] Algolia Search
 * [ ] Statistics page show bar graph of posts/year, and average time between posts
 * [ ] Make professional You tube account and move stuff
+
+## Future Stuff & Enhancements 
+
 * [ ] Anchor Links? https://rhianvanesch.com/posts/2021/02/09/adding-heading-anchor-links-to-an-eleventy-site/
 * [ ] Newsletter sign up
 * [ ] Automatically tweet and mastodon new posts?
