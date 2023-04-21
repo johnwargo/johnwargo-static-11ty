@@ -1,5 +1,5 @@
 # https://javascript.works-hub.com/learn/how-to-create-a-ci-slash-cd-pipeline-using-netlify-and-github-actions-90aeb
-name: "ci-cd pipeline"
+name: "Build Pipeline"
 on: 
   push:
     branches:
@@ -19,6 +19,12 @@ jobs:
       run: npm install     
     - name: Build file
       run: npm run pbuild
+    - name: Commit report
+      run: |
+        git config --global user.name 'John M. Wargo'
+        git config --global user.email 'johnwargo@users.noreply.github.com'
+        git commit -am "Automated Build (GitHub Actions)"
+        git push
       
     # // deploy the application to netlify
     # - name: Deploy production to Netlify
