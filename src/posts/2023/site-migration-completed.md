@@ -1,9 +1,9 @@
 ---
 tags: post
 title: Site Migration Completed
-description: null
+description: Announces the completed migration of this site from Joomla! on FatCow to Eleventy on Netlify.
 date: 2023-04-21
-headerImage: null
+headerImage: 
 categories:
   - Miscellaneous
   - Eleventy

@@ -1,6 +1,6 @@
 ---
 title: Eleventy Site Categories Page
-description: 
+description: Describes a simple solution for adding a generated Categories page to an Eleventy site.
 date: 2023-03-18
 headerImage: 
 categories: [Content Management Systems]

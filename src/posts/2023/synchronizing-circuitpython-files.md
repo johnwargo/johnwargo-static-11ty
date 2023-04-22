@@ -1,6 +1,6 @@
 ---
 title: Synchronizing CircuitPython Files
-description: 
+description: Describes a utility I created to help Circuit Python synchronize project files to a local project folder.
 date: 2023-02-20
 headerImage: 
 categories: [Uncategorised]

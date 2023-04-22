@@ -1,6 +1,6 @@
 ---
 title: Displaying Build Details in an Eleventy Site
-description: 
+description: Describes a utility I created that allows you to easily display build information in an Eleventy site.
 date: 2023-03-15
 headerImage: 
 categories: [Content Management Systems]
