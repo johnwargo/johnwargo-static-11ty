@@ -1,6 +1,7 @@
 ---
 title: About
 layout: generic
+description: About John M. Wargo
 ---
 
 <span class="image right">
