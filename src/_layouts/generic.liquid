@@ -15,30 +15,27 @@ License: pixelarity.com/license
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="{{ "/" | htmlBaseUrl }}assets/css/main.css" />
     <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+    {% include 'icons.html' %}
     {% include 'google-analytics.html' %}
   </head>
 
   <body class="is-preload">
     {% include 'header.html' %}
     <div class="wrapper">
+
       <section class="main">
-        <section>
-          <header>
-            <h2>
-              {{ title }}
-            </h2>
-          </header>
-          {{ content }}
-        </section>
+        <header>
+          <h2>
+            {{ title }}
+          </h2>
+        </header>
+        {{ content }}
       </section>
+
     </div>
 
-    <footer id="footer">
-      {% include 'copyright.html' %}
-    </footer>
-
+    {% include 'footer.html' %}
     {% include 'page-scripts.html' %}
-
   </body>
 
 </html>
