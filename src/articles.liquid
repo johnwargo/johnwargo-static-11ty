@@ -32,7 +32,11 @@ pagination:
         {% endfor %}
       {% endif %}
       <br/>
-      {% excerpt post %}
+      {% if post.data.description %}
+        {{ post.data.description }}
+      {% else %}
+        {% excerpt post %}
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
