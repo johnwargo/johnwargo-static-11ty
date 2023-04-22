@@ -11,4 +11,6 @@ I've been getting a lot of questions and comments about the article series (whic
 
 In the example I've provided with this article series Part 1 and Part 2, I've deliberately selected a base web service that's simple enough to be easily consumed using the capabilities provided by JSR 172. Since the specification (yep, it's not a 'standard' as was pointed out last week) was designed for mobile devices, its designers deliberately selected a limited number of data types it would support thinking that it would reduce the potential load on devices and cover a majority of implementations.
 
+![JSR 172 Types](/images/2009/jsr172-types.jpg)
+
 When I created the service, I created it with the knowledge that the Sun tools for creating the stub program only supported certain data types and I made sure I used them. The problem arises for those of you who want to build BlackBerry applications that consume web services that were not built with mobile users in mind. Let's dig into the detail...
