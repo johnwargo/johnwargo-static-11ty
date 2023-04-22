@@ -1,7 +1,11 @@
 ---
-title: About
 layout: generic
+title: About
 description: About John M. Wargo (and this site).
+categories:
+  - John M. Wargo
+  - John Wargo
+  - johnwargo
 ---
 
 <span class="image right">
