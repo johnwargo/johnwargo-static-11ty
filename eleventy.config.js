@@ -34,6 +34,15 @@ module.exports = eleventyConfig => {
 
 	eleventyConfig.setLibrary("md", markdownLib);
 
+	eleventyConfig.addShortcode("getKeywords", function(categories) {
+		let returnString = "";
+		for (let category in categories) {
+			returnString += categories[category] + ", ";
+		}
+		// Remove the last comma
+		return returnString.slice(0, -2);
+	});
+
 	// From ray camden's blog, first paragraph as excerpt
 	eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
 	function extractExcerpt(post) {
