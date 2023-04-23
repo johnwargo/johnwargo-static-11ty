@@ -39,7 +39,9 @@ Here's the Liquid block I came up with to implement this:
 {% endif %}
 {% endhighlight %}
 
-The first line delivers the traditional 'Page # of #' heading above the buttons. The rest is, I hope, self explanatory. The only real tricky part was determining the delta from the last page to use for comparison purposes. Liquid wouldn't let me do the math I needed in the comparison, so I had to pull the calculation out into a variable assignment:
+The first line inside the conditional delivers the traditional 'Page # of #' heading above the buttons. 
+
+The rest is, I hope, self explanatory. The only real tricky part was determining the delta from the last page to use for comparison purposes. Liquid wouldn't let me do the math I needed in the comparison, so I had to pull the calculation out into a variable assignment:
 
 {% highlight liquid %}
 {% assign endPage = pagination.pages.length | minus: 2 %}
