@@ -1,9 +1,10 @@
 ---
 title: Accurately Calculating Progress in Goodreads
-description: 
+description: I track the books I read in Goodreads, and this post describes a solution I created to deal with an annoying problem with Goodreads page counts and how they differ dramatically from reality. In this case I highlight a web app I created to convert a reader's current page to one adjusted for an inaccurate total page count in Goodreads.
 date: 2022-01-09
 headerImage: 
-categories: [Miscellaneous]
+categories:
+  - Miscellaneous
 tags: post
 ---
 

@@ -1,9 +1,10 @@
 ---
 title: Apache Cordova 4 Programming Site Retired
-description: 
+description: My Apache Cordova 4 Programming book came out years ago and Cordova's moved a long way from the version 4 covered in the book. In this post, I announce that I retired the book's landing page.
 date: 2022-02-09
 headerImage: 
-categories: [Mobile Development]
+categories:
+  - Mobile Development
 tags: post
 ---
 

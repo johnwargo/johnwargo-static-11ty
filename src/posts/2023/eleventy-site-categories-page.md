@@ -1,9 +1,11 @@
 ---
 title: Eleventy Site Categories Page
-description: Describes a simple solution for adding a generated Categories page to an Eleventy site.
+description: While I worked with Jekyll, I struggled figuring out a way to add a Categories page to a site. In this post, I describe a solution I created for Eleventy that does this.
 date: 2023-03-18
 headerImage: 
-categories: [Content Management Systems]
+categories:
+    - Static Site Generators
+    - Eleventy
 tags: post
 ---
 

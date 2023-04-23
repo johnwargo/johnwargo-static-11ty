@@ -1,9 +1,11 @@
 ---
 title: Joomla Article Conversion to Markdown
-description: 
+description: As I prepared to migrate this site from Joomla! 3 to something built on a Static Site Generator, I created a utility to help me migrate the site data (database-driven) to individual markdown files for each article. This post describes that utility.
 date: 2022-11-23
 headerImage: 
-categories: [Miscellaneous]
+categories:
+  - Content Management Systems
+  - Static Site Generators
 tags: post
 ---
 
