@@ -45,4 +45,6 @@ The first line delivers the traditional 'Page # of #' heading above the buttons.
 {% assign endPage = pagination.pages.length | minus: 2 %}
 {% endhighlight %}
 
+Since I used this block in two places in my site, I moved the code to an include and referenced it from both pages that need it.
+
 I hope this helps you with your Eleventy projects.
