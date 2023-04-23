@@ -34,7 +34,7 @@ module.exports = eleventyConfig => {
 
 	eleventyConfig.setLibrary("md", markdownLib);
 
-	eleventyConfig.addShortcode("getKeywords", function(categories) {
+	eleventyConfig.addShortcode("getKeywords", function (categories) {
 		let returnString = "";
 		for (let category in categories) {
 			returnString += categories[category] + ", ";
@@ -93,19 +93,33 @@ module.exports = eleventyConfig => {
 	});
 
 	// Copy the data files
-	eleventyConfig.addPassthroughCopy("src/_data/*");
+	// eleventyConfig.addPassthroughCopy('src/_data/*');
+	// eleventyConfig.addPassthroughCopy("src/images/*");
+	// eleventyConfig.addPassthroughCopy("src/images/avatar/*");
+	// eleventyConfig.addPassthroughCopy("src/images/common/*");
+	// eleventyConfig.addPassthroughCopy("src/images/covers/*");
+
 	// https://www.lenesaile.com/en/blog/organizing-the-eleventy-config-file/
 	// Copy the favicon files to the root folder
 	eleventyConfig.addPassthroughCopy({ 'src/favicon/*': '/' });
-	["src/assets/css/", "src/assets/js/", "src/assets/sass/", "src/assets/webfonts/"].forEach((path) => {
+	// copy the rest of the files
+	[
+		// Data files
+		"src/_data/*",
+		// Template files
+		"src/assets/css/",
+		"src/assets/js/",
+		"src/assets/sass/",
+		"src/assets/webfonts/",
+		// Images folders
+		"src/images/*",
+		"src/images/avatar/*",
+		"src/images/common/*",
+		"src/images/covers/*"
+	].forEach((path) => {
 		eleventyConfig.addPassthroughCopy(path);
 	});
 
-	// Images folders
-	eleventyConfig.addPassthroughCopy("src/images/*");
-	eleventyConfig.addPassthroughCopy("src/images/avatar/*");
-	eleventyConfig.addPassthroughCopy("src/images/common/*");
-	eleventyConfig.addPassthroughCopy("src/images/covers/*");
 	// Assumes cascading folders per year
 	let thisYear = new Date().getFullYear();
 	for (let i = 2009; i <= thisYear; i++) {
