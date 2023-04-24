@@ -1,9 +1,10 @@
 ---
 title: Site Upgrade Coming
-description: 
+description: This site ran on Joomla! for more that ten years and it became time to migrate the site to something else. This post announces the planned migration. 
 date: 2022-11-11
 headerImage: 
-categories: [Miscellaneous]
+categories:
+  - Content Management Systems
 tags: post
 ---
 
