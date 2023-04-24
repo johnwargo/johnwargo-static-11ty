@@ -3,7 +3,9 @@ title: What Were They Thinking 6
 description: 
 date: 2010-03-17
 headerImage: 
-categories: [Mobile Development]
+categories: 
+  - Mobile Development
+  - What Were They Thinking
 tags: post
 ---
 

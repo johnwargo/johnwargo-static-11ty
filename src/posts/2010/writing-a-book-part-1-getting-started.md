@@ -46,4 +46,13 @@ Synchronizing the files ended up creating a huge problem for me as I adjusted th
 
 Another thing I wanted to do was make a single file out of all of the individual chapter files. I wanted this file so I could easily look at the complete page count and occasionally print out a full copy of the manuscript so I could stare at it in awe. What I did to accomplish this was use Adobe Acrobat Professional to create a complete PDF out of each chapter file and use Acrobat's 'Combine' function to merge multiple chapter files into one complete manuscript. I'd written a program to do (in Delphi) a very long time ago, but for some reason the program wasn't working on Vista 64, so I had to use the tools available from Adobe. Unfortunately with my home grown program, I could save the file list with the project and easily recreate the file by launching the program and clicking a button. For some bizarre reason, Acrobat doesn't allow you to do that, so you have to select all of the files every time – I wish it worked differently, but Adobe hasn't been asking me for my opinion.
 
-OK, that's about it – that's all I have to tell you now. I will be writing subsequent articles that dig deeper into the topics I described above. Look for other  articles in the series.
+OK, that's about it – that's all I have to tell you now. I will be writing subsequent articles that dig deeper into the topics I described above.
+
+*** 
+
+Look for other articles in the series.
+
+* [Writing a Book, Part 1 – Getting Started](/posts/2010/writing-a-book-part-1-getting-started/)
+* [Writing a Book, Part 2 – Batch Archiving](/posts/2010/writing-a-book-part-2-batch-archiving/)
+* [Writing a Book, Part 3 – Synchronizing Files](/posts/2010/writing-a-book-part-3-synchronizing-files/)
+* [Writing a Book, Part 4 – Fixing File Synchronization Errors](/posts/2010/writing-a-book-part-4-fixing-file-synchronization-errors/)

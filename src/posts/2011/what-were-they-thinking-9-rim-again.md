@@ -3,7 +3,9 @@ title: What Were They Thinking 9 (RIM Again)
 description: 
 date: 2011-07-13
 headerImage: 
-categories: [BlackBerry]
+categories:
+  - BlackBerry
+  - What Were They Thinking
 tags: post
 ---
 

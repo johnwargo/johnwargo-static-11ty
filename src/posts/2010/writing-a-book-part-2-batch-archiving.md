@@ -83,4 +83,11 @@ Notice the difference between the file extensions on many of the backups. On my 
 
 After the job was all setup, I created a shortcut on my desktop pointing to the backup job. To perform a backup, I merely double-click on the shortcut and the backup launches, runs and closes when it's all done. The first time you try this, WinZip will ask you whether you wish to execute or edit the job when it's opened; be sure to tell the program to execute it and you're all set. You'll have a quick and easy way to backup any project so you have access to all previous versions.
 
+*** 
+
 Look for other articles in the series.
+
+* [Writing a Book, Part 1 – Getting Started](/posts/2010/writing-a-book-part-1-getting-started/)
+* [Writing a Book, Part 2 – Batch Archiving](/posts/2010/writing-a-book-part-2-batch-archiving/)
+* [Writing a Book, Part 3 – Synchronizing Files](/posts/2010/writing-a-book-part-3-synchronizing-files/)
+* [Writing a Book, Part 4 – Fixing File Synchronization Errors](/posts/2010/writing-a-book-part-4-fixing-file-synchronization-errors/)

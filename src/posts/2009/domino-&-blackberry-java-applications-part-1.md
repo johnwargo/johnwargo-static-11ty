@@ -9,8 +9,6 @@ tags: post
 
 ## Introduction
 
-**Note:** removed obsolete attachments November 11, 2022
-
 When I worked at Research In Motion and after, I've presented at [Lotusphere](https://www.lotusphere.com){target="_blank"} and the [View Domino Developer Conference](https://www.lotusdeveloper2010.com/){target="_blank"} on how to access Domino applications from BlackBerry devices.
 
 Of course, the lead approach was to use the browser to access mobile friendly Domino applications. It's not a very exciting demo though – you take a domino database and scrunch it down so it fits the smaller screen and uses rich media sparingly.
@@ -298,3 +296,10 @@ End Class
 ## In the Next Installment
 
 In the next installment in this series I'll demonstrate how to use the Sun Java Wireless Toolkit to generate the Java stub code needed to call this service from a Java application. Stay tuned!
+
+Here are links to all of the articles in the series:
+
+* [Domino & BlackBerry Java Applications - Part 1](/posts/2009/domino-&-blackberry-java-applications-part-1/)
+* [Domino & BlackBerry Java Applications - Part 2](/posts/2009/domino-&-blackberry-java-applications-part-2/)
+* [Domino & BlackBerry Java Applications Part 2.5](/posts/2009/domino-&-blackberry-java-applications-part-2.5/)
+* [Domino & BlackBerry Java Applications Part 3](/posts/2009/domino-&-blackberry-java-applications-part-3/)

@@ -3,7 +3,9 @@ title: What Were They Thinking 13 – VZ Navigator
 description: 
 date: 2013-04-30
 headerImage: 
-categories: [Mobile Development]
+categories: 
+  - Mobile Development
+  - What Were They Thinking
 tags: post
 ---
 

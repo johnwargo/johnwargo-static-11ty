@@ -9,8 +9,6 @@ tags: post
 
 ## Introduction
 
-**Note:** removed obsolete attachments November 11, 2022
-
 In the previous installment in this series, I showed how to build a simple Domino Web Service that performed a lookup against a contact database built from the standard public Domino Directory template (pubnames.ntf)
 
 ## First a Little Background
@@ -419,4 +417,9 @@ I'm not going to explain everything that's happening in the code – the easiest
 
 In the next installment in this series I'll demonstrate how to write the Java application that talks to the Domino Web Service.
 
-NOTE: After publishing this article I received so many questions that I added a [part 2.5](index.php?option=com_content&view=article&id=47:dbja2&catid=2&Itemid=4) article that describes some of the limitations of the stub generator. Be sure to give it a read before continuing on to [part 3](index.php?option=com_content&view=article&id=67:bbdja3&catid=2&Itemid=4).
+Here are links to all of the articles in the series:
+
+* [Domino & BlackBerry Java Applications - Part 1](/posts/2009/domino-&-blackberry-java-applications-part-1/)
+* [Domino & BlackBerry Java Applications - Part 2](/posts/2009/domino-&-blackberry-java-applications-part-2/)
+* [Domino & BlackBerry Java Applications Part 2.5](/posts/2009/domino-&-blackberry-java-applications-part-2.5/)
+* [Domino & BlackBerry Java Applications Part 3](/posts/2009/domino-&-blackberry-java-applications-part-3/)

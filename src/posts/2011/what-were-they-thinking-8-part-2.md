@@ -3,7 +3,9 @@ title: What Were they Thinking 8 (part 2)
 description: 
 date: 2011-05-06
 headerImage: 
-categories: [Mobile Development]
+categories: 
+  - Mobile Development
+  - What Were They Thinking
 tags: post
 ---
 

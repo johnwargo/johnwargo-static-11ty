@@ -60,6 +60,11 @@ Use the following codes to show Liquid template language in a post
 
 {% endhighlight %}
 ```
+### Debug Mode
+
+```shell
+set DEBUG=Eleventy* & npx @11ty/eleventy
+```
 
 ### Links to Book cover images:
 

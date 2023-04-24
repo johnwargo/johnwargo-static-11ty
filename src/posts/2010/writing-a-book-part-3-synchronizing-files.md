@@ -71,3 +71,12 @@ With all of the settings defined for the job, you're prompted to provide a name 
 Figure 10
 
 That's it for this installment, be sure to check out the other articles in the series.
+
+*** 
+
+Look for other articles in the series.
+
+* [Writing a Book, Part 1 – Getting Started](/posts/2010/writing-a-book-part-1-getting-started/)
+* [Writing a Book, Part 2 – Batch Archiving](/posts/2010/writing-a-book-part-2-batch-archiving/)
+* [Writing a Book, Part 3 – Synchronizing Files](/posts/2010/writing-a-book-part-3-synchronizing-files/)
+* [Writing a Book, Part 4 – Fixing File Synchronization Errors](/posts/2010/writing-a-book-part-4-fixing-file-synchronization-errors/)

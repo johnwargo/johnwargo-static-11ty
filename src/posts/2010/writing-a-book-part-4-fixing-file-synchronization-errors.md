@@ -83,4 +83,11 @@ JMW01_05.jpg           5/20/2010 7:54:33 AM    71 kb
 
 Problem solved! I'd only selected the manuscript files, not the local zip archive I would send to my editor or the backup Word created. That's why some of the files have different time stamps. All of the manuscript files though are set with the same time stamp which was what I needed to solve this problem.
 
+*** 
+
 Look for other articles in the series.
+
+* [Writing a Book, Part 1 – Getting Started](/posts/2010/writing-a-book-part-1-getting-started/)
+* [Writing a Book, Part 2 – Batch Archiving](/posts/2010/writing-a-book-part-2-batch-archiving/)
+* [Writing a Book, Part 3 – Synchronizing Files](/posts/2010/writing-a-book-part-3-synchronizing-files/)
+* [Writing a Book, Part 4 – Fixing File Synchronization Errors](/posts/2010/writing-a-book-part-4-fixing-file-synchronization-errors/)

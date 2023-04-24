@@ -14,3 +14,12 @@ In the example I've provided with this article series Part 1 and Part 2, I've de
 ![JSR 172 Types](/images/2009/jsr172-types.jpg)
 
 When I created the service, I created it with the knowledge that the Sun tools for creating the stub program only supported certain data types and I made sure I used them. The problem arises for those of you who want to build BlackBerry applications that consume web services that were not built with mobile users in mind. Let's dig into the detail...
+
+*** 
+
+Here are links to all of the articles in the series:
+
+* [Domino & BlackBerry Java Applications - Part 1](/posts/2009/domino-&-blackberry-java-applications-part-1/)
+* [Domino & BlackBerry Java Applications - Part 2](/posts/2009/domino-&-blackberry-java-applications-part-2/)
+* [Domino & BlackBerry Java Applications Part 2.5](/posts/2009/domino-&-blackberry-java-applications-part-2.5/)
+* [Domino & BlackBerry Java Applications Part 3](/posts/2009/domino-&-blackberry-java-applications-part-3/)

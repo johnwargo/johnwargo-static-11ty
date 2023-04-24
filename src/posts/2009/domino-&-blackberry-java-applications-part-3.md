@@ -421,4 +421,11 @@ You'll probably also want to have the application clear the contact list when th
 
 ## In the Next Installment
 
-Well, I wasn't planning on another installment – this is supposed to be the end of this article series.  I've got a long list of topics I want to cover, but let me know what else you'd like me to write about.
+Well, I wasn't planning on another installment – this is supposed to be the end of this article series.
+
+Here are links to all of the articles in the series:
+
+* [Domino & BlackBerry Java Applications - Part 1](/posts/2009/domino-&-blackberry-java-applications-part-1/)
+* [Domino & BlackBerry Java Applications - Part 2](/posts/2009/domino-&-blackberry-java-applications-part-2/)
+* [Domino & BlackBerry Java Applications Part 2.5](/posts/2009/domino-&-blackberry-java-applications-part-2.5/)
+* [Domino & BlackBerry Java Applications Part 3](/posts/2009/domino-&-blackberry-java-applications-part-3/)
