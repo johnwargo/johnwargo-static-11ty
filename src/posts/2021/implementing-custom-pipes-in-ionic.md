@@ -1,6 +1,6 @@
 ---
 title: Implementing Custom Pipes in Ionic
-description: 
+description: Pipes are a really cool feature in Angular and Ionic and I had an opportunity to build one of my own and this post describes what I did and points you to the code.
 date: 2021-07-19
 headerImage: 
 categories: [Web Development]

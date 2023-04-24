@@ -1,6 +1,6 @@
 ---
 title: Starting a New Job Monday
-description: 
+description: After being out of work since September, I finally found a new job and this is my announcement that I finally found work.
 date: 2021-04-01
 headerImage: 
 categories: [Miscellaneous]

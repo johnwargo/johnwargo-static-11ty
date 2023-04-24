@@ -1,6 +1,6 @@
 ---
 title: Moddable, Windows, & Visual Studio Code
-description: 
+description: I spent some time recently setting up a development environment for the Moddable platform (JavaScript microcontrollers). Since I'm on Windows and the docs were a little confusing, I setup my environment then wrote about it here so others could learn how to configure their environments.
 date: 2021-05-20
 headerImage: 
 categories: [Internet of Things (IoT)]

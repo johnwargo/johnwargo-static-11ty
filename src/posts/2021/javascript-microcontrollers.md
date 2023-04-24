@@ -1,6 +1,6 @@
 ---
 title: JavaScript Microcontrollers
-description: 
+description: I've been working with microcontrollers for a long time and there is a new trend around JavaScript-based microcontrollers (my favorite) and I wrote this post to introduce some of the ones I'm playing around with.
 date: 2021-05-14
 headerImage: 
 categories: [Internet of Things (IoT)]

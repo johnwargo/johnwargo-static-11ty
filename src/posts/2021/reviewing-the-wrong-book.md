@@ -1,6 +1,6 @@
 ---
 title: Reviewing the Wrong Book
-description: 
+description: I read a review of one of my books on Amazon today and I'm always surprised by what different people want from books. In this case I had to respond because it felt like the reviewer wasn't reviewing my book.
 date: 2021-04-20
 headerImage: 
 categories: [Miscellaneous]

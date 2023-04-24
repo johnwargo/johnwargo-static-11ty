@@ -1,6 +1,6 @@
 ---
 title: Simplifying Moddable Deployments
-description: 
+description: Moddable is one of the JavaScript based microcontroller I've been working with lately and these guys are really serious about their JavaScript. I encountered some inefficiencies with their CLI tooling so I built a wrapper that simplifies its operation.
 date: 2021-05-21
 headerImage: 
 categories: [Internet of Things (IoT)]

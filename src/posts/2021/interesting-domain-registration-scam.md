@@ -1,6 +1,6 @@
 ---
 title: Interesting Domain Registration Scam
-description: 
+description: I'm always amused by the random scams I get from time to time. and a long time ago I started documenting them here. This one's about a site contact form submission letting me know my domain registration would be terminated soon. So scary. 
 date: 2021-01-12
 headerImage: 
 categories: [Miscellaneous]

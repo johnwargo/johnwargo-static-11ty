@@ -1,6 +1,6 @@
 ---
 title: Firebase Functions Deploy Helper
-description: 
+description: Between jobs, I spent most of my free time working for a startup building a sales automation tool in the cloud. I built the application on Firebase and encountered some problems deploying my Functions project reliably. To fix this, I created a utility that allows me to batch deployment updates to Firebase.
 date: 2021-04-03
 headerImage: 
 categories: [Miscellaneous]

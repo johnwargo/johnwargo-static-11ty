@@ -1,6 +1,6 @@
 ---
 title: Talking Myself Out of a Job
-description: 
+description: I had some interesting experiences looking for a new job this time. My favorite one was an interview with an Engineering VP at one of the largest software companies in the world. He took a completely different approach in reading up about me before the interview and he made me completely rethink what kind of job I was looking for.
 date: 2021-04-02
 headerImage: 
 categories: [Miscellaneous]
