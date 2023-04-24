@@ -4,7 +4,7 @@ description: I leveraged some old code to add the ability to capture build detai
 date: 2023-03-15
 headerImage: 
 categories: 
-    - Elevent
+    - Eleventy
     - Static Site Generators
 tags: post
 ---

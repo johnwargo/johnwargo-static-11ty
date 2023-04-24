@@ -11,7 +11,7 @@
   },
   {
     "category": "Eleventy",
-    "count": 1,
+    "count": 5,
     "description": "Articles related to the Eleventy Static Site Generator"
   },
   {
@@ -31,22 +31,22 @@
   },
   {
     "category": "Miscellaneous",
-    "count": 138,
+    "count": 136,
     "description": "Posts that didn't fit in any other categories."
   },
   {
     "category": "Mobile",
-    "count": 31,
+    "count": 30,
     "description": "Posts related to mobile phones and mobility in general."
   },
   {
     "category": "Mobile Development",
-    "count": 94,
+    "count": 95,
     "description": "Posts related to mobile app development."
   },
   {
     "category": "Static Site Generators",
-    "count": 1,
+    "count": 5,
     "description": "Anything related to Static Site Generators."
   },
   {
@@ -61,7 +61,12 @@
   },
   {
     "category": "Web Development",
-    "count": 6,
+    "count": 5,
     "description": "Posts related to web development topics, development tools, strategies, etc."
+  },
+  {
+    "category": "What Were They Thinking",
+    "count": 15,
+    "description": ""
   }
 ]
