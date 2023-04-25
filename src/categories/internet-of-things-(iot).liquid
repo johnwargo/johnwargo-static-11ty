@@ -5,13 +5,13 @@
     "data": "collections.post",
     "size": 20,
     "alias": "catposts",
-    "before": function(paginationData, fullData){ return paginationData.filter((item) => item.data.categories.includes('Mobile Development'));}
+    "before": function(paginationData, fullData){ return paginationData.filter((item) => item.data.categories.includes('Internet of Things (IoT)'));}
   },
-  "category": "Mobile Development",
+  "category": "Internet of Things (IoT)",
   "eleventyComputed": {
     "title": "Category: {{ category }}"
   },
-  "permalink": "category/{{ category | slugify }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
+  "permalink": "categories/{{ category | slugify }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
 }
 ---
 
