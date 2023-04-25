@@ -17,7 +17,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 module.exports = eleventyConfig => {
 
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-	eleventyConfig.addPlugin(embedYouTube);
+	eleventyConfig.addPlugin(embedYouTube);``
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(syntaxHighlight);
@@ -90,7 +90,7 @@ module.exports = eleventyConfig => {
 	});
 
 	eleventyConfig.addFilter("commaize", function (num) {
-		return num.toLocaleString("us-en");
+		return num.toLocaleString("en-us");
 	});
 
 	// https://www.lenesaile.com/en/blog/organizing-the-eleventy-config-file/
