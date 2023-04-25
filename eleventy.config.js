@@ -1,11 +1,14 @@
-const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
+const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
+const Image = require('@11ty/eleventy-img');
+const path = require('path');
 // https://github.com/11ty/eleventy/issues/2301
-const markdownIt = require("markdown-it");
-const markdownItAttrs = require("markdown-it-attrs");
-const pluginDate = require("eleventy-plugin-date");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const embedYouTube = require("eleventy-plugin-youtube-embed");
+const markdownIt = require('markdown-it');
+const markdownItAttrs = require('markdown-it-attrs');
+const outdent = require('outdent');
+const pluginDate = require('eleventy-plugin-date');
+const pluginRss = require('@11ty/eleventy-plugin-rss');
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+const embedYouTube = require('eleventy-plugin-youtube-embed');
 
 // Transforms
 // https://learneleventyfromscratch.com/lesson/31.html#minifying-html-output
@@ -17,7 +20,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 module.exports = eleventyConfig => {
 
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-	eleventyConfig.addPlugin(embedYouTube);``
+	eleventyConfig.addPlugin(embedYouTube); ``
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(syntaxHighlight);
@@ -59,6 +62,85 @@ module.exports = eleventyConfig => {
 		return post.templateContent;
 	}
 
+	// ==============================================
+	// Image Shortcode
+	// ==============================================
+	// https://www.aleksandrhovhannisyan.com/blog/eleventy-image-plugin/
+
+	/** Maps a config of attribute-value pairs to an HTML string
+ * representing those same attribute-value pairs.
+ */
+	const stringifyAttributes = (attributeMap) => {
+		return Object.entries(attributeMap)
+			.map(([attribute, value]) => {
+				if (typeof value === 'undefined') return '';
+				return `${attribute}="${value}"`;
+			})
+			.join(' ');
+	};
+
+	const imageShortcode = async (
+		src,
+		alt,
+		className = undefined,
+		widths = [400, 800, 1280],
+		formats = ['webp', 'jpeg'],
+		sizes = '100vw'
+	) => {
+		const imageMetadata = await Image(src, {
+			widths: [...widths, null],
+			formats: [...formats, null],
+			outputDir: '_site/img',
+			urlPath: '/img',
+		});
+
+		const sourceHtmlString = Object.values(imageMetadata)
+			// Map each format to the source HTML markup
+			.map((images) => {
+				// The first entry is representative of all the others
+				// since they each have the same shape
+				const { sourceType } = images[0];
+				// Use our util from earlier to make our lives easier
+				const sourceAttributes = stringifyAttributes({
+					type: sourceType,
+					// srcset needs to be a comma-separated attribute
+					srcset: images.map((image) => image.srcset).join(', '),
+					sizes,
+				});
+				// Return one <source> per format
+				return `<source ${sourceAttributes}>`;
+			})
+			.join('\n');
+
+		const getLargestImage = (format) => {
+			const images = imageMetadata[format];
+			return images[images.length - 1];
+		}
+
+		const largestUnoptimizedImg = getLargestImage(formats[0]);
+
+		const imgAttributes = stringifyAttributes({
+			src: largestUnoptimizedImg.url,
+			width: largestUnoptimizedImg.width,
+			height: largestUnoptimizedImg.height,
+			alt,
+			loading: 'lazy',
+			decoding: 'async',
+		});
+
+		const imgHtmlString = `<img ${imgAttributes}>`;
+
+		const pictureAttributes = stringifyAttributes({
+			class: className,
+		});
+		
+		const picture = `<picture ${pictureAttributes}> ${sourceHtmlString} ${imgHtmlString}</picture>`;
+
+		return outdent`${picture}`;
+	};
+	eleventyConfig.addShortcode('image', imageShortcode);
+	// ==============================================
+
 	eleventyConfig.addCollection("categories", function (collectionApi) {
 		let categories = new Set();
 		let posts = collectionApi.getFilteredByTag('post');
@@ -69,7 +151,7 @@ module.exports = eleventyConfig => {
 		return Array.from(categories);
 	});
 
-	
+
 	eleventyConfig.addCollection("topten", function (collectionApi) {
 		return [];
 	});
