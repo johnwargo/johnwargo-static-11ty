@@ -3,60 +3,60 @@
     "name": "Acme Dynamite",
     "url": "https://acmedynamite.com",
     "description": "Many, many years ago I was sitting around one night and wondered if anyone ever registered the Acme Dynamite domain. A quick check proved that it was available, so I registered it. I haven't done anything with the site, but I'm pretty sure I'll eventually setup john@acmedynamite.com as one of my personal email addresses.",
-    "image": "/images/sites/acmedynamite.png"
+    "image": "/images/sites/acme-dynamite.png"
   },
   {
     "name": "A World Without Apps",
     "url": "https://aworldwithoutapps.com",
     "description": "Another really old site for me. When I was knee deep in mobile development I realized we were approaching a world without apps, where voice interaction would replace applications. It turns out I was right, especially with all of the AI stuff that's happening now, but it's been quite a while since I've posted anything to the site.",
-    "image": "/images/sites/worldwithoutapps.png"
+    "image": "/images/sites/world-without-apps.png"
   },
   {
     "name": "Cosplayer's Workshop",
     "url": "https://cosplayerworkshop.com",
     "description": "My daughter is an accomplished Cosplayer and she's taken over my workshop with her cosplay projects. One day I went looking for a domain I could use to publish a site where I publish articles about the the tools and stuff I provide her to help her with her projects. I quickly found this domain and built my first Eleventy site there. ",
-    "image": "/images/sites/cosplayersworkshop.png"
+    "image": "/images/sites/cosplayer-workshop.png"
   },
   {
     "name": "Fumbly Diddle Software",
     "url": "https://fumblydiddle.com",
     "description": "I have several mobile apps in the Android and Apple App Stores and I was looking for an interesting name for my app software company. Reading a very old Poul Anderson novel (from the 1950's) I came across the term 'fumbly diddling around' and the name for my software company was born.",
-    "image": "/images/sites/fumblydiddle.com"
+    "image": "/images/sites/fumbly-diddle.com"
   },
   {
     "name": "Fumbly Stuff, LLC",
     "url": "https://fumblystuff.com",
-    "description": "During the pandemic, I started work on some hardware projects that resulted in several products I plan on kickstarting in fall of 2023. I named the company as a variant of the Fumbly Diddle commpany name, this particular organization is a registered LLC in North Carrolina.",
-    "image": "/images/sites/fumblystuff.png"
+    "description": "During the pandemic, I started work on some hardware projects that resulted in several products I plan on kickstarting in fall of 2023. I named the company as a variant of the Fumbly Diddle company name, this particular organization is a registered LLC in North Carolina.",
+    "image": "/images/sites/fumbly-stuff.png"
   },
   {
     "name": "John Wargo Books",
     "url": "https://johnwargobooks.com",
     "description": "About the time I finished my 4th book or so, I decided to create a web site that lists all of my books, magazine articles, and other published content. Eventually, I'll migrate all of this site's content into this property.",
-    "image": "/images/sites/johnwargobooks.png"
+    "image": "/images/sites/johnwargo-books.png"
   },
   {
     "name": "John Wargo Code",
     "url": "https://johnwargo.io",
     "description": "Over the last 30 years or so I've written a lot of code. As soon as I had a solid catalog of projects published to [GitHub](https://github.com/johnwargo), I created this site to give me a place to publish descriptions of the different projects and group them together in an organized way.",
-    "image": "/images/sites/johnwargoio.png"
+    "image": "/images/sites/johnwargo-io.png"
   },
   {
     "name": "McNelly SoftWorks, LLC",
     "url": "https://mcnellysoftworks.com",
     "description": "Back in the 1980's, when I was in college, I started a software company called McNelly SoftWorks and copyrighted all of my code under that company name. Starting in the 2000's I published several commercial software products under that name and eventually registered the company as an Ohio LLC. I even published my first book there as well.",
-    "image": "/images/sites/mcnellysoftworks.png"
+    "image": "/images/sites/mcnelly-softworks.png"
   },
   {
     "name": "Random Dev Errors",
     "url": "https://randomerrors.dev",
     "description": "Over the years I regularly encounter errors in my development work that takes me a long time to sort out.  I started this site to document those errors and the solutions I found for them.",
-    "image": "/images/sites/randomerrors.png"
+    "image": "/images/sites/random-errors.png"
   },
   {
     "name": "Time Slicer",
     "url": "https://timeslicer.app",
     "description": "This is the landing page for my first mobile app: Time Slicer. Its essentially a stop watch with categories, it lets you time allocated across different categories. I created the app for a variety of use cases such as tracking the time allocated to different topics in a new program, or tracking time spent on different tasks in a usability study.",
-    "image": "/images/sites/timeslicer.png"
+    "image": "/images/sites/time-slicer.png"
   }
 ]
