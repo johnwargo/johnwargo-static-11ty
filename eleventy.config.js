@@ -93,13 +93,6 @@ module.exports = eleventyConfig => {
 		return num.toLocaleString("us-en");
 	});
 
-	// Copy the data files
-	// eleventyConfig.addPassthroughCopy('src/_data/*');
-	// eleventyConfig.addPassthroughCopy("src/images/*");
-	// eleventyConfig.addPassthroughCopy("src/images/avatar/*");
-	// eleventyConfig.addPassthroughCopy("src/images/common/*");
-	// eleventyConfig.addPassthroughCopy("src/images/covers/*");
-
 	// https://www.lenesaile.com/en/blog/organizing-the-eleventy-config-file/
 	// Copy the favicon files to the root folder
 	eleventyConfig.addPassthroughCopy({ 'src/favicon/*': '/' });
