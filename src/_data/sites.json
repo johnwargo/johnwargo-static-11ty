@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "name": "John Wargo Books",
+    "url": "https://johnwargobooks.com",
+    "description": "",
+    "image": "/images/sites/johnwargobooks.png"
+  },{
+    "name": "John Wargo Code",
+    "url": "https://johnwargo.io",
+    "description": "",
+    "image": "/images/sites/johnwargoio.png"
+  }, {
+    "name": "Cosplayer's Workshop",
+    "url": "https://cosplayerworkshop.com",
+    "description": "",
+    "image": "/images/sites/cosplayersworkshop.png"
+  }, {
+    "name": "Random Dev Errors",
+    "url": "https://randomerrors.dev",
+    "description": "",
+    "image": "/images/sites/randomerrors.png"
+  },{
+    "name": "McNelly SoftWorks, LLC",
+    "url": "https://mcnellysoftworks.com",
+    "description": "",
+    "image": "/images/sites/mcnellysoftworks.png"
+  },{
+    "name": "Fumbly Stuff, LLC",
+    "url": "https://fumblystuff.com",
+    "description": "",
+    "image": "/images/sites/fumblystuff.png"
+  },{
+    "name": "Fumbly Diddle Software",
+    "url": "https://fumblydiddle.com",
+    "description": "",
+    "image": "/images/sites/fumblydiddle.com"
+  },{
+    "name": "Acme Dynamite",
+    "url": "https://acmedynamite.com",
+    "description": "",
+    "image": "/images/sites/acmedynamite.png"
+  },{
+    "name": "A World Without Apps",
+    "url": "https://aworldwithoutapps.com",
+    "description": "",
+    "image": "/images/sites/worldwithoutapps.png"
+  }, {
+    "name": "Time Slicer",
+    "url": "https://timeslicer.app",
+    "description": "",
+    "image": "/images/sites/timeslicer.png"
+  }
+]

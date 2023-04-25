@@ -116,7 +116,8 @@ module.exports = eleventyConfig => {
 		"src/images/*",
 		"src/images/avatar/*",
 		"src/images/common/*",
-		"src/images/covers/*"
+		"src/images/covers/*",
+		"src/images/sites/*"
 	].forEach((path) => {
 		eleventyConfig.addPassthroughCopy(path);
 	});
