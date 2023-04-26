@@ -11,11 +11,11 @@ eleventyComputed:
 permalink: "categories/{{ category | slugify }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
 ---
 
-{{ description }}
-
 {% include 'pagination-count.html' %}
 
-<p>All posts for a the {{ category }} category, in reverse chronological order.</p>
+{{ description }}
+
+<p>All posts for category, in reverse chronological order.</p>
 
 <ul class="posts">
   {% for post in catposts reversed %}
