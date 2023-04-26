@@ -12,7 +12,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "eleventy --serve",
     "build": "eleventy",
-    "pbuild": "gen-build-info src/_data && 11ty-cat-pages && eleventy"
+    "pbuild": "gen-build-info src/_data && 11ty-cat-pages && eleventy",
+    "pub": "zx pub.mjs"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
