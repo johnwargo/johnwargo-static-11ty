@@ -2,6 +2,7 @@
   "name": "John M. Wargo",
   "short_name": "johnwargo",
   "description": "Tech Tidbits & Stuff from John Wargo",
+  "display": "standalone",
   "icons": [
     {
       "src": "/android-icon-36x36.png",
