@@ -1,6 +1,6 @@
 ---
 title: Automating Creating Flutter App Project Folders
-description: 
+description: I recently started working in earnest in Flutter. I poked and prodded at it for a while, but I finally worked through a couple of books and articles and have a good feel for the framework. This article describes a little command-line utility I created to automatically setup a Flutter project folder structure.
 date: 2019-12-06
 headerImage: 
 categories: [Miscellaneous]

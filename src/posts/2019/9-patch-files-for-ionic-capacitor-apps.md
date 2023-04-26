@@ -1,6 +1,6 @@
 ---
 title: 9-Patch Files for Ionic Capacitor Apps
-description: 
+description: I wanted to build a 9-patch icon for an Android app I was building and found an article by Josh Morony that attempted to describe how to do it. After finally figuring it out, I wrote this article to fill in some of the missing or unclear details in Josh's article.
 date: 2019-11-13
 headerImage: 
 categories: [Mobile Development]
