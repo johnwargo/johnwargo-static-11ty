@@ -11,7 +11,7 @@ console.log('\nStarting project publish...');
 // Check the command line arguments to see if we should increment the version
 if (process.argv.includes('-i')) {
   console.log('\nIncrementing package version');
-  gitUpdate('Incrementing package version');
+  await gitUpdate('Incrementing package version');
   await $`npm version patch`;
 } else {
   console.log('Skipping package version increment');
