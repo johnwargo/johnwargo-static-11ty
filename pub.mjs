@@ -1,6 +1,7 @@
 #!/usr/bin/env zx
 
 async function gitUpdate(msg){
+  console.log();
   await $`git add -A`;
   await $`git commit -m ${msg}`;
   await $`git push`;
