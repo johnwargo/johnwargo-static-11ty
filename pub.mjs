@@ -31,4 +31,4 @@ await $`11ty-cat-pages`;
 console.log('\nBuilding site');
 await $`eleventy`;
 
-gitUpdate(`Publishing site ${new Date().toISOString()}`);
+gitUpdate(`Update ${new Date().toLocaleString()}`);
