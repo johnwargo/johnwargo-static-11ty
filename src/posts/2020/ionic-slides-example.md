@@ -1,6 +1,6 @@
 ---
 title: Ionic Slides Example
-description: 
+description: After struggling a bit to understand how to use the Ionic Slides component, I finally figured it out and published this post describing the solution and pointing the reader to a full sample app using Slides on my GitHub account.
 date: 2020-05-18
 headerImage: 
 categories: [Mobile Development]

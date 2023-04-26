@@ -1,6 +1,6 @@
 ---
 title: Useless Machines
-description: 
+description: I always wanted a useless machine and I finally built one. This post describes the kit I used and shows the final result.
 date: 2020-07-15
 headerImage: 
 categories: [Miscellaneous]

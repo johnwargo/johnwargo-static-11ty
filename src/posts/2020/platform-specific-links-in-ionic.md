@@ -1,6 +1,6 @@
 ---
 title: Platform-Specific Links in Ionic
-description: 
+description: When I submitted my mobile app to Apple for inclusion in the App Store, they rejected my app since it used Android screen shots in the app's tutorial (using Ionic Slides). This post describes how I updated the app to display different graphics depending on whether the app targets Android vs. iOS.
 date: 2020-05-14
 headerImage: 
 categories: [Mobile Development]

@@ -1,6 +1,6 @@
 ---
 title: Amazon Release of Learning Progressive Web Apps Delayed
-description: 
+description: A quick post announcing that Amazon reported that availability of my Learning Progressive Web Apps was delayed due to COVID.
 date: 2020-03-21
 headerImage: 
 categories: [Miscellaneous]

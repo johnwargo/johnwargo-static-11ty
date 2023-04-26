@@ -1,6 +1,6 @@
 ---
 title: First App Store App
-description: 
+description: I created a mobile app called Time Slicer and this post announces that the app was accepted by Apple into the App Store. 
 date: 2020-05-13
 headerImage: 
 categories: [Mobile Development]

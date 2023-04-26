@@ -1,6 +1,6 @@
 ---
 title: PWA Webinar This Month
-description: 
+description: To help promote my latest book and to make a little money, I agreed to deliver an O'Reilly webinar on Progressive Web Apps. This post provides details about the event.
 date: 2020-07-31
 headerImage: 
 categories: [Web Development]

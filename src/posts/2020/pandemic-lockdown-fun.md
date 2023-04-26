@@ -1,6 +1,6 @@
 ---
 title: Pandemic Lockdown Fun
-description: 
+description: After settling in after the start of the Pandemic, I began work on a lot of different projects and this post describes a bit about what I'm doing.
 date: 2020-05-07
 headerImage: 
 categories: [Miscellaneous]

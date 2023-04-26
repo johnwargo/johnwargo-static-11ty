@@ -1,6 +1,6 @@
 ---
 title: Discarding Data Object Edits in Ionic
-description: 
+description: When editing an object in an Ionic application, the framework automatically saves your changes to the object even though the user may have cancelled the edit page. In this post, I describe an approach I discovered that allows me to discard those changes when the user closes the edit page without saving.
 date: 2020-06-06
 headerImage: 
 categories: [Web Development]
