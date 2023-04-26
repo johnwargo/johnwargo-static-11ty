@@ -24,7 +24,7 @@ The following list is a likely incomplete list of all of the resources I used to
 * [target="_blank" links in markdown](https://github.com/11ty/eleventy/issues/2301)
 * [HTML Transforms](https://learneleventyfromscratch.com/lesson/31.html#minifying-html-output)
 * [Minimizing HTML Output](https://learneleventyfromscratch.com/lesson/31.html#minifying-html-output)
-* []()
+* [Using the New Google Analytics API to Get Most Popular Pages](https://fjolt.com/article/javascript-ga-api-most-popular-posts)
 * []()
 * []()
 
