@@ -2,7 +2,7 @@
 
 async function gitUpdate(msg){
   await $`git add -A`;
-  await $`git commit -m "{msg}"`;
+  await $`git commit -m ${msg}`;
   await $`git push`;
 }
 
