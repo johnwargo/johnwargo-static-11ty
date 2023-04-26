@@ -4,20 +4,25 @@
       <a href="/">Home</a>
     </li>
     <li>
+      <a href="{{ " /" | htmlBaseUrl }}search">Search</a>
+    </li>
+    <li>
       <a href="#" class="icon solid fa-angle-down">Articles</a>
       <ul>
         <li><a href="{{ " /" | htmlBaseUrl }}articles">All</a> </li>
         <li><a href="{{ " /" | htmlBaseUrl }}popular">Most Popular</a></li>
         <li><a href="{{ " /" | htmlBaseUrl }}categories">Categories</a> </li>
-        <li><a href="{{ " /" | htmlBaseUrl }}category/stupid-developer-tricks">Stupid Developer Tricks</a></li>
+        <li><a href="{{ " /" | htmlBaseUrl }}categories/stupid-developer-tricks">Stupid Developer Tricks</a></li>
       </ul>
     </li>
-    <li><a href="{{ " /" | htmlBaseUrl }}sites">Sites</a> </li>
     <li>
-      <a href="{{ " /" | htmlBaseUrl }}search">Search</a>
+      <a href="#" class="icon solid fa-angle-down">About</a>
+      <ul>
+        <li> <a href="{{ " /" | htmlBaseUrl }}about">About Me</a> </li>
+        <li><a href="{{ " /" | htmlBaseUrl }}sites">Sites</a> </li>
+        <li> <a href="{{ " /" | htmlBaseUrl }}statistics">Statistics</a> </li>
+      </ul>
     </li>
-    <li> <a href="{{ " /" | htmlBaseUrl }}about">About</a> </li>
-    <li> <a href="{{ " /" | htmlBaseUrl }}statistics">Statistics</a> </li>
     <li>
       <a href="https://github.com/johnwargo/johnwargo-static-11ty" target="_blank">
         <i class="icon brands fa-github">
