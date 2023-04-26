@@ -1,7 +1,6 @@
 #!/usr/bin/env zx
 
 async function gitUpdate(msg){
-  console.log('\n');
   await $`git add -A`;
   await $`git commit -m ${msg}`;
   await $`git push`;
@@ -32,4 +31,4 @@ await $`11ty-cat-pages`;
 console.log('\nBuilding site');
 await $`eleventy`;
 
-gitUpdate('Publishing site');
+gitUpdate(`Publishing site ${new Date().toISOString()}`);
