@@ -8,6 +8,7 @@
     "before": function(paginationData, fullData){ return paginationData.filter((item) => item.data.categories.includes('Stupid Developer Tricks'));}
   },
   "category": "Stupid Developer Tricks",
+  "description": "Posts calling out the results of stupid things software developers do.",
   "eleventyComputed": {
     "title": "Category: {{ category }}"
   },
@@ -15,9 +16,11 @@
 }
 ---
 
+{{ description }}
+
 {% include 'pagination-count.html' %}
 
-<p>All posts for a single category, in reverse chronological order.</p>
+<p>All posts for a the {{ category }} category, in reverse chronological order.</p>
 
 <ul class="posts">
   {% for post in catposts reversed %}
