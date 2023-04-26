@@ -5,14 +5,17 @@ pagination:
   size: 20
   alias: catposts
 category: 
+description: 
 eleventyComputed:
   title: "Category: {{ category }}"
 permalink: "categories/{{ category | slugify }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
 ---
 
+{{ description }}
+
 {% include 'pagination-count.html' %}
 
-<p>All posts for a single category, in reverse chronological order.</p>
+<p>All posts for a the {{ category }} category, in reverse chronological order.</p>
 
 <ul class="posts">
   {% for post in catposts reversed %}
