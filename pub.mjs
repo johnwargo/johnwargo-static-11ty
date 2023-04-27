@@ -1,5 +1,7 @@
 #!/usr/bin/env zx
 
+// TODO: get commit message from the command line
+
 async function gitUpdate(msg){
   await $`git add -A`;
   await $`git commit -m ${msg}`;
