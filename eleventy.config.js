@@ -121,8 +121,11 @@ module.exports = eleventyConfig => {
 
 		const imgAttributes = stringifyAttributes({
 			src: largestUnoptimizedImg.url,
+			// Added classname here because the scott.css file needs it on the img tag
+			class: className,
 			width: largestUnoptimizedImg.width,
-			height: largestUnoptimizedImg.height,
+			// removed because it was messing with the aspect ratio
+			// height: largestUnoptimizedImg.height,
 			alt,
 			loading: 'lazy',
 			decoding: 'async',
