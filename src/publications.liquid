@@ -1,0 +1,47 @@
+---
+title: External Publications
+description: Displays a list of all the external publications where I publshed articles. The list goes back into the early 2000s.
+layout: generic
+pagination:
+  data: external-pubs
+  size: 20
+  alias: items
+  reverse: true
+---
+
+<p>Over my career, I published articles in a variety of different print and online publications. The following list is all articles in reverse chronological order.</p>
+
+{% include 'pagination-count.html' %}
+
+<ul class="posts">
+  {% for item in items %}
+    <li>
+      <h4>
+        {{ item.title }}
+      </h4>
+      <span class="date">
+        <strong>Date:
+        </strong>
+        {{ item.date }} |
+        <strong>Format:
+        </strong>
+        {% if item.format == 1 %}
+          Online
+        {% else %}
+          Print
+        {% endif %}
+        {% if item.url.length > 0 %}
+          |
+          <a href="{{ item.url }}" target="_blank">
+            <strong>Link to Article</strong>
+          </a>
+        {% endif %}
+      </span>
+      {% if item.description %}
+        {{ item.description }}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
+{% include 'pagination-nav.html' %}

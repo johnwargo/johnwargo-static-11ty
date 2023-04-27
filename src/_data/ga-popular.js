@@ -1,12 +1,14 @@
+'use strict'
+
 // https://fjolt.com/article/javascript-ga-api-most-popular-posts
-
 // import { BetaAnalyticsDataClient } from '@google-analytics/data';
-// // Creates a client.
 
+module.exports = function () {
+  
+  // // Creates a client.
 // const analyticsDataClient = new BetaAnalyticsDataClient({
 //     keyFile: './key.json' 
 // });
-
 
 // let propertyId = 'ENTER YOUR PROPERTY ID HERE';
 // // Get the day 31 days ago
@@ -47,4 +49,9 @@
 
 // return response;
 
-return [];
+  return [];
+}
+
+
+
+

@@ -1,0 +1,338 @@
+[
+    {
+        "title": "Manipulate Notes Preference Settings",
+        "date": "2002-05-01",
+        "url": "",
+        "format": 2,
+        "description": "For one of the apps I was working on, I needed to be able to manipulate the Notes client's preference settings (turn a preference on or off). I wrote this article to share what I learned.",
+        "publication": "Advisor Expert on Lotus Notes & Domino R5 Magazine"
+    },
+    {
+        "title": "Best Practices in Notes Client Deployment (with David Via)",
+        "date": "2003-10-01",
+        "url": "",
+        "format": 2,
+        "description": "David and I worked together for many, many years and we built a methodology (David) and tooling (me) for managing the process of deploying the IBM Lotus Notes client (now called HCL Notes). In this article, we shared our knowledge with the community.",
+        "publication": "e-Pro Magazine"
+    },
+    {
+        "title": "BlackBerry Widgets — A Fast, Easy Way to Mobilize Your Domino Applications",
+        "date": "2010-03-01",
+        "url": "",
+        "format": 2,
+        "description": "I wrote this article so long ago, I don't even remember what it was about. I should dig out the magazine and look.",
+        "publication": "The View Magazine"
+    },
+    {
+        "title": "BlackBerry Developer's Conference Wrap-Up",
+        "date": "2010-05-05",
+        "url": "https://www.informit.com/articles/article.aspx?p=1582938",
+        "format": 1,
+        "description": "I attended BlackBerry World 2010 and summarized what I learned in this article.",
+        "publication": "InformIT"
+    },
+    {
+        "title": "Mobile Application Development Trends — What Today's Developer Needs to Know Now",
+        "date": "2010-06-01",
+        "url": "",
+        "format": 2,
+        "description": "",
+        "publication": "The View Magazine"
+    },
+    {
+        "title": "Taking It With You, Part 1: Know Your Options for Mobilizing Domino Databases via the Web",
+        "date": "2010-09-01",
+        "url": "",
+        "format": 2,
+        "description": "The first in a series, this article described the different ways to mobilize a Lotus Notes application for web browsers.",
+        "publication": "The View Magazine"
+    },
+    {
+        "title": "Taking it With You, Part 2: Mobilizing Domino Databases Using Native Clients, Hybrid Applications, and MEAPs",
+        "date": "2010-10-01",
+        "url": "",
+        "format": 2,
+        "description": "The second in the series, this article described the different ways to mobilize a Lotus Notes application for mobile devices.",
+        "publication": "The View Magazine"
+    },
+    {
+        "title": "BlackBerry DevCon 2010: A Developer's Perspective",
+        "date": "2010-10-07",
+        "url": "http://drdobbs.com/mobility/227700350",
+        "format": 1,
+        "description": "Aaah, my only article in Dr. Dobbs; I used to love reading that magazine. The title should describe the article pretty well.",
+        "publication": "Dr. Dobb's Journal"
+    },
+    {
+        "title": "Mobilizing Domino Data Using Kryos Velocity AppXtender",
+        "date": "2011-01-01",
+        "url": "",
+        "format": 2,
+        "description": "My evaluation, with sample app, demonstrating how to build a mobile application for Lotus Notes/Domino using Kryos Velocity AppXtender",
+        "publication": "The View Magazine"
+    },
+    {
+        "title": "Creating Domino-Friendly Entries in Google Analytics",
+        "date": "2011-03-01",
+        "url": "",
+        "format": 2,
+        "description": "The View wanted to use Google Analytics on their public web site and I was trying to figure out the same thing for a site I managed, so I figured it out and wrote an article about it.",
+        "publication": "The View Magazine"
+    },
+    {
+        "title": "Mobilize Notes Applications to iPhone and iPad Using Apple Dashcode",
+        "date": "2011-03-01",
+        "url": "",
+        "format": 2,
+        "description": "I used to demonstrate how to mobilize a Notes application using Apple Dashcode in 5 minutes. This article is the written version of that.",
+        "publication": "The View Magazine"
+    },
+    {
+        "title": "Mobilizing Domino Applications Using Teamstudio Unplugged",
+        "date": "2011-06-01",
+        "url": "",
+        "format": 2,
+        "description": "My evaluation, with sample app, demonstrating how to build a mobile application for Lotus Notes/Domino using Teamstudio Unplugged.",
+        "publication": "The View Magazine"
+    },
+    {
+        "title": "Mobilizing Domino Applications for Multiple Mobile Device Platforms Using PhoneGap",
+        "date": "2011-07-01",
+        "url": "",
+        "format": 2,
+        "description": "This article is what got me started with PhoneGap (Later Apache Cordova). I'd been wanting to learn PhoneGap and this article gave me a reason to do so. From there I wrote four books on the topic and contributed to the project.",
+        "publication": "The View Magazine"
+    },
+    {
+        "title": "Preparing Your Domino Developer Brain (and Applications) for Mobile",
+        "date": "2011-08-01",
+        "url": "",
+        "format": 2,
+        "description": "I wrote this article to get IBM Lotus Notes/Domino developers thinking about mobile development.",
+        "publication": "The View Magazine"
+    },
+    {
+        "title": "Mobilizing Domino Using Appcelerator Titanium",
+        "date": "2011-10-01",
+        "url": "",
+        "format": 2,
+        "description": "My evaluation, with sample app, demonstrating how to build a mobile application for Lotus Notes/Domino using Appcelerator Titanium.",
+        "publication": "The View Magazine"
+    },
+    {
+        "title": "Mobilize Your Enterprise Data Using a Mobile Application Platform",
+        "date": "2012-03-01",
+        "url": "",
+        "format": 2,
+        "description": "",
+        "publication": "The View Magazine"
+    },    
+    {
+        "title": "Mobilizing Domino Data Using Rhodes and RhoConnect, Part 1",
+        "date": "2012-05-01",
+        "url": "",
+        "format": 2,
+        "description": "",
+        "publication": "The View Magazine"
+    },
+    {
+        "title": "Mobilizing Domino Data Using Rhodes and RhoConnect, Part 2",
+        "date": "2012-05-01",
+        "url": "",
+        "format": 2,
+        "description": "",
+        "publication": "The View Magazine"
+    },
+    {
+        "title": "Mobilizing Domino Data Using Rhodes and RhoConnect, Part 3",
+        "date": "2012-07-01",
+        "url": "",
+        "format": 2,
+        "description": "",
+        "publication": "The View Magazine"
+    },
+    {
+        "title": "Mobilizing Domino Data Using Rhodes and RhoConnect, Part 4",
+        "date": "2012-08-01",
+        "url": "",
+        "format": 2,
+        "description": "",
+        "publication": "The View Magazine"
+    },
+    {
+        "title": "Mobilizing Domino Data Using Sencha Touch, Part 1",
+        "date": "2012-11-01",
+        "url": "",
+        "format": 2,
+        "description": "",
+        "publication": "The View Magazine"
+    },
+    {
+        "title": "Mobilizing Domino Data Using Sencha Touch, Part 2",
+        "date": "2012-12-01",
+        "url": "",
+        "format": 2,
+        "description": "",
+        "publication": "The View Magazine"
+    },
+    {
+        "title": "Comparing Approaches to Mobile Development",
+        "date": "2013-02-01",
+        "url": "",
+        "format": 2,
+        "description": "",
+        "publication": "The View Magazine"
+    },
+    {
+        "title": "Mobilizing Domino Data Using Sencha Touch, Part 3",
+        "date": "2013-05-01",
+        "url": "",
+        "format": 2,
+        "description": "",
+        "publication": "The View Magazine"
+    },
+    {
+        "title": "Arduino-Powered Pinewood Derby Race Car",
+        "date": "2015-03-28",
+        "url": "http://makezine.com/projects/arduino-powered-pinewood-derby-race-car/",
+        "format": 0,
+        "description": "At the time, my son was in Cub Scouts, and for many years built Pinewood Derby cars. For the most part, I let my son do what he wanted to do with his car but after watching one parent spend hours painstakingly cutting, sanding, and grinding his kid’s car, my son and I decided we’d kick it up a notch. I built an Arduino-powered Pinewood Derby car with an accelerometer and LEDs. The car flashes the lights differently depending on the angle of the car.",
+        "publication": "Make Magazine"
+    },
+    {
+        "title": "What's New in Apache Cordova 4?",
+        "date": "2015-04-29",
+        "url": "http://www.informit.com/articles/article.aspx?p=2347269",
+        "format": 1,
+        "description": "An introduction to Apache Cordova 4.",
+        "publication": "InformIT"
+    },
+    {
+        "title": "Which to Use: Cordova or PhoneGap?",
+        "date": "2016-02-16",
+        "url": "https://www.informit.com/articles/article.aspx?p=2478076",
+        "format": 1,
+        "description": "I found a reason to refer to this article just last week (July, 2021) because apparently people still don't understand the difference between Apache Cordova and Adobe PhoneGap.",
+        "publication": "InformIT"
+    },
+    {
+        "title": "Apache Cordova and Server-Side Technologies",
+        "date": "2016-02-18",
+        "url": "http://www.informit.com/articles/article.aspx?p=2481899",
+        "format": 1,
+        "description": "I saw a lot of Stack Overflow questions asking about how to attach an Apache Cordova application to different server-side technologies, so I decided to write an article talking about the different options.",
+        "publication": "InformIT"
+    },
+    {
+        "title": "Get a Flashing Meeting Reminder with a Raspberry Pi",
+        "date": "2016-06-14",
+        "url": "http://makezine.com/projects/get-a-flashing-meeting-reminder-with-a-raspberry-pi/",
+        "format": 0,
+        "description": "At the time I wrote this, I worked at home (I still do) and I spent a lot of time on the phone talking to colleagues, vendors and customers. My employer used Google Calendar and Gmail but the appointment notification capabilities were not very robust. Well, they’re robust, but not enough to get me to actually show up for calls on time. I often missed  notifications when I’m busy doing something else or I notice the notification, but quickly forget about it just a few minutes later and ultimately miss some meetings or join late. I built the project described in this article to give me a visual reminder when I have appointments. Its 2021 and I still use it every day.",
+        "publication": "Make Magazine"
+    },
+    {
+        "title": "Collect and Display Weather Data with a Raspberry Pi",
+        "date": "2016-11-02",
+        "url": "http://makezine.com/projects/raspberry-pi-weather-station-mount/",
+        "format": 0,
+        "description": "I've always been interested in hosting my own weather station, but I've never been interested in plunking down the cash to buy one of the professional stations. For this article, I wired up a Raspberry Pi device and the Astro Pi Sense HAT to build a little inexpensive weather station that posts weather data to Weather Underground.",
+        "publication": "Make Magazine"
+    },
+    {
+        "title": "Pi Zero Visual Appointment Reminder",
+        "date": "2017-06-01",
+        "url": "https://www.raspberrypi.org/magpi/pi-zero-calendar/",
+        "format": 0,
+        "description": "For this project, I took my Pi Remind and modified it for the Pi Zero device (and a much smaller LED array - the Pimoroni Blinkt!). For some reason, the original article was deleted and this one is a reprint under another author's name (with original credit to me).",
+        "publication": "The MagPi Magazine"
+    },
+    {
+        "title": "Solder Together a Fairy Lights Mason Jar",
+        "date": "2017-06-01",
+        "url": "http://makezine.com/projects/mason-jar-tricolor-twinkle-lights/",
+        "format": 0,
+        "description": "This article shows how to make a July 4th themed (US Independence Holiday) Fairy lights in a mason jar. For this, I used three strands of LEDs (Red, White, and Blue - of course) and a little Arduino code to fade the different strands up and down.",
+        "publication": "Make Magazine"
+    },
+    {
+        "title": "Add Arduino power to your projects",
+        "date": "2017-12-01",
+        "url": "https://hackspace.raspberrypi.org/issues/1",
+        "format": 0,
+        "description": "An introduction to Arduino development.",
+        "publication": "HackSpace Magazine"
+    },
+    {
+        "title": "Reading digital data on the Arduino platform",
+        "date": "2018-01-01",
+        "url": "https://hackspace.raspberrypi.org/issues/2",
+        "format": 0,
+        "description": "This article highlighted how to read external data on an Arduino, in this case reading the state of a button.",
+        "publication": "HackSpace Magazine"
+    },
+    {
+        "title": "Arduino Programming: Reading Data From Devices",
+        "date": "2018-02-01",
+        "url": "https://hackspace.raspberrypi.org/issues/3",
+        "format": 0,
+        "description": "This article covered measuring information on an Arduino device using simple digital devices and use the data to control hardware - in this case, turning on an LED when the temperature crosses a threshold.",
+        "publication": "HackSpace Magazine"
+    },
+    {
+        "title": "A Better Way to Exercise Cordova Plugins",
+        "date": "2018-02-02",
+        "url": "https://cordova.apache.org/howto/2018-02/02/cordova-simulate.html",
+        "format": 1,
+        "description": "This was my first (and only) PhoneGap blog post, describing how to build support into your Apache Cordova Plugins for the Cordova Simulate plugin simulator from Microsoft. This was also the topic for my presentation at the very last US PhoneGap day (in 2017).",
+        "publication": "PhoneGap Blog"
+    },
+    {
+        "title": "Make the Switch",
+        "date": "2018-02-19",
+        "url": "https://makezine.com/go/electronic-relays",
+        "format": 0,
+        "description": "I've always been fascinated with relays and I love putting them into projects. Whenever I found a relay board for a particular single board computer or microcontroller, I bought it and figured out how to use it. This article came from a proposal I made to Make Magazine about a general article that covered all sorts of relays and relay boards. For the article cover photo, I sent all of my relays and boards to California and the Make team did a professional photo shoot of them all lumped together.",
+        "publication": "Make Magazine"
+    },
+    {
+        "title": "Arduino Programming: Variables, constants, and more",
+        "date": "2018-03-01",
+        "url": "https://hackspace.raspberrypi.org/issues/4",
+        "format": 0,
+        "description": "This was my last article for Hackspace Magazine; an introduction to variables, constants, and defines on Arduino. ",
+        "publication": "Hackspace Magazine"
+    },
+    {
+        "title": "It’s Almost Impossible to Get Real Developer Support Anymore",
+        "date": "2021-03-31",
+        "url": "https://johnwargo.medium.com/it-is-almost-impossible-to-get-developer-support-anymore-5c2a23e3feaa",
+        "format": 1,
+        "description": "At the time I wrote this, I was doing a lot of cloud development and needed help with some issues I was having. At the time I was very frustrated with how the cloud service providers pushed support out to the community even though I was paying for the services I used. The article promotes my view of how this should work.",
+        "publication": "Medium"
+    },
+    {
+        "title": "Submitting Questions on Stack Overflow as a Last Resort",
+        "date": "2021-04-08",
+        "url": "https://johnwargo.medium.com/submitting-questions-on-stack-overflow-as-last-resort-8219a710f744",
+        "format": 1,
+        "description": "In trying to get some help with some development issues, I either received no response to my questions, or Stack Overflow actively deleted my posts for a variety of ridiculous reasons. I wrote this article to share my views on the situation.",
+        "publication": "Medium"
+    },
+    {
+        "title": "Industry Analysts Must Get Their Facts Right",
+        "date": "2021-08-10",
+        "url": "https://johnwargo.medium.com/industry-analysts-must-get-their-facts-right-4e1c67bfc35a",
+        "format": 1,
+        "description": "I read a recent Gartner report and noticed that they published some deliberately misleading and incorrect information in their argument about a particular vendor's product. A later read showed that the repeated the falsehood repeatedly throughout the publication. I wrote this article to highlight the error and, of course, prove why their statements were incorrect.",
+        "publication": "Medium"
+    },
+    {
+        "title": "But I Don’t Know Dart",
+        "date": "2021-08-10",
+        "url": "https://johnwargo.medium.com/but-i-dont-know-dart-c1b4e2380191",
+        "format": 1,
+        "description": "I did a lot of research this year into Flutter and React Native and every time I mentioned Flutter to a developer, they'd immediately respond that they weren't interested in using Flutter because that meant they'd have to learn Dart (the language Flutter uses). I wrote the article to highlight that I've been an active Flutter developer for more than a year now and I really don't 'know' Dart.",
+        "publication": "Medium"
+    }
+]

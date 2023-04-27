@@ -4,6 +4,7 @@ _site/
 joomla/articles/
 
 # Files
+.DS_Store
 package-lock.json
 netlify-secrets.txt
-.DS_Store
+jmw-static-site-fe022b199e49.json
