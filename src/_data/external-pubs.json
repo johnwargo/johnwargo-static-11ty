@@ -124,7 +124,7 @@
         "date": "2012-03-01",
         "url": "",
         "format": 2,
-        "description": "",
+        "description": "As enterprises started thinking about mobile apps, software companies started producing tools to make it easier to build apps for multiple types of mobile devices from the same 'code base'. This article was an introduction to Mobile Enterprise Application Platforms (MEAP).",
         "publication": "The View Magazine"
     },    
     {
@@ -132,7 +132,7 @@
         "date": "2012-05-01",
         "url": "",
         "format": 2,
-        "description": "",
+        "description": "This is the first in a series of articles I wrote describing how to build mobile applications using Rhodes (which later became RhoMobile Suite).",
         "publication": "The View Magazine"
     },
     {
@@ -140,7 +140,7 @@
         "date": "2012-05-01",
         "url": "",
         "format": 2,
-        "description": "",
+        "description": "This is the second article in a series of articles I wrote describing how to build mobile applications using Rhodes (which later became RhoMobile Suite).",
         "publication": "The View Magazine"
     },
     {
@@ -148,7 +148,7 @@
         "date": "2012-07-01",
         "url": "",
         "format": 2,
-        "description": "",
+        "description": "This is the third article in a series of articles I wrote describing how to build mobile applications using Rhodes (which later became RhoMobile Suite).",
         "publication": "The View Magazine"
     },
     {
@@ -156,7 +156,7 @@
         "date": "2012-08-01",
         "url": "",
         "format": 2,
-        "description": "",
+        "description": "This is the final article in a series of articles I wrote describing how to build mobile applications using Rhodes (which later became RhoMobile Suite).",
         "publication": "The View Magazine"
     },
     {
@@ -164,7 +164,7 @@
         "date": "2012-11-01",
         "url": "",
         "format": 2,
-        "description": "",
+        "description": "Back in the day, I was really interested in learning more about JavaScript and JavaScript frameworks. Sencha Touch was a popular framework at the time and this was my introductory article on the topic.",
         "publication": "The View Magazine"
     },
     {
@@ -172,7 +172,7 @@
         "date": "2012-12-01",
         "url": "",
         "format": 2,
-        "description": "",
+        "description": "This article was part two in my series on using Sencha Touch to build mobile applications.",
         "publication": "The View Magazine"
     },
     {
@@ -180,7 +180,7 @@
         "date": "2013-02-01",
         "url": "",
         "format": 2,
-        "description": "",
+        "description": "In this article I tried to compare and contrast the different approaches to creating mobile applications I'd been writing about.",
         "publication": "The View Magazine"
     },
     {
@@ -188,7 +188,7 @@
         "date": "2013-05-01",
         "url": "",
         "format": 2,
-        "description": "",
+        "description": "Sencha Touch was a popular framework at the time and this article wrapped up my introduction to the topic.",
         "publication": "The View Magazine"
     },
     {
@@ -204,7 +204,7 @@
         "date": "2015-04-29",
         "url": "http://www.informit.com/articles/article.aspx?p=2347269",
         "format": 1,
-        "description": "An introduction to Apache Cordova 4.",
+        "description": "An introduction to the new features and capabilities in Apache Cordova 4.",
         "publication": "InformIT"
     },
     {
