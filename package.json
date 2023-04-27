@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-img": "^3.1.0",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "eleventy-category-pages": "^0.0.1",
@@ -24,7 +25,8 @@
     "eleventy-plugin-youtube-embed": "^1.8.1",
     "generate-build-info": "^0.0.3",
     "html-minifier": "^4.0.0",
-    "markdown-it-attrs": "^4.1.6"
+    "markdown-it-attrs": "^4.1.6",
+    "outdent": "^0.8.0"
   },
   "keywords": [
     "eleventy"
