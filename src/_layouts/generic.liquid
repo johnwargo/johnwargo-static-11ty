@@ -24,6 +24,9 @@ License: pixelarity.com/license
     <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="{{ "/" | htmlBaseUrl }}assets/css/main.css" />
     <link rel="stylesheet" href="{{ "/" | htmlBaseUrl }}assets/css/scott.css" />
+    {% if page.url == '/sites/' %}
+      <link rel="stylesheet" href="{{ "/" | htmlBaseUrl }}assets/css/sites.css" />
+    {% endif %}
     <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
     {% include 'icons.html' %}
     {% include 'google-analytics.html' %}
@@ -32,7 +35,6 @@ License: pixelarity.com/license
   <body class="is-preload">
     {% include 'header.html' %}
     <div class="wrapper">
-
       <section class="main">
         <section>
           <header>
@@ -43,9 +45,7 @@ License: pixelarity.com/license
           {{ content }}
         </section>
       </section>
-
     </div>
-
     {% include 'footer.html' %}
     {% include 'page-scripts.html' %}
   </body>
