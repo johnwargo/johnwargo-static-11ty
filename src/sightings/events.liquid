@@ -1,15 +1,15 @@
 ---
 title: Events
-description: Displays many of the events I've participated in over the years. Upcoming ones too!
+description: Lists the events I've participated in over the years. Upcoming ones too!
 layout: generic
 pagination:
-  data: public_events
+  data: events
   size: 20
   alias: items
   reverse: true
 ---
 
-{{ description }}
+I attended a variety of conferences and events over the years, and sometimes I get a chance to present at them. Often I'm there working a booth or doing product demos somewhere, it just depends on the event. The following is a list of some events I attended. I'll add more as new ones pop up.
 
 {% include 'pagination-count.html' %}
 
@@ -22,12 +22,7 @@ pagination:
       <span class="date">
         <strong>Date:
         </strong>
-        {{ item.date }} |
-        <strong>Publication:
-        </strong>
-        {{ item.publication }} |
-        <strong>Format:
-        </strong>
+        {{ item.date }}
         {% if item.url.length > 0 %}
           |
           <a href="{{ item.url }}" target="_blank">

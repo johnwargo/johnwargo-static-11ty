@@ -67,42 +67,42 @@ layout: home
   <section class="features alt">
     <article class="icon solid fa-newspaper">
       <a href="{{ "/" | htmlBaseUrl }}articles">
-        <h3>Articles</h3>
+        <h3>All Articles</h3>
       </a>
-      <p>All the articles published here, in reverse chronological order.</p>
+      <p>View the {{ latest_posts.length | commaize }} articles on this site in reverse chronological order.</p>
     </article>
     <article class="icon solid fa-layer-group">
       <a href="{{ "/" | htmlBaseUrl }}categories">
         <h3>Categories</h3>
       </a>
-      <p>View all articles by category, in reverse chronological order.</p>
-    </article>
-    <article class="icon solid fa-code">
-      <a href="https://johnwargo.io" target="_blank">
-        <h3>Code</h3>
-      </a>
-      <p>View details for my public GitHub repositories.</p>
+      <p>View a list of the {{ category-meta.length | commaize }} categories in this site; from there you can drill down into all articles by category in reverse chronological order.</p>
     </article>
     <article class="icon solid fa-book">
       <a href="https://johnwargobooks.com" target="_blank">
-        <h3>Publications</h3>
+        <h3>Books</h3>
       </a>
-      <p>View information about all of the books I authored (and more).</p>
+      <p>View details regarding the books I authored.</p>
     </article>
     <article class="icon solid fa-newspaper">
       <a href="{{ "/" | htmlBaseUrl }}sightings/publications" target="_blank">
-        <h3>External Articles</h3>
+        <h3>External Publications</h3>
       </a>
-      <p>View a list of all of the articles I published in external publications.</p>
+      <p>View a list of all of the articles I published in other publications (besides here).</p>
+    </article>
+    <article class="icon solid fa-code">
+      <a href="https://github.com/johnwargo" target="_blank">
+        <h3>Code</h3>
+      </a>
+      <p>View the source code projects in my public GitHub account.</p>
     </article>
     <article class="icon solid fa-binoculars">
       <a href="{{ "/" | htmlBaseUrl }}sightings">
         <h3>Sightings</h3>
       </a>
-      <p>View a list random videos of me presenting topics.</p>
+      <p>You can find me on more places than this site; the Sightings page lists the other places where you can find stuff I created.</p>
     </article>
     <article class="icon regular fa-calendar">
-      <a href="{{ "/" | htmlBaseUrl }}events">
+      <a href="{{ "/" | htmlBaseUrl }}sightings/events">
         <h3>Events</h3>
       </a>
       <p>View a list of all of my upcoming events (conference presentations, product demos, etc.).</p>
@@ -111,7 +111,7 @@ layout: home
       <a href="{{ "/" | htmlBaseUrl }}sites">
         <h3>Sites</h3>
       </a>
-      <p>View a list of all of the Internet sites I manage.</p>
+      <p>View a list of the Internet sites I maintain.</p>
     </article>
   </section>
 
@@ -128,26 +128,17 @@ layout: home
     </a>
 
   </section>
-  <!-- <section>
-  <h3>Apache Cordova 4 Programming</h3>
-  <a href="https://www.amazon.com/Apache-Cordova-Programming-Mobile/dp/0134048199" target="_blank">
-  <img src="/images/covers/AC4P-160.png" />
-  </a>
-  </section>
   <section>
-  <h3>Apache Cordova API Cookbook</h3>
-  <a href="https://www.amazon.com/Apache-Cordova-Cookbook-Mobile-Programming/dp/0321994809" target="_blank">
-  <img src="/images/covers/acac-cover-160.png" />
-  </a>
-  </section> --><section>
-    <h3>
-      <a href="{{ "/" | htmlBaseUrl }}popular">Popular Posts</a>
-    </h3>
-    <p>View the most popular articles based on Google Analytics.</p>
-    <ul class="actions">
-      <li>
-        <a href="{{ "/" | htmlBaseUrl }}popular" class="button">Go!</a>
-      </li>
+    <h4>
+      Top 5 Posts
+    </h4>
+    <ul class="posts">
+      {% for item in popularArticles %}
+        <li>
+          <a href="{{ item.url }}">
+            {{ item.title }}</a>
+        </li>
+      {% endfor %}
     </ul>
   </section>
   <section>

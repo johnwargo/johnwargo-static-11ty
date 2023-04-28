@@ -1,6 +1,6 @@
 ---
 title: Videos
-description: Ham hock bresaola shankle leberkas t-bone. Salami cow jerky biltong. Brisket ham shankle tongue sirloin cow meatball kielbasa turkey shoulder t-bone bacon. Porchetta rump corned beef pancetta. Flank prosciutto tongue pork chop drumstick, swine ball tip strip steak. T-bone sausage doner shoulder venison brisket tail capicola drumstick bresaola andouille ground round chuck. Tail swine rump turducken t-bone pork chop boudin.
+description: Lists any public videos for presentations, product demos, or events where I've presented.
 layout: generic
 pagination:
   data: videos
@@ -9,7 +9,7 @@ pagination:
   reverse: true
 ---
 
-{{ description }}
+Often when I present at a conference, the event records the presentation and makes them available online. Sometimes I fo a webinar or a product demonstration and the recording is made available. This page lists any public videos for presentations, product demos, or events where I've presented.
 
 {% include 'pagination-count.html' %}
 
@@ -23,9 +23,6 @@ pagination:
         <strong>Date:
         </strong>
         {{ item.date }} |
-        <strong>Publication:
-        </strong>
-        {{ item.publication }} |
         <strong>Format:
         </strong>
         {% if item.url.length > 0 %}
