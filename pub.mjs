@@ -55,5 +55,5 @@ await $`11ty-cat-pages`;
 console.log('\nBuilding site');
 await $`eleventy`;
 
-gitUpdate(theArgs[0]);
+await gitUpdate(theArgs[0]);
 await $`git push`;
