@@ -8,7 +8,7 @@ categories:
 tags: post
 ---
 
-![Apache Cordova 4 Programming Cover](/images/covers/ac4p-160.png)
+{% image "src/images/covers/ac4p-160.png", "Apache Cordova 4 Programming Cover", "image-full" %}
 
 I shutdown the web site for my Apache Cordova 4 Programming book today. The book published way back in 2015, and Apache Cordova has evolved a lot since then.
 
