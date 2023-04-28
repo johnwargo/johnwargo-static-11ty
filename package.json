@@ -20,6 +20,7 @@
     "@11ty/eleventy-img": "^3.1.0",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
+    "@google-analytics/data": "^3.2.2",
     "eleventy-category-pages": "^0.0.1",
     "eleventy-plugin-date": "^1.0.0",
     "eleventy-plugin-youtube-embed": "^1.8.1",
