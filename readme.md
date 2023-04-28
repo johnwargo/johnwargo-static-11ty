@@ -68,6 +68,12 @@ Use the following codes to show Liquid template language in a post
 set DEBUG=Eleventy* & npx @11ty/eleventy
 ```
 
+### Image Shortcode
+
+```liquid
+{% image "src/images/", "", "image-full" %}
+```
+
 ### Links to Book cover images:
 
 ![Learning Progressive Web Apps Cover](/images/covers/learning-pwa-160.png)
