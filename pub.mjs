@@ -39,7 +39,7 @@ if (idx > -1) {
 
 // Do we have a commit message?
 if (theArgs.length === 0) {
-  console.log('\nMissing commit message on command line');
+  console.log('\nMissing commit message on command line (in quotes)');
   process.exit(0);
 }
 
