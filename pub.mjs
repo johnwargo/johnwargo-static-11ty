@@ -36,11 +36,12 @@ if (idx > -1) {
 
 console.dir(theArgs);
 
-if (theArgs.length < 1) {
-console.log('Missing commit message on command line');
+if (theArgs.length === 0) {
+  console.log('Missing commit message on command line');
   process.exit(0);
 }
 
+process.exit(0);
 
 console.log();  // throw in a blank line on the console
 await $`gen-build-info src/_data`;
