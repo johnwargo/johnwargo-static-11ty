@@ -3,7 +3,6 @@
 async function gitUpdate(msg) {
   await $`git add -A`;
   await $`git commit -m ${msg}`;
-  await $`git push`;
 }
 
 // With ZX the first three commands are the node executable, the zx executable, and the script name
@@ -57,3 +56,4 @@ console.log('\nBuilding site');
 await $`eleventy`;
 
 gitUpdate(theArgs[0]);
+await $`git push`;
