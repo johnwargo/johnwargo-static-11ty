@@ -23,8 +23,6 @@ if (idx > -1) {
   console.log('Skipping package version increment');
 }
 
-console.dir(theArgs);
-
 // Check the command line arguments to see if we should update the Algolia index
 idx = theArgs.indexOf('-a');
 if (idx > -1) {
@@ -38,7 +36,11 @@ if (idx > -1) {
 
 console.dir(theArgs);
 
-process.exit(0);
+if (theArgs.length < 1) {
+console.log('Missing commit message on command line');
+  process.exit(0);
+}
+
 
 console.log();  // throw in a blank line on the console
 await $`gen-build-info src/_data`;
