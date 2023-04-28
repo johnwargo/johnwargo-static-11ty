@@ -6,6 +6,7 @@ async function gitUpdate(msg) {
   await $`git push`;
 }
 
+// With ZX the first three commands are the node executable, the zx executable, and the script name
 // [
 //   'C:\\Program Files\\nodejs\\node.exe',
 //   'C:\\Users\\john\\AppData\\Roaming\\npm\\node_modules\\zx\\build\\cli.js',
