@@ -5,6 +5,8 @@ async function gitUpdate(msg) {
   await $`git commit -m ${msg}`;
 }
 
+console.log('\nStarting project publish...');
+
 // With ZX the first three commands are the node executable, the zx executable, and the script name
 // [
 //   'C:\\Program Files\\nodejs\\node.exe',
@@ -13,15 +15,15 @@ async function gitUpdate(msg) {
 // ]
 var theArgs = process.argv.slice(3);
 
-console.log('\nStarting project publish...');
+var updatePackage = false;
+var updateIndex = false;
 
 // Check the command line arguments to see if we should increment the version
 let idx = theArgs.indexOf('-i');
 if (idx > -1) {
-  theArgs = theArgs.splice(idx, 1);   // remove the -i argument from the array
-  console.log('\nIncrementing package version');
-  await gitUpdate('Incrementing package version');
-  await $`npm version patch`;
+  updatePackage = true;
+  // remove the -i argument from the array
+  theArgs.splice(idx, 1);
 } else {
   console.log('Skipping package version increment');
 }
@@ -29,9 +31,9 @@ if (idx > -1) {
 // Check the command line arguments to see if we should update the Algolia index
 idx = theArgs.indexOf('-a');
 if (idx > -1) {
-  theArgs = theArgs.splice(idx, 1); // remove the -a argument from the array
-  console.log('\nUpdating Algolia Index');
-  await $`algolia-idxup`;
+  updateIndex = true;
+  // remove the -a argument from the array
+  theArgs.splice(idx, 1);
 } else {
   console.log('Skipping Algolia index update');
 }
@@ -49,11 +51,23 @@ if (theArgs.length > 1) {
 }
 
 // throw in a blank line on the console
-console.log();  
+console.log();
 await $`gen-build-info src/_data`;
 await $`11ty-cat-pages`;
 console.log('\nBuilding site');
 await $`eleventy`;
 
+if (updateIndex) {
+  console.log('\nUpdating Algolia Index');
+  await $`algolia-idxup`;
+}
+
 await gitUpdate(theArgs[0]);
+
+if (updatePackage) {
+  console.log('\nIncrementing package version');
+  await gitUpdate('Incrementing package version');
+  await $`npm version patch`;
+}
+
 await $`git push`;
