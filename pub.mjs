@@ -17,16 +17,24 @@ console.log('\nStarting project publish...');
 
 // Check the command line arguments to see if we should increment the version
 let idx = theArgs.indexOf('-i');
-let updateVersion = idx > -1;
-   // remove the -i argument from the array
-if (updateVersion) theArgs = theArgs.splice(idx, 1);
+if (idx > -1) {
+  theArgs = theArgs.splice(idx, 1);   // remove the -i argument from the array
+  console.log('\nIncrementing package version');
+  await gitUpdate('Incrementing package version');
+  await $`npm version patch`;
+} else {
+  console.log('Skipping package version increment');
+}
 
 // Check the command line arguments to see if we should update the Algolia index
 idx = theArgs.indexOf('-a');
-let updateIdx = idx > -1;
-// remove the -a argument from the array
-if (updateIdx) theArgs = theArgs.splice(idx, 1);
-
+if (idx > -1) {
+  theArgs = theArgs.splice(idx, 1); // remove the -a argument from the array
+  console.log('\nUpdating Algolia Index');
+  await $`algolia-idxup`;
+} else {
+  console.log('Skipping Algolia index update');
+}
 
 // Do we have a commit message?
 if (theArgs.length === 0) {
@@ -41,27 +49,11 @@ if (theArgs.length > 1) {
 }
 
 // throw in a blank line on the console
-console.log();
+console.log();  
 await $`gen-build-info src/_data`;
 await $`11ty-cat-pages`;
-
 console.log('\nBuilding site');
 await $`eleventy`;
 
-if (updateIdx) {
-  console.log('\nUpdating Algolia Index');
-  // await $`algolia-idxup`;
-} else {
-  console.log('Skipping Algolia index update');
-}
 await gitUpdate(theArgs[0]);
-
-if (updateVersion) {
-  console.log('\nIncrementing package version');
-  // await gitUpdate('Incrementing package version');
-  // await $`npm version patch`;
-} else {
-  console.log('Skipping package version increment');
-}
-
 await $`git push`;
