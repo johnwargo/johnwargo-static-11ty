@@ -33,6 +33,9 @@ I hope you enjoy this site. Please feel free to ask some questions of me or even
   <li class="icon brands fa-github">
     <a href="https://github.com/jwargo" target="_blank">@jwargo</a>
   </li>
+  <li class="icon brands fa-medium">
+    <a href="https://johnwargo.medium.com/" target="_blank">johnwargo</a>
+  </li>
   <li class="icon brands fa-mastodon">
     <a href="https://mastodon.social/@johnwargo" target="_blank">@johnwargo</a>
   </li>
