@@ -154,7 +154,6 @@ module.exports = eleventyConfig => {
 		return Array.from(categories);
 	});
 
-
 	eleventyConfig.addCollection("topten", function (collectionApi) {
 		return [];
 	});
