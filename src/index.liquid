@@ -47,8 +47,8 @@ layout: home
                 Categories:
               </strong>
               {% for cat in post.data.categories %}
-                <a href="/category/{{ cat | slugify }}">{{ cat | strip }}</a>
-                {% unless forloop.last %},
+                <a href="/categories/{{ cat | slugify }}">{{ cat | strip }}</a>
+                {%- unless forloop.last %},&nbsp;
                 {% endunless %}
               {% endfor %}
             {% endif %}

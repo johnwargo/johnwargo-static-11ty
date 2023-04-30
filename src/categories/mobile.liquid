@@ -20,7 +20,7 @@
 
 {{ description }}
 
-<p>Lists all posts in the category, in reverse chronological order.</p>
+<p>This page lists all posts in the category, in reverse chronological order.</p>
 
 <ul class="posts">
   {% for post in catposts reversed %}
@@ -32,7 +32,7 @@
       {% if post.data.categories.length > 0 %}
         in
         {% for cat in post.data.categories %}
-          <a href="/category/{{ cat | slugify }}">{{ cat }}</a>
+          <a href="/categories/{{ cat | slugify }}">{{ cat }}</a>
           {% unless forloop.last %},&nbsp;
           {% endunless %}
         {% endfor %}

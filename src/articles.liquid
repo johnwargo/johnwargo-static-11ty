@@ -27,8 +27,8 @@ pagination:
       {% if post.data.categories.length > 0 %}
         in
         {% for cat in post.data.categories %}
-          <a href="/category/{{ cat | slugify }}">{{ cat }}</a>
-          {% unless forloop.last %},&nbsp;
+          <a href="/categories/{{ cat | slugify }}">{{ cat }}</a>
+          {%- unless forloop.last %},&nbsp;
           {% endunless %}
         {% endfor %}
       {% endif %}
