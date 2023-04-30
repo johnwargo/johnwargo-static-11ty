@@ -28,7 +28,7 @@ permalink: "categories/{{ category | slugify }}/{% if pagination.pageNumber != 0
         in
         {% for cat in post.data.categories %}
           <a href="/categories/{{ cat | slugify }}">{{ cat }}</a>
-          {% unless forloop.last %},&nbsp;
+          {%- unless forloop.last %},
           {% endunless %}
         {% endfor %}
       {% endif %}
