@@ -18,7 +18,7 @@ Description was easy, I added a `description` property to my post template and p
 {% endif %}
 {% endhighlight %}
 
-For keywords, I knew that building a comma separated list of categories was going to be difficult, so I simply added a shortcode for it in the project's `eleventy.config.js` file:
+For keywords, I knew that building the comma separated list of categories would be ugly in Liquid (doable, but not elegant), so I simply added a shortcode for it in the project's `eleventy.config.js` file:
 
 ```js
 eleventyConfig.addShortcode("getKeywords", function (categories) {
