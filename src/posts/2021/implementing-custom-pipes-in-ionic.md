@@ -17,4 +17,4 @@ I started out with a stand-alone sample application; I always learn better worki
 
 Here’s the output of my sample application; you can find the complete sample application at https://github.com/johnwargo/ionic-pipes-example.
 
-![Custom Pipes Example Program Page](/images/2021/ionic-pipes-example.png)
+{% image "src/images/2021/ionic-pipes-example.png", "Custom Pipes Example Program Page", "image-full" %}

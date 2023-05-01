@@ -7,8 +7,6 @@ categories: [Web Development]
 tags: post
 ---
 
-## Introduction
-
 In an earlier article, I showed how to access build information in an Ionic application. When I created the solution for Ionic, I created a similar solution for ReactJS apps; I describe that solution in this article.
 
 ## Manipulating the Project Configuration File
