@@ -35,6 +35,7 @@ module.exports = function (eleventyConfig) {
       formats: [...formats, null],
       outputDir: '_site/img',
       urlPath: '/img',
+      // filenameFormat: function() {},
     });
 
     const sourceHtmlString = Object.values(imageMetadata)
