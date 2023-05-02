@@ -23,7 +23,6 @@ Which, of course, won't work. Pug wasn't processing the variables at all as long
 
 After a while, I finally came up with the solution. It's not pretty, but it works; here it is:
 
-
 ```js
 script.   
 //- Had to do this to get around not being able to process   

@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-![Apache Cordova 3 Programming Cover](/images/covers/acp-cover-160.png)
+{% image "src/images/covers/acp-cover-160.png", "Apache Cordova 3 Programming Cover", "image-full" %}
 
 I shutdown the web site for my Apache Cordova 3 Programming book today. The book came out in 2013, and was replaced a year or so by my Apache Cordova 4 Programming book. Cordova's at version 8 right now, so there seems to be little need for a website about a book for Apache Cordova 3.
 

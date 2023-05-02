@@ -15,7 +15,7 @@ A few weeks ago, I received an unsolicited email from Justin McCulloch, a SiteLo
 
 Here's the email:
 
- ![](/images/2018/site-lock-justin-mcculloch.png)
+{% image "src/images/2018/site-lock-justin-mcculloch.png", "Sitelock Email", "image-full" %}
 
 If they're partnered with FatCow, how is it that he doesn't know that FatCow spells its name with a capital C?
 
