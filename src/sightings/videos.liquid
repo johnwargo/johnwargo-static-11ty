@@ -1,12 +1,20 @@
----
-title: Videos
-description: Lists any public videos for presentations, product demos, or events where I've presented.
-layout: generic
-pagination:
-  data: videos
-  size: 20
-  alias: items
-  reverse: true
+---js
+{
+  "title":"Videos",
+  "description": "Lists any public videos for presentations, product demos, or events where I've presented.",  
+  "layout": "generic",
+  "pagination": {
+    "data": "videos",
+    "size": 20,
+    "alias": "items",
+    "reverse": true,
+    "before": function(data, fullData) { 
+      return Array.from(data).sort((a, b) => {
+        return a.date > b.date ? 1 : -1;
+      });
+    }
+  }
+}
 ---
 
 <p>Often when I present at a conference, the event records the presentation and makes them available online. Sometimes I fo a webinar or a product demonstration and the recording is made available. This page lists any public videos for presentations, product demos, or events where I've presented.</p>
