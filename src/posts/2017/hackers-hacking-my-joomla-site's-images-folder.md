@@ -34,6 +34,3 @@ I think what happened is that this particular site started as a Joomla 1.5 site 
 OK, so the hackers are blocked, but only because I've hosed up the site's permission settings and even I can't get in. The Joomla.org forums were useless, I got ridiculous responses like “don't mess with permissions when you don't understand them” and “that New button was there because you probably forgot you were logged in” so I had to fix this myself. I quickly determined that the site's assets table held the permission settings, so I copied records from a working instance to this broken one and I was able to get back in.
 
 I knew my Joomla permissions were 'broken' so I purchased a license to the [ACL Manager for Joomla!](https://www.aclmanager.net){target="_blank"}, installed the plugin and let it clean up my permissions and assets table. That was it, everything fixed. It's been several weeks now and I haven't been hacked once.  I can't tell you how many months (or perhaps is it years, who knows?) that I dealt with this issue (it's embarrassing). I'm just excited to have it fixed. I'm hoping that this simple article helps others with the same problem since I couldn't find anything about this particular problem online anywhere.
-
-![](file:///C:/Users/JOHNWA~1/AppData/Local/Temp/msohtmlclip1/01/clip_image001.png)
-Hackers Hacking My Joomla Images Folder

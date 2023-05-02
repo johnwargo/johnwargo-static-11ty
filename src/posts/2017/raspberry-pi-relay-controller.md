@@ -11,7 +11,7 @@ A while back, I built a Python library for the Seeed Studio Raspberry Pi Relay C
 
 When you install the application and configure the Pi to execute the project's server task at startup, you can point your Pi browser to `http://127.0.0.1:5000` and you'll see the following interface:
 
-![Pi Relay Controller 1](/images/2017/pi-relay-controller-01.png)
+{% image "src/images/2017/pi-relay-controller-01.png", "Pi Relay Controller 1", "image-full" %}
 Figure 1
 
 Here, you can turn each relay on or off, toggle the relay's status and view the current status of the relay by clicking the buttons on the page. The All buttons (All On, All Off, and Toggle All) perform the specified operation on all of the relays simultaneously.
@@ -26,7 +26,7 @@ ifconfig
 
 The Pi will display network configuration settings for each of the device's network interfaces. If you're running the Pi on a wired network connection, then you would use the inet addr highlighted in the following figure. If using a Wi-Fi network interface, then you'll want the address for the wlan0 interface.
 
-![Pi Relay Controller 2](/images/2017/pi-relay-controller-02.png)
+{% image "src/images/2017/pi-relay-controller-02.png", "Pi Relay Controller 2", "image-full" %}
 Figure 2
 
 With that address in hand, simply use it to access the controller. Open the browser on any local network connected device and use the address, plus the port number as the page address. For example, for my configuration shown above, I would use the following:
@@ -37,7 +37,6 @@ http://192.168.1.214:5000
 
 The web application uses Bootstrap, so it will automatically render correctly on any size screen. For example, the following figure shows the same web application running on my Nexus 7 tablet.
 
-![Pi Relay Controller 3](/images/2017/pi-relay-controller-03.png)
-Figure 3
+{% image "src/images/2017/pi-relay-controller-03.png", "Pi Relay Controller 3", "image-full" %}
 
 With this controller, you can connect different circuits to the relay board and flip them on and off as you validate your hardware. Then, when everything's working as expected, you can code your own application logic for the Pi, replacing this generic controller for your actual application code. Enjoy!

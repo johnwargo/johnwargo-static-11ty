@@ -7,9 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-![ReactiveConf Logo](/images/2017/reactiveconf.png)
-
-**Note:** removed obsolete attachments November 11, 2022
+{% image "src/images/2017/reactiveconf.png", "ReactiveConf Logo", "image-full" %}
 
 Soon after joining Microsoft, I accepted an invitation to deliver a presentation at ReactiveConf 2017. My manager had a speaking slot, but due to a promotion to a different team, he was no longer able to fulfil his commitment to the conference.  
 

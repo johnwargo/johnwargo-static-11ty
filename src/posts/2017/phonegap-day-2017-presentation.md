@@ -7,8 +7,6 @@ categories: [Mobile Development]
 tags: post
 ---
 
-**Note:** removed obsolete attachments November 11, 2022
-
 The week following my session at NCDevCon, I was fortunate enough to be Microsoft's representative at [PhoneGap Day 2017](https://pgday.phonegap.com/us2017/){target="_blank"} (US). Microsoft hosted the event in our Times Square (NY) offices, so I was asked to be the onsite host. It was a lot of fun and I got a chance to hang with a lot of great people.
 
 I've not been involved with the Cordova project for some time now, I interacted with the Cordova team while working as an Analyst at Forrester, but in the year that followed, I didn't do a lot of mobile development. In my role at Microsoft, I'm responsible for our JavaScript Mobile development tools (the Cordova and React Native extensions for Visual Studio Code), so it's nice to be working with Cordova again.
