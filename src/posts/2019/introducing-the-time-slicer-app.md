@@ -19,19 +19,19 @@ The way I describe the app is as a stopwatch with categories. Let me show you ho
 
 The app uses projects to define a grouping of categories. When the app launches, you're presented with an empty project list. You can quickly create your own, or load a set of sample projects to work with. The list of sample projects is shown in the figure below.
 
-![Time Slicer Project List](/images/2019/time-slicer-01.png)
+{% image "src/images/2019/time-slicer-01.png", "Time Slicer Project List", "image-full" %}
 
 Swipe left on an item to edit or delete it. Tap the plus sign at the top of the list to add a new project. When adding or editing projects, you'll see the following screen.
 
-![Time Slicer Project Edit](/images/2019/time-slicer-02.png)
+{% image "src/images/2019/time-slicer-02.png", "Time Slicer Project Edit", "image-full" %}
 
 From the main screen, tap a project to open it; you'll see a screen similar to the one shown below.
 
-![Time Slicer Project (Stopwatch)](/images/2019/time-slicer-03.png)
+{% image "src/images/2019/time-slicer-03.png", "Time Slicer Project (Stopwatch)", "image-full" %}
 
 Tap the start button or one of the categories to start the stopwatch. When you tap one of the categories, the stopwatch starts tracking time spent on that category as shown in the following figure.
 
-![Time Slicer Stopwatch (running)](/images/2019/time-slicer-04.png)
+{% image "src/images/2019/time-slicer-04.png", "Time Slicer Stopwatch (running)", "image-full" %}
 
 When you stop the stopwatch, you can share the results with any local application using the mobile device's standard sharing process.
 

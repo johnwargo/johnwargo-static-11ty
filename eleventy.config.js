@@ -117,7 +117,7 @@ module.exports = eleventyConfig => {
 	// Assumes cascading folders per year
 	// let thisYear = new Date().getFullYear();
 	// for (let i = 2009; i <= thisYear; i++) {
-		for (let i = 2009; i <= 2019; i++) {
+		for (let i = 2009; i <= 2018; i++) {
 		eleventyConfig.addPassthroughCopy(`src/images/${i}/*`);
 	}
 

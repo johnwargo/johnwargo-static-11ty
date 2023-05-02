@@ -23,7 +23,7 @@ A 9-Patch file is a special type of image that has an extra 1px border all the w
 
 For example, in the following figure you can see how the highlighted areas have black pixels set, indicating that those are the parts of the image that stretch to accommodate the device's screen resolution. By marking sections on the top and left border with black pixels, we can indicate the sections that we want to be stretched to fit the required screen dimensions (these sections are shown in pink).
 
-![9-patch file example 1](/images/2019/9-patch_01.png) 
+{% image "src/images/2019/9-patch_01.png", "9-patch file example 1", "image-full" %}
 
 All you need to a create a 9-patch file is an application that can add that 1-pixel border to the image file and let you set, or clear, pixels in that border to create the stretched image you need. I looked around and didn't find any image editors that supported 9-patch files out of the box, but here are some articles that show how to do it in [PhotoShop](http://medium.com/@wdziemia/9-patch-photoshop-and-you-3a4736772ad3). The good news is that Android Studio can create the files for you automatically (but instructions for how to do so are fairly useless).
 
@@ -43,7 +43,7 @@ In Android Studio, double-click on one of the new 9-Patch files, Studio will ope
 
 Now, using the following figure as a guide, follow the steps below.
 
-![9-patch example 2](/images/2019/9-patch_02.png)
+{% image "src/images/2019/9-patch_02.png", "9-patch example 2", "image-full" %}
 
 1. In the editor, enable the **Show patches** checkbox so you can more easily see your work.
 2. Place your mouse at position 1, then click and drag (holding the mouse button down) into the left side of the image. Once the mouse enters the image, drag it down (staying in the image) past the bottom of the image, then release the mouse button.
