@@ -194,12 +194,12 @@ Figure 6 – Logical Connection Diagram
 
 Step 1: Pass the battery wires up through the hole you drilled in the bottom of the car and solder them to the input pins on the charging module. The battery connects to the BATT connectors shown in the top right of Figure 7 (highlighted in a red box in the figure). Solder the battery's red wire to the charging module's + (positive) BATT connector. Solder the battery's black wire to the charging module's – (negative) BATT connector.
 
-{% image "src/images/2016/arduino-pinewood-derby-07.png", "Charging Module (used with permission)", "image-full" %} 
+{% image "src/images/2016/arduino-pinewood-derby-07.jpg", "Charging Module (used with permission)", "image-full" %} 
 Figure 7 – Charging Module (used with permission)
 
 Step 2: Begin by soldering the pushbutton to the switch module shown in Figure 8. The top and bottom connectors on the pushbutton (left) solder into the top and bottom module connections (right) in the figure.
 
-{% image "src/images/2016/arduino-pinewood-derby-08.png", "Power Switch Module (used with permission)", "image-full" %} 
+{% image "src/images/2016/arduino-pinewood-derby-08.jpg", "Power Switch Module (used with permission)", "image-full" %} 
 Figure 8 – Power Switch Module (used with permission)
 
 The power switch takes two wires (positive and negative) wired to the input connectors and another two off of the output connectors. The connections are the same on both sides of the module, so for this step, pick one side of the module and make both connections to the same side. Solder a red wire from the charging module's + (positive) LOAD connector (Figure 7) to the switch's In connector. Solder a black wire from the charging module's – (negative) LOAD connector to the switch's G (ground) connector.
@@ -250,7 +250,7 @@ Next, I put a piece of double-sided tape on the board and connected the ribbon t
 
 Step 5: Now, cut the remaining length of the black ground wire to fit the location of the accelerometer on the car then strip the end and solder the wire to the ground connection (GND) on the accelerometer shown in Figure 13.
 
-{% image "src/images/2016/arduino-pinewood-derby-13.png", "Accelerometer Module (used with permission)", "image-full" %}
+{% image "src/images/2016/arduino-pinewood-derby-13.jpg", "Accelerometer Module (used with permission)", "image-full" %}
 Figure 13 – Accelerometer Module (used with permission)
 
 Cut the 4-wire ribbon cable to length then strip the wire ends and solder them to the accelerometer. Solder the red wire to the voltage input (Vin) connector on the accelerometer. Solder the remaining wires to the Xout, Yout and Zout connectors on the accelerometer shown in the figure. In our configuration, we have the accelerometer's X output to the Arduino pin 14, Y output to pin 15 and Z output to pin 16. If you wire yours differently, you'll have to make some minor changes to the application source code shown later in the article.
