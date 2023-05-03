@@ -21,7 +21,7 @@ Let me show you what I mean:
 
 When looking at the application home screen shown in Figure 1, it's really hard to tell that the icons shown there are clickable. They look like they're disabled. They use color for the logout button and the DevCon logo, but deliberately didn't use color to indicate clickable areas on the home screen. Those icons are dull and truly (to me) do not look like anything I should be able to click on.
 
-![Figure 1](/images/2011/bb_devcon_2011_app0.png)
+{% image "src/images/2011/bb_devcon_2011_app0.png", "Figure 1", "image-full" %}
 Figure 1
 
 As you will see later, other parts of the application are rich with color, but not the home screen icons. What were they thinking?
@@ -32,7 +32,7 @@ One thing I noticed though, and I probably wouldn't have noticed it except that 
 
 Another thing I noticed, and this is a HUGE pet peeve for me, is that when you open the agenda or my schedule, the application doesn't by default open the current day's schedule. The application knows what day it is and it knows I'm opening my schedule, why not default to opening the current day's schedule then give me options to select different days if I want? The designer of the application has to think about how the application will be used; in this case they didn't. 99% of the time I'm going to be looking at my current day's calendar, why not show it to me first instead of making me click the current day every single time I open that part of the application. I shouldn't have to make a selection on the screen shown in Figure 2 every single time I open that part of the application.
 
-![Figure 2](/images/2011/bb_devcon_2011_app1.png)
+{% image "src/images/2011/bb_devcon_2011_app1.png", "Figure 2", "image-full" %}
 Figure 2
 
 Open the current day's schedule no matter what then give me previous day and next day buttons on the top to use to get to a different day. It's only a three day conference, so it would never take more than two clicks to get to any day but only one click to get to the current day.
@@ -41,10 +41,10 @@ Another thing I noticed about Figure 2 is that it's impossible to tell that the 
 
 The next thing really surprised me since it's such a simple thing and it's pretty glaring. Take a look at Figures 3 and 4 below. Notice how much bigger the DevCon icon is compared to other icons on the BlackBerry and Playbook. The icon seems to match the 'theme' of the device or at least not look out of place against the other icons, but no effort was made to make the icon proportional to the other icons on the device.
 
-![Figure 3](/images/2011/bb_devcon_2011_app2.png)
+{% image "src/images/2011/bb_devcon_2011_app2.png", "Figure 3", "image-full" %}
 Figure 3
 
-![Figure 4](/images/2011/bb_devcon_2011_app3.png)
+{% image "src/images/2011/bb_devcon_2011_app3.png", "Figure 4", "image-full" %}
 Figure 4
 
 How hard would it have been to make application icons that fit with the other icons on the device? As you can see from the BlackBerry Torch screen shot in Figure 3, the icon is so big that the icon and label scrunch up against each other.

@@ -50,10 +50,12 @@ JSON stands for JavaScript Object Notation and it's a way of representing data i
 
 In JSON, an array looks like this:
 
-![](/images/2011/jsonarray.gif)  
+{% image "src/images/2011/jsonarray.gif", "", "image-full" %}
+
 And an Object looks like this:
 
-![](/images/2011/jsonobject.gif)  
+{% image "src/images/2011/jsonobject.gif", "", "image-full" %}
+
 You'll see how these apply in the following section.
 
 *JSON Images shamelessly 'borrowed' from [www.json.org](https://www.json.org){target="_blank"}.
@@ -195,6 +197,7 @@ Sub Initialize()
   
 End Sub
 ```
+
 The `GetCmdLineValue` function simply takes an input string and returns everything between the two delimiters.
 
 ```vb

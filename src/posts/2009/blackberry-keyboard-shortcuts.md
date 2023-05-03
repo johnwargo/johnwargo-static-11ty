@@ -13,32 +13,32 @@ On the BlackBerry smartphone, most business people spend the majority of their t
 
 When you open the BlackBerry 'Messages' application, the highlight is always on the current date. To create a new email message, merely press the enter key with the date selected and the BlackBerry will open a new message for you to start typing in. There's no need to click the menu button and select 'Compose Email.'
 
-![BlackBerry Message List](/images/2009/messages-client.jpg)
+{% image "src/images/2009/messages-client.jpg", "BlackBerry Message List", "image-full" %}
 
 To open an email message, there's no need to click the trackball or use the menu to open a message, just select the message and press the 'Enter' key.
 
 When browsing messages in the Messages application, the following shortcuts are active:
 
-*   't': Go to the top of the message list
-*   'b': Go to the bottom of the message list
-*   'u': Go to the first (oldest) unread message
-*   'n': Go to the next date in the list
-*   'p': Go to the previous date in the list
-*   'space bar': To page down through the list of messages one screen at a time.
-*   'i': to file the selected message in a folder
+* 't': Go to the top of the message list
+* 'b': Go to the bottom of the message list
+* 'u': Go to the first (oldest) unread message
+* 'n': Go to the next date in the list
+* 'p': Go to the previous date in the list
+* 'space bar': To page down through the list of messages one screen at a time.
+* 'i': to file the selected message in a folder
 
 With a message highlighted in the message list, you can delete the message by pressing the 'delete' key on the keyboard. There's no need to open the menu and select 'Delete' - that takes much longer.
 
 When reading a message, the same keys apply:
 
-*   't': Go to the top of the message
-*   'b': Go to the bottom of the message
-*   'u': Go to the first (oldest) unread message in the message list
-*   'n': Go to the next date message in the message list
-*   'p': Go to the previous date in the message list
-*   'space bar': To page down through the message one screen at a time
-*   'i': to file the message in a folder
-*   'delete': Delete the current message
+* 't': Go to the top of the message
+* 'b': Go to the bottom of the message
+* 'u': Go to the first (oldest) unread message in the message list
+* 'n': Go to the next date message in the message list
+* 'p': Go to the previous date in the message list
+* 'space bar': To page down through the message one screen at a time
+* 'i': to file the message in a folder
+* 'delete': Delete the current message
 
 So, when you've gotten off of a plane or left a meeting and you want to get caught up on your email, there's no need to open a message, close it and navigate to the next one. All you need to do is open the first message then press the 'u' button repeatedly until you've read all of the unread messages.
 

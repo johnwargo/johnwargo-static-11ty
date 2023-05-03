@@ -23,51 +23,52 @@ Just in case you're interested in how Second Copy works, I'm going to show below
 
 To setup a job, you have to create a profile; a profile in Second Copy defines actions taken upon a particular file folder on a computer system Second Copy has access to. The figure below shows the profiles I have defined on my desktop system.
 
-![Figure 1](/images/2010/secondcopy0.png)
+{% image "src/images/2010/secondcopy0.png", "Figure 1", "image-full" %}
 Figure 1
 
-When you create a new profile, Second Copy walks you through a wizard that allows you to select all of the options for the job. The first step in the wizard allows you to select Express or Custom setup for your profile. With Express setup, you're presented with amore simplified menu of options to use for your profile – this option is for inexperienced users who just want to get something done without looking at every possible option. For the profile I'm setting up here, I'm going to select the Custom option (as shown in the following figure) and click the 'Next' button.
+When you create a new profile, Second Copy walks you through a wizard that allows you to select all of the options for the job. The first step in the wizard allows you to select Express or Custom setup for your profile. With Express setup, you're presented with a more simplified menu of options to use for your profile – this option is for inexperienced users who just want to get something done without looking at every possible option. For the profile I'm setting up here, I'm going to select the Custom option (as shown in the following figure) and click the 'Next' button.
 
-![Figure 2](/images/2010/secondcopy1.png)
+{% image "src/images/2010/secondcopy1.png", "Figure 2", "image-full" %}
 Figure 2
 
 The wizard will next prompt you to select the source folder you will be copying using Second Copy.
 
-![Figure 3](/images/2010/secondcopy2.png)
+{% image "src/images/2010/secondcopy2.png", "Figure 3", "image-full" %}
 Figure 3
 
 You can then select to copy all files and folders or only a specific set of files and folders.
 
-![Figure 4](/images/2010/secondcopy3.png)
+{% image "src/images/2010/secondcopy3.png", "Figure 4", "image-full" %}
 Figure 4
 
 Once the source files have been selected, the next step is to select the destination folder for the copied files.
 
-![Figure 5](/images/2010/secondcopy4.png)
+{% image "src/images/2010/secondcopy4.png", "Figure 5", "image-full" %}
 Figure 5
 
 Of course, if the destination folder does not exist, the program prompts you before creating it.
 
-![Figure 6](/images/2010/secondcopy5.png)
+{% image "src/images/2010/secondcopy5.png", "Figure 6", "image-full" %}
 Figure 6
 
 Once the program knows which files it needs to copy and where to copy them to, you're next prompted to specify when the job sill be scheduled to run. As shown below, you have the ability to specify a specific schedule but also to execute on certain triggers. You can also omit specific days if for example you don't want the job to run on weekends or run every other day.
 
-![Figure 7](/images/2010/secondcopy6.png)  
+{% image "src/images/2010/secondcopy6.png", "Figure 7", "image-full" %}
 Figure 7
 
 In the next step, you're prompted to select the type of copy used for this profile. If you know you're going to make edits in another copy of the file like I am for this profile, select the Synchronize option. If you want the profile to merely back up the files, then select the Simple Copy or Exact Copy options.
 
-![Figure 8](/images/2010/secondcopy7.png)
+{% image "src/images/2010/secondcopy7.png", "Figure 8", "image-full" %}
 Figure 8
 
 Once you've selected the type of copy, you're prompted to select options for the job. In general, I usually synchronize deletions also but ensure that I make multiple backups of any file. This allows me to keep a very clean synchronized copy, but also maintain copies of files I've edited or deleted elsewhere. With this in place, I have even more options for recovering from an error.
 
-![Figure 9](/images/2010/secondcopy8.png)
+{% image "src/images/2010/secondcopy8.png", "Figure 9", "image-full" %}
 Figure 9
 
 With all of the settings defined for the job, you're prompted to provide a name for the profile and you're all set.
-![Figure 10](/images/2010/secondcopy9.png)
+
+{% image "src/images/2010/secondcopy9.png", "Figure 10", "image-full" %}
 Figure 10
 
 That's it for this installment, be sure to check out the other articles in the series.

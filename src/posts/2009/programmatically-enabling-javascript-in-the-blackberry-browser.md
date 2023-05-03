@@ -14,22 +14,25 @@ In the NoScript section of an HTML page, put in some JavaScript. It doesn't have
 Here's a sample web page that enables this:
 
 ```html
-<!DOCTYPE html public "-//W3C//DTD HTML 4.01 Transitional//EN">  
-<HTML>  
-<HEAD>  
-<TITLE>JavaScript Test</TITLE>  
-</HEAD>  
-</HEAD>  
-<BODY>  
-<h1>JavaScript Test</h1>  
-<SCRIPT type="text/javascript">  
-document.write("JavaScript is enabled!")  
-</SCRIPT>  
-<NOSCRIPT>  
-JavaScript is disabled!<br />  
-Please <A href="javascript:void()">click here</A> to enable JavaScript.  
-</NOSCRIPT>  
-</BODY>  
+<!DOCTYPE html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+
+<HEAD>
+  <TITLE>JavaScript Test</TITLE>
+</HEAD>
+</HEAD>
+
+<BODY>
+  <h1>JavaScript Test</h1>
+  <SCRIPT type="text/javascript">
+    document.write("JavaScript is enabled!")  
+  </SCRIPT>
+  <NOSCRIPT>
+    JavaScript is disabled!<br />
+    Please <A href="javascript:void()">click here</A> to enable JavaScript.
+  </NOSCRIPT>
+</BODY>
+
 </HTML>
 ```
 

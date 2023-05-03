@@ -19,19 +19,19 @@ I am having a problem with the iPad Book Reader application. I've purchased some
 
 When the book reader displays an italicized word next to a regular word, it scrunches up the space to the left of the italicized word so it looks like it's right next to the preceding word (no space between the words) as shown in the following figure.
 
-![Figure 1](/images/2010/ipad-ebook-reader-1.png)
+{% image "src/images/2010/ipad-ebook-reader-1.png", "Figure 1", "image-full" %}
 Figure 1
 
 For those readers of my What Were They Thinking series, the problem I'm having isn't related to the font size I have set on the device – rest assured that I'm running it at the default font settings for the device.
 
 Additionally, when the reader uses small caps to render a person's title, I'm having the same problem – the words are all scrunched up as shown below:
 
-![Figure 2](/images/2010/ipad-ebook-reader-2.png)
+{% image "src/images/2010/ipad-ebook-reader-2.png", "Figure 2", "image-full" %}
 Figure 2
 
 Another thing I noticed is that when the Reader displays an Initial Caps for the first letter in a paragraph that it inserts some extra space between that line and the line that follows. It's not like it needs the extra space, it just adds it unnecessarily.
 
-![Figure 3](/images/2010/ipad-ebook-reader-3.png)
+{% image "src/images/2010/ipad-ebook-reader-3.png", "Figure 3", "image-full" %}
 Figure 3
 
 I'm going to keep watching to see if others are experiencing the same problem and whether Apple takes the time to fix it soon.

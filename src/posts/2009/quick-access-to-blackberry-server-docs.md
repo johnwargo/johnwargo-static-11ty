@@ -13,4 +13,4 @@ At this URL is a very organized summary of all server documentation categories a
 
 Enjoy the tip!
 
-![BlackBerry Server Docs Page](/images/2009/bb-server-docs-resize.jpg)
+{% image "src/images/2009/bb-server-docs-resize.jpg", "BlackBerry Server Docs Page", "image-full" %}

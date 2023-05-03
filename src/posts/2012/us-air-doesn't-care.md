@@ -13,4 +13,4 @@ I gave them some suggestions and during the process of typing them all in, I dis
 
 Anyway, as I submitted my comments, I was struck by what I saw on the confirmation page (shown below). You can tell that they just don't care about customer service when they won't respond to customer comments for 5 to 7 days.To top it off, they even tell you about it - you'd think they'd want to hide the fact that they don't care enough about you to respond within 24 or 48 hours.
 
-![](/images/2012/usair-web.png)
+{% image "src/images/2012/usair-web.png", "", "image-full" %}

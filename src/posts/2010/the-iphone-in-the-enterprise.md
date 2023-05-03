@@ -12,10 +12,9 @@ A colleague asked me a while back to provide my comments on [InfoWorld's Enterpr
 I could be wrong on this, and as usual my comments below do not reflect the official position of AT&T, but here's my take on the report:  
   
 I'm not sure the iPhone is capable of satisfying the enterprise and the different articles in the report highlight many of the issues, but not really the root cause behind them.  Apple historically has never really 'understood' the enterprise and until now it hasn't really been an issue. Now that these organizations have all of these remote devices accessing corporate data, it's even more important that Apple understand the enterprise.  Buried deep within the report was the following statement:  
-  
+ 
 
 > “Apple designed the iPhone as a consumer device, so it's heavy on convenience and light on security. If you want protection, you have to accept some pain”  
-
   
 No enterprise is going to be interested in hearing that unless they're willing to forgo security in order to have the cool device (which is currently the case with many enterprises).  
   

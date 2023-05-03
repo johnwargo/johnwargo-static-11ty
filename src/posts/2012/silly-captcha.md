@@ -9,7 +9,7 @@ tags: post
 
 I was registering for access to the Sencha forums ([www.sencha.com](https://www.sencha.com){target="_blank"}) today when I saw the following on the registration form:
 
-![](/images/2012/silly_captcha.png)
+{% image "src/images/2012/silly_captcha.png", "", "image-full" %}
 Figure 1
 
 That's pretty advanced math for a CAPTCHA, isn't it?

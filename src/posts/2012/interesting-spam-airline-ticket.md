@@ -11,8 +11,7 @@ I just received yet another interesting spam message in my inbox. Well actually 
 
 Anyways, here's a screen shot of the email.
 
-![Figure 1](/images/2012/spam_20120402.png)
-Figure 1
+{% image "src/images/2012/spam_20120402.png", "Figure 1", "image-full" %}
 
 What I imagine happens is someone gets this email and goes “Crikey, I didn't buy any plane ticket” and opens the attachment to see who purchased a ticket. Of course they open the 'ticket' and get infected. It must work since I've received many of these over time.
 

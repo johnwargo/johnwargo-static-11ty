@@ -11,7 +11,7 @@ I have published several articles on this site that illustrated different types 
 
 With my original web services, the idea was that a mobile application would send a request for a list of contacts that matched a search string then, when an application user selected a user, the application would make another call to the server to obtain the details for the selected contact. This process is illustrated in Figure 1.
 
-![Figure 1 – Two-part Request Process](/images/2011/drawing1.png)
+{% image "src/images/2011/drawing1.png", "Figure 1 – Two-part Request Process", "image-full" %}
 Figure 1 – Two-part Request Process
 
 When I first started doing mobile development, performance was important. The networks were slow and mobile devices had limited processing power, memory and battery life. In order to make the most efficient use of the network and increase performance and battery life for the device, I built the services to make the best use of network and processing power. What this meant was that the services would be designed to send a little data as possible over the wireless network and to ensure that data that would possibly not be used by the mobile application wouldn't be sent across the wireless network.
@@ -26,7 +26,7 @@ Apple's Dashcode IDE has some pretty cool features that make it easy to work wit
 
 So, I decided to rewrite my Domino Directory lookup agent so all of the relevant data could be retrieved with a single call to the RESTful agent as shown in Figure 2.
 
-![Figure 2 – Single Part Request Process](/images/2011/drawing2.png)
+{% image "src/images/2011/drawing2.png", "Figure 2 – Single Part Request Process", "image-full" %}
 Figure 2 – Single Part Request Process
 
 With this new service, a single call is made to the server using the following URL:
@@ -76,15 +76,15 @@ The brackets (the `[` and `]` characters) are used to define an array and the cu
 
 To obtain this output, all you need is a simple agent in a Domino Directory database. To create the RESTful service, create a new agent in your Domino Directory and set the agent properties shown in Figure 3. The agent is a web agent; it is triggered by a URL request triggered by the mobile application (or web browser). It uses an 'On Event' trigger and the event is defined as 'Agent list selection.'
 
-![Figure 3 – Domino RESTful Agent Properties](/images/2011/image3.png)
+{% image "src/images/2011/image3.png", "Figure 3 – Domino RESTful Agent Properties", "image-full" %}
 Figure 3 – Domino RESTful Agent Properties
 
 Most of the agent's work is done in the Initialize subroutine which performs the following steps:
 
-1.    Parse the incoming URL to determine the search string being passed in by the calling program.  
-2.    Search the ($VIMPeopleByLastName) view to locate all users defined in the database whose last name begins with the characters provided in the search string.  
-3.    Loop through the search results and create the JSON array described previously.  
-4.    Print the JSON array text to the console which causes it to be returned to the program that triggered the URL.
+1. Parse the incoming URL to determine the search string being passed in by the calling program.  
+2. Search the ($VIMPeopleByLastName) view to locate all users defined in the database whose last name begins with the characters provided in the search string.  
+3. Loop through the search results and create the JSON array described previously.  
+4. Print the JSON array text to the console which causes it to be returned to the program that triggered the URL.
 
 In the code, the GetCmdLineValue function is used to parse the HTTP QUERY_STRING variable to retrieve values passed on the URL.
 

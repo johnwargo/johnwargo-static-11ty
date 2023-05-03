@@ -21,7 +21,7 @@ So here's where the scam comes in – and I have to be honest and say that I rea
 
 You can buy the book brand new and in perfect shape (Perfect Bound even – it's an industry term) for $14.95US. Seems pretty straight forward. Now, when you go to my book's page here, you'll see that there are vendors selling both new and used copies of the book. Take a look:
   
-![What Now? On Amazon.Com](/images/2009/what-now-on-amazon.jpg)
+{% image "src/images/2009/what-now-on-amazon.jpg", "What Now? On Amazon", "image-full" %}
 
 Now, what I don't understand is why there are vendors out there selling the book for twice and even almost 3 times the standard price of the book? If you can get the book for $14.95, why would you buy it at $35.00 or more? It just doesn't make sense. Now, if I was famous (I'm not) or if it was a special copy of the book (signed for example, which I know they aren't – I know I haven't signed any), it could be worth more money, but not what these places are charging.
 

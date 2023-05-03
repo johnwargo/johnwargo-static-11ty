@@ -15,8 +15,8 @@ The thing about Android and iPhone is that unlike BlackBerry and Windows Mobile,
 
 I wasn't able to get the Android example done in time for Lotusphere (not without trying, I killed a lot of nights in Orlando during the conference furiously trying to get the app done – god thing I was recovering from pneumonia and didn't want to party anyway). A while after Lotusphere I finally got the application done, so I'm going to cover that application at the View conference in a few weeks. After the conference (perhaps before if I get time) I'm going to publish an article that illustrates how to build an Android application that talks to the JSON-based web service. Just so you believe that it works, here's a screen shot of the application.
 
-![Android Contact Lookup Application](/images/2010/android-app.png)
+{% image "src/images/2010/android-app.png", "Android Contact Lookup Application", "image-full" %}
 
 I'm most of the way through building the same application for the iPhone. It's been a nightmare building the application – Objective-C is so weird and complicated that I'm really struggling to finish the last part of the application. I'm planning to finish the application in time for the conference, I think I can do it, but like I said, I'm struggling. I'm probably not going to publish anything here about the iPhone application – I'm going to see if I can get an article about the application published in the View. Stay tuned on that one. Just to whet your appetite here's a screen shot of the application.
 
-![iPhone Contact Lookup Application](/images/2010/screenshot-2010-04-19.png)
+{% image "src/images/2010/screenshot-2010-04-19.png", "iPhone Contact Lookup Application", "image-full" %}

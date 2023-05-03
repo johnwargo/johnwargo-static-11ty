@@ -24,12 +24,12 @@ Building the Application
 
 Attached to this article is a zip file containing all of the code for this application. If you extract the files, you will see a folder structure similar to the one shown in Figure 1. In the source folder you'll find the `domdirlookup` files generated in the previous installment and the contactLookup folder contains the source files for the application. The application's pretty simple – it consists of three Java class files which will be explained below.
 
-![Figure 1](/images/2009/dbja3-1.jpg)
+{% image "src/images/2009/dbja3-1.jpg", "Project Folder Structure", "image-full" %}
 Figure 1 – Project Folder Structure
 
 Start your development tool of choice (for me it's Eclipse) and open the project; you should see a screen similar to the one shown in Figure 2. 
 
-![Figure 1](/images/2009/dbja3-2.jpg)
+{% image "src/images/2009/dbja3-2.jpg", "Eclipse IDE", "image-full" %}
 Figure 2 – Eclipse IDE
 
 The main class for the application is the ContactLookup class defined in the contactLookup.java file in the project. There's nothing special about this class, it just defines a standard BlackBerry UiApplication called ContactLookup that creates and displays the ContactLookupScreen  screen as shown in the following code:
@@ -380,32 +380,32 @@ That's it – that's the program. For your own application, you'll need to plug 
 
 When you test the application in the simulator from your development environment, depending on the version of the BlackBerry Device Software you're running the application could appear in different places. In later versions, it will appear in the 'Downloads' folder as shown in the following figure.
 
-![Figure 3](/images/2009/dbja3-3.jpg)
+{% image "src/images/2009/dbja3-3.jpg", "BlackBerry Device Downloads Folder", "image-full" %}
 Figure 3 – BlackBerry Device Downloads Folder
 
 When you open the application, you will be presented with the following screen:
 
-![Figure 4](/images/2009/dbja3-4.jpg)
+{% image "src/images/2009/dbja3-4.jpg", "Application Main Screen", "image-full" %}
 Figure 4 – Application Main Screen
 
 Enter the first three characters of the last name for a user who you know is defined in the database and press the BlackBerry menu button. You will see a screen similar to the one shown in Figure 5. If you press the menu button and there's no option for 'Get Contact List' be sure that you have something typed (at least one character) in the edit field highlighted in Figure 4.
 
-![Figure 5](/images/2009/dbja3-5.jpg)
+{% image "src/images/2009/dbja3-5.jpg", "Get Contact List Menu", "image-full" %}
 Figure 5 – Get Contact List Menu
 
 The application will contact the server and return a list of all of the contacts that match the search string as shown in the following figure. 
 
-![Figure 6](/images/2009/dbja3-6.jpg)
+{% image "src/images/2009/dbja3-6.jpg", "Contact Lookup Results", "image-full" %}
 Figure 6 – Contact Lookup Results
 
 Select one of the contacts in the list and press the BlackBerry menu button. Select 'Get Contact Details' from the menu as shown below.
 
-![Figure 7](/images/2009/dbja3-7.jpg)
+{% image "src/images/2009/dbja3-7.jpg", "Get Contact Details Menu", "image-full" %}
 Figure 7 – Get Contact Details Menu
 
 The server will return the contact information for the selected contact. Notice that the phone numbers and the email address are underlined – this indicates that they can be clicked to bring up a menu of options available to the user (such as calling the selected phone number or sending an email to the selected email address.
 
-![Figure 8](/images/2009/dbja3-8.jpg)
+{% image "src/images/2009/dbja3-8.jpg", "Contact Details Screen", "image-full" %}
 Figure 8 – Contact Details Screen
 
 ## What's Missing?

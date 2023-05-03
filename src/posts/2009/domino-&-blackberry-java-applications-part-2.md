@@ -15,9 +15,9 @@ In the previous installment in this series, I showed how to build a simple Domin
 
 I should probably explain that the BlackBerry Platform added support for JSR 172 with the release of BlackBerry Device Software 4.3. It's JSR 172, the [J2ME Web Services Specification](https://jcp.org/en/jsr/detail?id=172){target="_blank"}, which gives BlackBerry Java applications the ability to easily consume web services. You could do the work without using JSR 172, using something like [kSOAP 2](https://ksoap2.sourceforge.net/){target="_blank"}, but then you:
 
-*   Wouldn't be using a standard
-*   Would be relying upon an ancillary library to do the work
-*   Would have a larger application to deploy since your application needs access to all those extra library classes
+* Wouldn't be using a standard
+* Would be relying upon an ancillary library to do the work
+* Would have a larger application to deploy since your application needs access to all those extra library classes
 
 Anyway, if you ask about this topic on the BlackBerry forums, you'll receive responses that say JSR 172 is junk and you should use kSOAP 2 and others (like me) who will tell you it's pretty easy and you should just use the stuff baked into the BlackBerry platform. Use the stuff that's baked into the BlackBerry platform – it's going to be much easier for you all around.
 
@@ -27,12 +27,12 @@ So, the way this JSR 172 stuff works is you download the [Sun Java Wireless Tool
 
 To get this process rolling, go to Sun's web site and download the Sun Java Wireless Toolkit for CLDC – the link is provided in the previous paragraph. After you have downloaded the package, run its installation program to install it on your local hard drive. As someone complained on the forums last week, it's a whole lot of stuff for that one little utility. Unfortunately that's true – the toolkit has a whole bunch of tools and utilities in it, we're only using a very small part of it. I don't know of any other way to get this to work than to just install the whole thing and live with it. After you install it, you'll find a folder for the toolkit off the root of your system's hard drive as shown in the following figure.
 
-![Figure 1](/images/2009/dbja2-1.jpg)
+{% image "src/images/2009/dbja2-1.jpg", "Figure 1", "image-full" %}
 Figure 1
 
 Fortunately it also puts the shortcuts you need onto the Windows Start menu right where you expect them to be as shown in Figure 2.  
    
-![Figure 2](/images/2009/dbja2-2.jpg)
+{% image "src/images/2009/dbja2-2.jpg", "Figure 2", "image-full" %}
 Figure 2
 
 ## Generating the Java Stub
@@ -52,31 +52,31 @@ https://jwargo1/bb\_names.nsf/domdirlookup?wsdl
 
 When I paste this URL into the browser, I will see the following page (or something similar):  
    
-![Figure 3](/images/2009/dbja2-3.jpg)
+{% image "src/images/2009/dbja2-3.jpg", "Figure 3", "image-full" %}
 Figure 3
 
 Note that some browsers such as Google Chrome don't know how to render WSDL files. When I opened the same URL in the Chrome browser, all I got was a blank page.
 
 Once you have a working WSDL URL, you're ready to generate your stubs. In the Start menu folder for the Sun Java Wireless Toolkit (shown in Figure 2) select the 'Utilities' shortcut. Windows will open a screen similar to the one shown below:  
    
-![Figure 4](/images/2009/dbja2-4.jpg)
+{% image "src/images/2009/dbja2-4.jpg", "Figure 4", "image-full" %}
 Figure 4
 
 Scroll down and select the item labeled 'Stub Generator' and click the 'Launch' button. The stub generator program will open as shown below:
 
-![Figure 5](/images/2009/dbja2-5.jpg)
+{% image "src/images/2009/dbja2-5.jpg", "Figure 5", "image-full" %}
 Figure 5
 
 In the dialog, paste the Domino WSDL file URL into the 'WSDL Filename or URL' field on the form. You DO NOT want to navigate to a folder where you have exported the WSDL from the database – an exported WSDL does not contain the destination information the stub program will need to locate the server and database file name containing the web service. 
 
 For the 'Output Path', specify a folder location on your hard drive where you want the stub class files created. For 'Output Package' specify the package name you want to use for the stub class. In this case, I'm saving the output to c:\dev\java and the program will create the necessary subfolders to match the output package (com.johnwargo.domdirlookup).  
    
-![Figure 6](/images/2009/dbja2-6.jpg)
+{% image "src/images/2009/dbja2-6.jpg", "Figure 6", "image-full" %}
 Figure 6
 
 The program will gyrate for a few seconds and inform you that the process completed. When you open Windows Explorer and look at the output path, What you'll find is a complete folder structure shown below:  
    
-![Figure 7](/images/2009/dbja2-7.jpg)
+{% image "src/images/2009/dbja2-7.jpg", "Figure 7", "image-full" %}
 Figure 7
 
 Notice that the stub files were created in c:\dev\java\com\johnwargo\domdirlookup – the concatenation of the output folder and the output package name.

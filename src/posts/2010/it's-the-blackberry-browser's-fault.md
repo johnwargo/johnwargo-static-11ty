@@ -51,7 +51,7 @@ What should happen is the server sends a page to the browser with content announ
 
 The way to confirm what is being sent to the BlackBerry Browser by the web server is to view the page's source code. By looking at the page source, you can see exactly what the server sent and see if anything was sent at all. To view the page's source, open the application in the browser then hold down the keyboard's ALT key and type RBVS (which stands I think for RIM BlackBerry View Source). When you finish typing those four characters and release the ALT key, the BlackBerry source viewer application will open and display the source for the page as shown in Figure 1.
 
-![Figure 1](/images/2010/screenshot-nov1810-073702a.jpg)
+{% image "src/images/2010/screenshot-nov1810-073702a.jpg", "Figure 1", "image-full" %}
 Figure 1 – The BlackBerry Browser Source Viewer
 
 You can then poke through the code looking for what's happening with the application. If the page contains properly formatted HTML, then the BlackBerry Browser will render it just fine, if not, you've found the source (no pun intended) of your problem.

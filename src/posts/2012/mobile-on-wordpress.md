@@ -23,36 +23,36 @@ Figure 1 shows the new McNelly SoftWorks web site I launched this weekend. The s
 
 As I setup the site, I wanted the company logo and a simple menu at the top and the content filling most of the rest of the page. For the products area, I added a sub-menu which I was very easily able to assign to the right column of the page with the article content listed on the left. Overall, I really loved the simplicity of the site and how clean the UI was. I worked Friday night and Saturday morning on the site and was very happy with the results.
 
-![McNelly SoftWorks web site](/images/2012/mcnelly_softworks_products_page_640.png)
+{% image "src/images/2012/mcnelly-softworks-products-page-640.png", "McNelly SoftWorks web site", "image-full" %}
 Figure 1 – McNelly SoftWorks web site
 
 My son had a cub scouts meeting on Friday and as I waited for his meeting to wrap-up I fired up my BlackBerry browser to see how the site looked on the device's smaller screen. I was very surprised to see that the site was completely mobile friendly and looked amazing on the BlackBerry.  Looking back, I noticed that the Tiga template was listed as being mobile friendly – I'd completely missed that when I selected it. Figure 2 shows the site on my BlackBerry Bold 9930 device browser.
 
-![McNelly SoftWorks Home Page on the BlackBerry Browser](/images/2012/wordpress%20site%20on%20blackberry%201.png)
+{% image "src/images/2012/wordpress-site-on-blackberry-1.png", "McNelly SoftWorks Home Page on the BlackBerry Browser", "image-full" %}
 Figure 2 – McNelly SoftWorks Home Page on the BlackBerry Browser
 
 On the BlackBerry side, the BES or BIS services pre-process the web content automatically to make it better fit on the smaller BlackBerry screen. In this case, the BES or BIS Service resizes images to fit the screen. That capability coupled with specific settings on the Tiga template made the site simply render beautifully on the BlackBerry. Notice in the figure that the logo has been resized to fit the screen and that the menu is shifted from the right side of the page to directly below the logo.
 
 When you open the products page shown in Figure 1, the 'side' menu gets added, but because of the limited real estate on the BlackBerry screen, it's shifted by the template to immediately below the page content as shown in Figure 3.
 
-![McNelly SoftWorks Products Menu on the BlackBerry Browser](/images/2012/wordpress%20site%20on%20blackberry%202.png)
+{% image "src/images/2012/wordpress-site-on-blackberry-2.png", "McNelly SoftWorks Products Menu on the BlackBerry Browser", "image-full" %}
 Figure 3 – McNelly SoftWorks Products Menu on the BlackBerry Browser
 
 I tested every aspect of the site on the BlackBerry and it works great – what an excellent way to have both desktop and mobile friendly sites from a single template (without having to resort to the WordPress mobile Plug-in [https://wordpress.org/extend/plugins/wordpress-mobile-pack/](https://wordpress.org/extend/plugins/wordpress-mobile-pack/){target="_blank"}).
 
 For those who would like to see the site on an Android device, take a look at Figure 4.
 
-![McNelly SoftWorks Products Menu on an Android Device](/images/2012/wordpress%20site%20on%20android.png)  
+{% image "src/images/2012/wordpress-site-on-android.png", "McNelly SoftWorks Products Menu on an Android Device", "image-full" %}
 Figure 4 – McNelly SoftWorks Products Menu on an Android Device
 
 On an Android Tablet (Nexus 7 in this case), the site looks like what's shown in Figure 5.
 
-![McNelly SoftWorks Products Menu on an Android Tablet](/images/2012/wordpress%20site%20on%20android%20tablet.png)
+{% image "src/images/2012/wordpress-site-on-android-tablet.png", "McNelly SoftWorks Products Menu on an Android Tablet", "image-full" %}
 Figure 5 – McNelly SoftWorks Products Menu on an Android Tablet
 
 And, of course, for those of you who have to see this on an iOS device, Figure 4 covers that option.
 
-![McNelly SoftWorks Products Menu on an iOS Device](/images/2012/wordpress%20site%20on%20ios.png)
+{% image "src/images/2012/wordpress-site-on-ios.png", " SoftWorks Products Menu on an iOS Device", "image-full" %}
 Figure 6 – McNelly SoftWorks Products Menu on an iOS Device
 
 Notice that the Android device (my personal Motorola Atrix 2 device) does a slightly better job rendering the content. I've always generally felt that Safari is basically a desktop browser running on a smaller screen where the BlackBerry and likely Android browsers are actual mobile browsers. The site's menu looks much better on the Android device.

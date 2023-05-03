@@ -11,7 +11,7 @@ I don't know why I like writing about these Internet email scams, but I just do.
 
 Here's the email I got:
 
-![Figure 1](/images/2009/internet-scam-20091106.jpg)
+{% image "src/images/2009/internet-scam-20091106.jpg", "Figure 1", "image-full" %}
 Figure 1
 
 The good thing is that my ISP recognized the email as Spam (no, Spam is not an acronym, it's a breakfast meat product – why do people type it in all caps?) and modified the subject of the message on its way to me. Anyone receiving this should benefit from those types of services that ISP's provide. 
@@ -24,9 +24,9 @@ The subject of the email makes sense, nothing too scary there (except for that S
 
 The body though, just isn't right. I have to think that if Facebook is sending me email messages, they'll take the time to:
 
-1.  Make sure it looks professional. I'm pretty sure the Facebook logo will be in anything they send to me.
-2.  Address it to me. They know my first and last name, any message from my bank, amazon.com, facebook.com, linkedin.com and others better be addressed to me by name otherwise I'm ignoring it. Why would they say 'Dear Facebook user' when they could just have easily have said 'Dear John'?
-3.  Make sure it's in English. I don't know about you, but 'Accounts that do not submit the updated account agreement by the deadline will have restricted.' Isn't a complete sentence and was probably written by someone who doesn't use English as a first language.
+1. Make sure it looks professional. I'm pretty sure the Facebook logo will be in anything they send to me.
+2. Address it to me. They know my first and last name, any message from my bank, amazon.com, facebook.com, linkedin.com and others better be addressed to me by name otherwise I'm ignoring it. Why would they say 'Dear Facebook user' when they could just have easily have said 'Dear John'?
+3. Make sure it's in English. I don't know about you, but 'Accounts that do not submit the updated account agreement by the deadline will have restricted.' Isn't a complete sentence and was probably written by someone who doesn't use English as a first language.
 
 Now, here's where it gets interesting. So Facebook is a very popular, Internet-based Social Networking site, right? Everything (and I do mean everything) they do is done online, right? So, why would they send me a zipped attachment containing an account agreement? Nope, they'd never do that. Take that a step further and ask yourself, not only would they not send me an attachment, they also wouldn't ask me to launch an executable to access the agreement. If, by the wildest stretch of the imagination, Facebook did send me an account agreement as an attachment, wouldn't you think the the attachment would be a text file, a Adobe Acrobat file (.pdf) or even a Microsoft Word document (.rtf, .doc or .docx)? It's an absolutely ridiculous premise that people would think it's OK to unzip and attachment and execute an executable (I know, redundant) to access an account agreement for the world's biggest Internet site?  Seriously?
 

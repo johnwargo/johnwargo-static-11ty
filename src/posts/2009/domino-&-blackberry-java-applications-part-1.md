@@ -45,22 +45,22 @@ Let's get started building the web service. To do this, you will need to use Dom
 
 Open Domino Designer and open the contact database in design mode (it would be best to do this in a template, but that's up to you). In designer, expand the 'Code' section of the design element hierarchy as shown in Figure 1. Right-click on 'Web Services Providers' and select 'New Web Service Provider…' as shown in the figure.
 
-![Figure 1](/images/2009/dbja1-1.jpg)  
+{% image "src/images/2009/dbja1-1.jpg", "Figure 1", "image-full" %}
 Figure 1
 
 Designer will create a new Web Service and prompt for the properties for the service. In the first tab of the Web Service properties (shown in Figure 2) you will need to provide a name for your service. In this case, I am calling it 'DomDirLookup' – the class name for the Web Service must match the name you enter here.  In this example, I named the service and the Port Type Class the same.
 
-![Figure 2](/images/2009/dbja1-2.jpg)  
+{% image "src/images/2009/dbja1-2.jpg", "Figure 2", "image-full" %}
 Figure 2
 
 On the security tab (shown in Figure 3) you will want to set the appropriate security properties for the Web Service. Depending on how confidential the data is in the database, you may want to force users to authenticate to the database before being granted access or you can just set the ACL default access to Reader to allow anyone in. If you need to be able to track access to the database, you will want to enable the 'Run as web user' checkbox so when the agent runs, it runs under the credentials of the person accessing the database.
 
-![Figure 3](/images/2009/dbja1-3.jpg)  
+{% image "src/images/2009/dbja1-3.jpg", "Figure 3", "image-full" %}
 Figure 3
 
 In the propeller head tab on the Web Services properties (shown in Figure 4) are settings that effect your ability to access the Web Service from a Java application. As shown in Figure 3, the Web Service's 'Programming Model' must be set to 'RPC' and the 'SOAP message format' must be set to 'Doc/Literal.' I found that without these settings, the Sun Java Wireless Toolkit was not able to create the necessary stub program needed to access the service from a Java application.
 
-![Figure 4](/images/2009/dbja1-4.jpg)  
+{% image "src/images/2009/dbja1-4.jpg", "Figure 4", "image-full" %}
 Figure 4
 
 Once you have all of the properties set, you must now start writing the code for the service. For this particular Web Service, I wrote all of the code in LotusScript. Because of the way I write agents and because of the way I loop through result sets in the agent, I added the following code to the 'Options' section of the Web Service.
@@ -73,7 +73,7 @@ Option Base 1
 
 The rest of the code goes into the 'Declarations' section of the Service. Since we're not running this code like an agent, the 'Initialize' and 'Terminate' sections of the Web Service aren't used – everything is in the 'Declarations.' I could have broken some of the code out into subroutines, but that wasn't needed for this simple service.
 
-![Figure 5](/images/2009/dbja1-5.jpg)
+{% image "src/images/2009/dbja1-5.jpg", "Figure 5", "image-full" %}
 Figure 5
 
 At this point, let's take a look at the core portion of the code:

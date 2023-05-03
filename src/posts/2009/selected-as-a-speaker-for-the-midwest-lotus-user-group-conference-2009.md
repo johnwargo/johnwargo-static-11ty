@@ -9,8 +9,8 @@ tags: post
 
 I found out last night that [BoxTone](https://www.boxtone.com){target="_blank"} (and I) had been selected to be a speaker (for two sessions) for the Midwest Lotus User Group Conference 2009 in Chicago at the end of August. I'll be speaking on two topics:
 
-*   Preparing for the Mobile Applications Onslaught
-*   Prepping for BlackBerry Enterprise Server v5: A Lotus Domino Upgrade Unlike Any Other
+* Preparing for the Mobile Applications Onslaught
+* Prepping for BlackBerry Enterprise Server v5: A Lotus Domino Upgrade Unlike Any Other
 
 The mobile applications presentation I've given several times. I gave it at two of [BoxTone](https://www.boxtone.com){target="_blank"}'s [Mobile Professional Network](https://www.mobileprofessionalnetwork.org/){target="_blank"} meetings in NY and Atlanta.I also presented the topic at the [View Domino Admin conference](https://www.viewadmin2010.com/){target="_blank"} in Boston in April. It's a high energy discussion of why BlackBerry & system administrators fear mobile apps, what the real concerns should be and how to mitigate them.
 
