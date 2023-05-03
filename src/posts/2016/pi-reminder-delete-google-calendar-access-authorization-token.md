@@ -11,7 +11,7 @@ Note: This article refers to an older version of the Pi Remind application. In a
 
 I'm in the process of changing jobs, so after I left my previous employer's employment, I needed to reconfigure the Pi Reminder app to point it to my personal calendar profile instead of my work profile. If you remember the process, when you execute the Pi Reminder code on the Raspberry for the first time, it walks you through a process of authorizing the app to access your calendar (shown in Figure 1).
 
-![Google Calendar Authorization Page](/images/2016/pi-remind-delete-auth-00.png)
+{% image "src/images/2016/pi-remind-delete-auth-00.png", "Google Calendar Authorization Page", "image-full" %}
 Figure 1 – Authorizing Pi Reminder to Access a Google Calendar
 
 When you complete this process, the Google Calendar API creates a hidden file on the Pi that contains the access token generated as part of this process. When it's time to switch the Pi Reminder to use a new profile, all you have to do is delete that file.
@@ -30,17 +30,17 @@ sudo pcmanfm
 
 The terminal will display the output shown in Figure 2 then open the Raspbian file manager application (shown in Figure 3), PCManFM.
 
-![Raspbian terminal window](/images/2016/pi-remind-delete-auth-01.png)
+{% image "src/images/2016/pi-remind-delete-auth-01.png", "Raspbian terminal window", "image-full" %}
 Figure 2 – Raspbian Terminal Application
 
 In the file manager, navigate to the file system's /root folder as shown in the figure then double-click the .credentials folder to open it.
 
-![Raspbian file manger window](/images/2016/pi-remind-delete-auth-02.png)
+{% image "src/images/2016/pi-remind-delete-auth-02.png", "Raspbian file manger window", "image-full" %}
 Figure 3 – Raspbian File Manager
 
 Inside the folder is a file called `pi_remind.json` (shown in Figure 4), that's the file we're looking for. Delete the file then close the file manager.
 
-![Raspbian file manager window](/images/2016/pi-remind-delete-auth-03.png)
+{% image "src/images/2016/pi-remind-delete-auth-03.png", "Raspbian file manager window", "image-full" %}
 Figure 4 – Google API Access Token File
 
 Next you'll need to authorize Pi Reminder to use a different account with Google Calendar. Follow the instructions included with the original article to complete that step.

@@ -77,7 +77,8 @@ set DEBUG=Eleventy* & npx @11ty/eleventy
 ### Links to Book cover images:
 
 {% image "src/images/covers/ac4p-160.png", "Apache Cordova 4 Programming Cover", "image-full" %}
-
+{% image "src/images/covers/bbdf-cover-160.png", "Blackberry Development Fundamentals Cover", "image-full" %}
+{% image "src/images/covers/phonegap-essentials-cover-160.png", "PhoneGap Essentials Cover", "image-full" %}
 
 ![Learning Progressive Web Apps Cover](/images/covers/learning-pwa-160.png)
 ![Blackberry Development Fundamentals Cover](/images/covers/bbdf-cover-160.png)

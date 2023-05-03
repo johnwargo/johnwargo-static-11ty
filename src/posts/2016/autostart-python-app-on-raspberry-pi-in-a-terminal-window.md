@@ -87,7 +87,7 @@ except:
 
 With that script file in place, the script will execute from anywhere and I'm ready to go.
 
-I found two ways to execute my script that worked for me. The first is to create a .desktop file and copy it to ~/.config/autostart. For my use case, I called the file start-remind.desktop. Populate the file with the following information:
+I found two ways to execute my script that worked for me. The first is to create a .desktop file and copy it to ~/.config/autostart. For my use case, I called the file `start-remind.desktop`. Populate the file with the following information:
 
 ```text
 [Desktop Entry]
@@ -130,4 +130,4 @@ To save your changes, press ctrl-o then press the Enter key. Next, press ctrl-x 
 
 Here's an example from a project I'm working on that opens two windows:
 
-![Pi Weather Monitor Startup](/images/2016/pi-weather-monitor-startup-640.png)
+{% image "src/images/2016/pi-weather-monitor-startup-640.png", "Pi Weather Monitor Startup", "image-full" %}

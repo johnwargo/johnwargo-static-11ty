@@ -16,7 +16,7 @@ In my mind, the first one indicates that the developer isn't thinking about mobi
 
 The second one tells me that developers aren't thinking very carefully through the whole registration process. They seem to feel that the present, populate, submit, validate, kickback, fix, and submit again process is reasonable for registrants, when a simple present, inform, populate, submit, and validate process is much more efficient (see Figure 1).
 
-![Registration Process Flows](/images/2016/Account-Creation-Form-Flows.png) 
+{% image "src/images/2016/Account-Creation-Form-Flows.png", "Registration Process Flows", "image-full" %}
 Figure 1 – Registration Process Flows
 
 Unless I'm able to somehow divine the password requirements in advance, without you telling me, the registration process most developers implement forces users to submit the registration form twice. I don't have the numbers, but it would be very interesting to see some analytics data on one of these forms to see how often users are actually able to guess the password requirements. For sites with more complex password requirements, I imagine that the number of users who have resubmit is at least 80%.
@@ -31,7 +31,7 @@ What most developers do, is assume it's OK to tell the users what the password c
 
 The folks at MongoDB recently launched a cloud hosting service (cloud.mongodb.com), and did a really great job on their registration form (see Figure 2). Not only are you told up front what the password complexity requirements are, you can see visually how many of the requirements you have met. That's the way it should be done. At a minimum, list the requirements on the form from the moment it's served. As a bonus, show the user how they're doing as they populate the form.
 
-![MongoDB Cloud REgistration Form](/images/2016/account-creation-form.png) 
+{% image "src/images/2016/account-creation-form.png", "MongoDB Cloud Registration Form", "image-full" %}
 Figure 2 – MongoDB Cloud Registration Form
 
 Unfortunately, the MongoDB folks failed at using the right input types in their form. The email field doesn't use the email input type, so on a mobile device users won't see the email input keyboard. Too bad.

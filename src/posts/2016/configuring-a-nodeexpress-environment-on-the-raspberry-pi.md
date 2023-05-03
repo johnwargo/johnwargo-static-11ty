@@ -11,23 +11,23 @@ As I posted last week, I'm working on a project on the Raspberry Pi. As I'm not 
 
 As any hardware developer does, before I started, I made sure my Pi had the latest version of Raspian, the default OS for the Pi. In this case, I grabbed the latest version of Raspian from [https://www.raspberrypi.org/downloads/raspbian/](https://www.raspberrypi.org/downloads/raspbian/){target="_blank"}. In this case, it's Raspian Jessie (February 2016) as shown in Figure 1.
 
-![Raspian Download Page](/images/2016/pi-node-express-1_640.png)
+{% image "src/images/2016/pi-node-express-1_640.png", "Raspian Download Page", "image-full" %}
 Figure 1 – Raspian Download Page
 
 I burned the OS to a memory card, inserted it in the device and booted it up. After it booted, I opened a terminal window and checked the node version. Raspian Jessie ships with Node 0.10, which is pretty old. So, before I went any further, I knew I had to update my Node installation. I checked and npm wasn't installed as well, so I had to do that installation as well.
 
 Fortunately, the folks at Adafruit published some instructions on how to upgrade node on the Pi; you can find the instructions here: [https://learn.adafruit.com/node-embedded-development/installing-node-dot-js](https://learn.adafruit.com/node-embedded-development/installing-node-dot-js){target="_blank"}. Basically, all you have to do is execute the following commands in a terminal window to update node:
 
-shell
+```shell
 curl -sLS https://apt.adafruit.com/add | sudo bash
 sudo apt-get install node
-
+```
 
 When you're done, execute the following command to check the version:
 
-shell
+```shell
 node -v
-
+```
 
 It should return something like v0.12.0 or greater. OK, at this point, I know I'm running a newer version of Node than came with the latest version of Raspian.
 
@@ -60,7 +60,6 @@ Unfortunately, the installation failed every time I tried to install it. In the 
 613 error code ELIFECYCLE
 614 verbose exit [ 1, true ]  
 ```
-
 
 Apparently, the build process failed. Not sure what to do, I looked at the author's GitHub account ([https://github.com/JamesBarwell/rpi-gpio.js](https://github.com/JamesBarwell/rpi-gpio.js){target="_blank"}) and found a recent issue that was similar to my problem ([https://github.com/JamesBarwell/rpi-gpio.js/issues/33](https://github.com/JamesBarwell/rpi-gpio.js/issues/33){target="_blank"}). There wasn't an immediate solution provided, but one helpful (sarcasm) visitor suggested looking at the readme at [https://github.com/JamesBarwell/rpi-gpio.js/blob/master/README.md#dependency](https://github.com/JamesBarwell/rpi-gpio.js/blob/master/README.md#dependency){target="_blank"}. Apparently the version of gcc is a problem with Raspian.
 
