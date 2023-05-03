@@ -7,6 +7,6 @@ categories: [Mobile Development]
 tags: post
 ---
 
-![Cordova 3 Programming](/images/2013/cordovaprogramming-web-site-320.png)
+{% image "src/images/covers/acp-cover-160.png", "Apache Cordova 3 Programming", "image-full" %}
 
 Today I launched the web site for my upcoming book called Apache Cordova 3 Programming; you can find the site at [www.cordovaprogramming.com](https://www.cordovaprogramming.com){target="_blank"}. The book is written but still going through the editing process. stay tuned.

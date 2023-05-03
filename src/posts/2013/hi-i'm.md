@@ -9,25 +9,21 @@ tags: post
 
 I was reading through the Cordova dev mailing list and noticed that one of the guys had an hi.im (Hi I'm – www.hi.im) URL in his signature. I took a look at the site and saw that it's a pretty cool way to define a simple landing page for yourself. Here's my profile:
 
-![Figure 1](/images/2013/hi.im-1.im_640.png)
-Figure 1
+{% image "src/images/2013/hi.im-1.im_640.png", "Figure 1", "image-full" %}
 
 Now, when you login, you have a lot of options for what you include in your profile as shown in Figure 2. As I'm using this for my professional persona, there's only a few things I want to add to my profile. For personal use, the list of social networks for example includes all of the common social network options. If you're heavily into social media, you can pepper your profile with a ton of stuff.
 
-![Figure 2](/images/2013/hi.im-2_640.png)
-Figure 2
+{% image "src/images/2013/hi.im-2_640.png", "Figure 2", "image-full" %}
 
 Some of the options, such as some of the profile design settings are limited until you upgrade your account. For $20 per year you get more control over the page. It might be worth it, but I'm not ready yet – keep reading.
 
 After I setup my account, I got a nice email from the person who created this site (I'm assuming) welcoming me to the system:
 
-![Figure 3](/images/2013/hi.im-3_640.png)
-Figure 3  
+{% image "src/images/2013/hi.im-3_640.png", "Figure 3", "image-full" %}
 
 So I easily added a contact me option to my profile then my linkedin profile. Next I wanted to add my twitter account (@johnwargo) but when I tried to add it, I got the following error:
 
-![Figure 4](/images/2013/hi.im-4_640.png)  
-Figure 4
+{% image "src/images/2013/hi.im-4_640.png", "Figure 4", "image-full" %}
 
 I've tried time and time again to setup this connection and I consistently get the same error. Doesn't matter what computer I do it from or what browser I use – it's the same thing every time.
   

@@ -11,33 +11,27 @@ Thanks to all of you who helped out last week trying to help me fix my Domino co
 
 I updated the server document so it uses internet sites documents:
 
-![Figure 0](/images/2013/domino-problem-0.png)
-Figure 0
+{% image "src/images/2013/domino-problem-0.png", "Figure 0", "image-full" %}
 
 I now have an Internet Sites document with the following information:
 
-![Figure 1](/images/2013/domino-problem-1.png)
-Figure 1
+{% image "src/images/2013/domino-problem-1.png", "Figure 1", "image-full" %}
 
 On the Configuration tab, here's where I'm enabling HTTP PUT and DELETE.
 
-![Figure 2](/images/2013/domino-problem-2.png)
-Figure 2
+{% image "src/images/2013/domino-problem-2.png", "Figure 2", "image-full" %}
 
 When I open a browser and launch the Sencha Touch app, it renders its UI then connects to the Domino server to request the data using the RESTful agent I've created. Here's the Domino log document for the GET request:
 
-![Figure 3](/images/2013/domino-problem-3.png)
-Figure 3
+{% image "src/images/2013/domino-problem-3.png", "Figure 3", "image-full" %}
 
 After the browser receives the 401 error, it prompts me for the credentials then repeats the request to the Domino server as shown in the following figure:
 
-![Figure 4](/images/2013/domino-problem-4.png)
-Figure 4
+{% image "src/images/2013/domino-problem-4.png", "Figure 4", "image-full" %}
 
 So far, expected behavior, right? When I edit a document in the Sencha Touch application, the Sencha Proxy tries to PUT the data back on the server and I get the following error:
 
-![Figure 5](/images/2013/domino-problem-5.png)
-Figure 5
+{% image "src/images/2013/domino-problem-5.png", "Figure 5", "image-full" %}
 
 So, last week I thought I was having an authentication problem (since the Authenticated User field in Figure 5 was showing Anonymous). Turns out this was some sort of weird a Safari caching problem, as soon as I switched to Chrome or cleared the cache in safari I was prompted to login and get what you see above.
 

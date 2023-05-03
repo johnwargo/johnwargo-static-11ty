@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-![View Anthology Cover](/images/covers/anthology-mobile.jpg)
+{% image "src/images/covers/anthology-mobile.jpg", "View Anthology Cover", "image-full" %}
 
 A few minutes after finishing my 4th book, I received an email from the editor at the View (www.eview.com) letting me know that they'd published an anthology of their mobile development articles called Mastering Mobile for Notes/Domino. The book is essentially a collection of 22 articles and 16 of them are mine, so 72.73% of the 'chapters' are my work. You can find information about the anthology at [The View](https://www.eview.com/anthology.nsf/Anthology?OpenForm).[](https://www.eview.com/anthology.nsf/Anthology?OpenForm.)  If you order a copy, please tell them you heard about it here!
 

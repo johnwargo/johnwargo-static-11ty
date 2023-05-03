@@ -19,13 +19,13 @@ The BlackBerry Java SDK is fickle, very fickle. Even though the Android DSK has 
 
 Here's some screen shots of what you get when you successfully install then try to run the BlackBerry Java development SDK in a current version of Eclipse.
 
-![Figure 1](/images/2013/eclipse-1.png)
+{% image "src/images/2013/eclipse-1.png", "Figure 1", "image-full" %}
 
-![Figure 2](/images/2013/eclipse-2.png)
+{% image "src/images/2013/eclipse-2.png", "Figure 2", "image-full" %}
 
-![Figure 3](/images/2013/eclipse-3.png)
+{% image "src/images/2013/eclipse-3.png", "Figure 3", "image-full" %}
 
-![Figure 4](/images/2013/eclipse-4.png)
+{% image "src/images/2013/eclipse-4.png", "Figure 4", "image-full" %}
 
 What was particularly maddening about this particular problem was that the error messages about the pre-processor configuration are cyclical, the one message appears, then you're prompted to restart Eclipse then the error message appears, then you're prompted to restart Eclipse. It never ends.  
 Notice too the error messages about missing a DLL? Unfortunately, that error was generated on a Macintosh – not sure there's a lot of DLLs on a Mac.
