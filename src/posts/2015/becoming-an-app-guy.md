@@ -38,6 +38,6 @@ Already, I'm finding myself spending more and more time with the following apps:
 * Dropbox
 * Google Drive and apps
 
-I used to hate the zinio app, but it's gotten better although it's still flawed in a great many ways, at least it works most of the time (which is an improvement).
+I used to hate the Zinio app, but it's gotten better although it's still flawed in a great many ways, at least it works most of the time (which is an improvement).
 
 There's a bunch more, but you see my point. So many aspects of my day are enhanced through the information provided by these apps. Notice that I'm not playing games – too much other stuff to do.
