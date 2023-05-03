@@ -1,6 +1,6 @@
 ---
 title: Protecting Data in a URL
-description: 
+description: I built a mobile app that talks to the Particle Photon and I wrote this article to describe the steps I took to hide the Particle API Token and device ID in cloud API URLs.
 date: 2018-07-01
 headerImage: 
 categories: [Internet of Things (IoT)]

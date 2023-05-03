@@ -1,6 +1,6 @@
 ---
 title: NC Lottery App
-description: 
+description: Highlighting some of the many flaws in the North Carolina Lottery mobile app.
 date: 2018-12-11
 headerImage: 
 categories: [Stupid Developer Tricks]

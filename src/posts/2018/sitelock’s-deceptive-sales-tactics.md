@@ -1,6 +1,6 @@
 ---
 title: SiteLock's Deceptive Sales Tactics
-description: 
+description: FatCow uses SiteLock to protect sites and their tooling is not compatible with Joomla sites. This article explains the unsavory techniques SiteLock uses to convince customers to spend more money with them. 
 date: 2018-06-19
 headerImage: 
 categories: [Miscellaneous]

@@ -1,6 +1,6 @@
 ---
 title: Advancing Technology in Wilmington Meetup
-description: 
+description: Announcing my presentation at the Advancing Technology Meetup in Wilmington
 date: 2018-03-16
 headerImage: 
 categories: [Mobile Development]

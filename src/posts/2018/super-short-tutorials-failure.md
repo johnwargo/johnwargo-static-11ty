@@ -1,6 +1,6 @@
 ---
 title: Super Short Tutorials Failure
-description: 
+description: Describes my issues with the super short technical articles in magazines that don't explain enough for the reader.
 date: 2018-05-08
 headerImage: 
 categories: [Miscellaneous]

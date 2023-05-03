@@ -1,6 +1,6 @@
 ---
 title: Building a Better Light Timer
-description: 
+description: Describes a Arduino-based light timer that uses NTP to keep the internal clock accurate.
 date: 2018-03-24
 headerImage: 
 categories: [Internet of Things (IoT)]

@@ -1,6 +1,6 @@
 ---
 title: Particle Photon and the National Control Devices Relay Board
-description: 
+description: My review of the National Control Devices Relay Board for the Particle Photon.
 date: 2018-07-01
 headerImage: 
 categories: [Internet of Things (IoT)]

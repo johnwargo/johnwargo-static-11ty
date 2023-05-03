@@ -1,6 +1,6 @@
 ---
 title: Apache Cordova 3 Programming Site Retired
-description: 
+description: Announcing the shutdown of the landing page for my Apache Cordova 3 Programming book.
 date: 2018-07-02
 headerImage: 
 categories: [Mobile Development]
