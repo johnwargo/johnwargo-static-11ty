@@ -48,7 +48,7 @@ if (theArgs.length > 1) {
 // throw in a blank line on the console
 console.log();
 console.log('Generating build info');
-await $`gen-build-info src/_data`;
+await $({stdio: 'inherit'})`gen-build-info src/_data`;
 console.log('Generating category pages');
 await $`11ty-cat-pages`;
 console.log('\nBuilding site');
