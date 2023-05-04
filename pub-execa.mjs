@@ -1,9 +1,12 @@
 import { $ } from 'execa';
 
 async function gitUpdate(msg) {
-  await $`git add -A`;
-  await $`git commit -m ${msg}`;
+  await $$`git add -A`;
+  await $$`git commit -m ${msg}`;
 }
+
+// Setup default output for the script
+const $$ = $({stdio: 'inherit'});
 
 console.log('\nStarting project publish...');
 console.log('-----------------------------');
@@ -48,23 +51,23 @@ if (theArgs.length > 1) {
 // throw in a blank line on the console
 console.log();
 console.log('Generating build info');
-await $({stdio: 'inherit'})`gen-build-info src/_data`;
+await $$`gen-build-info src/_data`;
 console.log('Generating category pages');
-await $`11ty-cat-pages`;
+await $$`11ty-cat-pages`;
 console.log('\nBuilding site');
-await $`eleventy`;
+await $$`eleventy`;
 
 if (updateIndex) {
   console.log('\nUpdating Algolia Index');
-  await $`npx algolia-idxup _site/algolia.json JMW_`;
+  await $$`npx algolia-idxup _site/algolia.json JMW_`;
 }
 
 await gitUpdate(theArgs[0]);
 
 if (updatePackage) {
   console.log('\nIncrementing package version');
-  await $`npm version patch`;
+  await $$`npm version patch`;
   await gitUpdate('Incrementing package version');
 }
 
-await $`git push`;
+await $$`git push`;
