@@ -1,13 +1,13 @@
 ---
 title: Pi Reminder – Delete Google Calendar Access Authorization Token
-description: 
+description: Describes how to delete a Google Calendar Access Authorization Token so you can reconfigure an app to use a different account.
 date: 2016-07-17
 headerImage: 
 categories: [Internet of Things (IoT)]
 tags: post
 ---
 
-Note: This article refers to an older version of the Pi Remind application. In a subsequent update to the Google libraries, Google now places its configuration file in the same folder where the application executes. Refer to the [project's readme](https://github.com/johnwargo/pi-remind-hd#changing-the-google-profile){target="_blank"} for additional information.
+**Note:** This article refers to an older version of the Pi Remind application. In a subsequent update to the Google libraries, Google now places its configuration file in the same folder where the application executes. Refer to the [project's readme](https://github.com/johnwargo/pi-remind-hd#changing-the-google-profile){target="_blank"} for additional information.
 
 I'm in the process of changing jobs, so after I left my previous employer's employment, I needed to reconfigure the Pi Reminder app to point it to my personal calendar profile instead of my work profile. If you remember the process, when you execute the Pi Reminder code on the Raspberry for the first time, it walks you through a process of authorizing the app to access your calendar (shown in Figure 1).
 

@@ -1,6 +1,6 @@
 ---
 title: Xmas Jam 2015 Epic Failure
-description: 
+description: Xmas Jam was a big disappointment for me and this article describes why.
 date: 2016-02-15
 headerImage: 
 categories: [Miscellaneous]

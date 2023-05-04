@@ -7,7 +7,7 @@ categories: [Mobile]
 tags: post
 ---
 
-I switched to Android a few years ago. I was a diehard BlackBerry fan for a very long time, but things just got…weird with BlackBerry, so I migrated to Android. I've had several Samsung devices, but I didn't like any of them because Samsung adds too much extra junk to Android. Give me pure and simple Android and I'm OK.
+I switched to Android a few years ago. I was a diehard BlackBerry fan for a very long time, but things just got ... weird with BlackBerry, so I migrated to Android. I've had several Samsung devices, but I didn't like any of them because Samsung adds too much extra junk to Android. Give me pure and simple Android and I'm OK.
 
 Last Christmas, I invested in a Google Nexus 5x device. Having owned several Nexus 7 devices, I knew this would be a good device for me. I especially liked the device because of fingerprint scanner on the back. My employer rightly requires a password on the device and I was essentially not able to use any of the voice commands while driving simply because it was too hard to unlock the device while driving. The fingerprint scanner on the 5x is awesome since all I have to do it tap it with my (registered) finger and the device unlocks.
 

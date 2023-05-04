@@ -1,6 +1,6 @@
 ---
 title: PhoneGap Essentials Web Site Retired
-description: 
+description: Announces the retirement of my PhoneGap Essentials book landing page.
 date: 2016-02-15
 headerImage: 
 categories: [Mobile Development]

@@ -1,6 +1,6 @@
 ---
 title: AT&T's Network Couldn't Handle the 2016 Indy Crowd
-description: 
+description: Explains issues I had using my mobile phone at the Indianapolis 500.
 date: 2016-05-31
 headerImage: 
 categories: [Mobile]

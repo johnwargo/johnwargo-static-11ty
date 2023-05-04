@@ -1,6 +1,6 @@
 ---
 title: Autostart Python App on Raspberry Pi in a Terminal Window
-description: 
+description: Describes my learnings building an autostart process for my Raspberry Pi Python projects.
 date: 2016-08-23
 headerImage: 
 categories: [Internet of Things (IoT)]

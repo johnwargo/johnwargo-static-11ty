@@ -1,6 +1,6 @@
 ---
 title: My Books In the Singapore Library
-description: 
+description: A friend of mine found one of my books in the Singapore National Library.
 date: 2016-03-11
 headerImage: 
 categories: [Miscellaneous]

@@ -1,13 +1,13 @@
 ---
 title: Raspberry Pi Reminder Project
-description: 
+description: Describes my Raspberry Pi Reminder project
 date: 2016-09-29
 headerImage: 
 categories: [Internet of Things (IoT)]
 tags: post
 ---
 
-Note, this article was originally published as _Get a Flashing Meeting Reminder with a Raspberry Pi_ online at [Make Magazine](https://makezine.com/projects/get-a-flashing-meeting-reminder-with-a-raspberry-pi/){target="_blank"}.
+**Note:** this article was originally published as *Get a Flashing Meeting Reminder with a Raspberry Pi* online at [Make Magazine](https://makezine.com/projects/get-a-flashing-meeting-reminder-with-a-raspberry-pi/){target="_blank"}.
 
 ## Introduction
 

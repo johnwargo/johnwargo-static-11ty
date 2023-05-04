@@ -1,6 +1,6 @@
 ---
 title: AT&T IoT Starter Kit Getting Started Guide
-description: 
+description: Describes work I did on the AT&T IoT Getting Started Guide
 date: 2016-12-17
 headerImage: 
 categories: [Internet of Things (IoT)]

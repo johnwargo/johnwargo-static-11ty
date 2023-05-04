@@ -1,6 +1,6 @@
 ---
 title: Particle Photon Function Not Found
-description: 
+description: Describes how Particle truncates function names without warning which, of course, broke my application until I figured it out.
 date: 2016-02-18
 headerImage: 
 categories: [Internet of Things (IoT)]

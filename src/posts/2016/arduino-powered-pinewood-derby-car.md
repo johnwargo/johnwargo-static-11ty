@@ -1,6 +1,6 @@
 ---
 title: Arduino Powered Pinewood Derby Car
-description: 
+description: Dscribes an article I published in Make Magazine for an Arduino-powered pinewood derby car.
 date: 2016-04-14
 headerImage: 
 categories: [Internet of Things (IoT)]

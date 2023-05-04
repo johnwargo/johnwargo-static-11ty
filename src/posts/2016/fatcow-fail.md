@@ -1,6 +1,6 @@
 ---
 title: FatCow Fail
-description: 
+description: Describes my continued disappointment with FatCow hosting.
 date: 2016-09-22
 headerImage: 
 categories: [Miscellaneous]

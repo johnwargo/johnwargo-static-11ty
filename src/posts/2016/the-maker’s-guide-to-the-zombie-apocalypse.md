@@ -1,6 +1,6 @@
 ---
 title: The Maker's Guide to the Zombie Apocalypse
-description: 
+description: My review of the Maker's Guide to the Zombie Apocalypse book.
 date: 2016-01-18
 headerImage: 
 categories: [Miscellaneous]

@@ -1,6 +1,6 @@
 ---
 title: BlackBerry Development Fundamentals Website Retired
-description: 
+description: Announces the retirement of the landing page for my BlackBerry Development Fundamentals book
 date: 2016-02-15
 headerImage: 
 categories: [Mobile Development]

@@ -1,6 +1,6 @@
 ---
-title: Configuring a NodeExpress Environment on the Raspberry Pi
-description: 
+title: Configuring a Node Express Environment on the Raspberry Pi
+description: Describes my experience trying to get a Node & Express environment running on the Raspberry Pi
 date: 2016-02-16
 headerImage: 
 categories: [Internet of Things (IoT)]
