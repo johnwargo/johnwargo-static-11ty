@@ -1,4 +1,4 @@
-import {$} from 'execa';
+import { $ } from 'execa';
 
 async function gitUpdate(msg) {
   await $`git add -A`;
@@ -8,6 +8,7 @@ async function gitUpdate(msg) {
 console.log('\nStarting project publish...');
 console.log('-----------------------------');
 var theArgs = process.argv.slice(2);
+// process.exit(0);
 
 var updatePackage = false;
 var updateIndex = false;
@@ -46,14 +47,16 @@ if (theArgs.length > 1) {
 
 // throw in a blank line on the console
 console.log();
+console.log('Generating build info');
 await $`gen-build-info src/_data`;
+console.log('Generating category pages');
 await $`11ty-cat-pages`;
 console.log('\nBuilding site');
 await $`eleventy`;
 
 if (updateIndex) {
   console.log('\nUpdating Algolia Index');
-  await $`algolia-idxup _site/algolia.json JMW_`;
+  await $`npx algolia-idxup _site/algolia.json JMW_`;
 }
 
 await gitUpdate(theArgs[0]);
