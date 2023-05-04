@@ -24,6 +24,7 @@
     "eleventy-category-pages": "^0.0.1",
     "eleventy-plugin-date": "^1.0.0",
     "eleventy-plugin-youtube-embed": "^1.8.1",
+    "execa": "^7.1.1",
     "generate-build-info": "^0.0.3",
     "html-minifier": "^4.0.0",
     "markdown-it-attrs": "^4.1.6",

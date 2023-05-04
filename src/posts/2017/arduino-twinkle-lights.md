@@ -104,7 +104,7 @@ Connect the Trinket to your PC using a USB cable and download the project's comp
 
 Stuff the whole contraption into the jar, turn it on, and close the lid. You're done!
 
-![The Christmas Version of the Project in Action](/images/2017/arduino-twinkle-lights-figure-11.png)
+{% image "src/images/2017/arduino-twinkle-lights-figure-11.png", "The Christmas Version of the Project in Action", "image-full" %}
 Figure 11: The Christmas Version of the Project in Action
 
 ## Mounting
