@@ -1,6 +1,6 @@
 ---
 title: Epic UX Failure at Bandsintown
-description: 
+description: Expresses my frustration with the Bandsintown application.
 date: 2017-01-22
 headerImage: 
 categories: [Mobile Development]

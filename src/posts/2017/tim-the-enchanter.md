@@ -1,6 +1,6 @@
 ---
 title: Tim the Enchanter
-description: 
+description: Describes a Tim the Enchanter costume a good friend created for me.
 date: 2017-03-08
 headerImage: 
 categories: [Miscellaneous]

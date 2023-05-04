@@ -1,6 +1,6 @@
 ---
 title: Faulty Amazon Purchase Review Process
-description: 
+description: Explains my foibles trying to give a review of a product I purchased on Amazon.
 date: 2017-01-22
 headerImage: 
 categories: [Miscellaneous]

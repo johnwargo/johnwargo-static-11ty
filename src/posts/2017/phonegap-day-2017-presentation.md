@@ -1,6 +1,6 @@
 ---
 title: PhoneGap Day 2017 Presentation
-description: 
+description: Highlights my presentation at PhoneGap day 2017.
 date: 2017-11-03
 headerImage: 
 categories: [Mobile Development]

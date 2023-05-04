@@ -1,6 +1,6 @@
 ---
 title: Amazon Cancel and Reorder
-description: 
+description: Explains some problems I had deleting an order on Amazon.
 date: 2017-01-01
 headerImage: 
 categories: [Miscellaneous]

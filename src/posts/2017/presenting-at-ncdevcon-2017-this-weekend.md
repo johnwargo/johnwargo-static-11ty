@@ -1,6 +1,6 @@
 ---
 title: Presenting at NCDevCon 2017 This Weekend
-description: 
+description: Announcing my presentation at NCDevCon 2017.
 date: 2017-10-03
 headerImage: 
 categories: [Miscellaneous]

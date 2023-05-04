@@ -1,6 +1,6 @@
 ---
 title: A Site In Transition
-description: 
+description: Describes some changes I'm making to the look and feel of this site.
 date: 2017-01-29
 headerImage: 
 categories: [Miscellaneous]

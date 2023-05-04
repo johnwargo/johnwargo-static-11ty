@@ -1,6 +1,6 @@
 ---
 title: NCDevCon 2017 Presentation
-description: 
+description: Highlights my sessions at NCDevCon 2017
 date: 2017-11-02
 headerImage: 
 categories: [Mobile Development]

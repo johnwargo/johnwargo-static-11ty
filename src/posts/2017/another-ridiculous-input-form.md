@@ -1,6 +1,6 @@
 ---
 title: Another Ridiculous Input Form
-description: 
+description: Describes a stupid input form I encountered.
 date: 2017-04-03
 headerImage: 
 categories: [Stupid Developer Tricks]

@@ -1,6 +1,6 @@
 ---
 title: American Airlines Flight Summary
-description: 
+description: Shows an info graphic American Airlines gave me highlighting my travel for the year.
 date: 2017-12-22
 headerImage: 
 categories: [Miscellaneous]

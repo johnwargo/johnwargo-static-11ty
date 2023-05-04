@@ -1,6 +1,6 @@
 ---
 title: My ReactiveConf 2017 Sessions
-description: 
+description: Highlights my presentations and experience at ReactiveConf in Bratislava.
 date: 2017-11-18
 headerImage: 
 categories: [Mobile Development]

@@ -1,6 +1,6 @@
 ---
 title: Hackers Hacking My Joomla Site's Images Folder
-description: 
+description: For many months I'd been dealing with hackers beating up this site (when it ran on Joomla); this article describes how it locked it down and stopped the hacking.
 date: 2017-04-07
 headerImage: 
 categories: [Content Management Systems]

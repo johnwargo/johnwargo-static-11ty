@@ -1,6 +1,6 @@
 ---
 title: Implemented Google Wi-Fi
-description: 
+description: Highlights my experience implementing Google Wi-Fi in my house. 
 date: 2017-04-22
 headerImage: 
 categories: [Miscellaneous]

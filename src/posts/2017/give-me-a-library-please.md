@@ -1,6 +1,6 @@
 ---
 title: Give Me a Library, Please
-description: 
+description: Expressing my frustration at hardware vendors that provide sample apps but not libraries.
 date: 2017-07-17
 headerImage: 
 categories: [Miscellaneous]

@@ -1,6 +1,6 @@
 ---
 title: Driving a Relay Board from Python Using GPIO Zero
-description: 
+description: Describes how to use some Arduino Relay boards I purchased on the Internet.
 date: 2017-03-25
 headerImage: 
 categories: [Internet of Things (IoT)]
