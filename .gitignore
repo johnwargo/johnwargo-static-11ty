@@ -2,7 +2,6 @@
 node_modules/
 _site/
 joomla/articles/
-.cache/
 
 # Files
 .DS_Store
