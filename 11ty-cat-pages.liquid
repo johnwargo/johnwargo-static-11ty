@@ -18,7 +18,7 @@ permalink: "categories/{{ category | slugify }}/{% if pagination.pageNumber != 0
 <p>This page lists all posts in the category, in reverse chronological order.</p>
 
 <ul class="posts">
-  {% for post in catposts reversed %}
+  {% for post in catposts %}
     <li>
       <h4>
         <a href="{{post.url}}" style="cursor: pointer">{{ post.data.title }}</a>
