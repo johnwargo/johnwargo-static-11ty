@@ -1,6 +1,6 @@
 ---
 title: Apache Cordova 4 Programming Now Available
-description: 
+description: Announcing availability of my Apache Cordova 4 Programming.
 date: 2015-04-30
 headerImage: 
 categories: [Mobile Development]

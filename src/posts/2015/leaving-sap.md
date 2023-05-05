@@ -1,6 +1,6 @@
 ---
 title: Leaving SAP
-description: 
+description: Announcing that I'm leaving my position at SAP. 
 date: 2015-04-27
 headerImage: 
 categories: [Miscellaneous]

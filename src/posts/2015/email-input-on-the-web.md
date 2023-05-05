@@ -1,6 +1,6 @@
 ---
 title: Email Input on the Web
-description: 
+description: I'm so surprised how many web developers prompt users for an email address, but don't use the email address input type available in HTML (for a long time now).
 date: 2015-04-28
 headerImage: 
 categories: [Mobile Development]

@@ -1,6 +1,6 @@
 ---
 title: Migration Completed
-description: 
+description: Announcing that I completed an upgrade of this site to the latest version of Joomla!
 date: 2015-04-27
 headerImage: 
 categories: [Content Management Systems]

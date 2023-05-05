@@ -1,6 +1,6 @@
 ---
 title: Apps that Act on my Behalf
-description: 
+description: For years I've believed that we were approaching a world without apps and this post highlights an example. 
 date: 2015-08-14
 headerImage: 
 categories: [Miscellaneous]

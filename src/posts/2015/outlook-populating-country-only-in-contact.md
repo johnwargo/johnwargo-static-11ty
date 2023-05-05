@@ -1,6 +1,6 @@
 ---
 title: Outlook Populating Country Only in Contact
-description: 
+description: I'm frustrated that Outlook adds a country to contacts when I didn't ask it to. So I created a utility to delete them en masse.
 date: 2015-10-07
 headerImage: 
 categories: [Miscellaneous]

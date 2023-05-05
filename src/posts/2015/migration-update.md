@@ -1,6 +1,6 @@
 ---
 title: Migration Update
-description: 
+description: I'm starting the  upgrade of this site to the latest version of Joomla!
 date: 2015-02-02
 headerImage: 
 categories: [Miscellaneous]

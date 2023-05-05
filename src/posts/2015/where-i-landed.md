@@ -1,6 +1,6 @@
 ---
 title: Where I Landed
-description: 
+description: Announcing my move to Forrester Research as a Principal Analyst focusing on mobile app development.
 date: 2015-05-07
 headerImage: 
 categories: [Miscellaneous]
