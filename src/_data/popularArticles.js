@@ -10,7 +10,7 @@ module.exports = async function () {
 
   let propertyId = '304078452';
   // Number of items we want to return
-  let topRows = 5; 
+  let topRows = 20; 
   // The part off the front of the page title we want to remove, usually the domain 
   let pageTitle = 'John M. Wargo: '; 
   // The URLs we want to target.

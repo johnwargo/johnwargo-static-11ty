@@ -7,8 +7,6 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-We have an Amazon Echo and I love it. It was a pretty frustrating process getting one, but that's for another post.
-
 Today I thought that Mother's Day was tomorrow. My wife informed me that it's not tomorrow, it's next week. Dodged a bullet there. I've been experimenting with the Echo, trying to understand what she understands and what she doesn't. Did you know you can get her to stop playing music by telling her 'Shutup b#tch'? That surprised me, but at the same time, didn't. Anyway, I asked her when Mother's Day was and she told me it was the second Sunday in May. I didn't know that, so it was nice to have that detail. I really wanted the date, so I asked her "What date is the second Sunday in May". She didn't understand my query for some reason. As you can see, I didn't ask her what I really wanted to know, so my fault for her getting it wrong. What I really wanted to know was the date for Mother's Day, perhaps I should have asked her that.
 
 I was looking at the echo app a little while later and noticed that the app was showing me what she heard and asking whether she got it right. What she heard was "What is the second Sunday in Maine?" Close, but wrong. I indicated in the app that she got it wrong and once I did that, a pop-up, well, popped-up asking if I wanted to provide more feedback, so I said yes and entered what I was trying to search for in the input field. When I clicked Submit (or whatever it was) apparently it sent an email to Amazon with my feedback.

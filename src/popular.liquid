@@ -1,0 +1,18 @@
+---
+title: Popular Articles
+description: Top posts on johnwargo.com in reverse chronological order.
+layout: generic
+permalink: /popular/
+---
+
+<p>This page lists the top 20 articles on the site by popularity according to Google Analytics.
+
+<ul >
+  {% for post in popularArticles %}
+    <li>
+      <h4>
+        <a href="{{post.url}}" style="cursor: pointer">{{ post.title }}</a>
+      </h4>      
+    </li>
+  {% endfor %}
+</ul>

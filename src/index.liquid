@@ -133,7 +133,7 @@ layout: home
       Top 5 Posts
     </h4>
     <ul class="posts">
-      {% for item in popularArticles %}
+      {% for item in popularArticles limit: 5 %}
         <li>
           <a href="{{ item.url }}">
             {{ item.title }}</a>
