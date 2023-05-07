@@ -7,7 +7,7 @@ categories: [Stupid Developer Tricks]
 tags: post
 ---
 
-As look at the world around me, I'm surprised that in the world of the connected, mobile user, that companies are still not thinking of mobile-first users. There are millions or billions of mobile devices sold every year, but companies with public facing web sites still don't seem to notice and I'm really surprised by that.
+As look at the world around me, I'm surprised that in the world of the connected, mobile user, that companies are still not thinking of mobile-first users. There are millions or billions of mobile devices sold every year, but companies with public facing web sites still don't seem to notice, and I'm really surprised by that.
 
 The local Charlotte BIG insurance company is Novant Health, and they're usually pretty organized. I was in one of their facilities a while back and noticed that there was free Wi-Fi, so I decided to connect. After selecting the SSID and connecting to the network, I was presented with the confirmation page shown in Figure 1.
 

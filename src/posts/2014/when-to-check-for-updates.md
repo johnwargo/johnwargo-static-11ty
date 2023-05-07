@@ -1,13 +1,13 @@
 ---
 title: When to Check for Updates
-description: 
+description: Describing something I noticed with the Ionic CLI where it checks for requirement installation way too late in the process.
 date: 2014-08-11
 headerImage: 
 categories: [Mobile Development]
 tags: post
 ---
 
-I've been trying to build a sample application using [Ionic](https://ionicframework.com/){target="_blank"}, an HTML5 framework specifically designed for hybrid applications. I read the instructions, downloaded the code and initiated the command to create a new project.
+I've been trying to build a sample application using the [Ionic Framework](https://ionicframework.com/){target="_blank"}, an HTML5 framework specifically designed for hybrid applications. I read the instructions, downloaded the code and initiated the command to create a new project.
 
 What happened? Failure.
 

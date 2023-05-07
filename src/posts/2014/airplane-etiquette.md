@@ -1,6 +1,6 @@
 ---
 title: Airplane Etiquette
-description: 
+description: A little rant about people in first class act when their luggage is in the back of the plane.
 date: 2014-02-02
 headerImage: 
 categories: [Miscellaneous]

@@ -1,6 +1,6 @@
 ---
 title: Where to Find Me @ SAP TechEd && d-code Las Vegas 2014
-description: 
+description: Describes, well, where to find me at SAP TechEd this year.
 date: 2014-10-14
 headerImage: 
 categories: [Miscellaneous]

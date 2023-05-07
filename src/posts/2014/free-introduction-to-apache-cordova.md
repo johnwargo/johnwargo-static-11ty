@@ -1,6 +1,6 @@
 ---
 title: Free Introduction to Apache Cordova
-description: 
+description: Announcing that a free chapter from my Apache Cordova API Cookbook is available for download.
 date: 2014-07-31
 headerImage: 
 categories: [Mobile Development]

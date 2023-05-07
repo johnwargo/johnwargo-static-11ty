@@ -1,6 +1,6 @@
 ---
 title: Git
-description: 
+description: Describes the funny connection between a source code management program and Monty Python.
 date: 2014-01-20
 headerImage: 
 categories: [Miscellaneous]

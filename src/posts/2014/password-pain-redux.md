@@ -1,6 +1,6 @@
 ---
 title: Password Pain Redux
-description: 
+description: I hate registration forms that have specific password requirements that are not communicated to the user until AFTER a password has been entered. This makes no sense to me.
 date: 2014-02-11
 headerImage: 
 categories: [Miscellaneous]

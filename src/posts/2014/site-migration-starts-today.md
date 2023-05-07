@@ -1,6 +1,6 @@
 ---
 title: Site Migration Starts Today
-description: 
+description: I will be migrating this site to a new hosting account starting today. I don't know how long this process is going to take, so please be patient as I work through this.
 date: 2014-12-01
 headerImage: 
 categories: [Miscellaneous]

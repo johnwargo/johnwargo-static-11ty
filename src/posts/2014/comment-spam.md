@@ -1,6 +1,6 @@
 ---
 title: Comment Spam
-description: 
+description: Describes my experience with hackers trying to hack my Joomla site. 
 date: 2014-06-30
 headerImage: 
 categories: [Miscellaneous]
@@ -11,7 +11,7 @@ I mentioned this on twitter a while back, but I'm consistently amazed by how muc
 
 Anyway, I had some issues with the CAPTCHA on this site, and my comments plugin provider isn't responding to any forum posts on the topic so I had to just leave the comments on and use the plugin's moderation capabilities to weed out the spam. What's interesting about this is that I generally only get spam on just one of my posts as shown in the figure below.
 
-{% image "src/images/2014/comment-spam-1.png", "Figure 1", "image-full" %}
+{% image "src/images/2014/comment-spam-1.png", "Example Spam Comment", "image-full" %}
 
 I don't know what it is about that particular topic that attracts the spammers, but it sure does (to the tune of about 50 spam comments a week).
 

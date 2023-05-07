@@ -1,6 +1,6 @@
 ---
 title: Apache Cordova API Cookbook Print Copies
-description: 
+description: Announcing that I received my first print copies of Apache Cordova API Cookbook.
 date: 2014-07-13
 headerImage: 
 categories: [Mobile Development]

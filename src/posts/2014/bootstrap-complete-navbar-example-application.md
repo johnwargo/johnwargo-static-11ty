@@ -1,6 +1,6 @@
 ---
 title: Bootstrap Complete NavBar Example Application
-description: 
+description: I learned how to build a NavBar in Bootstrap and wrote about it here.
 date: 2014-09-01
 headerImage: 
 categories: [Miscellaneous]

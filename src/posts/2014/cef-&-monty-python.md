@@ -1,6 +1,6 @@
 ---
 title: CEF & Monty Python
-description: 
+description: Describes my experience trying to build a cross platform app and looking to the Chromium Embedded Framework as an option.
 date: 2014-08-04
 headerImage: 
 categories: [Miscellaneous]

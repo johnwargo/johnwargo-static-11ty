@@ -1,6 +1,6 @@
 ---
 title: PhoneGap Essentials Sales
-description: 
+description: Discusses having PhoneGap or Apache Cordova in my book titles and how the choice affects sales.
 date: 2014-07-03
 headerImage: 
 categories: [Mobile Development]
