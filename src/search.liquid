@@ -7,6 +7,16 @@ layout: generic
   [v-cloak] {
     display: none
   }
+  input[type="search"] {
+    width: calc(100% - 150px);
+    display: inline-block;
+  }
+
+  @media(max-width: 630px) {
+    button.fa-search span {
+      display: none;
+    }
+  }
 </style>
 
 {% raw %}
@@ -107,6 +117,7 @@ layout: generic
         if (this.search === '') 
           return;
         
+
 
 
         this.searching = true;
