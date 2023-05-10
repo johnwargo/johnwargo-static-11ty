@@ -30,8 +30,7 @@ layout: generic
     }
 
     .chart-container {
-      width: 1000px;
-      height: 600px
+      max-width: 1280px;
     }
   </style>
 
@@ -40,7 +39,7 @@ layout: generic
       <tr>
         <th>Year</th>
         <th>Count</th>
-        <th>Avg. Days Between Posts&nbsp;</th>
+        <th>Avg. Days Between Posts</th>
       </tr>
     </thead>
     <tbody>
@@ -86,7 +85,17 @@ layout: generic
     options: {
       scales: {
         y: {
-          beginAtZero: true
+          beginAtZero: true,
+          title: {
+            display: true,
+            text: 'Number of Posts'
+          }
+        },
+        x: {
+          title: {
+            display: true,
+            text: 'Post Year'
+          }
         }
       }
     }
