@@ -59,11 +59,8 @@ layout: generic
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script>
-
     const ctx = document.getElementById('statsChart');
-
     new Chart(ctx, {
-
       data: {
         labels: [{% for year in collections.postStats.years %}'{{ year.year }}'{%- unless forloop.last %},{% endunless %}{% endfor %}],
       datasets: [
