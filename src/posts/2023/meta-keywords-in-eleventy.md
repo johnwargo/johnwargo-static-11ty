@@ -18,7 +18,22 @@ Description was easy, I added a `description` property to my post template and p
 {% endif %}
 {% endhighlight %}
 
-For keywords, I knew that building the comma separated list of categories would be ugly in Liquid (doable, but not elegant), so I simply added a shortcode for it in the project's `eleventy.config.js` file:
+For keywords, building the comma separated list of categories is a little ugly in Liquid (doable, but not elegant): 
+
+{% highlight liquid %}
+{% if categories.length > 0 %}
+  <meta
+    name="keywords"
+    content="
+  {% for cat in categories %}
+    {{ cat }}
+    {%- unless forloop.last %},
+    {% endunless %}
+  {% endfor %}">
+{% endif %}
+{% endhighlight %}
+
+Instead, I decided to add a `getKeywords` shortcode in the project's `eleventy.config.js` like this:
 
 ```js
 eleventyConfig.addShortcode("getKeywords", function (categories) {
@@ -38,3 +53,25 @@ Now, with access to the keywords array of categories, adding it to each page's h
   <meta name="keywords" content="{% getKeywords categories %}">
 {% endif %}
 {% endhighlight %}
+
+The difference is in code readability and output. In the first example, Eleventy generates the following HTML:
+
+```html
+<meta
+  name="keywords"
+  content="
+John M. Wargo,
+  
+John Wargo,
+  
+johnwargo
+">
+```
+
+For the second, Eleventy generates the following:
+
+```html
+<meta name="keywords" content="John M. Wargo, John Wargo, johnwargo">
+```
+
+Which, as I hope you see, is much cleaner; with the solution I picked I got cleaner code and output - always a goal for me.
