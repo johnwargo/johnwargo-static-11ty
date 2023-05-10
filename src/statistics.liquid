@@ -14,11 +14,11 @@ layout: generic
       {{ collections.postStats.avgDays | commaize }}</li>
     <li>
       <strong>First Post:</strong>
-      {{ collections.postStats.firstPostDate }}
+      {{ collections.postStats.firstPostDate | readableDate }}
     </li>
     <li>
       <strong>Last Post:</strong>
-      {{ collections.postStats.lastPostDate }}</li>
+      {{ collections.postStats.lastPostDate | readableDate }}</li>
   </ul>
 
   <style>
