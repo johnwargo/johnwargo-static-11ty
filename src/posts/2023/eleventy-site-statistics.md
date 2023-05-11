@@ -8,7 +8,7 @@ categories:
   - Eleventy
 ---
 
-As I worked to migrate this site to Eleventy, one of the final touches I wanted to add was a statistics page that showed 'stuff' about the site. The page started simple at first, but then I started thinking about what I could do with 14 years of data. 
+As I worked to migrate this site to [Eleventy](https://www.11ty.dev/docs/collections/){target="_blank"}, one of the final touches I wanted to add was a statistics page that showed 'stuff' about the site. The page started simple at first, but then I started thinking about what I could do with 14 years of post data. 
 
 I knew I could add a collection to my site and use that to build a data set showing the number of posts per year as well as the average number of days between posts. At that point, I realized I could make an Eleventy plugin out of it so others could use it as well and this would give me an opportunity to learn how to make Eleventy plugins. 
 
