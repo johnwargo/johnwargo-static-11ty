@@ -21,7 +21,7 @@ const isProduction = process.env.NODE_ENV === 'production';
 module.exports = eleventyConfig => {
 
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
-	eleventyConfig.addPlugin(embedYouTube); ``
+	eleventyConfig.addPlugin(embedYouTube); 
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(syntaxHighlight);
