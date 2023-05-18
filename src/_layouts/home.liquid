@@ -18,23 +18,11 @@ License: pixelarity.com/license
     {% if description %}
       <meta name="description" content="{{ description }}" />
     {% endif %}
-
     {% if categories.length > 0 %}
       <meta
         name="keywords"
-        content="
-      {% for cat in categories %}
-        {{ cat }}
-        {%- unless forloop.last %},
-        {% endunless %}
-      {% endfor %}">
+        content="{% getKeywords categories %}">
     {% endif %}
-
-    {% if categories.length > 0 %}
-      <meta name="keywords" content="{% getKeywords categories %}">
-    {% endif %}
-
-
     <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="{{ "/" | htmlBaseUrl }}assets/css/main.css" />
     {% include 'icons.html' %}
