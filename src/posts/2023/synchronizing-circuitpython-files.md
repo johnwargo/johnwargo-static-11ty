@@ -6,7 +6,6 @@ headerImage:
 categories: [Uncategorised]
 tags: post
 ---
-
   
 I love working with a variety of microcontroller devices and a lot of my projects use LEDs, so I was pleasantly surprised when the folks at Adafruit added the FeatherS2 Neo ([https://www.adafruit.com/product/5629](https://www.adafruit.com/product/5629){target="_blank"}) board to their catalog. It has an ESP32 processor and a 5x5 grid of little NeoPixels onboard, so it is perfect for some of my projects.
 

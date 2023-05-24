@@ -1,6 +1,6 @@
 module.exports = {
 	title: "John M. Wargo",
-	url: "https://johnwargo.com/",
+	url: "https://johnwargo.com",
 	language: "en",
 	description: "Tech tidbits and other stuff",
 	author: {
