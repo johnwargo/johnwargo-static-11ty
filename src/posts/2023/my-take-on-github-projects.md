@@ -66,7 +66,7 @@ So I now have all of these issues in my repository and a board to manage them, b
 
 Now, I know (or at least I assume) I can setup automation to enable the workflow process I’m using but honestly I expected this to happen automatically. You gave me the board template, so you know how people expect it to work. Why force another manual task on me?
 
-I don’t get it. 
+I don’t get it. You can tell that other GitHub users don't get it as well: [why is everything a draft?](https://github.com/orgs/community/discussions/10317){target="_blank"}
 
 Knowing that I’m a single developer working in this repository, GitHub should deliver the board experience that fits with a single user. When I’m in an organization, all this other stuff could make sense, especially when the board pulls issues from multiple repositories. 
 
