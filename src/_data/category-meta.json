@@ -10,6 +10,11 @@
     "description": "Articles related to my usage and experimentation with Content Management Systems (CMS)."
   },
   {
+    "category": "Developer Tools",
+    "count": 1,
+    "description": ""
+  },
+  {
     "category": "Eleventy",
     "count": 10,
     "description": "Articles related to the Eleventy Static Site Generator"
