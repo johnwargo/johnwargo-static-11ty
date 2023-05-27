@@ -51,7 +51,7 @@ To convert the task to an issue, you must hover over the task and click the litt
 
 Once you select that option, you’re prompted to select the repository you want to link the task to. 
 
-{% image "src/images/2023/github-projects-06.png", "GitHub Projects Repository List", "image-full" %}
+{% image "src/images/2023/github-projects-07.png", "GitHub Projects Repository List", "image-full" %}
 
 OK, that makes sense when you look at this from an organizational standpoint and GitHub thankfully puts the current repository (the repository I created the project in) as the first option in the list. What doesn’t make sense is that I have to do this at all.
 
