@@ -151,7 +151,7 @@ layout: home
       </a>.
     </p>
     <ul>
-      {% for item in wwa-posts %}
+      {% for item in wwa-posts limit: 5 %}
         <li>
           <a href="{{ item.url }}" target="_blank">
             {{ item.title }}</a>
