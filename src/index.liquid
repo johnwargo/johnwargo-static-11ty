@@ -129,9 +129,9 @@ layout: home
 
   </section>
   <section>
-    <h4>
+    <h3>
       <a href="/popular">Most Viewed Posts</a>
-    </h4>
+    </h3>
     <ul>
       {% for item in popularArticles limit: 10 %}
         <li>
@@ -141,6 +141,25 @@ layout: home
       {% endfor %}
     </ul>
   </section>
+  <section>
+    <h3>
+      <a href="https://aworldwithoutapps.com" target="_blank">A World Without Apps</a>
+    </h3>
+    <p>The latest posts from sister site
+      <a href="https://aworldwithoutapps.com" target="_blank">
+        <em>A World Without Apps</em>
+      </a>.
+    </p>
+    <ul>
+      {% for item in wwa-posts %}
+        <li>
+          <a href="{{ item.url }}" target="_blank">
+            {{ item.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
   <section>
     <h3>
       <a href="https://www.buymeacoffee.com/johnwargo" target="_blank">Buy Me A Coffee</a>
@@ -171,5 +190,4 @@ layout: home
       </li>
     </ul>
   </section>
-
 </aside>
