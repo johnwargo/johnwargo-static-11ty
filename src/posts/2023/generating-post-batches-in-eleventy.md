@@ -4,6 +4,7 @@ title: Generating Post Batches in Eleventy
 description: 
 date: 2023-05-16
 headerImage: 
+headerImageAltText: 
 categories:
   - Eleventy
 ---

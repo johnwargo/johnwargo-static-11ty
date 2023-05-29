@@ -3,6 +3,7 @@ title: Displaying Build Details in an Eleventy Site
 description: I leveraged some old code to add the ability to capture build details and save them with a project. In this post, I describe the utility I created that allows you to easily display build information in an Eleventy site.
 date: 2023-03-15
 headerImage: 
+headerImageAltText: 
 categories: 
     - Eleventy
     - Static Site Generators

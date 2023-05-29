@@ -4,7 +4,7 @@ title: Eleventy Displaying Posts from Another Site
 description: 
 date: 2023-05-29
 headerImage: 
-headerCredit: 
+headerImageAltText: 
 categories:
   - Eleventy
 ---

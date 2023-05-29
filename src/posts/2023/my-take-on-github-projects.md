@@ -4,6 +4,7 @@ title: My Take On GitHub Projects
 description: 
 date: 2023-05-27
 headerImage: 
+headerImageAltText: 
 categories:
   - Developer Tools
 ---

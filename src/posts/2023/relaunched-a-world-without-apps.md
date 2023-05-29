@@ -4,6 +4,7 @@ title: Relaunched A World Without Apps
 description: 
 date: 2023-05-28
 headerImage: 
+headerImageAltText: 
 headerCredit: 
 categories:
   - Miscellaneous

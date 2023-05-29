@@ -3,6 +3,7 @@ title: Eleventy Site Categories Page
 description: While I worked with Jekyll, I struggled figuring out a way to add a Categories page to a site. In this post, I describe a solution I created for Eleventy that does this.
 date: 2023-03-18
 headerImage: 
+headerImageAltText: 
 categories:
     - Static Site Generators
     - Eleventy

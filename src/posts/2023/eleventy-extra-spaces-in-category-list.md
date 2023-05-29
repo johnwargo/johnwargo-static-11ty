@@ -4,6 +4,7 @@ title: Eleventy Extra Spaces in Category List
 description: I noticed that the category lists on this site had an extra space before and after the comma and set out to fix it.
 date: 2023-04-30
 headerImage: 
+headerImageAltText: 
 categories:
   - Eleventy
 ---

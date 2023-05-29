@@ -4,6 +4,7 @@ title: Automating Eleventy Post Creation
 description: 
 date: 2023-05-11
 headerImage: 
+headerImageAltText: 
 categories:
   - Eleventy
 ---

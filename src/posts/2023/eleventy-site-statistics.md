@@ -4,6 +4,7 @@ title: Eleventy Site Statistics
 description: 
 date: 2023-05-10
 headerImage: 
+headerImageAltText: 
 categories:
   - Eleventy
 ---

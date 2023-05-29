@@ -4,6 +4,7 @@ title: Gadget Man
 description: 
 date: 2023-05-04
 headerImage: 
+headerImageAltText: 
 categories:
   - Miscellaneous
 ---

@@ -4,7 +4,7 @@ title:
 description: 
 date: 
 headerImage: 
-headerCredit: 
+headerImageAltText: 
 categories: []
 ---
 

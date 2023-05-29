@@ -3,6 +3,7 @@ title: Synchronizing CircuitPython Files
 description: I started playing with CircuitPython and decided I didn't like writing code on the device. This post describes a utility I created to help Circuit Python synchronize project files to a local project folder.
 date: 2023-02-20
 headerImage: 
+headerImageAltText: 
 categories: [Uncategorised]
 tags: post
 ---

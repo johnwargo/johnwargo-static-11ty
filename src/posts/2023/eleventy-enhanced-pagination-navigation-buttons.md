@@ -3,7 +3,8 @@ tags: post
 title: Eleventy Enhanced Pagination Navigation Buttons
 description: After adding Previous and Next buttons to paginated pages in this site, I figured out a clean way to add First and Last buttons as well and this post describes how I did it.
 date: 2023-04-23
-headerImage: null
+headerImage: 
+headerImageAltText: 
 categories:
   - Eleventy
 ---

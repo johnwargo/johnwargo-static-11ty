@@ -4,6 +4,7 @@ title: Meta Description and Keywords in Eleventy
 description: 
 date: 2023-05-01
 headerImage: 
+headerImageAltText: 
 categories:
   - Eleventy
 ---
