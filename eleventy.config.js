@@ -108,6 +108,7 @@ module.exports = eleventyConfig => {
 		"src/assets/webfonts/",
 		// Images folders
 		"src/images/*",
+		"src/images/headers/*",
 		"src/images/avatar/*",
 		"src/images/common/*",
 		"src/images/covers/*",
