@@ -33,7 +33,7 @@
 	},
 	"Liquid Highlight": {
 		"scope": "markdown",
-		"prefix": "%liquid",
+		"prefix": "!liquid",
 		"body": [
 			"{% highlight liquid %}",
 			"",
