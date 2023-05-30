@@ -39,7 +39,10 @@ License: pixelarity.com/license
         <section>
           <header>
             {% if headerImage %}
-              <span class="image featured"><img src="{{ headerImage }}" alt="{{ headerImageAltText }}" /></span>
+              <span class="image-full"><img
+                  src="{{ headerImage }}"
+                  alt="{{ headerImageAltText }}"
+                  class="image-full" /></span>
             {% endif %}
             <h2>
               {{ title }}
