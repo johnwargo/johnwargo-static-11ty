@@ -4,7 +4,7 @@
 
 The static site generated version of [johnwargo.com](https://johnwargo.com), implemented using [Eleventy](https://www.11ty.dev/) hosted on [GitHub](https://github.com/johnwargo/johnwargo-static-11ty).
 
-[Task List](https://github.com/users/johnwargo/projects/4)
+[Task List](https://trello.com/b/eoqh8Fte/jmw-site-tasks)
 
 ## The Site at Launch
 

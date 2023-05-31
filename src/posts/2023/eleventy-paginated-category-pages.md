@@ -1,6 +1,6 @@
 ---
 tags: post
-title: Eleventy Paginated Category Pages
+title: Eleventy Nested Paginated Category Pages
 description: Something I wanted to do with this site, but wasn't supported by Eleventy, is generate paginated pages of content for each category. This article explains how I solved this problem and how you can use it for your Eleventy site(s).
 date: 2023-05-31
 headerImage: 
