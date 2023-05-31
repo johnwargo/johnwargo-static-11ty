@@ -4,7 +4,7 @@ description: I started playing with CircuitPython and decided I didn't like writ
 date: 2023-02-20
 headerImage: 
 headerImageAltText: 
-categories: [Uncategorised]
+categories: []
 tags: post
 ---
   

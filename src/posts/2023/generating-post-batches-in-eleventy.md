@@ -1,7 +1,7 @@
 ---
 tags: post
 title: Generating Post Batches in Eleventy
-description: 
+description: This article describes a Node command-line utility I created to generate batches of new posts in an Eleventy site.
 date: 2023-05-16
 headerImage: 
 headerImageAltText: 

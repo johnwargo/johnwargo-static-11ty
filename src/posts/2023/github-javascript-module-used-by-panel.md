@@ -1,7 +1,7 @@
 ---
 tags: post
 title: GitHub JavaScript Module Used By Panel
-description: 
+description: On a module's repository page, GitHub shows which other repositories use the module. Who knew?
 date: 2023-05-15
 headerImage: 
 headerImageAltText: 

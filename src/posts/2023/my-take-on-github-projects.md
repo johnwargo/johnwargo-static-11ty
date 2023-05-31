@@ -1,7 +1,7 @@
 ---
 tags: post
 title: My Take On GitHub Projects
-description: 
+description: I tried to use GitHub Projects to manage the migration tasks for this site and a horrible experience, so I thought I'd share what I see are failures in the product.
 date: 2023-05-27
 headerImage: 
 headerImageAltText: 

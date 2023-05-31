@@ -1,7 +1,7 @@
 ---
 tags: post
 title: Relaunched A World Without Apps
-description: 
+description: Back in 2016 I created a site called A World Without Apps where I published articles about voice interfaces and how they would replace many mobile apps. After letting the site languish for many years, I finally brought it back to life last week with a new look and new purpose.
 date: 2023-05-28
 headerImage: 
 headerImageAltText: 
