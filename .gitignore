@@ -3,6 +3,7 @@
 _site/
 node_modules/
 joomla/articles/
+px-faction-html/
 
 # Files
 .DS_Store
