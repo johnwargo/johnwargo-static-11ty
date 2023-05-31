@@ -14,8 +14,9 @@ layout: generic
       <h4>
         <a href="{{ "/" | htmlBaseUrl }}categories/{{ catData.category | slugify }}/">{{ catData.category }}</a>
       </h4>
-      Count: {{ catData.count }} |
-      {% if catData.description %}
+      Count: {{ catData.count }}
+      {% if catData.description.length > 0 %}
+        |
         {{ catData.description }}
       {% endif %}
     </li>
