@@ -19,7 +19,9 @@ To deliver what I want here, I could manually create a separate page for each ca
 
 To solve this problem, I created the *Eleventy Category Pages* preprocessor module (find it on [GitHub](https://github.com/johnwargo/eleventy-category-pages){target="_blank"} and [npm](https://www.npmjs.com/package/eleventy-category-pages){target="_blank"}). You can see it in use in this site at [Categories](/categories){target="_blank"}.
 
-This module essentially does two things:
+**Note:** After posting this article, I finished reading [Eleventy by Example](https://www.packtpub.com/product/eleventy-by-example/9781804610497){target="_blank"} and I now see how I can make this an Eleventy plugin instead of a stand-alone utility. I'll start work on converting this to a plugin; stay tuned. 
+
+The module essentially does two things:
 
 1. Generates a global data file containing metadata about all the categories used in the site. You'll use the file to generate links to all the category pages in your site.
 2. Generates a separate page for each category used in the site with pagination for the posts in the category. These pages display all of the posts for the particular category.
