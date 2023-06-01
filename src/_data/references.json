@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Issue 8 - A new author, a scroll-to-top button, and some refactoring",
+    "date": "2023-05-31",
+    "url": "https://11tybundle.dev/blog/11ty-bundle-8/",
+    "description": "Announces the addition of links to my Eleventy articles."
+  },
+  {
+    "title": "Eleventy Posts by John M. Wargo",
+    "date": "2023-05-31",
+    "url": "https://11tybundle.dev/authors/john-m-wargo/",
+    "description": "This site publishes references to articles on this site related the the Eleventy Static Site Generator."
+  }  
+]

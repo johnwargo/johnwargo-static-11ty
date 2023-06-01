@@ -1,0 +1,49 @@
+---js
+{
+  "title":"Online References",
+  "description": "Lists external sites that mention me and/or my work.",  
+  "layout": "generic",
+  "headerImage": "/images/common/link-1024.jpg",
+  "pagination": {
+    "data": "references",
+    "size": 20,
+    "alias": "items",
+    "reverse": true,
+    "before": function(data, fullData) { 
+      return Array.from(data).sort((a, b) => {
+        return a.date > b.date ? 1 : -1;
+      });
+    }
+  }
+}
+---
+
+<p>Every once in a while someone referendces me or my work in an external site. This page lists those references.</p>
+
+{% include 'pagination-count.html' %}
+
+<ul class="posts">
+  {% for item in items %}
+    <li>
+      <h4>
+        {{ item.title }}
+      </h4>
+      <span class="date">
+        <strong>Date:
+        </strong>
+        {{ item.date }}
+        {% if item.url.length > 0 %}
+          |
+          <a href="{{ item.url }}" target="_blank">
+            <strong>Link to Event</strong>
+          </a>
+        {% endif %}
+      </span>
+      {% if item.description %}
+        {{ item.description }}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
+{% include 'pagination-nav.html' %}

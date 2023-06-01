@@ -5,10 +5,10 @@
     "data": "collections.post",
     "size": 20,
     "alias": "catposts",
-    "before": function(paginationData, fullData){ let data = paginationData.filter((item) => item.data.categories.includes('Uncategorised')); return Array.from(data).sort((a, b) => { return a.date < b.date ? 1 : -1; });}
+    "before": function(paginationData, fullData){ let data = paginationData.filter((item) => item.data.categories.length == 0); return Array.from(data).sort((a, b) => { return a.date < b.date ? 1 : -1; });}
   },
-  "category": "Uncategorised",
-  "description": "Posts where I've not assigned a category",
+  "category": "Uncategorized",
+  "description": "Posts calling out the results of stupid things software developers do.",
   "eleventyComputed": {
     "title": "Category: {{ category }}"
   },

@@ -74,6 +74,15 @@ set DEBUG=Eleventy* & npx @11ty/eleventy
 {% image "src/images/", "", "image-full" %}
 ```
 
+### Sightings record
+
+{
+    "title": "",
+    "date": "",
+    "url": "",
+    "description": ""
+  },
+
 ### Links to Book cover images:
 
 {% image "src/images/covers/bbdf-cover-160.png", "Blackberry Development Fundamentals Cover", "image-full" %}
