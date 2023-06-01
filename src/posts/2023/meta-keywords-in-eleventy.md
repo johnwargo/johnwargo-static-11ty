@@ -1,5 +1,4 @@
 ---
-tags: post
 title: Meta Description and Keywords in Eleventy
 description: This article describes how I added HTML Keywords to an Eleventy site. 
 date: 2023-05-01

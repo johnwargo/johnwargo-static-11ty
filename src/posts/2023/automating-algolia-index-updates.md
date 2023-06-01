@@ -7,7 +7,6 @@ headerImageAltText:
 categories:
   - Eleventy
   - Static Site Generators
-tags: post
 ---
 
 I recently started working with the static site generator [Eleventy](https://www.11ty.dev/){target="_blank"}; since then I built a new site using it, and migrated an existing site from Jekyll to Eleventy. As part of that process, I followed Raymond Camden's [Adding Algolia Search to Eleventy and Netlify](https://www.raymondcamden.com/2020/06/24/adding-algolia-search-to-eleventy-and-netlify){target="_blank"} to offer search for the site.

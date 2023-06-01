@@ -1,5 +1,4 @@
 ---
-tags: post
 title: Eleventy Displaying Posts from Another Site
 description: I wanted to pull the most recent articles from an Eleventy site into another Eleventy site, so I wrote this article to explain how I did it.
 date: 2023-05-29

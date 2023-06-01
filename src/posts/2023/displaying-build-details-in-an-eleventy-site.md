@@ -7,7 +7,6 @@ headerImageAltText:
 categories: 
     - Eleventy
     - Static Site Generators
-tags: post
 ---
 
 I recently started using [Eleventy](https://www.11ty.dev/){target="_blank"}, a node-based static site generator and quickly put up a new site using it. With that under my belt, I migrated my [Random Errors](https://randomerrors.dev/){target="_blank"} site from Jekyll to Eleventy pretty quickly. My long term plan is to migrate this site from Joomla to Eleventy as soon as I figure out a couple of extra features I need for this site's migration.

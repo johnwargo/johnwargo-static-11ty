@@ -1,5 +1,4 @@
 ---
-tags: post
 title: Gadget Man
 description: For my 60th birthday, my wife and some friends wrote a song about me called Gadget Man (sung to the tune from Rocket Man by Sir. Elton John)
 date: 2023-05-04

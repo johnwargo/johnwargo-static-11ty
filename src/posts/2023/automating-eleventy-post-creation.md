@@ -1,5 +1,4 @@
 ---
-tags: post
 title: Automating Eleventy Post Creation
 description: Describes a utility I created to automate creating a new post in an Eleventy site.
 date: 2023-05-11

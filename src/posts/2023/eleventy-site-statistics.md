@@ -1,5 +1,4 @@
 ---
-tags: post
 title: Eleventy Site Statistics
 description: I wanted to add a statistics page to this site, so I created an Eleventy plugin to do it. This article describes how to use the plugin in your Eleventy site.
 date: 2023-05-10

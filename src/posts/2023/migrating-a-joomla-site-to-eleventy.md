@@ -1,5 +1,4 @@
 ---
-tags: post
 title: Migrating This Site from Joomla To Eleventy
 description: Describes the process I used to migrate a 14 year old Joomla site (this one) to Eleventy and the tools I created to simplify the process (that you can use in your Joomla to Eleventy migrations).
 date: 2023-05-30

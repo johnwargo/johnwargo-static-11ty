@@ -40,5 +40,13 @@
 			"{% endhighlight %}"
 		],
 		"description": "Liquid Code Block"
+	},
+	"Link Target": {
+		"scope": "markdown, liquid",
+		"prefix": "!liquid",
+		"body": [
+			" target=\"_blank\""
+		],		
+		"description": "Liquid Code Block"
 	}
 }
