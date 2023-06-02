@@ -5,15 +5,18 @@
   "author": "John M. Wargo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/johnwargo/johnwargo-static-11ty"
+    "url": "git+https://github.com/johnwargo/johnwargo-static-11ty"
+  },
+  "bugs": {
+    "url": "https://github.com/johnwargo/johnwargo-static-11ty/issues"
   },
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "eleventy --serve",
-    "build": "eleventy",
-    "pbuild": "gen-build-info src/_data && 11ty-cat-pages && eleventy",
-    "pub": "zx pub.mjs"
+    "clean": "rimraf _site",
+    "build:eleventy": "eleventy",
+    "watch:eleventy": "eleventy --serve",
+    "start": "npm-run-all --sequential clean watch:eleventy",
+    "build": "npm-run-all --sequential clean build:eleventy"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
@@ -29,7 +32,9 @@
     "generate-build-info": "^0.0.3",
     "html-minifier": "^4.0.0",
     "markdown-it-attrs": "^4.1.6",
-    "outdent": "^0.8.0"
+    "npm-run-all": "^4.1.5",
+    "outdent": "^0.8.0",
+    "rimraf": "^5.0.1"
   },
   "keywords": [
     "eleventy"
