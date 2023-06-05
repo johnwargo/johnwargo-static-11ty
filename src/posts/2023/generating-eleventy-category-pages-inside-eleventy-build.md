@@ -30,6 +30,8 @@ So, that afternoon I created a new Node module project on GitHub called [Elevent
 
 It works great as far as I can tell in my tests, but I wrote the original module in TypeScript and I'm in module hell trying to get this generated code to run in an Eleventy project. This isn't something I can't figure out, but as you'll see in tomorrow's post, I'm getting shoulder surgery on Wednesday and I don't have time to fix this issue before then.
 
+The issue is getting the right settings in the project's `tsconfig.json` file so it will execute properly in an Eleventy project. Its not rocket science, I just don't have the time right now to experiment with different settings. 
+
 I'll get to fixing this as soon as I can, but I'll be without use of my left hand for almost two months, I don't expect to do a lot of coding while I'm recovering. If someone in the community wants to fix this, I'll make sure I check for pull requests as often I can. 
 
 Looking for the community's help.
