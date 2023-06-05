@@ -2,6 +2,7 @@
 title: 
 description: 
 date: 
+showCoffee: 
 headerImage: 
 headerImageAltText: 
 categories: []

@@ -2,6 +2,7 @@
 title: Hiatus
 description: Announcing that I'm having shoulder surgery and won't be posting here much in the next couple of months.
 date: 2023-06-06
+showCoffee: false
 headerImage: /images/headers/inge-poelman-5TcVAZmmxpY-unsplash-1024.jpg
 headerImageAltText: An image of a woman's right shoulder
 categories:

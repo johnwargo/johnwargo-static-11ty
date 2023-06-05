@@ -146,4 +146,4 @@ layout: generic
 
 I'm in the process of tightening up the table, but here's what the page looks like today:
 
-{% image "src/images/2023/site-stats.png", "Site Statistics Page", "image-full" %}
+{% image "src/images/2023/site-stats.png", "Site Statistics Page", "image fit" %}
