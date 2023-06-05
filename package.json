@@ -3,14 +3,14 @@
   "version": "0.1.17",
   "description": "The static site generated version of [johnwargo.com](https://johnwargo.com), implemented using [Eleventy](https://www.11ty.dev/).",
   "author": "John M. Wargo",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/johnwargo/johnwargo-static-11ty"
   },
   "bugs": {
     "url": "https://github.com/johnwargo/johnwargo-static-11ty/issues"
-  },
-  "license": "MIT",
+  },  
   "scripts": {
     "clean": "rimraf _site",
     "build:eleventy": "eleventy",
@@ -31,6 +31,7 @@
     "execa": "^7.1.1",
     "generate-build-info": "^0.0.3",
     "html-minifier": "^4.0.0",
+    "markdown-it": "^13.0.1",
     "markdown-it-attrs": "^4.1.6",
     "npm-run-all": "^4.1.5",
     "outdent": "^0.8.0",
