@@ -8,3 +8,11 @@
 .main section .image-full {
   max-width:100%;
 }
+
+#header .logo img {
+  position: relative;
+  top: 1.2rem;
+  height: 3rem;
+  margin-right: 0.8rem;
+  border-radius: 3px;
+}
