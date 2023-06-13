@@ -3,6 +3,8 @@
   "short_name": "johnwargo",
   "description": "Tech Tidbits & Stuff from John Wargo",
   "display": "standalone",
+  "theme_color": "#358bca", 
+  "background_color": "#ffffff",
   "icons": [
     {
       "src": "/android-icon-36x36.png",
