@@ -4,7 +4,7 @@
   const response = await fetch("https://goodreads-5bfb4vi5ia-ue.a.run.app/", { mode: 'cors' });
   const res = await response.json();
   let content='';
-  if (res.readingList.length > -1) {
+  if (res.readingList.length > 0) {
     content = "<p>Books I'm currently reading (<a href=\"https://www.goodreads.com/user/show/51500942-john-wargo\" target=\"_blank\">Goodreads</a>):</p>";
     content += "<ul class=\"posts\">";
     res.readingList.forEach(function (book) {
