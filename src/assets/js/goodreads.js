@@ -1,7 +1,6 @@
 (async function () {
   console.log('goodreads.js loaded');
   let bookDiv = document.getElementById('readingList');
-  bookDiv.innerHTML = '<p>Loading Goodreads feed...</p>';
 
   const response = await fetch("https://goodreads-5bfb4vi5ia-ue.a.run.app/", { mode: 'cors' });
   const res = await response.json();
