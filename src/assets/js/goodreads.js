@@ -8,7 +8,7 @@
 
   let content='';
   if (res.readingList.length > -1) {
-    content = "<p>Books I'm currently reading (according to <a href=\"https://www.goodreads.com/user/show/51500942-john-wargo\" target=\"_blank\">Goodreads</a>):</p>";
+    content = "<p>Books I'm currently reading (<a href=\"https://www.goodreads.com/user/show/51500942-john-wargo\" target=\"_blank\">Goodreads</a>):</p>";
     content += "<ul class=\"posts\">";
     res.readingList.forEach(function (book) {
       content += "<li>";
