@@ -1,11 +1,8 @@
+// https://www.raymondcamden.com/2023/06/08/using-goodreads-data-in-eleventy-update
 (async function () {
-  console.log('goodreads.js loaded');
   let bookDiv = document.getElementById('readingList');
-
   const response = await fetch("https://goodreads-5bfb4vi5ia-ue.a.run.app/", { mode: 'cors' });
   const res = await response.json();
-  console.dir(res);
-
   let content='';
   if (res.readingList.length > -1) {
     content = "<p>Books I'm currently reading (<a href=\"https://www.goodreads.com/user/show/51500942-john-wargo\" target=\"_blank\">Goodreads</a>):</p>";
@@ -21,5 +18,4 @@
     content = "<p>Goodreads feed not available (or empty).</p>";
   }  
   bookDiv.innerHTML = content;
-
 })();
