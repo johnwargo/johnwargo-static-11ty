@@ -3,6 +3,7 @@
 async function gitUpdate(msg) {
   await $`git add -A`;
   await $`git commit -m ${msg}`;
+  await $`git push`;
 }
 
 console.log('\nStarting project publish...');
@@ -41,13 +42,13 @@ if (idx > -1) {
 // Do we have a commit message?
 if (theArgs.length === 0) {
   console.log('\nMissing commit message on command line (in quotes)');
-  process.exit(0);
+  process.exit(1);
 }
 
 // Do we have too many command line arguments?
 if (theArgs.length > 1) {
   console.log('\nToo many command line arguments, make sure the commit message is in quotes');
-  process.exit(0);
+  process.exit(1);
 }
 
 // throw in a blank line on the console
@@ -63,11 +64,10 @@ if (updateIndex) {
 }
 
 await gitUpdate(theArgs[0]);
-await $`git push`;
 
 if (updatePackage) {
-  console.log('\nIncrementing package version');
+  let msg="Incrementing package version";
+  console.log(`\n${msg}`);
   await $`npm version patch`;
-  await gitUpdate('Incrementing package version');
-  await $`git push`;
+  await gitUpdate(msg);  
 }
