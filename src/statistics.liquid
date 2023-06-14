@@ -96,7 +96,7 @@ layout: generic
           order: 2
         }, {
           type: 'line',
-          label: 'Site Average Number of Days Between Posts',
+          label: 'Site Average Number of Days Between Posts ( {{ collections.postStats.avgDays | commaize }} )',
           data: [{% for year in collections.postStats.years %}{{ collections.postStats.avgDays | commaize }}{%- unless forloop.last %},{% endunless %}{% endfor %}],
           lineTension: 0.8,
           order: 2
