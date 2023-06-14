@@ -7,5 +7,4 @@ px-faction-html/
 
 # Files
 .DS_Store
-package-lock.json
 netlify-secrets.txt
