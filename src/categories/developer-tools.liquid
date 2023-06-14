@@ -8,7 +8,7 @@
     "before": function(paginationData, fullData){ let data = paginationData.filter((item) => item.data.categories.includes('Developer Tools')); return Array.from(data).sort((a, b) => { return a.date < b.date ? 1 : -1; });}
   },
   "category": "Developer Tools",
-  "description": "Articles related to my usage and experimentation with Content Management Systems (CMS).",
+  "description": "Articles related to developer tools; ones I use or ones I'm evaluating.",
   "eleventyComputed": {
     "title": "Category: {{ category }}"
   },
