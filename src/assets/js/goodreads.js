@@ -6,7 +6,7 @@
   let content = '<p>';
   if (res.readingList.length > 0) {
     content = (res.readingList.length < 2) ? "The book" : "Books";
-    content += " I'm currently reading <a href=\"https://www.goodreads.com/user/show/51500942-john-wargo\" target=\"_blank\">according to Goodreads</a>:</p>";
+    content += " I'm currently reading (<a href=\"https://www.goodreads.com/user/show/51500942-john-wargo\" target=\"_blank\">according to Goodreads</a>):</p>";
     content += "<ul class=\"posts\">";
     res.readingList.forEach(function (book) {
       content += "<li>";
