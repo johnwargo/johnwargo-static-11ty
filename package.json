@@ -25,6 +25,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "@google-analytics/data": "^3.2.2",
     "eleventy-category-pages": "^0.0.1",
+    "eleventy-generate-category-pages": "^0.0.6",
     "eleventy-plugin-date": "^1.0.0",
     "eleventy-plugin-post-stats": "^0.0.6",
     "eleventy-plugin-youtube-embed": "^1.8.1",

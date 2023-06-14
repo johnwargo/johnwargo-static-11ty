@@ -1,4 +1,5 @@
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
+const { generateCategoryPages } = require('eleventy-generate-category-pages');
 // https://github.com/11ty/eleventy/issues/2301
 const markdownIt = require('markdown-it');
 const markdownItAttrs = require('markdown-it-attrs');
@@ -39,6 +40,10 @@ module.exports = eleventyConfig => {
 		.disable("code");
 
 	eleventyConfig.setLibrary("md", markdownLib);
+
+	eleventyConfig.on('eleventy.before', async ({ dir, runMode, outputMode }) => {
+		generateCategoryPages({}, true, false);
+	});
 
 	eleventyConfig.addShortcode("getKeywords", function (categories) {
 		let returnString = "";
