@@ -66,8 +66,8 @@ if (updateIndex) {
 await gitUpdate(theArgs[0]);
 
 if (updatePackage) {
-  let msg="Incrementing package version";
+  let msg = "Incrementing package version";
   console.log(`\n${msg}`);
   await $`npm version patch`;
-  await gitUpdate(msg);  
+  await $`git push`;
 }
