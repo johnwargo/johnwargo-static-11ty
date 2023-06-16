@@ -10,5 +10,11 @@
     "date": "2023-05-31",
     "url": "https://11tybundle.dev/authors/john-m-wargo/",
     "description": "This site publishes references to articles on this site related the the Eleventy Static Site Generator."
-  }  
+  } ,
+  {
+    "title": "Eleventy Plugins",
+    "date": "2023-06-16",
+    "url": "https://www.11ty.dev/docs/plugins/",
+    "description": "References the Eleventy Plugin Post Stats plugin I created."
+  } 
 ]
