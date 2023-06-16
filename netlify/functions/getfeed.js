@@ -12,6 +12,13 @@ const Parser = require('rss-parser');
 
 const feedUrl = 'https://www.goodreads.com/review/list_rss/51500942?key=KI70WeEND9_TEAzKvLbP2en8NxNZrbkYppI699pLS0dJDBFz&shelf=%23ALL%23';
 
+const headers = {
+  'Access-Control-Allow-Origin': '*'
+  // ,
+  // 'Access-Control-Allow-Headers': 'Content-Type',
+  // 'Access-Control-Allow-Methods': 'GET'
+};
+
 let parser = new Parser({
   customFields: {
     item: [
@@ -59,6 +66,7 @@ exports.handler = async function (event, context) {
 
   return {
     statusCode: 200,
+    headers,
     body: JSON.stringify({ readingList: readingList }),
   };
 

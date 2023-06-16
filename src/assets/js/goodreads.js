@@ -1,7 +1,9 @@
 // https://www.raymondcamden.com/2023/06/08/using-goodreads-data-in-eleventy-update
+const feedURL = 'https://johnwargo.com/.netlify/functions/getfeed';
+
 (async function () {
   let bookDiv = document.getElementById('readingList');
-  const response = await fetch("https://goodreads-5bfb4vi5ia-ue.a.run.app/", { mode: 'cors' });
+  const response = await fetch(feedURL, { mode: 'cors' });
   const res = await response.json();
   let content = '<p>';
   if (res.readingList.length > 0) {
