@@ -20,6 +20,11 @@
     "description": "Articles related to the Eleventy Static Site Generator"
   },
   {
+    "category": "Events",
+    "count": 1,
+    "description": ""
+  },
+  {
     "category": "Guests",
     "count": 1,
     "description": "Articles written by Guest Authors."
