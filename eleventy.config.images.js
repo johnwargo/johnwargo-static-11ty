@@ -4,7 +4,6 @@
 // https://www.aleksandrhovhannisyan.com/blog/eleventy-image-plugin/
 
 const Image = require('@11ty/eleventy-img');
-// const path = require('path');
 const outdent = require('outdent');
 
 module.exports = function (eleventyConfig) {
