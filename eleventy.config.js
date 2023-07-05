@@ -82,7 +82,7 @@ module.exports = eleventyConfig => {
 			let start = pageContent.indexOf('<p>');
 			let end = pageContent.indexOf('</p>');
 			let theExcerpt = pageContent.substr(start, end + 4);
-			console.log(theExcerpt);
+			// console.log(theExcerpt);
 			return theExcerpt;
 		}
 		return noContent;
