@@ -80,7 +80,8 @@ module.exports = eleventyConfig => {
 			let end = pageContent.indexOf('</p>');
 			return post.templateContent.substr(start, end + 4);
 		}
-		return pageContent;
+		return '<p>No page content found.</p>';
+		// return pageContent;
 	}
 
 	eleventyConfig.addCollection("categories", function (collectionApi) {
