@@ -8,7 +8,7 @@
     "before": function(paginationData, fullData){ let data = paginationData.filter((item) => item.data.categories.includes('What Were They Thinking')); return Array.from(data).sort((a, b) => { return a.date < b.date ? 1 : -1; });}
   },
   "category": "What Were They Thinking",
-  "description": "Posts related to web development topics, development tools, strategies, etc.",
+  "description": "Articles about stupid things I see out in the world.",
   "eleventyComputed": {
     "title": "Category: {{ category }}"
   },

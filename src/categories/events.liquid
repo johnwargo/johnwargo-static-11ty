@@ -8,7 +8,7 @@
     "before": function(paginationData, fullData){ let data = paginationData.filter((item) => item.data.categories.includes('Events')); return Array.from(data).sort((a, b) => { return a.date < b.date ? 1 : -1; });}
   },
   "category": "Events",
-  "description": "Articles related to the Eleventy Static Site Generator",
+  "description": "Articles about events I'm attending, speaking at, or otherwise involved with.",
   "eleventyComputed": {
     "title": "Category: {{ category }}"
   },

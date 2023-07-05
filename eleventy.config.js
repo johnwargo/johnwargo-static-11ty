@@ -60,18 +60,27 @@ module.exports = eleventyConfig => {
 
 	// From ray camden's blog, first paragraph as excerpt
 	eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
-	function extractExcerpt(post) {
+
+	async function extractExcerpt(post) {
 		// No page content?
-		if (!post.templateContent) return '';
-		if (post.templateContent.indexOf('<h1>') == 0) return '';
-		if (post.templateContent.indexOf('<h2>') == 0) return '';
-		if (post.templateContent.indexOf('<p><img') == 0) return '';
-		if (post.templateContent.indexOf('</p>') > 0) {
-			let start = post.templateContent.indexOf('<p>');
-			let end = post.templateContent.indexOf('</p>');
+		if (!post.templateContent) return '<p>No page content found.</p>';
+		let pageContent = post.templateContent;
+		// remove headings (H1, H2, etc.)
+		pageContent = pageContent.replace(/<(h[2-4])>((?:(?!<h\d+\b).)+?)<\/\1>/gm, '');
+		// remove picture tags
+		pageContent = pageContent.replace(/<picture[^>]*>(.*?)<\/picture>/gm, '');
+		// remove standalone IMG tags (just in case)
+		pageContent = pageContent.replace(/<img[^>]*>/gm, '');
+		// remove empty paragraph tags
+		pageContent = pageContent.replace(/<p>\s<\/p>/g, '');
+		pageContent = pageContent.replace(/<p><\/p>/g, '');
+
+		if (pageContent.indexOf('</p>') > 0) {
+			let start = pageContent.indexOf('<p>');
+			let end = pageContent.indexOf('</p>');
 			return post.templateContent.substr(start, end + 4);
 		}
-		return post.templateContent;
+		return pageContent;
 	}
 
 	eleventyConfig.addCollection("categories", function (collectionApi) {
@@ -99,8 +108,8 @@ module.exports = eleventyConfig => {
 		return JSON.stringify(variable);
 	});
 
-	eleventyConfig.addFilter("commaize", function (num) {
-		return num.toLocaleString("en-us");
+	eleventyConfig.addFilter("commaize", function (num, locale = "en-us") {
+		return num.toLocaleString(locale);
 	});
 
 	// https://www.lenesaile.com/en/blog/organizing-the-eleventy-config-file/

@@ -16,18 +16,18 @@
   },
   {
     "category": "Eleventy",
-    "count": 16,
+    "count": 17,
     "description": "Articles related to the Eleventy Static Site Generator"
   },
   {
     "category": "Events",
     "count": 1,
-    "description": ""
+    "description": "Articles about events I'm attending, speaking at, or otherwise involved with."
   },
   {
     "category": "Guests",
     "count": 1,
-    "description": "Articles written by Guest Authors."
+    "description": "Articles written by Guest Authors (so far, only one)."
   },
   {
     "category": "IBM Lotus Domino",
@@ -77,6 +77,6 @@
   {
     "category": "What Were They Thinking",
     "count": 15,
-    "description": ""
+    "description": "Articles about stupid things I see out in the world."
   }
 ]

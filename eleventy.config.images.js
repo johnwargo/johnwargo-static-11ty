@@ -55,8 +55,9 @@ module.exports = function (eleventyConfig) {
         });
         // Return one <source> per format
         return `<source ${sourceAttributes}>`;
-      })
-      .join('\n');
+      });
+      // pulled this join out beacuse it was messing with me stripping out the picture tag in excerpt
+      // .join('\n');
 
     const getLargestImage = (format) => {
       const images = imageMetadata[format];
@@ -83,7 +84,7 @@ module.exports = function (eleventyConfig) {
       class: className,
     });
 
-    const picture = `<picture ${pictureAttributes}> ${sourceHtmlString} ${imgHtmlString}</picture>`;
+    const picture = `<picture ${pictureAttributes}>${sourceHtmlString}${imgHtmlString}</picture>`;
 
     return outdent`${picture}`;
   };
