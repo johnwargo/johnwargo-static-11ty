@@ -62,8 +62,11 @@ module.exports = eleventyConfig => {
 	eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
 
 	async function extractExcerpt(post) {
+
+		const noContent = '<p>No page content found.</p>'
+
 		// No page content?
-		if (!post.templateContent) return '<p>No page content found.</p>';
+		if (!post.templateContent) return noContent;
 		let pageContent = post.templateContent;
 		// remove headings (H1, H2, etc.)
 		pageContent = pageContent.replace(/<(h[2-4])>((?:(?!<h\d+\b).)+?)<\/\1>/gm, '');
@@ -78,10 +81,11 @@ module.exports = eleventyConfig => {
 		if (pageContent.indexOf('</p>') > 0) {
 			let start = pageContent.indexOf('<p>');
 			let end = pageContent.indexOf('</p>');
-			return post.templateContent.substr(start, end + 4);
+			let theExcerpt = pageContent.substr(start, end + 4);
+			console.log(theExcerpt);
+			return theExcerpt;
 		}
-		return '<p>No page content found.</p>';
-		// return pageContent;
+		return noContent;
 	}
 
 	eleventyConfig.addCollection("categories", function (collectionApi) {
