@@ -37,7 +37,6 @@ module.exports = function (eleventyConfig) {
       formats: [...formats, null],
       outputDir: '_site/img',
       urlPath: '/img',
-      // filenameFormat: function() {},
     });
 
     const sourceHtmlString = Object.values(imageMetadata)
@@ -49,14 +48,14 @@ module.exports = function (eleventyConfig) {
         // Use our util from earlier to make our lives easier
         const sourceAttributes = stringifyAttributes({
           type: sourceType,
-          // srcset needs to be a comma-separated attribute
-          srcset: images.map((image) => image.srcset).join(', '),
+          // srcset must be a comma-separated attribute
+          srcset: images.map((image) => image.srcset).join(','),
           sizes,
         });
         // Return one <source> per format
         return `<source ${sourceAttributes}>`;
       });
-      // pulled this join out beacuse it was messing with me stripping out the picture tag in excerpt
+      // pulled this join out because it was messing with me stripping out the picture tag in excerpt
       // .join('\n');
 
     const getLargestImage = (format) => {

@@ -11,12 +11,12 @@
   },
   {
     "category": "Developer Tools",
-    "count": 2,
+    "count": 3,
     "description": "Articles related to developer tools; ones I use or ones I'm evaluating."
   },
   {
     "category": "Eleventy",
-    "count": 18,
+    "count": 19,
     "description": "Articles related to the Eleventy Static Site Generator"
   },
   {
