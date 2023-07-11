@@ -50,9 +50,9 @@ And here's the `description` meta tag:
 
 So, now that you know why I wanted to add the `description` property to all of my site's articles, the question is how to add it to every article. 
 
-Now, I knew I'd have to write the description for each article, but that generally means copying the first paragraph from the article and simplifying it. What I needed was a simple way to add the property to the front matter, then I can go back in and start copying the content in. 
+Now, I knew I'd have to write the description for each article, but that generally means copying the first paragraph from the article and editing it. What I needed was a simple way to add the property to the front matter, then I can go back in and start copying the content in. For other use cases, I could add a property and value at the same time, even overriding existing values in the process.
 
-Since I knew I may have other properties and/or values I would need to copy to my articles, I decided to build a command-line utility to do it for me. The utility I created is called [YAML Add Property](https://github.com/johnwargo/yaml-add-property){target="_blank"} and you can find it on [npm](https://www.npmjs.com/package/yaml-add-property){target="_blank"}.
+I decided to build a command-line utility to do it for me. The utility I created is called [YAML Add Property](https://github.com/johnwargo/yaml-add-property){target="_blank"} and you can find it on [npm](https://www.npmjs.com/package/yaml-add-property){target="_blank"}.
 
 You can use it to:
 
