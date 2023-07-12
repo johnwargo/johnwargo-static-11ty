@@ -28,5 +28,11 @@
     "date": "2020-08-14",
     "url": "https://www.oreilly.com/live-events/progressive-web-apps-enhancing-your-web-apps-using-service-workers/0636920409861/0636920409854/",
     "description": "Progressive Web Apps (PWAs) are the bright future of desktop and mobile applications. Research firm Gartner was so confident in the growth of PWAs that they predicted that 50% of all consumer apps would be PWAs this year. In this fast-paced session chock full of technical details, you’ll learn how build your own progressive web applications. You’ll learn how to make your app installable using web app manifests and some JavaScript code. You’ll also learn how to make your web app work in offline mode on compatible browsers using service workers. You’ll also learn about all the ways service workers can enhance the capabilities of a web application."
+  },
+  {
+    "title": "All Things Open 2023",
+    "date": "2023-10-16",
+    "url": "https://2023.allthingsopen.org/",
+    "description": "TBA"
   }
 ]
