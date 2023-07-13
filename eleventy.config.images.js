@@ -29,7 +29,7 @@ module.exports = function (eleventyConfig) {
     formats = ['webp', 'jpeg'],
     sizes = '100vw'
   ) => {
-    
+
     console.log(`[imageShortcode]: Generating image(s) from: ${src}`);
 
     const imageMetadata = await Image(src, {
@@ -42,7 +42,7 @@ module.exports = function (eleventyConfig) {
     const sourceHtmlString = Object.values(imageMetadata)
       // Map each format to the source HTML markup
       .map((images) => {
-        // The first entry is representative of all the others
+        // The first entry is representative of all the others 
         // since they each have the same shape
         const { sourceType } = images[0];
         // Use our util from earlier to make our lives easier
@@ -55,8 +55,8 @@ module.exports = function (eleventyConfig) {
         // Return one <source> per format
         return `<source ${sourceAttributes}>`;
       });
-      // pulled this join out because it was messing with me stripping out the picture tag in excerpt
-      // .join('\n');
+    // pulled this join out because it was messing with me stripping out the picture tag in excerpt
+    // .join('\n');
 
     const getLargestImage = (format) => {
       const images = imageMetadata[format];
@@ -79,12 +79,10 @@ module.exports = function (eleventyConfig) {
 
     const imgHtmlString = `<img ${imgAttributes}>`;
 
-    const pictureAttributes = stringifyAttributes({
-      class: className,
-    });
+    const pictureAttributes = stringifyAttributes({ class: className });
 
-    const picture = `<picture ${pictureAttributes}>${sourceHtmlString}${imgHtmlString}</picture>`;
-
+    const picture = `<picture ${pictureAttributes}>${sourceHtmlString} ${imgHtmlString}</picture>`;
+    console.log(picture);
     return outdent`${picture}`;
   };
 
