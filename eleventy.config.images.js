@@ -29,7 +29,6 @@ module.exports = function (eleventyConfig) {
     formats = ['webp', 'jpeg'],
     sizes = '100vw'
   ) => {
-
     console.log(`[imageShortcode]: Generating image(s) from: ${src}`);
 
     const imageMetadata = await Image(src, {
@@ -54,9 +53,7 @@ module.exports = function (eleventyConfig) {
         });
         // Return one <source> per format
         return `<source ${sourceAttributes}>`;
-      });
-    // pulled this join out because it was messing with me stripping out the picture tag in excerpt
-    // .join('\n');
+      }).join('');    
 
     const getLargestImage = (format) => {
       const images = imageMetadata[format];
@@ -64,7 +61,6 @@ module.exports = function (eleventyConfig) {
     }
 
     const largestUnoptimizedImg = getLargestImage(formats[0]);
-
     const imgAttributes = stringifyAttributes({
       src: largestUnoptimizedImg.url,
       // Added classname here because the scott.css file needs it on the img tag
@@ -76,13 +72,10 @@ module.exports = function (eleventyConfig) {
       loading: 'lazy',
       decoding: 'async',
     });
-
     const imgHtmlString = `<img ${imgAttributes}>`;
-
     const pictureAttributes = stringifyAttributes({ class: className });
-
     const picture = `<picture ${pictureAttributes}>${sourceHtmlString} ${imgHtmlString}</picture>`;
-    console.log(picture);
+    
     return outdent`${picture}`;
   };
 
