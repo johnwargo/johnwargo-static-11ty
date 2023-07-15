@@ -3,7 +3,6 @@
 async function gitUpdate(msg) {
   await $`git add -A`;
   await $`git commit -m ${msg}`;
-  await $`git push`;
 }
 
 console.log('\nStarting project publish...');
