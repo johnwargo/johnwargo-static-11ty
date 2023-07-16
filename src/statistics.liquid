@@ -8,6 +8,22 @@ title: Eleventy Plugin Post Stats
   <h2>Global Statistics</h2>
   <ul>
     <li>
+      <strong>Deployments:</strong>
+      {{ buildinfo.buildCounter | commaize }}
+    </li>
+    <li>
+      <strong>Build Date:</strong>
+      {{ buildinfo.buildDateStr }}
+    </li>
+    <li>
+      <strong>Build Version:</strong>
+      {{ buildinfo.buildVersion }}
+    </li>
+    <li>
+      <strong>Generator:</strong>
+      <a href="https://www.11ty.dev/" target="_blank">{{ eleventyinfo.generatorStr }}</a>
+    </li>
+    <li>
       <strong>First post:</strong>
       {{ collections.postStats.firstPostDate }}
     </li>
