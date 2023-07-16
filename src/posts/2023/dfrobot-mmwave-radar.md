@@ -107,6 +107,6 @@ void loop() {
 }
 ```
 
-That's basically it, the sensor is very easy to integrate in projects and really easy to code to as well. I'll show you the complete project closer to Halloween.
+That's basically it, the sensor is very easy to integrate in projects and really easy to code to as well. The [documentation](https://wiki.dfrobot.com/mmWave_Radar_Human_Presence_Detection_SKU_SEN0395){target="_blank"} is complete and very good as well. I'll show you the complete project and code closer to Halloween.
 
 One thing I didn't like about the sensor is that it has an Onboard LED that illuminates when it detects something. I understand why DFRobot would add this to the sensor, so user cn tell its working, but for my particular project, I don't want that. DFRobot didn't include an option for disabling the LED in the SDK; I hope they do so in a future update. I will likely cover the LED in my project.
