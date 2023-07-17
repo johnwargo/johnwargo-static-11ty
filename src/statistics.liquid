@@ -1,9 +1,13 @@
 ---
 layout: generic
-title: Eleventy Plugin Post Stats
+title: Site Statistics
 ---
 
 {% if collections.postStats.postCount > 0 %}
+
+  <p>Statistics generated using my
+    <a href="https://github.com/johnwargo/eleventy-plugin-post-stats" target="_blank">Eleventy Plugin Post Statistics</a>
+    plugin.</p>
 
   <h2>Global Statistics</h2>
   <ul>
@@ -93,7 +97,7 @@ title: Eleventy Plugin Post Stats
     </tbody>
   </table>
 
-  <h2>Post Statistics</h2>
+  <h2>Post Count & Frequency</h2>
   <div class="chart-container">
     <canvas id="statsChart1"></canvas>
   </div>
@@ -112,9 +116,9 @@ title: Eleventy Plugin Post Stats
   </p>
 {% endif %}
 
-<!-- ------------- -->
+
 <!-- Chart Scripts -->
-<!-- ------------- --><script src="https://cdn.jsdelivr.net/npm/chart.js"> </script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
   const ctx1 = document.getElementById('statsChart1');
   new Chart(ctx1, {
@@ -188,6 +192,5 @@ title: Eleventy Plugin Post Stats
       {% endif %}
     ]
   }
-
 });
 </script>
