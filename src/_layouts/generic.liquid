@@ -48,6 +48,9 @@ License: pixelarity.com/license
         </section>
       </section>
     </div>
+    {% if page.url == '/statistics/' %}
+      <script src="{{ "/" | htmlBaseUrl }}assets/js/google-analytics.js"></script>
+    {% endif %}
     {% include 'footer.html' %}
     {% include 'page-scripts.html' %}
   </body>
