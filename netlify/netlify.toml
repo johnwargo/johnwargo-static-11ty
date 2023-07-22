@@ -1,2 +1,0 @@
-[functions."getanalytics"]
-  included_files = ["./netlify/functions/ga-key.json"]

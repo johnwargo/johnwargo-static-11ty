@@ -18,7 +18,7 @@ module.exports = async function () {
 
   // // Creates a client.
   const analyticsDataClient = new BetaAnalyticsDataClient({
-    keyFile: './jmw-static-site-fe022b199e49.json'
+    keyFile: './ga-key.json'
   });
 
   // Get the day 31 days ago
