@@ -5,9 +5,11 @@ const analyticsEndpoint = '/.netlify/functions/getanalytics';
   let analyticsContent = document.getElementById('analyticsData');
   const response = await fetch(analyticsEndpoint, { mode: 'cors' });
   const res = await response.json();
-console.dir(res);
 
-  let content = res.data.body.content;
+  let content = res.content;
+
+  // Convert the JSON we got into page content
   
+
   analyticsContent.innerHTML = content;
 })();
