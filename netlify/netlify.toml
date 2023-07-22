@@ -1,2 +1,2 @@
 [functions."getanalytics"]
-  included_files = ["jmw-static-site-fe022b199e49.json"]
+  included_files = ["/**.json"]
