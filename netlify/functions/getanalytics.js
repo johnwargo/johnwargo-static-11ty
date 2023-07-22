@@ -44,6 +44,38 @@ exports.handler = async function (event, context) {
 
   console.dir(response, { depth: null });
 
+  // {
+  //   dimensionHeaders: [],
+  //   metricHeaders: [
+  //     { name: 'activeUsers', type: 'TYPE_INTEGER' },
+  //     { name: 'active7DayUsers', type: 'TYPE_INTEGER' },
+  //     { name: 'active28DayUsers', type: 'TYPE_INTEGER' }
+  //   ],
+  //   rows: [
+  //     {
+  //       dimensionValues: [],
+  //       metricValues: [
+  //         { value: '221', oneValue: 'value' },
+  //         { value: '238', oneValue: 'value' },
+  //         { value: '369', oneValue: 'value' }
+  //       ]
+  //     }
+  //   ],
+  //   totals: [],
+  //   maximums: [],
+  //   minimums: [],
+  //   rowCount: 1,
+  //   metadata: {
+  //     dataLossFromOtherRow: false,
+  //     currencyCode: 'USD',
+  //     _currencyCode: 'currencyCode',
+  //     timeZone: 'America/New_York',
+  //     _timeZone: 'timeZone'
+  //   },
+  //   propertyQuota: null,
+  //   kind: 'analyticsData#runReport'
+  // }
+
   let content = '<p>Nothing to see here, move along.</p>';
 
   return {
