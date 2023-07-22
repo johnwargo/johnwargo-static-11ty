@@ -6,10 +6,14 @@ const analyticsEndpoint = '/.netlify/functions/getanalytics';
   const response = await fetch(analyticsEndpoint, { mode: 'cors' });
   const res = await response.json();
 
-  let content = res.content;
-
-  // Convert the JSON we got into page content
-  
-
+  let content = '<p>No data available or service unavailable</p>';
+  if (res.metrics) {
+    content = '<table style="width:600px"><thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>';
+    content += res.metrics.map(function (metric) {
+      return '<tr><td><strong>' + metric.name + '</strong></td><td>' + metric.value + '</td></tr>';
+    }).join('');
+    content += '</tbody></table>';
+  }
+  // console.dir(content);
   analyticsContent.innerHTML = content;
 })();

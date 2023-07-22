@@ -16,6 +16,10 @@ const analyticsDataClient = new BetaAnalyticsDataClient({
   keyFile: './jmw-static-site-fe022b199e49.json'
 });
 
+function commaize(number) {
+  return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
 exports.handler = async function (event, context) {
   // Get the date 31 days ago
   let today = new Date().getTime() - (60 * 60 * 24 * 31 * 1000);
@@ -43,6 +47,17 @@ exports.handler = async function (event, context) {
   });
 
   console.dir(response, { depth: null });
+  let metrics = [];
+  response.metricHeaders.forEach(function (value, i) {
+    metrics.push({ name: value.name, value: commaize(response.rows[0].metricValues[i].value)});
+  });
+  return {
+    statusCode: 200,
+    headers,
+    body: JSON.stringify({ metrics })
+  };
+};
+
 
   // {
   //   dimensionHeaders: [],
@@ -75,13 +90,3 @@ exports.handler = async function (event, context) {
   //   propertyQuota: null,
   //   kind: 'analyticsData#runReport'
   // }
-
-  let content = '<p>Nothing to see here, move along.</p>';
-
-  return {
-    statusCode: 200,
-    headers,
-    body: JSON.stringify({ content: content })
-  };
-
-};
