@@ -6,7 +6,7 @@ const analyticsEndpoint = '/.netlify/functions/getanalytics';
   const response = await fetch(analyticsEndpoint, { mode: 'cors' });
   const res = await response.json();
 
-  let content = '<p>No data available or service unavailable</p>';
+  let content = '<p>No data available or service unavailable</p><br />';
   if (res.metrics) {
     content = '<table style="width:600px"><thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>';
     content += res.metrics.map(function (metric) {
