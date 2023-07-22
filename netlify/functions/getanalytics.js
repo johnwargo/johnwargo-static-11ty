@@ -47,7 +47,7 @@ exports.handler = async function (event, context) {
     ],
   });
 
-  console.dir(response, { depth: null });
+  // console.dir(response, { depth: null });
   let metrics = [];
   response.metricHeaders.forEach(function (value, i) {
     metrics.push({ name: value.name, value: commaize(response.rows[0].metricValues[i].value) });
