@@ -30,7 +30,7 @@ const keyFile = {
 // });
 
 
-const analyticsDataClient = new BetaAnalyticsDataClient({ keyFile });
+const analyticsDataClient = new BetaAnalyticsDataClient({ keyFile: JSON.stringify(keyFile) });
 
 function commaize(number) {
   return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
