@@ -1,3 +1,13 @@
+/***************************************************************************
+ * Get Google Analytics Metrics
+ * Added July 22, 2023
+ * 
+ * The site's Statistics page displays a few metrics from Google Analytics
+ * and this is the function that pulls them from GA and passes them to the
+ * statistics page. It's the `src/assets/js/google-analytics.js` file that
+ * calls this function and updates the stats page in real time.
+ ***************************************************************************/
+
 // https://docs.netlify.com/functions/create/?fn-language=js
 // {
 //   "path": "Path parameter (original URL encoding)",

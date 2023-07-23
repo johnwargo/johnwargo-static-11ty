@@ -1,4 +1,13 @@
-// const analyticsEndpoint = 'https://johnwargo.com/.netlify/functions/getanalytics';
+/**
+ * Google Analytics Client Side Library
+ * Added July, 2023
+ * 
+ * This library loads on the statistics page only and calls the Netlify
+ * `getanalytics` function to get the latest metrics from Google Analytics.
+ * Once it receives data from the function, it creates a table and displays
+ * it on the page.
+ */
+
 const analyticsEndpoint = '/.netlify/functions/getanalytics';
 
 (async function () {
@@ -14,6 +23,5 @@ const analyticsEndpoint = '/.netlify/functions/getanalytics';
     }).join('');
     content += '</tbody></table>';
   }
-  // console.dir(content);
   analyticsContent.innerHTML = content;
 })();
