@@ -17,9 +17,8 @@ module.exports = async function () {
   let blogUrl = '/posts/';
 
   // // Creates a client.
-  // const analyticsDataClient = new BetaAnalyticsDataClient({ keyFile: './ga-key.json' });
-  const analyticsDataClient = new BetaAnalyticsDataClient();
-
+  const analyticsDataClient = new BetaAnalyticsDataClient({ keyFile: './ga-key.json' });
+  
   // Get the day 31 days ago
   let today = new Date().getTime() - (60 * 60 * 24 * 31 * 1000);
   // Get the day, month and year
