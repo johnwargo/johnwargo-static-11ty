@@ -10,16 +10,15 @@ module.exports = async function () {
 
   let propertyId = '304078452';
   // Number of items we want to return
-  let topRows = 20; 
+  let topRows = 20;
   // The part off the front of the page title we want to remove, usually the domain 
-  let pageTitle = 'John M. Wargo: '; 
+  let pageTitle = 'John M. Wargo: ';
   // The URLs we want to target.
-  let blogUrl = '/posts/'; 
+  let blogUrl = '/posts/';
 
   // // Creates a client.
-  const analyticsDataClient = new BetaAnalyticsDataClient({
-    keyFile: './ga-key.json'
-  });
+  // const analyticsDataClient = new BetaAnalyticsDataClient({ keyFile: './ga-key.json' });
+  const analyticsDataClient = new BetaAnalyticsDataClient();
 
   // Get the day 31 days ago
   let today = new Date().getTime() - (60 * 60 * 24 * 31 * 1000);
