@@ -17,12 +17,13 @@ const feedURL = '/.netlify/functions/getfeed';
     content = (res.readingList.length < 2) ? "The book" : "Books";
     content += " I'm currently reading (<a href=\"https://www.goodreads.com/user/show/51500942-john-wargo\" target=\"_blank\">according to Goodreads</a>):</p>";
     content += "<ul class=\"posts\">";
-    res.readingList.forEach(function (book) {
-      content += "<li>";
-      content += `<a href="${book.link}" target="_blank"><img src="${book.images.medium}" alt="${book.title}" /></a><br />`;
-      content += `<a href="${book.link}" target="_blank">${book.title}</a><br /> by ${book.author}`
-      content += "</li>";
-    });
+    content += res.readingList.map(book => {
+      let tmpContent = "<li>";
+      tmpContent += `<a href="${book.link}" target="_blank"><img src="${book.images.medium}" alt="${book.title}" /></a><br />`;
+      tmpContent += `<a href="${book.link}" target="_blank">${book.title}</a><br /> by ${book.author}`
+      tmpContent += "</li>";
+      return tmpContent;
+    }).join('');
     content += "</ul>";
   } else {
     content = "<p>Goodreads feed not available (or empty).</p>";

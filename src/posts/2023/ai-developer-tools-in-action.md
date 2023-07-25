@@ -1,6 +1,6 @@
 ---
 title: AI Developer Tools in Action
-description: A was doing some coding this morning and encountered an excellent example of AI generated code that I had to share with you.
+description: I was doing some coding this morning and encountered an excellent example of AI generated code that I had to share with you.
 date: 2023-07-15
 headerImage: 
 headerImageAltText: 
