@@ -1,3 +1,12 @@
+/**************************************************************************
+ * Get Goodreads Feed
+ * 
+ * The site's home page sidebar section displays the current list of books
+ * I'm  reading courtesy of Goodreads. This is the Netlify cloud function 
+ * that the page calls from the site's `src/assets/js/goodreads.js` file 
+ * to get the list of books. 
+ **************************************************************************/
+
 // https://docs.netlify.com/functions/create/?fn-language=js
 // {
 //   "path": "Path parameter (original URL encoding)",
