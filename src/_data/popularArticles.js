@@ -17,8 +17,9 @@ module.exports = async function () {
   let blogUrl = '/posts/';
 
   // // Creates a client.
-  const analyticsDataClient = new BetaAnalyticsDataClient({ keyFile: './ga-key.json' });
-  
+  // const analyticsDataClient = new BetaAnalyticsDataClient({ keyFile: './ga-key.json' });
+  const analyticsDataClient = new BetaAnalyticsDataClient();
+
   // Get the day 31 days ago
   let today = new Date().getTime() - (60 * 60 * 24 * 31 * 1000);
   // Get the day, month and year
@@ -30,32 +31,15 @@ module.exports = async function () {
 
   const [response] = await analyticsDataClient.runReport({
     property: 'properties/' + propertyId,
-    // Run from today to 31 days ago
-    dateRanges: [
-      {
-        startDate: dayFormat,
-        endDate: 'today',
-      }
-    ],
+    dateRanges: [{ startDate: dayFormat, endDate: 'today' }],
     dimensions: [
-      {
-        // Get the page path
-        name: 'pagePathPlusQueryString',
-      },
-      {
-        // And also get the page title
-        name: 'pageTitle'
-      }
+      { name: 'pagePathPlusQueryString' },
+      { name: 'pageTitle' }
     ],
-    metrics: [
-      {
-        // And tell me how many active users there were for each of those
-        name: 'activeUsers',
-      },
-    ],
+    metrics: [{ name: 'activeUsers' }],
   });
 
-  // newObj will contain the views, url and title for all of our pages. You may have to adjust this for your own needs.
+  // newObj contains the views, url and title for all of our pages.
   let newObj = [];
   response.rows.forEach(row => {
     // dimensionValues[0] contains 'pagePathPlusQueryString', and dimensionsValues[1] contains 'pageTitle'

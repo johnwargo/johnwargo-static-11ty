@@ -22,7 +22,8 @@ const { BetaAnalyticsDataClient } = require('@google-analytics/data');
 
 const headers = { 'Access-Control-Allow-Origin': '*' };
 const propertyId = '304078452';
-const analyticsDataClient = new BetaAnalyticsDataClient({ keyFile: 'ga-key.json'});
+// const analyticsDataClient = new BetaAnalyticsDataClient({ keyFile: 'ga-key.json'});
+const analyticsDataClient = new BetaAnalyticsDataClient();
 
 function commaize(number) {
   return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
