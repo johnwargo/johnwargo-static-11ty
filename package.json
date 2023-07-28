@@ -26,7 +26,7 @@
     "@google-analytics/data": "^3.2.2",
     "eleventy-generate-category-pages": "^0.0.9",
     "eleventy-plugin-date": "^1.0.0",
-    "eleventy-plugin-post-stats": "^0.1.4",
+    "eleventy-plugin-post-stats": "^0.1.6",
     "eleventy-plugin-youtube-embed": "^1.8.1",
     "execa": "^7.1.1",
     "generate-build-info": "^0.0.3",
