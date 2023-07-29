@@ -45,7 +45,10 @@ module.exports = eleventyConfig => {
 	eleventyConfig.on('eleventy.before', async ({ dir, runMode, outputMode }) => {
 		if (firstRun) {
 			firstRun = false;
-			generateCategoryPages({}, true, false);
+			generateCategoryPages({
+				imageProperties: true,
+				quitOnError: true
+			});
 		}
 	});
 
