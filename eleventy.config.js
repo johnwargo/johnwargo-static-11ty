@@ -11,7 +11,7 @@ const pluginStats = require('eleventy-plugin-post-stats');
 
 // local plugins
 const pluginImages = require("./eleventy.config.images.js");
-const pluginImageHeaders = require("./eleventy.config.image-headers.js");
+const pluginImageHeaders = require("./eleventy.config.header.image.js");
 
 // Transforms
 // https://learneleventyfromscratch.com/lesson/31.html#minifying-html-output
