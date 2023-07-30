@@ -20,6 +20,8 @@ const htmlMinTransform = require('./src/transforms/html-min.js');
 // Create a helpful production flag
 const isProduction = process.env.NODE_ENV === 'production';
 
+const categoryDataFile = 'categoryData.json';
+
 module.exports = eleventyConfig => {
 
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
@@ -27,7 +29,7 @@ module.exports = eleventyConfig => {
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(syntaxHighlight);
-	eleventyConfig.addPlugin(pluginImageHeaders);
+	eleventyConfig.addPlugin(pluginImageHeaders, { dataFileName: categoryDataFile });
 	eleventyConfig.addPlugin(pluginImages);
 	eleventyConfig.addPlugin(pluginStats);
 
@@ -48,7 +50,7 @@ module.exports = eleventyConfig => {
 		if (firstRun) {
 			firstRun = false;
 			generateCategoryPages({
-				dataFileName: 'categoryData.json',
+				dataFileName: categoryDataFile,
 				imageProperties: true,
 				quitOnError: true
 			});

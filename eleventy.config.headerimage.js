@@ -2,12 +2,18 @@
 // Category Header Image(s)
 // ==============================================
 
+var path = require("path");
+
 module.exports = function (eleventyConfig, options = {}) {
 
   const useDefaultImage = true;
   const defaultImagePath = "/assets/images/headers/default.jpg";
   const defaultImageAltText = "Alt text here!";
   const defaultImageAttribution = "Photo credit here!";
+
+  // parse the options passed to the module
+  const categoryDataFile = options.dataFileName ? path.parse(options.dataFileName).name : 'categoryData';
+  console.log(`[eleventy.config.headerimage] Data file: ${categoryDataFile}`);
 
   function _logIt(shortCodeName, msg) {
     console.log(`[${shortCodeName}] ${msg}`);
@@ -19,6 +25,11 @@ module.exports = function (eleventyConfig, options = {}) {
 
     // If no image property is found, return the default image
 
+    return {
+      imageFilePath: '',
+      imageAltText: '',
+      imageAttribution: ''
+    }
   }
 
   eleventyConfig.addShortcode("CategoryImage", function (categories) {
@@ -34,8 +45,10 @@ module.exports = function (eleventyConfig, options = {}) {
     }
 
     _logIt("CategoryImage", categories ? categories[0] : "No categories");
-    
-    console.dir(this.ctx.categories);
+
+    console.dir(this.ctx.environments[categoryDataFile]);
+    // process.exit(0);
+
 
     if (categories.length < 1) {
       // no categories, do we use the default image? 
