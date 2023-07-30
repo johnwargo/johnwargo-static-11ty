@@ -39,12 +39,23 @@ License: pixelarity.com/license
                   src="{{ headerImage }}"
                   alt="{{ headerImageAltText }}"
                   class="image fit" /></span>
+            {% else %}
+              {% if categories %}
+                {% CategoryImage categories %}
+              {% endif %}
             {% endif %}
             <h2>
               {{ title }}
             </h2>
           </header>
+
           {{ content }}
+
+          {% if headerImage.length < 1 %}
+            {% if categories %}
+              {{ CategoryImageAttribution categories }}
+            {% endif %}
+          {% endif %}
         </section>
       </section>
     </div>

@@ -11,7 +11,7 @@ const pluginStats = require('eleventy-plugin-post-stats');
 
 // local plugins
 const pluginImages = require("./eleventy.config.images.js");
-const pluginImageHeaders = require("./eleventy.config.header.image.js");
+const pluginImageHeaders = require("./eleventy.config.headerimage.js");
 
 // Transforms
 // https://learneleventyfromscratch.com/lesson/31.html#minifying-html-output
@@ -93,15 +93,15 @@ module.exports = eleventyConfig => {
 		return noContent;
 	}
 
-	eleventyConfig.addCollection("categories", function (collectionApi) {
-		let categories = new Set();
-		let posts = collectionApi.getFilteredByTag('post');
-		posts.forEach(p => {
-			let cats = p.data.categories;
-			cats.forEach(c => categories.add(c));
-		});
-		return Array.from(categories);
-	});
+	// eleventyConfig.addCollection("categories", function (collectionApi) {
+	// 	let categories = new Set();
+	// 	let posts = collectionApi.getFilteredByTag('post');
+	// 	posts.forEach(p => {
+	// 		let cats = p.data.categories;
+	// 		cats.forEach(c => categories.add(c));
+	// 	});
+	// 	return Array.from(categories);
+	// });
 
 	// https://www.raymondcamden.com/2020/06/24/adding-algolia-search-to-eleventy-and-netlify
 	// Remove <code>.*</code>, remove HTML, then with plain text, limit to 5k chars
