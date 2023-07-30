@@ -106,7 +106,7 @@ When the module creates the configuration file, it scans the project folder to s
 ```json
 {
   "categoriesFolder": "src/categories",
-  "dataFileName": "category-meta.json",
+  "dataFileName": "categoryData.json",
   "dataFolder": "src/_data",
   "postsFolder": "src/posts",
   "templateFileName": "11ty-cat-pages.liquid"
@@ -207,19 +207,19 @@ Validating project folder
 Locating configuration file
 Configuration file located, validating
 Reading template file 11ty-cat-pages.liquid
-Reading existing categories file D:\dev\node\11ty-cat-pages\src\_data\category-meta.json
+Reading existing categories file D:\dev\node\11ty-cat-pages\src\_data\categoryData.json
 Building file list...
 Located 6 files
 Building category list...
 Deleting unused categories (from previous runs)
 Identified 6 categories
-Writing categories list to D:\dev\node\11ty-cat-pages\src\_data\category-meta.json
+Writing categories list to D:\dev\node\11ty-cat-pages\src\_data\categoryData.json
 Writing category page: D:\dev\node\11ty-cat-pages\src\categories\cats.liquid
 Writing category page: D:\dev\node\11ty-cat-pages\src\categories\dogs.liquid
 Writing category page: D:\dev\node\11ty-cat-pages\src\categories\turtles.liquid
 ```
 
-When its done, take a look in the project’s `_data` folder (wherever the configuration file’s `dataFolder` property points) and you’ll see a new file called whatever file name you have specified in the configuration file’s `dataFileName` property. In my site, it’s called `category-meta.json`. Based on the output just shown, the file should look like this:
+When its done, take a look in the project’s `_data` folder (wherever the configuration file’s `dataFolder` property points) and you’ll see a new file called whatever file name you have specified in the configuration file’s `dataFileName` property. In my site, it’s called `categoryData.json`. Based on the output just shown, the file should look like this:
 
 ```json
 [
@@ -309,7 +309,7 @@ description: Displays a list of all post categories on the site. From here you c
 layout: generic
 ---
 
-{% assign categories = category-meta | sort %}
+{% assign categories = categoryData | sort %}
 
 <p>View all posts for a particular category by clicking on one of the categories listed below. There are {{ categories.length }} categories on the site today.</p>
 
@@ -329,7 +329,7 @@ layout: generic
 </ul>
 {% endhighlight %}
 
-This page loops through the contents of the `category-meta.json` data file and renders a list of links to each category page.
+This page loops through the contents of the `categoryData.json` data file and renders a list of links to each category page.
 
 ## Conclusion
 

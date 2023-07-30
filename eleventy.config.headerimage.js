@@ -34,6 +34,9 @@ module.exports = function (eleventyConfig, options = {}) {
     }
 
     _logIt("CategoryImage", categories ? categories[0] : "No categories");
+    
+    console.dir(this.ctx.categories);
+
     if (categories.length < 1) {
       // no categories, do we use the default image? 
       return useDefaultImage ? buildImageTag(defaultImagePath, defaultImageAltText) : '';
@@ -49,6 +52,7 @@ module.exports = function (eleventyConfig, options = {}) {
     }
 
     _logIt("CategoryAttribution", categories ? categories[0] : "No categories");
+    console.dir(this.ctx.categories);
     if (categories.length < 1) {
       // no categories, do we use the default attribution? 
       // default image may not have an attribution, so check that too

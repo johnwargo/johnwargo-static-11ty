@@ -4,7 +4,7 @@ description: Displays a list of all post categories on the site. From here you c
 layout: generic
 ---
 
-{% assign categories = category-meta | sort %}
+{% assign categories = categoryData | sort %}
 
 <p>View all posts for a particular category by clicking on one of the categories listed below. There are {{ categories.length }} categories on the site today.</p>
 

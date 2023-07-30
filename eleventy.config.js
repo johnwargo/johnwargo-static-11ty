@@ -48,6 +48,7 @@ module.exports = eleventyConfig => {
 		if (firstRun) {
 			firstRun = false;
 			generateCategoryPages({
+				dataFileName: 'categoryData.json',
 				imageProperties: true,
 				quitOnError: true
 			});
