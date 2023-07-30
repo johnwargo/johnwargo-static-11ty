@@ -47,10 +47,10 @@ module.exports = function (eleventyConfig, options = {}) {
     // loop through the categories array
     // find in categorydata if they have an imageFilePath property
     
-    let cat = categories.find((category, idx, cats) => {
-      console.dir(cats[idx]);
-      cats[idx].imageFilePath.length > 0;
-    });
+    // let cat = categories.find((category, idx, cats) => {
+    //   console.dir(cats[idx]);
+    //   cats[idx].imageFilePath.length > 0;
+    // });
 
     if (cat) {
       res.imageFilePath = cat.imageFilePath;
