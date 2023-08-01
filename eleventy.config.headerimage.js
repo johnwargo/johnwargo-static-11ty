@@ -69,7 +69,7 @@ module.exports = function (eleventyConfig, options = {}) {
     // did we get one? No? Then use the default image if allowed
     return imageObject.imageFilePath.length < 1 && useDefaultImage ? defaultImageObject : imageObject;
   }
-
+  
   eleventyConfig.addShortcode("CategoryImage", function (categories) {
     function buildImageTag(imagePath, imageAltText) {
       if (imagePath) {
