@@ -9,7 +9,7 @@ module.exports = function (eleventyConfig, options = {}) {
 
   const moduleName = "eleventy.config.headerimage";
 
-  const useDefaultImage = false;  
+  const useDefaultImage = false;
   const defaultImageObject = {
     imageFilePath: "/images/headers/default.jpg",
     imageAltText: "Default Header Image Alt Text",
@@ -66,7 +66,7 @@ module.exports = function (eleventyConfig, options = {}) {
       }
     }
     // did we get one? No? Then use the default image if allowed
-    return imageObject.imageFilePath.length < 1 && useDefaultImage? defaultImageObject : imageObject;
+    return imageObject.imageFilePath.length < 1 && useDefaultImage ? defaultImageObject : imageObject;
   }
 
   eleventyConfig.addShortcode("CategoryImage", function (categories) {
