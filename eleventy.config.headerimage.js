@@ -11,13 +11,14 @@ module.exports = function (eleventyConfig, options = {}) {
 
   const useDefaultImage = false;
   const defaultImageObject = {
-    imageFilePath: "/images/headers/default.jpg",
-    imageAltText: "Default Header Image Alt Text",
-    imageAttribution: "Photo Courtesy of John M. Wargo"
+    imageFilePath: "",
+    imageAltText: "",
+    imageAttribution: ""
   }
 
   if (useDefaultImage && defaultImageObject.imageFilePath.length < 1) {
-    _logIt(moduleName, "ERROR: Default image enabled, but imageFilePath is undefined");
+    _logIt(moduleName, "ERROR: Default image enabled, but imageFilePath is undefined\n");
+    process.exit(1);  // exit hard
   }
 
   // parse the options passed to the module
@@ -92,7 +93,3 @@ module.exports = function (eleventyConfig, options = {}) {
   });
 
 }
-
-// "imageFilePath": "",
-// "imageAltText": "",
-// "imageAttribution": ""
