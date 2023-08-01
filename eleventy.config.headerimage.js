@@ -71,7 +71,7 @@ module.exports = function (eleventyConfig, options = {}) {
   }
   
   eleventyConfig.addShortcode("CategoryImage", function (categories) {
-    function buildImageTag(imagePath, imageAltText) {
+    function _buildImageTag(imagePath, imageAltText) {
       if (imagePath) {
         return imageClass.length > 0
           ? `<img src="${imagePath}" alt="${imageAltText}" class="${imageClass}" />`
@@ -83,7 +83,7 @@ module.exports = function (eleventyConfig, options = {}) {
 
     _logIt("CategoryImage", categories.length > 0 ? categories[0] : "No categories");
     let res = _getCategoryImage(this.ctx.environments[categoryData], categories, useDefaultImage);
-    return buildImageTag(res.imageFilePath, res.imageAltText);
+    return _buildImageTag(res.imageFilePath, res.imageAltText);
   });
 
   eleventyConfig.addShortcode("CategoryImageAttribution", function (categories) {
