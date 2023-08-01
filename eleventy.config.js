@@ -57,13 +57,8 @@ module.exports = eleventyConfig => {
 		}
 	});
 
-	eleventyConfig.addShortcode("getKeywords", function (categories) {
-		let returnString = "";
-		for (let category in categories) {
-			returnString += categories[category] + ", ";
-		}
-		// Remove the last comma
-		return returnString.slice(0, -2);
+	eleventyConfig.addShortcode("GetKeywords", function (categories) {
+		return categories.join(", ");
 	});
 
 	// From ray camden's blog, first paragraph as excerpt
