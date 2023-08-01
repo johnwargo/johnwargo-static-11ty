@@ -9,13 +9,15 @@ module.exports = function (eleventyConfig, options = {}) {
 
   const moduleName = "eleventy.config.headerimage";
 
-  const useDefaultImage = false;
-  const defaultImagePath = "/images/headers/default.jpg";
-  const defaultImageAltText = "Default Header Image Alt Text";
-  const defaultImageAttribution = "Photo Courtesy of John M. Wargo";
+  const useDefaultImage = false;  
+  const defaultImageProperties = {
+    imageFilePath: "/images/headers/default.jpg",
+    imageAltText: "Default Header Image Alt Text",
+    imageAttribution: "Photo Courtesy of John M. Wargo"
+  }
 
-  if (useDefaultImage && defaultImagePath.length < 1) {
-    _logIt(moduleName, "ERROR: Default image enabled, but defaultImagePath is undefined");
+  if (useDefaultImage && defaultImageProperties.imageFilePath.length < 1) {
+    _logIt(moduleName, "ERROR: Default image enabled, but imageFilePath is undefined");
   }
 
   // parse the options passed to the module
@@ -37,21 +39,18 @@ module.exports = function (eleventyConfig, options = {}) {
    */
   function _getCategoryImage(categoryData, categories, useDefaultImage) {
     // Initialize to default of no image properties
-    const res = {
+    const otherResult = {
       imageFilePath: '',
       imageAltText: '',
       imageAttribution: ''
     }
+
+
     // Do we have any category metadata?
     if (categoryData && categoryData.length < 1) {
       // No, then we know what to return (because we won't have any image 
       // properties to pull from)
-      if (useDefaultImage) {
-        res.imageFilePath = defaultImagePath;
-        res.imageAltText = defaultImageAltText;
-        res.imageAttribution = defaultImageAttribution;
-      }
-      return res;
+      return useDefaultImage ? defaultImageProperties : otherResult;
     }
 
     // find the first category of categories that has an imageFilePath 
@@ -61,19 +60,17 @@ module.exports = function (eleventyConfig, options = {}) {
         categories[idx] === category.category;
       });
       if (cat && cat.imageFilePath && cat.imageFilePath.length > 0) {
-        res.imageFilePath = cat.imageFilePath;
-        res.imageAltText = cat.imageAltText;
-        res.imageAttribution = cat.imageAttribution;
+        otherResult.imageFilePath = cat.imageFilePath;
+        otherResult.imageAltText = cat.imageAltText;
+        otherResult.imageAttribution = cat.imageAttribution;
         break;
       }
     }
-    // did we get one?
-    if (res.imageFilePath.length < 1 && useDefaultImage) {
-      res.imageFilePath = defaultImagePath;
-      res.imageAltText = defaultImageAltText;
-      res.imageAttribution = defaultImageAttribution;
+    // did we get one? No? Then use the default image if allowed
+    if (otherResult.imageFilePath.length < 1 && useDefaultImage) {
+      return defaultImageProperties;
     }
-    return res
+    return otherResult
   }
 
   eleventyConfig.addShortcode("CategoryImage", function (categories) {
