@@ -81,21 +81,25 @@ module.exports = function (eleventyConfig, options = {}) {
       }
     }
 
-    // Leave all together if there's no category passed in
+    // Leave if there's no category passed in
     if (!categories ) return '';      
-    // For the Category page use case, it's not an array, so convert it into one first
-    if (!categories.isArray) categories = [categories];    
+    // For the Category page use case, it's not an array, so 
+    // convert it into one first
+    if (!Array.isArray(categories)) categories = [categories];    
     _logIt("CategoryImage", categories && categories.length > 0 ? categories[0] : "No categories");
+    // console.dir(this.ctx.environments[categoryData]);
     let res = _getCategoryImage(this.ctx.environments[categoryData], categories, useDefaultImage);
     return _buildImageTag(res.imageFilePath, res.imageAltText);
   });
 
   eleventyConfig.addShortcode("CategoryImageAttribution", function (categories) {
-    // Leave all together if there's no category passed in
+    // Leave if there's no category passed in
     if (!categories ) return '';      
-    // For the Category page use case, it's not an array, so convert it into one first
-    if (!categories.isArray) categories = [categories];    
-    _logIt("CategoryAttribution", categories && categories.length > 0 ? categories[0] : "No categories");
+    // For the Category page use case, it's not an array, so 
+    // convert it into one first
+    if (!Array.isArray(categories)) categories = [categories];    
+    _logIt("CategoryImageAttribution", categories && categories.length > 0 ? categories[0] : "No categories");
+    // console.dir(this.ctx.environments[categoryData]);
     let res = _getCategoryImage(this.ctx.environments[categoryData], categories, useDefaultImage);
     return res.imageAttribution.length > 0 ? `<p>Header image: ${res.imageAttribution}</p>` : '';
   });
