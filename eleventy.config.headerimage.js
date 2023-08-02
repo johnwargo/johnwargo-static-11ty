@@ -56,9 +56,7 @@ module.exports = function (eleventyConfig, options = {}) {
     // find the first category of categories that has an imageFilePath 
     // property populated
     for (var idx in categories) {
-      var cat = categoryData.find((category) => {
-        categories[idx] === category.category;
-      });
+      var cat = categoryData.find(category => categories[idx] === category.category);
       if (cat && cat.imageFilePath && cat.imageFilePath.length > 0) {
         imageObject.imageFilePath = cat.imageFilePath;
         imageObject.imageAltText = cat.imageAltText;
@@ -69,7 +67,7 @@ module.exports = function (eleventyConfig, options = {}) {
     // did we get one? No? Then use the default image if allowed
     return imageObject.imageFilePath.length < 1 && useDefaultImage ? defaultImageObject : imageObject;
   }
-  
+
   eleventyConfig.addShortcode("CategoryImage", function (categories) {
     function _buildImageTag(imagePath, imageAltText) {
       if (imagePath) {

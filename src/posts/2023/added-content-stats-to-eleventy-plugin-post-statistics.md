@@ -5,6 +5,7 @@ date: 2023-07-15
 showCoffee: 
 headerImage: 
 headerImageAltText: 
+headerImageAttribution: 
 categories:
   - Eleventy
 ---

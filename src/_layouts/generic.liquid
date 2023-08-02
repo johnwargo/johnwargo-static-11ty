@@ -41,7 +41,6 @@ License: pixelarity.com/license
                   class="image fit" /></span>
             {% else %}
               {% if categories.length > 0 %}
-                <p>{{ categories }} image</p>
                 {% CategoryImage categories %}
               {% endif %}
             {% endif %}
@@ -50,10 +49,10 @@ License: pixelarity.com/license
             </h2>
           </header>
           {{ content }}
-          {% if headerImage.length < 1 %}
-            {% if categories %}
-              {{ CategoryImageAttribution categories }}
-            {% endif %}
+          {% if headerImageAttribution %}
+            {{ headerImageAttribution }}
+          {% else %}
+            {{ CategoryImageAttribution categories }}
           {% endif %}
         </section>
       </section>

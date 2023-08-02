@@ -3,6 +3,7 @@ title: BlackBerry 10 Charging Foibles
 description: Me ranting about the battery life of BlackBerry 10 devices.
 date: 2014-02-04
 headerImage: 
+headerImageAltText: 
 categories: [BlackBerry]
 tags: post
 ---
