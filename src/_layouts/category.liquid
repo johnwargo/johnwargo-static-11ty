@@ -16,14 +16,10 @@ License: pixelarity.com/license
     <meta name="generator" content="{{ eleventyinfo.generatorStr}}" />
     <meta name="author" content="John M. Wargo">
     {% if description %}<meta name="description" content="{{ description }}" />{% endif %}
-    {% if categories %}<meta name="keywords" content="{% GetKeywords categories %}">{% endif %}
+    {% if categories.length > 0 %}<meta name="keywords" content="{% GetKeywords categories %}">{% endif %}
     <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="{{ "/" | htmlBaseUrl }}assets/css/main.css" />
     <link rel="stylesheet" href="{{ "/" | htmlBaseUrl }}assets/css/scott.css" />
-    {% if page.url == '/sites/' %}
-      <link rel="stylesheet" href="{{ "/" | htmlBaseUrl }}assets/css/sites.css" />
-    {% endif %}
-    <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
     {% include 'icons.html' %}
     {% include 'google-analytics.html' %}
   </head>
@@ -34,26 +30,13 @@ License: pixelarity.com/license
       <section class="main">
         <section>
           <header>
-            {% if headerImage %}
-              <span class="image fit"><img
-                  src="{{ headerImage }}"
-                  alt="{{ headerImageAltText }}"
-                  class="image fit" /></span>
-            {% else %}
-              {% if categories %}
-                {% CategoryImage categories %}
-              {% endif %}
-            {% endif %}
+            {% CategoryImage category %}
             <h2>
               {{ title }}
             </h2>
           </header>
           {{ content }}
-          {% if headerImageAttribution %}
-            {{ headerImageAttribution }}
-          {% else %}
-            {% CategoryImageAttribution categories %}
-          {% endif %}
+          {% CategoryImageAttribution category %}
         </section>
       </section>
     </div>

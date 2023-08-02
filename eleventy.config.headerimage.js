@@ -21,6 +21,8 @@ module.exports = function (eleventyConfig, options = {}) {
     process.exit(1);  // exit hard
   }
 
+  const debugMode = options.debugMode ? options.debugMode : false;
+
   // parse the options passed to the module
   const categoryData = options.dataFileName ? path.parse(options.dataFileName).name : 'categoryData';
   _logIt(moduleName, `Category data: ${categoryData}`);
@@ -28,7 +30,7 @@ module.exports = function (eleventyConfig, options = {}) {
   if (imageClass.length > 0) _logIt(moduleName, `Image Class: ${imageClass}`);
 
   function _logIt(shortCodeName, msg) {
-    console.log(`[${shortCodeName}] ${msg}`);
+    if (debugMode) console.log(`[${shortCodeName}] ${msg}`);
   }
 
   /**
@@ -65,7 +67,7 @@ module.exports = function (eleventyConfig, options = {}) {
       }
     }
     // did we get one? No? Then use the default image if allowed
-    return imageObject.imageFilePath.length < 1 && useDefaultImage ? defaultImageObject : imageObject;
+    return imageObject.imageFilePath.length < 1 && useDefaultImage ? defaultImageObject : imageObject;    
   }
 
   eleventyConfig.addShortcode("CategoryImage", function (categories) {
@@ -79,15 +81,23 @@ module.exports = function (eleventyConfig, options = {}) {
       }
     }
 
-    _logIt("CategoryImage", categories.length > 0 ? categories[0] : "No categories");
+    // Leave all together if there's no category passed in
+    if (!categories ) return '';      
+    // For the Category page use case, it's not an array, so convert it into one first
+    if (!categories.isArray) categories = [categories];    
+    _logIt("CategoryImage", categories && categories.length > 0 ? categories[0] : "No categories");
     let res = _getCategoryImage(this.ctx.environments[categoryData], categories, useDefaultImage);
     return _buildImageTag(res.imageFilePath, res.imageAltText);
   });
 
   eleventyConfig.addShortcode("CategoryImageAttribution", function (categories) {
-    _logIt("CategoryAttribution", categories.length > 0 ? categories[0] : "No categories");
+    // Leave all together if there's no category passed in
+    if (!categories ) return '';      
+    // For the Category page use case, it's not an array, so convert it into one first
+    if (!categories.isArray) categories = [categories];    
+    _logIt("CategoryAttribution", categories && categories.length > 0 ? categories[0] : "No categories");
     let res = _getCategoryImage(this.ctx.environments[categoryData], categories, useDefaultImage);
-    return res.imageAttribution.length > 0 ? `<p>${res.imageAttribution}</p>` : '';
+    return res.imageAttribution.length > 0 ? `<p>Header image: ${res.imageAttribution}</p>` : '';
   });
 
 }
