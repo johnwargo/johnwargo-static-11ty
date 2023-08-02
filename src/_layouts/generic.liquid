@@ -34,13 +34,14 @@ License: pixelarity.com/license
       <section class="main">
         <section>
           <header>
-            {% if headerImage %}
+            {% if headerImage.length > 0 %}
               <span class="image fit"><img
                   src="{{ headerImage }}"
                   alt="{{ headerImageAltText }}"
                   class="image fit" /></span>
             {% else %}
-              {% if categories %}
+              {% if categories.length > 0 %}
+                <p>{{ categories }} image</p>
                 {% CategoryImage categories %}
               {% endif %}
             {% endif %}
@@ -48,9 +49,7 @@ License: pixelarity.com/license
               {{ title }}
             </h2>
           </header>
-
           {{ content }}
-
           {% if headerImage.length < 1 %}
             {% if categories %}
               {{ CategoryImageAttribution categories }}
