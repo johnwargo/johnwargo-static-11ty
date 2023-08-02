@@ -11,6 +11,7 @@ const pluginStats = require('eleventy-plugin-post-stats');
 
 // local plugins
 const pluginImages = require("./eleventy.config.images.js");
+const pluginImageHeaders = require("./eleventy.config.headerimage.js");
 
 // Transforms
 // https://learneleventyfromscratch.com/lesson/31.html#minifying-html-output
@@ -19,6 +20,8 @@ const htmlMinTransform = require('./src/transforms/html-min.js');
 // Create a helpful production flag
 const isProduction = process.env.NODE_ENV === 'production';
 
+const categoryDataFile = 'categoryData.json';
+
 module.exports = eleventyConfig => {
 
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
@@ -26,6 +29,7 @@ module.exports = eleventyConfig => {
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(syntaxHighlight);
+	eleventyConfig.addPlugin(pluginImageHeaders, { dataFileName: categoryDataFile });
 	eleventyConfig.addPlugin(pluginImages);
 	eleventyConfig.addPlugin(pluginStats);
 
@@ -45,17 +49,16 @@ module.exports = eleventyConfig => {
 	eleventyConfig.on('eleventy.before', async ({ dir, runMode, outputMode }) => {
 		if (firstRun) {
 			firstRun = false;
-			generateCategoryPages({}, true, false);
+			generateCategoryPages({
+				dataFileName: categoryDataFile,
+				imageProperties: true,
+				quitOnError: true
+			});
 		}
 	});
 
-	eleventyConfig.addShortcode("getKeywords", function (categories) {
-		let returnString = "";
-		for (let category in categories) {
-			returnString += categories[category] + ", ";
-		}
-		// Remove the last comma
-		return returnString.slice(0, -2);
+	eleventyConfig.addShortcode("GetKeywords", function (categories) {
+		return categories.join(", ");
 	});
 
 	// From ray camden's blog, first paragraph as excerpt
@@ -88,15 +91,15 @@ module.exports = eleventyConfig => {
 		return noContent;
 	}
 
-	eleventyConfig.addCollection("categories", function (collectionApi) {
-		let categories = new Set();
-		let posts = collectionApi.getFilteredByTag('post');
-		posts.forEach(p => {
-			let cats = p.data.categories;
-			cats.forEach(c => categories.add(c));
-		});
-		return Array.from(categories);
-	});
+	// eleventyConfig.addCollection("categories", function (collectionApi) {
+	// 	let categories = new Set();
+	// 	let posts = collectionApi.getFilteredByTag('post');
+	// 	posts.forEach(p => {
+	// 		let cats = p.data.categories;
+	// 		cats.forEach(c => categories.add(c));
+	// 	});
+	// 	return Array.from(categories);
+	// });
 
 	// https://www.raymondcamden.com/2020/06/24/adding-algolia-search-to-eleventy-and-netlify
 	// Remove <code>.*</code>, remove HTML, then with plain text, limit to 5k chars

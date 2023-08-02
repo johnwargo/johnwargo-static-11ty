@@ -33,16 +33,11 @@ For keywords, building the comma separated list of categories is a little ugly i
 {% endif %}
 {% endhighlight %}
 
-Instead, I decided to add a `getKeywords` shortcode in the project's `eleventy.config.js` like this:
+Instead, I decided to add a `GetKeywords` shortcode in the project's `eleventy.config.js` like this:
 
 ```js
-eleventyConfig.addShortcode("getKeywords", function (categories) {
-  let returnString = "";
-  for (let category in categories) {
-    returnString += categories[category] + ", ";
-  }
-  // Remove the last comma
-  return returnString.slice(0, -2);
+eleventyConfig.addShortcode("GetKeywords", function (categories) {
+ return categories.join(", ");
 });
 ```
 
@@ -50,7 +45,7 @@ Now, with access to the keywords array of categories, adding it to each page's h
 
 {% highlight liquid %}
 {% if categories.length > 0 %}
-  <meta name="keywords" content="{% getKeywords categories %}">
+  <meta name="keywords" content="{% GetKeywords categories %}">
 {% endif %}
 {% endhighlight %}
 

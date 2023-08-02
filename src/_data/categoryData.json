@@ -1,0 +1,130 @@
+[
+  {
+    "category": "BlackBerry",
+    "count": 69,
+    "description": "Articles about the BlackBerry platform, BlackBerry development, and my time working at BlackBerry (Research in Motion).",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
+    "category": "Content Management Systems",
+    "count": 16,
+    "description": "Articles related to my usage and experimentation with Content Management Systems (CMS).",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
+    "category": "Developer Tools",
+    "count": 4,
+    "description": "Articles related to developer tools; ones I use or ones I'm evaluating.",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
+    "category": "Eleventy",
+    "count": 20,
+    "description": "Articles related to the Eleventy Static Site Generator",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
+    "category": "Events",
+    "count": 1,
+    "description": "Articles about events I'm attending, speaking at, or otherwise involved with.",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
+    "category": "Guests",
+    "count": 1,
+    "description": "Articles written by Guest Authors (so far, only one).",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
+    "category": "IBM Lotus Domino",
+    "count": 31,
+    "description": "Articles related to IBM Lotus Notes and/or Domino; mostly around development topics.",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
+    "category": "Internet of Things (IoT)",
+    "count": 33,
+    "description": "Posts related to Microcontrollers, single board computers, and other stuff.",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
+    "category": "Miscellaneous",
+    "count": 138,
+    "description": "Posts that didn't fit in any other categories.",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
+    "category": "Mobile",
+    "count": 30,
+    "description": "Posts related to mobile phones and mobility in general.",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
+    "category": "Mobile Development",
+    "count": 95,
+    "description": "Posts related to mobile app development.",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
+    "category": "Static Site Generators",
+    "count": 5,
+    "description": "Anything related to Static Site Generators.",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
+    "category": "Stupid Developer Tricks",
+    "count": 9,
+    "description": "Posts calling out the results of stupid things software developers do.",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
+    "category": "Uncategorized",
+    "count": 1,
+    "description": "Articles without a category assigned.",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
+    "category": "Web Development",
+    "count": 6,
+    "description": "Posts related to web development topics, development tools, strategies, etc.",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
+    "category": "What Were They Thinking",
+    "count": 15,
+    "description": "Articles about stupid things I see out in the world.",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  }
+]
