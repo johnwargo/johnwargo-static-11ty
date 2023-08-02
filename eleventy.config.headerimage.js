@@ -67,7 +67,7 @@ module.exports = function (eleventyConfig, options = {}) {
       }
     }
     // did we get one? No? Then use the default image if allowed
-    return imageObject.imageFilePath.length < 1 && useDefaultImage ? defaultImageObject : imageObject;    
+    return imageObject.imageFilePath.length < 1 && useDefaultImage ? defaultImageObject : imageObject;
   }
 
   eleventyConfig.addShortcode("CategoryImage", function (categories) {
@@ -81,11 +81,10 @@ module.exports = function (eleventyConfig, options = {}) {
       }
     }
 
-    // Leave if there's no category passed in
-    if (!categories ) return '';      
-    // For the Category page use case, it's not an array, so 
-    // convert it into one first
-    if (!Array.isArray(categories)) categories = [categories];    
+    // Leave if there's no category passed in (for pages that don't have categories)
+    if (!categories) return '';
+    // For the Category page use case, it's not an array, so convert it into one first
+    if (!Array.isArray(categories)) categories = [categories];
     _logIt("CategoryImage", categories && categories.length > 0 ? categories[0] : "No categories");
     // console.dir(this.ctx.environments[categoryData]);
     let res = _getCategoryImage(this.ctx.environments[categoryData], categories, useDefaultImage);
@@ -93,11 +92,10 @@ module.exports = function (eleventyConfig, options = {}) {
   });
 
   eleventyConfig.addShortcode("CategoryImageAttribution", function (categories) {
-    // Leave if there's no category passed in
-    if (!categories ) return '';      
-    // For the Category page use case, it's not an array, so 
-    // convert it into one first
-    if (!Array.isArray(categories)) categories = [categories];    
+    // Leave if there's no category passed in (for pages that don't have categories)
+    if (!categories) return '';
+    // For the Category page use case, it's not an array, so convert it into one first
+    if (!Array.isArray(categories)) categories = [categories];
     _logIt("CategoryImageAttribution", categories && categories.length > 0 ? categories[0] : "No categories");
     // console.dir(this.ctx.environments[categoryData]);
     let res = _getCategoryImage(this.ctx.environments[categoryData], categories, useDefaultImage);
