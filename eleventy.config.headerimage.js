@@ -21,9 +21,8 @@ module.exports = function (eleventyConfig, options = {}) {
     process.exit(1);  // exit hard
   }
 
-  const debugMode = options.debugMode ? options.debugMode : false;
-
   // parse the options passed to the module
+  const debugMode = options.debugMode ? options.debugMode : false;
   const categoryData = options.dataFileName ? path.parse(options.dataFileName).name : 'categoryData';
   _logIt(moduleName, `Category data: ${categoryData}`);
   const imageClass = options.imageClass ? options.imageClass : '';

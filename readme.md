@@ -42,6 +42,8 @@ The following lists the tools I created to help me better migrate the site from 
 
 ## Notes to Self
 
+Header image: 1980 x 400
+
 Site Template: [Pixelarity: Faction](https://pixelarity.com/faction)
 FavIcon Generator: [Favicon.ico & App Icon Generator](https://www.favicon-generator.org/)
 

@@ -29,11 +29,11 @@ module.exports = eleventyConfig => {
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(syntaxHighlight);
-	eleventyConfig.addPlugin(pluginImageHeaders, { 
-		dataFileName: categoryDataFile, 
-		imageClass: 'image fit' 
+	eleventyConfig.addPlugin(pluginImageHeaders, {
+		dataFileName: categoryDataFile,
+		imageClass: 'image fit'
 	});
-	eleventyConfig.addPlugin(pluginImages);
+	eleventyConfig.addPlugin(pluginImages, { debugMode: false });
 	eleventyConfig.addPlugin(pluginStats);
 
 	// https://github.com/11ty/eleventy/issues/2301
@@ -55,7 +55,8 @@ module.exports = eleventyConfig => {
 			generateCategoryPages({
 				dataFileName: categoryDataFile,
 				imageProperties: true,
-				quitOnError: true
+				quitOnError: true,
+				debugMode: false
 			});
 		}
 	});

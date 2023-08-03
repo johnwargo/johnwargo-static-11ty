@@ -6,7 +6,11 @@
 const Image = require('@11ty/eleventy-img');
 const outdent = require('outdent');
 
-module.exports = function (eleventyConfig) {
+module.exports = function (eleventyConfig, options = {}) {
+
+  const moduleName = "eleventy.config.images";
+  const debugMode = options.debugMode ? options.debugMode : false;
+  if (debugMode) console.log(`[${moduleName}] Debug mode enabled`);
 
   /**
    *  Maps a config of attribute-value pairs to an HTML string representing 
@@ -29,7 +33,8 @@ module.exports = function (eleventyConfig) {
     formats = ['webp', 'jpeg'],
     sizes = '100vw'
   ) => {
-    // console.log(`[imageShortcode] Generating image(s) from: ${src}`);
+
+    if (debugMode) console.log(`[${moduleName}] Generating image: ${src}`);
 
     const imageMetadata = await Image(src, {
       widths: [...widths, null],
@@ -53,7 +58,7 @@ module.exports = function (eleventyConfig) {
         });
         // Return one <source> per format
         return `<source ${sourceAttributes}>`;
-      }).join('');    
+      }).join('');
 
     const getLargestImage = (format) => {
       const images = imageMetadata[format];
@@ -75,7 +80,7 @@ module.exports = function (eleventyConfig) {
     const imgHtmlString = `<img ${imgAttributes}>`;
     const pictureAttributes = stringifyAttributes({ class: className });
     const picture = `<picture ${pictureAttributes}>${sourceHtmlString} ${imgHtmlString}</picture>`;
-    
+
     return outdent`${picture}`;
   };
 
