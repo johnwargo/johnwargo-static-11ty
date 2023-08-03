@@ -5,7 +5,7 @@
     "description": "Articles about the BlackBerry platform, BlackBerry development, and my time working at BlackBerry (Research in Motion).",
     "imageFilePath": "/images/headers/randy-lu-FPmk3wxfu40-unsplash-cropped.jpg",
     "imageAltText": "An image of a BlackBerry device",
-    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@djyde?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Randy Lu</a> on <a href=\"https://unsplash.com/photos/FPmk3wxfu40?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>"
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@djyde?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Randy Lu</a> on <a href=\"https://unsplash.com/photos/FPmk3wxfu40?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
   },
   {
     "category": "Content Management Systems",
@@ -13,7 +13,7 @@
     "description": "Articles related to my usage and experimentation with Content Management Systems (CMS).",
     "imageFilePath": "/images/headers/alvaro-reyes-qWwpHwip31M-unsplash-cropped.jpg",
     "imageAltText": "An image of a board with content blocks pinned to it",
-    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@alvarordesign?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Alvaro Reyes</a> on <a href=\"https://unsplash.com/photos/qWwpHwip31M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>"
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@alvarordesign?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Alvaro Reyes</a> on <a href=\"https://unsplash.com/photos/qWwpHwip31M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
   },
   {
     "category": "Developer Tools",
@@ -21,7 +21,7 @@
     "description": "Articles related to developer tools; ones I use or ones I'm evaluating.",
     "imageFilePath": "/images/headers/ashim-d-silva-Kw_zQBAChws-unsplash-cropped.jpg",
     "imageAltText": "An image of some tools",
-    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@randomlies?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Ashim D’Silva</a> on <a href=\"https://unsplash.com/photos/Kw_zQBAChws?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>"
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@randomlies?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Ashim D’Silva</a> on <a href=\"https://unsplash.com/photos/Kw_zQBAChws?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
   },
   {
     "category": "Eleventy",
@@ -29,7 +29,7 @@
     "description": "Articles related to the Eleventy Static Site Generator",
     "imageFilePath": "/images/headers/11ty.png",
     "imageAltText": "Eleventy project logo",
-    "imageAttribution": "Eleventy Project Home Page"
+    "imageAttribution": "Eleventy Project Home Page."
   },
   {
     "category": "Events",
@@ -37,7 +37,7 @@
     "description": "Articles about events I'm attending, have a speaking slot, or otherwise involved with.",
     "imageFilePath": "/images/headers/jakob-dalbjorn-cuKJre3nyYc-unsplash-cropped.jpg",
     "imageAltText": "",
-    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@jakobdalbjorn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Jakob Dalbjörn</a> on <a href=\"https://unsplash.com/photos/cuKJre3nyYc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>"
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@jakobdalbjorn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Jakob Dalbjörn</a> on <a href=\"https://unsplash.com/photos/cuKJre3nyYc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
   },
   {
     "category": "Guests",
@@ -45,15 +45,15 @@
     "description": "Articles written by Guest Authors (so far, only one).",
     "imageFilePath": "/images/headers/erik-mclean-aNZnKZKfAq8-unsplash-cropped.jpg",
     "imageAltText": "An image of a guestbook",
-    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@introspectivedsgn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Erik Mclean</a> on <a href=\"https://unsplash.com/photos/aNZnKZKfAq8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>"
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@introspectivedsgn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Erik Mclean</a> on <a href=\"https://unsplash.com/photos/aNZnKZKfAq8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
   },
   {
     "category": "IBM Lotus Domino",
     "count": 31,
     "description": "Articles related to IBM Lotus Notes and/or Domino; mostly around development topics.",
-    "imageFilePath": "",
-    "imageAltText": "",
-    "imageAttribution": ""
+    "imageFilePath": "/images/headers/tamara-gak-3VarlhRV_ns-unsplash-cropped.jpg",
+    "imageAltText": "An image of some Dominos",
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@tamara_photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Tamara Gak</a> on <a href=\"https://unsplash.com/photos/3VarlhRV_ns?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
   },
   {
     "category": "Internet of Things (IoT)",
@@ -61,70 +61,70 @@
     "description": "Posts related to Microcontrollers, single board computers, and other stuff.",
     "imageFilePath": "/images/headers/robin-glauser-zP7X_B86xOg-unsplash-cropped.jpg",
     "imageAltText": "An image of an Arduino device and other Electric components",
-    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@nahakiole?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Robin Glauser</a> on <a href=\"https://unsplash.com/photos/zP7X_B86xOg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>"
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@nahakiole?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Robin Glauser</a> on <a href=\"https://unsplash.com/photos/zP7X_B86xOg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
   },
   {
     "category": "Miscellaneous",
     "count": 138,
     "description": "Posts that didn't fit in any other categories.",
-    "imageFilePath": "",
-    "imageAltText": "",
-    "imageAttribution": ""
+    "imageFilePath": "/images/headers/marcos-paulo-prado-DwKo9S5sewA-unsplash-cropped.jpg",
+    "imageAltText": "random bands of color",
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@marcospradobr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Marcos Paulo Prado</a> on <a href=\"https://unsplash.com/photos/DwKo9S5sewA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>"
   },
   {
     "category": "Mobile",
     "count": 30,
     "description": "Posts related to mobile phones and mobility in general.",
-    "imageFilePath": "",
-    "imageAltText": "",
-    "imageAttribution": ""
+    "imageFilePath": "/images/headers/eirik-solheim-mWTOR3Rx8l8-unsplash-cropped.jpg",
+    "imageAltText": "An image of a bunch of phones dumped on a table",
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@eirikso?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Eirik Solheim</a> on <a href=\"https://unsplash.com/photos/mWTOR3Rx8l8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
   },
   {
     "category": "Mobile Development",
     "count": 95,
     "description": "Posts related to mobile app development.",
-    "imageFilePath": "",
-    "imageAltText": "",
-    "imageAttribution": ""
+    "imageFilePath": "/images.headers/ilgmyzin-Xe21OFRpqvk-unsplash-cropped.jpg",
+    "imageAltText": "Mobile Apps",
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@ilgmyzin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">ilgmyzin</a> on <a href=\"https://unsplash.com/photos/Xe21OFRpqvk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
   },
   {
     "category": "Static Site Generators",
     "count": 5,
     "description": "Anything related to Static Site Generators.",
-    "imageFilePath": "",
-    "imageAltText": "",
-    "imageAttribution": ""
+    "imageFilePath": "/images/headers/alvaro-reyes-qWwpHwip31M-unsplash-cropped.jpg",
+    "imageAltText": "An image of a board with content blocks pinned to it",
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@alvarordesign?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Alvaro Reyes</a> on <a href=\"https://unsplash.com/photos/qWwpHwip31M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
   },
   {
     "category": "Stupid Developer Tricks",
     "count": 9,
     "description": "Posts calling out the results of stupid things software developers do.",
-    "imageFilePath": "",
-    "imageAltText": "",
-    "imageAttribution": ""
+    "imageFilePath": "/images/headers/raspopova-marina-PHIJC0jpx9U-unsplash.jpg",
+    "imageAltText": "An image containing a bunch of nuts",
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@raspopovamarisha?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Raspopova Marina</a> on <a href=\"https://unsplash.com/photos/PHIJC0jpx9U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
   },
   {
     "category": "Uncategorized",
     "count": 1,
     "description": "Articles without a category assigned.",
-    "imageFilePath": "",
-    "imageAltText": "",
-    "imageAttribution": ""
+    "imageFilePath": "/images/headers/anastasiia-chepinska-qZ6uvJHLHFc-unsplash-cropped.jpg",
+    "imageAltText": "An image of some doughnuts",
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@anastasiiachepinska?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Anastasiia Chepinska</a> on <a href=\"https://unsplash.com/photos/qZ6uvJHLHFc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
   },
   {
     "category": "Web Development",
     "count": 6,
     "description": "Posts related to web development topics, development tools, strategies, etc.",
-    "imageFilePath": "",
-    "imageAltText": "",
-    "imageAttribution": ""
+    "imageFilePath": "images/headers/ferenc-almasi-eYpcLDXHVb0-unsplash-cropped.jpg",
+    "imageAltText": "An image of a code editor displaying HTML code",
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@flowforfrank?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Ferenc Almasi</a> on <a href=\"https://unsplash.com/photos/eYpcLDXHVb0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
   },
   {
     "category": "What Were They Thinking",
     "count": 15,
     "description": "Articles about stupid things I see out in the world.",
-    "imageFilePath": "",
-    "imageAltText": "",
-    "imageAttribution": ""
+    "imageFilePath": "/images/headers/towfiqu-barbhuiya-oZuBNC-6E2s-unsplash-cropped.jpg",
+    "imageAltText": "An image of a question mark",
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@towfiqu999999?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Towfiqu barbhuiya</a> on <a href=\"https://unsplash.com/photos/oZuBNC-6E2s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
   }
 ]
