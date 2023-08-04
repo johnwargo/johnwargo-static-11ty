@@ -14,3 +14,5 @@ I was looking at the [All Things Open 2023 - First Round Speakers](https://2023.
 Here's my speaker [profile](https://2023.allthingsopen.org/speakers/john-wargo/){target="_blank"}.  
 
 I can't wait for the conference; this will be my third time presenting at this amazing conference.
+
+{% image "src/images/2023/2023_ATO_Speaker_1200x628.jpg", "All Things Open Banner", "image-full" %}
