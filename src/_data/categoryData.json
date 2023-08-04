@@ -25,7 +25,7 @@
   },
   {
     "category": "Eleventy",
-    "count": 20,
+    "count": 21,
     "description": "Articles related to the Eleventy Static Site Generator",
     "imageFilePath": "/images/headers/11ty.png",
     "imageAltText": "Eleventy project logo",
@@ -36,7 +36,7 @@
     "count": 1,
     "description": "Articles about events I'm attending, have a speaking slot, or otherwise involved with.",
     "imageFilePath": "/images/headers/jakob-dalbjorn-cuKJre3nyYc-unsplash-cropped.jpg",
-    "imageAltText": "",
+    "imageAltText": "An image of a crowd of people at an event",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@jakobdalbjorn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Jakob Dalbjörn</a> on <a href=\"https://unsplash.com/photos/cuKJre3nyYc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
   },
   {

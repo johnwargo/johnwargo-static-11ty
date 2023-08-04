@@ -1,6 +1,7 @@
 //@ts-check
 // ==============================================
 // Category Header Image(s)
+// By John M. Wargo
 // ==============================================
 
 var path = require("path");
@@ -23,8 +24,10 @@ module.exports = function (eleventyConfig, options = {}) {
 
   // parse the options passed to the module
   const debugMode = options.debugMode ? options.debugMode : false;
+
   const categoryData = options.dataFileName ? path.parse(options.dataFileName).name : 'categoryData';
   _logIt(moduleName, `Category data: ${categoryData}`);
+  
   const imageClass = options.imageClass ? options.imageClass : '';
   if (imageClass.length > 0) _logIt(moduleName, `Image Class: ${imageClass}`);
 
