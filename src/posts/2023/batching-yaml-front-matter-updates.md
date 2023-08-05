@@ -2,7 +2,6 @@
 title: Batching YAML Front Matter Updates
 description: This article describes a command-line utility I created to do batch add/update to YAML front matter of all of the markdown files in a folder. This is especially helpful when working with static site generators (SSG).
 date: 2023-07-10
-showCoffee: 
 headerImage: 
 headerImageAltText: 
 categories:

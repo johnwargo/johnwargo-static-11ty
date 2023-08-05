@@ -2,9 +2,10 @@
 title: 
 description: 
 date: 
-showCoffee: 
+showCoffee: true
 headerImage: 
 headerImageAltText: 
+heaaderImageAttribution:
 categories: []
 ---
 

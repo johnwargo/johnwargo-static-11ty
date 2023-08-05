@@ -2,7 +2,6 @@
 title: DFRobot mmWave RADAR
 description: 
 date: 2023-07-16
-showCoffee: 
 headerImage: 
 headerImageAltText: 
 categories:

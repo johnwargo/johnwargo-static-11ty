@@ -2,7 +2,6 @@
 title: Fixed Category Page Generation
 description: I figured out how to get my Eleventy Generate Category Pages module working in an Eleventy build process.
 date: 2023-06-14
-showCoffee: 
 headerImage: 
 headerImageAltText: 
 categories:

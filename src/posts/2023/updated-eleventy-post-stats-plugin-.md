@@ -2,7 +2,6 @@
 title: Updated Eleventy Post Stats Plugin
 description: I published an update to my Eleventy Plugin Post Statistics plugin this morning and this article explains what changed.
 date: 2023-07-07
-showCoffee: 
 headerImage: 
 headerImageAltText: 
 categories:

@@ -2,7 +2,6 @@
 title: Eleventy Filter Parameters
 description: How to add parameters to an Eleventy filter.
 date: 2023-07-05
-showCoffee: 
 headerImage: 
 headerImageAltText: 
 categories:

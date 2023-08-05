@@ -2,7 +2,6 @@
 title: Eleventy Category Images
 description: Describes a solution I implemented in this site to add Category-specific header images to posts. I modified my eleventy-generate-category-pages module to generate additional properties for the header images and some shortcodes to add the image and attribution to the site's pages.
 date: 2023-08-04
-showCoffee: 
 headerImage: 
 headerImageAltText: 
 categories:

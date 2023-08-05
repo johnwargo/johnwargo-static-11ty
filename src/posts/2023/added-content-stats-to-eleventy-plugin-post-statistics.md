@@ -2,7 +2,6 @@
 title: Added Content Stats to Eleventy Plugin Post Statistics
 description: This post describes some new enhancements to my Eleventy Plugin Post Statistics plugin.
 date: 2023-07-15
-showCoffee: 
 headerImage: 
 headerImageAltText: 
 headerImageAttribution: 

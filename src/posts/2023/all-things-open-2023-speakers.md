@@ -2,7 +2,7 @@
 title: All Things Open 2023 Speakers
 description: 
 date: 2023-06-23
-showCoffee: 
+showCoffee: False
 headerImage: 
 headerImageAltText: 
 categories:

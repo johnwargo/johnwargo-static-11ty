@@ -2,7 +2,6 @@
 title: Updated Eleventy Generate Posts Utility
 description: 
 date: 2023-07-01
-showCoffee: true
 headerImage: 
 headerImageAltText: 
 categories:

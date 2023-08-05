@@ -1,7 +1,8 @@
 ---
 layout: generic
 ---
-
+{% assign previousPost = collections.post | getPreviousCollectionItem %}
+{% assign nextPost = collections.post | getNextCollectionItem %}
 {% include 'pretty-print.html' %}
 
 <p>
@@ -18,8 +19,16 @@ layout: generic
 
 {{ content }}
 
-<div id="postnav"></div>
-<script src="/assets/js/post.js"></script>
+{% if nextPost %}
+  <p>Next Post:
+    <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+  </p>
+{% endif %}
+{% if previousPost %}
+  <p>Previous Post:
+    <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
+  </p>
+{% endif %}
 
 {% if showCoffee %}
   {% include "coffee.html" %}
