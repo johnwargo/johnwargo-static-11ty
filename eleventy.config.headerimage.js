@@ -88,7 +88,6 @@ module.exports = function (eleventyConfig, options = {}) {
     // For the Category page use case, it's not an array, so convert it into one first
     if (!Array.isArray(categories)) categories = [categories];
     _logIt("CategoryImage", categories && categories.length > 0 ? categories[0] : "No categories");
-    // console.dir(this.ctx.environments[categoryData]);
     let res = _getCategoryImage(this.ctx.environments[categoryData], categories, useDefaultImage);
     return _buildImageTag(res.imageFilePath, res.imageAltText);
   });
@@ -99,7 +98,6 @@ module.exports = function (eleventyConfig, options = {}) {
     // For the Category page use case, it's not an array, so convert it into one first
     if (!Array.isArray(categories)) categories = [categories];
     _logIt("CategoryImageAttribution", categories && categories.length > 0 ? categories[0] : "No categories");
-    // console.dir(this.ctx.environments[categoryData]);
     let res = _getCategoryImage(this.ctx.environments[categoryData], categories, useDefaultImage);
     return res.imageAttribution.length > 0 ? `<p>Header image: ${res.imageAttribution}</p>` : '';
   });
