@@ -40,6 +40,14 @@
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@jakobdalbjorn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Jakob Dalbjörn</a> on <a href=\"https://unsplash.com/photos/cuKJre3nyYc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
   },
   {
+    "category": "Flutter",
+    "count": 1,
+    "description": "",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
     "category": "Guests",
     "count": 1,
     "description": "Articles written by Guest Authors (so far, only one).",
@@ -65,7 +73,7 @@
   },
   {
     "category": "Miscellaneous",
-    "count": 138,
+    "count": 139,
     "description": "Posts that didn't fit in any other categories.",
     "imageFilePath": "/images/headers/marcos-paulo-prado-DwKo9S5sewA-unsplash-cropped.jpg",
     "imageAltText": "random bands of color",
@@ -81,7 +89,7 @@
   },
   {
     "category": "Mobile Development",
-    "count": 95,
+    "count": 96,
     "description": "Posts related to mobile app development.",
     "imageFilePath": "/images/headers/ilgmyzin-Xe21OFRpqvk-unsplash-cropped.jpg",
     "imageAltText": "Mobile Apps",
