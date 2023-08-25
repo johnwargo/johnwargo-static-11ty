@@ -5,7 +5,7 @@ date: 2023-08-07
 showCoffee: true
 headerImage: 
 headerImageAltText: 
-heaaderImageAttribution: 
+headerImageAttribution: 
 categories:
   - Mobile Development
   - Miscellaneous

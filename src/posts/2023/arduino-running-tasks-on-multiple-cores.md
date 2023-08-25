@@ -1,13 +1,14 @@
 ---
-title: Arduino Running Tasks On Multiple Cores
+title: Arduino ESP32 Running Tasks On Multiple Cores
 description: This article demonstrates how to assign different tasks to separate processor cores using the Arduino platform and multiple core microcontrollers. I always wanted to learn how to do this, but the examples on the web are so full of ads that I wanted to publish a version with no advertisements as a super clean example.
 date: 2023-08-25
 showCoffee: true
 headerImage: 
 headerImageAltText: 
-heaaderImageAttribution: 
+headerImageAttribution: 
 categories:
   - Internet of Things (IoT)
+  - ESP32
 ---
 
 I've been coding and building on the Arduino platform (both hardware and software) for a long time. Looking back on this site, I see that I created my [First Arduino Project](http://posts/2014/first-arduino-project/) back in 2014, almost 10 years ago.

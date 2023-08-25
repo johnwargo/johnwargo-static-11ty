@@ -5,7 +5,7 @@ date:
 showCoffee: true
 headerImage: 
 headerImageAltText: 
-heaaderImageAttribution:
+headerImageAttribution:
 categories: []
 ---
 

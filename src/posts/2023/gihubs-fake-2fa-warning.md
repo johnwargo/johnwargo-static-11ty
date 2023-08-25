@@ -5,7 +5,7 @@ date: 2023-08-08
 showCoffee: true
 headerImage: 
 headerImageAltText: 
-heaaderImageAttribution: 
+headerImageAttribution: 
 categories:
   - Miscellaneous
 ---
