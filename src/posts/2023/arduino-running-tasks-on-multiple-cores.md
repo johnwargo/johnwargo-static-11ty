@@ -225,7 +225,7 @@ void Task1code(void* pvParameters) {
 
 But, that caused another problem. That code generated the following error:
 
-```text
+```shell
 Task0 running on core 0
 Task1 running on core 1
 E (23337) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
