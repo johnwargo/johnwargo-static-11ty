@@ -160,7 +160,7 @@ void setup() {
 
 Well, during several of my failed attempts, I kept panicking the processor with an unhandled exception:
 
-```text 
+```shell
 ESP-ROM:esp32s3-20210327
 Build:Mar 27 2021
 rst:0xc (RTC_SW_CPU_RST),boot:0x8 (SPI_FAST_FLASH_BOOT)
