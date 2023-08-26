@@ -237,8 +237,7 @@ Next, I had to write a bunch of if/then statements to identify the different API
 
 ## A Better Web Server Approach
 
-
-
+Poking around for an alternative to the standard arduino web server I found the [Arduino-ESP32 WebServer library](https://github.com/espressif/arduino-esp32/tree/master/libraries/WebServer){target="_blank"}. This code is specific to the ESP32 but offers a much cleaner implementation plus it support CORS out of the box. Looking at the main server setup and request processing loop looks like this:
 
 ```c
 #include <ESPmDNS.h>
@@ -257,6 +256,8 @@ void Task0code(void* pvParameters) {
     displayMessage("MDNS responder started");
     MDNS.addService("http", "tcp", 80);
   } else {
+    // It didn't work, so turn the LED Matrix Red
+    // until someone notices (forever)
     displayMessage("Error setting up MDNS responder!");
     fadeColor(CRGB::Red);
     while (1) {
@@ -284,17 +285,191 @@ void Task0code(void* pvParameters) {
 }
 ```
 
+Notice how it's a lot cleaner? It's a lot easier to maintain too. Lets dig into the code.
 
-Show color parsing
+### Core 0
 
-Show flash parsing
+First of all, the web server process runs on the ESP32 device's core 0. Since there's nothing executing in the sketch's main `loop` function, the core is dedicated to the web server process (more or less, that may not be 100% true, but close).
 
-Postman to test
+### Multicast DNS
 
-Talk about redirect
+Next, the sketch uses the [Multicast DNS (ESPmDNS)](https://github.com/espressif/arduino-esp32/blob/master/libraries/ESPmDNS/src/ESPmDNS.h){target="_blank"} library to register a unique name for the device on the network. The code looks like this:
 
-Discuss web app
+```c
+#define HOSTNAME "pumpkin"
 
-web app screen shot
+if (MDNS.begin(HOSTNAME)) {
+  displayMessage("MDNS responder started");
+  MDNS.addService("http", "tcp", 80);
+} else {
+  displayMessage("Error setting up MDNS responder!");
+  fadeColor(CRGB::Red);
+  while (1) {
+    delay(1000);
+  }
+}
+```
 
-What I'll do next... (pass IP Address on redirect, automatic configuration of app).
+What this code does is define a network device in DNS with the name `pumpkin.local`.
+
+If I open a browser and type `pumpkin.local` in the address bar, the browser will connect to the web server running on the device and request the page at `/`. How cool is that? It even works with the `ping` command:
+
+{% image "src/images/2023/ping-pumpkin-local.png", "windows terminal showing the results of the ping command", "image-full" %}
+
+With this in place, any user trying to connect to the web server only needs the name for the device, nothing more. Without this, the user would have to determine the IP Address for the device (perhaps pulling it from the Serial Monitor while the sketch runs in the Arduino IDE) and type it in manually every time they wanted to use it.
+
+### Processing Client Requests
+
+At this point, it's time to setup the Web Server code. In the example below, the sketch:
+
+1. Enables CORS so the web server automatically adds the needed headers to every response.
+2. Adds an event handler for root requests for the web server (`/'`).
+3. Adds event handlers for the different API commands (described above).
+4. Adds an event handler for requests that don't match any of the defined requests (404 - not found).
+5. Starts the server.
+6. Writes to the Serial Monitor letting the developer (me) know that the server started.
+
+The server process has everything it needs to process any request it receives. 
+
+Here's the code that implements everything in that list:
+
+```c
+server.enableCORS();
+server.on("/", handleRoot);
+server.on(UriBraces("/color:{}"), handleColor);
+server.on(UriBraces("/flash:{}"), handleFlash);
+server.on("/lightning", handleFlicker);
+server.on("/off", handleOff);
+server.on("/random", handleRandom);
+server.onNotFound(handleNotFound);
+server.begin();
+displayMessage("HTTP server started\n");
+
+for (;;) {
+  server.handleClient();
+  // Add a small delay to let the watchdog process
+  //https://stackoverflow.com/questions/66278271/task-watchdog-got-triggered-the-tasks-did-not-reset-the-watchdog-in-time
+  delay(25);
+}
+```
+
+#### Handling Root Requests
+
+
+
+```c
+void handleRoot() {  
+  displayMessage("Root (/)\n");
+  String redirectHTML = "<html>";
+  redirectHTML += "<head><title>Redirecting</title>";
+  redirectHTML += "<meta http-equiv='Refresh' content=\"3; url='https://pumpkin-controller.netlify.app?" + WiFi.localIP().toString() + "'\" />";
+  redirectHTML += "<link rel='stylesheet' href='https://unpkg.com/mvp.css'>";
+  redirectHTML += "</head><body><main>";
+  redirectHTML += "<h1>Redirecting</h1><p>Redirecting to Pumpkin Controller<p>";
+  redirectHTML += "</main></body></html>";
+  server.send(200, "text/html", redirectHTML);
+}
+```
+
+
+```html
+<html>
+  <head>
+    <title>Redirecting</title>
+    <meta http-equiv='Refresh' content="3; url='https://pumpkin-controller.netlify.app?192.168.86.230'" />
+    <link rel='stylesheet' href='https://unpkg.com/mvp.css'>
+  </head>
+  <body>
+    <main>
+      <h1>Redirecting</h1>
+      <p>Redirecting to Pumpkin Controller<p>          
+    </main>
+  </body>
+</html>
+```
+
+
+pass IP Address on redirect, automatic configuration of app
+
+
+
+#### Not Found
+
+
+```c
+void handleNotFound() {
+  displayMessage("Not Found\n");
+  String message = "File Not Found\n\n";
+  message += "URI: ";
+  message += server.uri();
+  message += "\nMethod: ";
+  message += (server.method() == HTTP_GET) ? "GET" : "POST";
+  message += "\nArguments: ";
+  message += server.args();
+  message += "\n";
+  for (uint8_t i = 0; i < server.args(); i++) {
+    message += " " + server.argName(i) + ": " + server.arg(i) + "\n";
+  }
+  server.send(404, "text/plain", message);
+}
+```
+
+#### Color
+
+
+```c
+void handleColor() {
+  int color;
+  String colorStr = server.pathArg(0);
+
+  // Only accept GET requests, this addresses a problem caused by
+  // CORS preflight check requests that the web server library
+  // doesn't deal with correctly (OK, not at all)
+  if (server.method() != HTTP_GET) return;
+  displayMessage("color: " + colorStr);
+
+  color = colorStr.toInt();
+  if (color > numColors - 1) {  // invalid color idx
+    allOff();
+    sendError();
+    return;
+  }
+  sendSuccess();
+  disableRandom();
+  fadeColor(colors[color]);
+}
+```
+
+#### Flash
+
+
+```c
+void handleFlash() {
+  int color, count;
+  String uriParms = server.pathArg(0);
+
+  // Only accept GET requests, this addresses a problem caused by
+  // CORS preflight check requests that the web server library
+  // doesn't deal with correctly (OK, not at all)
+  if (server.method() != HTTP_GET) return;
+  displayMessage("flash: " + uriParms);
+
+  color = uriParms.charAt(0) - '0';
+  count = uriParms.charAt(2) - '0';
+  // invalid color idx or count
+  if (color > numColors - 1 || count > 5) {
+    sendError();
+    allOff();
+    return;
+  }
+  sendSuccess();
+  flashLEDs(colors[color], count);
+}
+```
+
+## Testing the Web Server
+
+### Postman
+
+
+### Web Application
