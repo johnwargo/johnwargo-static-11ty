@@ -1,7 +1,7 @@
 ---
 title: Arduino ESP32 Web Server on a Processor Core
 description: 
-date: 2023-08-26
+date: 2023-08-27
 showCoffee: true
 headerImage: 
 headerImageAltText: 
@@ -43,16 +43,58 @@ I came up with the following API:
 | `/off`       | Turns off the LED Matrix (sets all NeoPixels to `CRGB::Black`). |
 | `/random`    | Enables random mode where the ESP32 device randomly picks a color from the array and displays it for a random amount of time (seconds) before picking another color and starting all over again. |
 
-## How CORS Impacts This Project
+## CORS Impact
 
-// TODO: Write this content
+Before I get too far into this post I have to warn you about something. 
 
-Ham pork meatloaf bresaola salami turducken shoulder. Cupim fatback burgdoggen alcatra turducken jerky chuck turkey beef ribs landjaeger. Ham doner jowl, brisket tail pork belly swine. Tail rump strip steak short loin shankle hamburger spare ribs fatback pork chop kevin picanha chicken salami. Brisket jowl pork loin, porchetta beef ribs pork chop meatloaf cow alcatra beef pig tongue. Hamburger flank sausage prosciutto.
+Even though you can run a Web Server on an Arduino device and have it process requests, it doesn't mean that you can access the web server from any device anywhere. The Internet, well, really mostly Google, conspires against you and will block responses from the web server in several scenarios.
 
-T-bone bresaola meatloaf venison pastrami. Pork tongue cupim capicola, shankle pork chop filet mignon buffalo ham short ribs burgdoggen jerky shoulder pastrami rump. Ham hock kevin pork chop kielbasa, corned beef jowl landjaeger meatball ground round turducken ham swine. Landjaeger kevin beef ribs jowl alcatra short ribs buffalo.
+Yeah, I know, right?
+
+Anyways, back in 2019 Google got serious about HTTPS requests vs. HTTP; you can read about it in [No More Mixed Messages About HTTPS](https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html){target="_blank"}. With this, Google started preferring HTTPS connections (while still allowing HTTP connections) but eventually started blocking HTTP connections all together.
+
+There's also this thing called [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS){target="_blank"} that tries to help secure connections between a browser and a server. The web application has to enable CORS (which basically means adding some headers to the request) in order to be able to make a request to the server and the server must respond in kind (with the right headers). Even if you setup CORS correctly, the browser will block responses from our tiny little web server unless:
+
+1. The web server and the system running the browser are running on the same local network.
+2. You use some other application other than a browser to connect to the web server.
+2. You're using an Internet-hosted web application, but set some special settings that allow the browser to connect to the server and accept responses from it. 
+
+I know, it's a pain in the @ss.
+
+So, for this post, I only cover connecting to the web server from a locally hosted browser and from another application (instead of a browser) running on the same network. In my next post, I'll cover the other use cases. I apologize for that, but this article is going to be pretty big without me covering all options.
+
+## Core 1
+
+In this project, the web server runs on core 0. I'll get to that code in a minute, but lets talk about the other core, what code it runs. 
+
+Core 1 has an easy job, all it has to do is check to see if Random is enabled then, if it is enabled, pick a color and update the NeoPixel matrix with that color.
+
+```c
+void Task1code(void* pvParameters) {
+  int randomInt;
+
+  Serial.print("LED Management running on core ");
+  Serial.println(xPortGetCoreID());
+
+  // Repeat the following infinitely
+  for (;;) {
+    if (doRandom) {
+      randomInt = (int)random(1, numColors + 1);
+      fadeColor(colors[randomInt]);
+    }
+    // Add a small delay to let the watchdog process
+    //https://stackoverflow.com/questions/66278271/task-watchdog-got-triggered-the-tasks-did-not-reset-the-watchdog-in-time
+    delay(25);
+  }
+}
+```
+
+While this isn't an amazing example of splitting tasks across two processor cores, by splitting this task off to its own processor, the random color process runs smoothly - no matter what the web server is doing. A much better example would be two processor intensive tasks running simultaneously on separate cores but I don't have that example handy. This is all I have to share with you.
 
 
-## First Attempt
+## My First Web Server Attempt
+
+The web server runs as the `Task0` task as described in my previous post. The web server and all the actions it takes runs on the ESP32 processor core 0.
 
 The Arduino platform's Wi-Fi library includes a rudimentary [WiFi Web Server](https://docs.arduino.cc/library-examples/wifi-library/WiFiWebServer){target="_blank"}, so I decided to start there. Using what I learned in the previous post ([Arduino ESP32 Running Tasks On Multiple Cores](/posts/2023/arduino-running-tasks-on-multiple-cores/)), I created a new Arduino project, configured the sketch to connect to my Wi-Fi network, then configured a web server on an ESP32's first core (Core 0) using the web server tutorial linked at the top of the paragraph. The web server code looked like this:
 
@@ -191,35 +233,10 @@ if (client) {
 
 The code reads requests character by character looking for a new line character (`\n`), next it must search the request line (each request could be multiple lines considering HTTP headers) by line until it sees a command it recognizes. 
 
-Notice, by the way, that this web server runs as the `Task0` task as described in my previous post. The web server and all the actions it takes runs on the ESP32 processor core 0.
-
-## Core 1
-
-Core 1 has an easier job, all it has to do is check to see if Random is enabled then, if it is enabled, pick a color and update the NeoPixel matrix with that color.
-
-```c
-void Task1code(void* pvParameters) {
-  int randomInt;
-
-  Serial.print("LED Management running on core ");
-  Serial.println(xPortGetCoreID());
-
-  // Repeat the following infinitely
-  for (;;) {
-    if (doRandom) {
-      randomInt = (int)random(1, numColors + 1);
-      fadeColor(colors[randomInt]);
-    }
-    // Add a small delay to let the watchdog process
-    //https://stackoverflow.com/questions/66278271/task-watchdog-got-triggered-the-tasks-did-not-reset-the-watchdog-in-time
-    delay(25);
-  }
-}
-```
-
-While this isn't an amazing example of splitting tasks across two processor cores, by splitting this task off to its own processor, the random color process runs smoothly - no matter what the web server is doing. A much better example would be two processor intensive tasks running simultaneously on separate cores but I don't have that example handy. This is all I have to share with you.
+Next, I had to write a bunch of if/then statements to identify the different API commands and act accordingly. It's not beautiful code and I could have used functions to make it cleaner, but there has to be a better way. I quickly abandoned this approach.
 
 ## A Better Web Server Approach
+
 
 
 
