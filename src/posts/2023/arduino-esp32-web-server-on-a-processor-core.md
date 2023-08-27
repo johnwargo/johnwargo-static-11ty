@@ -318,6 +318,8 @@ If I open a browser and type `pumpkin.local` in the address bar, the browser wil
 
 With this in place, any user trying to connect to the web server only needs the name for the device, nothing more. Without this, the user would have to determine the IP Address for the device (perhaps pulling it from the Serial Monitor while the sketch runs in the Arduino IDE) and type it in manually every time they wanted to use it.
 
+You can change the local DNS name to whatever you want (within the rules of DNS naming), simply change the `HOSTNAME` value in the code.
+
 ### Processing Client Requests
 
 At this point, it's time to setup the Web Server code. In the example below, the sketch:
@@ -355,7 +357,47 @@ for (;;) {
 
 #### Handling Root Requests
 
+As I mentioned at the start of this post, for this project I want to control the ESP32 device's LEDs from a browser. This means that I need to get a web application loaded into the browser that I can use to do that. The easiest way to do this is to have the web server host the web app used to control the LEDs. This is really simple to do, you create a handler event for requests to the web server's root page `/` like this:
 
+```c
+server.on("/", handleRoot);
+```
+
+Next you write the code that handles the request and returns a web page like this:
+
+```c
+void handleRoot() {  
+  String webApp = "<html>";
+  webApp += "<head><title>Pumpkin Controller</title>";
+  webApp += "</head><body>";
+  webApp += "<h1>Pumpkin Controller</h1>";
+  webApp += "<p>Welcome to the pumpkin controller application.<p>";
+  webApp += "</body></html>";
+  server.send(200, "text/html", webApp);
+}
+```
+
+This sends the following page to the browser:
+
+```html
+<html>
+  <head>
+    <title>Pumpkin Controller</title>
+  </head>
+  <body>
+    <h1>Pumpkin Controller</h1>
+    <p>Welcome to the pumpkin controller application.<p>
+  </body>
+</html>
+```
+
+Pretty cool, right? Unfortunately, the web app for this project is pretty big; the [`index.html` file](https://github.com/johnwargo/pumpkin-led-controller-html/blob/main/index.html){target="_blank"} is more than 4,500 characters and the app uses a bunch of JavaScript code to send commands to the remote device and process the response. I could serve all of this code from the tiny web server but it would be a lot of code and very slow. There's a better way!
+
+For this project, I built the [Pumpkin LED Controller](https://github.com/johnwargo/pumpkin-led-controller-html){target="_blank"} application, then published it using [Netlify](https://www.netlify.com/){target="_blank"}. Netlify allows you to publish web apps for free if they're Open Source projects as this one is. They even give you a secure URL to access the web app from (without having to buy a custom domain); in this case its [https://pumpkin-controller.netlify.app/](https://pumpkin-controller.netlify.app/){target="_blank"}.
+
+So now I have a fully functional web application hosted for fast delivery, how do I get the app to users? Well, instead of hosting the entire app on our tiny little web server, I instead hosted a very small web app that redirects users to my Netlify hosted app. The web application needs to know the IP address of the ESP32 device, so I added some code that passes the IP Address to the web app which allows for self configuration (no typing in the remote device's IP address).  Let me show you how this works...
+
+Here's the code in my project that handles requests made to the web server root (`/`):
 
 ```c
 void handleRoot() {  
@@ -371,6 +413,7 @@ void handleRoot() {
 }
 ```
 
+When the web server serves it, this is the page that's delivered to the web browser:
 
 ```html
 <html>
@@ -388,13 +431,35 @@ void handleRoot() {
 </html>
 ```
 
+And this is what the page looks like in the browser:
 
-pass IP Address on redirect, automatic configuration of app
+{% image "src/images/2023/pumpkin-controller-redirect-page.png", "The project's redirect web page running in the browser", "image-full" %}
 
+To access the page, all you have to do is open your browser of choice and type `pumpkin.local` in the address bar. The browser will connect to the web server running on the ESP32 and request the root page. 
 
+What this page does is render in the browser for three seconds, then redirects the browser to the Netlify hosted Pumpkin LED Controller app. With this configuration, my sketch delivers a very simple root page (pretty slowly) but users get the fully loaded page from elsewhere. When I make updates to the Pumpkin Controller, I can make and publish those changes to Netlify and not have to make any changes to the sketch running in the ESP32. With this configuration you can use the controller with your device without any additional work.
+
+This is the code in the web app that does the redirection. In the `content` property the `3` means 3 seconds before redirecting (you can increase or decrease this as you see fit - I made it three seconds so you'd see the page, you could do it immediately and never show the redirect page at all). The URL is the redirect destination. 
+
+```html
+<meta http-equiv='Refresh' content="3; url='https://pumpkin-controller.netlify.app?192.168.86.230'" />
+```
+
+Now, the next thing to notice is the IP address on the redirect URL. The sketch adds it using `WiFi.localIP().toString()` which provides the current IP address assigned to the ESP32 device. With this in place, I auto-configure the web application with the device's IP address, the user doesn't need to do this step. 
+
+Here's how this process works:
+
+1. The Web Server redirects the browser session to the Netlify hosted Pumpkin Controller (this version of the page). Included in the Query String is the IP Address of the ESP32 device.
+2. After the page loads, JavaScript code on the page pulls the IP Address from the query string and stores it in the app's configuration.
+3. Next, the page redirects the browser to the same page **without** the IP Address in the query string (as shown in the figure below).
+
+{% image "src/images/2023/pumpkin-controller-redirect.png", "A diagram illustrating how the project redirects a browser request", "image-full" %}
+
+This is a really clean way to minimize the amount of code you must server from the ESP32 web server and eliminates manual configuration of the device's IP address in the app. 
 
 #### Not Found
 
+Since I'm running this on my local network, I really don't need to deal with unexpected requests from client applications, but the web server library gives you the ability to handle not found errors as shown below. I copied the majority of the code from the example project included with the library.
 
 ```c
 void handleNotFound() {
@@ -413,6 +478,10 @@ void handleNotFound() {
   server.send(404, "text/plain", message);
 }
 ```
+
+What this does is return a block of text explaining the error which the browser renders without any styling:
+
+{% image "src/images/2023/pumpkin-controller-not-found.png", "An error message rendering in a browser window", "image-full" %}
 
 #### Color
 
