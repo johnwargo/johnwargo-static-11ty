@@ -15,7 +15,7 @@ I wrote the [Arduino ESP32 Running Tasks On Multiple Cores](/posts/2023/arduino-
 
 Years ago I published a several Glowing Pumpkin projects: Arduino Glowing Pumpkin and Arduino Glowing Pumpkin (Adafruit Feather). Both of them used Arduino compatible devices plus either one of the Adafruit multi-NeoPixel devices or a NeoPixel shield.
 
-I always wanted to redo this project, especially using some of the smaller ESP32 devices like the [Seeed Studio Xaio](https://www.seeedstudio.com/xiao-series-page){target="_blank"} series of microcontrollers and some of the smaller NeoPixel matrixes like the [Adafruit 5x5 NeoPixel Grid BFF Add-On for QT Py and Xiao](https://www.adafruit.com/product/5646){target="_blank"}. Because of this, I recently published a refresh in [Glowing Pumpkin Xiao 5x5 BFF](https://github.com/johnwargo/glowing-pumpkin-xiao-bff){target="_blank"}. 
+I always wanted to redo this project, especially using some of the smaller ESP32 devices like the [Seeed Studio Xiao](https://www.seeedstudio.com/xiao-series-page){target="_blank"} series of microcontrollers and some of the smaller NeoPixel matrixes like the [Adafruit 5x5 NeoPixel Grid BFF Add-On for QT Py and Xiao](https://www.adafruit.com/product/5646){target="_blank"}. Because of this, I recently published a refresh in [Glowing Pumpkin Xiao 5x5 BFF](https://github.com/johnwargo/glowing-pumpkin-xiao-bff){target="_blank"}. 
 
 With that project in the can (a movie-making term) I started thinking about what else I could do with it. I quickly realized that I could enhance the project by adding a web server and letting a user remotely control the pumpkin illuminating hardware using a web browser or mobile app. I agree that that's not the most interesting use case, but I figured I'd use what I learned about splitting tasks across multiple ESP32 processor cores to run a web server on one of the cores while the other one does something else. 
 
@@ -61,7 +61,20 @@ There's also this thing called [Cross-Origin Resource Sharing (CORS)](https://de
 
 I know, it's a pain in the @ss.
 
-So, for this post, I only cover connecting to the web server from a locally hosted browser and from another application (instead of a browser) running on the same network. In my next post, I'll cover the other use cases. I apologize for that, but this article is going to be pretty big without me covering all options.
+So, for this post, I cover the web server code in detail; in the following article I'll explain all the options for accessing the web server from a variety of devices and tools. I apologize for that, but this article is going to be pretty big without me covering all options.
+
+As you look through the code for the web server, in most of the request handlers you'll see the following in the code:
+
+```c
+// Only accept GET requests, this addresses a problem caused by
+// CORS preflight check requests that the web server library
+// doesn't deal with correctly (OK, not at all)
+if (server.method() != HTTP_GET) return;
+```
+
+The code exits the function if the incoming request is not an HTTP GET request. I had to add this because with CORS enabled, the browser sends a pre-flight check request to the server first to see if it can handle the request. Only after the web server responds to that request will the browser send the actual request. 
+
+The side-effect of this is that the server received and processed two requests for every one sent by the web application. It wasn't until I started looking at the request type and noticing I got two different requests that I realized what was happening. Ignoring the first request works, I'm not sure why. Another option to use is to send a 200 response to the first request (the pre-flight check request), and that should work as well.
 
 ## Core 1
 
@@ -485,6 +498,17 @@ What this does is return a block of text explaining the error which the browser 
 
 #### Color
 
+So far I've only shown you web server housekeeping tasks; this section and the next explain a couple of the request handlers used to control the LED matrix.
+
+The `handleColor` function shown below processes requests to set a specific color on the LED matrix. This particular API requires that the calling program include the color index (from the array shown earlier) in the API query string in the format of `color:idx` where `idx` is a single digit number between 0 and 5 (the array lists 6 colors). For this, the WebServer library supports two options: braces or RegEx. What this means is that when redirecting the request to its handler, the web server can either assume everything beyond a core string is parameters to the API like this:
+
+```c
+server.on(UriBraces("/color:{}"), handleColor);
+```
+
+This works for my API, so this is the approach I used. With the RegEx approach you can match the query string with the handler using a regular expression.
+
+Here's the code that processes the request:
 
 ```c
 void handleColor() {
@@ -509,8 +533,11 @@ void handleColor() {
 }
 ```
 
+Notice how it takes the `pathArg`, which in this case is the color array index, converts it to an integer, then uses it to select the color passed to the function that sets a specific color on the LED array. This is an example of very simple single parameter parsing.
+
 #### Flash
 
+For the Flash option, the API requires that the calling program provide two parameters: the color array index (integer from 0 to 5) and the number of times the LEDs should flash that color. This function is very similar to the previous example, except that it's a little harder to parse two parameters. Here's the code:
 
 ```c
 void handleFlash() {
@@ -536,9 +563,8 @@ void handleFlash() {
 }
 ```
 
-## Testing the Web Server
+In this example, `uriParms` contains `colorIdx:count` (something like this `3:2` meaning color purple two times), so the code must pull off the 0th and 2nd character from `uriParms`. What the code gets back from that is the characters representing `3` and `2`, so when you subtract the character 0, you get an integer value representing the character: 3 and 2.
 
-### Postman
+## Conclusion
 
-
-### Web Application
+I hope this helps you learn how to deploy a web server to an ESP32 device. In the next post I'll show you the different options connecting to the web server from devices and tools plus dig into the difficulties with some of the options. For example, it's impossible to connect to the web server using a mobile browser - I'll explain why in the next post and show you how to get around it.
