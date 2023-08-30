@@ -1,6 +1,6 @@
 ---
 title: Arduino ESP32 Web Server on a Processor Core
-description: 
+description: The second article in this series, describes in detail how to run a web server in an Arduino project on the Espressif ESP32 microcontroller. 
 date: 2023-08-27
 showCoffee: true
 headerImage: 
