@@ -25,7 +25,7 @@
   },
   {
     "category": "ESP32",
-    "count": 3,
+    "count": 4,
     "description": "",
     "imageFilePath": "",
     "imageAltText": "",
@@ -73,7 +73,7 @@
   },
   {
     "category": "Internet of Things (IoT)",
-    "count": 36,
+    "count": 37,
     "description": "Posts related to Microcontrollers, single board computers, and other stuff.",
     "imageFilePath": "/images/headers/robin-glauser-zP7X_B86xOg-unsplash-cropped.jpg",
     "imageAltText": "An image of an Arduino device and other Electric components",

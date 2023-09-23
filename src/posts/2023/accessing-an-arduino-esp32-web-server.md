@@ -11,16 +11,42 @@ categories:
   - ESP32
 ---
 
-In [Arduino ESP32 Web Server on a Processor Core](/posts/2023/arduino-esp32-web-server-on-a-processor-core/) I described how to code a web server and run it on a dedicated core in an Arduino ESP32 project. The article is very long, so I didn't show anything about how to connect to that web server, but I'll do that here. 
+In [Arduino ESP32 Web Server on a Processor Core](/posts/2023/arduino-esp32-web-server-on-a-processor-core/) I described how to code a web server and run it on a dedicated core in an Arduino ESP32 project. That article is very long, so I didn't show anything about how to connect to that web server from a desktop PC or mobile device, but I'll do that here. 
 
-It is really easy to connect to this web server from another Arduino project or another small hardware device. You would think that since it's a web server that I'd be able to easily connect to it from any browser running on any device, but that's not true. There are several issues that limit your options, and I'll cover many of them in this post.
+Here's a video of the web server project working with the mobile app: https://youtube.com/shorts/BMP7LUCIwN0.
 
-Here's a video of the web server project working with the mobile app.
+If you watch the video, you'll notice that I mentioned making it flash purple three times but in the video it only seems to flash twice. That's because I already had purple selected, so the first purple flash didn't actually do anything. 
 
-https://youtube.com/shorts/BMP7LUCIwN0
+**Note:** I do not have any plans to show how to connect to this web server from another microcontroller-based project; let me know if this is something you would like see. There are a lot of examples of Arduino projects connecting to a web server over Wi-Fi, the only difference here would be the local URL for the web server. 
 
-## What Causes the Connection Issues?
+## Background
 
+The premise for this project is to use a desktop PC or mobile device to remotely control the LED matrix inside the pumpkin. Since I want to be able to control the pumpkin from a variety of devices, I assumed that using a web browser would be the fastest, easiest, and most consistent approach to use. 
+
+It turns out that's simply not the case.
+
+You can build a web application and use it to access the web server pretty easily. On your desktop PC, fire up your web app editor of choice, code the app, load the application in your browser, then access the web server. Here's a link to the app I built for this project: [Pumpkin LED Controller](https://github.com/johnwargo/glowing-pumpkin-controller-html){target="_blank"}; I show off this app later in this article.
+
+As long as the PC running the browser/web application and the ESP32 web server are on the same local Wi-Fi network, it works. If you host the web application on a pub web server somewhere (like [Netlify](https://www.netlify.com/){target="_blank"}) you can make it work, but not out of the box; there are special settings you must change in the browser to make it work (described below).
+
+My little ESP32 web server doesn't have an SSL/TLS certificate installed (yes, I know I can generate and install one, but I chose not to take that painful approach), so when I host the web app on a custom domain (in this case [https://pumpkin-controller.netlify.app/](https://pumpkin-controller.netlify.app/){target="_blank"}), the browser doesn't like cross domain access (the web app hosted at pumpkin-controller.netlify.app connecting to a web server on a local network). The browser blocks it and that's where the special settings come into play (telling the browser to ignore the security risk).
+
+Running the web app on a mobile device changes everything. 
+
+Mobile browsers flatly refuse to let a web app hosted in one domain access my tiny little ESP32 web server. That browser setting that instructs the browser to ignore the security risk simply does not exist on mobile devices; from my testing and what I learned through research, there's nothing I can do - it's never going to work.
+
+So, what are your options for controlling the Pumpkin from a mobile device? The only option I could find is to do it using a native mobile application. There are a variety of options for building the mobile app:
+
+* Native Android app written in Java or Kotlin
+* Native iOS and iPadOS app written in Objective-C or Swift
+* Native application written in Dart using [Flutter](https://flutter.dev/){target="_blank"}
+* Native Hybrid application (such as [Apache Cordova](https://cordova.apache.org/){target="_blank"}, [Ionic Capacitor](https://capacitorjs.com/){target="_blank"}, or even [Electron](https://www.electronjs.org/){target="_blank"})
+
+I'm not a native mobile developer (I only play one on Television), so that option doesn't work for me. I wrote [4 books on Apache Cordova](https://johnwargobooks.com/books/cordova){target="_blank"}, so I know I could do that pretty easily, but that particular technology is dead. I've also written a bunch of Ionic apps (I even have one in the app store: [Time Slicer](https://timeslicer.app/){target="_blank"}) so I could have used that option. 
+
+My favorite mobile app development approach is Flutter, so for this project I built a Flutter app called [Pumpkin Controller](https://github.com/fumblystuff/pumpkin-controller-app-flutter){target="_blank"} that you can install and use to control the pumpkin.
+
+I'll explain a lot of the details of what I did in the following sections. 
 
 ## Postman
 
@@ -29,3 +55,7 @@ https://youtube.com/shorts/BMP7LUCIwN0
 
 
 ## Hosted Web Application
+
+
+## Mobile Application
+
