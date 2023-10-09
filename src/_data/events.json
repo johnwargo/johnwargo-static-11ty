@@ -30,7 +30,7 @@
     "description": "Progressive Web Apps (PWAs) are the bright future of desktop and mobile applications. Research firm Gartner was so confident in the growth of PWAs that they predicted that 50% of all consumer apps would be PWAs this year. In this fast-paced session chock full of technical details, you’ll learn how build your own progressive web applications. You’ll learn how to make your app installable using web app manifests and some JavaScript code. You’ll also learn how to make your web app work in offline mode on compatible browsers using service workers. You’ll also learn about all the ways service workers can enhance the capabilities of a web application."
   },
   {
-    "title": "Write Shell Scripts Using JavaScript and zx",
+    "title": "All Things Open: Write Shell Scripts Using JavaScript and zx",
     "date": "2023-10-17",
     "url": "https://2023.allthingsopen.org/sessions/write-shell-scripts-using-javascript-and-zx/",
     "description": "There are many different ways to automate stuff when you’re building and writing software, shell scripts, CI/CD, command-line utilities and more. When you need to run something locally, developers often turn to shell scripts for something simple and node-based command-line utilities for more complicated tasks. Google’s `zx` project sits right between those two options, merging shell commands with JavaScript (or even TypeScript) coding. In this session, you’ll learn how to write shell scripts using JavaScript and zx."
