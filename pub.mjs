@@ -47,7 +47,7 @@ if (theArgs.length > 1) {
 }
 
 // throw in a blank line on the console
-console.log('\nUpdating Build Info file');
+console.log();
 await $`gen-build-info src/_data`;
 
 console.log('\nBuilding site');
