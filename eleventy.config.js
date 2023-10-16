@@ -136,6 +136,7 @@ module.exports = eleventyConfig => {
 		"src/assets/js/",
 		"src/assets/sass/",
 		"src/assets/webfonts/",
+		"src/files/*",
 		// Images folders
 		"src/images/*",
 		"src/images/headers/*",
