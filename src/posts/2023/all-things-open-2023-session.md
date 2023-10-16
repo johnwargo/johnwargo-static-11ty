@@ -14,4 +14,4 @@ Tomorrow I'm presenting a session at All Things Open 2023. My session is called 
 
 {% image "src/images/2023/ato-presentation.png", "First Slide", "image-full" %}
 
-Here's a link to the [slide deck](/files/2023-ato-shell-scripts-javascript.ppt){target="_blank"} and [Source Code](https://bit.ly/ato23-shell-scripts){target="_blank"}.
+Here's a link to the [slide deck](/files/2023-ato-shell-scripts-javascript.pptx){target="_blank"} and [Source Code](https://bit.ly/ato23-shell-scripts){target="_blank"}.
