@@ -124,6 +124,10 @@ module.exports = eleventyConfig => {
 		return num.toLocaleString(locale);
 	});
 
+	eleventyConfig.addFilter("truncate", function (num) {		
+		return Math.trunc(num);
+	});
+
 	// https://www.lenesaile.com/en/blog/organizing-the-eleventy-config-file/
 	// Copy the favicon files to the root folder
 	eleventyConfig.addPassthroughCopy({ 'src/favicon/*': '/' });

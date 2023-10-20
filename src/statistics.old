@@ -3,8 +3,6 @@ layout: generic
 title: Site Statistics
 ---
 
-{% comment %} WIP Stats page using ApexCharts https://apexcharts.com/ {% endcomment %}
-
 {% if collections.postStats.postCount > 0 %}
 
   <p>Statistics generated using my
@@ -64,8 +62,6 @@ title: Site Statistics
       </li>
     {% endif %}
   </ul>
-
-
 
   <h2>Google Analytics</h2>
   <div id="analyticsData">
@@ -127,7 +123,7 @@ title: Site Statistics
 
 
 <!-- Chart Scripts -->
-<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
   const ctx1 = document.getElementById('statsChart1');
   new Chart(ctx1, {
