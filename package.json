@@ -23,7 +23,7 @@
     "@11ty/eleventy-img": "^3.1.1",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
-    "@google-analytics/data": "^3.3.2",
+    "@google-analytics/data": "^3.3.0",
     "eleventy-generate-category-pages": "^0.1.2",
     "eleventy-plugin-date": "^1.0.0",
     "eleventy-plugin-post-stats": "^0.1.6",
