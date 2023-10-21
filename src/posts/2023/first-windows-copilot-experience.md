@@ -71,3 +71,30 @@ I know this is a pre-release feature and I'm glad Microsoft is letting me try it
 Another issue I have with Copilot is that every time I open it, it hides the Windows taskbar. I don't know if this is on purpose or a bug, but even though I'm entering a chat experience doesn't mean I want to abandon core Windows features (like the taskbar and Start menu).
 
 This not a very good start for technology that's supposed to transform the Windows experience.
+
+Postscript...
+
+So I figured I'd complain to it that it didn't understand my question:
+
+```text
+but the script examples you gave me don't address the question I asked. I only want the folders that contain both types of files. What you gave me was two commands that deliver separate lists.
+```
+
+At this point it finally understood me and tried to deliver a useful response:
+
+```powershell
+$folders = Get-ChildItem -Path "D:\dev" -Recurse -Directory
+
+foreach ($folder in $folders) {
+    $cmdFiles = Get-ChildItem -Path $folder.FullName -Filter "*.cmd"
+    $shFiles = Get-ChildItem -Path $folder.FullName -Filter "*.sh"
+
+    if (($cmdFiles.Count -gt 0) -and ($shFiles.Count -gt 0)) {
+        Write-Output $folder.FullName
+    }
+}
+```
+
+Running that code, I finally got the solution I needed.  This is really interesting, I wonder what happened that it suddenly started to understand my question. I personally don't believe that my initial prompts were unclear. I wonder what changed.
+
+{% image "src/images/2023/powershell-find-01.png", "Windows PowerShell search results", "image-full" %}
