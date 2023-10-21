@@ -98,3 +98,5 @@ foreach ($folder in $folders) {
 Running that code, I finally got the solution I needed.  This is really interesting, I wonder what happened that it suddenly started to understand my question. I personally don't believe that my initial prompts were unclear. I wonder what changed.
 
 {% image "src/images/2023/powershell-find-01.png", "Windows PowerShell search results", "image-full" %}
+
+Look at that, it seems to work.
