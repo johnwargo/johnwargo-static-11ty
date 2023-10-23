@@ -34,4 +34,6 @@ The next time I saved a file from the browser the dialog was fixed and everythin
 
 {% image "src/images/2023/windows-save-dialog-after.png", "Windows Browser Download Save Dialog FIXED", "image-full" %}
 
+If you look close, the default settings turns on a denser mode in the dialog which I really like since I can scan more folder names without having to scroll the list. 
+
 This utility supports a lot of different options, and I've only played with a few of them so far, but this utility has a lot of power and I'm going to continue to try different settings out.
