@@ -3,7 +3,7 @@ title: Sizing Windows in Windows
 description: 
 date: 2010-12-17
 headerImage: 
-categories: [Miscellaneous]
+categories: [Microsoft Windows]
 tags: post
 ---
 

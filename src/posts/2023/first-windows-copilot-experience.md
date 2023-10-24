@@ -7,7 +7,7 @@ headerImage:
 headerImageAltText: 
 headerImageAttribution: 
 categories:
-  - Miscellaneous
+  - Microsoft Windows
 ---
 
 I've been a GitHub Copilot user since the public beta; a former colleague was a PM on the Copilot team, and I was able to reach out to her directly to get on the beta. Using GitHub Copilot in Visual Studio Code dramatically improves my efficiency writing code, especially for NodeJS or React Apps. I've also been doing a lot of work in Generative AI (GenAI) for my day job at Oracle.
