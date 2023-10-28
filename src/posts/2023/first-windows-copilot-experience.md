@@ -1,6 +1,6 @@
 ---
 title: First Windows Copilot Experience
-description: 
+description: I've been a GitHub Copilot user since the public beta; using GitHub Copilot in Visual Studio Code dramatically improves my efficiency writing code, especially for NodeJS or React Apps. This post explains my first experience using Windows Copilot
 date: 2023-10-21
 showCoffee: true
 headerImage: 

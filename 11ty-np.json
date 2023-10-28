@@ -3,6 +3,6 @@
   "templateFile": "11ty-np.md",
   "useYear": true,
   "paragraphCount": 4,
-  "openAfterCreate": false,
+  "openAfterCreate": true,
   "editorCmd": "code"
 }

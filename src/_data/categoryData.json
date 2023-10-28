@@ -73,7 +73,7 @@
   },
   {
     "category": "Internet of Things (IoT)",
-    "count": 37,
+    "count": 38,
     "description": "Posts related to Microcontrollers, single board computers, and other stuff.",
     "imageFilePath": "/images/headers/robin-glauser-zP7X_B86xOg-unsplash-cropped.jpg",
     "imageAltText": "An image of an Arduino device and other Electric components",
@@ -81,7 +81,7 @@
   },
   {
     "category": "Microsoft Windows",
-    "count": 1,
+    "count": 3,
     "description": "",
     "imageFilePath": "",
     "imageAltText": "",
@@ -89,7 +89,7 @@
   },
   {
     "category": "Miscellaneous",
-    "count": 141,
+    "count": 139,
     "description": "Posts that didn't fit in any other categories.",
     "imageFilePath": "/images/headers/marcos-paulo-prado-DwKo9S5sewA-unsplash-cropped.jpg",
     "imageAltText": "random bands of color",
