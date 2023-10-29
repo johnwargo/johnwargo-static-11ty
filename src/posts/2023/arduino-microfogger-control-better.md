@@ -12,7 +12,7 @@ categories:
 
 In my [previous post](/posts/2023/arduino-microfogger-control/), I demonstrated how to control a [Vosentech MicroFogger 5 Pro](https://vosentech.com/index.php/product/microfogger-5-pro/) from an Arduino sketch. The example I provided there was simple and just showed how to control the smoke generator, turning on and off smoke generation for random periods of time.
 
-That example has an issue, a big one, the sketch can't do anything while the sketch waits to turn off or turn on the smoke. I suggested at the end of the article that you could write the sketch in such a way as to let the sketch do other things. This post describes that alternate version. I'll show the complete code at the end of this article, but you also access it on GitHub at [microfogger-random-smoke-better](https://gist.github.com/johnwargo/601a38c913dabb006f3412c93c276f6e){target="_blank"}.
+That example has an issue, a big one, the sketch can't do anything while the sketch waits to turn off or turn on the smoke. I suggested at the end of the article that you could write the sketch in such a way as to let the sketch do other things. This post describes that alternate version. I'll show the complete code at the end of this article, but you can also access it on GitHub at [microfogger-random-smoke-better](https://gist.github.com/johnwargo/601a38c913dabb006f3412c93c276f6e){target="_blank"}.
 
 This version of the sketch starts mostly the same as the other version, with a few additions.
 
