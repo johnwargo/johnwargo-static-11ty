@@ -8,6 +8,7 @@ headerImageAltText:
 headerImageAttribution: 
 categories:
   - Internet of Things (IoT)
+  - Arduino
 ---
 
 In my [previous post](/posts/2023/arduino-microfogger-control/), I demonstrated how to control a [Vosentech MicroFogger 5 Pro](https://vosentech.com/index.php/product/microfogger-5-pro/) from an Arduino sketch. The example I provided there was simple and just showed how to control the smoke generator, turning on and off smoke generation for random periods of time.

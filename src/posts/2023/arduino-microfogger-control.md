@@ -8,6 +8,7 @@ headerImageAltText:
 headerImageAttribution: 
 categories:
   - Internet of Things (IoT)
+  - Arduino
 ---
 
 For this year's Halloween project, I needed a battery powered smoke machine. I purchased a couple of different devices to try them out, and finally settled on the [Vosentech MicroFogger 5 Pro](https://vosentech.com/index.php/product/microfogger-5-pro/). 

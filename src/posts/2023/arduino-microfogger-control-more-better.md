@@ -8,6 +8,7 @@ headerImageAltText:
 headerImageAttribution: 
 categories:
   - Internet of Things (IoT)
+  - Arduino
 ---
 
 In my [previous post](/posts/2023/arduino-microfogger-control-better/), I demonstrated a better way to randomly generate smoke using the [Vosentech MicroFogger 5 Pro](https://vosentech.com/index.php/product/microfogger-5-pro/) from an Arduino sketch. That version was better because it didn’t block the main loop, instead it let other stuff while it generated smoke and waited. 

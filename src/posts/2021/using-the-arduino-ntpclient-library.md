@@ -3,7 +3,9 @@ title: Using the Arduino NTPClient Library
 description: I have a version of Andy Doro’s Word Clock running in my house. I had some issues with the real-time clock (RTC) keeping time correctly, so I decided to rebuild the clock using a Wi-Fi enabled device and the Network Time Protocol (NTP) to keep my clock’s local time synchronized with reality. 
 date: 2021-07-18
 headerImage: 
-categories: [Internet of Things (IoT)]
+categories: 
+  - Internet of Things (IoT)
+  - Arduino
 tags: post
 ---
 
