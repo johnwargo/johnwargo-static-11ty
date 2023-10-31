@@ -116,15 +116,22 @@ module.exports = eleventyConfig => {
 		return text.substring(0, 5000);
 	});
 
-	eleventyConfig.addFilter('jsonify', function (variable) {
-		return JSON.stringify(variable);
-	});
 
 	eleventyConfig.addFilter("commaize", function (num, locale = "en-us") {
 		return num.toLocaleString(locale);
 	});
 
-	eleventyConfig.addFilter("truncate", function (num) {		
+	eleventyConfig.addFilter("dateOnly", function (dateVal, locale = "en-us") {
+		var theDate = new Date(dateVal);
+		const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+		return theDate.toLocaleDateString(locale, options);
+	});
+
+	eleventyConfig.addFilter('jsonify', function (variable) {
+		return JSON.stringify(variable);
+	});
+
+	eleventyConfig.addFilter("truncate", function (num) {
 		return Math.trunc(num);
 	});
 

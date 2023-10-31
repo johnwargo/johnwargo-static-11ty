@@ -29,12 +29,12 @@ title: Site Statistics
     <a href="https://www.11ty.dev/" target="_blank">{{ eleventyinfo.generatorStr }}</a>
   </li>
   <li>
-    <strong>First post:</strong>
-    {{ collections.postStats.firstPostDate }}
+    <strong>First post date:</strong>
+    {{ collections.postStats.firstPostDate | dateOnly }}
   </li>
   <li>
-    <strong>Last post:</strong>
-    {{ collections.postStats.lastPostDate }}
+    <strong>Last post date:</strong>
+    {{ collections.postStats.lastPostDate | dateOnly }}
   </li>
   <li>
     <strong>Post count:</strong>
