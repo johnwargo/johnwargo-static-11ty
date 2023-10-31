@@ -47,6 +47,9 @@ if (theArgs.length > 1) {
 }
 
 if (updatePackage) {
+  // have to do this here, and this means two commits, because
+  // you can't do a version increment unless all local changes
+  // are committed to the repo
   await $`git add -A`;
   await $`git commit -m ${theArgs[0]}`;
   let msg = "Incrementing package version";
