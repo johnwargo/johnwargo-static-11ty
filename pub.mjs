@@ -46,6 +46,14 @@ if (theArgs.length > 1) {
   process.exit(1);
 }
 
+if (updatePackage) {
+  await $`git add -A`;
+  await $`git commit -m ${theArgs[0]}`;
+  let msg = "Incrementing package version";
+  console.log(`\n${msg}`);
+  await $`npm version patch`;
+}
+
 // throw in a blank line on the console
 console.log();
 await $`gen-build-info src/_data`;
@@ -60,12 +68,4 @@ if (updateIndex) {
 
 await $`git add -A`;
 await $`git commit -m ${theArgs[0]}`;
-
-if (updatePackage) {
-  let msg = "Incrementing package version";
-  console.log(`\n${msg}`);
-  await $`npm version patch`;
-  await $`git commit -m ${msg}`;
-}
-
 await $`git push`;
