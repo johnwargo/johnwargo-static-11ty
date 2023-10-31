@@ -1,5 +1,13 @@
 [
   {
+    "category": "Arduino",
+    "count": 11,
+    "description": "",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
     "category": "BlackBerry",
     "count": 69,
     "description": "Articles about the BlackBerry platform, BlackBerry development, and my time working at BlackBerry (Research in Motion).",

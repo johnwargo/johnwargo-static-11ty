@@ -4,7 +4,7 @@ description: I recently discovered Andy Doro's Word Clock and I love the project
 date: 2021-08-10
 headerImage: 
 categories: 
-  -Internet of Things (IoT)
+  - Internet of Things (IoT)
   - Arduino
 tags: post
 ---
