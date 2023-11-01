@@ -47,9 +47,10 @@ if (theArgs.length > 1) {
 }
 
 if (updatePackage) {
-  // have to do this here, and this means two commits, because
+  // have to do this here, otherwise the site will have the wrong
+  // build information in it. This means two commits, because
   // you can't do a version increment unless all local changes
-  // are committed to the repo
+  // are committed to the repo first. 
   await $`git add -A`;
   await $`git commit -m ${theArgs[0]}`;
   let msg = "Incrementing package version";
@@ -57,7 +58,6 @@ if (updatePackage) {
   await $`npm version patch`;
 }
 
-// throw in a blank line on the console
 console.log();
 await $`gen-build-info src/_data`;
 

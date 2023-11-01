@@ -14,7 +14,7 @@ I was looking at the site's [stats page](https://johnwargo.com/statistics/){targ
 
 {% image "src/images/2023/stats-page-post-dates-1.png", "This site's initial Stats Page Post Statistics", "image-full" %}
 
-So I Set out to fix the output so it looked exactly the way I wanted, which is:
+So I set out to fix the output so it looked exactly the way I wanted, which is:
 
 1. No time displayed
 2. The date formatted as text strings rather than numbers only
@@ -23,7 +23,7 @@ The site captures the first and last post dates through my [Eleventy Site Statis
 
 If I switched the plugin to store the date as a formatted string, formatted the way I wanted it, then I'd implement a breaking change in the plugin and force a particular date format on all other users of the plugin. I don't want to do either of those things.
 
-Next, I popped open the site's [`eleventy.config.json`](https://github.com/johnwargo/johnwargo-static-11ty/blob/main/eleventy.config.js){target="_blank"} file and decided to add a new filter for this behavior called `dateOnly`:
+Next, I popped open the site's [`eleventy.config.js`](https://github.com/johnwargo/johnwargo-static-11ty/blob/main/eleventy.config.js){target="_blank"} file and decided to add a new filter for this behavior called `dateOnly`:
 
 ```js
 eleventyConfig.addFilter("dateOnly", function (dateVal, locale = "en-us") {

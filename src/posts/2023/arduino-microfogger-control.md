@@ -11,6 +11,8 @@ categories:
   - Arduino
 ---
 
+**Note:** This post is just a starting point, I published a better version of this post's code in [A Better Arduino MicroFogger Controller](/posts/2023/arduino-microfogger-control-better/) and an even better (more better) version in [A Better Arduino MicroFogger Controller Redux](/posts/2023/arduino-microfogger-control-more-better/).
+
 For this year's Halloween project, I needed a battery powered smoke machine. I purchased a couple of different devices to try them out, and finally settled on the [Vosentech MicroFogger 5 Pro](https://vosentech.com/index.php/product/microfogger-5-pro/). 
 
 One of the reasons I selected the MicroFogger device is because they offer an add-on board that allows you to control the smoke machine from an Arduino (or similar) device: [MicroFogger control cable and breakout board](https://vosentech.com/index.php/product/microfogger-control-cable/). With this board, you can charge the MicroFogger battery and control smoke generation at the same time. 
