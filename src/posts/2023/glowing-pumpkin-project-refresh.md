@@ -7,8 +7,9 @@ headerImage:
 headerImageAltText: 
 headerImageAttribution: 
 categories:
-  - Internet of Things (IoT)
+  - Arduino
   - ESP32
+  - Internet of Things (IoT)
 ---
 
 Years ago I published a several Glowing Pumpkin projects: [Arduino Glowing Pumpkin](https://github.com/johnwargo/glowing-pumpkin-trinket-neopixel) and [Arduino Glowing Pumpkin (Adafruit Feather)](https://github.com/johnwargo/glowing-pumpkin-feather). Both projects used Arduino compatible devices plus either one of the Adafruit multi-NeoPixel devices or a NeoPixel shield. The shield approach was easy because I just had to solder some male and female headers to the boards and press them together into a unit. My first project used the NeoPixel Ring which required soldering wires and running them into an enclosure where the Arduino device resides. 
