@@ -61,6 +61,11 @@ module.exports = eleventyConfig => {
 		}
 	});
 
+	eleventyConfig.addCollection("projects", function (collectionAPI) {
+		// grab all the markdown files in the specified directory
+		return collectionAPI.getFilteredByGlob("./src/projects/*.md");
+	});
+
 	eleventyConfig.addShortcode("GetKeywords", function (categories) {
 		return categories.join(", ");
 	});
@@ -94,16 +99,6 @@ module.exports = eleventyConfig => {
 		}
 		return noContent;
 	}
-
-	// eleventyConfig.addCollection("categories", function (collectionApi) {
-	// 	let categories = new Set();
-	// 	let posts = collectionApi.getFilteredByTag('post');
-	// 	posts.forEach(p => {
-	// 		let cats = p.data.categories;
-	// 		cats.forEach(c => categories.add(c));
-	// 	});
-	// 	return Array.from(categories);
-	// });
 
 	// https://www.raymondcamden.com/2020/06/24/adding-algolia-search-to-eleventy-and-netlify
 	// Remove <code>.*</code>, remove HTML, then with plain text, limit to 5k chars
