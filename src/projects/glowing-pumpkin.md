@@ -18,4 +18,4 @@ So, with that in mind, here's a table that summarizes all of my posts and GitHub
 | Glowing Pumpkin Receiver (UDP) | With a web server onboard, I started thinking about how to control multiple devices simultaneously. I decided to use UDB broadcast from a mobile app to synchronize colors across multiple Glowing Pumpkin devices. | <ul><li>https://github.com/johnwargo/glowing-pumpkin-receiver-udp</li></ul> | Arduino UDP Broadcast Receiver <br /> https://johnwargo.com/posts/2023/arduino-udp-broadcast-receiver/ |
 | Glowing Pumpkin Sync (UDP) | After getting the mobile app working synchronizing colors, I built a version that used one of the Glowing Pumpkin devices to send commands to all of the other devices on the network (Using UDP broadcast messages from the Arduino) | <ul><li>https://github.com/johnwargo/glowing-pumpkin-udp-sync</li></ul> | Using UDP Broadcast to Synchronize Actions Across Arduino Devices <br /> https://johnwargo.com/posts/2023/arduino-udp-sender/ |
 
-I have no idea what I'm going to do next, stay tuned.
+I have no idea what I'm going to do next, stay tuned. 
