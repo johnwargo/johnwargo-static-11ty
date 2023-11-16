@@ -14,7 +14,7 @@ I'm working on a Halloween project that requires some external hardware componen
 
 For the dragon's eyes (inside the mailbox) I selected the [NeoPixel Ring - 12 x 5050 RGB LED with Integrated Drivers](https://www.adafruit.com/product/1643){target="_blank"}. The NeoPixel ring is awesome, but it has some flaws. Take a look at the image below.
 
-![NeoPixel Ring](https://cdn-shop.adafruit.com/970x728/1643-06.jpg)
+{% image "https://cdn-shop.adafruit.com/970x728/1643-06.jpg", "NeoPixel Ring", "image-full" %}
 
 From a mounting perspective it looks like the person who designed it didn't take into account how the ring would actually be used in a project outside of perhaps sewing it into a piece of clothing. 
 
@@ -22,7 +22,7 @@ The ring has three required connections, four if you want to connect the ring to
 
 If you think about how someone like me would use this device in a project, what I want is all of the connections grouped together one one side of the ring. If daisy changing multiple rings together, I'd want the three input connections on one side, and three output connections on the other side, just like they did for the [Breadboard-friendly RGB Smart NeoPixel](https://www.adafruit.com/product/1558){target="_blank"}. That just makes more sense.
 
-![Breadboard-friendly RGB Smart NeoPixel](https://cdn-shop.adafruit.com/970x728/1558-00.jpg)
+{% image "https://cdn-shop.adafruit.com/970x728/1558-00.jpg", "Breadboard-friendly RGB Smart NeoPixel", "image-full" %}
 
 With this approach, the wiring is clean, and you can use bundle of wires and keep them together instead of spidering the wires across the back of the ring.
 
@@ -38,7 +38,7 @@ A while back, I published an article here about the [DFRobot mmWave RADAR](https
 
 Here's a picture of the board:
 
-![DFRobot mmWave RADAR](https://image.dfrobot.com/image/data/SEN0395/SEN0395%20small%20size.png)
+{% image "https://image.dfrobot.com/image/data/SEN0395/SEN0395%20small%20size.png", "DFRobot mmWave RADAR", "image-full" %}
 
 Unlike the NeoPixel Ring, it does have mounting holes, but the mounting holes are:
 
