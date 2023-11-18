@@ -1,5 +1,13 @@
 [
   {
+    "category": "Arduino",
+    "count": 15,
+    "description": "",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
     "category": "BlackBerry",
     "count": 69,
     "description": "Articles about the BlackBerry platform, BlackBerry development, and my time working at BlackBerry (Research in Motion).",
@@ -17,7 +25,7 @@
   },
   {
     "category": "Developer Tools",
-    "count": 4,
+    "count": 5,
     "description": "Articles related to developer tools; ones I use or ones I'm evaluating.",
     "imageFilePath": "/images/headers/ashim-d-silva-Kw_zQBAChws-unsplash-cropped.jpg",
     "imageAltText": "An image of some tools",
@@ -33,7 +41,7 @@
   },
   {
     "category": "Eleventy",
-    "count": 21,
+    "count": 22,
     "description": "Articles related to the Eleventy Static Site Generator",
     "imageFilePath": "/images/headers/11ty.png",
     "imageAltText": "Eleventy project logo",
@@ -73,15 +81,31 @@
   },
   {
     "category": "Internet of Things (IoT)",
-    "count": 37,
+    "count": 43,
     "description": "Posts related to Microcontrollers, single board computers, and other stuff.",
     "imageFilePath": "/images/headers/robin-glauser-zP7X_B86xOg-unsplash-cropped.jpg",
     "imageAltText": "An image of an Arduino device and other Electric components",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@nahakiole?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Robin Glauser</a> on <a href=\"https://unsplash.com/photos/zP7X_B86xOg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
   },
   {
+    "category": "Microsoft Outlook",
+    "count": 1,
+    "description": "",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
+    "category": "Microsoft Windows",
+    "count": 4,
+    "description": "",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
     "category": "Miscellaneous",
-    "count": 140,
+    "count": 139,
     "description": "Posts that didn't fit in any other categories.",
     "imageFilePath": "/images/headers/marcos-paulo-prado-DwKo9S5sewA-unsplash-cropped.jpg",
     "imageAltText": "random bands of color",
@@ -113,7 +137,7 @@
   },
   {
     "category": "Stupid Developer Tricks",
-    "count": 9,
+    "count": 10,
     "description": "Posts calling out the results of stupid things software developers do.",
     "imageFilePath": "/images/headers/raspopova-marina-PHIJC0jpx9U-unsplash-cropped.jpg",
     "imageAltText": "An image containing a bunch of nuts",

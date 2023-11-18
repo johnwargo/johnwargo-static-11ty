@@ -3,7 +3,9 @@ title: Andy Doro Word Clock Update
 description: I recently discovered Andy Doro's Word Clock and I love the project. I built one for my self then started looking at the code for ways to improve it. I made a bunch of changes to the code and, once Andy added a license to the project repository, forked it and published my own version of it. 
 date: 2021-08-10
 headerImage: 
-categories: [Internet of Things (IoT)]
+categories: 
+  - Internet of Things (IoT)
+  - Arduino
 tags: post
 ---
 

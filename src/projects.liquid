@@ -1,0 +1,27 @@
+---
+title: Projects
+description: Lists special posts related to some big projects I've worked on.
+layout: generic
+headerImage: /images/headers/octavian-dan-b21Ty33CqVs-unsplash-cropped.jpg
+headerImageAltText: The word Projects fading into the distance
+headerImageAttribution: Photo by <a href="https://unsplash.com/@octadan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Octavian Dan</a> on <a href="https://unsplash.com/photos/projects-text-on-pink-and-orange-b21Ty33CqVs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+---
+
+{% comment %} Once I have a bunch of projects listed here, I should make this page like the Sites page with alternating graphics and text in columns {% endcomment %}
+Every so often, I write more than one post on a particular topic (like my series on my Arduino Glowing Pumpkin projects), so I created this area of the site to highlight those projects.
+
+{% assign projects = collections.projects | sort %}
+
+<ul class="posts">
+  {% for project in projects %}
+    <li>
+      <h4>
+        <a href="{{ "/" | htmlBaseUrl }}projects/{{ project.data.title | slugify }}/">{{ project.data.title }}</a>
+      </h4>      
+      {% if project.data.description.length > 0 %}
+        {{ project.data.description }}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

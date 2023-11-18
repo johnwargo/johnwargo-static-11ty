@@ -61,6 +61,11 @@ module.exports = eleventyConfig => {
 		}
 	});
 
+	eleventyConfig.addCollection("projects", function (collectionAPI) {
+		// grab all the markdown files in the specified directory
+		return collectionAPI.getFilteredByGlob("./src/projects/*.md");
+	});
+
 	eleventyConfig.addShortcode("GetKeywords", function (categories) {
 		return categories.join(", ");
 	});
@@ -95,16 +100,6 @@ module.exports = eleventyConfig => {
 		return noContent;
 	}
 
-	// eleventyConfig.addCollection("categories", function (collectionApi) {
-	// 	let categories = new Set();
-	// 	let posts = collectionApi.getFilteredByTag('post');
-	// 	posts.forEach(p => {
-	// 		let cats = p.data.categories;
-	// 		cats.forEach(c => categories.add(c));
-	// 	});
-	// 	return Array.from(categories);
-	// });
-
 	// https://www.raymondcamden.com/2020/06/24/adding-algolia-search-to-eleventy-and-netlify
 	// Remove <code>.*</code>, remove HTML, then with plain text, limit to 5k chars
 	eleventyConfig.addFilter('algExcerpt', function (text) {
@@ -116,12 +111,23 @@ module.exports = eleventyConfig => {
 		return text.substring(0, 5000);
 	});
 
+
+	eleventyConfig.addFilter("commaize", function (num, locale = "en-us") {
+		return num.toLocaleString(locale);
+	});
+
+	eleventyConfig.addFilter("dateOnly", function (dateVal, locale = "en-us") {
+		var theDate = new Date(dateVal);
+		const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+		return theDate.toLocaleDateString(locale, options);
+	});
+
 	eleventyConfig.addFilter('jsonify', function (variable) {
 		return JSON.stringify(variable);
 	});
 
-	eleventyConfig.addFilter("commaize", function (num, locale = "en-us") {
-		return num.toLocaleString(locale);
+	eleventyConfig.addFilter("truncate", function (num) {
+		return Math.trunc(num);
 	});
 
 	// https://www.lenesaile.com/en/blog/organizing-the-eleventy-config-file/
@@ -136,6 +142,7 @@ module.exports = eleventyConfig => {
 		"src/assets/js/",
 		"src/assets/sass/",
 		"src/assets/webfonts/",
+		"src/files/*",
 		// Images folders
 		"src/images/*",
 		"src/images/headers/*",

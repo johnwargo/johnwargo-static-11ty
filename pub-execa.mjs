@@ -1,20 +1,14 @@
 import { $ } from 'execa';
 
-async function gitUpdate(msg) {
-  await $$`git add -A`;
-  await $$`git commit -m ${msg}`;
-}
+const $$ = $({stdio: 'inherit'}); // Setup default output for the script
+const algoliaPrefix = 'JMW_';
 
-// Setup default output for the script
-const $$ = $({stdio: 'inherit'});
+var theArgs = process.argv.slice(2);
+var updatePackage = false;
+var updateIndex = false;
 
 console.log('\nStarting project publish...');
 console.log('-----------------------------');
-var theArgs = process.argv.slice(2);
-// process.exit(0);
-
-var updatePackage = false;
-var updateIndex = false;
 
 // Check the command line arguments to see if we should increment the version
 let idx = theArgs.indexOf('-i');
@@ -59,15 +53,16 @@ await $$`eleventy`;
 
 if (updateIndex) {
   console.log('\nUpdating Algolia Index');
-  await $$`npx algolia-idxup _site/algolia.json JMW_`;
+  await $$`npx algolia-idxup _site/algolia.json ${algoliaPrefix}`;
 }
 
-await gitUpdate(theArgs[0]);
+await $$`git add -A`;
+await $$`git commit -m ${theArgs[0]}`;
+
 
 if (updatePackage) {
   console.log('\nIncrementing package version');
   await $$`npm version patch`;
-  await gitUpdate('Incrementing package version');
 }
 
 await $$`git push`;

@@ -8,6 +8,7 @@ headerImageAltText:
 headerImageAttribution: 
 categories:
   - Internet of Things (IoT)
+  - Arduino
   - ESP32
 ---
 

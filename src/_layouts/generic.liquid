@@ -10,7 +10,7 @@ License: pixelarity.com/license
 --><html>
 
   <head>
-    <title>{{ siteTitle }}: {{ title }}</title>
+    <title>{{ title }} :: {{ siteTitle }}</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="generator" content="{{ eleventyinfo.generatorStr}}" />
@@ -20,7 +20,7 @@ License: pixelarity.com/license
     <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="{{ "/" | htmlBaseUrl }}assets/css/main.css" />
     <link rel="stylesheet" href="{{ "/" | htmlBaseUrl }}assets/css/scott.css" />
-    {% if page.url == '/sites/' %}
+    {% if page.url == '/sites/' or page.url == '/projects/' %}
       <link rel="stylesheet" href="{{ "/" | htmlBaseUrl }}assets/css/sites.css" />
     {% endif %}
     <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">

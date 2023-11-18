@@ -1,6 +1,6 @@
 ---
 title: All Things Open 2023 Speakers
-description: 
+description: Links for My ATO session presentation and example code discussed during the session.
 date: 2023-06-23
 showCoffee: False
 headerImage: 

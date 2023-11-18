@@ -7,8 +7,9 @@ headerImage:
 headerImageAltText: 
 headerImageAttribution: 
 categories:
-  - Internet of Things (IoT)
+  - Arduino
   - ESP32
+  - Internet of Things (IoT)
 ---
 
 I've been coding and building on the Arduino platform (both hardware and software) for a long time. Looking back on this site, I see that I created my [First Arduino Project](http://posts/2014/first-arduino-project/) back in 2014, almost 10 years ago.

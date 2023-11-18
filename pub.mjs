@@ -1,11 +1,6 @@
 #!/usr/bin/env zx
 
-async function gitUpdate(msg) {
-  await $`git add -A`;
-  await $`git commit -m ${msg}`;
-}
-
-console.log('\nStarting project publish...');
+const algoliaPrefix = 'JMW_';
 
 // With ZX the first three commands are the node executable, the zx executable, and the script name
 // [
@@ -14,9 +9,10 @@ console.log('\nStarting project publish...');
 //   'pub.mjs'
 // ]
 var theArgs = process.argv.slice(3);
-
 var updatePackage = false;
 var updateIndex = false;
+
+console.log('\nStarting project publish...');
 
 // Check the command line arguments to see if we should increment the version
 let idx = theArgs.indexOf('-i');
@@ -50,24 +46,29 @@ if (theArgs.length > 1) {
   process.exit(1);
 }
 
-// throw in a blank line on the console
-console.log();
-await $`gen-build-info src/_data`;
-// await $`11ty-cat-pages`;
-console.log('\nBuilding site');
-await $`eleventy`;
-
-if (updateIndex) {
-  console.log('\nUpdating Algolia Index');
-  await $`algolia-idxup _site/algolia.json JMW_ -f ../algolia-creds.json`;
-}
-
-await gitUpdate(theArgs[0]);
-
 if (updatePackage) {
+  // have to do this here, otherwise the site will have the wrong
+  // build information in it. This means two commits, because
+  // you can't do a version increment unless all local changes
+  // are committed to the repo first. 
+  await $`git add -A`;
+  await $`git commit -m ${theArgs[0]}`;
   let msg = "Incrementing package version";
   console.log(`\n${msg}`);
   await $`npm version patch`;
 }
 
+console.log();
+await $`gen-build-info src/_data`;
+
+console.log('\nBuilding site');
+await $`eleventy`;
+
+if (updateIndex) {
+  console.log('\nUpdating Algolia Index');
+  await $`algolia-idxup _site/algolia.json ${algoliaPrefix} -f ../algolia-creds.json`;
+}
+
+await $`git add -A`;
+await $`git commit -m ${theArgs[0]}`;
 await $`git push`;

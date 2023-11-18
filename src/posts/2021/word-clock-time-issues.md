@@ -3,7 +3,9 @@ title: Word Clock Time Issues
 description: The clock's been running in our guest bathroom for more than a year now and I recently noticed that the clock wasn't keeping time very well. It was about 20 minutes fast. The original project is based on the Adafruit Trinket device which doesn't have a Wi-Fi connection, so it can't get it's time through Network Time Protocol (NTP). Instead, sets the clock to the compile date/time for the currently running sketch.
 date: 2021-07-14
 headerImage: 
-categories: [Internet of Things (IoT)]
+categories:
+  - Internet of Things (IoT)
+  - Arduino
 tags: post
 ---
 

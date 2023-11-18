@@ -3,7 +3,9 @@ title: Arduino Twinkle Lights
 description: 
 date: 2017-01-14
 headerImage: 
-categories: [Internet of Things (IoT)]
+categories: 
+  - Internet of Things (IoT)
+  - Arduino
 tags: post
 ---
 
