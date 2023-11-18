@@ -11,17 +11,38 @@ headerImageAttribution: Photo by <a href="https://unsplash.com/@aquadrata?utm_so
 
 <p>View all posts for a particular category by clicking on one of the categories listed below. There are {{ categories.length }} categories on the site today.</p>
 
-<ul class="posts">
-  {% for catData in categories %}
-    <li>
-      <h4>
-        <a href="{{ "/" | htmlBaseUrl }}categories/{{ catData.category | slugify }}/">{{ catData.category }}</a>
-      </h4>
-      Count: {{ catData.count }}
-      {% if catData.description.length > 0 %}
-        |
-        {{ catData.description }}
-      {% endif %}
-    </li>
-  {% endfor %}
-</ul>
+{% if categories.length > 0 %}
+  <table>
+    {% tablerow catData in categories cols:2 %}
+       <h4>
+          <a href="{{ "/" | htmlBaseUrl }}categories/{{ catData.category | slugify }}/">{{ catData.category }}</a>
+        </h4>
+        Count: {{ catData.count }}
+        {% if catData.description.length > 0 %}
+          |
+          {{ catData.description }}
+        {% endif %}
+    {% endtablerow %}
+  </table>  
+{% else %}
+    <p>No category data to display</p>
+{% endif %} 
+
+{% comment %} {% if categories.length > 0 %}
+  <ul class="posts">
+    {% for catData in categories %}
+      <li>
+        <h4>
+          <a href="{{ "/" | htmlBaseUrl }}categories/{{ catData.category | slugify }}/">{{ catData.category }}</a>
+        </h4>
+        Count: {{ catData.count }}
+        {% if catData.description.length > 0 %}
+          |
+          {{ catData.description }}
+        {% endif %}
+      </li>
+    {% endfor %} 
+  </ul>
+{% else %}
+    <p>No category data to display</p>
+{% endif %}  {% endcomment %}

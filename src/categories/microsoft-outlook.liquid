@@ -8,7 +8,7 @@
     "before": function(paginationData, fullData){ let data = paginationData.filter((item) => item.data.categories.includes('Microsoft Outlook')); return Array.from(data).sort((a, b) => { return a.date < b.date ? 1 : -1; });}
   },
   "category": "Microsoft Outlook",
-  "description": "Posts related to Microcontrollers, single board computers, and other stuff.",
+  "description": "Articles related to Microsoft Outlook; either me musing about the app or the project's I built that integrate with it.",
   "eleventyComputed": {
     "title": "Category: {{ category }}"
   },

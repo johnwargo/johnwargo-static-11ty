@@ -10,6 +10,7 @@ categories:
   - Arduino
   - ESP32
   - Internet of Things (IoT)
+  - Flutter
 ---
 
 Back in August, I refreshed my Arduino Glowing Pumpkin project and published an article about it in [Glowing Pumpkin Project Refresh](/posts/2023/glowing-pumpkin-project-refresh/){target="_blank"}. A short while later, I figured out how to put a web server in it and control the LED matrix using a web application (desktop browser only) or a mobile app (smartphone or tablet) and wrote about it in [Arduino ESP32 Web Server on a Processor Core](/posts/2023/arduino-esp32-web-server-on-a-processor-core/){target="_blank"}. That was a lot of fun and I was glad I got those projects out there before Halloween. 

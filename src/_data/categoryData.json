@@ -2,7 +2,7 @@
   {
     "category": "Arduino",
     "count": 15,
-    "description": "",
+    "description": "Articles related to lessons learned or projects built using Arduino devices or Arduino-compatible devices.",
     "imageFilePath": "",
     "imageAltText": "",
     "imageAttribution": ""
@@ -34,14 +34,14 @@
   {
     "category": "ESP32",
     "count": 4,
-    "description": "",
+    "description": "Articles related to lessons learned or projects built using Espressif ESP32 devices.",
     "imageFilePath": "",
     "imageAltText": "",
     "imageAttribution": ""
   },
   {
     "category": "Eleventy",
-    "count": 22,
+    "count": 23,
     "description": "Articles related to the Eleventy Static Site Generator",
     "imageFilePath": "/images/headers/11ty.png",
     "imageAltText": "Eleventy project logo",
@@ -57,8 +57,8 @@
   },
   {
     "category": "Flutter",
-    "count": 1,
-    "description": "",
+    "count": 4,
+    "description": "Articles related to Flutter development; either lessons learned or projects I created.",
     "imageFilePath": "",
     "imageAltText": "",
     "imageAttribution": ""
@@ -81,8 +81,8 @@
   },
   {
     "category": "Internet of Things (IoT)",
-    "count": 43,
-    "description": "Posts related to Microcontrollers, single board computers, and other stuff.",
+    "count": 44,
+    "description": "Articles related to Microcontrollers, single board computers, and other stuff.",
     "imageFilePath": "/images/headers/robin-glauser-zP7X_B86xOg-unsplash-cropped.jpg",
     "imageAltText": "An image of an Arduino device and other Electric components",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@nahakiole?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Robin Glauser</a> on <a href=\"https://unsplash.com/photos/zP7X_B86xOg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
@@ -90,7 +90,7 @@
   {
     "category": "Microsoft Outlook",
     "count": 1,
-    "description": "",
+    "description": "Articles related to Microsoft Outlook; either me musing about the app or the project's I built that integrate with it.",
     "imageFilePath": "",
     "imageAltText": "",
     "imageAttribution": ""
@@ -98,7 +98,7 @@
   {
     "category": "Microsoft Windows",
     "count": 4,
-    "description": "",
+    "description": "Articles covering topics related Microsoft Windows or the Windows applications I created.",
     "imageFilePath": "",
     "imageAltText": "",
     "imageAttribution": ""
@@ -142,14 +142,6 @@
     "imageFilePath": "/images/headers/raspopova-marina-PHIJC0jpx9U-unsplash-cropped.jpg",
     "imageAltText": "An image containing a bunch of nuts",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@raspopovamarisha?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Raspopova Marina</a> on <a href=\"https://unsplash.com/photos/PHIJC0jpx9U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
-  },
-  {
-    "category": "Uncategorized",
-    "count": 1,
-    "description": "Articles without a category assigned.",
-    "imageFilePath": "/images/headers/anastasiia-chepinska-qZ6uvJHLHFc-unsplash-cropped.jpg",
-    "imageAltText": "An image of some doughnuts",
-    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@anastasiiachepinska?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Anastasiia Chepinska</a> on <a href=\"https://unsplash.com/photos/qZ6uvJHLHFc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
   },
   {
     "category": "Web Development",
