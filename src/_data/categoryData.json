@@ -88,8 +88,16 @@
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@nahakiole?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Robin Glauser</a> on <a href=\"https://unsplash.com/photos/zP7X_B86xOg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
   },
   {
+    "category": "Microsoft Outlook",
+    "count": 1,
+    "description": "",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
     "category": "Microsoft Windows",
-    "count": 3,
+    "count": 4,
     "description": "",
     "imageFilePath": "",
     "imageAltText": "",
