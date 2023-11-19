@@ -57,7 +57,7 @@
   },
   {
     "category": "Flutter",
-    "count": 4,
+    "count": 5,
     "description": "Articles related to Flutter development; either lessons learned or projects I created.",
     "imageFilePath": "",
     "imageAltText": "",
@@ -97,7 +97,7 @@
   },
   {
     "category": "Microsoft Windows",
-    "count": 4,
+    "count": 5,
     "description": "Articles covering topics related Microsoft Windows or the Windows applications I created.",
     "imageFilePath": "",
     "imageAltText": "",
