@@ -568,4 +568,4 @@ In this example, `uriParms` contains `colorIdx:count` (something like this `3:2`
 
 ## Conclusion
 
-I hope this helps you learn how to deploy a web server to an ESP32 device. In the next post I'll show you the different options connecting to the web server from devices and tools plus dig into the difficulties with some of the options. For example, it's impossible to connect to the web server using a mobile browser - I'll explain why in the next post and show you how to get around it.
+I hope this helps you learn how to deploy a web server to an ESP32 device. In [Accessing an Arduino ESP32 Web Server](/posts/2023/accessing-an-arduino-esp32-web-server/) I discuss the different options for connecting to the web server from devices and tools plus dig into the difficulties with some of the options. For example, it's impossible to connect to the web server using a mobile browser - I'll explain why in the next post and show you how to get around it.
