@@ -108,11 +108,50 @@ Using the Postman approach to test the MDWS API allowed me to ensure everything 
 
 ## Local Web Application
 
-In the previous article for this project, I described a web application I created to test the application. 
+In the previous article for this project, I described the [Pumpkin Controller web application](https://github.com/johnwargo/glowing-pumpkin-controller-html){target="_blank"} I created to control the ESP32 LED matrix through the MDWS. When you launch the web application locally (running on a web server on your local network - for example using the [http-server](https://www.npmjs.com/package/http-server){target="_blank"} module), browsers will warn you that the connection to the web server is not secure but lets you connect anyway. In the browser, the connection to the app shows as 'Not secure' as shown in the browser's address bar at the top of the following figure.
 
+{% image "src/images/2023/pumpkin-controller-browser-local.png", "Pumpkin Controller web app running in a browser locally", "image-full" %}
+
+The app works and everything's fine unless you try to access it from a different network; with the web app hosted from a different network (domain), the browser will load the app, but blocks access to the MDWS API. I describe how to make it work in the following section. 
 
 ## Hosted Web Application
 
+To make it easier for me (and you) to control the pumpkin LEDs using a browser, I published the [Pumpkin Controller web application](https://github.com/johnwargo/glowing-pumpkin-controller-html){target="_blank"} to [Netlify](https://www.netlify.com/){target="_blank"}; you can access it using [https://pumpkin-controller.netlify.app/](https://pumpkin-controller.netlify.app/){target="_blank"}.
+
+When you access the app from a browser, the connection to the web server shows Secure as highlighted in the following figure
+
+{% image "src/images/2023/pumpkin-controller-browser-remote-1.png", "Pumpkin Controller web app hosted remotely", "image-full" %}
+
+But, as soon as you try to connect to the MDWS, the app fails to connect. This happens because of the cross domain stuff I mentioned previously. The browser knows the web app is hosted/running on https://netlify.app and that site has a site certificate that matches the host domain (netlify.com), so it trusts the app. When you click one of the buttons on the app and the app's code makes an HTTP connection to the MDWS, the request fails for a couple of reasons:
+
+1. The MDWS doesn't have a site certificate
+2. The MDWS is a web server that's not on the same domain as the web app
+
+You can see the browser blocking the request in the browser console (through Developer Tools) as shown below:
+
+{% image "src/images/2023/pmpkn-ctrl-netlify-03.png", "Pumpkin Controller access error in browser tools", "image-full" %}
+
+Notice the console errors as well as the Not Secure warning in the address bar. 
+
+If the MDWS had a trusted site certificate then there's code in the web app that allows it to trust the other site (the MDWS). In this case, the MDWS doesn't have any site certificate and that's why it didn't work. Even if I generated and self-signed my own certificate and installed it in the MDWS, it still wouldn't work because the browser wouldn't trust the certificate since I signed it instead of a trusted signing authority. Like I said earlier, I could generate a trusted certificate and install it in the project but that was a lot more pain than I was willing to endure for this.
+
+Now, don't panic. Desktop browsers have a work-around that fixes this, mobile browsers don't! To fix this issue, click on the lock icon next to the site address in the browser address bar as shown in the figure, then select **Site Settings**.
+
+{% image "src/images/2023/pumpkin-controller-browser-remote-2.png", "Pumpkin Controller web app hosted remotely", "image-full" %}
+
+The browser opens a long page (truncated in the image below) that allows you to control security settings for this particular web page. Change that setting from `Blocked` to `Allow` then close the Settings page.
+
+{% image "src/images/2023/pumpkin-controller-browser-remote-3.png", "Pumpkin Controller web app hosted remotely", "image-full" %}
+
+To apply the settings change, reload the page as shown in the following figure:
+
+{% image "src/images/2023/pumpkin-controller-browser-remote-4.png", "Pumpkin Controller web app hosted remotely", "image-full" %}
+
+With the page reloaded, the app can access the MDWS successfully, but the address bar still shows the Not Secure warning and the console displays a warning as well as shown below:
+
+{% image "src/images/2023/pumpkin-controller-browser-remote-5.png", "Pumpkin Controller web app hosted remotely", "image-full" %}
+
+As much as the warnings are annoying, the app still works and you can control the ESP32 device's LED Matrix from a desktop or laptop browser. The next section describes the only way I could find to access the MDWS from a mobile device (smartphone or tablet).
 
 ## Mobile Application
 
