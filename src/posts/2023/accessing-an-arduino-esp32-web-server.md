@@ -116,13 +116,15 @@ The app works and everything's fine unless you try to access it from a different
 
 ## Hosted Web Application
 
-To make it easier for me (and you) to control the pumpkin LEDs using a browser, I published the [Pumpkin Controller web application](https://github.com/johnwargo/glowing-pumpkin-controller-html){target="_blank"} to [Netlify](https://www.netlify.com/){target="_blank"}; you can access it using [https://pumpkin-controller.netlify.app/](https://pumpkin-controller.netlify.app/){target="_blank"}.
+To make it easier for me (and you) to control the pumpkin LEDs using a browser, I published the [Pumpkin Controller web application](https://github.com/johnwargo/glowing-pumpkin-controller-html){target="_blank"} to [Netlify](https://www.netlify.com/){target="_blank"}; you can access it using [https://pumpkin-controller.netlify.app/](https://pumpkin-controller.netlify.app/){target="_blank"}.  The following two sections describe how it works in Desktop and Mobile browsers.
 
-When you access the app from a browser, the connection to the web server shows Secure as highlighted in the following figure
+### Desktop Browser
+
+When you access the Pumpkin Controller app from a desktop browser, the connection to the web server shows Secure as highlighted in the following figure (in this case Google Chrome):
 
 {% image "src/images/2023/pumpkin-controller-browser-remote-1.png", "Pumpkin Controller web app hosted remotely", "image-full" %}
 
-But, as soon as you try to connect to the MDWS, the app fails to connect. This happens because of the cross domain stuff I mentioned previously. The browser knows the web app is hosted/running on https://netlify.app and that site has a site certificate that matches the host domain (netlify.com), so it trusts the app. When you click one of the buttons on the app and the app's code makes an HTTP connection to the MDWS, the request fails for a couple of reasons:
+However, as soon as you try to connect to the MDWS, the app fails to connect. This happens because of the cross domain stuff I mentioned previously. The browser knows the web app is hosted/running on https://netlify.app and that site has a site certificate that matches the host domain (netlify.com), so it trusts the app. When you click one of the buttons on the app and the app's code makes an HTTP connection to the MDWS, the request fails for a couple of reasons:
 
 1. The MDWS doesn't have a site certificate
 2. The MDWS is a web server that's not on the same domain as the web app
@@ -151,7 +153,108 @@ With the page reloaded, the app can access the MDWS successfully, but the addres
 
 {% image "src/images/2023/pumpkin-controller-browser-remote-5.png", "Pumpkin Controller web app hosted remotely", "image-full" %}
 
-As much as the warnings are annoying, the app still works and you can control the ESP32 device's LED Matrix from a desktop or laptop browser. The next section describes the only way I could find to access the MDWS from a mobile device (smartphone or tablet).
+As much as the warnings are annoying, the app still works and you can control the ESP32 device's LED Matrix from a desktop or laptop browser. 
+
+### Mobile Browser
+
+On mobile browsers, the browser blocks access to "insecure content", there's no Site Settings option to allow an app to access the API on the MDWS. As soon as you try to access the web server (trying to open `http://pumpkin.local` for example), the browser displays the warning shown in the figure below. The user must accept the risk and choose to access the site. 
+
+{% image "src/images/2023/pumpkin-controller-browser-android-1.png", "Android Chrome Security Warning", "image-full" %}
+
+Next, the redirection page appears as expected.
+
+{% image "src/images/2023/pumpkin-controller-browser-android-2.png", "Pumpkin Controller Redirect page", "image-full" %}
+
+Finally, the browser opens the app from Netlify and displays the buttons as expected. However, as soon as the app tries to consume one of the APIs on the MDWS, it fails and there's nothing I could find to get around the error.
+
+{% image "src/images/2023/pumpkin-controller-browser-android-3.png", "Pumpkin Controller failure calling API", "image-full" %}
+
+Chrome on Android does have a Site Settings option as shown in the figure below, but there's no Insecure Content option to enable like there was in the desktop version of Chrome.
+
+{% image "src/images/2023/pumpkin-controller-browser-android-4.png", "Pumpkin Controller failure calling API", "image-full" %}
+
+I tried this process on an iOS device with the same results.
+
+Now, I could fire up Chrome on my desktop PC and view the console on the app running in Chrome on Android, but all I'd see is similar errors like the ones I saw on the desktop, the only difference here is I don't have any way to configure the browser to accept the API content from the MDWS
 
 ## Mobile Application
 
+Mobile applications don't have an issue connecting to the MDWS. To prove this, I created a Flutter version of the Pumpkin Controller app; you can find it here: [https://github.com/fumblystuff/pumpkin-controller-app-flutter](https://github.com/fumblystuff/pumpkin-controller-app-flutter){target="_blank"}. 
+
+I won't go very deep into the code since you can study it on GitHub or clone the repository and run it in Android Studio (I only tested the app on Android). Essentially, when you click one of the buttons, the app builds a command string that looks something like this:
+
+```
+http://$hostAddress/$cmdSnippet
+```
+
+Where `hostAddress` is the network address for the MDWS (IP address or DNS name) and `cmdSnippet` is the command to send to the MDWS. For example, to trigger the lightning effect on the device, send `lightning`. To set all LEDs to purple on the LED matrix, send `color:3`. 
+
+```dart
+void execCmd(BuildContext context, String cmdSnippet) async {
+  if (config.connectionMethod == ConnectionMethod.http) {
+    String hostAddress = config.hostAddress;
+    if (hostAddress.isEmpty) {
+      alerts.alertRaisedWait(
+          context: context,
+          title: configErrorStr,
+          message: 'You must enter an IP Address for the remote device'
+              'before you can send commands to it.\nOpen the '
+              'Settings page (click the gear icon in the upper right'
+              'corner of the app) and enter the IP address.');
+      return;
+    }
+    sendHTTPCommand(context, 'http://$hostAddress/$cmdSnippet');
+  } 
+}
+```
+
+The code first checks to see that the app has an address for the remote device then calls `sendHTTPCommand` to call the remote API. The app uses the Dart [Dio](https://pub.dev/packages/dio){target="_blank"} library to manage HTTP calls and the library handles all the stuff related to [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS){target="_blank"} that the app has to manage to consume the API from the insecure device.
+
+```dart
+void sendHTTPCommand(BuildContext context, String cmdStr) async {
+  Response response;
+  log.info('Connecting to $cmdStr');
+  try {
+    EasyLoading.show(status: 'Executing...');
+    response = await dio.get(cmdStr);
+    EasyLoading.dismiss();
+    if (response.statusCode == 200) {
+      log.info('Success');
+      Fluttertoast.showToast(
+          msg: 'Success',
+          toastLength: Toast.LENGTH_SHORT,
+          gravity: ToastGravity.CENTER,
+          timeInSecForIosWeb: 1,
+          fontSize: 16.0);
+    } else {
+      log.info('Failure ${response.statusMessage}');
+      if (!context.mounted) return;
+      alerts.alertRaisedWait(
+          context: context,
+          title: 'Error',
+          message: 'Remote command execution failed (unknown error)');
+    }
+  } on DioException catch (e) {
+    EasyLoading.dismiss();
+    if (e.response != null) {
+      print(e.response?.data);
+      print(e.response?.headers);
+      if (!context.mounted) return;
+      alerts.alertRaisedWait(
+          context: context,
+          title: 'Execution Error',
+          message: e.response!.statusMessage ?? 'Failure');
+    } else {
+      // Something happened in setting up or sending the request that triggered an Error
+      log.info(e.requestOptions);
+      log.info(e.message);
+    }
+  }
+}
+```
+
+The Dio library is compatible with iOS, so the app should work on iPhone devices but I've not tested it. 
+
+To use the app, you must install a Flutter development environment to build and deploy the app to a mobile device; follow the instructions on the [Flutter](https://flutter.dev/){target="_blank"} Developer page.  
+
+**Note:** If enough people are interested, I'll publish the app to the Android App store and test it on iOS as well; just let me know.
