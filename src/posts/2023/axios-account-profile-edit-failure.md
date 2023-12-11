@@ -11,7 +11,7 @@ categories:
   - Stupid Developer Tricks
 ---
 
-I can't think of any worse way to implement account profile editing than Axios does in their site today:
+I can't think of any worse way to implement account profile editing than Axios does in their site today.
 
 {% image "src/images/2023/axios-profile-edit.png", "Axios Account Profile Edit", "image-full" %}
 
