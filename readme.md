@@ -36,6 +36,9 @@ The following lists the tools I created to help me better migrate the site from 
 * [Eleventy New Post](https://www.npmjs.com/package/eleventy-new-post)
 * [Algolia Index Update](https://www.npmjs.com/package/algolia-index-update)
 * [YAML Add Property](https://www.npmjs.com/package/yaml-add-property)
+
+Here are some tools I used to help me manage and/or create the site.
+
 * [TinyPNG](https://tinypng.com/)
 * [pack11ty](https://github.com/nhoizey/pack11ty)
 * []()
