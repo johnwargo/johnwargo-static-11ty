@@ -1,6 +1,6 @@
 ---
 title: Arduino UDP Broadcast Receiver
-description: I created an Arduino sketch that implements an UDP broadcast receiver which allows me to control multiple Arduino devices simultaneously.
+description: I created an Arduino sketch that implements an UDP broadcast receiver which allows me to control multiple Arduino devices simultaneously from a mobile app.
 date: 2023-11-02
 showCoffee: true
 headerImage: 

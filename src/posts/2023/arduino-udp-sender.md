@@ -1,6 +1,6 @@
 ---
 title: Using UDP Broadcast to Synchronize Actions Across Arduino Devices
-description: 
+description: Describes a way to synchronize actions or activities across multiple Arduino devices using UDP (broadcast and receiver).
 date: 2023-11-05
 showCoffee: true
 headerImage: 
@@ -8,6 +8,7 @@ headerImageAltText:
 headerImageAttribution: 
 categories:
   - Arduino
+  - ESP32
   - Internet of Things (IoT)
 ---
 
