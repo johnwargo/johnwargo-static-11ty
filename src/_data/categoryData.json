@@ -33,7 +33,7 @@
   },
   {
     "category": "ESP32",
-    "count": 5,
+    "count": 6,
     "description": "Articles related to lessons learned or projects built using Espressif ESP32 devices.",
     "imageFilePath": "",
     "imageAltText": "",
@@ -126,6 +126,14 @@
     "imageFilePath": "/images/headers/ilgmyzin-Xe21OFRpqvk-unsplash-cropped.jpg",
     "imageAltText": "Mobile Apps",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@ilgmyzin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">ilgmyzin</a> on <a href=\"https://unsplash.com/photos/Xe21OFRpqvk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
+  },
+  {
+    "category": "Node.js",
+    "count": 1,
+    "description": "",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
   },
   {
     "category": "Static Site Generators",
