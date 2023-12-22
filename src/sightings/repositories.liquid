@@ -1,0 +1,23 @@
+---
+title: Repositories
+description: Displays a list of all GitHub repositories in my personal GitHUb account ([@johnwargo](https://github.com/johnwargo?tab=repositories){target=\"_blank\"}).
+layout: generic
+headerImage: 
+headerImageAltText:
+headerImageAttribution: 
+---
+
+<p>This page displays all of the repositories in my personal GitHub account <a href="https://github.com/johnwargo?tab=repositories" target="_blank">@johnwargo</a>. Click the link to open the repository.</p>
+
+{% if repos.length > 0 %}
+  <table>
+    {% tablerow repo in repos cols:2 %}
+      <a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a>
+      {% if repo.description.length > 0 %}
+        {{ repo.description }}
+      {% endif %}       
+    {% endtablerow %}
+  </table>  
+{% else %}
+    <p>No repository data to display</p>
+{% endif %} 
