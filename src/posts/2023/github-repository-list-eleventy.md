@@ -12,7 +12,7 @@ categories:
 
 While working out at the gym the other day, I decided to add a list of all of my public GitHub repositories to this site; not because the site needs it, but because I wanted to learn how to do it. 
 
-I quickly found a really easy way to do it, GitHub has a REST API I can access directly (without having to provide any authentication or API key) by invoking this URL: [https://api.github.com/users/<<github-user-account>>/repos](https://api.github.com/users/johnwargo/repos){target="_blank"}. Replacing, of course, the <<github-user-account>> with the user's account - which in my case is `johnwargo`:
+I quickly found a really easy way to do it, GitHub has a REST API I can access directly (without having to provide any authentication or API key) by invoking this URL: [https://api.github.com/users/github-user-account/repos](https://api.github.com/users/johnwargo/repos){target="_blank"}. Replacing, of course, the `github-user-account`` with the user's account - which in my case is `johnwargo`:
 
 ```text
 https://api.github.com/users/johnwargo/repos
