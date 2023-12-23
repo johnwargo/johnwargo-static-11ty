@@ -36,7 +36,7 @@ Repeating the process until the API returns an empty data set.
 
 This is unauthorized access, so no login required; it only retrieves the public repositories which is exactly what I wanted for the site.
 
-**Note:** GitHub rate limits Unauthorized API access to 60 requests per hour. That limit doesn't exist for authenticated requests, so I'll figure that out and publish an update.
+**Note:** GitHub rate limits Unauthorized API access to 60 requests per hour. That limit doesn't exist for authenticated requests; you can read about that here: [Adding a GitHub Repository List to an Eleventy Site (part 2)](/posts/2023/github-repository-list-eleventy-2/).
 
 To access the repository list using Eleventy, I created a file called `repos.js` and placed it in the site's `_data` folder (`/src/_data/repos.js`). Inside the file, I added the following code:
 
