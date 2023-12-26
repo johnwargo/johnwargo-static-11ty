@@ -10,7 +10,7 @@ categories:
   - Developer Tools
 ---
 
-At the All Things Open conference this week, I presented a session entitled Write Shell Scripts Using JavaScript and zx. The session introduced Google’s zx (https://github.com/google/zx) project and another project called Execa (https://github.com/sindresorhus/execa) and highlighted examples of each. The tools are pretty cool and help developers in some very specific use cases. This post covers the zx specific content from the session; I’ll publish the Execa content from the presentation in a separate post.
+At the All Things Open conference this week, I presented a session entitled Write Shell Scripts Using JavaScript and zx. The session introduced Google’s zx (https://github.com/google/zx) project and another project called execa (https://github.com/sindresorhus/execa) and highlighted examples of each. The tools are pretty cool and help developers in some very specific use cases. This post covers the zx specific content from the session; I’ll publish the execa content from the presentation in a [separate post](/posts/2023/execa-node-process-spawning){target="_blank"}.
 
 Zx provides JavaScript developers with a simplified interface around Node’s `child_process` module, delivering a quick, easy and simple way to spawn external processes from a Node application. 
 
