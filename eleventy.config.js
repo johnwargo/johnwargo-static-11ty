@@ -108,7 +108,6 @@ module.exports = eleventyConfig => {
 		return text.substring(0, 5000);
 	});
 
-
 	eleventyConfig.addFilter("commaize", function (num, locale = "en-us") {
 		return num.toLocaleString(locale);
 	});
