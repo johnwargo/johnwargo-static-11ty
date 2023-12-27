@@ -1,5 +1,5 @@
 ---
-title: Eleventy Plugin File List
+title: Eleventy File List Plugin
 description: Describes an Eleventy plugin I created that enables a site to display a list of downloadable files.
 date: 2023-12-27
 showCoffee: true
