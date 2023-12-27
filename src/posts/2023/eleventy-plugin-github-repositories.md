@@ -1,5 +1,5 @@
 ---
-title: Eleventy Plugin GitHub Repositories
+title: Eleventy GitHub Repositories Plugin 
 description: 
 date: 2023-12-27
 showCoffee: true
