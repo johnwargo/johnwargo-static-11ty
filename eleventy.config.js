@@ -1,6 +1,7 @@
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
-const { generateCategoryPages } = require('eleventy-generate-category-pages');
+const generateCategoryPages = require('eleventy-generate-category-pages');
 const fileList = require('eleventy-plugin-file-list');
+const githubRepos = require('eleventy-plugin-github-repos');
 // https://github.com/11ty/eleventy/issues/2301
 const markdownIt = require('markdown-it');
 const markdownItAttrs = require('markdown-it-attrs');
@@ -28,6 +29,10 @@ module.exports = eleventyConfig => {
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(embedYouTube);
 	eleventyConfig.addPlugin(fileList, { targetFolder: 'src/files' });
+
+	const apiKey = process.env.GITHUB_API_KEY;
+	eleventyConfig.addPlugin(githubRepos, { userAccount: 'johnwargo', apiKey});
+	
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(syntaxHighlight);
