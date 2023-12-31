@@ -12,7 +12,7 @@ categories:
 
 This was a big year for this site:
 
-* I published 67 posts, the second most I published here in 14 years.
+* I published 67 posts (the second most posts I published here in 14 years).
 * Last year I only published 5 posts.
 * The previous 5 years I published 50 posts combined.
 
