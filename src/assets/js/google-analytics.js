@@ -14,8 +14,10 @@ const endpoint = 'https://us-east1-jmw-static-site.cloudfunctions.net/getAnalyti
   var analyticsContent = document.getElementById('analyticsData');
   var content = '<p>No data available or service unavailable</p>';
 
+  const headers = new Headers();
+  headers.append('Content-Type', 'application/json');
   try {
-    const response = await fetch(endpoint, { 'Content-Type': 'application/json', mode: 'cors' });
+    const response = await fetch(endpoint, { headers, mode: 'cors' });
     if (response.status == 200) {
       const res = await response.json();
       if (res.metrics) {
