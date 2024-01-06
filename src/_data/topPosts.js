@@ -2,11 +2,15 @@
 
 module.exports = async function () {
   const feedURL = 'https://us-east1-jmw-static-site.cloudfunctions.net/getTopPosts';
+  const postFix = ':: John M. Wargo';
 
   const response = await fetch(feedURL, { mode: 'cors' });
   if (response.status == 200) {
     const data = await response.json();
-    console.dir(data.articles);
+    // strip the ':: John M. Wargo' from the titles
+    data.articles.forEach(article => {
+      article.title = article.title.replace(postFix, '');
+    });
     return data.articles;
   } else {
     console.dir(response);
