@@ -41,7 +41,7 @@
   },
   {
     "category": "Eleventy",
-    "count": 29,
+    "count": 30,
     "description": "Articles related to the Eleventy Static Site Generator",
     "imageFilePath": "/images/headers/11ty.png",
     "imageAltText": "Eleventy project logo",
@@ -153,7 +153,7 @@
   },
   {
     "category": "Web Development",
-    "count": 6,
+    "count": 7,
     "description": "Posts related to web development topics, development tools, strategies, etc.",
     "imageFilePath": "/images/headers/ferenc-almasi-eYpcLDXHVb0-unsplash-cropped.jpg",
     "imageAltText": "An image of a code editor displaying HTML code",
