@@ -9,13 +9,14 @@
  */
 
 const endpoint = 'https://us-east1-jmw-static-site.cloudfunctions.net/getAnalyticsMetrics';
+const propertyId = '304078452';
 
 (async function () {
   var analyticsContent = document.getElementById('analyticsData');
   var content = '<p>No data available or service unavailable</p>';
 
   try {
-    const response = await fetch(endpoint, { mode: 'cors' });
+    const response = await fetch(endpoint + `?propertyId=${propertyId}`, { mode: 'cors' });
     console.dir(response);
     if (response.status == 200) {
       const res = await response.json();
