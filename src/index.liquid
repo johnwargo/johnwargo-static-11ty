@@ -147,9 +147,8 @@ layout: home
     <h3>
       <a href="/popular">Popular Posts</a>
     </h3>
-    <p>Length: {{ topPosts.length }} </p>
     <ul>
-      {% for item in topPosts limit: 10 %}
+      {% for item in topPosts %}
         <li>
           <a href="{{ item.url }}">
             {{ item.title }}</a>
