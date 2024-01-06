@@ -4,9 +4,7 @@
  * of books and converts it to HTML to display on the page.
  */
 
-// https://www.raymondcamden.com/2023/06/08/using-goodreads-data-in-eleventy-update
-// const feedURL = 'https://johnwargo.com/.netlify/functions/getfeed';
-const feedURL = '/.netlify/functions/getfeed';
+const feedURL = 'https://us-east1-jmw-static-site.cloudfunctions.net/getReadingList';
 
 (async function () {
   let bookDiv = document.getElementById('readingList');

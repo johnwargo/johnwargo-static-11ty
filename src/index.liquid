@@ -10,10 +10,7 @@ layout: home
 
 {% assign latest_posts = collections.post | reverse %}
 
-<!-- Main -->
 <section class="main">
-
-  <!-- Blurb -->
   <section>
     <h1>Tech Tidbits & More</h1>
     <p>Welcome to the Internet Home of John M. Wargo; I created this site back in 2009 so I could post articles about things that interested me. Herein you’ll find articles on a lot of different topic areas: Mobile development, Web development, Internet of Things (IoT), and a lot more. Every time I learn some new technology or complete some cool or interesting development or IoT project I publish an article here.</p>
@@ -148,10 +145,11 @@ layout: home
   </section>
   <section>
     <h3>
-      <a href="/popular">Most Viewed Posts</a>
+      <a href="/popular">Popular Posts</a>
     </h3>
+    <p>Length: {{ topPosts.length }} </p>
     <ul>
-      {% for item in popularArticles limit: 10 %}
+      {% for item in topPosts limit: 10 %}
         <li>
           <a href="{{ item.url }}">
             {{ item.title }}</a>

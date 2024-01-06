@@ -2,10 +2,10 @@
  * Google Analytics Client Side Library
  * Added July, 2023
  * 
- * This library loads on the statistics page only and calls the Netlify
- * `getanalytics` function to get the latest metrics from Google Analytics.
- * Once it receives data from the function, it creates a table and displays
- * it on the page.
+ * This library loads on the statistics page only and calls the Functions 
+ * project I have running on GCP. The called function gets the latest metrics
+ * from Google Analytics. Once it receives data from the function, it 
+ * creates a table and displays it on the page. Easy Peasy
  */
 
 const endpoint = 'https://us-east1-jmw-static-site.cloudfunctions.net/getAnalyticsMetrics';
@@ -14,10 +14,9 @@ const endpoint = 'https://us-east1-jmw-static-site.cloudfunctions.net/getAnalyti
   var analyticsContent = document.getElementById('analyticsData');
   var content = '<p>No data available or service unavailable</p>';
 
-  const headers = new Headers();
-  headers.append('Content-Type', 'application/json');
   try {
-    const response = await fetch(endpoint, { headers, mode: 'cors' });
+    const response = await fetch(endpoint, { mode: 'cors' });
+    console.dir(response);
     if (response.status == 200) {
       const res = await response.json();
       if (res.metrics) {
@@ -30,11 +29,11 @@ const endpoint = 'https://us-east1-jmw-static-site.cloudfunctions.net/getAnalyti
     } else {
       var msg = `Error: ${response.status} ${response.statusText}`;
       console.error(msg);
-      content += `<p>(${msg})</p>`;
+      content += `<p>Error: ${msg}</p>`;
     }
   } catch (e) {
     console.error(e);
-    content += `<p>(${e})</p>`;
+    content += `<p>Error: ${e}</p>`;
   }
   analyticsContent.innerHTML = content;
 })();
