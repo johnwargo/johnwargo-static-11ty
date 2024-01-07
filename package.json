@@ -1,6 +1,6 @@
 {
   "name": "johnwargo",
-  "version": "0.1.43",
+  "version": "0.1.44",
   "description": "The static site generated version of [johnwargo.com](https://johnwargo.com), implemented using [Eleventy](https://www.11ty.dev/).",
   "author": "John M. Wargo",
   "license": "MIT",
