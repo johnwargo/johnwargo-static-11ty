@@ -16,6 +16,14 @@
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@djyde?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Randy Lu</a> on <a href=\"https://unsplash.com/photos/FPmk3wxfu40?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
   },
   {
+    "category": "Cloud Development",
+    "count": 2,
+    "description": "",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
     "category": "Content Management Systems",
     "count": 16,
     "description": "Articles related to my usage and experimentation with Content Management Systems (CMS).",
@@ -129,7 +137,7 @@
   },
   {
     "category": "Node.js",
-    "count": 3,
+    "count": 4,
     "description": "",
     "imageFilePath": "",
     "imageAltText": "",
