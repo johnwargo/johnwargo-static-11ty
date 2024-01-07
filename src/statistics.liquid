@@ -4,7 +4,10 @@ title: Site Statistics
 ---
 
 {% if collections.postStats.postCount > 0 %}
+{% assign yearsMinusOne = collections.postStats.years.length | minus: 1  %}  
+{% assign avgPostsPerYearYears = collections.postStats.years| slice: 0, yearsMinusOne %}
 
+<p>{{ yearsMinusOne }}</p>
 <p>Statistics generated using my
   <a href="https://github.com/johnwargo/eleventy-plugin-post-stats" target="_blank">Eleventy Plugin Post Statistics</a>
   plugin.
@@ -142,7 +145,8 @@ title: Site Statistics
       {
         type: 'line',
         name: 'Site Average Posts/Year',
-        data: [{% for year in collections.postStats.years %}{{ collections.postStats.avgPostsPerYear | commaize }}{%- unless forloop.last -%}, {% endunless %}{% endfor %}] 
+        // Doesn't include the last year (because it's not complete)
+        data: [{% for year in avgPostsPerYearYears %}{{ collections.postStats.avgPostsPerYear | commaize }}{%- unless forloop.last -%}, {% endunless %}{% endfor %}] 
       }
     ],
     dataLabels: { enabled: true, enabledOnSeries: [0, 1] },
