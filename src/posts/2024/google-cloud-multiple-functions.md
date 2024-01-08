@@ -72,7 +72,7 @@ My site uses three cloud functions, two that deal with Google Analytics and anot
 
 I followed the process to create each of the functions in the Google Cloud console. With the new functions deployed, I downloaded the source code zip files for each function into a single folder. From here, I extracted each function's code into a separate folder with the function name as the folder name.  
 
-windows-file-explorer-gcp-functions.png
+{% image "src/images/2024/windows-file-explorer-gcp-functions.png", "Windows File Explorer showing the project folder", "image-full" %}
 
 I made the whole folder (with each of the Functions folders) into a git repository and published the project to GitHub. In Visual Studio code, I navigate to each folder using the terminal to code, test, and deploy each function individually. This is slightly annoying, but at least I have everything in one GitHub project so I can easily work on my functions project on different development systems. 
 
@@ -184,7 +184,8 @@ zx deploy.mjs
 
 Here's a screenshot of the process in action:
 
-windows-terminal-gcp-functions-deploy.png
+{% image "src/images/2024/windows-terminal-gcp-functions-deploy.png", "A terminal window executing the deploy script", "image-full" %}
+
 
 The only issue I had was that the deployment command for each individual function worked perfectly from the command line. When I deployed using the exact same command from my zx script on Windows, the `gcloud` CLI couldn't find its installed version of Python. To solve this, I added a  `CLOUDSDK_PYTHON` environment variable pointing to the python executable and it resolved the issue.
 
