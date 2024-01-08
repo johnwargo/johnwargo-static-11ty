@@ -21,7 +21,7 @@ The first Cloud Functions environment I worked in was Firebase and Firebase take
 
 You can have one big JavaScript or TypeScript file with multiple functions in it, or you can create multiple code files then expose all of the functions in a single project.  Here's an example from part of a Firebase Functions project I created years ago:
 
-```typeScript
+```TypeScript
 /*************************************************
  * Copyright John M. Wargo - All Rights Reserved
  * Proprietary and confidential
