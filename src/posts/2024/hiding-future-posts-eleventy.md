@@ -99,9 +99,9 @@ module.exports = function (eleventyConfig) {
 }
 ```
 
-The math works, Eleventy generates any post published before or on the build date, for any future posts nothing happens and they're omitted from the site.
+The math works, Eleventy generates any post published before or on the build date, for any future posts nothing happens and they're omitted from the site. When the publish date comes around, you simply perform a build and you're all set. With the Base Blog's drafts capability, you must change the state of the post (remove the drafts status) then publish the site.
 
-The Eleventy Base Blog uses the execution mode to control whether to generate drafts or not. Using the code below generates drafts when in development mode but omits them during the build process only (no `serve). 
+The Eleventy Base Blog uses the execution mode to control whether to generate drafts or not. Using the code below generates drafts when in development mode but omits them during the build process only (no `serve`). 
 
 ```js
 if(runMode === "serve" || runMode === "watch") {
@@ -109,7 +109,7 @@ if(runMode === "serve" || runMode === "watch") {
 }
 ```
 
-This allows you to view drafts while you're editing them. I could have adopted this approach here as well, but for my particular use case, I don't need to see posts in the site as I write them. 
+This allows you to view drafts while you're editing them. I could have adopted this approach here as well, but for my particular use case, I don't need to see posts in the site as I write them. I can always test them locally before I publish them on the target date.
 
 ## Plugin
 
