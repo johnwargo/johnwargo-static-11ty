@@ -14,7 +14,7 @@
   "scripts": {
     "clean": "rimraf _site",
     "build:eleventy": "eleventy",
-    "watch:eleventy": "eleventy --serve",
+    "watch:eleventy": "eleventy --serve --quiet",
     "start": "npm-run-all --sequential clean watch:eleventy",
     "build": "npm-run-all --sequential clean build:eleventy"
   },
