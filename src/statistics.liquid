@@ -7,7 +7,6 @@ title: Site Statistics
 {% assign yearsMinusOne = collections.postStats.years.length | minus: 1  %}  
 {% assign avgPostsPerYearYears = collections.postStats.years| slice: 0, yearsMinusOne %}
 
-<p>{{ yearsMinusOne }}</p>
 <p>Statistics generated using my
   <a href="https://github.com/johnwargo/eleventy-plugin-post-stats" target="_blank">Eleventy Plugin Post Statistics</a>
   plugin.
