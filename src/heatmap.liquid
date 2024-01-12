@@ -1,0 +1,40 @@
+---
+layout: generic
+title: Heatmap
+---
+
+<p>Statistics generated using my
+  <a href="https://github.com/johnwargo/eleventy-plugin-post-stats" target="_blank">Eleventy Plugin Post Statistics</a>
+  plugin.
+</p>
+
+<div id="heatmap"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script>
+  function generateData(count, yrange) {
+    var i = 0;
+    var series = [];
+    while (i < count) {
+      var x = (i + 1).toString();
+      var y =
+      Math.floor(Math.random() * (yrange.max - yrange.min + 1)) + yrange.min;
+      series.push({x: x,y: y});
+      i++;
+    }
+    return series;
+  }
+
+  var options = {
+      series: [{
+      name: '2024',
+      data: generateData(12, {min: 0, max: 30})
+    }],
+    chart: {height: 350, type: 'heatmap'},
+    dataLabels: {enabled: false},
+    colors: ["#008FFB"],
+    title: {text: 'Posts Per Month'},
+  };
+  var chart = new ApexCharts(document.querySelector("#heatmap"), options);
+  chart.render();
+</script>
