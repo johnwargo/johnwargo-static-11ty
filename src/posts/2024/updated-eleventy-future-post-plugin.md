@@ -22,7 +22,7 @@ var isServing: boolean = false;
 
 Next, as the Eleventy Base Blog does, I added a `before` event handler where the plugin can access the `runMode` and set the `isServing` variable. This allows that check between the two options (`serve` and `watch` as shown below) to happen only once, at the start of the Eleventy build process, and should help improve overall performance. 
 
-```TypeScript
+```typescript
 eleventyConfig.on("eleventy.before", ({ runMode }: { runMode: string }) => {
 	// initialize the `isServing` flag once before the build starts
 	isServing = runMode === "serve" || runMode === "watch";
@@ -32,7 +32,7 @@ eleventyConfig.on("eleventy.before", ({ runMode }: { runMode: string }) => {
 
 Finally, I updated the `addGlobalData` method to skip the date check when `isServing` is true:
 
-```TypeScript
+```typescript
 eleventyConfig.addGlobalData("eleventyComputed.eleventyExcludeFromCollections", () => {
 	return (data: any) => {
 		// If we're serving the site, don't exclude anything
