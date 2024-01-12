@@ -1,0 +1,19 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Concord",
+			"country": {
+				"code": "US",
+				"name": "United States"
+			},
+			"subdivision": {
+				"code": "NC",
+				"name": "North Carolina"
+			},
+			"timezone": "America/New_York",
+			"latitude": 35.4155,
+			"longitude": -80.6143
+		},
+		"timestamp": 1695489258028
+	}
+}

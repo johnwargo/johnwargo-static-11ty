@@ -7,7 +7,3 @@ px-faction-html/
 
 # Files
 .DS_Store
-netlify-secrets.txt
-
-# Local Netlify folder
-.netlify
