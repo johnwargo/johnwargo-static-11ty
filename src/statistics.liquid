@@ -7,114 +7,114 @@ title: Site Statistics
 {% assign yearsMinusOne = collections.postStats.years.length | minus: 1  %}  
 {% assign avgPostsPerYearYears = collections.postStats.years| slice: 0, yearsMinusOne %}
 
-<p>Statistics generated using my
-  <a href="https://github.com/johnwargo/eleventy-plugin-post-stats" target="_blank">Eleventy Plugin Post Statistics</a>
-  plugin.
-</p>
+  <p>Statistics generated using my
+    <a href="https://github.com/johnwargo/eleventy-plugin-post-stats" target="_blank">Eleventy Plugin Post Statistics</a>
+    plugin.
+  </p>
 
-<h2>Global Statistics</h2>
-<ul>
-  <li>
-    <strong>Deployments:</strong>
-    {{ buildinfo.buildCounter | commaize }}
-  </li>
-  <li>
-    <strong>Build Date:</strong>
-    {{ buildinfo.buildDateStr }}
-  </li>
-  <li>
-    <strong>Build Version:</strong>
-    {{ buildinfo.buildVersion }}
-  </li>
-  <li>
-    <strong>Generator:</strong>
-    <a href="https://www.11ty.dev/" target="_blank">{{ eleventyinfo.generatorStr }}</a>
-  </li>
-  <li>
-    <strong>First post date:</strong>
-    {{ collections.postStats.firstPostDate | dateOnly }}
-  </li>
-  <li>
-    <strong>Last post date:</strong>
-    {{ collections.postStats.lastPostDate | dateOnly }}
-  </li>
-  <li>
-    <strong>Post count:</strong>
-    {{ collections.postStats.postCount | commaize }}
-  </li>
-  <li>
-    <strong>Average posts per year:</strong>
-    {{ collections.postStats.avgPostsPerYear | commaize }}
-  </li>
-  <li>
-    <strong>Average days between posts:</strong>
-    {{ collections.postStats.avgDays | commaize }}
-  </li>
-  <li>
-    <strong>Average characters per post:</strong>
-    {{ collections.postStats.avgCharacterCount | commaize }}
-  </li>
-  <li>
-    <strong>Average words per post:</strong>
-    {{ collections.postStats.avgWordCount | commaize }}
-  </li>
-  <li>
-    <strong>Average paragraphs per post:</strong>
-    {{ collections.postStats.avgParagraphCount | commaize }}
-  </li>
-  {%- if collections.postStats.avgCodeBlockCount > 0 -%}
-  <li>
-    <strong>Average code blocks per post:</strong>
-    {{ collections.postStats.avgCodeBlockCount | commaize }}
-  </li>
-  {% endif %}
-</ul>
+  <h2>Global Statistics</h2>
+  <ul>
+    <li>
+      <strong>Deployments:</strong>
+      {{ buildinfo.buildCounter | commaize }}
+    </li>
+    <li>
+      <strong>Build Date:</strong>
+      {{ buildinfo.buildDateStr }}
+    </li>
+    <li>
+      <strong>Build Version:</strong>
+      {{ buildinfo.buildVersion }}
+    </li>
+    <li>
+      <strong>Generator:</strong>
+      <a href="https://www.11ty.dev/" target="_blank">{{ eleventyinfo.generatorStr }}</a>
+    </li>
+    <li>
+      <strong>First post date:</strong>
+      {{ collections.postStats.firstPostDate | dateOnly }}
+    </li>
+    <li>
+      <strong>Last post date:</strong>
+      {{ collections.postStats.lastPostDate | dateOnly }}
+    </li>
+    <li>
+      <strong>Post count:</strong>
+      {{ collections.postStats.postCount | commaize }}
+    </li>
+    <li>
+      <strong>Average posts per year:</strong>
+      {{ collections.postStats.avgPostsPerYear | commaize }}
+    </li>
+    <li>
+      <strong>Average days between posts:</strong>
+      {{ collections.postStats.avgDays | commaize }}
+    </li>
+    <li>
+      <strong>Average characters per post:</strong>
+      {{ collections.postStats.avgCharacterCount | commaize }}
+    </li>
+    <li>
+      <strong>Average words per post:</strong>
+      {{ collections.postStats.avgWordCount | commaize }}
+    </li>
+    <li>
+      <strong>Average paragraphs per post:</strong>
+      {{ collections.postStats.avgParagraphCount | commaize }}
+    </li>
+    {%- if collections.postStats.avgCodeBlockCount > 0 -%}
+    <li>
+      <strong>Average code blocks per post:</strong>
+      {{ collections.postStats.avgCodeBlockCount | commaize }}
+    </li>
+    {% endif %}
+  </ul>
 
-<h2>Google Analytics</h2>
-<div id="analyticsData">
-  <p>Retrieving analytics data...</p>
-</div>
+  <h2>Google Analytics</h2>
+  <div id="analyticsData">
+    <p>Retrieving analytics data...</p>
+  </div>
 
-<h2>Yearly Statistics</h2>
-<div style="overflow-x:auto;">
-  <table>
-    <thead>
-      <tr>
-        <th>Year</th>
-        <th>Post Count</th>
-        <th>Average Days Between Posts</th>
-        <th>Average Characters</th>
-        <th>Average Words</th>
-        <th>Average Paragraphs</th>
-        {% if collections.postStats.avgCodeBlockCount > 0 %}
-        <th>Average Code Blocks</th>
-        {%- endif -%}
-      </tr>
-    </thead>
-    <tbody>
-      {% for year in collections.postStats.years %}
-      <tr>
-        <td>
-          <strong>{{ year.year }}</strong>
-        </td>
-        <td>{{ year.postCount | commaize }}</td>
-        <td>{{ year.avgDays | commaize }}</td>
-        <td>{{ year.avgCharacterCount | commaize }}</td>
-        <td>{{ year.avgWordCount | commaize }}</td>
-        <td>{{ year.avgParagraphCount | commaize }}</td>
-        {%- if collections.postStats.avgCodeBlockCount > 0 -%}
-        <td>{{ year.avgCodeBlockCount | commaize }}</td>
-        {%- endif -%}
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table>
-</div>
+  <h2>Yearly Statistics</h2>
+  <div style="overflow-x:auto;">
+    <table>
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Post Count</th>
+          <th>Average Days Between Posts</th>
+          <th>Average Characters</th>
+          <th>Average Words</th>
+          <th>Average Paragraphs</th>
+          {% if collections.postStats.avgCodeBlockCount > 0 %}
+          <th>Average Code Blocks</th>
+          {%- endif -%}
+        </tr>
+      </thead>
+      <tbody>
+        {% for year in collections.postStats.years %}
+        <tr>
+          <td>
+            <strong>{{ year.year }}</strong>
+          </td>
+          <td>{{ year.postCount | commaize }}</td>
+          <td>{{ year.avgDays | commaize }}</td>
+          <td>{{ year.avgCharacterCount | commaize }}</td>
+          <td>{{ year.avgWordCount | commaize }}</td>
+          <td>{{ year.avgParagraphCount | commaize }}</td>
+          {%- if collections.postStats.avgCodeBlockCount > 0 -%}
+          <td>{{ year.avgCodeBlockCount | commaize }}</td>
+          {%- endif -%}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
 
-<div id="heatmap"></div>
-<div id="statsChart1"></div>
-<div id="statsChart2"></div>
-<div id="statsChart3"></div>
+  <div id="heatmap"></div>
+  <div id="statsChart1"></div>
+  <div id="statsChart2"></div>
+  <div id="statsChart3"></div>
 
 {% else %}
 <p>
