@@ -28,7 +28,7 @@
     "eleventy-plugin-date": "^1.0.0",
     "eleventy-plugin-file-list": "^0.0.5",
     "eleventy-plugin-github-repos": "^0.0.2",
-    "eleventy-plugin-post-stats": "^0.2.4",
+    "eleventy-plugin-post-stats": "^0.2.6",
     "eleventy-plugin-youtube-embed": "^1.9.1",
     "execa": "^8.0.1",
     "generate-build-info": "^0.0.3",
