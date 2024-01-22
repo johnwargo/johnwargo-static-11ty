@@ -5,6 +5,7 @@ date: 2023-07-04
 headerImage: 
 headerImageAltText: 
 categories:
+  - Delphi
   - Developer Tools
 ---
 

@@ -32,6 +32,14 @@
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@alvarordesign?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Alvaro Reyes</a> on <a href=\"https://unsplash.com/photos/qWwpHwip31M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
   },
   {
+    "category": "Delphi",
+    "count": 10,
+    "description": "",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
     "category": "Developer Tools",
     "count": 7,
     "description": "Articles related to developer tools; ones I use or ones I'm evaluating.",
@@ -97,7 +105,7 @@
   },
   {
     "category": "Microsoft Outlook",
-    "count": 1,
+    "count": 4,
     "description": "Articles related to Microsoft Outlook; either me musing about the app or the project's I built that integrate with it.",
     "imageFilePath": "",
     "imageAltText": "",
@@ -105,7 +113,7 @@
   },
   {
     "category": "Microsoft Windows",
-    "count": 7,
+    "count": 12,
     "description": "Articles covering topics related Microsoft Windows or the Windows applications I created.",
     "imageFilePath": "",
     "imageAltText": "",
@@ -113,7 +121,7 @@
   },
   {
     "category": "Miscellaneous",
-    "count": 145,
+    "count": 141,
     "description": "Posts that didn't fit in any other categories.",
     "imageFilePath": "/images/headers/marcos-paulo-prado-DwKo9S5sewA-unsplash-cropped.jpg",
     "imageAltText": "random bands of color",

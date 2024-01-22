@@ -3,7 +3,10 @@ title: Accessing Outlook Categories Using Delphi
 description: Describes a utility I wrote that automates pulling a list of catagories from Microsoft Outlook on Windows.
 date: 2015-09-27
 headerImage: 
-categories: [Miscellaneous]
+categories: 
+  - Delphi
+  - Microsoft Outlook
+  - Microsoft Windows
 tags: post
 ---
 

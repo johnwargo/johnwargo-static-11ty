@@ -7,6 +7,7 @@ headerImage:
 headerImageAltText: 
 headerImageAttribution: 
 categories:
+  - Delphi
   - Miscellaneous
 ---
 

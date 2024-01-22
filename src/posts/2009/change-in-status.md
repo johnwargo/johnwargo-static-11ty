@@ -3,7 +3,9 @@ title: Change in Status
 description: 
 date: 2009-09-29
 headerImage: 
-categories: [Miscellaneous]
+categories: 
+  - Delphi
+  - Microsoft Windows
 tags: post
 ---
 

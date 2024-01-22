@@ -3,7 +3,10 @@ title: Deleting Empty Outlook Appointments
 description: Outlook suddenly generated thousands of empty appointments in my calendar, so I built a utility in Delphi that cleans them up. 
 date: 2015-09-26
 headerImage: 
-categories: [Miscellaneous]
+categories: 
+  - Delphi
+  - Microsoft Outlook
+  - Microsoft Windows
 tags: post
 ---
 
