@@ -3,9 +3,9 @@
     "category": "Arduino",
     "count": 15,
     "description": "Articles related to lessons learned or projects built using Arduino devices or Arduino-compatible devices.",
-    "imageFilePath": "",
-    "imageAltText": "",
-    "imageAttribution": ""
+    "imageFilePath": "/images/headers/sahand-babali-gavODTHG36Y-unsplash-cropped.jpg",
+    "imageAltText": "An image of an arduino device and other electronic components",
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@sahandbabali?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Sahand Babali</a> on <a href=\"https://unsplash.com/photos/blue-and-black-circuit-board-gavODTHG36Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a>"
   },
   {
     "category": "BlackBerry",
@@ -18,10 +18,10 @@
   {
     "category": "Cloud Development",
     "count": 3,
-    "description": "",
-    "imageFilePath": "",
-    "imageAltText": "",
-    "imageAttribution": ""
+    "description": "Articles related to cloud software development (AWS, Google, Microsoft Azure, OCI, etc.)",
+    "imageFilePath": "/images/headers/c-dustin-K-Iog-Bqf8E-unsplash-cropped.jpg",
+    "imageAltText": "an image of a cloud",
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@dianamia?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">C Dustin</a> on <a href=\"https://unsplash.com/photos/white-clouds-K-Iog-Bqf8E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a>"
   },
   {
     "category": "Content Management Systems",
@@ -34,9 +34,9 @@
   {
     "category": "Delphi",
     "count": 10,
-    "description": "",
-    "imageFilePath": "",
-    "imageAltText": "",
+    "description": "Posts related to application development using Embarcadero Delphi (formerly Borland Delphi).",
+    "imageFilePath": "/images/headers/delphi-cropped.jpg",
+    "imageAltText": "A screen shot of the Delphi IDE",
     "imageAttribution": ""
   },
   {
@@ -51,9 +51,9 @@
     "category": "ESP32",
     "count": 6,
     "description": "Articles related to lessons learned or projects built using Espressif ESP32 devices.",
-    "imageFilePath": "",
-    "imageAltText": "",
-    "imageAttribution": ""
+    "imageFilePath": "/images/headers/hamed-taha-NEqR20e6eY4-unsplash-cropped.jpg",
+    "imageAltText": "An image of an ESP32 Development board",
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@hamedtaha?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Hamed Taha</a> on <a href=\"https://unsplash.com/photos/a-close-up-of-a-person-holding-a-small-electronic-device-NEqR20e6eY4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a>"
   },
   {
     "category": "Eleventy",
@@ -75,9 +75,9 @@
     "category": "Flutter",
     "count": 5,
     "description": "Articles related to Flutter development; either lessons learned or projects I created.",
-    "imageFilePath": "",
-    "imageAltText": "",
-    "imageAttribution": ""
+    "imageFilePath": "/images/headers/flutter-cropped.jpg",
+    "imageAltText": "A screen shot of the Flutter home page",
+    "imageAttribution": "https://flutter.io"
   },
   {
     "category": "Guests",
@@ -107,17 +107,17 @@
     "category": "Microsoft Outlook",
     "count": 4,
     "description": "Articles related to Microsoft Outlook; either me musing about the app or the project's I built that integrate with it.",
-    "imageFilePath": "",
-    "imageAltText": "",
-    "imageAttribution": ""
+    "imageFilePath": "/images/headers/tadas-sar-T01GZhBSyMQ-unsplash-cropped.jpg",
+    "imageAltText": "An image of the Windows logo on a keyboard",
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@stadsa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Tadas Sar</a> on <a href=\"https://unsplash.com/photos/black-laptop-computer-keyboard-in-closeup-photo-T01GZhBSyMQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a>"
   },
   {
     "category": "Microsoft Windows",
     "count": 12,
     "description": "Articles covering topics related Microsoft Windows or the Windows applications I created.",
-    "imageFilePath": "",
-    "imageAltText": "",
-    "imageAttribution": ""
+    "imageFilePath": "/images/headers/tadas-sar-T01GZhBSyMQ-unsplash-cropped.jpg",
+    "imageAltText": "An image of the Windows logo on a keyboard",
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@stadsa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Tadas Sar</a> on <a href=\"https://unsplash.com/photos/black-laptop-computer-keyboard-in-closeup-photo-T01GZhBSyMQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a>"
   },
   {
     "category": "Miscellaneous",
@@ -146,10 +146,10 @@
   {
     "category": "Node.js",
     "count": 5,
-    "description": "",
-    "imageFilePath": "",
-    "imageAltText": "",
-    "imageAttribution": ""
+    "description": "Articles related to software development using Node.js. This includes node command line tooling, plugins, and other stuff.",
+    "imageFilePath": "/images/headers/nodejs-cropped.jpg",
+    "imageAltText": "A screen shot of the node.js home page",
+    "imageAttribution": "https://nodejs.org/"
   },
   {
     "category": "Static Site Generators",

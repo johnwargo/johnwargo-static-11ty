@@ -8,7 +8,7 @@
     "before": function(paginationData, fullData){ let data = paginationData.filter((item) => item.data.categories.includes('Node.js')); return Array.from(data).sort((a, b) => { return a.date < b.date ? 1 : -1; });}
   },
   "category": "Node.js",
-  "description": "Posts related to mobile app development.",
+  "description": "Articles related to software development using Node.js. This includes node command line tooling, plugins, and other stuff.",
   "eleventyComputed": {
     "title": "Category: {{ category }}"
   },
