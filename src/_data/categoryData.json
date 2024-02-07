@@ -57,7 +57,7 @@
   },
   {
     "category": "Eleventy",
-    "count": 33,
+    "count": 34,
     "description": "Articles related to the Eleventy Static Site Generator",
     "imageFilePath": "/images/headers/11ty.png",
     "imageAltText": "Eleventy project logo",
@@ -145,7 +145,7 @@
   },
   {
     "category": "Node.js",
-    "count": 5,
+    "count": 6,
     "description": "Articles related to software development using Node.js. This includes node command line tooling, plugins, and other stuff.",
     "imageFilePath": "/images/headers/nodejs-cropped.jpg",
     "imageAltText": "A screen shot of the node.js home page",
