@@ -8,5 +8,3 @@ headerImageAltText:
 headerImageAttribution:
 categories: []
 ---
-
-
