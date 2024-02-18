@@ -24,6 +24,7 @@ Alright, back to Stack Overflow (again) and it looks like I'm going to have to c
 Yes, I know that Delphi creates a Global variable for the main form in a Delphi application (and other forms too automatically); I've been a Delphi developer since v1 and a Turbo Pascal developer since the mid 80's. I can easily reference components on the source form from the target form's code. But that tightly couples the forms and even though I know now that the source form's data will always be available, I just don't like that approach. Having a globals file helps organize things as it's really easy to tell what's a global and what isn't when all globals are in the same file.
 
 What I saw next on Stack Overflow suggested making a separate `globals` unit and use that unit wherever I needed.  Ok, that works for me and I can easily add other data values to it so I set about implementing it.
+
 ## Creating a Globals Unit
 
 When I added a `globals` unit to the application, the IDE generated this:
