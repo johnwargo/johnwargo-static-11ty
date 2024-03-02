@@ -3,7 +3,7 @@ layout: generic
 title: Site Statistics
 ---
 
-{% if collections.postStats.postCount > 0 %}
+{%- if collections.postStats.postCount > 0 %}
 {% assign yearsMinusOne = collections.postStats.years.length | minus: 1  %}  
 {% assign avgPostsPerYearYears = collections.postStats.years| slice: 0, yearsMinusOne %}
 
@@ -67,7 +67,7 @@ title: Site Statistics
       <strong>Average code blocks per post:</strong>
       {{ collections.postStats.avgCodeBlockCount | commaize }}
     </li>
-    {% endif %}
+    {%- endif %}
   </ul>
 
   <h2>Google Analytics</h2>
@@ -86,13 +86,13 @@ title: Site Statistics
           <th>Average Characters</th>
           <th>Average Words</th>
           <th>Average Paragraphs</th>
-          {% if collections.postStats.avgCodeBlockCount > 0 %}
+          {%- if collections.postStats.avgCodeBlockCount > 0 %}
           <th>Average Code Blocks</th>
-          {%- endif -%}
+          {%- endif %}
         </tr>
       </thead>
       <tbody>
-        {% for year in collections.postStats.years %}
+        {%- for year in collections.postStats.years %}
         <tr>
           <td>
             <strong>{{ year.year }}</strong>
@@ -102,31 +102,26 @@ title: Site Statistics
           <td>{{ year.avgCharacterCount | commaize }}</td>
           <td>{{ year.avgWordCount | commaize }}</td>
           <td>{{ year.avgParagraphCount | commaize }}</td>
-          {%- if collections.postStats.avgCodeBlockCount > 0 -%}
+          {%- if collections.postStats.avgCodeBlockCount > 0 %}
           <td>{{ year.avgCodeBlockCount | commaize }}</td>
-          {%- endif -%}
+          {%- endif %}
         </tr>
-        {% endfor %}
+        {%- endfor %}
       </tbody>
     </table>
   </div>
-
   <div id="heatmap"></div>
   <div id="statsChart1"></div>
   <div id="statsChart2"></div>
   <div id="statsChart3"></div>
-
-{% else %}
-<p>
-  <strong>No data to display</strong>
-</p>
-{% endif %}
+{%- else %}
+<p><strong>No data to display</strong></p>
+{%- endif %}
 
 <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 <script>
-
-  // Posts per month heatmap
-  chartHeight = 50 * {{ collections.postStats.years.length }};
+  // Posts per month heat map
+  var chartHeight = 50 * {{ collections.postStats.years.length }};
   var options = {
     series: [{% for year in collections.postStats.years %}
       { name: '{{ year.year }}', 
