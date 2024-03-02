@@ -8,6 +8,14 @@
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@sahandbabali?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Sahand Babali</a> on <a href=\"https://unsplash.com/photos/blue-and-black-circuit-board-gavODTHG36Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a>"
   },
   {
+    "category": "Artificial Intelligence",
+    "count": 1,
+    "description": "",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
     "category": "BlackBerry",
     "count": 69,
     "description": "Articles about the BlackBerry platform, BlackBerry development, and my time working at BlackBerry (Research in Motion).",
