@@ -1,13 +1,17 @@
 ---
 title: Bogus Wells SMS
-description: 
+description: I received a spam text message pretending to be from Wells Fargo,
+  but I quickly realized it was fake. The phone number and currency format were
+  not typical for the US, making it clear that it was a phishing attempt. It's
+  important to pay attention to these details to avoid falling for scams.
 date: 2024-02-23
 showCoffee: true
-headerImage: 
-headerImageAltText: 
-headerImageAttribution: 
-categories: 
+headerImage: null
+headerImageAltText: null
+headerImageAttribution: null
+categories:
   - Miscellaneous
+generatedDescription: true
 ---
 
 I got a spam, malware, phishing text message today that said it was from Wells Fargo but I knew better. After looking at it for a couple of seconds, I had to laugh then write about it. Here's the message I received:

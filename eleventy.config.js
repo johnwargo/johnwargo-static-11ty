@@ -31,8 +31,8 @@ module.exports = eleventyConfig => {
 	eleventyConfig.addPlugin(fileList, { targetFolder: 'src/files' });
 
 	const apiKey = process.env.GITHUB_API_KEY;
-	eleventyConfig.addPlugin(githubRepos, { userAccount: 'johnwargo', apiKey});
-	
+	eleventyConfig.addPlugin(githubRepos, { userAccount: 'johnwargo', apiKey });
+
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(syntaxHighlight);
@@ -84,6 +84,12 @@ module.exports = eleventyConfig => {
 		// No page content?
 		if (!post.templateContent) return noContent;
 		let pageContent = post.templateContent;
+
+		// https://www.martingunnarsson.com/posts/eleventy-excerpts/
+		// Strip HTML from the paragraph
+		//  pageContent = pageContent.replace(/(<([^>]+)>)/gi, "");
+		// https://cheerio.js.org/docs/intro
+
 		// remove headings (H1, H2, etc.)
 		pageContent = pageContent.replace(/<(h[2-4])>((?:(?!<h\d+\b).)+?)<\/\1>/gm, '');
 		// remove picture tags
@@ -98,7 +104,6 @@ module.exports = eleventyConfig => {
 			let start = pageContent.indexOf('<p>');
 			let end = pageContent.indexOf('</p>');
 			let theExcerpt = pageContent.substr(start, end + 4);
-			// console.log(theExcerpt);
 			return theExcerpt;
 		}
 		return noContent;
