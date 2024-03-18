@@ -34,24 +34,18 @@ layout: home
             <a style="cursor: pointer" href="{{post.url}}">{{ post.data.title }}</a>
           </h4>
           <span class="date">
-            <strong>
-              Date:
-            </strong>
-            {{ post.date | readableDate }}
-            {% if post.data.categories.length > 0 %}
-              |
-              <strong>
-                Categories:
-              </strong>
-              {% for cat in post.data.categories %}
+            <strong>Date:</strong>&nbsp;{{ post.date | readableDate }}
+            {%- if post.data.categories.length > 0 %}
+              | <strong>Categories:</strong>
+              {%- for cat in post.data.categories %}
                 <a href="/categories/{{ cat | slugify }}">{{ cat | strip }}</a>
                 {%- unless forloop.last %},
                 {% endunless %}
               {% endfor %}
             {% endif %}
           </span>
-          {% if post.data.description %}
-            {{ post.data.description }}
+          {%- if post.data.description %}
+            <p>{%- if post.data.generatedDescription %}<span class="generated">AI Generated</span>&nbsp;{%- endif %}{{ post.data.description }}</p>
           {% else %}
             {% excerpt post %}
           {% endif %}
