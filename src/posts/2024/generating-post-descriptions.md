@@ -1,18 +1,15 @@
 ---
 title: Generating Eleventy Post Descriptions Using Generative AI
-description: Using Generative AI to automatically populate post descriptions on
-  a website has been a game-changer for me. By adding a description field to the
-  site's post template and modifying the home page and articles page to display
-  these descriptions, I've streamlined the process of providing context for each
-  post. Additionally, the Visual Studio Code extension called Describer GenAI
-  has been a valuable tool in generating descriptions for article files being
-  edited in Visual Studio Code. With just a ChatGPT API key and YAML front
-  matter in the article file, the extension does the heavy lifting of creating
-  concise summaries. Installation and configuration are straightforward, and
-  using the extension to generate descriptions is a breeze. The prompt used for
-  generating descriptions has been effective, but I'm open to suggestions for
-  improvement. Overall, leveraging Generative AI for post descriptions has been
-  a time-saving and efficient solution for my website.
+description: Using Generative AI to automatically generate post descriptions is
+  a great way to save time and ensure consistency across your site. By
+  leveraging tools like ChatGPT, you can quickly create engaging summaries that
+  entice readers to click through and read more. The Describer GenAI extension
+  for Visual Studio Code simplifies this process, allowing you to effortlessly
+  generate descriptions for your articles with just a few clicks. With the
+  ability to customize settings and easily integrate the generated descriptions
+  into your site, this tool is a valuable asset for content creators looking to
+  streamline their workflow. Give it a try and see how AI can enhance your
+  content creation process!
 date: 2024-03-18
 showCoffee: true
 headerImage: null
@@ -129,19 +126,16 @@ That's all there is to it and it works pretty well. Sometimes ChatGPT forgets th
 ```yaml
 ---
 title: Generating Eleventy Post Descriptions Using Generative AI
-description: Using Generative AI to automatically populate post descriptions on
-  a website has been a game-changer for me. By adding a description field to the
-  site's post template and modifying the home page and articles page to display
-  these descriptions, I've streamlined the process of providing context for each
-  post. Additionally, the Visual Studio Code extension called Describer GenAI
-  has been a valuable tool in generating descriptions for article files being
-  edited in Visual Studio Code. With just a ChatGPT API key and YAML front
-  matter in the article file, the extension does the heavy lifting of creating
-  concise summaries. Installation and configuration are straightforward, and
-  using the extension to generate descriptions is a breeze. The prompt used for
-  generating descriptions has been effective, but I'm open to suggestions for
-  improvement. Overall, leveraging Generative AI for post descriptions has been
-  a time-saving and efficient solution for my website.
+description: Using Generative AI to automatically generate post descriptions is
+  a great way to save time and ensure consistency across your site. By
+  leveraging tools like ChatGPT, you can quickly create engaging summaries that
+  entice readers to click through and read more. The Describer GenAI extension
+  for Visual Studio Code simplifies this process, allowing you to effortlessly
+  generate descriptions for your articles with just a few clicks. With the
+  ability to customize settings and easily integrate the generated descriptions
+  into your site, this tool is a valuable asset for content creators looking to
+  streamline their workflow. Give it a try and see how AI can enhance your
+  content creation process!
 date: 2024-03-18
 showCoffee: true
 headerImage: null
