@@ -37,7 +37,7 @@ headerImageAttribution: Photo by <a href="https://unsplash.com/@bk71?utm_source=
       {% endif %}
       <br/>
       {% if post.data.description %}
-        {{ post.data.description }}
+        {% include 'generated.html' %}
       {% else %}
         {% excerpt post %}
       {% endif %}
