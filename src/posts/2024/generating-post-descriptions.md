@@ -8,8 +8,7 @@ description: Using Generative AI to automatically generate post descriptions is
   generate descriptions for your articles with just a few clicks. With the
   ability to customize settings and easily integrate the generated descriptions
   into your site, this tool is a valuable asset for content creators looking to
-  streamline their workflow. Give it a try and see how AI can enhance your
-  content creation process!
+  streamline their workflow.
 date: 2024-03-18
 showCoffee: true
 headerImage: null
