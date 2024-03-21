@@ -8,7 +8,7 @@
     "before": function(paginationData, fullData){ let data = paginationData.filter((item) => item.data.categories.includes('Artificial Intelligence')); return Array.from(data).sort((a, b) => { return a.date < b.date ? 1 : -1; });}
   },
   "category": "Artificial Intelligence",
-  "description": "Articles related to lessons learned or projects built using Arduino devices or Arduino-compatible devices.",
+  "description": "Articles related to Artificial Intelligence (AI) and Machine Learning (ML).",
   "eleventyComputed": {
     "title": "Category: {{ category }}"
   },
@@ -18,11 +18,10 @@
 
 {% include 'pagination-count.html' %}
 
-{{ description }}
-
-<p>This page lists all posts in the category, in reverse chronological order.</p>
+<p>{{ description }}&nbsp;This page lists all posts in the category, in reverse chronological order.</p>
 
 <ul class="posts">
+  <li>{% include 'ai-disclaimer.html' %}</li>
   {% for post in catposts %}
     <li>
       <h4>
@@ -39,7 +38,7 @@
       {% endif %}
       <br/>
       {% if post.data.description %}
-        {{ post.data.description }}
+        {% include 'generated.html' %}
       {% else %}
         {% excerpt post %}
       {% endif %}

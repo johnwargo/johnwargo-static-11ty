@@ -28,6 +28,7 @@ layout: home
       <a href="{{ "/" | htmlBaseUrl }}articles">Recent Posts</a>
     </h2>
     <ul class="posts">
+      <li>{% include 'ai-disclaimer.html' %}</li>      
       {% for post in latest_posts limit: 10 %}
         <li>
           <h4>

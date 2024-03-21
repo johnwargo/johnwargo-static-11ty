@@ -10,7 +10,7 @@
   {
     "category": "Artificial Intelligence",
     "count": 2,
-    "description": "",
+    "description": "Articles related to Artificial Intelligence (AI) and Machine Learning (ML).",
     "imageFilePath": "",
     "imageAltText": "",
     "imageAttribution": ""
@@ -26,7 +26,7 @@
   {
     "category": "Cloud Development",
     "count": 4,
-    "description": "Articles related to cloud software development (AWS, Google, Microsoft Azure, OCI, etc.)",
+    "description": "Articles related to cloud software development (AWS, Google, Microsoft Azure, OCI, etc.).",
     "imageFilePath": "/images/headers/c-dustin-K-Iog-Bqf8E-unsplash-cropped.jpg",
     "imageAltText": "an image of a cloud",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@dianamia?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">C Dustin</a> on <a href=\"https://unsplash.com/photos/white-clouds-K-Iog-Bqf8E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a>"
@@ -66,7 +66,7 @@
   {
     "category": "Eleventy",
     "count": 35,
-    "description": "Articles related to the Eleventy Static Site Generator",
+    "description": "Articles related to the Eleventy Static Site Generator (used to build this site).",
     "imageFilePath": "/images/headers/11ty.png",
     "imageAltText": "Eleventy project logo",
     "imageAttribution": "Eleventy Project Home Page."
@@ -146,7 +146,7 @@
   {
     "category": "Mobile Development",
     "count": 96,
-    "description": "Posts related to mobile app development.",
+    "description": "Posts related to mobile app development, something I live for a very long time.",
     "imageFilePath": "/images/headers/ilgmyzin-Xe21OFRpqvk-unsplash-cropped.jpg",
     "imageAltText": "Mobile Apps",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@ilgmyzin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">ilgmyzin</a> on <a href=\"https://unsplash.com/photos/Xe21OFRpqvk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."

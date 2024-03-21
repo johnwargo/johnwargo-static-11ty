@@ -13,11 +13,10 @@ permalink: "categories/{{ category | slugify }}/{% if pagination.pageNumber != 0
 
 {% include 'pagination-count.html' %}
 
-{{ description }}
-
-<p>This page lists all posts in the category, in reverse chronological order.</p>
+<p>{{ description }}&nbsp;This page lists all posts in the category, in reverse chronological order.</p>
 
 <ul class="posts">
+  <li>{% include 'ai-disclaimer.html' %}</li>
   {% for post in catposts %}
     <li>
       <h4>
@@ -34,7 +33,7 @@ permalink: "categories/{{ category | slugify }}/{% if pagination.pageNumber != 0
       {% endif %}
       <br/>
       {% if post.data.description %}
-        {{ post.data.description }}
+        {% include 'generated.html' %}
       {% else %}
         {% excerpt post %}
       {% endif %}
