@@ -10,7 +10,7 @@
   "category": "Node.js",
   "description": "Articles related to software development using Node.js. This includes node command line tooling, plugins, and other stuff.",
   "eleventyComputed": {
-    "title": "Category: {{ category }}"
+    "title": "{{ category }}"
   },
   "permalink": "categories/{{ category | slugify }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
 }

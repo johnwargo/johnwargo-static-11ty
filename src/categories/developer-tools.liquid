@@ -10,7 +10,7 @@
   "category": "Developer Tools",
   "description": "Articles related to developer tools; ones I use or ones I'm evaluating.",
   "eleventyComputed": {
-    "title": "Category: {{ category }}"
+    "title": "{{ category }}"
   },
   "permalink": "categories/{{ category | slugify }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
 }

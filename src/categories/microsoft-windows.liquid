@@ -10,7 +10,7 @@
   "category": "Microsoft Windows",
   "description": "Articles covering topics related Microsoft Windows or the Windows applications I created.",
   "eleventyComputed": {
-    "title": "Category: {{ category }}"
+    "title": "{{ category }}"
   },
   "permalink": "categories/{{ category | slugify }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
 }

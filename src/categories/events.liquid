@@ -10,7 +10,7 @@
   "category": "Events",
   "description": "Articles about events I'm attending, have a speaking slot, or otherwise involved with.",
   "eleventyComputed": {
-    "title": "Category: {{ category }}"
+    "title": "{{ category }}"
   },
   "permalink": "categories/{{ category | slugify }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
 }

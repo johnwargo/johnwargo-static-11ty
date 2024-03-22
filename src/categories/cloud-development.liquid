@@ -10,7 +10,7 @@
   "category": "Cloud Development",
   "description": "Articles related to cloud software development (AWS, Google, Microsoft Azure, OCI, etc.).",
   "eleventyComputed": {
-    "title": "Category: {{ category }}"
+    "title": "{{ category }}"
   },
   "permalink": "categories/{{ category | slugify }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
 }

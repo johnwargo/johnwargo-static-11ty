@@ -10,7 +10,7 @@
   "category": "IBM Lotus Domino",
   "description": "Articles related to IBM Lotus Notes and/or Domino; mostly around development topics.",
   "eleventyComputed": {
-    "title": "Category: {{ category }}"
+    "title": "{{ category }}"
   },
   "permalink": "categories/{{ category | slugify }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
 }

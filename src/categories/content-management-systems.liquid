@@ -10,7 +10,7 @@
   "category": "Content Management Systems",
   "description": "Articles related to my usage and experimentation with Content Management Systems (CMS).",
   "eleventyComputed": {
-    "title": "Category: {{ category }}"
+    "title": "{{ category }}"
   },
   "permalink": "categories/{{ category | slugify }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
 }

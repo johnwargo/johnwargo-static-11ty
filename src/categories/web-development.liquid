@@ -10,7 +10,7 @@
   "category": "Web Development",
   "description": "Posts related to web development topics, development tools, strategies, etc.",
   "eleventyComputed": {
-    "title": "Category: {{ category }}"
+    "title": "{{ category }}"
   },
   "permalink": "categories/{{ category | slugify }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
 }

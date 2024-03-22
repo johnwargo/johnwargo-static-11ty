@@ -10,7 +10,7 @@
   "category": "ESP32",
   "description": "Articles related to lessons learned or projects built using Espressif ESP32 devices.",
   "eleventyComputed": {
-    "title": "Category: {{ category }}"
+    "title": "{{ category }}"
   },
   "permalink": "categories/{{ category | slugify }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
 }

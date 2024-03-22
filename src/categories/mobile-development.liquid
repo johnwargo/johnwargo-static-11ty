@@ -10,7 +10,7 @@
   "category": "Mobile Development",
   "description": "Posts related to mobile app development, something I live for a very long time.",
   "eleventyComputed": {
-    "title": "Category: {{ category }}"
+    "title": "{{ category }}"
   },
   "permalink": "categories/{{ category | slugify }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
 }

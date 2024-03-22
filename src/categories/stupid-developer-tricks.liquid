@@ -10,7 +10,7 @@
   "category": "Stupid Developer Tricks",
   "description": "Posts calling out the results of stupid things software developers do.",
   "eleventyComputed": {
-    "title": "Category: {{ category }}"
+    "title": "{{ category }}"
   },
   "permalink": "categories/{{ category | slugify }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
 }

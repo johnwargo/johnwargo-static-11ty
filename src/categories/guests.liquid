@@ -10,7 +10,7 @@
   "category": "Guests",
   "description": "Articles written by Guest Authors (so far, only one).",
   "eleventyComputed": {
-    "title": "Category: {{ category }}"
+    "title": "{{ category }}"
   },
   "permalink": "categories/{{ category | slugify }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
 }

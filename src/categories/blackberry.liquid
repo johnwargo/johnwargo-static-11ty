@@ -10,7 +10,7 @@
   "category": "BlackBerry",
   "description": "Articles about the BlackBerry platform, BlackBerry development, and my time working at BlackBerry (Research in Motion).",
   "eleventyComputed": {
-    "title": "Category: {{ category }}"
+    "title": "{{ category }}"
   },
   "permalink": "categories/{{ category | slugify }}/{% if pagination.pageNumber != 0 %}page-{{ pagination.pageNumber }}/{% endif %}"
 }
