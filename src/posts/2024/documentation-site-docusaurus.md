@@ -1,13 +1,14 @@
 ---
 title: Building a documentation Site Using Docusaurus
-description: 
+description: I recently built a website for my software company and needed a place to publish product documentation. After exploring different options, I settled on using Docusaurus, a documentation static site generator. This post describes my first impressions of the platform.
 date: 2024-03-30
 showCoffee: true
-headerImage: 
-headerImageAltText: 
-headerImageAttribution: 
+headerImage: null
+headerImageAltText: null
+headerImageAttribution: null
 categories:
   - Static Site Generators
+generatedDescription: true
 ---
 
 As I mentioned in a post last week, I'm building a web site for my software company: [Fumbly Diddle Software](https://fumblydiddle.com){target="_blank"}. Along with the site, I also need a place to publish product documentation. I thought I'd just build an [11ty](https://www.11ty.dev/){target="_blank"} site for both the product information, news, blog, and documentation but as I started working through all of that I decided that wasn't the path I wanted to take. I decided instead to use one of the documentation static site generators. I wanted to be able to work in markdown files like I do for my 11ty sites, but I also wanted something that took care of page navigation, search, and other capabilities for me automatically.
