@@ -27,7 +27,11 @@ headerImageAttribution: Photo by <a href="https://unsplash.com/@bk71?utm_source=
       <h4>
         <a href="{{post.url}}" style="cursor: pointer">{{ post.data.title }}</a>
       </h4>
-      Posted {{ post.date | readableDate }}&nbsp;
+      Posted {%- if post.data.timestamp %}
+        {{ post.data.timestamp | readableTimestamp }}
+        {%- else %}
+        {{ post.date | readableDate }}
+        {%- endif %}&nbsp;
       {% if post.data.categories.length > 0 %}
         in
         {% for cat in post.data.categories %}

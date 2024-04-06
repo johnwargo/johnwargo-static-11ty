@@ -35,7 +35,12 @@ layout: home
             <a style="cursor: pointer" href="{{post.url}}">{{ post.data.title }}</a>
           </h4>
           <span class="date">
-            <strong>Date:</strong>{{ post.date | readableDate }}
+            <strong>Date: </strong>
+            Posted {%- if post.data.timestamp %}
+              {{ post.data.timestamp | readableTimestamp }}
+              {%- else %}
+              {{ post.date | readableDate }}
+              {%- endif %}&nbsp;
             {%- if post.data.categories.length > 0 %}
               | <strong>Categories:</strong>
               {%- for cat in post.data.categories %}

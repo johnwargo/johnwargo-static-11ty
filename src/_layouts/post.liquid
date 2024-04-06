@@ -7,13 +7,16 @@ layout: generic
 
 <p>
   <strong>Posted:
-  </strong>
+  </strong>{%- if timestamp %}
+  {{ timestamp | readableTimestamp }}
+  {%- else %}
   {{ date | readableDate }} |
+  {%- endif %} |
   <strong>Categories:</strong>
   {% for cat in categories %}
-    <a href="/categories/{{ cat | slugify }}">{{ cat }}</a>
-    {%- unless forloop.last %},
-    {% endunless %}
+  <a href="/categories/{{ cat | slugify }}">{{ cat }}</a>
+  {%- unless forloop.last %},
+  {% endunless %}
   {% endfor %}
 </p>
 
@@ -21,16 +24,16 @@ layout: generic
 
 <hr />
 {% if nextPost %}
-  <p>Next Post:
-    <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
-  </p>
+<p>Next Post:
+  <a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+</p>
 {% endif %}
 {% if previousPost %}
-  <p>Previous Post:
-    <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
-  </p>
+<p>Previous Post:
+  <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
+</p>
 {% endif %}
 
 {% if showCoffee %}
-  {% include "coffee.html" %}
+{% include "coffee.html" %}
 {% endif %}

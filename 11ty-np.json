@@ -7,5 +7,6 @@
   "promptTargetFolder": false,
   "promptTemplateFile": false,
   "templateFile": "11ty-np.md",
+  "timeStamp": true,
   "useYear": true
 }

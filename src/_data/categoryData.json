@@ -65,7 +65,7 @@
   },
   {
     "category": "Eleventy",
-    "count": 36,
+    "count": 37,
     "description": "Articles related to the Eleventy Static Site Generator (used to build this site).",
     "imageFilePath": "/images/headers/11ty.png",
     "imageAltText": "Eleventy project logo",
