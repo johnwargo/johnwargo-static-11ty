@@ -1,2 +1,2 @@
 [build.environment]
-  TZ = "UTC-4:00"
+  TZ = "America/New_York"
