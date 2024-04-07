@@ -126,13 +126,26 @@ module.exports = eleventyConfig => {
 
 	eleventyConfig.addFilter("dateOnly", function (dateVal, locale = "en-us") {
 		var theDate = new Date(dateVal);
-		const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+		const options = {
+			weekday: 'long',
+			year: 'numeric',
+			month: 'long',
+			day: 'numeric'
+		};
 		return theDate.toLocaleDateString(locale, options);
 	});
 
 	eleventyConfig.addFilter("readableTimestamp", function (dateVal, locale = "en-us") {
 		var theDate = new Date(dateVal);
-		const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour12: true, hour: '2-digit', minute: '2-digit' };
+		const options = {
+			weekday: 'long',
+			year: 'numeric',
+			month: 'long',
+			day: 'numeric',
+			hour12: true,
+			hour: '2-digit',
+			minute: '2-digit'
+		};
 		return theDate.toLocaleString(locale, options);
 	});
 
