@@ -11,12 +11,8 @@ permalink: /feed.json
 	"home_page_url": "{{ metadata.url | addPathPrefixToFullUrl }}",
 	"feed_url": "{{ permalink | htmlBaseUrl(metadata.url) }}",
 	"description": "{{ metadata.description }}",
-	"author": {
-		"name": "{{ metadata.author.name }}",
-		"url": "{{ metadata.author.url }}"
-	},
-	"items": [
-		{%- for post in collections.post | reverse %}
+	"author": {"name": "{{ metadata.author.name }}","url": "{{ metadata.author.url }}"},
+	"items": [{%- for post in collections.post | reverse %}
 			{%- set absolutePostUrl = post.url | htmlBaseUrl(metadata.url) %}
 			{
 				"id": "{{ absolutePostUrl }}",
@@ -25,8 +21,6 @@ permalink: /feed.json
 				"content_html": {% if post.templateContent %}{{ post.templateContent | transformWithHtmlBase(absolutePostUrl, post.url) | dump | safe }}{% else %}""{% endif %},
 				{%- if post.data.timestamp %}"date_published": "{{ post.data.timestamp | dateToRfc3339}}"
 				{%- else %}"date_published": "{{ post.date | dateToRfc3339 }}"{%- endif %}
-			}
-			{% if not loop.last %},{% endif %}
-		{%- endfor %}
-	]
+			}{% if not loop.last %},{% endif %}
+		{%- endfor %}]
 }
