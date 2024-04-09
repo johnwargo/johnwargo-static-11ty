@@ -3,6 +3,7 @@
 ## 20240408
 
 + Updated the feed files to use the timestamp property if its available.
++ Added **Key Takeaway** and **What it Means** shortcodes to the `eleventy.config.js file and VSCode shortcuts.
 
 ## 20240406
 

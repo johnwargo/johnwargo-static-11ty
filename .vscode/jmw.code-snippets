@@ -38,5 +38,25 @@
 			" target=\"_blank\""
 		],
 		"description": "Liquid Code Block"
+	},
+	"Key Takeaway": {
+		"scope": "markdown, liquid",
+		"prefix": "!takeaway",
+		"body": [
+			"{% takeaway %}",
+			"",
+			"{% endtakeaway %}"
+		],
+		"description": "Key Takeaway Block"
+	},
+	"What it Means": {
+		"scope": "markdown, liquid",
+		"prefix": "!wim",
+		"body": [
+			"{% wim %}",
+			"",
+			"{% endwim %}"
+		],
+		"description": "What it Means Block"
 	}
 }

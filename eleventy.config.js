@@ -109,6 +109,26 @@ module.exports = eleventyConfig => {
 		return noContent;
 	}
 
+	function buildBlock(content, title) {
+		var paragraphs = content.split(/(?:\r?\n)+/);
+		var kt = '<div class="someClass">';
+		kt += `<h1>${title}</h1>`;
+		paragraphs.forEach(paragraph => {
+			if (paragraph.trim() === '') return;
+			kt += `<p>${paragraph}</p>`;
+		});
+		kt += '</div>';
+		return kt;
+	}
+
+	eleventyConfig.addPairedShortcode("takeaway", content => {
+		return buildBlock(content, 'Key Takeaway');
+	});
+
+	eleventyConfig.addPairedShortcode("wim", content => {
+		return buildBlock(content, 'What it Means');
+	});
+
 	// https://www.raymondcamden.com/2020/06/24/adding-algolia-search-to-eleventy-and-netlify
 	// Remove <code>.*</code>, remove HTML, then with plain text, limit to 5k chars
 	eleventyConfig.addFilter('algExcerpt', function (text) {
@@ -125,6 +145,7 @@ module.exports = eleventyConfig => {
 	});
 
 	eleventyConfig.addFilter("dateOnly", function (dateVal, locale = "en-us") {
+		// Used to display human readable date on the stats page and other pages
 		var theDate = new Date(dateVal);
 		const options = {
 			weekday: 'long',
@@ -136,6 +157,7 @@ module.exports = eleventyConfig => {
 	});
 
 	eleventyConfig.addFilter("readableTimestamp", function (dateVal, locale = "en-us") {
+		// Used by home, articles, & post pages to render timestamp as human readable
 		var theDate = new Date(dateVal);
 		const options = {
 			weekday: 'long',
