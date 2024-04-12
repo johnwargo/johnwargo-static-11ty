@@ -7,7 +7,7 @@ headerImage:
 headerImageAltText: 
 headerImageAttribution: 
 categories:
-  - Stupid Developer Tricks
+  - Miscellaneous
 timestamp: 2024-04-12T10:19:22.828Z
 ---
 

@@ -70,9 +70,14 @@ module.exports = eleventyConfig => {
 		return collectionAPI.getFilteredByGlob("./src/projects/*.md");
 	});
 
-	// eleventyConfig.addCollection("articlesByDateTime", collectionAPI => {
-	// 	return collectionAPI.getFilteredByTag("article").sort((a, b) => b.date - a.date);
-	// });
+	eleventyConfig.addCollection("articlesByTimestamp", collectionAPI => {
+		return collectionAPI.getFilteredByTag("post").sort((a, b) => {
+			// use the timestamp if we have it, otherwise date
+			var aDate = a.data.timestamp ? new Date(a.data.timestamp) : new Date(a.date);
+			var bDate = b.data.timestamp ? new Date(b.data.timestamp) : new Date(b.date);
+			return aDate - bDate;
+		});
+	});
 
 	eleventyConfig.addShortcode("GetKeywords", categories => {
 		return categories.join(", ");
