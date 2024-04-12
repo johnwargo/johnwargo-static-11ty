@@ -65,12 +65,16 @@ module.exports = eleventyConfig => {
 		}
 	});
 
-	eleventyConfig.addCollection("projects", function (collectionAPI) {
+	eleventyConfig.addCollection("projects", collectionAPI => {
 		// grab all the markdown files in the specified directory
 		return collectionAPI.getFilteredByGlob("./src/projects/*.md");
 	});
 
-	eleventyConfig.addShortcode("GetKeywords", function (categories) {
+	// eleventyConfig.addCollection("articlesByDateTime", collectionAPI => {
+	// 	return collectionAPI.getFilteredByTag("article").sort((a, b) => b.date - a.date);
+	// });
+
+	eleventyConfig.addShortcode("GetKeywords", categories => {
 		return categories.join(", ");
 	});
 
