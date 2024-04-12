@@ -2,7 +2,7 @@
 {
   "layout": "category",
   "pagination": {
-    "data": "collections.post",
+    "data": "collections.articlesByTimestamp",
     "size": 20,
     "alias": "catposts",
     "before": function(paginationData, fullData){ let data = paginationData.filter((item) => item.data.categories.includes('Eleventy')); return Array.from(data).sort((a, b) => { return a.date < b.date ? 1 : -1; });}
@@ -27,7 +27,11 @@
       <h4>
         <a href="{{post.url}}" style="cursor: pointer">{{ post.data.title }}</a>
       </h4>
-      Posted {{ post.date | readableDate }}
+      Posted {%- if post.data.timestamp %}
+        {{ post.data.timestamp | readableTimestamp }}
+        {%- else %}
+        {{ post.date | readableDate }}
+        {%- endif %}&nbsp;
       {% if post.data.categories.length > 0 %}
         in
         {% for cat in post.data.categories %}

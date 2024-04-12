@@ -11,7 +11,7 @@ headerImageAttribution: Photo by <a href="https://unsplash.com/@bk71?utm_source=
 <p>This page lists the top 20 articles on the site by popularity according to Google Analytics.
 
 <ul >
-  {% for post in popularArticles %}
+  {% for post in topPosts %}
     <li>
       <h4>
         <a href="{{post.url}}" style="cursor: pointer">{{ post.title }}</a>
