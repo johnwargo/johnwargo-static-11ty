@@ -1,5 +1,11 @@
 # Changelog
 
+## 20240412
+
++ Fixed home page, articles page, categories pages to use timestamp
++ Added a `articlesByTimestamp` collection that sorts posts by timestamp if the post has it. Needed this to sort two articles on the same day correctly.
++ Fixed **Most Popular** posts page, apparently I broke it when I moved the Analytics stuff to Google Cloud.
+
 ## 20240408
 
 + Updated the feed files to use the timestamp property if its available.
