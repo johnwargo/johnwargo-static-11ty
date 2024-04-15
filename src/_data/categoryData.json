@@ -129,7 +129,7 @@
   },
   {
     "category": "Miscellaneous",
-    "count": 146,
+    "count": 147,
     "description": "Posts that didn't fit in any other categories.",
     "imageFilePath": "/images/headers/marcos-paulo-prado-DwKo9S5sewA-unsplash-cropped.jpg",
     "imageAltText": "random bands of color",
@@ -177,7 +177,7 @@
   },
   {
     "category": "Web Development",
-    "count": 7,
+    "count": 8,
     "description": "Posts related to web development topics, development tools, strategies, etc.",
     "imageFilePath": "/images/headers/ferenc-almasi-eYpcLDXHVb0-unsplash-cropped.jpg",
     "imageAltText": "An image of a code editor displaying HTML code",
