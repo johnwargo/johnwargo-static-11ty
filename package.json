@@ -24,7 +24,7 @@
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@google-analytics/data": "^4.3.0",
-    "eleventy-generate-category-pages": "^0.1.2",
+    "eleventy-generate-category-pages": "^0.1.4",
     "eleventy-plugin-date": "^1.0.0",
     "eleventy-plugin-file-list": "^0.0.5",
     "eleventy-plugin-github-repos": "^0.0.2",
