@@ -10,13 +10,14 @@ headerImageAttribution: Photo by <a href="https://unsplash.com/@aquadrata?utm_so
 {% assign categories = categoryData | sort %}
 
 <p>View all posts for a particular category by clicking on one of the categories listed below. There are {{ categories.length }} categories on the site today.</p>
+
 {% if categories.length > 0 %}
   <table>
     {% tablerow catData in categories cols:2 %}
        <h4>
           <a href="{{ "/" | htmlBaseUrl }}categories/{{ catData.category | slugify }}/">{{ catData.category }}</a>
         </h4>
-        Count: {{ catData.count }}
+        {{ catData.count }} Post{%- if catData.count > 1 %}s{% endif %}
         {% if catData.description.length > 0 %}
           |
           {{ catData.description }}
@@ -24,5 +25,5 @@ headerImageAttribution: Photo by <a href="https://unsplash.com/@aquadrata?utm_so
     {% endtablerow %}
   </table>  
 {% else %}
-    <p>No category data to display</p>
+    <p>No category data to display (this should never happen).</p>
 {% endif %} 
