@@ -62,7 +62,7 @@ console.log();
 await $`gen-build-info src/_data`;
 
 console.log('\nBuilding site');
-await $`eleventy`;
+await $`npm run build`;
 
 if (updateIndex) {
   console.log('\nUpdating Algolia Index');
