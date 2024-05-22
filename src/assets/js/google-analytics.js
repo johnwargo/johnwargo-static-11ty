@@ -11,6 +11,10 @@
 const endpoint = 'https://us-east1-jmw-static-site.cloudfunctions.net/getAnalyticsMetrics';
 const propertyId = '304078452';
 
+function commaize(num,  locale = "en-US") {
+  return num.toLocaleString(locale);
+}
+
 (async function () {
   var analyticsContent = document.getElementById('analyticsData');
   var content = '<p>No data available or service unavailable</p>';
@@ -23,7 +27,7 @@ const propertyId = '304078452';
       if (res.metrics) {
         content = '<table style="width:350px"><thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>';
         content += res.metrics.map(function (metric) {
-          return '<tr><td><strong>' + metric.name + '</strong></td><td>' + metric.value + '</td></tr>';
+          return `<tr><td><strong>${metric.name}</strong></td><td>${commaize(parseInt(metric.value))}</td></tr>`;
         }).join('');
         content += '</tbody></table>';
       }
