@@ -178,7 +178,7 @@ Sub Initialize()
   Set doc = s.DocumentContext    
   
   'Parse the command line and call the correct function  
-  queryStr = LCase(doc.Query\_String\_Decoded(0)) & amp  
+  queryStr = LCase(doc.Query_String_Decoded(0)) & amp  
   cmdName = GetCmdLineValue(queryStr, "&cmd=", amp)  
   searchStr = GetCmdLineValue(queryStr, "&searchstr=", amp)  
    
@@ -263,20 +263,20 @@ sub GetContactList(searchStr As String)
           If Not userDoc Is Nothing Then  
             Set tmpName = New NotesName(userDoc.FullName(0))  
             If Not tmpName Is Nothing Then  
-              jsonText = jsonText & quoteStr & tmpName.Common & \_  
+              jsonText = jsonText & quoteStr & tmpName.Common & _  
                 quoteStr  
             Else  
-              jsonText = jsonText & quoteStr & errorStr & \_  
+              jsonText = jsonText & quoteStr & errorStr & _  
                 |Unable to obtain Contact Name| & quoteStr  
             End If  
           Else  
              'Unable to get the document  
-             jsonText = jsonText & errorStr & \_  
+             jsonText = jsonText & errorStr & _  
               |Unable to open the contact document| & quoteStr  
           End If  
         Else  
          'Unable to access the View Entry  
-          jsonText = jsonText & quoteStr & errorStr & \_    
+          jsonText = jsonText & quoteStr & errorStr & _
             |Unable to access the ViewEntry| & quoteStr  
         End If  
         'Add a comma if we need one (when there's more than  
@@ -321,17 +321,17 @@ sub GetContactDetails(searchStr As String)
         jsonText = jsonStart  
         'Populate the result fields  
         Set tmpName = New NotesName(userDoc.FullName(0))  
-        jsonText = jsonText & |"FullName" : | & quoteStr & \_  
+        jsonText = jsonText & |"FullName" : | & quoteStr & _  
           tmpName.Abbreviated & quoteStr & comma  
-        jsonText = jsonText & |"LastName" : | &  quoteStr & \_  
+        jsonText = jsonText & |"LastName" : | &  quoteStr & _  
           userDoc.LastName(0) & quoteStr & comma  
-        jsonText = jsonText & |"FirstName" : | &  quoteStr & \_  
+        jsonText = jsonText & |"FirstName" : | &  quoteStr & _  
           userDoc.FirstName(0) & quoteStr & comma  
-        jsonText = jsonText & |"EmailAddress" : | &  quoteStr & \_  
+        jsonText = jsonText & |"EmailAddress" : | &  quoteStr & _  
           userDoc.InternetAddress(0) & quoteStr & comma  
-        jsonText = jsonText & |"OfficePhone" : | &  quoteStr & \_  
+        jsonText = jsonText & |"OfficePhone" : | &  quoteStr & _  
           userDoc.OfficePhoneNumber(0) & quoteStr & comma  
-        jsonText = jsonText & |"MobilePhone" : | &  quoteStr & \_  
+        jsonText = jsonText & |"MobilePhone" : | &  quoteStr & _  
           userDoc.CellPhoneNumber(0) & quoteStr & jsonEnd  
         Print jsonText  
       Else  
