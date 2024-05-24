@@ -19,7 +19,7 @@ You can't tell from the figure, but the input field is a spinner, with up and do
 
 The form's asking me for my desired weight, and I'm trying to enter my desired weight, but it won't let me. I guess, I can't tell from any of the details on the form, they're asking me to enter a weight difference, not an actual weight target – but then how exactly is that a weight goal? By asking me for a weight difference, apparently I'm supposed to be entering a weight loss goal, not a weight goal. Sigh.
 
-Notice too that the input field allows me to spin to a negative number; apparently the developer of this form didn't know about the HTML input field 'min' attribute ([https://www.w3schools.com/tags/att\_input\_min.asp](https://www.w3schools.com/tags/att_input_min.asp){target="_blank"}) that would have allowed him (or her) to restrict the input to only positive numbers.
+Notice too that the input field allows me to spin to a negative number; apparently the developer of this form didn't know about the HTML input field 'min' attribute ([https://www.w3schools.com/tags/att_input_min.asp](https://www.w3schools.com/tags/att_input_min.asp){target="_blank"}) that would have allowed him (or her) to restrict the input to only positive numbers.
 
 Notice as well that I can only set a weight loss goal of 7 lbs. or greater. What if I only needed to lose 5 lbs., apparently I would not be able to set such a worthless goal using this form.
 

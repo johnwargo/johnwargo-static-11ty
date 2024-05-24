@@ -19,14 +19,14 @@ if (! RTC.isrunning()) {
  Serial.println("RTC is NOT running!");  
  // following line sets the RTC to the date & time this   
  // sketch was compiled  
- RTC.adjust(DateTime(\_\_DATE\_\_, \_\_TIME\_\_));  
+ RTC.adjust(DateTime(__DATE__, __TIME__));  
  // DST? If we're in it, let's subtract an hour from the RTC   
  // time to keep our DST calculation correct. This gives us  
  // Standard Time which our DST check will add an hour back to   
  // if we're in DST.  
  DateTime standardTime = RTC.now();  
  // check whether we're in DST right now. If we are, subtract an hour.  
- if (dst\_rtc.checkDST(standardTime) == true) {   
+ if (dst_rtc.checkDST(standardTime) == true) {   
  standardTime = standardTime.unixtime() - 3600;  
  }  
  RTC.adjust(standardTime);  

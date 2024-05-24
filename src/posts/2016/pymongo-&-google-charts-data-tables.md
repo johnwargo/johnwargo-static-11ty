@@ -123,4 +123,4 @@ $.getJSON(chart_url, function () {
 });
 ```
 
-I'm still working on the project, so the code's not complete, but you will be able to find the complete project source code at [https://github.com/johnwargo/pi\_weather\_monitor](https://github.com/johnwargo/pi_weather_monitor){target="_blank"} once I complete the project.
+I'm still working on the project, so the code's not complete, but you will be able to find the complete project source code at [https://github.com/johnwargo/pi_weather_monitor](https://github.com/johnwargo/pi_weather_monitor){target="_blank"} once I complete the project.

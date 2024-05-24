@@ -75,7 +75,7 @@ Where the `cmd=` and `searchStr=` portions of the URL are places where the calli
 To obtain a list of contacts whose last name begins with 'war', the mobile application will call the following URL:
 
 ```text
-https://server\_name/bbnames.nsf/domdirlookuprest?openagent&cmd=list&searchstr=war
+https://server_name/bbnames.nsf/domdirlookuprest?openagent&cmd=list&searchstr=war
 ```
 
 In this case, the cmd is `list` and the searchStr is 'War' – when the agent runs on the Domino server, it will return the following JSON array (assuming that there are two contacts defined in the database whose last names begin with War):
@@ -178,7 +178,7 @@ Sub Initialize()
   Set doc = s.DocumentContext    
   
   'Parse the command line and call the correct function  
-  queryStr = LCase(doc.Query_String_Decoded(0)) & amp  
+  queryStr = LCase(doc.Query_String_Decoded(0)) & amp
   cmdName = GetCmdLineValue(queryStr, "&cmd=", amp)  
   searchStr = GetCmdLineValue(queryStr, "&searchstr=", amp)  
    
@@ -189,7 +189,7 @@ Sub Initialize()
     If cmdName = "list" Then  
       GetContactList(searchStr)  
     Else  
-      'We have an invalid command passed on the Query\_String,  
+      'We have an invalid command passed on the Query_String,  
       'so return an error  
       Print errorStr  
     End If    
@@ -228,8 +228,8 @@ The `GetContactList` subroutine uses the provided searchString to search the con
 ```vb
 sub GetContactList(searchStr As String)  
   
-  Const arrayStart = "\["  
-  Const arrayEnd = "\]"  
+  Const arrayStart = "["  
+  Const arrayEnd = "]"  
   
   'Local Notes objects  
   Dim ve As NotesViewEntry  

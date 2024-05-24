@@ -9,7 +9,7 @@ tags: post
 
 SAP has started producing a series of developer-focused videos. The series is called SAP CodeTalk, and I was asked to participate in the first two videos in the series. You can find the series landing page at [https://www.youtube.com/playlist?list=PL068D7CC6E905E638](https://www.youtube.com/playlist?list=PL068D7CC6E905E638){target="_blank"}.
 
-The first video was recorded with Matt Schmulen from Appcelerator and in the video we talk about how to connect to SAP from an Appcelerator Titanium application using the new OData connector from Appcelerator. You can watch the video here: [https://www.youtube.com/watch?v=cSYu2Np\_U\_U](https://www.youtube.com/watch?v=cSYu2Np_U_U){target="_blank"}.
+The first video was recorded with Matt Schmulen from Appcelerator and in the video we talk about how to connect to SAP from an Appcelerator Titanium application using the new OData connector from Appcelerator. You can watch the video here: [https://www.youtube.com/watch?v=cSYu2Np_U_U](https://www.youtube.com/watch?v=cSYu2Np_U_U){target="_blank"}.
 
 The second video was recorded with Edmund Leung from Sencha and in the video we talk about how to connect to SAP with a Sencha Touch application using Sencha's new OData connector. You can watch the video here: [https://www.youtube.com/watch?v=cYtYxifrb20](https://www.youtube.com/watch?v=cYtYxifrb20){target="_blank"}.
 

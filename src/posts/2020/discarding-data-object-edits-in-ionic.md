@@ -23,4 +23,4 @@ The app's main screen looks like the following figure. It lists a couple of simp
 
 {% image "src/images/2020/home.png", "Application Home", "image-full" %}
 
-I also recorded a video demonstration of the app at [https://www.youtube.com/watch?v=nJPmmxR8\_iY](https://www.youtube.com/watch?v=nJPmmxR8_iY){target="_blank"}
+I also recorded a video demonstration of the app at [https://www.youtube.com/watch?v=nJPmmxR8_iY](https://www.youtube.com/watch?v=nJPmmxR8_iY){target="_blank"}

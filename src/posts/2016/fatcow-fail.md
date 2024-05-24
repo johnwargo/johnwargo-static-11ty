@@ -19,7 +19,7 @@ Let me give you some examples.
 
 Every week or so, I receive the same email from the FatCow Security team:
 
-"During a routine scan, the security team at FatCow discovered infected files in your "account\_name" account. Typically, these security vulnerabilities are due to the presence of an outdated application or script in your account.
+"During a routine scan, the security team at FatCow discovered infected files in your "account_name" account. Typically, these security vulnerabilities are due to the presence of an outdated application or script in your account.
 
 You can view a list of the infected files in the /stats directory of your account, in a file named 'websitescan.txt.' You can find more information on how to access this file, interpret its contents, and remove infected files in the article below: [https://www.fatcow.com/knowledgebase/beta/article.bml?ArticleID=437](https://www.fatcow.com/knowledgebase/beta/article.bml?ArticleID=437){target="_blank"}.
 
@@ -96,7 +96,7 @@ As a result, we had to suspend your account, to avoid problems for site visitors
 
 Once you have taken the necessary action, please reply back to us with the confirmation. I suggest you to use bulk mailer service for emailing purpose. You can use Constant Contact to send out emails. To learn more about this, please refer the URL http://www.fatcow.com/product/constantcontact.bml .
 
-If this is not your script, it suggests that your account has been compromised. To learn more about reasons for account getting hacked and the ways to prevent it, please visit the KB link: http://www.fatcow.com/knowledgebase/beta/article.bml?ArticleID=2324#Nugget\_5264 .
+If this is not your script, it suggests that your account has been compromised. To learn more about reasons for account getting hacked and the ways to prevent it, please visit the KB link: http://www.fatcow.com/knowledgebase/beta/article.bml?ArticleID=2324#Nugget_5264 .
 
 In order to re-enable the account, we ask you or your administrator reply to this message after taking necessary action on the script specified above.
 

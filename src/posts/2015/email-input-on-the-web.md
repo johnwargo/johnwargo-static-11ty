@@ -11,7 +11,7 @@ If you access web applications from a smartphone, you may be asked to provide an
 
 One of the things that HTML5 gives mobile developers is a special input type for email addresses that simplifies email input for users. Unfortunately, most web developers haven't implemented this cool feature yet, and the result for end users is that every one of us has to work harder to input our email address in these applications.
 
-To highlight how this works, I created a sample application that demonstrates the hard way then the easy way to accept email address input in a web application. You'll see screen shots of the application in operation later in the article. You can find the sample application on my GitHub account at [https://github.com/johnwargo/email\_input](https://github.com/johnwargo/email_input){target="_blank"}.
+To highlight how this works, I created a sample application that demonstrates the hard way then the easy way to accept email address input in a web application. You'll see screen shots of the application in operation later in the article. You can find the sample application on my GitHub account at [https://github.com/johnwargo/email_input](https://github.com/johnwargo/email_input){target="_blank"}.
 
 It seems that most web applications today use the default HTML text input field to capture email addresses:
 

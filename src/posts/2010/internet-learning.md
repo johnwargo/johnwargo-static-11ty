@@ -11,7 +11,7 @@ I've been reading Wired Magazine (www.wired.com) since issue #3. I read about a 
 
 I still enjoy reading it although in these 18 years, I've still NEVER read any of the interviews they do. They always seem to interview people I have never heard of and even the short parts of some I've looked at, they never seem to look interesting.
 
-In last month's issue, there was a very interesting article by Nicholas Carr called The Web Shatters Focus, Rewires Brains ([https://www.wired.com/magazine/2010/05/ff\_nicholas\_carr/](https://www.wired.com/magazine/2010/05/ff_nicholas_carr/){target="_blank"}). Nicholas was the guy who wrote years ago about whether IT Mattered ([https://www.nicholasgcarr.com/articles/matter.html](https://www.nicholasgcarr.com/articles/matter.html){target="_blank"}) that apparently got a lot of people stirred up.
+In last month's issue, there was a very interesting article by Nicholas Carr called The Web Shatters Focus, Rewires Brains ([https://www.wired.com/magazine/2010/05/ff_nicholas_carr/](https://www.wired.com/magazine/2010/05/ff_nicholas_carr/){target="_blank"}). Nicholas was the guy who wrote years ago about whether IT Mattered ([https://www.nicholasgcarr.com/articles/matter.html](https://www.nicholasgcarr.com/articles/matter.html){target="_blank"}) that apparently got a lot of people stirred up.
 
 Anyway, in this article in Wired, Nicholas published an article adopted from his upcoming book called “The Shallows: What the Internet Is Doing to Our Brains.” It provided some analysis of basically how the Internet is affecting us and our ability to pay attention to things has been changed because of it. What struck me was the following paragraph:
 

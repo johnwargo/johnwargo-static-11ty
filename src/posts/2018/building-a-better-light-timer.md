@@ -149,9 +149,9 @@ The project's Wi-Fi configuration settings are stored in a file called wi-fi-con
 ```c
 // Populate the defines below with the settings for your Wi-Fi network  
 // Network SSID (name)  
-#define wifi\_ssid ""  
+#define wifi_ssid ""  
 // SSID password (use for WPA, or use as key for WEP)  
-#define wifi\_pass ""
+#define wifi_pass ""
 ```
 
 Populate the `wifi_ssid` and `wifi_pass` values with the appropriate values for your network. The `wifi_ssid` refers to the network name for your Wi-Fi network. This is the value you'll see when you open your smartphone's Wi-Fi settings and your network appears in the list of available networks. The `wifi_pass` value refers to the password you need to connect to the Wi-Fi network specified in `wifi_ssid`.
@@ -196,7 +196,7 @@ Finally, the app knows when to turn the lights on and off based on settings defi
 // {1700, 2300}  
 // Turn the relay on at 5:30 AM, turn the relay off at 7:00 AM.  
 // {530, 700}  
-int slots\[NUMSLOTS\]\[2\] = {  
+int slots[NUMSLOTS][2] = {  
  { 600, 800 },  
  {2000, 2300}   
  //BE SURE TO UPDATE THE NUMSLOTS CONSTANT IF YOU ADD/REMOVE  

@@ -39,8 +39,8 @@ There's still the issue where any iPhone prior to the 3GS would report to Active
   
 * [https://www.27001.com/massachusetts-data-protection-law.aspx](https://www.27001.com/massachusetts-data-protection-law.aspx){target="_blank"}
 * [https://www.mass.gov/Eoca/docs/idtheft/201CMR17faqs.pdf](https://www.mass.gov/Eoca/docs/idtheft/201CMR17faqs.pdf){target="_blank"}
-* [https://searchsecurity.techtarget.com/news/article/0,289142,sid14\_gci1347836,00.html#](https://searchsecurity.techtarget.com/news/article/0,289142,sid14_gci1347836,00.html){target="_blank"}
-* [https://www.alertboot.com/blog/blogs/endpoint\_security/archive/2009/01/06/massachusetts-data-encryption-law-201-cmr-17-00.aspx](https://www.alertboot.com/blog/blogs/endpoint_security/archive/2009/01/06/massachusetts-data-encryption-law-201-cmr-17-00.aspx){target="_blank"}
+* [https://searchsecurity.techtarget.com/news/article/0,289142,sid14_gci1347836,00.html#](https://searchsecurity.techtarget.com/news/article/0,289142,sid14_gci1347836,00.html){target="_blank"}
+* [https://www.alertboot.com/blog/blogs/endpoint_security/archive/2009/01/06/massachusetts-data-encryption-law-201-cmr-17-00.aspx](https://www.alertboot.com/blog/blogs/endpoint_security/archive/2009/01/06/massachusetts-data-encryption-law-201-cmr-17-00.aspx){target="_blank"}
   
 In the case of the iPhone, enterprises would believe it's encrypted and they're in compliance with the law when on older iPhones it won't be the case even though the device is saying it is. Not good for enterprises.  
   

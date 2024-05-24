@@ -49,35 +49,35 @@ import net.rim.device.api.system.Sensor;
   
 public class SensorTest extends UiApplication implements SensorListener {  
   
-public static void main(String\[\] args) {  
-SensorTest st = new SensorTest();  
-st.enterEventDispatcher();  
+  public static void main(String[] args) {  
+    SensorTest st = new SensorTest();  
+    st.enterEventDispatcher();  
+  }  
+    
+  public SensorTest() {  
+    pushScreen(new SensorTestScreen());  
+    Sensor.addListener(Application.getApplication(), this, Sensor.HOLSTER);  
+  }  
+    
+  public void onSensorUpdate(int sensorId, int update) {  
+    if (update == Sensor.STATE_IN_HOLSTER) {  
+      Dialog.alert("Device is holstered");                
+    } else {  
+      Dialog.alert("Device is not holstered");  
+    }  
+  }  
+    
 }  
-  
-public SensorTest() {  
-pushScreen(new SensorTestScreen());  
-Sensor.addListener(Application.getApplication(), this, Sensor.HOLSTER);  
-}  
-  
-public void onSensorUpdate(int sensorId, int update) {  
-if (update == Sensor.STATE\_IN\_HOLSTER) {  
-Dialog.alert("Device is holstered");                
-} else {  
-Dialog.alert("Device is not holstered");  
-}  
-}  
-  
-}  
-  
+    
 final class SensorTestScreen extends MainScreen {  
-  
-public SensorTestScreen() {  
-super();  
-// Create the screen's title  
-LabelField lblTitle = new LabelField("Sensor Test", LabelField.ELLIPSIS  
-| LabelField.USE\_ALL\_WIDTH);  
-setTitle(lblTitle);  
-}  
+    
+  public SensorTestScreen() {  
+    super();  
+    // Create the screen's title  
+    LabelField lblTitle = new LabelField("Sensor Test", LabelField.ELLIPSIS  
+    | LabelField.USE_ALL_WIDTH);  
+    setTitle(lblTitle);  
+  }  
   
 }
 ```

@@ -11,7 +11,7 @@ I had an idea for a project, a Raspberry Pi-based power controller for my media 
 
 **Note**: At the time, this was the only directly-mountable relay board I could find for the Raspberry Pi. Since then, I found another one in the ModMyPi PiOT Relay Board ([https://www.modmypi.com/raspberry-pi/breakout-boards/modmypi/modmypi-piot-relay-board](https://www.modmypi.com/raspberry-pi/breakout-boards/modmypi/modmypi-piot-relay-board){target="_blank"}). I'll play with that one soon and publish my findings here; stay tuned.
 
-When I finally got around to playing with the hardware, I used (or should I say tried to use) Seeed Studio's Wiki Page for the board ([https://wiki.seeed.cc/Raspberry\_Pi\_Relay\_Board\_v1.0/](https://wiki.seeed.cc/Raspberry_Pi_Relay_Board_v1.0/){target="_blank"}) to guide my efforts. Unfortunately, I quickly learned that the article was incomplete and didn't have everything I needed to work with the board. I mounted the board on my Raspberry Pi, powered it up, ran their sample test application, and got nowhere. It simply didn't work.
+When I finally got around to playing with the hardware, I used (or should I say tried to use) Seeed Studio's Wiki Page for the board ([https://wiki.seeed.cc/Raspberry_Pi_Relay_Board_v1.0/](https://wiki.seeed.cc/Raspberry_Pi_Relay_Board_v1.0/){target="_blank"}) to guide my efforts. Unfortunately, I quickly learned that the article was incomplete and didn't have everything I needed to work with the board. I mounted the board on my Raspberry Pi, powered it up, ran their sample test application, and got nowhere. It simply didn't work.
 
 I sent Seeed Studios an email asking for help and posted a couple of questions on their community forums, but had to wait more than a month to get a response. When I finally did hear back, it was to let me know that they were on vacation and it would be an even longer wait for help. Sigh. Finally, they contacted me and offered to help.
 
@@ -104,7 +104,7 @@ When prompted for input, you'll type commands to turn the relays on and off:
 
 ## Using The Python Module
 
-To use the module in your own Python applications, copy the module (relay\_lib\_seeed.py) into your project folder, then import the module in your Python application by adding the following line to the beginning of your application:
+To use the module in your own Python applications, copy the module (relay_lib_seeed.py) into your project folder, then import the module in your Python application by adding the following line to the beginning of your application:
 
 ```python
 from relay_lib_seeed import *

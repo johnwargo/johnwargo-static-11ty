@@ -9,7 +9,7 @@ tags: post
 
 As I strive to pick up new technologies and start new projects, I'm regularly finding myself registering for new services, accounts or access to specific websites or forums. As part of this process, I've noticed two things:
 
-1.  Very few web form developers use the (no longer) new HTML input types ([https://www.w3schools.com/html/html\_form\_input\_types.asp](https://www.w3schools.com/html/html_form_input_types.asp){target="_blank"}) like email, date, time, url, and so on.
+1.  Very few web form developers use the (no longer) new HTML input types ([https://www.w3schools.com/html/html_form_input_types.asp](https://www.w3schools.com/html/html_form_input_types.asp){target="_blank"}) like email, date, time, url, and so on.
 2.  Security requirements force a specific set of minimum password requirements, but web form developers rarely let you know that they even exist, or what they are, until AFTER you've submitted credentials that don't meet the requirements.
 
 In my mind, the first one indicates that the developer isn't thinking about mobile users (which have special keyboards for the specific input types) and isn't interested in making input easier on mobile devices. I wrote a post about this topic and shared some examples, so this isn't the focus of this post.

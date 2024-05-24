@@ -38,7 +38,7 @@ proxy : {
   enablePagingParams : false,  
   reader : {  
     type : 'json',  
-    rootProperty : 'ci\_data'  
+    rootProperty : 'ci_data'  
   }  
 }
 ```
@@ -93,7 +93,7 @@ proxy : {
   },  
   reader : {  
     type : 'json',  
-    rootProperty : 'ci\_data'  
+    rootProperty : 'ci_data'  
   }  
 }
 ```

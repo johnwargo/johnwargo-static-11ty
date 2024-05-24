@@ -30,13 +30,13 @@ Once I did that, the Domino server stopped blocking my requests and everything w
 Yesterday, I was working on the Sencha Touch application and read and create worked great, but as soon as I started editing records in the database I started getting the following error on the server:
 
 ```text
-04/10/2013 07:47:48 AM HTTP Web Server: The HTTP method is not allowed for the specified URL \[/view/compete.nsf/(rest2)?openagent/2035EE2523E794D785257B4900086A2C&\_dc=1365594468245\] Anonymous
+04/10/2013 07:47:48 AM HTTP Web Server: The HTTP method is not allowed for the specified URL [/view/compete.nsf/(rest2)?openagent/2035EE2523E794D785257B4900086A2C&_dc=1365594468245] Anonymous
 ```
 
 I looked in the Domino log and saw that the problematic URL was:
 
 ```text
-PUT /view/compete.nsf/(rest2)?openagent/2035EE2523E794D785257B4900086A2C&\_dc=1365592049449 HTTP/1.1
+PUT /view/compete.nsf/(rest2)?openagent/2035EE2523E794D785257B4900086A2C&_dc=1365592049449 HTTP/1.1
 ```
 
 You can see the complete Domino log entry in Figure 3.

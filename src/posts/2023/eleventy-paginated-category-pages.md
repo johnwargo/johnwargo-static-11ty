@@ -207,13 +207,13 @@ Validating project folder
 Locating configuration file
 Configuration file located, validating
 Reading template file 11ty-cat-pages.liquid
-Reading existing categories file D:\dev\node\11ty-cat-pages\src\_data\categoryData.json
+Reading existing categories file D:\dev\node\11ty-cat-pages\src_data\categoryData.json
 Building file list...
 Located 6 files
 Building category list...
 Deleting unused categories (from previous runs)
 Identified 6 categories
-Writing categories list to D:\dev\node\11ty-cat-pages\src\_data\categoryData.json
+Writing categories list to D:\dev\node\11ty-cat-pages\src_data\categoryData.json
 Writing category page: D:\dev\node\11ty-cat-pages\src\categories\cats.liquid
 Writing category page: D:\dev\node\11ty-cat-pages\src\categories\dogs.liquid
 Writing category page: D:\dev\node\11ty-cat-pages\src\categories\turtles.liquid

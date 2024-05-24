@@ -9,8 +9,8 @@ tags: post
 
 I've coded a few Raspberry Pi Python projects recently that need to execute when the device boots:
 
-* Raspberry Pi Weather Station: [https://github.com/johnwargo/pi\_weather\_station](https://github.com/johnwargo/pi_weather_station){target="_blank"}
-* Raspberry Pi Reminder App: [https://github.com/johnwargo/pi\_remind](https://github.com/johnwargo/pi_remind){target="_blank"}
+* Raspberry Pi Weather Station: [https://github.com/johnwargo/pi_weather_station](https://github.com/johnwargo/pi_weather_station){target="_blank"}
+* Raspberry Pi Reminder App: [https://github.com/johnwargo/pi_remind](https://github.com/johnwargo/pi_remind){target="_blank"}
 
 As these apps throw status and diagnostic information out to the console as they run, I wanted to be able to run the applications in a terminal window once the Pi boots. I poked and prodded at Google search results and found a couple of solutions, but, until recently, none of them worked quite right for me. I finally figured out why, so I thought I'd write about it here.
 

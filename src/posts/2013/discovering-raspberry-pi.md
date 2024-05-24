@@ -25,7 +25,7 @@ I'm not going to go into all of the details here, there's some good books on the
 
 I ordered a few 8 GB SD cards yesterday. I'm going to set one up for my daughter so she can work with Scratch in her own environment. I have a 32 GB card I'm going to use as my personal playground – along with the default debian distro, there are Fedora and other Linux distributions available for the Pi, so I'm going to give them a try.
 
-There's also a XBMC Media Center distro for the Pi ([https://wiki.xbmc.org/index.php?title=Raspberry\_Pi](https://wiki.xbmc.org/index.php?title=Raspberry_Pi){target="_blank"}) that I'm going to download and play with. I'm a HUGE fan of the Sonos players, but I'm going to see if I can setup the Pi in my living room and pull my (legally obtained) music from my Windows server.  I'll probably write about that here later.
+There's also a XBMC Media Center distro for the Pi ([https://wiki.xbmc.org/index.php?title=Raspberry_Pi](https://wiki.xbmc.org/index.php?title=Raspberry_Pi){target="_blank"}) that I'm going to download and play with. I'm a HUGE fan of the Sonos players, but I'm going to see if I can setup the Pi in my living room and pull my (legally obtained) music from my Windows server.  I'll probably write about that here later.
 
 Next on my list of things to play with is the Arduino, an open source, programmable microcontroller. I'm not much of an electronics guy, but I truly want to be one. I imagine a programmed microcontroller in a pumpkin sitting on my front porch at Halloween.  Also, my son and I have some interesting ideas about what we want to do with his Pinewood Derby car next year.
 

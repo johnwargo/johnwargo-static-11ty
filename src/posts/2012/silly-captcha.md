@@ -24,7 +24,7 @@ Or is it this:
 
 Having a degree in Physics and more than 30 years of experience as a professional software developer, I was certain I knew what I was doing. However, I'd be lying if I told you I got this right on the first try.
 
-All of my years of experience with math told me that the actual problem I was trying to solve was this: 6 – (2 x 3). Everything I knew from high school and college told me that without parenthesis clarifying the problem, the more complicated math happened first followed by less complicated. Even Wikipedia confirmed this here: [https://en.wikipedia.org/wiki/Order\_of\_operations](https://en.wikipedia.org/wiki/Order_of_operations){target="_blank"}.
+All of my years of experience with math told me that the actual problem I was trying to solve was this: 6 – (2 x 3). Everything I knew from high school and college told me that without parenthesis clarifying the problem, the more complicated math happened first followed by less complicated. Even Wikipedia confirmed this here: [https://en.wikipedia.org/wiki/Order_of_operations](https://en.wikipedia.org/wiki/Order_of_operations){target="_blank"}.
 
 The answer's Zero, right?
 
