@@ -160,6 +160,14 @@
     "imageAttribution": "https://nodejs.org/"
   },
   {
+    "category": "Project Builds",
+    "count": 1,
+    "description": "",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
     "category": "Static Site Generators",
     "count": 6,
     "description": "Anything related to Static Site Generators.",
