@@ -81,7 +81,7 @@
   },
   {
     "category": "Flutter",
-    "count": 5,
+    "count": 6,
     "description": "Articles related to Flutter development; either lessons learned or projects I created.",
     "imageFilePath": "/images/headers/flutter-cropped.jpg",
     "imageAltText": "A screen shot of the Flutter home page",
@@ -145,7 +145,7 @@
   },
   {
     "category": "Mobile Development",
-    "count": 96,
+    "count": 97,
     "description": "Posts related to mobile app development, something I live for a very long time.",
     "imageFilePath": "/images/headers/ilgmyzin-Xe21OFRpqvk-unsplash-cropped.jpg",
     "imageAltText": "Mobile Apps",
