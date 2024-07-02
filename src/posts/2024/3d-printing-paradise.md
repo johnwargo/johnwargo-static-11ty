@@ -1,14 +1,22 @@
 ---
 title: 3D Printing Paradise
-description: 
+description: I bought a 3D printer during the pandemic but struggled with it, so
+  I upgraded to a P1S printer from Bambu Lab. The new printer is enclosed,
+  self-leveling, and fast, making it easier to use. My daughter loves using it
+  for cosplay projects. I also bought a lot of filament and have been impressed
+  by the quality of free models available online. I recently used the printer to
+  create a wooden enclosure for a T5 e-Paper display unit, but had to find a 3D
+  printer plan for a better fit due to the unit's design. The prints turned out
+  amazing, and I'm excited to see the final result.
 date: 2024-07-01
 showCoffee: true
-headerImage: 
-headerImageAltText: 
-headerImageAttribution: 
+headerImage: null
+headerImageAltText: null
+headerImageAttribution: null
 categories:
   - Project Builds
 timestamp: 2024-07-02T00:40:48.285Z
+generatedDescription: true
 ---
 
 During the pandemic, I convinced (begged and pleaded with) my wife to let me buy a 3D printer "for the family!"  I always wanted one, and I saw two years at home locked in with my family as a chance to actually get one. My former manager at Microsoft recommended an I3 printer and it was a great starter printer for less than $300, so I quickly ordered one. I don't think my former manager liked me very much, so perhaps that guided his recommendation, but the recommended I3 was definitely a starter printer. 
