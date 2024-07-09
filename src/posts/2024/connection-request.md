@@ -1,6 +1,6 @@
 ---
 title: Connection Request
-description: 
+description: I often get LinkedIn connection requests where I just don't understand the potential connection value.
 date: 2024-07-09
 showCoffee: true
 headerImage: 
