@@ -7,7 +7,7 @@ headerImage:
 headerImageAltText: 
 headerImageAttribution: 
 categories:
-  - Miscellaneous
+  - Phishing
 ---
 
 It's been a long time since I've torn apart a spam message here. My daughter sent me a screen shot of a text message she received yesterday (supposedly from the United States Postal Service (USPS) and I thought I'd share the screen shot and debunk it.

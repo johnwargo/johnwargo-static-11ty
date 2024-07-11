@@ -7,7 +7,7 @@ headerImage:
 headerImageAltText: 
 headerImageAttribution: 
 categories:
-  - Miscellaneous
+  - Phishing
 timestamp: 2024-04-14T12:21:25.987Z
 ---
 

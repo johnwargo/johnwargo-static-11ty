@@ -1,5 +1,5 @@
 ---
-title: Chase Bank Phishing
+title: Spam Chase Bank Autopay Halted
 description: I received a phishing attempt the other day and thought I'd poke some holes in it.
 date: 2024-06-29
 showCoffee: true
@@ -7,7 +7,7 @@ headerImage:
 headerImageAltText: 
 headerImageAttribution: 
 categories:
-  - Miscellaneous
+  - Phishing
 timestamp: 2024-06-29T19:35:04.669Z
 ---
 

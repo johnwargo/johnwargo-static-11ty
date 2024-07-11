@@ -129,7 +129,7 @@
   },
   {
     "category": "Miscellaneous",
-    "count": 149,
+    "count": 146,
     "description": "Posts that didn't fit in any other categories.",
     "imageFilePath": "/images/headers/marcos-paulo-prado-DwKo9S5sewA-unsplash-cropped.jpg",
     "imageAltText": "random bands of color",
@@ -158,6 +158,14 @@
     "imageFilePath": "/images/headers/nodejs-cropped.jpg",
     "imageAltText": "A screen shot of the node.js home page",
     "imageAttribution": "https://nodejs.org/"
+  },
+  {
+    "category": "Phishing",
+    "count": 4,
+    "description": "",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
   },
   {
     "category": "Project Builds",
