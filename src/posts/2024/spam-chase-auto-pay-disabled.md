@@ -28,7 +28,7 @@ And here's the content from the email (just to help search engines find it):
 
 ## Initial Take on the Email
 
-I knew it was a phishing attempt because:
+I know it is spam or a phishing attempt because:
 
 1. I'm not a Chase customer (I was, but I'm not anymore).
 2. I don't have any auto pay setup with Chase (you know, because I'm not a customer).
