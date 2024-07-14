@@ -28,7 +28,9 @@ That's when I realized that I could make a Router template to cut the oval just 
 
 {% image "src/images/2024/owl-house-template-tinkercad.png", "Owl House Oval Template in TinkerCAD", "image-full" %}
 
-Now, the original oval piece was 3x4 inches, but when working with a router, I had to take into account the thickness of the router bushing (shown below) used to hold the router and bit within the template. So I measured the distance from the outside of the bushing (shown below) to the outside edge of the straight router bit (not shown, sorry) I used with the template. That distance is 1/8th of an inch, so I added that to all sides of my oval in the template, making the templated oval 3.25" by 4.25". 
+Now, the original oval piece was 3x4 inches, but when working with a router, I had to take into account the thickness of the router bushing (shown below) used to hold the router and bit within the template. So I measured the distance from the outside of the bushing (shown below) to the outside edge of the straight router bit (not shown, sorry) I used with the template. I used the [Short Shank Guide Bushing and Nut, 5/8"](https://www.rockler.com/short-shank-guide-bushing-and-nut-5-8){target="_blank"} for this project (because that's what I had in my shop).
+
+That distance is 1/8th of an inch, so I added that to all sides of my oval in the template, making the templated oval 3.25" by 4.25". 
 
 {% image "src/images/2024/owl-house-router-bushing.jpg", "Router Bushing", "image-full" %}
 
@@ -45,3 +47,7 @@ The following image was taken after I completed cutting the oval, but it shows h
 When I routed the hole, I used clamps to secure the cutting area off of the edge of my assembly table - so I wouldn't cut my assembly table top. 
 
 {% image "src/images/2024/owl-house-template-routed.jpg", "The finished oval hole the my owl house front facing", "image-full" %}
+
+The only problem I encountered was that I didn't make the template large enough. I should have given myself three inches in all dimensions as a solid base for the router.
+
+I published the template on [Thingverse](https://www.thingiverse.com/thing:6696225){target="_blank"}; please let me know if this helps you. 
