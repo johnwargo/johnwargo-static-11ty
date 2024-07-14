@@ -1,5 +1,13 @@
 [
   {
+    "category": "3D Printing",
+    "count": 1,
+    "description": "",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
     "category": "Arduino",
     "count": 15,
     "description": "Articles related to lessons learned or projects built using Arduino devices or Arduino-compatible devices.",
@@ -170,7 +178,7 @@
   {
     "category": "Project Builds",
     "count": 3,
-    "description": "",
+    "description": "Posts that generally cover my analysis of spam and phising messages I receive from time to time.",
     "imageFilePath": "",
     "imageAltText": "",
     "imageAttribution": ""
@@ -206,5 +214,13 @@
     "imageFilePath": "/images/headers/towfiqu-barbhuiya-oZuBNC-6E2s-unsplash-cropped.jpg",
     "imageAltText": "An image of a question mark",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@towfiqu999999?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Towfiqu barbhuiya</a> on <a href=\"https://unsplash.com/photos/oZuBNC-6E2s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
+  },
+  {
+    "category": "Woodworking",
+    "count": 1,
+    "description": "",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
   }
 ]
