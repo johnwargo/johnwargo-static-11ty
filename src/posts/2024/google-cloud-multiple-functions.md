@@ -13,6 +13,8 @@ categories:
 
 In my previous post [Coding Google Functions Using TypeScript](/posts/2024/google-cloud-functions-typescript/){target="_blank"} I showed how to code Google Functions using TypeScript. Something else I wanted for my Google Cloud Functions project was to be able to manage multiple functions in a single GitHub project. This post describes how to do it.
 
+## Cloud Function Weirdness
+
 One of the things that really surprises me about many of the Cloud Functions offerings is that the cloud providers design their solutions so that every function is treated separately by the cloud.  For example, OCI based their Functions offering on the [fn project](https://fnproject.io/){target="_blank"} which creates and deploys a separate docker container for each function. 
 
 In Google Cloud Functions, I don't know what the underpinnings are, but they treat each function separately as well. To create a function, you login to the Google Cloud console, navigate to your Functions project, then click **Create** to make a new function. Once the console creates the function, you must download the function's code as a zip file and extract it to your local development system in a separate folder for each function.
@@ -64,6 +66,8 @@ That's the root `index.ts` file for the Firebase Functions project and it loads 
 
 It just makes no sense to me to force developers to treat each function as a separate project folder. Especially when it comes to deploying the functions, you must execute the cloud platform's CLI `deploy` command individually for each functions folder. If I was an Enterprise developer building a huge app, I'd be pulling out what's left of my hair dealing with this ridiculousness.
 
+## Multiple Google Cloud Functions in a Project
+
 So, back to my Google Cloud Functions (GCF) project. 
 
 My site uses three cloud functions, two that deal with Google Analytics and another that pulls in my [GoodReads feed](https://www.goodreads.com/user/show/51500942-john-wargo){target="_blank"}. 
@@ -74,7 +78,9 @@ I followed the process to create each of the functions in the Google Cloud conso
 
 {% image "src/images/2024/windows-file-explorer-gcp-functions.png", "Windows File Explorer showing the project folder", "image-full" %}
 
-I made the whole folder (with each of the Functions folders) into a git repository and published the project to GitHub. In Visual Studio code, I navigate to each folder using the terminal to code, test, and deploy each function individually. This is slightly annoying, but at least I have everything in one GitHub project so I can easily work on my functions project on different development systems. 
+I made the whole folder (containing the different Functions folders) into a git repository and published the project to GitHub. In Visual Studio code, I navigate to each folder using the terminal to code, test, and deploy each function individually. This is slightly annoying, but at least I have everything in one GitHub project so I can easily work on my functions project on different development systems. 
+
+## Automating Deployment of Multiple Google Cloud Functions
 
 What I needed though was a way to publish all of my functions together with one command. The Firebase CLI offers this, but the Google Cloud CLI does not. I could work on each function until they were all tested and ready to go, then execute this one command to publish all of them.
 
