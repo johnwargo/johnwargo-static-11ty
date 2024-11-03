@@ -55,6 +55,12 @@ div.wim p {
   margin: 0;
 }
 
+@media (max-width: 700px) {
+  div.wim {
+    margin-right: 1.5rem;
+  }
+}
+
 @media screen and (max-width: 480px) {
   #header .logo img {
     height: 2rem;
