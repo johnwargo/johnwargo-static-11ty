@@ -18,7 +18,7 @@
   font-size: 0.5rem;
   color: black;
   border: 1px solid #999;
-  position:relative;
+  position: relative;
   top: -1px;
 }
 
@@ -28,6 +28,31 @@
   height: 3rem;
   margin-right: 0.8rem;
   border-radius: 3px;
+}
+
+pre[class*="language-"] {
+  margin: .5em 0 1em;
+}
+
+/*********************************
+ What it means block
+ Added by Scott good 20241103 
+*********************************/
+
+div.wim {
+  padding: 1.5rem 1.5rem 1.8rem 1.5rem;
+  margin: 1.5rem 4rem 1.6rem 1.5rem;
+  background: #f5f5f5;
+  border: 2pt solid #ccc;
+  box-shadow: 5px 5px 5px #eee;
+}
+
+div.wim h3 {
+  margin: 0 0 0.6rem;
+}
+
+div.wim p {
+  margin: 0;
 }
 
 @media screen and (max-width: 480px) {
@@ -40,4 +65,5 @@
     position: relative;
     top: -0.2rem;
   }
+
 }

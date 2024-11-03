@@ -39,24 +39,14 @@
 		],
 		"description": "Liquid Code Block"
 	},
-	"Key Takeaway": {
+	"Sidebar": {
 		"scope": "markdown, liquid",
-		"prefix": "!takeaway",
+		"prefix": "!sidebar",
 		"body": [
-			"{% takeaway %}",
+			"{% sidebar \"\" %}",
 			"",
-			"{% endtakeaway %}"
+			"{% endsidebar %}"
 		],
-		"description": "Key Takeaway Block"
-	},
-	"What it Means": {
-		"scope": "markdown, liquid",
-		"prefix": "!wim",
-		"body": [
-			"{% wim %}",
-			"",
-			"{% endwim %}"
-		],
-		"description": "What it Means Block"
+		"description": "What it Means Block (Sidebar)"
 	}
 }

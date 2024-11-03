@@ -19,11 +19,11 @@ License: pixelarity.com/license
     {% if categories %}<meta name="keywords" content="{% GetKeywords categories %}">{% endif %}
     <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="{{ "/" | htmlBaseUrl }}assets/css/main.css" />
-    <link rel="stylesheet" href="{{ "/" | htmlBaseUrl }}assets/css/scott.css" />
     {% if page.url == '/sites/' or page.url == '/projects/' %}
       <link rel="stylesheet" href="{{ "/" | htmlBaseUrl }}assets/css/sites.css" />
     {% endif %}
     <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ "/" | htmlBaseUrl }}assets/css/scott.css" />
     {% include 'icons.html' %}
     {% include 'google-analytics.html' %}
   </head>
