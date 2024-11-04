@@ -64,14 +64,14 @@ Next, I added a paired shortcode to the site:
 eleventyConfig.addPairedShortcode("sidebar", function (content, title = "What it Means") {
   // What it means (WIM) block
   var paragraphs = content.split(/(?:\r?\n)+/);
-  var kt = '<div class="wim">';
-  kt += `<h3>${title}</h3>`;
+  var rc = '<div class="wim">';
+  c += `<h3>${title}</h3>`;
   paragraphs.forEach(paragraph => {
     if (paragraph.trim() === '') return;
-    kt += `<p>${paragraph}</p>`;
+    rc += `<p>${paragraph}</p>`;
   });
-  kt += '</div>';
-  return kt;
+  rc += '</div>';
+  return rc;
 });
 ```
 

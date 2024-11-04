@@ -120,14 +120,14 @@ module.exports = eleventyConfig => {
 	eleventyConfig.addPairedShortcode("sidebar", function (content, title = "What It Means") {
 		// What it means (WIM) block
 		var paragraphs = content.split(/(?:\r?\n)+/);
-		var kt = '<div class="wim">';
-		kt += `<h3>${title}</h3>`;
+		var rc = '<div class="wim">';
+		rc += `<h3>${title}</h3>`;
 		paragraphs.forEach(paragraph => {
 			if (paragraph.trim() === '') return;
-			kt += `<p>${paragraph}</p>`;
+			rc += `<p>${paragraph}</p>`;
 		});
-		kt += '</div>';
-		return kt;
+		rc += '</div>';
+		return rc;
 	});
 
 	// https://www.raymondcamden.com/2020/06/24/adding-algolia-search-to-eleventy-and-netlify
