@@ -18,8 +18,8 @@ License: pixelarity.com/license
     {% if description %}<meta name="description" content="{{ description }}" />{% endif %}
     {% if categories.length > 0 %}<meta name="keywords" content="{% GetKeywords categories %}">{% endif %}
     <link rel="manifest" href="/manifest.json">
-    <link rel="stylesheet" href="{{ "/" | htmlBaseUrl }}assets/css/main.css" />
-    <link rel="stylesheet" href="{{ "/" | htmlBaseUrl }}assets/css/scott.css" />
+    <link rel="stylesheet" href="{{ '/' | htmlBaseUrl }}assets/css/main.css" />
+    <link rel="stylesheet" href="{{ '/' | htmlBaseUrl }}assets/css/scott.css" />
     {% include 'icons.html' %}
     {% include 'google-analytics.html' %}
   </head>

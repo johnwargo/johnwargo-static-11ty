@@ -16,16 +16,16 @@ layout: home
     <p>Welcome to the Internet Home of John M. Wargo; I created this site back in 2009 so I could post articles about things that interested me. Herein you’ll find articles on a lot of different topic areas: Mobile development, Web development, Internet of Things (IoT), and a lot more. Every time I learn some new technology or complete some cool or interesting development or IoT project I publish an article here.</p>
     <p>You’ll also find information about my books, source code projects on GitHub, and articles published in or on other sites or magazines, even videos of my many conference presentations or project demonstrations. I’m also especially fond of the series of Stupid Developer Tricks posts.</p>
     <p>You can view
-      <a href="{{ "/" | htmlBaseUrl }}articles">all articles</a>
+      <a href="{{ '/' | htmlBaseUrl }}articles/">all articles</a>
       in reverse chronological order, or you can find
-      <a href="{{ "/" | htmlBaseUrl }}categories">articles by category</a>. Of course, if you can’t find what you need in those views, use
-      <a href="{{ "/" | htmlBaseUrl }}search">Search</a>
+      <a href="{{ '/' | htmlBaseUrl }}categories/">articles by category</a>. Of course, if you can’t find what you need in those views, use
+      <a href="{{ '/' | htmlBaseUrl }}search/">Search</a>
       to find anything anywhere on the site.</p>
   </section>
 
   <section>
     <h2>
-      <a href="{{ "/" | htmlBaseUrl }}articles">Recent Posts</a>
+      <a href="{{ '/' | htmlBaseUrl }}articles/">Recent Posts</a>
     </h2>
     <ul class="posts">
       <li>{% include 'ai-disclaimer.html' %}</li>      
@@ -44,7 +44,7 @@ layout: home
             {%- if post.data.categories.length > 0 %}
               | <strong>Categories:</strong>
               {%- for cat in post.data.categories %}
-                <a href="/categories/{{ cat | slugify }}">{{ cat | strip }}</a>
+                <a href="/categories/{{ cat | slugify }}/">{{ cat | strip }}</a>
                 {%- unless forloop.last %},
                 {% endunless %}
               {% endfor %}
@@ -58,19 +58,19 @@ layout: home
         </li>
       {% endfor %}
     </ul>
-    <a href="/articles" class="button">See the Full List</a>
+    <a href="/articles/" class="button">See the Full List</a>
   </section>
 
   <!-- Features -->
   <section class="features alt">
     <article class="icon solid fa-newspaper">
-      <a href="{{ "/" | htmlBaseUrl }}articles">
+      <a href="{{ '/' | htmlBaseUrl }}articles/">
         <h3>All Articles</h3>
       </a>
       <p>View the {{ latest_posts.length | commaize }} articles on this site in reverse chronological order.</p>
     </article>
     <article class="icon solid fa-layer-group">
-      <a href="{{ "/" | htmlBaseUrl }}categories">
+      <a href="{{ '/' | htmlBaseUrl }}categories/">
         <h3>Categories</h3>
       </a>
       <p>View a list of the {{ categoryData.length | commaize }} categories in this site; from there you can drill down into all articles by category in reverse chronological order.</p>
@@ -82,19 +82,19 @@ layout: home
       <p>View details regarding the books I authored.</p>
     </article>
     <article class="icon solid fa-newspaper">
-      <a href="{{ "/" | htmlBaseUrl }}sightings/publications" target="_blank">
+      <a href="{{ '/' | htmlBaseUrl }}sightings/publications/" target="_blank">
         <h3>External Publications</h3>
       </a>
       <p>View a list of all of the articles I published in other publications (besides here).</p>
     </article>
     <article class="icon solid fa-window-restore">
-      <a href="{{ "/" | htmlBaseUrl }}projects/" target="_blank">
+      <a href="{{ '/' | htmlBaseUrl }}projects/" target="_blank">
         <h3>Projects</h3>
       </a>
       <p>View some of my projects that span multiple posts on this site or multiple GitHub repositories.</p>
     </article>
     <article class="icon solid fa-binoculars">
-      <a href="{{ "/" | htmlBaseUrl }}sightings">
+      <a href="{{ '/' | htmlBaseUrl }}sightings/">
         <h3>Sightings</h3>
       </a>
       <p>You can find me on more places than this site; the Sightings page lists the other places where you can find stuff I created.</p>
@@ -106,13 +106,13 @@ layout: home
       <p>View the source code projects in my public GitHub account.</p>
     </article>
     <article class="icon regular fa-calendar">
-      <a href="{{ "/" | htmlBaseUrl }}sightings/events">
+      <a href="{{ '/' | htmlBaseUrl }}sightings/events/">
         <h3>Events</h3>
       </a>
       <p>View a list of all of my upcoming events (conference presentations, product demos, etc.).</p>
     </article>
     <article class="icon fa-window-maximize">
-      <a href="{{ "/" | htmlBaseUrl }}sites">
+      <a href="{{ '/' | htmlBaseUrl }}sites/">
         <h3>Sites</h3>
       </a>
       <p>View a list of the Internet sites I maintain.</p>
