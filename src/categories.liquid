@@ -19,8 +19,7 @@ headerImageAttribution: Photo by <a href="https://unsplash.com/@aquadrata?utm_so
         </h4>
         {{ catData.count }} Post{%- if catData.count > 1 %}s{% endif %}
         {% if catData.description.length > 0 %}
-          |
-          {{ catData.description }}
+          | {{ catData.description }}
         {% endif %}
     {% endtablerow %}
   </table>  
