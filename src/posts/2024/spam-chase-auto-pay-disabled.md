@@ -11,7 +11,7 @@ categories:
 timestamp: 2024-07-11T11:31:13.802Z
 ---
 
-I received another supposed [Chase Bank Phishing email](posts/2024/chase-bank-phishing/){target="_blank"} the other day and thought I'd spend some time analyzing it. 
+I received another supposed [Chase Bank Phishing email](posts/2024/spam-chase-bank-phishing/){target="_blank"} the other day and thought I'd spend some time analyzing it. 
 
 ## The Message
 
