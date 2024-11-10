@@ -137,7 +137,7 @@
   },
   {
     "category": "Miscellaneous",
-    "count": 147,
+    "count": 148,
     "description": "Posts that didn't fit in any other categories.",
     "imageFilePath": "/images/headers/marcos-paulo-prado-DwKo9S5sewA-unsplash-cropped.jpg",
     "imageAltText": "random bands of color",
@@ -161,7 +161,7 @@
   },
   {
     "category": "Node.js",
-    "count": 6,
+    "count": 7,
     "description": "Articles related to software development using Node.js. This includes node command line tooling, plugins, and other stuff.",
     "imageFilePath": "/images/headers/nodejs-cropped.jpg",
     "imageAltText": "A screen shot of the node.js home page",
