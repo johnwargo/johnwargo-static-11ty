@@ -10,7 +10,7 @@ categories:
 tags: post
 ---
 
-As I mentioned in my previous post, I'm helping a friend with some Microsoft Outlook integration and came across the need to access the list of meeting and email categories defined within Outlook. Microsoft has done a great job of [documenting the object model for Outlook](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.outlook(v=office.14).aspx){target="_blank"}, so it's quick work in Delphi to open an OLE connection to Outlook and get a listing of the Categories. The code's below, but I also [posted the complete project to GitHub](https://github.com/johnwargo/Outlook-Get-Categories-Delphi{target="_blank"}).
+As I mentioned in my previous post, I'm helping a friend with some Microsoft Outlook integration and came across the need to access the list of meeting and email categories defined within Outlook. Microsoft has done a great job of [documenting the object model for Outlook](https://msdn.microsoft.com/en-us/library/microsoft.office.interop.outlook(v=office.14).aspx){target="_blank"}, so it's quick work in Delphi to open an OLE connection to Outlook and get a listing of the Categories. The code's below, but I also [posted the complete project to GitHub](https://github.com/johnwargo/Outlook-Get-Categories-Delphi){target="_blank"}.
 
 Here's the code:
 
