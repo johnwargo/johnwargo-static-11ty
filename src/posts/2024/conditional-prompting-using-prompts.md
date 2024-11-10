@@ -14,7 +14,7 @@ timestamp: 2024-11-10T17:18:40.346Z
 Over the years, I published a variety of Node.js modules and CLIs; the CLIs because I wanted to automate some operation I needed to make easily repeatable. For my CLIs, I started building them using command-line arguments, but I quickly forgot the arguments and order. Next I used configuration files, but then that tied me into a specific file or set of files for different operations. Eventually I started using an npm module called [prompts](https://www.npmjs.com/package/prompts){target="_blank"} that allows me to prompt for all of the configuration options either as the only input into the program or for writing the settings to a default configuration file. Yesterday I spent some time figuring out how to do conditional prompts, so that's the topic of this post.
 
 {% sidebar "My Node Code" %}
-You can find all (most?) of my node.js modules on [https://johnwargo.io/node](https://johnwargo.io/node){target="_blank"}.
+You can find all (most?) of my node.js modules on <a href="https://johnwargo.io/node" target="_blank">https://johnwargo.io/node</a>.
 {% endsidebar %}
 
 Prompts is pretty cool and very easy to use. The documentation is very helpful, but it could be a little more comprehensive. 
@@ -50,7 +50,7 @@ const prompt1: PromptObject[] = [
 Next, you call the `prompts()` function like this:
 
 ```typescript
-var config = await prompts(prompt1, { onCancel: onCancelPrompt });
+var config = await prompts(prompt1);
 ```
 
 When that code finishes, the `config` object returned contains properties for all of the prompts using the value in the prompt object's `name` for the property name. Here's an example from the previous code:
@@ -134,7 +134,7 @@ if (config.saveToFile) {
 
 When the first call to `prompts()` completes, the `config` object contains all of the user's responses/selections from the prompt. All I have to do is check `config.saveToFile` for true (`y`) or false (`n`) and act accordingly. 
 
-Rather than tracking two different configuration variables (`config` and `configAlt`), I simply used the following code to merge the properties of both into the `config` object:
+Rather than tracking two different configuration variables (`config` and `configAlt`), I simply used the following code to merge the properties of both into the existing `config` object:
 
 ```typescript
 config = { ...config, ...configAlt };
