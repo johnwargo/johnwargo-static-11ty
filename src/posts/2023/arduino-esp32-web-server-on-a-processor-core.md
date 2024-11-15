@@ -280,7 +280,7 @@ void Task0code(void* pvParameters) {
   }
 
   server.enableCORS();
-  server.on("/", handleRoot);
+  server.on('/', handleRoot);
   server.on(UriBraces("/color:{}"), handleColor);
   server.on(UriBraces("/flash:{}"), handleFlash);
   server.on("/lightning", handleFlicker);
@@ -351,7 +351,7 @@ Here's the code that implements everything in that list:
 
 ```c
 server.enableCORS();
-server.on("/", handleRoot);
+server.on('/', handleRoot);
 server.on(UriBraces("/color:{}"), handleColor);
 server.on(UriBraces("/flash:{}"), handleFlash);
 server.on("/lightning", handleFlicker);
@@ -374,7 +374,7 @@ for (;;) {
 As I mentioned at the start of this post, for this project I want to control the ESP32 device's LEDs from a browser. This means that I need to get a web application loaded into the browser that I can use to do that. The easiest way to do this is to have the web server host the web app used to control the LEDs. This is really simple to do, you create a handler event for requests to the web server's root page `/` like this:
 
 ```c
-server.on("/", handleRoot);
+server.on('/', handleRoot);
 ```
 
 Next you write the code that handles the request and returns a web page like this:

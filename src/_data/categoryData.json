@@ -9,7 +9,7 @@
   },
   {
     "category": "Arduino",
-    "count": 15,
+    "count": 16,
     "description": "Articles related to lessons learned or projects built using Arduino devices or Arduino-compatible devices.",
     "imageFilePath": "/images/headers/sahand-babali-gavODTHG36Y-unsplash-cropped.jpg",
     "imageAltText": "An image of an arduino device and other electronic components",
@@ -73,7 +73,7 @@
   },
   {
     "category": "Eleventy",
-    "count": 38,
+    "count": 39,
     "description": "Articles related to the Eleventy Static Site Generator (used to build this site).",
     "imageFilePath": "/images/headers/11ty.png",
     "imageAltText": "Eleventy project logo",
@@ -113,7 +113,7 @@
   },
   {
     "category": "Internet of Things (IoT)",
-    "count": 48,
+    "count": 49,
     "description": "Articles related to Microcontrollers, single board computers, and other stuff.",
     "imageFilePath": "/images/headers/robin-glauser-zP7X_B86xOg-unsplash-cropped.jpg",
     "imageAltText": "An image of an Arduino device and other Electric components",
@@ -137,7 +137,7 @@
   },
   {
     "category": "Miscellaneous",
-    "count": 146,
+    "count": 148,
     "description": "Posts that didn't fit in any other categories.",
     "imageFilePath": "/images/headers/marcos-paulo-prado-DwKo9S5sewA-unsplash-cropped.jpg",
     "imageAltText": "random bands of color",
@@ -161,7 +161,7 @@
   },
   {
     "category": "Node.js",
-    "count": 6,
+    "count": 7,
     "description": "Articles related to software development using Node.js. This includes node command line tooling, plugins, and other stuff.",
     "imageFilePath": "/images/headers/nodejs-cropped.jpg",
     "imageAltText": "A screen shot of the node.js home page",

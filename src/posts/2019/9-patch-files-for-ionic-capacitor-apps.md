@@ -25,7 +25,7 @@ For example, in the following figure you can see how the highlighted areas have 
 
 {% image "src/images/2019/9-patch_01.png", "9-patch file example 1", "image-full" %}
 
-All you need to a create a 9-patch file is an application that can add that 1-pixel border to the image file and let you set, or clear, pixels in that border to create the stretched image you need. I looked around and didn't find any image editors that supported 9-patch files out of the box, but here are some articles that show how to do it in [PhotoShop](http://medium.com/@wdziemia/9-patch-photoshop-and-you-3a4736772ad3). The good news is that Android Studio can create the files for you automatically (but instructions for how to do so are fairly useless).
+All you need to a create a 9-patch file is an application that can add that 1-pixel border to the image file and let you set, or clear, pixels in that border to create the stretched image you need. I looked around and didn't find any image editors that supported 9-patch files out of the box, but here are some articles that show how to do it in [PhotoShop](https://medium.com/@wdziemia/9-patch-photoshop-and-you-3a4736772ad3). The good news is that Android Studio can create the files for you automatically (but instructions for how to do so are fairly useless).
 
 You can also add black pixels on the right and bottom border, but this does not define the area to be stretched. This defines the area to be “filled”, which is not required in our case for splash screens.
 

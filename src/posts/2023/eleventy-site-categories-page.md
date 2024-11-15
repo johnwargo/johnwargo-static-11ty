@@ -20,7 +20,7 @@ Next, I added a new `categories.liquid` page with the following Liquid code:
 {% for category in categories %}
     <ul>
         <li>
-            <a href="{{ "/" | htmlBaseUrl }}category/{{ category | slugify }}">{{ category | capitalize }}</a>
+            <a href="{{ '/' | htmlBaseUrl }}category/{{ category | slugify }}">{{ category | capitalize }}</a>
         </li>
     </ul>
 {% endfor %}

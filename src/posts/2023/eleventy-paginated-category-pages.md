@@ -317,7 +317,7 @@ layout: generic
   {% for catData in categories %}
     <li>
       <h4>
-        <a href="{{ "/" | htmlBaseUrl }}categories/{{ catData.category | slugify }}/">{{ catData.category }}</a>
+        <a href="{{ '/' | htmlBaseUrl }}categories/{{ catData.category | slugify }}/">{{ catData.category }}</a>
       </h4>
       Count: {{ catData.count }}
       {% if catData.description.length > 0 %}

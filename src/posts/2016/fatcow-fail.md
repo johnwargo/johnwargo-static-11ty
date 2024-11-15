@@ -27,7 +27,7 @@ Please make sure to check any file backup(s) you have for a clean copy of the in
 
 However, If you don't feel comfortable removing the infected files yourself, or would like to talk to a security expert, we recommend that you contact our preferred partner, SiteLock. You can find out about their security solutions at https://www.fatcow.com/product/sitelock, or call them directly at 1-855-378-6200.
 
-Finally, to learn more about how to keep your site safe, visit the article below: http://www.fatcow.com/knowledgebase/beta/article.bml?ArticleID=2324#Nugget_5264 .
+Finally, to learn more about how to keep your site safe, visit the article below: https://www.fatcow.com/knowledgebase/beta/article.bml?ArticleID=2324#Nugget_5264 .
 
 Sincerely,  
 The FatCow Team"
@@ -94,9 +94,9 @@ As a result, we had to suspend your account, to avoid problems for site visitors
 2000 messages per day  
 100 recipients per execution
 
-Once you have taken the necessary action, please reply back to us with the confirmation. I suggest you to use bulk mailer service for emailing purpose. You can use Constant Contact to send out emails. To learn more about this, please refer the URL http://www.fatcow.com/product/constantcontact.bml .
+Once you have taken the necessary action, please reply back to us with the confirmation. I suggest you to use bulk mailer service for emailing purpose. You can use Constant Contact to send out emails. To learn more about this, please refer the URL https://www.fatcow.com/product/constantcontact.bml .
 
-If this is not your script, it suggests that your account has been compromised. To learn more about reasons for account getting hacked and the ways to prevent it, please visit the KB link: http://www.fatcow.com/knowledgebase/beta/article.bml?ArticleID=2324#Nugget_5264 .
+If this is not your script, it suggests that your account has been compromised. To learn more about reasons for account getting hacked and the ways to prevent it, please visit the KB link: https://www.fatcow.com/knowledgebase/beta/article.bml?ArticleID=2324#Nugget_5264 .
 
 In order to re-enable the account, we ask you or your administrator reply to this message after taking necessary action on the script specified above.
 
@@ -111,7 +111,7 @@ Um, yeah, we're not sending spam, I'm sure of it. So I responded and told them w
 
 Please download 'logs.txt' file which is inside 'stats' folder from Filemanager tool which will show logs of email sending from script /administrator/index.php. If you analyze this mail log, you can notice email sending to webmaster@sitename.org with subject 'Automatic_IP_blocking_notification_for' . This seems like issue with configuration settings inside Joomla admin panel.
 
-I have now removed suspension on website and CGI service for your account. Please log in to admin panel of website at http://sitename.org/administrator/ and recheck the configuration settings.
+I have now removed suspension on website and CGI service for your account. Please log in to admin panel of website at https://sitename.org/administrator/ and recheck the configuration settings.
 
 Thank you for clarification about Joomla module. Our server monitoring tool taken it as a suspicious activity and thus suspended services for your account. However, we have revoked the suspension on your account. In any case if you are exceeding the email limits, it will take it as spamming. This is the reason we are suspending the services for your account."
 

@@ -199,4 +199,4 @@ title: Site Statistics
   }
 });
 </script>
-<script src="{{ "/" | htmlBaseUrl }}assets/js/google-analytics.js"></script>
+<script src="{{ '/' | htmlBaseUrl }}assets/js/google-analytics.js"></script>

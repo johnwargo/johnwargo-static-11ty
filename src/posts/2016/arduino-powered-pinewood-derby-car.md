@@ -38,7 +38,7 @@ The project's Arduino source code available at https://github.com/johnwargo/Ardu
 
 The project uses the following materials:
 
-* Official Pinewood Derby car kit (2 or more: if you're like me, you'll make mistakes and need to start over). Available at any hobby or craft store or at http://www.pinewoodderby.org/#/three.
+* Official Pinewood Derby car kit (2 or more: if you're like me, you'll make mistakes and need to start over). Available at any hobby or craft store or at https://www.pinewoodderby.org/#/three.
 * Arduino compatible microcontroller (1: for this project, I used a Teensy 3.0 https://www.pjrc.com/store/teensy3.html)
 * Arduino compatible battery (www.adafruit.com/products/258)
 * Battery charging module (www.adafruit.com/products/259)
@@ -211,7 +211,7 @@ Step 3: The pin layout for the Teensy 3.0 microcontroller is shown in Figure 9 (
 {% image "src/images/2016/arduino-pinewood-derby-09.png", "Teensy 3.0 Pin Configuration (Used with Permission)", "image-full" %} 
 Figure 9 – Teensy 3.0 Pin Configuration (Used with Permission)
 
-At any point in the process from here, you can secure the battery in the battery cavity on the bottom of the car. You could use a non-permanent approach like duct tape or suitable alternative to hold it in place, but as there might be collisions and the battery could pop out, I decided to take a more permanent approach. For this project, we used Epoxy to cement the battery into the cavity. Make sure the battery is flush with the bottom of the car and that there's a little space between the battery and the car body. For epoxy, I used http://www.homedepot.com/p/Loctite-8-fl-oz-Professional-Job-Size-Epoxy-1365736/100371835 but you could also use something like http://www.homedepot.com/p/Loctite-0-85-fl-oz-Quick-Set-Epoxy-1395391/100371815. Mix an enough epoxy to fill the gaps between the battery and the car body and spread it over the cavity, covering enough of the battery to hold it in place. Only use enough epoxy to cover the gaps and make a smooth cover flush with the bottom of the car.
+At any point in the process from here, you can secure the battery in the battery cavity on the bottom of the car. You could use a non-permanent approach like duct tape or suitable alternative to hold it in place, but as there might be collisions and the battery could pop out, I decided to take a more permanent approach. For this project, we used Epoxy to cement the battery into the cavity. Make sure the battery is flush with the bottom of the car and that there's a little space between the battery and the car body. For epoxy, I used https://www.homedepot.com/p/Loctite-8-fl-oz-Professional-Job-Size-Epoxy-1365736/100371835 but you could also use something like https://www.homedepot.com/p/Loctite-0-85-fl-oz-Quick-Set-Epoxy-1395391/100371815. Mix an enough epoxy to fill the gaps between the battery and the car body and spread it over the cavity, covering enough of the battery to hold it in place. Only use enough epoxy to cover the gaps and make a smooth cover flush with the bottom of the car.
 
 **Note:** Keep in mind, that once the battery is epoxied in there, it's not coming out without destroying the car, so plan carefully.
 
@@ -264,7 +264,7 @@ There weren't any mounting holes on the Teensy to use and the ribbon cable prett
 I used epoxy to hold the battery securely in the battery cavity in the bottom of the car. You could use double-sided tape or even duct tape to hold it in place; I went for the permanent solution so I would never have to worry about it falling out in a crash.
 Setting Up the Development Environment
 
-In order to program an Arduino board, you need to use the free Arduino IDE. The Teensy board I used for this project requires some extra software, Teensyduino and the Teensy Loader, in order to be able to download applications onto the board. Unfortunately, as I write this, the latest version of the Teensy Loader is not compatible with the latest version of the Arduino IDE; it can only work with Arduino IDE version 1.06. So, point your browser of choice to http://arduino.cc/en/Main/OldSoftwareReleases then download and install Arduino IDE version 1.06.
+In order to program an Arduino board, you need to use the free Arduino IDE. The Teensy board I used for this project requires some extra software, Teensyduino and the Teensy Loader, in order to be able to download applications onto the board. Unfortunately, as I write this, the latest version of the Teensy Loader is not compatible with the latest version of the Arduino IDE; it can only work with Arduino IDE version 1.06. So, point your browser of choice to https://arduino.cc/en/Main/OldSoftwareReleases then download and install Arduino IDE version 1.06.
 
 You'll also need to install the https://www.pjrc.com/teensy/teensyduino.html in order to enable the IDE to see the Teensy board.
 

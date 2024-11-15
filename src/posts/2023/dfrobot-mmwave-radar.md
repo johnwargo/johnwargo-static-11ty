@@ -35,7 +35,7 @@ Here's the code I used to validate the sensor's operation, I'll explain the code
    @ The sensor detection range and output delay time can be configured. Also you can restore the sensor to factory default settings.
    @n Experimental phenomenon: When the sensor starts successfully, 0 or 1 will be printed on the serial monitor.
    @ 0 means that there is no human or object moving in sensing area, 1 means the oppposite.
-   @copyright   Copyright (c) 2010 DFRobot Co.Ltd (http://www.dfrobot.com)
+   @copyright   Copyright (c) 2010 DFRobot Co.Ltd (https://www.dfrobot.com)
    @licence     The MIT License (MIT)
    @version  V1.0
    @date  2023-3-13

@@ -22,7 +22,7 @@ When I joined the mobile platform product management team at SAP, I mentioned th
 ```html
 `<script type="text/javascript" charset="utf-8">
 window.onerror = function(msg, url, line) {
-  var idx = url.lastIndexOf("/");
+  var idx = url.lastIndexOf('/');
   if(idx > -1) {
     url = url.substring(idx+1);
   }        

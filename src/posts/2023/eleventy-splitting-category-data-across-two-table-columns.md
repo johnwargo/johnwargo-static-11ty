@@ -29,7 +29,7 @@ With that in mind, I replaced the site's Category page content with the followin
   <table>
     {% tablerow catData in categories cols:2 %}
        <h4>
-          <a href="{{ "/" | htmlBaseUrl }}categories/{{ catData.category | slugify }}/">{{ catData.category }}</a>
+          <a href="{{ '/' | htmlBaseUrl }}categories/{{ catData.category | slugify }}/">{{ catData.category }}</a>
         </h4>
         Count: {{ catData.count }}
         {% if catData.description.length > 0 %}

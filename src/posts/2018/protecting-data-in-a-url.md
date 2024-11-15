@@ -7,7 +7,7 @@ categories: [Internet of Things (IoT)]
 tags: post
 ---
 
-A while back, I created a remote [garage door opener](https://github.com/johnwargo/particle-garage-door-controller){target="_blank"} project using the [Particle platform](https://www.particle.io/){target="_blank"}.
+A while back, I created a [remote garage door opener](https://github.com/johnwargo/garage-controller-particle-simple){target="_blank"} project using the [Particle platform](https://www.particle.io/){target="_blank"}.
 
 The Particle Platform (devices and cloud services) enables developers to write code running on an Arduino-compatible device that can be remotely executed via a cloud service. Connect a Photon and a relay to a garage opener and you have the gist of my project.
 

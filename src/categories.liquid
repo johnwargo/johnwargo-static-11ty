@@ -15,12 +15,11 @@ headerImageAttribution: Photo by <a href="https://unsplash.com/@aquadrata?utm_so
   <table>
     {% tablerow catData in categories cols:2 %}
        <h4>
-          <a href="{{ "/" | htmlBaseUrl }}categories/{{ catData.category | slugify }}/">{{ catData.category }}</a>
+          <a href="{{ '/' | htmlBaseUrl }}categories/{{ catData.category | slugify }}/">{{ catData.category }}</a>
         </h4>
         {{ catData.count }} Post{%- if catData.count > 1 %}s{% endif %}
         {% if catData.description.length > 0 %}
-          |
-          {{ catData.description }}
+          | {{ catData.description }}
         {% endif %}
     {% endtablerow %}
   </table>  

@@ -17,7 +17,7 @@ Every so often, I write more than one post on a particular topic (like my series
   {% for project in projects %}
     <li>
       <h4>
-        <a href="{{ "/" | htmlBaseUrl }}projects/{{ project.data.title | slugify }}/">{{ project.data.title }}</a>
+        <a href="{{ '/' | htmlBaseUrl }}projects/{{ project.data.title | slugify }}/">{{ project.data.title }}</a>
       </h4>      
       {% if project.data.description.length > 0 %}
         {{ project.data.description }}

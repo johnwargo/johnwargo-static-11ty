@@ -12,7 +12,7 @@ categories:
   - Internet of Things (IoT)
 ---
 
-I've been coding and building on the Arduino platform (both hardware and software) for a long time. Looking back on this site, I see that I created my [First Arduino Project](http://posts/2014/first-arduino-project/) back in 2014, almost 10 years ago.
+I've been coding and building on the Arduino platform (both hardware and software) for a long time. Looking back on this site, I see that I created my [First Arduino Project](/posts/2014/first-arduino-project/) back in 2014, almost 10 years ago.
 
 Over the years, microcontrollers got more capable with faster processors, more memory, and, happily, multiple processor cores. I always wanted to learn how to split tasks across multiple processor cores in an Arduino project, but every time I tried following one of the tutorials I failed. Another issue, for me anyway, is that many of the tutorials were so full of advertisements, that it was too distracting to use them.  What I wanted was to be able to look at a small, simple but complete, example of how to do what I wanted to do.
 
