@@ -58,7 +58,7 @@
     {
         "title": "BlackBerry DevCon 2010: A Developer's Perspective",
         "date": "2010-10-07",
-        "url": "http://drdobbs.com/mobility/227700350",
+        "url": "https://drdobbs.com/mobility/227700350",
         "format": 1,
         "description": "Aaah, my only article in Dr. Dobbs; I used to love reading that magazine. The title should describe the article pretty well.",
         "publication": "Dr. Dobb's Journal"
@@ -194,7 +194,7 @@
     {
         "title": "Arduino-Powered Pinewood Derby Race Car",
         "date": "2015-03-28",
-        "url": "http://makezine.com/projects/arduino-powered-pinewood-derby-race-car/",
+        "url": "https://makezine.com/projects/arduino-powered-pinewood-derby-race-car/",
         "format": 0,
         "description": "At the time, my son was in Cub Scouts, and for many years built Pinewood Derby cars. For the most part, I let my son do what he wanted to do with his car but after watching one parent spend hours painstakingly cutting, sanding, and grinding his kid’s car, my son and I decided we’d kick it up a notch. I built an Arduino-powered Pinewood Derby car with an accelerometer and LEDs. The car flashes the lights differently depending on the angle of the car.",
         "publication": "Make Magazine"
@@ -202,7 +202,7 @@
     {
         "title": "What's New in Apache Cordova 4?",
         "date": "2015-04-29",
-        "url": "http://www.informit.com/articles/article.aspx?p=2347269",
+        "url": "https://www.informit.com/articles/article.aspx?p=2347269",
         "format": 1,
         "description": "An introduction to the new features and capabilities in Apache Cordova 4.",
         "publication": "InformIT"
@@ -218,7 +218,7 @@
     {
         "title": "Apache Cordova and Server-Side Technologies",
         "date": "2016-02-18",
-        "url": "http://www.informit.com/articles/article.aspx?p=2481899",
+        "url": "https://www.informit.com/articles/article.aspx?p=2481899",
         "format": 1,
         "description": "I saw a lot of Stack Overflow questions asking about how to attach an Apache Cordova application to different server-side technologies, so I decided to write an article talking about the different options.",
         "publication": "InformIT"
@@ -226,7 +226,7 @@
     {
         "title": "Get a Flashing Meeting Reminder with a Raspberry Pi",
         "date": "2016-06-14",
-        "url": "http://makezine.com/projects/get-a-flashing-meeting-reminder-with-a-raspberry-pi/",
+        "url": "https://makezine.com/projects/get-a-flashing-meeting-reminder-with-a-raspberry-pi/",
         "format": 0,
         "description": "At the time I wrote this, I worked at home (I still do) and I spent a lot of time on the phone talking to colleagues, vendors and customers. My employer used Google Calendar and Gmail but the appointment notification capabilities were not very robust. Well, they’re robust, but not enough to get me to actually show up for calls on time. I often missed  notifications when I’m busy doing something else or I notice the notification, but quickly forget about it just a few minutes later and ultimately miss some meetings or join late. I built the project described in this article to give me a visual reminder when I have appointments. Its 2021 and I still use it every day.",
         "publication": "Make Magazine"
@@ -234,7 +234,7 @@
     {
         "title": "Collect and Display Weather Data with a Raspberry Pi",
         "date": "2016-11-02",
-        "url": "http://makezine.com/projects/raspberry-pi-weather-station-mount/",
+        "url": "https://makezine.com/projects/raspberry-pi-weather-station-mount/",
         "format": 0,
         "description": "I've always been interested in hosting my own weather station, but I've never been interested in plunking down the cash to buy one of the professional stations. For this article, I wired up a Raspberry Pi device and the Astro Pi Sense HAT to build a little inexpensive weather station that posts weather data to Weather Underground.",
         "publication": "Make Magazine"
@@ -250,7 +250,7 @@
     {
         "title": "Solder Together a Fairy Lights Mason Jar",
         "date": "2017-06-01",
-        "url": "http://makezine.com/projects/mason-jar-tricolor-twinkle-lights/",
+        "url": "https://makezine.com/projects/mason-jar-tricolor-twinkle-lights/",
         "format": 0,
         "description": "This article shows how to make a July 4th themed (US Independence Holiday) Fairy lights in a mason jar. For this, I used three strands of LEDs (Red, White, and Blue - of course) and a little Arduino code to fade the different strands up and down.",
         "publication": "Make Magazine"

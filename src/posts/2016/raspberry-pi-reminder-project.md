@@ -100,7 +100,7 @@ Note: When it comes to writing code, the Raspberry Pi is too slow and the availa
 
 ## Installing Required Python Modules
 
-The Unicorn HAT uses its own python libraries; details can be found on the Pimoroni web site at http://learn.pimoroni.com/tutorial/unicorn-hat/getting-started-with-unicorn-hat. To install the libraries on the Pi, open a terminal window and execute the following command:
+The Unicorn HAT uses its own python libraries; details can be found on the Pimoroni web site at https://learn.pimoroni.com/tutorial/unicorn-hat/getting-started-with-unicorn-hat. To install the libraries on the Pi, open a terminal window and execute the following command:
 
 ```shell
 sudo curl -sS get.pimoroni.com/unicornhat | bash
