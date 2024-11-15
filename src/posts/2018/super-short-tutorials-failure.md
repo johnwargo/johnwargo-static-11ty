@@ -23,4 +23,4 @@ I've found that these short articles have the following issues:
 
 These authors are working for very little, or no money, but are trying to share their knowledge and experience. I love that! That's one reason why open source software is so spectacular. We need to be vocal about our wishes here. Let us learn as much as possible from these author's great work. Demand that these magazines relinquish control and let the writers write complete tutorials. During the editing process, trim out the extra and unneeded stuff, but let the complete description of the process be free!
 
-Photo by [Charisse Kenion](https://unsplash.com/photos/cJkVMAKDYl0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){target="_blank"} on [Unsplash](https://unsplash.com/search/photos/magazine?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText){target="_blank"}
+Photo by [Charisse Kenion](https://unsplash.com/photos/cJkVMAKDYl0){target="_blank"} on [Unsplash](https://unsplash.com/search/photos/magazine){target="_blank"}

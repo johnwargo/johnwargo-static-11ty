@@ -39,16 +39,16 @@ That worked really well, and was easy to setup, but the alternative text was a l
   {% if categories.length > 0 %}
     {% case categories[0] %}
       {% when "Artificial Intelligence" %}
-        <p>Photo by <a href="https://unsplash.com/fr/@markuswinkler?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Markus Winkler</a> on <a href="https://unsplash.com/photos/tGBXiHcPKrM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a></p>  
+        <p>Photo by <a href="https://unsplash.com/fr/@markuswinkler" target="_blank">Markus Winkler</a> on <a href="https://unsplash.com/photos/tGBXiHcPKrM" target="_blank">Unsplash</a></p>  
       {% when "Natural Language Processing" %}
-        <p>Photo by <a href="https://unsplash.com/@glencarrie?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Glen Carrie</a> on <a href="https://unsplash.com/photos/oHoBIbDj7lo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+        <p>Photo by <a href="https://unsplash.com/@glencarrie" target="_blank">Glen Carrie</a> on <a href="https://unsplash.com/photos/oHoBIbDj7lo" target="_blank">Unsplash</a>
         </p>
       {% when "Miscellaneous" %}
-        <p>Photo by <a href="https://unsplash.com/@elsbethcat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Beth Macdonald</a> on <a href="https://unsplash.com/photos/a1O67ZQmaYc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+        <p>Photo by <a href="https://unsplash.com/@elsbethcat" target="_blank">Beth Macdonald</a> on <a href="https://unsplash.com/photos/a1O67ZQmaYc" target="_blank">Unsplash</a>
         </p>
       {% when "Developer Tools" %}
         <p>
-          Photo by <a href="https://unsplash.com/pt-br/@ilyapavlov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Ilya Pavlov</a> on <a href="https://unsplash.com/photos/OqtafYT5kTw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+          Photo by <a href="https://unsplash.com/pt-br/@ilyapavlov" target="_blank">Ilya Pavlov</a> on <a href="https://unsplash.com/photos/OqtafYT5kTw" target="_blank">Unsplash</a>
         </p>
       {% else %}
         <p>No image credit (this should never happen)</p>
@@ -67,13 +67,13 @@ What I really need is a data source I can use to manage the category image file 
     "category": "Content Management Systems",
     "imageFilePath": "/images/headers/alvaro-reyes-qWwpHwip31M-unsplash-cropped.jpg",
     "imageAltText": "An image of a board with content blocks pinned to it",
-    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@alvarordesign?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Alvaro Reyes</a> on <a href=\"https://unsplash.com/photos/qWwpHwip31M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@alvarordesign\" target=\"_blank\">Alvaro Reyes</a> on <a href=\"https://unsplash.com/photos/qWwpHwip31M\" target=\"_blank\">Unsplash</a>."
   },
   {
     "category": "Developer Tools",
     "imageFilePath": "/images/headers/ashim-d-silva-Kw_zQBAChws-unsplash-cropped.jpg",
     "imageAltText": "An image of some tools",
-    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@randomlies?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Ashim D’Silva</a> on <a href=\"https://unsplash.com/photos/Kw_zQBAChws?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@randomlies\" target=\"_blank\">Ashim D’Silva</a> on <a href=\"https://unsplash.com/photos/Kw_zQBAChws\" target=\"_blank\">Unsplash</a>."
   },
   {
     "category": "Eleventy",
@@ -85,7 +85,7 @@ What I really need is a data source I can use to manage the category image file 
     "category": "Events",
     "imageFilePath": "/images/headers/jakob-dalbjorn-cuKJre3nyYc-unsplash-cropped.jpg",
     "imageAltText": "",
-    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@jakobdalbjorn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Jakob Dalbjörn</a> on <a href=\"https://unsplash.com/photos/cuKJre3nyYc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@jakobdalbjorn\" target=\"_blank\">Jakob Dalbjörn</a> on <a href=\"https://unsplash.com/photos/cuKJre3nyYc\" target=\"_blank\">Unsplash</a>."
   }
 ]
 ```
@@ -121,7 +121,7 @@ With that in place, the category data file now looks like this (with most of the
     "description": "Articles related to my usage and experimentation with Content Management Systems (CMS).",
     "imageFilePath": "/images/headers/alvaro-reyes-qWwpHwip31M-unsplash-cropped.jpg",
     "imageAltText": "An image of a board with content blocks pinned to it",
-    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@alvarordesign?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Alvaro Reyes</a> on <a href=\"https://unsplash.com/photos/qWwpHwip31M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@alvarordesign\" target=\"_blank\">Alvaro Reyes</a> on <a href=\"https://unsplash.com/photos/qWwpHwip31M\" target=\"_blank\">Unsplash</a>."
   },
   {
     "category": "Developer Tools",
@@ -129,7 +129,7 @@ With that in place, the category data file now looks like this (with most of the
     "description": "Articles related to developer tools; ones I use or ones I'm evaluating.",
     "imageFilePath": "/images/headers/ashim-d-silva-Kw_zQBAChws-unsplash-cropped.jpg",
     "imageAltText": "An image of some tools",
-    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@randomlies?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Ashim D’Silva</a> on <a href=\"https://unsplash.com/photos/Kw_zQBAChws?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@randomlies\" target=\"_blank\">Ashim D’Silva</a> on <a href=\"https://unsplash.com/photos/Kw_zQBAChws\" target=\"_blank\">Unsplash</a>."
   },
   {
     "category": "Eleventy",
@@ -145,7 +145,7 @@ With that in place, the category data file now looks like this (with most of the
     "description": "Articles about events I'm attending, have a speaking slot, or otherwise involved with.",
     "imageFilePath": "/images/headers/jakob-dalbjorn-cuKJre3nyYc-unsplash-cropped.jpg",
     "imageAltText": "An image of a crowd of people at an event",
-    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@jakobdalbjorn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Jakob Dalbjörn</a> on <a href=\"https://unsplash.com/photos/cuKJre3nyYc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\" target=\"_blank\">Unsplash</a>."
+    "imageAttribution": "Photo by <a href=\"https://unsplash.com/@jakobdalbjorn\" target=\"_blank\">Jakob Dalbjörn</a> on <a href=\"https://unsplash.com/photos/cuKJre3nyYc\" target=\"_blank\">Unsplash</a>."
   }
 ]
 ```
