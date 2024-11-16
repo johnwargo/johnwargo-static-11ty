@@ -1,27 +1,26 @@
-const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
-const generateCategoryPages = require('eleventy-generate-category-pages');
-const fileList = require('eleventy-plugin-file-list');
-const githubRepos = require('eleventy-plugin-github-repos');
+import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
+import generateCategoryPages from 'eleventy-generate-category-pages';
+import fileList from 'eleventy-plugin-file-list';
+import githubRepos from 'eleventy-plugin-github-repos';
 // https://github.com/11ty/eleventy/issues/2301
-const markdownIt = require('markdown-it');
-const markdownItAttrs = require('markdown-it-attrs');
-const pluginDate = require('eleventy-plugin-date');
-const pluginRss = require('@11ty/eleventy-plugin-rss');
-const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
-const embedYouTube = require('eleventy-plugin-youtube-embed');
-const pluginStats = require('eleventy-plugin-post-stats');
+import markdownIt from 'markdown-it';
+import markdownItAttrs from 'markdown-it-attrs';
+import pluginDate from 'eleventy-plugin-date';
+import pluginRss from '@11ty/eleventy-plugin-rss';
+import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
+import embedYouTube from 'eleventy-plugin-youtube-embed';
+import pluginStats from 'eleventy-plugin-post-stats';
 
 // local plugins
-const pluginImages = require("./eleventy.config.images.js");
-const pluginImageHeaders = require("./eleventy.config.headerimage.js");
+import pluginImages from "./eleventy.config.images.js";
+import pluginImageHeaders from "./eleventy.config.headerimage.js";
 
 // Transforms
 // https://learneleventyfromscratch.com/lesson/31.html#minifying-html-output
-const htmlMinTransform = require('./src/transforms/html-min.js');
+import htmlMinTransform from './src/transforms/html-min.js';
 
 // Create a helpful production flag
 const isProduction = process.env.NODE_ENV === 'production';
-
 const categoryDataFile = 'categoryData.json';
 
 module.exports = eleventyConfig => {
