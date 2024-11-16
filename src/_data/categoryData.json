@@ -161,7 +161,7 @@
   },
   {
     "category": "Node.js",
-    "count": 7,
+    "count": 8,
     "description": "Articles related to software development using Node.js. This includes node command line tooling, plugins, and other stuff.",
     "imageFilePath": "/images/headers/nodejs-cropped.jpg",
     "imageAltText": "A screen shot of the node.js home page",
