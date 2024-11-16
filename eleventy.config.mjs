@@ -12,15 +12,16 @@ import embedYouTube from 'eleventy-plugin-youtube-embed';
 import pluginStats from 'eleventy-plugin-post-stats';
 
 // local plugins
-import pluginImages from './eleventy.config.images.js';
-import pluginImageHeaders from './eleventy.config.headerimage.js';
+import pluginImages from './eleventy.config.images.mjs';
+import pluginImageHeaders from './eleventy.config.headerimage.mjs';
 
 // Transforms
 // https://learneleventyfromscratch.com/lesson/31.html#minifying-html-output
-import htmlMinTransform from './src/transforms/html-min.js';
+import htmlMinTransform from './src/transforms/html-min.mjs';
 
 // Create a helpful production flag
 const isProduction = process.env.NODE_ENV === 'production';
+
 const categoryDataFile = 'categoryData.json';
 
 module.exports = eleventyConfig => {
