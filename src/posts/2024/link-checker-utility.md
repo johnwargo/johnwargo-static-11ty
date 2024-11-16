@@ -50,7 +50,7 @@ by John M. Wargo (https://johnwargo.com)
 
 Starting scan...
 
---- scan activity here... ---
+--- scan activity here ---
 
 Results successfully written to file: D:\dev\links\link-checker-results.md
 
