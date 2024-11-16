@@ -140,11 +140,11 @@ module.exports = eleventyConfig => {
 		return text.substring(0, 5000);
 	});
 
-	eleventyConfig.addFilter('commaize', function (num, locale = "en-us") {
+	eleventyConfig.addFilter('commaize', function (num, locale = 'en-us') {
 		return num.toLocaleString(locale);
 	});
 
-	eleventyConfig.addFilter("dateOnly", function (dateVal, locale = "en-us") {
+	eleventyConfig.addFilter('dateOnly', function (dateVal, locale = 'en-us') {
 		// Used to display human readable date on the stats page and other pages
 		var theDate = new Date(dateVal);
 		const options = {
@@ -156,7 +156,7 @@ module.exports = eleventyConfig => {
 		return theDate.toLocaleDateString(locale, options);
 	});
 
-	eleventyConfig.addFilter("readableTimestamp", function (dateVal, locale = "en-us") {
+	eleventyConfig.addFilter('readableTimestamp', function (dateVal, locale = 'en-us') {
 		// Used by home, articles, & post pages to render timestamp as human readable
 		var theDate = new Date(dateVal);
 		const options = {
@@ -175,7 +175,7 @@ module.exports = eleventyConfig => {
 		return JSON.stringify(variable);
 	});
 
-	eleventyConfig.addFilter("truncate", function (num) {
+	eleventyConfig.addFilter('truncate', function (num) {
 		return Math.trunc(num);
 	});
 
@@ -185,20 +185,20 @@ module.exports = eleventyConfig => {
 	// copy the rest of the files
 	[
 		// Data files
-		"src/_data/*",
+		'src/_data/*',
 		// Template files
-		"src/assets/css/",
-		"src/assets/js/",
-		"src/assets/sass/",
-		"src/assets/webfonts/",
-		"src/files/*",
+		'src/assets/css/',
+		'src/assets/js/',
+		'src/assets/sass/',
+		'src/assets/webfonts/',
+		'src/files/*',
 		// Images folders
-		"src/images/*",
-		"src/images/headers/*",
-		"src/images/avatar/*",
-		"src/images/common/*",
-		"src/images/covers/*",
-		"src/images/sites/*"
+		'src/images/*',
+		'src/images/headers/*',
+		'src/images/avatar/*',
+		'src/images/common/*',
+		'src/images/covers/*',
+		'src/images/sites/*'
 	].forEach((path) => {
 		eleventyConfig.addPassthroughCopy(path);
 	});
@@ -217,10 +217,10 @@ module.exports = eleventyConfig => {
 	return {
 		dir: {
 			input: 'src',
-			output: "_site",
-			includes: "_includes",
-			layouts: "_layouts",
-			data: "_data"
+			output: '_site',
+			includes: '_includes',
+			layouts: '_layouts',
+			data: '_data'
 		}
 	}
 
