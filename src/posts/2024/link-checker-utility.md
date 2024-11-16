@@ -15,6 +15,10 @@ I played around this week with validating all of the links on this site and tryi
 
 I quickly built a command-line tool using information from the article and the linkinator package's documentation. Before long I had a full fledged link checker that met my specific needs. I called my link checker `link-checker` but since there is already a package with that name on npm, I had to add my npm username to the package name: [@johnwargo/link-checker](https://www.npmjs.com/package/@johnwargo/link-checker){target="_blank"}.
 
+{% sidebar "Validating Links On This Site" %}
+In my <a href="/posts/2024/validating-links/">next post</a>, I spend more time explaining how I used the two utilities to fix a lot of the links on this site.
+{% endsidebar %}
+
 The utility doesn't require any command-line parameters (which I like because I always forget them, especially for my own command-line tools) but does support a couple of them. What I like best of this utility is that it allows me to save the results to a file, enabling me to open it later in an editor and double-check the links the utility reported as broken. 
 
 The reason for this is that many sites (like the [Adafruit Forums](https://forums.adafruit.com/){target="_blank"}) have a human checker in front of access, so for that site, and sites like it, the link checker fails on those URLs. Something like the [W3C Link Checker](https://validator.w3.org/checklink){target="_blank"} doesn't seem to have that problem.
@@ -46,7 +50,7 @@ by John M. Wargo (https://johnwargo.com)
 
 Starting scan...
 
-<<scan activity here...>>
+--- scan activity here... ---
 
 Results successfully written to file: D:\dev\links\link-checker-results.md
 
