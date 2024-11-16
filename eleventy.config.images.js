@@ -7,6 +7,7 @@ import Image from '@11ty/eleventy-img';
 import outdent from 'outdent';
 
 export default function (eleventyConfig, options = {}) {
+  
   const moduleName = "eleventy.config.images";
   const debugMode = options.debugMode ? options.debugMode : false;
   if (debugMode) console.log(`[${moduleName}] Debug mode enabled`);

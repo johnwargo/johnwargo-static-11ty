@@ -12,8 +12,8 @@ import embedYouTube from 'eleventy-plugin-youtube-embed';
 import pluginStats from 'eleventy-plugin-post-stats';
 
 // local plugins
-import pluginImages from "./eleventy.config.images.js";
-import pluginImageHeaders from "./eleventy.config.headerimage.js";
+import pluginImages from './eleventy.config.images.js';
+import pluginImageHeaders from './eleventy.config.headerimage.js';
 
 // Transforms
 // https://learneleventyfromscratch.com/lesson/31.html#minifying-html-output
@@ -47,9 +47,9 @@ module.exports = eleventyConfig => {
 	};
 	const markdownLib = markdownIt(mdOptions)
 		.use(markdownItAttrs)
-		.disable("code");
+		.disable('code');
 
-	eleventyConfig.setLibrary("md", markdownLib);
+	eleventyConfig.setLibrary('md', markdownLib);
 
 	var firstRun = true;
 	eleventyConfig.on('eleventy.before', async ({ dir, runMode, outputMode }) => {
@@ -64,13 +64,13 @@ module.exports = eleventyConfig => {
 		}
 	});
 
-	eleventyConfig.addCollection("projects", collectionAPI => {
+	eleventyConfig.addCollection('projects', collectionAPI => {
 		// grab all the markdown files in the specified directory
-		return collectionAPI.getFilteredByGlob("./src/projects/*.md");
+		return collectionAPI.getFilteredByGlob('./src/projects/*.md');
 	});
 
-	eleventyConfig.addCollection("articlesByTimestamp", collectionAPI => {
-		return collectionAPI.getFilteredByTag("post").sort((a, b) => {
+	eleventyConfig.addCollection('articlesByTimestamp', collectionAPI => {
+		return collectionAPI.getFilteredByTag('post').sort((a, b) => {
 			// use the timestamp if we have it, otherwise date
 			var aDate = a.data.timestamp ? new Date(a.data.timestamp) : new Date(a.date);
 			var bDate = b.data.timestamp ? new Date(b.data.timestamp) : new Date(b.date);
@@ -78,8 +78,8 @@ module.exports = eleventyConfig => {
 		});
 	});
 
-	eleventyConfig.addShortcode("GetKeywords", categories => {
-		return categories.join(", ");
+	eleventyConfig.addShortcode('GetKeywords', categories => {
+		return categories.join(', ');
 	});
 
 	// From ray camden's blog, first paragraph as excerpt
@@ -116,7 +116,7 @@ module.exports = eleventyConfig => {
 		return noContent;
 	}
 
-	eleventyConfig.addPairedShortcode("sidebar", function (content, title = "What It Means") {
+	eleventyConfig.addPairedShortcode('sidebar', function (content, title = 'What It Means') {
 		// What it means (WIM) block
 		var paragraphs = content.split(/(?:\r?\n)+/);
 		var rc = '<div class="wim">';
@@ -140,7 +140,7 @@ module.exports = eleventyConfig => {
 		return text.substring(0, 5000);
 	});
 
-	eleventyConfig.addFilter("commaize", function (num, locale = "en-us") {
+	eleventyConfig.addFilter('commaize', function (num, locale = "en-us") {
 		return num.toLocaleString(locale);
 	});
 
