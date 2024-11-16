@@ -24,7 +24,8 @@ const isProduction = process.env.NODE_ENV === 'production';
 
 const categoryDataFile = 'categoryData.json';
 
-module.exports = eleventyConfig => {
+export default function (eleventyConfig) {
+// module.exports = eleventyConfig => {
 
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(embedYouTube);
