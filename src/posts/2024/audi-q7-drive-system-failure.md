@@ -11,7 +11,11 @@ categories:
 timestamp: 2024-12-27T00:52:22.131Z
 ---
 
-I am an Audi driver, and have been for many years now. Until recently anyway. I was even making plans to trade in my current vehicle, a 2018 Audi Q7, for an Audi SQ5. However, while driving to Asheville NC to help with Helene cleanup, I experienced a nightmare Drive System Failure and haven't had access to my car in over three months. This post describes my nightmare and the apparent Audi design flaw that ruined my vehicle and therefore dramatically reduced the value of the car.
+I am an Audi driver, and have been for many years now. Until recently anyway. I was even making plans to trade in my current vehicle, a 2018 Audi Q7, for an Audi SQ5. However, while driving to Asheville NC to help with Helene cleanup, I experienced a nightmare **Drive System Failure* and haven't had access to my car in over three months. This post describes my nightmare and the apparent Audi design flaw that ruined my vehicle and therefore dramatically reduced the value of the car.
+
+{% sidebar "" %}
+Long story short: It appears that the 3.0L engine in the Audi Q7 has a serious design flaw that causes it to begin burning oil (increased frequency of adding a quart of oil to the engine) that eventually results in a catastrophic Drive System Failure in model years 2017 to 2019.
+{% endsidebar %}
 
 ## The Incident
 
