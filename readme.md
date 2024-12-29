@@ -6,6 +6,8 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 
 [Task List](https://trello.com/b/eoqh8Fte/jmw-site-tasks)
 
+https://www.aleksandrhovhannisyan.com/blog/eleventy-image-transform/
+
 ## The Site at Launch
 
 ![Home Page 20230415](images/image-02.png)
