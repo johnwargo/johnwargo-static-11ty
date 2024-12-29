@@ -73,7 +73,7 @@ I'm not an expert, but I generally understand what the error is telling me and s
 I didn't spend a lot of time researching the best solution, I just leveraged my existing JavaScript capabilities and came up with this:
 
 ```js
-const fs = require('fs');
+import fs from 'fs';
 
 module.exports = function () {
   const packageJson = JSON.parse(fs.readFileSync('./node_modules/@11ty/eleventy/package.json', 'utf8'));
@@ -90,7 +90,7 @@ That's it, it works great. Its a hack and I'm not that proud of it, but it works
 My existing approach return a string, and that supports my use case very well. If I needed the package properties as seperate values, I could use:
 
 ```js
-const fs = require('fs');
+import fs from 'fs';
 
 module.exports = function () {
   const packageJson = JSON.parse(fs.readFileSync('./node_modules/@11ty/eleventy/package.json', 'utf8'));
