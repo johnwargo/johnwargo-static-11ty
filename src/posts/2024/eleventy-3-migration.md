@@ -274,7 +274,7 @@ This was easily done before Eleventy 3 (I'll write about this in my next post), 
 
 The `eleventyConfig` object exposed by Eleventy doesn't contain a version property; I'm not sure why, but it should. So, in order to get the generator version number, the site has to read and parse the @11ty/eleventy package's `package.json` file to obtain the value. 
 
-I created a file in the project's `_data` folder called `[eleventyinfo.js](https://github.com/johnwargo/wargo-2024-11ty/blob/main/src/_data/eleventyinfo.js){target="_blank"}` that looks like this:
+I created a file in the project's `_data` folder called [`eleventyinfo.js`](https://github.com/johnwargo/wargo-2024-11ty/blob/main/src/_data/eleventyinfo.js){target="_blank"} that looks like this:
 
 ``` js
 const fs = require('fs');
