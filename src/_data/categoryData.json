@@ -41,7 +41,7 @@
   },
   {
     "category": "Content Management Systems",
-    "count": 16,
+    "count": 17,
     "description": "Articles related to my usage and experimentation with Content Management Systems (CMS).",
     "imageFilePath": "/images/headers/alvaro-reyes-qWwpHwip31M-unsplash-cropped.jpg",
     "imageAltText": "An image of a board with content blocks pinned to it",
@@ -73,7 +73,7 @@
   },
   {
     "category": "Eleventy",
-    "count": 39,
+    "count": 40,
     "description": "Articles related to the Eleventy Static Site Generator (used to build this site).",
     "imageFilePath": "/images/headers/11ty.png",
     "imageAltText": "Eleventy project logo",
@@ -201,7 +201,7 @@
   },
   {
     "category": "Web Development",
-    "count": 10,
+    "count": 11,
     "description": "Posts related to web development topics, development tools, strategies, etc.",
     "imageFilePath": "/images/headers/ferenc-almasi-eYpcLDXHVb0-unsplash-cropped.jpg",
     "imageAltText": "An image of a code editor displaying HTML code",

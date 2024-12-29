@@ -33,7 +33,7 @@
 	},
 	"Link Target": {
 		"scope": "markdown, liquid",
-		"prefix": "!liquid",
+		"prefix": "!target",
 		"body": [
 			" target=\"_blank\""
 		],
