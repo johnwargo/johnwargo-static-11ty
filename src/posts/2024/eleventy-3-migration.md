@@ -8,8 +8,7 @@ headerImageAltText:
 headerImageAttribution: 
 categories:
   - Eleventy
-  - Content Management Systems
-  - Web Development
+  - Static Site Generators
 timestamp: 2024-12-29T15:11:56.230Z
 ---
 
