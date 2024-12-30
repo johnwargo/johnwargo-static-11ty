@@ -87,7 +87,7 @@ That's it, it works great. Its a hack and I'm not that proud of it, but it works
 
 ## Alternative Option
 
-My existing approach return a string, and that supports my use case very well. If I needed the package properties as seperate values, I could use:
+My existing approach return a string, and that supports my use case very well. If I needed the package properties as separate values, I could use:
 
 ```js
 import fs from 'fs';
