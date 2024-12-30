@@ -7,8 +7,8 @@ headerImage:
 headerImageAltText: 
 headerImageAttribution: 
 categories:
-  - Content Management Systems
   - Eleventy
+  - Content Management Systems
   - Web Development
 timestamp: 2024-12-30T16:05:16.217Z
 ---
