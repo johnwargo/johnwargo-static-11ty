@@ -147,4 +147,6 @@ export default function(someVariable) {
 }
 ```
 
+**Note:** the `function` in the example above is required, it's not an example for a generic function name.
+
 That's it, that's all I did to complete the site's migration to ESM.
