@@ -5,8 +5,8 @@ date: 2023-03-18
 headerImage: 
 headerImageAltText: 
 categories:
-    - Static Site Generators
     - Eleventy
+    - Static Site Generators
 ---
 
 I used Raymond Camden's excellent A Complete Guide to Building a Blog with Eleventy ([https://cfjedimaster.github.io/eleventy-blog-guide/guide.html](https://cfjedimaster.github.io/eleventy-blog-guide/guide.html){target="_blank"}) to learn how to use Eleventy ([https://www.11ty.dev/](https://www.11ty.dev/){target="_blank"}). In that tutorial, Ray generates a separate categories page for each category, then links to the category page from the list of categories on each Post. That's an excellent feature, and I wanted that for my site, but I also want to present users with a stand-alone list of categories they can browse directly from the site's home page.

@@ -6,6 +6,7 @@ headerImage:
 headerImageAltText: 
 categories:
   - Eleventy
+  - Static Site Generators
 ---
 
 As I worked to migrate this site to [Eleventy](https://www.11ty.dev/docs/collections/){target="_blank"}, one of the final touches I wanted to add was a statistics page that showed 'stuff' about the site. The page started simple at first, but then I started thinking about what I could do with 14 years of post data. 

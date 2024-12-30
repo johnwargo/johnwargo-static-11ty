@@ -6,6 +6,7 @@ headerImage:
 headerImageAltText: 
 categories:
   - Eleventy
+  - Static Site Generators
 ---
 
 When I built this site, one of the features I wanted in the site was displaying a custom header image based on the category in a post or one of the Category pages. I had a lot of different ideas how to do this, but I wanted to make sure that the solution I picked was easy to manage and added the smallest amount of overhead to the site.

@@ -8,6 +8,7 @@ headerImageAltText:
 headerImageAttribution: 
 categories:
   - Eleventy
+  - Static Site Generators
 ---
 
 The Categories list on this site is getting pretty long, so one of the things I wanted to do this weekend was migrate the Unordered List (`<ul></ul>`) the site used today into a two column table. I asked Bard and it generated relatively useless code for me; after three tries I finally got something that looked like it would work, but didn't. 

@@ -6,6 +6,7 @@ headerImage:
 headerImageAltText: 
 categories:
   - Eleventy
+  - Static Site Generators
 ---
 
 I hate it when software products and sites publish large numbers (greater than 1,000 - notice the comma?) without using thousands separators and the like. When I built the [Statistics](/statistics/) page, I made sure to add a `commaize` filter to ensure my site stats larger numbers displayed the correct punctuation:

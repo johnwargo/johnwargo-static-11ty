@@ -6,6 +6,7 @@ headerImage:
 headerImageAltText: 
 categories:
   - Eleventy
+  - Static Site Generators
 ---
 
 I added navigation buttons to this site on the [Articles](/articles/) and [Categories](/categories/) pages. I started with the standard Previous/Next buttons but quickly realized that I also wanted First and Last buttons, but only under certain conditions.

@@ -6,6 +6,7 @@ headerImage:
 headerImageAltText: 
 categories:
   - Eleventy
+  - Static Site Generators
 ---
 
 One of the features many content management systems (CMS) give users is the ability to generate paginated lists of posts/articles as well as a way to display a paginated list of all posts in a particular category. Static site generators like [Eleventy](https://www.11ty.dev/){target="_blank"} deliver pagination capabilities which allow you to generate pages that break up a list of items into batches on each page. 

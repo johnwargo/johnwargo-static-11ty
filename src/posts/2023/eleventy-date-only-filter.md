@@ -8,6 +8,7 @@ headerImageAltText:
 headerImageAttribution: 
 categories:
   - Eleventy
+  - Static Site Generators
 ---
 
 I was looking at the site's [stats page](https://johnwargo.com/statistics/){target="_blank"} yesterday and noticed that the output for First Post and Last Post date included an empty time `00:00:00 GMT+0000 (Coordinated Universal Time)`.  This is unnecessary since there was no time component in those values, only a date. Here's what it looked like:

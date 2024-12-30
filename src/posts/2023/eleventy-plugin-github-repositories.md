@@ -8,6 +8,7 @@ headerImageAltText:
 headerImageAttribution: 
 categories:
   - Eleventy
+  - Static Site Generators
 ---
 
 As I wrote in [Adding a GitHub Repository List to an Eleventy Site](/posts/2023/github-repository-list-eleventy/){target="_blank"} and [Adding a GitHub Repository List to an Eleventy Site (part 2)](/posts/2023/github-repository-list-eleventy-2/){target="_blank"}, I've been playing around with generating a GitHub repository list in an Eleventy site. 

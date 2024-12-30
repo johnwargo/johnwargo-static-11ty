@@ -8,6 +8,7 @@ headerImageAltText:
 headerImageAttribution: 
 categories:
   - Eleventy
+  - Static Site Generators
 ---
 
 In the Joomla version of this site (the previous version of what you're looking at now) I used a downloads plugin which allowed me to view and manage site downloads from the admin panel. As I migrated to [Eleventy](https://www.11ty.dev/){target="_blank"} I didn't migrate any of the existing downloads.

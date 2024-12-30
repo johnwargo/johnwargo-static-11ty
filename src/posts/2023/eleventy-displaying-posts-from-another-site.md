@@ -6,6 +6,7 @@ headerImage:
 headerImageAltText: 
 categories:
   - Eleventy
+  - Static Site Generators
 ---
 
 As I explained in [Relaunched A World Without Apps](/posts/2023/relaunched-a-world-without-apps/) I just relaunched a sister site to this one. After I posted that article, I started thinking about pulling in the most recent posts from that site to this one's home page, just to cross link the sites. You can see the results on the home page, it looks something like this:

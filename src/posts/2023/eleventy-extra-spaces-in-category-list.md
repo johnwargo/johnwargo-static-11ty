@@ -6,6 +6,7 @@ headerImage:
 headerImageAltText: 
 categories:
   - Eleventy
+  - Static Site Generators
 ---
 
 As I built out this site, I added a list of category links to the post page as well as any post listings on the site. I grabbed the code from to do this from [A Complete Guide to Building a Blog with Eleventy](https://cfjedimaster.github.io/eleventy-blog-guide/guide.html){target="_blank"} and it looks like this:
