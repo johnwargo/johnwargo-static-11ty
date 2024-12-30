@@ -13,6 +13,14 @@ categories:
 timestamp: 2024-12-29T16:25:44.548Z
 ---
 
+**Update:** Soon after I posted a link to this article on Mastodon, the Eleventy team responded with 
+
+> @johnwargo you needn’t parse your package.json for a meta generator element: you can use `{{ eleventy.generator }}` directly, it’s supplied for free by Eleventy! Docs: https://www.11ty.dev/docs/data-eleventy-supplied/#use-with-meta-namegenerator
+
+So it turns out you don't need any of the stuff that follows. :-)
+
+***
+
 A while back, I added the Eleventy build details to the footer of this site; here's what it looks like today:
 
 {% image "src/images/2024/jmw-site-footer.png", "A screenshot of this site's footer", "image-full" %}
