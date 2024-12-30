@@ -8,7 +8,7 @@
     "before": function(paginationData, fullData){ let data = paginationData.filter((item) => item.data.categories && item.data.categories.includes('Woodworking')); return Array.from(data).sort((a, b) => { return a.date < b.date ? 1 : -1; });}
   },
   "category": "Woodworking",
-  "description": "",
+  "description": "Articles describing things I do in my woodworking shop.",
   "eleventyComputed": {
     "title": "{{ category }}"
   },

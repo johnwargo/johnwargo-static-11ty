@@ -3,7 +3,7 @@
     "category": "3D Printing",
     "count": 1,
     "description": "3D Printing related topics.",
-    "imageFilePath": "/images/headers/3d-printer-3311587_1920-cropped.png",
+    "imageFilePath": "/images/headers/header-3d-printer.png",
     "imageAltText": "A stylized drawing of a 3D printer head",
     "imageAttribution": "Image by <a href=\"https://pixabay.com/users/krzysztof-m-1363864/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3311587\">krzysztof-m</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3311587\">Pixabay</a>"
   },
@@ -11,7 +11,7 @@
     "category": "Arduino",
     "count": 16,
     "description": "Articles related to lessons learned or projects built using Arduino devices or Arduino-compatible devices.",
-    "imageFilePath": "/images/headers/sahand-babali-gavODTHG36Y-unsplash-cropped.jpg",
+    "imageFilePath": "/images/headers/header-arduino.jpg",
     "imageAltText": "An image of an arduino device and other electronic components",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@sahandbabali?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Sahand Babali</a> on <a href=\"https://unsplash.com/photos/blue-and-black-circuit-board-gavODTHG36Y?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a>"
   },
@@ -19,15 +19,15 @@
     "category": "Artificial Intelligence",
     "count": 3,
     "description": "Articles related to Artificial Intelligence (AI) and Machine Learning (ML).",
-    "imageFilePath": "",
-    "imageAltText": "",
+    "imageFilePath": "/images/headers/header-artificial-intelligence.jpg",
+    "imageAltText": "A typewriter page displaying the text Artificial Intelligence",
     "imageAttribution": ""
   },
   {
     "category": "BlackBerry",
     "count": 69,
     "description": "Articles about the BlackBerry platform, BlackBerry development, and my time working at BlackBerry (Research in Motion).",
-    "imageFilePath": "/images/headers/randy-lu-FPmk3wxfu40-unsplash-cropped.jpg",
+    "imageFilePath": "/images/headers/header-blackberry.jpg",
     "imageAltText": "An image of a BlackBerry device",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@djyde\" target=\"_blank\">Randy Lu</a> on <a href=\"https://unsplash.com/photos/FPmk3wxfu40\" target=\"_blank\">Unsplash</a>."
   },
@@ -35,7 +35,7 @@
     "category": "Cloud Development",
     "count": 6,
     "description": "Articles related to cloud software development (AWS, Google, Microsoft Azure, OCI, etc.).",
-    "imageFilePath": "/images/headers/c-dustin-K-Iog-Bqf8E-unsplash-cropped.jpg",
+    "imageFilePath": "/images/headers/header-cloud.jpg",
     "imageAltText": "an image of a cloud",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@dianamia?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">C Dustin</a> on <a href=\"https://unsplash.com/photos/white-clouds-K-Iog-Bqf8E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a>"
   },
@@ -43,7 +43,7 @@
     "category": "Content Management Systems",
     "count": 17,
     "description": "Articles related to my usage and experimentation with Content Management Systems (CMS).",
-    "imageFilePath": "/images/headers/alvaro-reyes-qWwpHwip31M-unsplash-cropped.jpg",
+    "imageFilePath": "/images/headers/header-cms.jpg",
     "imageAltText": "An image of a board with content blocks pinned to it",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@alvarordesign\" target=\"_blank\">Alvaro Reyes</a> on <a href=\"https://unsplash.com/photos/qWwpHwip31M\" target=\"_blank\">Unsplash</a>."
   },
@@ -51,7 +51,7 @@
     "category": "Delphi",
     "count": 11,
     "description": "Posts related to application development using Embarcadero Delphi (formerly Borland Delphi).",
-    "imageFilePath": "/images/headers/delphi-cropped.jpg",
+    "imageFilePath": "/images/headers/header-delphi.jpg",
     "imageAltText": "A screen shot of the Delphi IDE",
     "imageAttribution": ""
   },
@@ -59,7 +59,7 @@
     "category": "Developer Tools",
     "count": 7,
     "description": "Articles related to developer tools; ones I use or ones I'm evaluating.",
-    "imageFilePath": "/images/headers/ashim-d-silva-Kw_zQBAChws-unsplash-cropped.jpg",
+    "imageFilePath": "/images/headers/header-developer-tools.jpg",
     "imageAltText": "An image of some tools",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@randomlies\" target=\"_blank\">Ashim D’Silva</a> on <a href=\"https://unsplash.com/photos/Kw_zQBAChws\" target=\"_blank\">Unsplash</a>."
   },
@@ -67,15 +67,15 @@
     "category": "ESP32",
     "count": 6,
     "description": "Articles related to lessons learned or projects built using Espressif ESP32 devices.",
-    "imageFilePath": "/images/headers/hamed-taha-NEqR20e6eY4-unsplash-cropped.jpg",
+    "imageFilePath": "/images/headers/header-esp32.jpg",
     "imageAltText": "An image of an ESP32 Development board",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@hamedtaha?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Hamed Taha</a> on <a href=\"https://unsplash.com/photos/a-close-up-of-a-person-holding-a-small-electronic-device-NEqR20e6eY4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a>"
   },
   {
     "category": "Eleventy",
     "count": 42,
-    "description": "Articles related to the Eleventy Static Site Generator (used to build this site).",
-    "imageFilePath": "/images/headers/11ty.png",
+    "description": "Articles related to the Eleventy Static Site Generator (the tooling used to produce this site).",
+    "imageFilePath": "/images/headers/header-11ty.png",
     "imageAltText": "Eleventy project logo",
     "imageAttribution": "Eleventy Project Home Page."
   },
@@ -83,7 +83,7 @@
     "category": "Events",
     "count": 1,
     "description": "Articles about events I'm attending, have a speaking slot, or otherwise involved with.",
-    "imageFilePath": "/images/headers/jakob-dalbjorn-cuKJre3nyYc-unsplash-cropped.jpg",
+    "imageFilePath": "/images/headers/header-events.jpg",
     "imageAltText": "An image of a crowd of people at an event",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@jakobdalbjorn\" target=\"_blank\">Jakob Dalbjörn</a> on <a href=\"https://unsplash.com/photos/cuKJre3nyYc\" target=\"_blank\">Unsplash</a>."
   },
@@ -91,7 +91,7 @@
     "category": "Flutter",
     "count": 7,
     "description": "Articles related to Flutter development; either lessons learned or projects I created.",
-    "imageFilePath": "/images/headers/flutter-cropped.jpg",
+    "imageFilePath": "/images/headers/header-flutter.jpg",
     "imageAltText": "A screen shot of the Flutter home page",
     "imageAttribution": "https://flutter.io"
   },
@@ -99,7 +99,7 @@
     "category": "Guests",
     "count": 1,
     "description": "Articles written by Guest Authors (so far, only one).",
-    "imageFilePath": "/images/headers/erik-mclean-aNZnKZKfAq8-unsplash-cropped.jpg",
+    "imageFilePath": "/images/headers/header-guests.jpg",
     "imageAltText": "An image of a guestbook",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@introspectivedsgn\" target=\"_blank\">Erik Mclean</a> on <a href=\"https://unsplash.com/photos/aNZnKZKfAq8\" target=\"_blank\">Unsplash</a>."
   },
@@ -107,7 +107,7 @@
     "category": "IBM Lotus Domino",
     "count": 31,
     "description": "Articles related to IBM Lotus Notes and/or Domino; mostly around development topics.",
-    "imageFilePath": "/images/headers/tamara-gak-3VarlhRV_ns-unsplash-cropped.jpg",
+    "imageFilePath": "/images/headers/header-domino.jpg",
     "imageAltText": "An image of some Dominos",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@tamara_photography\" target=\"_blank\">Tamara Gak</a> on <a href=\"https://unsplash.com/photos/3VarlhRV_ns\" target=\"_blank\">Unsplash</a>."
   },
@@ -115,7 +115,7 @@
     "category": "Internet of Things (IoT)",
     "count": 49,
     "description": "Articles related to Microcontrollers, single board computers, and other stuff.",
-    "imageFilePath": "/images/headers/robin-glauser-zP7X_B86xOg-unsplash-cropped.jpg",
+    "imageFilePath": "/images/headers/header-iot.jpg",
     "imageAltText": "An image of an Arduino device and other Electric components",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@nahakiole\" target=\"_blank\">Robin Glauser</a> on <a href=\"https://unsplash.com/photos/zP7X_B86xOg\" target=\"_blank\">Unsplash</a>."
   },
@@ -123,7 +123,7 @@
     "category": "Microsoft Outlook",
     "count": 4,
     "description": "Articles related to Microsoft Outlook; either me musing about the app or the project's I built that integrate with it.",
-    "imageFilePath": "/images/headers/tadas-sar-T01GZhBSyMQ-unsplash-cropped.jpg",
+    "imageFilePath": "/images/headers/header-outlook.jpg",
     "imageAltText": "An image of the Windows logo on a keyboard",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@stadsa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Tadas Sar</a> on <a href=\"https://unsplash.com/photos/black-laptop-computer-keyboard-in-closeup-photo-T01GZhBSyMQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a>"
   },
@@ -131,7 +131,7 @@
     "category": "Microsoft Windows",
     "count": 13,
     "description": "Articles covering topics related Microsoft Windows or the Windows applications I created.",
-    "imageFilePath": "/images/headers/tadas-sar-T01GZhBSyMQ-unsplash-cropped.jpg",
+    "imageFilePath": "/images/headers/header-outlook.jpg",
     "imageAltText": "An image of the Windows logo on a keyboard",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@stadsa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Tadas Sar</a> on <a href=\"https://unsplash.com/photos/black-laptop-computer-keyboard-in-closeup-photo-T01GZhBSyMQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a>"
   },
@@ -139,7 +139,7 @@
     "category": "Miscellaneous",
     "count": 152,
     "description": "Posts that didn't fit in any other categories.",
-    "imageFilePath": "/images/headers/marcos-paulo-prado-DwKo9S5sewA-unsplash-cropped.jpg",
+    "imageFilePath": "/images/headers/header-misc.jpg",
     "imageAltText": "random bands of color",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@marcospradobr\" target=\"_blank\">Marcos Paulo Prado</a> on <a href=\"https://unsplash.com/photos/DwKo9S5sewA\" target=\"_blank\">Unsplash</a>"
   },
@@ -147,7 +147,7 @@
     "category": "Mobile",
     "count": 30,
     "description": "Posts related to mobile phones and mobility in general.",
-    "imageFilePath": "/images/headers/eirik-solheim-mWTOR3Rx8l8-unsplash-cropped.jpg",
+    "imageFilePath": "/images/headers/header-mobile.jpg",
     "imageAltText": "An image of a bunch of phones dumped on a table",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@eirikso\" target=\"_blank\">Eirik Solheim</a> on <a href=\"https://unsplash.com/photos/mWTOR3Rx8l8\" target=\"_blank\">Unsplash</a>."
   },
@@ -155,7 +155,7 @@
     "category": "Mobile Development",
     "count": 99,
     "description": "Posts related to mobile app development, something I live for a very long time.",
-    "imageFilePath": "/images/headers/ilgmyzin-Xe21OFRpqvk-unsplash-cropped.jpg",
+    "imageFilePath": "/images/headers/header-mobile-development.jpg",
     "imageAltText": "Mobile Apps",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@ilgmyzin\" target=\"_blank\">ilgmyzin</a> on <a href=\"https://unsplash.com/photos/Xe21OFRpqvk\" target=\"_blank\">Unsplash</a>."
   },
@@ -163,7 +163,7 @@
     "category": "Node.js",
     "count": 8,
     "description": "Articles related to software development using Node.js. This includes node command line tooling, plugins, and other stuff.",
-    "imageFilePath": "/images/headers/nodejs-cropped.jpg",
+    "imageFilePath": "/images/headers/header-nodejs.jpg",
     "imageAltText": "A screen shot of the node.js home page",
     "imageAttribution": "https://nodejs.org/"
   },
@@ -171,15 +171,15 @@
     "category": "Phishing",
     "count": 7,
     "description": "Articles describing Phishing attacks I've seen or received.",
-    "imageFilePath": "/images/headers/phishing-6573326_1920-cropped.png",
+    "imageFilePath": "/images/headers/header-phishing.png",
     "imageAltText": "Image of a fishing hook lifting an email envelope",
     "imageAttribution": "Image by <a href=\"https://pixabay.com/users/mohamed_hassan-5229782/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6573326\">Mohamed Hassan</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6573326\">Pixabay</a>"
   },
   {
     "category": "Project Builds",
     "count": 3,
-    "description": "",
-    "imageFilePath": "",
+    "description": "Articles about the different projects I've built. This could be workshop projects or electronics projects.",
+    "imageFilePath": "/images/headers/header-project-builds.jpg",
     "imageAltText": "",
     "imageAttribution": ""
   },
@@ -187,7 +187,7 @@
     "category": "Static Site Generators",
     "count": 19,
     "description": "Anything related to Static Site Generators.",
-    "imageFilePath": "/images/headers/alvaro-reyes-qWwpHwip31M-unsplash-cropped.jpg",
+    "imageFilePath": "/images/headers/header-cms.jpg",
     "imageAltText": "An image of a board with content blocks pinned to it",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@alvarordesign\" target=\"_blank\">Alvaro Reyes</a> on <a href=\"https://unsplash.com/photos/qWwpHwip31M\" target=\"_blank\">Unsplash</a>."
   },
@@ -195,7 +195,7 @@
     "category": "Stupid Developer Tricks",
     "count": 11,
     "description": "Posts calling out the results of stupid things software developers do.",
-    "imageFilePath": "/images/headers/raspopova-marina-PHIJC0jpx9U-unsplash-cropped.jpg",
+    "imageFilePath": "/images/headers/header-stupid-developer-tricks.jpg",
     "imageAltText": "An image containing a bunch of nuts",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@raspopovamarisha\" target=\"_blank\">Raspopova Marina</a> on <a href=\"https://unsplash.com/photos/PHIJC0jpx9U\" target=\"_blank\">Unsplash</a>."
   },
@@ -203,7 +203,7 @@
     "category": "Web Development",
     "count": 11,
     "description": "Posts related to web development topics, development tools, strategies, etc.",
-    "imageFilePath": "/images/headers/ferenc-almasi-eYpcLDXHVb0-unsplash-cropped.jpg",
+    "imageFilePath": "/images/headers/header-web-development.jpg",
     "imageAltText": "An image of a code editor displaying HTML code",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@flowforfrank\" target=\"_blank\">Ferenc Almasi</a> on <a href=\"https://unsplash.com/photos/eYpcLDXHVb0\" target=\"_blank\">Unsplash</a>."
   },
@@ -211,16 +211,16 @@
     "category": "What Were They Thinking",
     "count": 15,
     "description": "Articles about stupid things I see out in the world.",
-    "imageFilePath": "/images/headers/towfiqu-barbhuiya-oZuBNC-6E2s-unsplash-cropped.jpg",
+    "imageFilePath": "/images/headers/header-wwtt.jpg",
     "imageAltText": "An image of a question mark",
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@towfiqu999999\" target=\"_blank\">Towfiqu barbhuiya</a> on <a href=\"https://unsplash.com/photos/oZuBNC-6E2s\" target=\"_blank\">Unsplash</a>."
   },
   {
     "category": "Woodworking",
     "count": 2,
-    "description": "",
-    "imageFilePath": "",
-    "imageAltText": "",
-    "imageAttribution": ""
+    "description": "Articles describing things I do in my woodworking shop.",
+    "imageFilePath": "/images/headers/header-woodworking.jpg",
+    "imageAltText": "A picture of my shop",
+    "imageAttribution": "JOhn M. Wargo"
   }
 ]
