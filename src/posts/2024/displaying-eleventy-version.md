@@ -70,18 +70,18 @@ I'm not an expert, but I generally understand what the error is telling me and s
 
 ## Fix for Eleventy 3
 
-I didn't spend a lot of time researching the best solution, I just leveraged my existing JavaScript capabilities and came up with this:
+I didn't spend a lot of time researching the best solution, I just leveraged my existing JavaScript capabilities and came up with this, changing the name of the file from `eleventyinfo.js` to `eleventyinfo.mjs`:
 
 ```js
 import fs from 'fs';
 
-module.exports = function () {
+export default function () {
   const packageJson = JSON.parse(fs.readFileSync('./node_modules/@11ty/eleventy/package.json', 'utf8'));
   return { generatorStr: `${packageJson.name} v${packageJson.version}` }
 }
 ```
 
-Instead of loading the package through `require`, the code just reads the `package.json file directly from the Eleventy package folder `./node_modules/@11ty/eleventy/package.json` then uses `JSON.parse` method to convert it to a JavaScript object.
+Instead of loading the package through `require`, the code just reads the `package.json` file directly from the Eleventy package folder `./node_modules/@11ty/eleventy/package.json` then uses `JSON.parse` method to convert it to a JavaScript object.
 
 That's it, it works great. Its a hack and I'm not that proud of it, but it works. 
 
@@ -92,7 +92,7 @@ My existing approach return a string, and that supports my use case very well. I
 ```js
 import fs from 'fs';
 
-module.exports = function () {
+export default function () {
   const packageJson = JSON.parse(fs.readFileSync('./node_modules/@11ty/eleventy/package.json', 'utf8'));
   return { 
     packageName: packageJson.name, 
