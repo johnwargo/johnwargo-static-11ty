@@ -8,7 +8,7 @@
     "before": function(paginationData, fullData){ let data = paginationData.filter((item) => item.data.categories && item.data.categories.includes('3D Printing')); return Array.from(data).sort((a, b) => { return a.date < b.date ? 1 : -1; });}
   },
   "category": "3D Printing",
-  "description": "",
+  "description": "3D Printing related topics.",
   "eleventyComputed": {
     "title": "{{ category }}"
   },

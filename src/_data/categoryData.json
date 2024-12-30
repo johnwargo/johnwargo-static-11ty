@@ -2,10 +2,10 @@
   {
     "category": "3D Printing",
     "count": 1,
-    "description": "",
-    "imageFilePath": "",
-    "imageAltText": "",
-    "imageAttribution": ""
+    "description": "3D Printing related topics.",
+    "imageFilePath": "/images/headers/3d-printer-3311587_1920-cropped.png",
+    "imageAltText": "A stylized drawing of a 3D printer head",
+    "imageAttribution": "Image by <a href=\"https://pixabay.com/users/krzysztof-m-1363864/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3311587\">krzysztof-m</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3311587\">Pixabay</a>"
   },
   {
     "category": "Arduino",
@@ -41,7 +41,7 @@
   },
   {
     "category": "Content Management Systems",
-    "count": 19,
+    "count": 17,
     "description": "Articles related to my usage and experimentation with Content Management Systems (CMS).",
     "imageFilePath": "/images/headers/alvaro-reyes-qWwpHwip31M-unsplash-cropped.jpg",
     "imageAltText": "An image of a board with content blocks pinned to it",
@@ -170,22 +170,22 @@
   {
     "category": "Phishing",
     "count": 7,
+    "description": "Articles describing Phishing attacks I've seen or received.",
+    "imageFilePath": "/images/headers/phishing-6573326_1920-cropped.png",
+    "imageAltText": "Image of a fishing hook lifting an email envelope",
+    "imageAttribution": "Image by <a href=\"https://pixabay.com/users/mohamed_hassan-5229782/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6573326\">Mohamed Hassan</a> from <a href=\"https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=6573326\">Pixabay</a>"
+  },
+  {
+    "category": "Project Builds",
+    "count": 3,
     "description": "",
     "imageFilePath": "",
     "imageAltText": "",
     "imageAttribution": ""
   },
   {
-    "category": "Project Builds",
-    "count": 3,
-    "description": "Posts that generally cover my analysis of spam and phising messages I receive from time to time.",
-    "imageFilePath": "",
-    "imageAltText": "",
-    "imageAttribution": ""
-  },
-  {
     "category": "Static Site Generators",
-    "count": 6,
+    "count": 19,
     "description": "Anything related to Static Site Generators.",
     "imageFilePath": "/images/headers/alvaro-reyes-qWwpHwip31M-unsplash-cropped.jpg",
     "imageAltText": "An image of a board with content blocks pinned to it",
@@ -201,7 +201,7 @@
   },
   {
     "category": "Web Development",
-    "count": 13,
+    "count": 11,
     "description": "Posts related to web development topics, development tools, strategies, etc.",
     "imageFilePath": "/images/headers/ferenc-almasi-eYpcLDXHVb0-unsplash-cropped.jpg",
     "imageAltText": "An image of a code editor displaying HTML code",
