@@ -18,7 +18,6 @@ const htmlMinTransform = require('./src/transforms/html-min.js');
 // upgrade helper
 const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
-
 // Create a helpful production flag
 const isProduction = process.env.NODE_ENV === 'production';
 
