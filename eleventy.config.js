@@ -15,6 +15,10 @@ const pluginImageHeaders = require('./eleventy.config.headerimage.js');
 // Transforms
 const htmlMinTransform = require('./src/transforms/html-min.js');
 
+// upgrade helper
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
+
+
 // Create a helpful production flag
 const isProduction = process.env.NODE_ENV === 'production';
 
@@ -35,6 +39,9 @@ module.exports = eleventyConfig => {
 	eleventyConfig.addPlugin(pluginImageHeaders, { dataFileName: categoryDataFile, imageClass: 'image fit' });
 	eleventyConfig.addPlugin(pluginImages, { debugMode: false });
 	eleventyConfig.addPlugin(pluginStats);
+
+	// upgrade helper
+	eleventyConfig.addPlugin(UpgradeHelper);
 
 	// https://github.com/11ty/eleventy/issues/2301
 	const mdOptions = {
