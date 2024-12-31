@@ -1,45 +1,45 @@
+/**********************************************************
+ * Eleventy Config for johnwargo.com
+ **********************************************************/
+// Public plugins
 import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
-import generateCategoryPages from 'eleventy-generate-category-pages';
-import fileList from 'eleventy-plugin-file-list';
-import githubRepos from 'eleventy-plugin-github-repos';
 import markdownIt from 'markdown-it';
 import markdownItAttrs from 'markdown-it-attrs';
 import pluginDate from 'eleventy-plugin-date';
 import pluginRss from '@11ty/eleventy-plugin-rss';
 import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 import embedYouTube from 'eleventy-plugin-youtube-embed';
+// JMW public plugins
+import generateCategoryPages from 'eleventy-generate-category-pages';
+import githubRepos from 'eleventy-plugin-github-repos';
+import fileList from 'eleventy-plugin-file-list';
 import pluginStats from 'eleventy-plugin-post-stats';
 // local plugins
 import pluginImages from './eleventy.config.images.js';
 import pluginImageHeaders from './eleventy.config.headerimage.js';
 import htmlMinTransform from './src/transforms/html-min.js';
 
-// upgrade helper
-import UpgradeHelper from '@11ty/eleventy-upgrade-help';
-
-// Create a helpful production flag
+// controls whether HTML minification happens
 const isProduction = process.env.NODE_ENV === 'production';
-
+// this file name is used in a couple of places, so I made it a constant
 const categoryDataFile = 'categoryData.json';
 
 export default function (eleventyConfig) {
 
+	// Public plugins
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(embedYouTube);
-	eleventyConfig.addPlugin(fileList, { targetFolder: 'src/files' });
-
-	const apiKey = process.env.GITHUB_API_KEY;
-	eleventyConfig.addPlugin(githubRepos, { userAccount: 'johnwargo', apiKey });
-
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(syntaxHighlight);
+	// JMW public plugins
+	eleventyConfig.addPlugin(fileList, { targetFolder: 'src/files' });
+	// const apiKey = process.env.GITHUB_API_KEY;
+	eleventyConfig.addPlugin(githubRepos, { userAccount: 'johnwargo', apiKey: process.env.GITHUB_API_KEY });
+	eleventyConfig.addPlugin(pluginStats);
+	// local plugins
 	eleventyConfig.addPlugin(pluginImageHeaders, { dataFileName: categoryDataFile, imageClass: 'image fit' });
 	eleventyConfig.addPlugin(pluginImages, { debugMode: false });
-	eleventyConfig.addPlugin(pluginStats);
-
-	// upgrade helper
-	eleventyConfig.addPlugin(UpgradeHelper);
 
 	// https://github.com/11ty/eleventy/issues/2301
 	const mdOptions = {
@@ -50,11 +50,11 @@ export default function (eleventyConfig) {
 	const markdownLib = markdownIt(mdOptions)
 		.use(markdownItAttrs)
 		.disable('code');
-
 	eleventyConfig.setLibrary('md', markdownLib);
 
 	var firstRun = true;
 	eleventyConfig.on('eleventy.before', async ({ dir, runMode, outputMode }) => {
+		// Only run this once, otherwise it starts recursing with every change
 		if (firstRun) {
 			firstRun = false;
 			generateCategoryPages({
