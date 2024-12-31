@@ -197,6 +197,7 @@ module.exports = eleventyConfig => {
 		eleventyConfig.addPassthroughCopy(path);
 	});
 
+	// instead of the 'src/images/*', above, you can use the following to copy images by year
 	// Assumes cascading folders per year
 	// let thisYear = new Date().getFullYear();
 	// for (let i = 2009; i <= thisYear; i++) {
