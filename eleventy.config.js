@@ -1,29 +1,28 @@
-const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
-const generateCategoryPages = require('eleventy-generate-category-pages');
-const fileList = require('eleventy-plugin-file-list');
-const githubRepos = require('eleventy-plugin-github-repos');
-const markdownIt = require('markdown-it');
-const markdownItAttrs = require('markdown-it-attrs');
-const pluginDate = require('eleventy-plugin-date');
-const pluginRss = require('@11ty/eleventy-plugin-rss');
-const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
-const embedYouTube = require('eleventy-plugin-youtube-embed');
-const pluginStats = require('eleventy-plugin-post-stats');
+import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
+import generateCategoryPages from 'eleventy-generate-category-pages';
+import fileList from 'eleventy-plugin-file-list';
+import githubRepos from 'eleventy-plugin-github-repos';
+import markdownIt from 'markdown-it';
+import markdownItAttrs from 'markdown-it-attrs';
+import pluginDate from 'eleventy-plugin-date';
+import pluginRss from '@11ty/eleventy-plugin-rss';
+import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
+import embedYouTube from 'eleventy-plugin-youtube-embed';
+import pluginStats from 'eleventy-plugin-post-stats';
 // local plugins
-const pluginImages = require('./eleventy.config.images.js');
-const pluginImageHeaders = require('./eleventy.config.headerimage.js');
-// Transforms
-const htmlMinTransform = require('./src/transforms/html-min.js');
+import pluginImages from './eleventy.config.images.js';
+import pluginImageHeaders from './eleventy.config.headerimage.js';
+import htmlMinTransform from './src/transforms/html-min.js';
 
 // upgrade helper
-const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
+import UpgradeHelper from '@11ty/eleventy-upgrade-help';
 
 // Create a helpful production flag
 const isProduction = process.env.NODE_ENV === 'production';
 
 const categoryDataFile = 'categoryData.json';
 
-module.exports = eleventyConfig => {
+export default function (eleventyConfig) {
 
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(embedYouTube);
@@ -89,7 +88,7 @@ module.exports = eleventyConfig => {
 	eleventyConfig.addShortcode('excerpt', post => extractExcerpt(post));
 	async function extractExcerpt(post) {
 
-		const noContent = '<p>No page content found.</p>'
+		const noContent = '<p>No page content found.</p>';
 
 		// No page content?
 		if (!post.templateContent) return noContent;
@@ -223,6 +222,6 @@ module.exports = eleventyConfig => {
 			layouts: '_layouts',
 			data: '_data'
 		}
-	}
+	};
 
-};
+}
