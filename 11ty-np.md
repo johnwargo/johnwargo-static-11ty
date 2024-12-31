@@ -1,5 +1,4 @@
 ---
-layout: generic
 title: 
 description: 
 date: 
