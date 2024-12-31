@@ -10,8 +10,8 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const embedYouTube = require('eleventy-plugin-youtube-embed');
 const pluginStats = require('eleventy-plugin-post-stats');
 // local plugins
-const pluginImages = require("./eleventy.config.images.js");
-const pluginImageHeaders = require("./eleventy.config.headerimage.js");
+const pluginImages = require('./eleventy.config.images.js');
+const pluginImageHeaders = require('./eleventy.config.headerimage.js');
 // Transforms
 const htmlMinTransform = require('./src/transforms/html-min.js');
 
@@ -44,9 +44,9 @@ module.exports = eleventyConfig => {
 	};
 	const markdownLib = markdownIt(mdOptions)
 		.use(markdownItAttrs)
-		.disable("code");
+		.disable('code');
 
-	eleventyConfig.setLibrary("md", markdownLib);
+	eleventyConfig.setLibrary('md', markdownLib);
 
 	var firstRun = true;
 	eleventyConfig.on('eleventy.before', async ({ dir, runMode, outputMode }) => {
@@ -61,13 +61,13 @@ module.exports = eleventyConfig => {
 		}
 	});
 
-	eleventyConfig.addCollection("projects", collectionAPI => {
+	eleventyConfig.addCollection('projects', collectionAPI => {
 		// grab all the markdown files in the specified directory
-		return collectionAPI.getFilteredByGlob("./src/projects/*.md");
+		return collectionAPI.getFilteredByGlob('./src/projects/*.md');
 	});
 
-	eleventyConfig.addCollection("articlesByTimestamp", collectionAPI => {
-		return collectionAPI.getFilteredByTag("post").sort((a, b) => {
+	eleventyConfig.addCollection('articlesByTimestamp', collectionAPI => {
+		return collectionAPI.getFilteredByTag('post').sort((a, b) => {
 			// use the timestamp if we have it, otherwise date
 			var aDate = a.data.timestamp ? new Date(a.data.timestamp) : new Date(a.date);
 			var bDate = b.data.timestamp ? new Date(b.data.timestamp) : new Date(b.date);
@@ -75,8 +75,8 @@ module.exports = eleventyConfig => {
 		});
 	});
 
-	eleventyConfig.addShortcode("GetKeywords", categories => {
-		return categories.join(", ");
+	eleventyConfig.addShortcode('GetKeywords', categories => {
+		return categories.join(', ');
 	});
 
 	// From ray camden's blog, first paragraph as excerpt
@@ -113,7 +113,7 @@ module.exports = eleventyConfig => {
 		return noContent;
 	}
 
-	eleventyConfig.addPairedShortcode("sidebar", function (content, title = "What It Means") {
+	eleventyConfig.addPairedShortcode('sidebar', function (content, title = 'What It Means') {
 		// What it means (WIM) block
 		var paragraphs = content.split(/(?:\r?\n)+/);
 		var rc = '<div class="wim">';
@@ -137,11 +137,11 @@ module.exports = eleventyConfig => {
 		return text.substring(0, 5000);
 	});
 
-	eleventyConfig.addFilter("commaize", function (num, locale = "en-us") {
+	eleventyConfig.addFilter('commaize', function (num, locale = 'en-us') {
 		return num.toLocaleString(locale);
 	});
 
-	eleventyConfig.addFilter("dateOnly", function (dateVal, locale = "en-us") {
+	eleventyConfig.addFilter('dateOnly', function (dateVal, locale = 'en-us') {
 		// Used to display human readable date on the stats page and other pages
 		var theDate = new Date(dateVal);
 		const options = {
@@ -153,7 +153,7 @@ module.exports = eleventyConfig => {
 		return theDate.toLocaleDateString(locale, options);
 	});
 
-	eleventyConfig.addFilter("readableTimestamp", function (dateVal, locale = "en-us") {
+	eleventyConfig.addFilter('readableTimestamp', function (dateVal, locale = 'en-us') {
 		// Used by home, articles, & post pages to render timestamp as human readable
 		var theDate = new Date(dateVal);
 		const options = {
@@ -172,7 +172,7 @@ module.exports = eleventyConfig => {
 		return JSON.stringify(variable);
 	});
 
-	eleventyConfig.addFilter("truncate", function (num) {
+	eleventyConfig.addFilter('truncate', function (num) {
 		return Math.trunc(num);
 	});
 
@@ -181,21 +181,18 @@ module.exports = eleventyConfig => {
 	eleventyConfig.addPassthroughCopy({ 'src/favicon/*': '/' });
 	// copy the rest of the files
 	[
-		// Data files
-		"src/_data/*",
-		// Template files
-		"src/assets/css/",
-		"src/assets/js/",
-		"src/assets/sass/",
-		"src/assets/webfonts/",
-		"src/files/*",
-		// Images folders
-		"src/images/*",
-		"src/images/headers/*",
-		"src/images/avatar/*",
-		"src/images/common/*",
-		"src/images/covers/*",
-		"src/images/sites/*"
+		'src/_data/*',
+		'src/assets/css/',
+		'src/assets/js/',
+		'src/assets/sass/',
+		'src/assets/webfonts/',
+		'src/files/*',
+		'src/images/*',
+		'src/images/headers/*',
+		'src/images/avatar/*',
+		'src/images/common/*',
+		'src/images/covers/*',
+		'src/images/sites/*'
 	].forEach((path) => {
 		eleventyConfig.addPassthroughCopy(path);
 	});
@@ -214,10 +211,10 @@ module.exports = eleventyConfig => {
 	return {
 		dir: {
 			input: 'src',
-			output: "_site",
-			includes: "_includes",
-			layouts: "_layouts",
-			data: "_data"
+			output: '_site',
+			includes: '_includes',
+			layouts: '_layouts',
+			data: '_data'
 		}
 	}
 
