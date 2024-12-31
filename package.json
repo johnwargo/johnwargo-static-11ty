@@ -2,6 +2,7 @@
   "name": "johnwargo",
   "version": "0.1.57",
   "description": "The static site generated version of [johnwargo.com](https://johnwargo.com), implemented using [Eleventy](https://www.11ty.dev/).",
+  "type":"module",
   "author": "John M. Wargo",
   "license": "MIT",
   "repository": {

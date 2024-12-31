@@ -4,9 +4,9 @@
 // By John M. Wargo
 // ==============================================
 
-var path = require("path");
+import path from "path";
 
-module.exports = function (eleventyConfig, options = {}) {
+export default function (eleventyConfig, options = {}) {
 
   const moduleName = "eleventy.config.headerimage";
 
@@ -27,7 +27,7 @@ module.exports = function (eleventyConfig, options = {}) {
 
   const categoryData = options.dataFileName ? path.parse(options.dataFileName).name : 'categoryData';
   _logIt(moduleName, `Category data: ${categoryData}`);
-  
+
   const imageClass = options.imageClass ? options.imageClass : '';
   if (imageClass.length > 0) _logIt(moduleName, `Image Class: ${imageClass}`);
 
