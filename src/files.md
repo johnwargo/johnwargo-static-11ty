@@ -1,6 +1,6 @@
 ---
-title: Site Files
 layout: generic
+title: Files
 ---
 
 This page displays a table listing metadata for all files in the `files` folder.
