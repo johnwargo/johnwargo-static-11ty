@@ -1,5 +1,5 @@
 ---
-title: Eleventy 3 Migration Fixed
+title: Eleventy 3 Upgrade Fixed
 description: In my Eleventy 3 Migration post yesterday, I described a process I used to migrate several Eleventy sites from V2 to V3. As part of that process, I was able to skip some important upgrade/migration steps because my development and deployment environments run Node.js version 22. Specifically, even though Eleventy 3 expects all modules to use ESM, a feature in Node.js 22 allowed my sites to build and deploy successfully without it. This post describes how I completed the successfully migration to ESM.
 date: 2024-12-30
 showCoffee: true

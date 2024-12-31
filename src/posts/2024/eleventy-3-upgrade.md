@@ -1,5 +1,5 @@
 ---
-title: Eleventy 3 Migration
+title: Eleventy 3 Upgrade
 description: I run quite a few sites on Eleventy; you can see the complete list on this site's Sites area. The Eleventy team released version 3.0 a while back and I finally got around to upgrading some of the sites. This post describes the process I used to migrate a couple of the sites.
 date: 2024-12-29
 showCoffee: true
