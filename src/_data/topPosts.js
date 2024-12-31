@@ -1,6 +1,5 @@
-'use strict'
-
-module.exports = async function () {
+// 'use strict'
+export default async function () {
   const feedURL = 'https://us-east1-jmw-static-site.cloudfunctions.net/getTopPosts';
   const postFix = ': John M. Wargo';
   const propertyId = '304078452';

@@ -11,6 +11,5 @@ export default function (value, outputPath) {
       minifyCSS: true
     });
   }
-
   return value;
 };

@@ -1,4 +1,3 @@
-//@ts-check
 // ==============================================
 // Category Header Image(s)
 // By John M. Wargo

@@ -1,7 +1,3 @@
----
-siteTitle: John M. Wargo
----
-
 <!DOCTYPE HTML>
 <!--
 Faction by Pixelarity
@@ -10,11 +6,11 @@ License: pixelarity.com/license
 --><html>
 
   <head>
-    <title>{{ siteTitle }}</title>
+    <title>{{ metadata.title }}</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="generator" content="{{ eleventy.generator }}">
-    <meta name="author" content="John M. Wargo">
+    <meta name="author" content="{{ metadata.author.name }}">
     {% if description %}<meta name="description" content="{{ description }}" />{% endif %}
     {% if categories.length > 0 %}<meta name="keywords" content="{% GetKeywords categories %}">{% endif %}
     <link rel="manifest" href="/manifest.json">
