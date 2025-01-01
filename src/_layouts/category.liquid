@@ -7,42 +7,47 @@ siteTitle: John M. Wargo
 Faction by Pixelarity
 pixelarity.com | hello@pixelarity.com
 License: pixelarity.com/license
---><html>
+-->
+<html>
 
-  <head>
-    <title>{{ title }}: {{ siteTitle }}</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <meta name="generator" content="{{ eleventy.generator }}">
-    <meta name="author" content="John M. Wargo">
-    {% if description %}<meta name="description" content="{{ description }}" />{% endif %}
-    {% if categories.length > 0 %}<meta name="keywords" content="{% GetKeywords categories %}">{% endif %}
-    <link rel="manifest" href="/manifest.json">
-    <link rel="stylesheet" href="{{ '/' | htmlBaseUrl }}assets/css/main.css" />
-    <link rel="stylesheet" href="{{ '/' | htmlBaseUrl }}assets/css/scott.css" />
-    {% include 'icons.html' %}
-    {% include 'google-analytics.html' %}
-  </head>
+<head>
+  <title>{{ title }}: {{ siteTitle }}</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="generator" content="{{ eleventy.generator }}">
+  <meta name="author" content="John M. Wargo">
+  {% if description %}
+    <meta name="description" content="{{ description }}" />
+  {% endif %}
+  {% if categories.length > 0 %}
+    <meta name="keywords" content="{% GetKeywords categories %}">
+  {% endif %}
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="{{ '/' | htmlBaseUrl }}assets/css/main.css" />
+  <link rel="stylesheet" href="{{ '/' | htmlBaseUrl }}assets/css/scott.css" />
+  {% include 'icons.html' %}
+  {% include 'google-analytics.html' %}
+</head>
 
-  <body class="is-preload">
-    {% include 'header.html' %}
-    <div class="wrapper">
-      <section class="main">
-        <section>
-          <p>Back to <a href="/categories">Categories</a></p>
-          <header>
-            {% CategoryImage category %}            
-            <h2>
-              {{ title }}
-            </h2>
-          </header>
-          {{ content }}
-          {% CategoryImageAttribution category %}
-        </section>
+<body class="is-preload">
+  {% include 'header.html' %}
+  <div class="wrapper">
+    <section class="main">
+      <section>
+        <p>Back to <a href="/categories">Categories</a></p>
+        <header>
+          {% CategoryImage category %}
+          <h2>
+            {{ title }}
+          </h2>
+        </header>
+        {{ content }}
+        {% CategoryImageAttribution category %}
       </section>
-    </div>
-    {% include 'footer.html' %}
-    {% include 'page-scripts.html' %}
-  </body>
+    </section>
+  </div>
+  {% include 'footer.html' %}
+  {% include 'page-scripts.html' %}
+</body>
 
 </html>

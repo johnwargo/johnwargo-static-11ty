@@ -15,7 +15,9 @@ License: pixelarity.com/license
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="generator" content="{{ eleventy.generator }}">
     <meta name="author" content="John M. Wargo">
-    {% if description %}<meta name="description" content="{{ description }}" />{% endif %}
+    {% if description %}
+      <meta name="description" content="{{ description }}" />
+    {% endif %}
     {% if categories.length > 0 %}<meta name="keywords" content="{% GetKeywords categories %}">{% endif %}
     <link rel="manifest" href="/manifest.json">
     <link rel="alternate" type="application/rss+xml" title="John M. Wargo: Tech Tidbits" href="https://johnwargo.com/feed.xml" />
