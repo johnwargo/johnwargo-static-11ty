@@ -4,8 +4,9 @@ module.exports = async function () {
   const feedURL = 'https://us-east1-jmw-static-site.cloudfunctions.net/getTopPosts';
   const postFix = ': John M. Wargo';
   const propertyId = '304078452';
+  const postCount = 20;
 
-  const response = await fetch(feedURL + `?propertyId=${propertyId}`, { mode: 'cors' });
+  const response = await fetch(feedURL + `?propertyId=${propertyId}&count=${postCount}`, { mode: 'cors' });
   if (response.status == 200) {
     const data = await response.json();
     data.articles.forEach(article => {
