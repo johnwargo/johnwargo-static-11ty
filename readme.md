@@ -6,7 +6,8 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 
 [Task List](https://trello.com/b/eoqh8Fte/jmw-site-tasks)
 
-https://www.aleksandrhovhannisyan.com/blog/eleventy-image-transform/
+- [ ] Add an image gallery: https://www.bash.lk/posts/tech/1-elventy-image-gallery/
+- [ ] Swap out image library for internal support: https://www.aleksandrhovhannisyan.com/blog/eleventy-image-transform/
 
 ## The Site at Launch
 
