@@ -7,58 +7,62 @@ siteTitle: John M. Wargo
 Faction by Pixelarity
 pixelarity.com | hello@pixelarity.com
 License: pixelarity.com/license
---><html>
+-->
+<html>
 
-  <head>
-    <title>{{ title }}: {{ siteTitle }}</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <meta name="generator" content="{{ eleventy.generator }}">
-    <meta name="author" content="John M. Wargo">
-    {% if description %}<meta name="description" content="{{ description }}" />{% endif %}
-    {% if categories %}<meta name="keywords" content="{% GetKeywords categories %}">{% endif %}
-    <link rel="manifest" href="/manifest.json">
-    <link rel="stylesheet" href="{{ '/' | htmlBaseUrl }}assets/css/main.css" />
-    {% if page.url == '/sites/' or page.url == '/projects/' %}
-      <link rel="stylesheet" href="{{ '/' | htmlBaseUrl }}assets/css/sites.css" />
-    {% endif %}
-    <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ '/' | htmlBaseUrl }}assets/css/scott.css" />
-    {% include 'icons.html' %}
-    {% include 'google-analytics.html' %}
-  </head>
+<head>
+  <title>{{ title }}: {{ siteTitle }}</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="generator" content="{{ eleventy.generator }}">
+  <meta name="author" content="John M. Wargo">
+  {% if description %}
+    <meta name="description" content="{{ description }}" />{% endif %}
+  {% if categories %}
+  <meta name="keywords" content="{% GetKeywords categories %}">{% endif %}
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" href="{{ '/' | htmlBaseUrl }}assets/css/main.css" />
+  {% if page.url == '/sites/' or page.url == '/projects/' %}
+    <link rel="stylesheet" href="{{ '/' | htmlBaseUrl }}assets/css/sites.css" />
+  {% endif %}
+  <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/' | htmlBaseUrl }}assets/css/scott.css" />
+  {% include 'icons.html' %}
+  {% include 'google-analytics.html' %}
+</head>
 
-  <body class="is-preload">
-    {% include 'header.html' %}
-    <div class="wrapper">
-      <section class="main">
-        <section>
-          <header>
-            {% if headerImage %}
-              <span class="image fit"><img
-                  src="{{ headerImage }}"
-                  alt="{{ headerImageAltText }}"
-                  class="image fit" /></span>
-            {% else %}
-              {% if categories %}
-                {% CategoryImage categories %}
-              {% endif %}
-            {% endif %}
-            <h2>
-              {{ title }}
-            </h2>
-          </header>
-          {{ content }}
-          {% if headerImageAttribution %}
-            {{ headerImageAttribution }}
+<body class="is-preload">
+  {% include 'header.html' %}
+  <div class="wrapper">
+    <section class="main">
+      <section>
+        {% if page.url contains '/sightings/' %}
+          <p>Back to <a href="/sightings">Sightings</a></p>
+        {% endif %}
+        <header>
+          {% if headerImage %}
+          <span class="image fit"><img src="{{ headerImage }}" alt="{{ headerImageAltText }}"
+              class="image fit" /></span>
           {% else %}
-            {% CategoryImageAttribution categories %}
+          {% if categories %}
+          {% CategoryImage categories %}
           {% endif %}
-        </section>
+          {% endif %}
+          <h2>
+            {{ title }}
+          </h2>          
+        </header>        
+        {{ content }}
+        {% if headerImageAttribution %}
+        {{ headerImageAttribution }}
+        {% else %}
+        {% CategoryImageAttribution categories %}
+        {% endif %}
       </section>
-    </div>
-    {% include 'footer.html' %}
-    {% include 'page-scripts.html' %}
-  </body>
+    </section>
+  </div>
+  {% include 'footer.html' %}
+  {% include 'page-scripts.html' %}
+</body>
 
 </html>
