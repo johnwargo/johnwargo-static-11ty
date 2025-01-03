@@ -1,0 +1,30 @@
+---
+layout: generic
+title: npm Packages
+description: Displays a list of all of my published npm packages.
+headerImage:
+headerImageAltText:
+headerImageAttribution:
+---
+
+{% assign packageList = npmpackages %}
+
+<p>As <a href="https://www.npmjs.com/settings/johnwargo/packages" target="_blank">@johnwargo</a>, I published {{
+  packages.length }} public packages in the <a href="https://www.npmjs.com/" target="_blank">npm Package Repository</a>.
+</p>
+
+{% if packages.length > 0 %}
+<table>
+  {% tablerow item in packageList cols:2 %}
+    <h4>
+      <a href="https://www.npmjs.com/package/{{ item.package.name }}" target="_blank">{{ item.package.name }}</a>
+    </h4>
+    {% if item.package.description %}
+      <p>{{ item.package.description }}</p>
+    {% endif %}
+    <p>Version: {{ item.package.version }} | Created: {{ item.package.date | dateOnly }}</p>
+  {% endtablerow %}
+</table>
+{% else %}
+  <p>No package data to display.</p>
+{% endif %}

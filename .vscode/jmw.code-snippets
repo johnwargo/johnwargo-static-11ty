@@ -13,7 +13,17 @@
 		],
 		"description": "Anchor Link with Target"
 	},
-	"IMG": {
+	"Gallery": {
+		"scope": "markdown, liquid",
+		"prefix": "!gallery",
+		"body": [
+			"{% gallery \"\" %}",
+			"{% galleryImage \"src/images/\", \"\" %}",
+			"{% endgallery %}"
+		],
+		"description": "Image Tag"
+	},
+	"Image": {
 		"scope": "markdown, liquid",
 		"prefix": "!img",
 		"body": [
@@ -21,6 +31,15 @@
 		],
 		"description": "Image Tag"
 	},
+	"Link Target": {
+		"scope": "markdown, liquid",
+		"prefix": "!target",
+		"body": [
+			" target=\"_blank\""
+		],
+		"description": "Liquid Code Block"
+	},
+
 	"Liquid Highlight": {
 		"scope": "markdown",
 		"prefix": "!liquid",
@@ -28,14 +47,6 @@
 			"{% highlight liquid %}",
 			"",
 			"{% endhighlight %}"
-		],
-		"description": "Liquid Code Block"
-	},
-	"Link Target": {
-		"scope": "markdown, liquid",
-		"prefix": "!target",
-		"body": [
-			" target=\"_blank\""
 		],
 		"description": "Liquid Code Block"
 	},

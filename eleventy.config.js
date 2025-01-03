@@ -9,15 +9,16 @@ const pluginRss = require('@11ty/eleventy-plugin-rss');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const embedYouTube = require('eleventy-plugin-youtube-embed');
 const pluginStats = require('eleventy-plugin-post-stats');
+
 // local plugins
 const pluginImages = require('./eleventy.config.images.js');
+const pluginGallery = require("./eleventy.config.gallery.js");
 const pluginImageHeaders = require('./eleventy.config.headerimage.js');
+
 // Transforms
 const htmlMinTransform = require('./src/transforms/html-min.js');
 
-// Create a helpful production flag
 const isProduction = process.env.NODE_ENV === 'production';
-
 const categoryDataFile = 'categoryData.json';
 
 module.exports = eleventyConfig => {
@@ -25,13 +26,13 @@ module.exports = eleventyConfig => {
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(embedYouTube);
 	eleventyConfig.addPlugin(fileList, { targetFolder: 'src/files' });
-
-	const apiKey = process.env.GITHUB_API_KEY;
-	eleventyConfig.addPlugin(githubRepos, { userAccount: 'johnwargo', apiKey });
-
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(syntaxHighlight);
+	
+	const apiKey = process.env.GITHUB_API_KEY;
+	eleventyConfig.addPlugin(githubRepos, { userAccount: 'johnwargo', apiKey });
+	eleventyConfig.addPlugin(pluginGallery);
 	eleventyConfig.addPlugin(pluginImageHeaders, { dataFileName: categoryDataFile, imageClass: 'image fit' });
 	eleventyConfig.addPlugin(pluginImages, { debugMode: false });
 	eleventyConfig.addPlugin(pluginStats);
