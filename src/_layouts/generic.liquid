@@ -12,15 +12,7 @@ License: pixelarity.com/license
 
 <head>
   <title>{{ title }}: {{ siteTitle }}</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <meta name="generator" content="{{ eleventy.generator }}">
-  <meta name="author" content="John M. Wargo">
-  {% if description %}
-    <meta name="description" content="{{ description }}" />{% endif %}
-  {% if categories %}
-    <meta name="keywords" content="{% GetKeywords categories %}">
-  {% endif %}
+  {% include "metadata.html" %}
   <link rel="manifest" href="/manifest.json">
   <link rel="stylesheet" href="{{ '/' | htmlBaseUrl }}assets/css/main.css" />
   {% if page.url == '/sites/' or page.url == '/projects/' %}

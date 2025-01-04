@@ -1,6 +1,10 @@
 # Changelog
 
-## 20250103 v0.1.62
+## 20250104 v0.1.63
+
++ Added OpenGraph (https://ogp.me/) meta tags to the ite
+
+## 20250104 v0.1.62
 
 + Added Photo Gallery to the site using [PhotoSwipe](https://photoswipe.com/).
 + Added a link to the packages page to the home page.
