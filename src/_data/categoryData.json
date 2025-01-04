@@ -73,7 +73,7 @@
   },
   {
     "category": "Eleventy",
-    "count": 42,
+    "count": 43,
     "description": "Articles related to the Eleventy Static Site Generator (the tooling used to produce this site).",
     "imageFilePath": "/images/headers/header-11ty.png",
     "imageAltText": "Eleventy project logo",
@@ -185,7 +185,7 @@
   },
   {
     "category": "Static Site Generators",
-    "count": 20,
+    "count": 21,
     "description": "Anything related to Static Site Generators.",
     "imageFilePath": "/images/headers/header-cms.jpg",
     "imageAltText": "An image of a board with content blocks pinned to it",

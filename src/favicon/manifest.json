@@ -4,7 +4,7 @@
   "description": "Tech Tidbits & Stuff from John M. Wargo; a technical blog with lots of code and more.",
   "display": "standalone",
   "id": "com.johnwargo",
-  "start_url": '/',
+  "start_url": "/",
   "theme_color": "#358bca",
   "background_color": "#ffffff",
   "icons": [

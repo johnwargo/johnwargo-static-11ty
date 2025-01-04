@@ -88,7 +88,7 @@ categories:
       <p>View a list of all of the articles I published in other publications (besides here).</p>
     </article>
     <article class="icon solid fa-window-restore">
-      <a href="{{ '/' | htmlBaseUrl }}projects/" target="_blank">
+      <a href="{{ '/' | htmlBaseUrl }}projects/">
         <h3>Projects</h3>
       </a>
       <p>View some of my projects that span multiple posts on this site or multiple GitHub repositories.</p>
@@ -101,9 +101,15 @@ categories:
     </article>
     <article class="icon solid fa-code">
       <a href="https://github.com/johnwargo" target="_blank">
-        <h3>Code</h3>
+        <h3>Repositories</h3>
       </a>
       <p>View the source code projects in my public GitHub account.</p>
+    </article>
+    <article class="icon solid fa-code">
+      <a href="{{ '/' | htmlBaseUrl }}sightings/packages/">
+        <h3>Packages</h3>
+      </a>
+      <p>Public packages I published on npm.</p>
     </article>
     <article class="icon regular fa-calendar">
       <a href="{{ '/' | htmlBaseUrl }}sightings/events/">
@@ -117,11 +123,11 @@ categories:
       </a>
       <p>View a list of the Internet sites I maintain.</p>
     </article>
-    <article class="icon fa-paper-plane">
+    {% comment %} <article class="icon fa-paper-plane">
         <h3>Placeholder</h3>      
       <p>Nothing to see here, move along.</p>
     </article>
-  </section>
+  </section> {% endcomment %}
   
 </section>
 

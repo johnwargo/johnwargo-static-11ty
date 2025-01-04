@@ -1,8 +1,22 @@
 # Changelog
 
+## 20250103 v0.1.62
+
++ Added Photo Gallery to the site using [PhotoSwipe](https://photoswipe.com/).
++ Added a link to the packages page to the home page.
+
+## 20250102 v0.1.61
+
++ Added NPM Packages page to the Sightings page.
+
+## 20241231
+
++ Modified Popular Posts to display the top 20 posts instead of the top 10.
++ Added generator meta tag to every page.
+
 ## 20240412
 
-+ Fixed home page, articles page, categories pages to use timestamp
++ Fixed home page, articles page, categories pages to use timestamp.
 + Added a `articlesByTimestamp` collection that sorts posts by timestamp if the post has it. Needed this to sort two articles on the same day correctly.
 + Fixed **Most Popular** posts page, apparently I broke it when I moved the Analytics stuff to Google Cloud.
 
