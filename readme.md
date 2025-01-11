@@ -6,7 +6,6 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 
 [Task List](https://trello.com/b/eoqh8Fte/jmw-site-tasks)
 
-- [ ] Add an image gallery: https://www.bash.lk/posts/tech/1-elventy-image-gallery/
 - [ ] Swap out image library for internal support: https://www.aleksandrhovhannisyan.com/blog/eleventy-image-transform/
 
 ## The Site at Launch
@@ -84,29 +83,25 @@ set DEBUG=Eleventy* & npx @11ty/eleventy
 
 ### Publications record
 
+```json
 ,{
   "title": "",
   "date": "",
   "url": "",
   "description": ""
 },
+```
 
 ### Events record
 
+```json
 , {
   "title": "",
   "date": "",
   "url": "",
   "description": ""
 }
-
-### Links to Book cover images:
-
-{% image "src/images/covers/bbdf-cover-160.png", "Blackberry Development Fundamentals Cover", "image-full" %}
-{% image "src/images/covers/phonegap-essentials-cover-160.png", "PhoneGap Essentials Cover", "image-full" %}
-{% image "src/images/covers/acp-cover-160.png", "Apache Cordova 3 Programming", "image-full" %}
-{% image "src/images/covers/ac4p-160.png", "Apache Cordova 4 Programming Cover", "image-full" %}
-{% image "src/images/covers/anthology-mobile.jpg", "View Anthology Cover", "image-full" %}
+```
 
 ***
 
