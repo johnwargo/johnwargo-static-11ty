@@ -12,7 +12,7 @@ categories:
 timestamp: 2024-12-30T16:05:16.217Z
 ---
 
-In [Eleventy 3 Migration](/posts/2024/eleventy-3-migration/){target="_blank"}, I described a process I used to migrate several Eleventy sites from V2 to V3. As part of that process, I was able to skip some important upgrade/migration steps because my development and deployment environments run Node.js version 22. Specifically, even though Eleventy 3 expects all modules to use [ESM](https://nodejs.org/api/esm.html){target="_blank"}, a feature in Node.js 22 allowed my sites to build and deploy successfully without it.
+In [Eleventy 3 Upgrade](/posts/2024/eleventy-3-upgrade/){target="_blank"}, I described a process I used to migrate several Eleventy sites from V2 to V3. As part of that process, I was able to skip some important upgrade/migration steps because my development and deployment environments run Node.js version 22. Specifically, even though Eleventy 3 expects all modules to use [ESM](https://nodejs.org/api/esm.html){target="_blank"}, a feature in Node.js 22 allowed my sites to build and deploy successfully without it.
 
 Even though this worked, I didn't want to leave the sites in that state. Eleventy 3 uses ESM, and I didn't want to run into issues later due to me skipping that conversion step. 
 
