@@ -1,14 +1,21 @@
 ---
 title: Corrupt Arduino IDE Installation
-description: 
+description: I recently encountered issues compiling code for an M5Stack project
+  and struggled to resolve them. After finding outdated libraries on my system,
+  I uninstalled everything, deleted leftover files, and reinstalled. I
+  discovered additional files in the AppData folder that were causing the
+  problem. Once I removed all the folders and reinstalled, my issues were
+  resolved. It seems my system's configuration had become corrupted, preventing
+  updated library installations.
 date: 2025-01-11
 showCoffee: true
-headerImage: 
-headerImageAltText: 
-headerImageAttribution: 
+headerImage: null
+headerImageAltText: null
+headerImageAttribution: null
 categories:
   - Internet of Things (IoT)
 timestamp: 2025-01-11T13:57:18.087Z
+generatedDescription: true
 ---
 
 I'm a big fan of [M5Stack](https://m5stack.com/){target="_blank"} products, I have a collection of their devices here but I never seem to do much with them. In one of the periodic newsletters I receive, I noticed a cool project for an M5Stack Core Ink device I wanted to try out. The project is the [Keychain Skimmer Scanner](https://github.com/kevinl95/KeychainSkimmerScanner){target="_blank"} project that helps you locate Credit Card Skimmers.
