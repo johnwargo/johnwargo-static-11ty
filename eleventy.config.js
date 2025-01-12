@@ -1,15 +1,15 @@
 const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
-const generateCategoryPages = require('eleventy-generate-category-pages');
-const fileList = require('eleventy-plugin-file-list');
-const githubRepos = require('eleventy-plugin-github-repos');
 const markdownIt = require('markdown-it');
 const markdownItAttrs = require('markdown-it-attrs');
 const pluginDate = require('eleventy-plugin-date');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const embedYouTube = require('eleventy-plugin-youtube-embed');
+// my plugins
+const fileList = require('eleventy-plugin-file-list');
+const generateCategoryPages = require('eleventy-generate-category-pages');
+const githubRepos = require('eleventy-plugin-github-repos');
 const pluginStats = require('eleventy-plugin-post-stats');
-
 // local plugins
 const pluginImages = require('./eleventy.config.images.js');
 const pluginGallery = require("./eleventy.config.gallery.js");
