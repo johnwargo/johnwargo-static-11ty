@@ -296,13 +296,13 @@ During the build process, Eleventy executes the file and makes the data result a
 
 So, in the the `head` section for each page template, I added the following code:
 
-``` html
+{% highlight liquid %}
 <meta name="generator" content="{{ eleventyinfo.generatorStr }}" />
-```
+{% endhighlight %}
 
 Here's a complete example from the site:
 
-```html
+{% highlight liquid %}
 <head>
   <title>{{ siteTitle }}</title>
   <meta charset="utf-8" />
@@ -312,7 +312,7 @@ Here's a complete example from the site:
   <link rel="manifest" href="/manifest.json">
   {% include "google-analytics.html" %}
 </head>
-```
+{% endhighlight %}
 
 With that in place, when you run the build again, the warning message disappears.
 
@@ -332,6 +332,7 @@ Next, you must remove all references to the Upgrade Helper from the site's `elev
 
 ``` js
 const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
+
 eleventyConfig.addPlugin(UpgradeHelper);
 ```
 
