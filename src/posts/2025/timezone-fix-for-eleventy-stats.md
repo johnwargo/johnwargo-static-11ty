@@ -33,7 +33,7 @@ When the plugin's JavaScript code reads the date string from the post, it conver
 
 ## Validating the Issue
 
-I figured out the issue by taking a look at how the plugin represented the date values. There's a section in the plugin where it stores the first and last post dates in the site, so I added some code to write those values to the console.
+I figured out the issue by taking a look at how the plugin represented the date values. In my plugin project, I modified posts at the beginning and end of the date range so they both show publishing on January 1st. Then, there's a section in the plugin where it stores the first and last post dates to variables, so I modified the code to write those values to the console:
 
 **Note:** All the code in this post is in TypeScript.
 
@@ -44,7 +44,7 @@ log.debug(`First post date: ${statsObject.firstPostDate}`);
 log.debug(`Last post date: ${statsObject.lastPostDate}`);
 ```
 
-I then added/edited the first and last posts to give them a January 1st post date. When I executed a site build, the console reported that both January 1 posts were viewed as December 31st, 5 hours earlier than I expected.
+When I executed a site build, the console reported that both January 1 posts were viewed as December 31st (in their respective years), 5 hours earlier than I expected. That's why the plugin stored posts published on January 1st in the previous year, because 12:01 AM in US ET on January 1st is 5 hours earlier (late evenining) on December 31st.
 
 ## Implementing the Fix
 
