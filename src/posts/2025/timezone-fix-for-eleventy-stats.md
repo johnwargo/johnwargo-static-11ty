@@ -1,14 +1,20 @@
 ---
 title: Timezone Fix for the Eleventy Stats Plugin
-description: 
+description: I noticed a bug in my Eleventy Plugin Post Statistics where posts
+  published on January 1st were counted as being published on December 31st of
+  the previous year. The issue stemmed from the plugin converting dates to UTC.
+  To fix it, I added the timezone offset to the date values, converting them to
+  the local time zone. I also had to adjust some code to resolve a TypeScript
+  compiler error.
 date: 2025-01-12
 showCoffee: true
-headerImage: 
-headerImageAltText: 
-headerImageAttribution: 
+headerImage: null
+headerImageAltText: null
+headerImageAttribution: null
 categories:
   - Eleventy
 timestamp: 2025-01-12T13:10:17.007Z
+generatedDescription: true
 ---
 
 In a short post yesterday, I mentioned that I noticed that my [Eleventy Plugin Post Statistics](https://github.com/johnwargo/eleventy-plugin-post-stats){target="_blank"} wasn't working correctly. For this year's posts, the post count was short one post. 
