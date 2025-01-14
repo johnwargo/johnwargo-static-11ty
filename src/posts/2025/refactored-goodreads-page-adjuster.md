@@ -19,11 +19,11 @@ About two years ago, I published an article describing a web app I created that 
 
 I opened the app the other day because Goodreads says the current book I'm reading, [The Soul of America: The Battle for Our Better Angels](https://www.amazon.com/Soul-America-Battle-Better-Angels/dp/0399589813){target="_blank"}, has 416 pages in it when there are only 272 of actual reading content.The disparity between reality and Goodreads is so great that I wanted a more accurate view of how far I made it through the book.
 
-As I looked at the app, I realized it just didn't look very nice. When I wrote it, I just learned [React](https://react.dev/){target="_blank"} and I wanted to learn how to use [Bootsrtap](https://getbootstrap.com/){target="_blank"} with it. The app works, but it just looked lame. 
+As I looked at the app, I realized it just didn't look very nice. When I wrote it, I just learned [React](https://react.dev/){target="_blank"} and I wanted to learn how to use [Bootstrap](https://getbootstrap.com/){target="_blank"} with it. The app works, but it just looked lame. 
 
 A while back, I discovered [MVP.css](https://andybrewer.github.io/mvp/){target="_blank"}; it's a simple stylesheet that quickly makes any single page app look great (and supports multiple page apps too). I decided to give the app a facelift using MVP.css.
 
-The app was old, so I had to upgrade it to React 19. NExt, I stripped out all the Bootstrap stuff and converted it to MVP.css. Here's a screenshot of the results:
+The app was old, so I had to upgrade it to React 19. Next, I stripped out all the Bootstrap stuff and converted it to MVP.css. Here's a screenshot of the results:
 
 {% image "src/images/2025/goodreads-page-adjuster.png", "An image showing the new and improved Goodreads Page Adjuster app", "image-full" %}
 
