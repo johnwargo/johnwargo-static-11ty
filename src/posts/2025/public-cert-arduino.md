@@ -73,7 +73,7 @@ const char* cert= \
 "mcNL3qT7c96/YJZvxPiXDCfAvaKv3zYq+vH1O4hpJ1XYm7SFeHFQ5AyisnKP4z7U\n" \
 "uDcTXhOPTOtzsVMEaRbCaYwq+y/4AxLasMtUj4h20s9E2BwMgSy8jjbvlTZKli4D\n" \
 "hSaI\n" \
-"-----END CERTIFICATE-----\n"
+"-----END CERTIFICATE-----\n";
 ```
 
 Making those changes to the certificate file isn't impossible, but at 184 lines for this particular example, it's pretty tedious work If you have to do this frequently for certificates for different sites. Since I don't like doing that type of tedious work, I decided to build a utility that handles the process for me (and you).
