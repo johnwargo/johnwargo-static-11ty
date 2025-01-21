@@ -65,7 +65,7 @@
   },
   {
     "category": "ESP32",
-    "count": 6,
+    "count": 7,
     "description": "Articles related to lessons learned or projects built using Espressif ESP32 devices.",
     "imageFilePath": "/images/headers/header-esp32.jpg",
     "imageAltText": "An image of an ESP32 Development board",
@@ -113,7 +113,7 @@
   },
   {
     "category": "Internet of Things (IoT)",
-    "count": 50,
+    "count": 51,
     "description": "Articles related to Microcontrollers, single board computers, and other stuff.",
     "imageFilePath": "/images/headers/header-iot.jpg",
     "imageAltText": "An image of an Arduino device and other Electric components",
@@ -201,7 +201,7 @@
   },
   {
     "category": "Web Development",
-    "count": 11,
+    "count": 12,
     "description": "Posts related to web development topics, development tools, strategies, etc.",
     "imageFilePath": "/images/headers/header-web-development.jpg",
     "imageAltText": "An image of a code editor displaying HTML code",
