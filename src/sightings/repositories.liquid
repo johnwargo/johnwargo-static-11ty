@@ -7,10 +7,10 @@ headerImageAltText:
 headerImageAttribution: 
 ---
 
-<p>This page displays all of the repositories in my personal GitHub account <a href="https://github.com/johnwargo?tab=repositories" target="_blank">@johnwargo</a>. Click the link to open the repository.</p>
+<p>This page displays all of the public repositories in my personal GitHub account <a href="https://github.com/johnwargo?tab=repositories" target="_blank">@johnwargo</a>. Click the link to open the repository.</p>
 
 {% if collections.githubRepos.length > 0 %}
-  <p>Number of Repositories: {{ collections.githubRepos.length }}</p>
+  <p>Number of public repositories: {{ collections.githubRepos.length }}</p>
   <table>
     {% tablerow repo in collections.githubRepos cols:2 %}
       <a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a>
