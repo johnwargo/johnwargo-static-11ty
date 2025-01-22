@@ -288,7 +288,7 @@ void loop() {
 }
 ```
 
-lets go through each part of it...
+Lets go through each part of it...
 
 The first thing the code does is assign the Certificate Authority (CA) certificate to the `client` object. Without this, the HTTPS connection fill fail. Notice that it's `setCACert`, that's because it uses the root certificate authority certificate, not the site certificate. That's why I selected the *ISRG Root X1* when I exported the certificate. 
 
