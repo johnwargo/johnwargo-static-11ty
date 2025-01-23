@@ -12,6 +12,7 @@ var theArgs = process.argv.slice(3);
 var updatePackage = false;
 var updateIndex = false;
 
+console.time();
 console.log('\nStarting project publish...');
 
 // Check the command line arguments to see if we should increment the version
@@ -23,8 +24,6 @@ if (idx > -1) {
 } else {
   console.log('Skipping package version increment');
 }
-
-console.log('huh');
 
 // Check the command line arguments to see if we should update the Algolia index
 idx = theArgs.indexOf('-a');
@@ -74,3 +73,6 @@ if (updateIndex) {
 await $`git add -A`;
 await $`git commit -m ${theArgs[0]}`;
 await $`git push`;
+
+console.log('Finished!');
+console.timeEnd();
