@@ -74,5 +74,5 @@ await $`git add -A`;
 await $`git commit -m ${theArgs[0]}`;
 await $`git push`;
 
-console.log('Finished!');
+console.log('\nFinished!');
 console.timeEnd();
