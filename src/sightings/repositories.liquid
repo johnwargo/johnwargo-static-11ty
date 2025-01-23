@@ -2,6 +2,11 @@
 title: Repositories
 description: Displays a list of all GitHub repositories in my personal GitHUb account (@johnwargo).
 layout: generic
+pagination:
+  data: collections.githubRepos
+  size: 40
+  alias: repos
+  reverse: true 
 headerImage: 
 headerImageAltText:
 headerImageAttribution: 
@@ -9,10 +14,12 @@ headerImageAttribution:
 
 <p>This page displays all of the public repositories in my personal GitHub account <a href="https://github.com/johnwargo?tab=repositories" target="_blank">@johnwargo</a>. Click the link to open the repository.</p>
 
-{% if collections.githubRepos.length > 0 %}
-  <p>Number of public repositories: {{ collections.githubRepos.length }}</p>
+{% include 'pagination-count.html' %}
+
+{% if repos.length > 0 %}
+  <p>Number of public repositories: {{ repos.length }}</p>
   <table>
-    {% tablerow repo in collections.githubRepos cols:2 %}
+    {% tablerow repo in repos cols:2 %}
       <a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a>
       {% if repo.description.length > 0 %}
         {{ repo.description }}
@@ -22,3 +29,5 @@ headerImageAttribution:
 {% else %}
     <p>No repository data to display</p>
 {% endif %} 
+
+{% include 'pagination-nav.html' %}
