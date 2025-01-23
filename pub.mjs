@@ -24,6 +24,8 @@ if (idx > -1) {
   console.log('Skipping package version increment');
 }
 
+console.log('huh');
+
 // Check the command line arguments to see if we should update the Algolia index
 idx = theArgs.indexOf('-a');
 if (idx > -1) {
