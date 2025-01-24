@@ -101,7 +101,7 @@ In the editor, I followed these steps:
 2. Added a double quote (`"`) at the start of each line.
 3. Appended `\n"` to the end of each line in the file.
 
-**Note:** In the following example, I removed the bulk of the certificate content for readability; your file will NOT have the three vertical dots (I pit them in there to show you that there is content missing).
+**Note:** In the following example, I removed the bulk of the certificate content for readability; your file will NOT have the three vertical dots (I put them in there to show you that there is content missing).
 
 Here's an example of the converted content:
 
@@ -137,7 +137,7 @@ const char* cert= \
 "-----END CERTIFICATE-----\n";
 ```
 
-I know there's probably a way to make all or most of these changes using Find/Replace or RegEx in a robust text editor, but I don't have RegEx skills and I didn't think fine/replace would work for me here. Don't judge me.
+I know there's probably a way to make all or most of these changes using Find/Replace or RegEx in a robust text editor, but I don't have RegEx skills and I didn't think find/replace would work for me here. Don't judge me.
 
 ## An Alternative to Embedding Certificates in Code
 
