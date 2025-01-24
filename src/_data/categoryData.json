@@ -9,7 +9,7 @@
   },
   {
     "category": "Arduino",
-    "count": 16,
+    "count": 17,
     "description": "Articles related to lessons learned or projects built using Arduino devices or Arduino-compatible devices.",
     "imageFilePath": "/images/headers/header-arduino.jpg",
     "imageAltText": "An image of an arduino device and other electronic components",
@@ -73,7 +73,7 @@
   },
   {
     "category": "Eleventy",
-    "count": 45,
+    "count": 46,
     "description": "Articles related to the Eleventy Static Site Generator (the tooling used to produce this site).",
     "imageFilePath": "/images/headers/header-11ty.png",
     "imageAltText": "Eleventy project logo",
@@ -113,7 +113,7 @@
   },
   {
     "category": "Internet of Things (IoT)",
-    "count": 52,
+    "count": 53,
     "description": "Articles related to Microcontrollers, single board computers, and other stuff.",
     "imageFilePath": "/images/headers/header-iot.jpg",
     "imageAltText": "An image of an Arduino device and other Electric components",

@@ -1,5 +1,5 @@
 ---
-title: Arduino ESP32 Connect to a Server Using HTTPS
+title: Arduino ESP32 Connect Using HTTPS
 description: 
 date: 2025-01-22
 showCoffee: true
@@ -106,7 +106,7 @@ In the editor, I followed these steps:
 Here's an example of the converted content:
 
 ```c
-const char* cert= \
+const char* cert= 
 "-----BEGIN CERTIFICATE-----\n"
 "MIIFazCCA1OgAwIBAgIRAIIQz7DSQONZRGPgu2OCiwAwDQYJKoZIhvcNAQELBQAw\n"
 "TzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh\n"
