@@ -122,10 +122,10 @@
   {
     "category": "JavaScript",
     "count": 37,
-    "description": "",
+    "description": "Articles that cover JavaScript and TypeScript development topics. This can be examples of how to solve problems using JavaScript or posts describing new Node.js modules I've published that are written in JavaScript or TypeScript.",
     "imageFilePath": "/images/headers/header-javascript.jpg",
     "imageAltText": "JavaScript logo against a grey background",
-    "imageAttribution": "Articles that cover JavaScript and TypeScript development topics. This can be examples of how to solve problems using JavaScript or posts describing new Node.js modules I've published that are written in JavaScript or TypeScript."
+    "imageAttribution": ""
   },
   {
     "category": "Microsoft Outlook",
@@ -145,7 +145,7 @@
   },
   {
     "category": "Miscellaneous",
-    "count": 151,
+    "count": 152,
     "description": "Posts that didn't fit in any other categories.",
     "imageFilePath": "/images/headers/header-misc.jpg",
     "imageAltText": "random bands of color",

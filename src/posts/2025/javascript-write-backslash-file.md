@@ -71,19 +71,13 @@ But, if you escape the middle quotes with a backslash, JavaScript's happy.
 
 ## The Solution
 
-So, instead of:
-
-1. Filling an array of my file content
-2. Appending a space and a backslash to the end of each line as shown in the example above (this is the part that doesn't work)
-3. Writing each line to a file
-
 I had to get creative. To get the backslash I needed, I created a variable called `slash`:
 
 ```js
 const slash = String.fromCharCode(92);
 ```
 
-`slash` is the representation of the backslash without actually being a string with a backslash in it. I don't know, all I know is it works. 
+`slash` is the representation of the backslash without actually being a string with a backslash in it. I don't know, all I know is it works. 92 is the ANSI character code for the backslash character.
 
 ```js
 import fs from 'fs';
