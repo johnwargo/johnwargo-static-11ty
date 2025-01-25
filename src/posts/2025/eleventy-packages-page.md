@@ -8,6 +8,7 @@ headerImageAltText:
 headerImageAttribution: 
 categories:
   - Eleventy
+  - JavaScript  
   - Static Site Generators
 timestamp: 2025-01-04T14:07:55.886Z
 ---

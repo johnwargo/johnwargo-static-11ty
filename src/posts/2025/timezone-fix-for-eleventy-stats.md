@@ -13,6 +13,7 @@ headerImageAltText: null
 headerImageAttribution: null
 categories:
   - Eleventy
+  - JavaScript  
 timestamp: 2025-01-12T13:10:17.007Z
 generatedDescription: true
 ---

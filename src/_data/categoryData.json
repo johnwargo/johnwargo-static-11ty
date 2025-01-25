@@ -73,7 +73,7 @@
   },
   {
     "category": "Eleventy",
-    "count": 46,
+    "count": 45,
     "description": "Articles related to the Eleventy Static Site Generator (the tooling used to produce this site).",
     "imageFilePath": "/images/headers/header-11ty.png",
     "imageAltText": "Eleventy project logo",
@@ -120,6 +120,14 @@
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@nahakiole\" target=\"_blank\">Robin Glauser</a> on <a href=\"https://unsplash.com/photos/zP7X_B86xOg\" target=\"_blank\">Unsplash</a>."
   },
   {
+    "category": "JavaScript",
+    "count": 4,
+    "description": "",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
     "category": "Microsoft Outlook",
     "count": 4,
     "description": "Articles related to Microsoft Outlook; either me musing about the app or the project's I built that integrate with it.",
@@ -161,7 +169,7 @@
   },
   {
     "category": "Node.js",
-    "count": 8,
+    "count": 9,
     "description": "Articles related to software development using Node.js. This includes node command line tooling, plugins, and other stuff.",
     "imageFilePath": "/images/headers/header-nodejs.jpg",
     "imageAltText": "A screen shot of the node.js home page",
@@ -201,7 +209,7 @@
   },
   {
     "category": "Web Development",
-    "count": 12,
+    "count": 13,
     "description": "Posts related to web development topics, development tools, strategies, etc.",
     "imageFilePath": "/images/headers/header-web-development.jpg",
     "imageAltText": "An image of a code editor displaying HTML code",

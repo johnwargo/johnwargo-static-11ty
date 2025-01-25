@@ -8,7 +8,7 @@ headerImageAltText:
 headerImageAttribution: 
 categories:
   - Arduino
-  - Eleventy
+  - JavaScript  
   - Internet of Things (IoT)
 timestamp: 2025-01-24T11:59:08.380Z
 ---
@@ -22,7 +22,6 @@ When you execute it, it prompts for the same information the web application doe
 1. The path to the downloaded certificate file
 2. Whether you want to append a backslash (Arduino's line continuation character: `\`) or not.
 3. The variable name assigned in the Arduino header file generated from the certificate file.
-
 
 ```text
 Cert2Arduino
