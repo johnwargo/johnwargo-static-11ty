@@ -8,6 +8,7 @@ headerImageAltText:
 headerImageAttribution: 
 categories:
   - Cloud Development
+  - JavaScript  
   - Node.js
 ---
 

@@ -8,6 +8,7 @@ headerImageAltText:
 headerImageAttribution: 
 categories:
   - Node.js
+  - JavaScript  
 ---
 
 I have a Firebase project that uses a Firebase function to generate a URL containing encrypted data and another function to decrypt the data when someone invokes the URL (opens it in a browser). The functions use the Node.js Crypto library to do the encrypting and decrypting and I noticed recently in the library's docs that the library's `createCipher` method was deprecated and I needed to migrate my project to use `createCipheriv` instead. In this post, I demonstrate how I did it.

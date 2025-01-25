@@ -8,6 +8,7 @@ headerImageAltText:
 headerImageAttribution: 
 categories:
   - Developer Tools
+  - JavaScript  
 ---
 
 I'm working on my first Visual Studio Code extension and as part of the extension's work, it calls a long-running external API that could take 30 seconds or more to complete. I started looking for way to display a progress dialog and discovered the [vscode.window.withProgress](https://code.visualstudio.com/api/references/vscode-api#StatusBarItem){target="_blank"}. As I looked through the different examples I found out there, they all showed how the code that displays and manages the progress item decides when to close the window.

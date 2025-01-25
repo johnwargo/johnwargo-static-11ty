@@ -8,6 +8,7 @@ headerImageAltText:
 headerImageAttribution: 
 categories:
   - Node.js
+  - JavaScript  
 timestamp: 2024-11-10T17:18:40.346Z
 ---
 

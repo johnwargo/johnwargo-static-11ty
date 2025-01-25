@@ -3,7 +3,9 @@ title: Displaying Build Information in ReactJS
 description: I've been doing a lot of React development lately and I wanted the ability to display the app version number in the app. Now that I have the Ionic Build Info utility I described in the previous post, I copied that project and created a version of it that works for React as well. 
 date: 2021-05-15
 headerImage: 
-categories: [Web Development]
+categories:
+  - Web Development
+  - JavaScript  
 tags: post
 ---
 

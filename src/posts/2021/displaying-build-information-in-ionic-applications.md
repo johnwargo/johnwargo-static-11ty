@@ -3,7 +3,10 @@ title: Displaying Build Information in Ionic Applications
 description: I was building an Ionic app and I wanted to display the app version in the app without having to hard code it as a constant in the app. Recognizing that the app's `package.json` file contained the app version and I could update it when I needed outside of the app, I built a little utility that writes a data file to the ionic project with build information that can be displayed anywhere in the app.
 date: 2021-05-14
 headerImage: 
-categories: [Web Development]
+categories: 
+  - JavaScript
+  - Web Development
+  - Mobile Development
 tags: post
 ---
 

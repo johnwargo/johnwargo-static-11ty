@@ -8,6 +8,7 @@ headerImageAltText:
 headerImageAttribution: 
 categories:
   - Eleventy
+  - JavaScript  
 timestamp: 2024-04-07T23:08:47.167Z
 ---
 
