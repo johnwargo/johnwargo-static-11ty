@@ -6,6 +6,7 @@ headerImage:
 headerImageAltText: 
 categories:
   - Eleventy
+  - JavaScript
 ---
 
 In [Generating Eleventy Category Pages Inside Eleventy Build](/posts/2023/generating-eleventy-category-pages-inside-eleventy-build/) I described how I was trying to migrate my [Eleventy Paginated Category Pages](/posts/2023/eleventy-paginated-category-pages/) command line tool to run inside of the Eleventy build process.

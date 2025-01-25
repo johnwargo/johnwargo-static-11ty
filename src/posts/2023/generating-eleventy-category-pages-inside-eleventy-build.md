@@ -6,6 +6,7 @@ headerImage:
 headerImageAltText: 
 categories:
   - Eleventy
+  - JavaScript  
 ---
 
 Last week I published an article, [Eleventy Paginated Category Pages](/posts/2023/eleventy-paginated-category-pages/), that described a command-line utility I created that runs as a preprocessor to the Eleventy build process and generates paginated category pages for every category in use in an Eleventy site. 

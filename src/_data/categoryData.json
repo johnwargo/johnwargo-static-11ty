@@ -121,10 +121,10 @@
   },
   {
     "category": "JavaScript",
-    "count": 4,
+    "count": 28,
     "description": "",
-    "imageFilePath": "",
-    "imageAltText": "",
+    "imageFilePath": "/images/headers/header-javascript.jpg",
+    "imageAltText": "JavaScript logo against a grey background",
     "imageAttribution": ""
   },
   {
@@ -145,7 +145,7 @@
   },
   {
     "category": "Miscellaneous",
-    "count": 153,
+    "count": 151,
     "description": "Posts that didn't fit in any other categories.",
     "imageFilePath": "/images/headers/header-misc.jpg",
     "imageAltText": "random bands of color",
@@ -169,7 +169,7 @@
   },
   {
     "category": "Node.js",
-    "count": 9,
+    "count": 10,
     "description": "Articles related to software development using Node.js. This includes node command line tooling, plugins, and other stuff.",
     "imageFilePath": "/images/headers/header-nodejs.jpg",
     "imageAltText": "A screen shot of the node.js home page",
@@ -193,7 +193,7 @@
   },
   {
     "category": "Static Site Generators",
-    "count": 21,
+    "count": 22,
     "description": "Anything related to Static Site Generators.",
     "imageFilePath": "/images/headers/header-cms.jpg",
     "imageAltText": "An image of a board with content blocks pinned to it",
@@ -209,7 +209,7 @@
   },
   {
     "category": "Web Development",
-    "count": 13,
+    "count": 15,
     "description": "Posts related to web development topics, development tools, strategies, etc.",
     "imageFilePath": "/images/headers/header-web-development.jpg",
     "imageAltText": "An image of a code editor displaying HTML code",

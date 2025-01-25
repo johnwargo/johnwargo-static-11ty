@@ -6,6 +6,7 @@ headerImage:
 headerImageAltText: 
 categories:
   - Eleventy
+  - JavaScript  
 ---
 
 As I built out this site, I realized that since I had a description for many of the posts and an array of one to many categories for each, I could populate each page's meta `description` and `keywords` properties.

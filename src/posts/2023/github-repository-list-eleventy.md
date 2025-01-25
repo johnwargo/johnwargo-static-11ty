@@ -8,6 +8,7 @@ headerImageAltText:
 headerImageAttribution: 
 categories:
   - Eleventy
+  - JavaScript  
 ---
 
 While working out at the gym the other day, I decided to add a list of all of my public GitHub repositories to this site; not because the site needs it, but because I wanted to learn how to do it. 

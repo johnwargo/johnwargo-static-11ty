@@ -6,6 +6,7 @@ headerImage:
 headerImageAltText: 
 categories: 
   - Developer Tools
+  - JavaScript  
 ---
 
 **Note:** This article cross-posted from [A World Without Apps](https://aworldwithoutapps.com/posts/2023/ai-developer-tools-in-action/){target="_blank"}.

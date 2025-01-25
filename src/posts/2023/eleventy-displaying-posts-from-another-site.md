@@ -6,6 +6,7 @@ headerImage:
 headerImageAltText: 
 categories:
   - Eleventy
+  - JavaScript  
   - Static Site Generators
 ---
 

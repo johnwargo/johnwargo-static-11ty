@@ -8,6 +8,8 @@ headerImageAltText:
 headerImageAttribution: 
 categories:
   - Eleventy
+  - JavaScript
+  - Static Site Generators
 ---
 
 I often start articles on this site before I'm ready to publish them, especially if they're long articles. I needed a solution that allows me to create the post/article, but not publish it until I was ready.

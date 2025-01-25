@@ -8,6 +8,7 @@ headerImageAltText:
 headerImageAttribution: 
 categories:
   - Eleventy
+  - JavaScript  
 ---
 
 I'm building a new web site for a software company I created using [11ty](https://www.11ty.dev/){target="_blank"}, and one of the things I want to do in this site is have the Products menu item open the product page for the first product in a sorted list of product pages. 

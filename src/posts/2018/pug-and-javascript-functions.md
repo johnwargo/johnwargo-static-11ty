@@ -3,7 +3,9 @@ title: Pug and JavaScript Functions
 description: I started playing around with Pug and had a problem with JavaScript functions, this article describes how I solved my problem.
 date: 2018-05-05
 headerImage: 
-categories: [Miscellaneous]
+categories: 
+  - JavaScript
+  - Web Development
 tags: post
 ---
 

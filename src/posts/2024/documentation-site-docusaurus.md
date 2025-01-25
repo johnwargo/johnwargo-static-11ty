@@ -8,6 +8,7 @@ headerImageAltText: null
 headerImageAttribution: null
 categories:
   - Static Site Generators
+  - JavaScript  
 generatedDescription: true
 ---
 

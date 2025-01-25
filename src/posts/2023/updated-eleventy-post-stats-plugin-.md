@@ -6,6 +6,7 @@ headerImage:
 headerImageAltText: 
 categories:
   - Eleventy
+  - JavaScript  
 ---
 
 I published an update to my [Eleventy Plugin Post Statistics](https://github.com/johnwargo/eleventy-plugin-post-stats){target="_blank"} plugin today. I intend to add post paragraph count, post word count, and, perhaps, post code block count to the plugin, so this version sets everything up for that work.

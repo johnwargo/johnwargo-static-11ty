@@ -3,7 +3,9 @@ title: The Solution to My Domino Server Configuration Problem
 description: 
 date: 2013-04-19
 headerImage: 
-categories: [IBM Lotus Domino]
+categories: 
+  - IBM Lotus Domino
+  - JavaScript  
 tags: post
 ---
 

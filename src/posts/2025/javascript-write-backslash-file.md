@@ -9,8 +9,8 @@ headerImage: null
 headerImageAltText: null
 headerImageAttribution: null
 categories:
-  - Node.js
   - JavaScript
+  - Node.js
   - Web Development
 timestamp: 2025-01-25T00:09:00.924Z
 generatedDescription: true
@@ -77,15 +77,59 @@ So, instead of:
 2. Appending a space and a backslash to the end of each line as shown in the example above (this is the part that doesn't work)
 3. Writing each line to a file
 
-I had to get creative.
-
-JavaScript supports [Writable Streams](https://developer.mozilla.org/en-US/docs/Web/API/WritableStream){target="_blank"} as a way to stream content to a file. To get the backslash I needed, I created a variable called `slash`:
+I had to get creative. To get the backslash I needed, I created a variable called `slash`:
 
 ```js
 const slash = String.fromCharCode(92);
 ```
 
 `slash` is the representation of the backslash without actually being a string with a backslash in it. I don't know, all I know is it works. 
+
+```js
+import fs from 'fs';
+import path from 'path';
+
+const slash = String.fromCharCode(92);
+const cr = String.fromCharCode(13);
+
+let outputFile = path.join(process.cwd(), "myfile.txt");
+
+const content = 'Here is a backslash: ' + slash + cr;
+
+fs.writeFile(outputFile, content, 'utf8', (error) => {
+  if (error) {
+    console.error('An error occurred while writing to the file:', error);
+    return;
+  }
+  console.log('Successfully written to the file.');
+});
+```
+
+JavaScript has something called [Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){target="_blank"} or Template Strings that I could use for this as well:
+
+```js
+import fs from 'fs';
+import path from 'path';
+
+const slash = String.fromCharCode(92);
+const cr = String.fromCharCode(13);
+
+let outputFile = path.join(process.cwd(), "myfile.txt");
+
+const content = `Here is a backslash: ${slash} and some more text ${cr}`;
+
+fs.writeFile(outputFile, content, 'utf8', (error) => {
+  if (error) {
+    console.error('An error occurred while writing to the file:', error);
+    return;
+  }
+  console.log('Successfully written to the file.');
+});
+```
+
+## Writeable Streams
+
+I also started looking at alternative ways to write content to a file. JavaScript supports [Writable Streams](https://developer.mozilla.org/en-US/docs/Web/API/WritableStream){target="_blank"} as a way to stream content to a file. 
 
 Then, to write it to a file, I simply did this:
 
@@ -100,7 +144,7 @@ writableFileStream.write("my string with a " slash + " in it." + cr);
 writableFileStream.close();
 ```
 
-JavaScript has something called [Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals){target="_blank"} or Template Strings that I could use for this as well:
+or, using template strings:
 
 ```js
 import fs from 'fs';
@@ -114,8 +158,6 @@ const writableFileStream = fs.createWriteStream(outputFile);
 writableFileStream.write(`my string with a ${slash} in it.${cr}`);
 writableFileStream.close();
 ```
-
-That's it, works like a champ. 
 
 The examples I just gave were in Node.js; to do this in JavaScript in the browser it's a little different (see [FileSystemWritableFileStream](https://developer.mozilla.org/en-US/docs/Web/API/FileSystemWritableFileStream){target="_blank"}):
 

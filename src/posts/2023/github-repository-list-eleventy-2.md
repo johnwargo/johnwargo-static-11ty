@@ -8,6 +8,7 @@ headerImageAltText:
 headerImageAttribution: 
 categories:
   - Eleventy
+  - JavaScript  
 ---
 
 In my previous post ([Adding a GitHub Repository List to an Eleventy Site](/posts/2023/github-repository-list-eleventy/){target="_blank"}), I showed how to add a list of public repos to an Eleventy site using the GitHub REST API. In that post, I used unauthenticated access to the API as a quick and easy approach to solving the problem. Unfortunately, rate limits for unauthorized access causes the code to fail when testing the site using `eleventy --serve` since the data file processes every time you save any content file the project. With my GitHub account's 110 public repositories, it only takes 20 saves in an hour to hit the 60 API calls per hour limit.
