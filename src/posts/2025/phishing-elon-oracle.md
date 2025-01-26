@@ -1,5 +1,5 @@
 ---
-title: phishing Elon Oracle
+title: Phishing Email Elon Electronic Device
 description: 
 date: 2025-01-26
 showCoffee: true
