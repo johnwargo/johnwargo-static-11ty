@@ -121,7 +121,7 @@
   },
   {
     "category": "JavaScript",
-    "count": 37,
+    "count": 36,
     "description": "Articles that cover JavaScript and TypeScript development topics. This can be examples of how to solve problems using JavaScript or posts describing new Node.js modules I've published that are written in JavaScript or TypeScript.",
     "imageFilePath": "/images/headers/header-javascript.jpg",
     "imageAltText": "JavaScript logo against a grey background",
@@ -169,7 +169,7 @@
   },
   {
     "category": "Node.js",
-    "count": 10,
+    "count": 9,
     "description": "Articles related to software development using Node.js. This includes node command line tooling, plugins, and other stuff.",
     "imageFilePath": "/images/headers/header-nodejs.jpg",
     "imageAltText": "A screen shot of the node.js home page",
@@ -209,7 +209,7 @@
   },
   {
     "category": "Web Development",
-    "count": 15,
+    "count": 14,
     "description": "Posts related to web development topics, development tools, strategies, etc.",
     "imageFilePath": "/images/headers/header-web-development.jpg",
     "imageAltText": "An image of a code editor displaying HTML code",
