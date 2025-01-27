@@ -7,7 +7,7 @@ categories: [Mobile]
 tags: post
 ---
 
-The big announcement this week came from Apple who finally announced background processing for the iPhone and iPad. Here's a snippet from [an article in PC Magazine](https://www.pcmag.com/article2/0,2817,2362406,00.asp){target="_blank"}:
+The big announcement this week came from Apple who finally announced background processing for the iPhone and iPad. Here's a snippet from [an article in PC Magazine](https://pcmag.com/article2/0,2817,2362406,00.asp){target="_blank"}:
 
 > Within multitasking, Jobs also highlighted several capabilities, acknowledging that the company had been outpaced by other mobile operating systems with multitasking capabilities, just as other companies passed them in adding cut-and-paste capabilities. "We weren't first to this party, but we're going to be the best," Jobs said.
 > 

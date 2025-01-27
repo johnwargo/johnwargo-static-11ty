@@ -32,14 +32,14 @@ Note: Switching AC Power (110V in the US or 220V elsewhere) is dangerous; if you
 
 For this project, I used the following components:
 
-* Adafruit Feather M0 WiFi - ATSAMD21 + ATWINC1500 ([https://www.adafruit.com/product/3010](https://www.adafruit.com/product/3010){target="_blank"}).
-* Adalogger FeatherWing - RTC + SD Add-on ([https://www.adafruit.com/product/2922](https://www.adafruit.com/product/2922){target="_blank"}).
-* Feather Header Kit - 12-pin and 16-pin Female Header Set ([https://www.adafruit.com/product/2886](https://www.adafruit.com/product/2886){target="_blank"}).
-* Feather Stacking Headers - 12-pin and 16-pin female headers ([https://www.adafruit.com/product/2830](https://www.adafruit.com/product/2830){target="_blank"}).
-* Powerswitch Tail II ([https://www.adafruit.com/product/268](https://www.adafruit.com/product/268){target="_blank"}).
-* SPST momentary push button ([https://www.amazon.com/gp/product/B00OJZPMD2](https://www.amazon.com/gp/product/B00OJZPMD2){target="_blank"}).
-* 5V 2.4A Switching Power Supply with 20AWG Micro USB Cable ([https://www.adafruit.com/product/1995](https://www.adafruit.com/product/1995){target="_blank"}).
-* Project enclosure – For my project, I used the Hammond 1591M, a 3.3” X 2.2” X 0.8” enclosure ([https://www.amazon.com/gp/product/B00HKIQG3U](https://www.amazon.com/gp/product/B00HKIQG3U){target="_blank"}).
+* Adafruit Feather M0 WiFi - ATSAMD21 + ATWINC1500 ([https://adafruit.com/product/3010](https://adafruit.com/product/3010){target="_blank"}).
+* Adalogger FeatherWing - RTC + SD Add-on ([https://adafruit.com/product/2922](https://adafruit.com/product/2922){target="_blank"}).
+* Feather Header Kit - 12-pin and 16-pin Female Header Set ([https://adafruit.com/product/2886](https://adafruit.com/product/2886){target="_blank"}).
+* Feather Stacking Headers - 12-pin and 16-pin female headers ([https://adafruit.com/product/2830](https://adafruit.com/product/2830){target="_blank"}).
+* Powerswitch Tail II ([https://adafruit.com/product/268](https://adafruit.com/product/268){target="_blank"}).
+* SPST momentary push button ([https://amazon.com/gp/product/B00OJZPMD2](https://amazon.com/gp/product/B00OJZPMD2){target="_blank"}).
+* 5V 2.4A Switching Power Supply with 20AWG Micro USB Cable ([https://adafruit.com/product/1995](https://adafruit.com/product/1995){target="_blank"}).
+* Project enclosure – For my project, I used the Hammond 1591M, a 3.3” X 2.2” X 0.8” enclosure ([https://amazon.com/gp/product/B00HKIQG3U](https://amazon.com/gp/product/B00HKIQG3U){target="_blank"}).
 * An approximately 6 x 6 X ¾ piece of plywood, painted black (or your color of choice).
 * 4 #8 x ¾ wood screws (or equivalent).
 * A few lengths of 20 or 22 gauge wire: black, red and some other color of your choice (I used blue).

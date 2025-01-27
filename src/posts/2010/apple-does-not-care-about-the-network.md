@@ -1,5 +1,5 @@
 ---
-title: Apple Doesn't Care About the Network
+title: Apple Does Not Care About the Network
 description: 
 date: 2010-03-02
 headerImage: 

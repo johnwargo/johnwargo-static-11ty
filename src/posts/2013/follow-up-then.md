@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-I don't remember how I first learned about this service, but it's pretty cool. Followupthen ([https://www.followupthen.com/](https://www.followupthen.com/){target="_blank"}) is a free service you can use to remind yourself of stuff. What's cool about it is that you configure reminder settings using the email address you send your message to.
+I don't remember how I first learned about this service, but it's pretty cool. Followupthen ([https://followupthen.com/](https://followupthen.com/){target="_blank"}) is a free service you can use to remind yourself of stuff. What's cool about it is that you configure reminder settings using the email address you send your message to.
 
 First you have to sign-up for an account. Once you've completed that step, your remaining interaction with the service is all done via email. For example, to remind yourself to pick up a birthday present for your wife in two weeks, you simply send an email message to [2weeks@followupthen.com](mailto:2weeks@followupthen.com) containing an appropriate subject and optional message body. In two weeks, you'll receive and email with the subject and body of your original email.
 

@@ -11,9 +11,9 @@ categories:
 timestamp: 2024-11-15T23:03:56.069Z
 ---
 
-I played around this week with validating all of the links on this site and trying some tools. As part of my research I found an article called [Using Node.js to Check for Broken Links](https://www.seancdavis.com/posts/using-nodejs-to-check-for-broken-links/){target="_blank"} that showed how to use the npm package [linkinator](https://www.npmjs.com/package/linkinator){target="_blank"} to build a command-line tool for validating links on a URI.
+I played around this week with validating all of the links on this site and trying some tools. As part of my research I found an article called [Using Node.js to Check for Broken Links](https://seancdavis.com/posts/using-nodejs-to-check-for-broken-links/){target="_blank"} that showed how to use the npm package [linkinator](https://npmjs.com/package/linkinator){target="_blank"} to build a command-line tool for validating links on a URI.
 
-I quickly built a command-line tool using information from the article and the linkinator package's documentation. Before long I had a full fledged link checker that met my specific needs. I called my link checker `link-checker` but since there is already a package with that name on npm, I had to add my npm username to the package name: [@johnwargo/link-checker](https://www.npmjs.com/package/@johnwargo/link-checker){target="_blank"}.
+I quickly built a command-line tool using information from the article and the linkinator package's documentation. Before long I had a full fledged link checker that met my specific needs. I called my link checker `link-checker` but since there is already a package with that name on npm, I had to add my npm username to the package name: [@johnwargo/link-checker](https://npmjs.com/package/@johnwargo/link-checker){target="_blank"}.
 
 {% sidebar "Validating Links On This Site" %}
 In my <a href="/posts/2024/validating-links/">next post</a>, I spend more time explaining how I used the two utilities to fix a lot of the links on this site.
@@ -78,7 +78,7 @@ For my [Random Errors](https://randomerrors.dev/){target="_blank"} site, the rep
 | 403 | https://forums.adafruit.com/viewtopic.php?f=57&t=181830&p=884590 |
 | 403 | https://forums.adafruit.com/viewtopic.php?f=57&t=182024 |
 | 403 | https://forums.adafruit.com/viewtopic.php?p=949364&sid=f94be453911b5999954fb2cfb572ffd2 |
-| 999 | https://www.linkedin.com/in/jmwargo/ |
+| 999 | https://linkedin.com/in/jmwargo/ |
 
 ## Skipped Links
 

@@ -18,7 +18,7 @@ Over the years, microcontrollers got more capable with faster processors, more m
 
 After failing several times, I finally found some time to dedicate to making this work and quickly succeeded. You can find the complete code for this project in [Arduino ESP32 Multiple Cores](https://github.com/johnwargo/arduino-esp32-multiple-cores){target="_blank"}.
 
-For this project, I used a [Seeed Studio Xiao ESP32](https://www.seeedstudio.com/xiao-series-page){target="_blank"} device. I picked the ESP32 because it's multi-core (a requirement for this project), very small, and very inexpensive. 
+For this project, I used a [Seeed Studio Xiao ESP32](https://seeedstudio.com/xiao-series-page){target="_blank"} device. I picked the ESP32 because it's multi-core (a requirement for this project), very small, and very inexpensive. 
 
 Wasting no more time, lets get into the code...
 

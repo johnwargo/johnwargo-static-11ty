@@ -7,7 +7,7 @@ categories: [BlackBerry]
 tags: post
 ---
 
-My publisher has arranged to have copies of BlackBerry Development Fundamentals on sale at the [BlackBerry Developer Conference](https://www.blackberrydevcon.com/){target="_blank"} in San Francisco the week of September 26th, 2010. This year, there's a special book store being setup at the conference and they'll be raffling off several free copies of the book during the conference. They've also scheduled a book signing for Tuesday afternoon between 12 and 1 (during lunch), look me up if you're going to be there.
+My publisher has arranged to have copies of BlackBerry Development Fundamentals on sale at the [BlackBerry Developer Conference](https://blackberrydevcon.com/){target="_blank"} in San Francisco the week of September 26th, 2010. This year, there's a special book store being setup at the conference and they'll be raffling off several free copies of the book during the conference. They've also scheduled a book signing for Tuesday afternoon between 12 and 1 (during lunch), look me up if you're going to be there.
 
 My editor brought a whole bunch of books to the conference last year and we sold out way before the book signing they scheduled for the last day of the conference. Whenever I had a spare minute, I'd hang out where he was selling books, just to see how things were going, and I ended up signing many of the books anyway. I've got to remember to bring my special book signing pen with me to the conference.
 

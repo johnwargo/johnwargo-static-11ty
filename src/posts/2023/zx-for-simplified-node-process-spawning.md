@@ -16,7 +16,7 @@ At the All Things Open conference this week, I presented a session entitled Writ
 
 Zx provides JavaScript developers with a simplified interface around Node’s `child_process` module, delivering a quick, easy and simple way to spawn external processes from a Node application. 
 
-Note: When I wrote the title and abstract for the session, my view was that zx helped developers deliver a single script to automate processes on multiple platforms (Linux, macOS, and Windows). But that’s really not true since zx only helps with spawning external apps, for general purpose file system manipulation (copying, deleting, moving files and so on) Node already has the `fs` (https://nodejs.org/api/fs.html) and `fs_extra` (https://www.npmjs.com/package/fs-extra) modules. 
+Note: When I wrote the title and abstract for the session, my view was that zx helped developers deliver a single script to automate processes on multiple platforms (Linux, macOS, and Windows). But that’s really not true since zx only helps with spawning external apps, for general purpose file system manipulation (copying, deleting, moving files and so on) Node already has the `fs` (https://nodejs.org/api/fs.html) and `fs_extra` (https://npmjs.com/package/fs-extra) modules. 
 
 ## Background
 
@@ -101,7 +101,7 @@ For the work I do, I have two solid use cases for zx that I’ll describe in the
 
 ### Particle Platform
 
-I love working with the [Particle](https://www.particle.io/){target="_blank"} platform for IoT projects. Particle allows you to remotely execute code on a device (like the Particle Photon); an application calls an API in the Particle Cloud and that triggers execution of a specific function on the device. 
+I love working with the [Particle](https://particle.io/){target="_blank"} platform for IoT projects. Particle allows you to remotely execute code on a device (like the Particle Photon); an application calls an API in the Particle Cloud and that triggers execution of a specific function on the device. 
 
 Over the years, I built several native mobile apps that remotely invoke code on Particle Photon devices. In order to be able to call a Particle API, the application must include a Particle API access token and device ID with each request and rather than hard code the values in the app, I use a settings page instead.
 
@@ -150,7 +150,7 @@ const accessToken = 'YOUR_ACCESS_TOKEN';
 const deviceID = 'YOUR_DEVICE_ID';
 
 // zx includes minimist, so we can use argv
-// https://www.npmjs.com/package/minimist
+// https://npmjs.com/package/minimist
 if (!argv.a && !argv.d) {
   console.log(chalk.red('\nInvalid command line: requires an "-a" (API Key) or a "-d" (Device ID) argument.'));
   process.exit(1);
@@ -173,7 +173,7 @@ I accommodate all of my use cases with a single script that runs on any OS.
 
 ### Publishing Eleventy Sites
 
-This site uses the Eleventy(https://www.11ty.dev/) static site generator and for a lot of different reasons, I run a variety of command-line tools when updating my site’s codebase and/or content. For example, while I post new content, I may also want to update the site’s search index on Algolia and/or update the site’s package version; each of those require execution of an external executable during the deployment process. 
+This site uses the Eleventy(https://11ty.dev/) static site generator and for a lot of different reasons, I run a variety of command-line tools when updating my site’s codebase and/or content. For example, while I post new content, I may also want to update the site’s search index on Algolia and/or update the site’s package version; each of those require execution of an external executable during the deployment process. 
 
 To make it easy for me to control this process using a single command, I created a zx script that handles all of the options through a couple of simple command-line options. Here’s the script:
 

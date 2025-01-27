@@ -41,7 +41,7 @@ module.exports = eleventyConfig => {
 }
 ```
 
-The code uses [`eleventyExcludeFromCollections`](https://www.11ty.dev/docs/collections/#how-to-exclude-content-from-collections){target="_blank"} to decide whether to publish the post or not. A simple check for draft state (and whether the environment says to build drafts) and the post is built or not built based on it.
+The code uses [`eleventyExcludeFromCollections`](https://11ty.dev/docs/collections/#how-to-exclude-content-from-collections){target="_blank"} to decide whether to publish the post or not. A simple check for draft state (and whether the environment says to build drafts) and the post is built or not built based on it.
 
 Tweaking this to only publish the post if the post date is before the current date/time looks like this:
 

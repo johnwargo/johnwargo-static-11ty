@@ -7,7 +7,7 @@ categories: [BlackBerry]
 tags: post
 ---
 
-On my flights home from the 2009 BlackBerry Developer Conference in San Francisco I had a chance to read Anthony Rizk's [Beginning BlackBerry Development](https://www.amazon.com/gp/product/1430272252){target="_blank"}. I wasn't one of the lucky folks who received a free copy of the book at the conference – I'd received it in advance of the event and brought it with me to read on the plane home. Anthony did sign it for me at the conference, so that was fun. When I discovered that the book was on its way, I contacted Anthony to find out about his book and see how it compared to mine. It turns out that they're very complimentary – they both address beginning developers, but cover different parts of the topic.
+On my flights home from the 2009 BlackBerry Developer Conference in San Francisco I had a chance to read Anthony Rizk's [Beginning BlackBerry Development](https://amazon.com/gp/product/1430272252){target="_blank"}. I wasn't one of the lucky folks who received a free copy of the book at the conference – I'd received it in advance of the event and brought it with me to read on the plane home. Anthony did sign it for me at the conference, so that was fun. When I discovered that the book was on its way, I contacted Anthony to find out about his book and see how it compared to mine. It turns out that they're very complimentary – they both address beginning developers, but cover different parts of the topic.
 
 {% image "src/images/2009/beginning-blackbery-development-120.png", "", "image-full" %}
 

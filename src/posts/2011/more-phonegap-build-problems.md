@@ -1,5 +1,5 @@
 ---
-title: (more) PhoneGap Build Problems
+title: More PhoneGap Build Problems
 description: 
 date: 2011-11-11
 headerImage: 

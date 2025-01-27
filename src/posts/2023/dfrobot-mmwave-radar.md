@@ -10,15 +10,15 @@ categories:
 
 A couple of months ago, I started planning my Halloween project for this year. In previous years I've created a Candypult (for the pandemic years), a remotely controlled flame breathing pumpkin (Sparky, we call him), and, my favorite, the twinkle light tubes from last year.
 
-This year I'm making a sleeping dragon. The first step for this project is to make an interactive lighted sign. I reached out to a designer I've used on [Fiverr](https://www.fiverr.com/andraeus){target="_blank"} and he quickly drew this up for me:
+This year I'm making a sleeping dragon. The first step for this project is to make an interactive lighted sign. I reached out to a designer I've used on [Fiverr](https://fiverr.com/andraeus){target="_blank"} and he quickly drew this up for me:
 
 {% image "src/images/2023/sleeping-dragon-sign-design.jpg", "Sleeping Dragon Sign Design", "image-full" %}
 
-Next, I sent the design to the folks at [Ponoko](https://www.ponoko.com/){target="_blank"} to have them LASER cut the design on some acrylic. Finally, I wired up a Microcontroller to some NeoPixels to illuminate the sign.  I'll write more about the sign hardware after I've built an enclosure for it. 
+Next, I sent the design to the folks at [Ponoko](https://ponoko.com/){target="_blank"} to have them LASER cut the design on some acrylic. Finally, I wired up a Microcontroller to some NeoPixels to illuminate the sign.  I'll write more about the sign hardware after I've built an enclosure for it. 
 
 What I want to do with this project, or at least this part of it, is illuminate the sign a certain way by default, but flash the NeoPixels differently when someone is nearby. I originally thought I'd use a [PIR Sensor](https://learn.adafruit.com/pir-passive-infrared-proximity-motion-sensor/how-pirs-work){target="_blank"} for this, but then I started reading about mmWave sensors that can detect humans and I realized I just had to use one for this project. A sensor like this should be able to distinguish between humans and other things (like dogs), so that would make this project... better.
 
-[DFRobot](https://www.dfrobot.com/){target="_blank"} offer a [mmWave Radar - 24GHz Human Presence Detection Sensor (9 Meters)](https://www.dfrobot.com/product-2282.html){target="_blank"} that seems perfect for this project and the folks at DFRobot were kind enough to provide me with one to evaluate.
+[DFRobot](https://dfrobot.com/){target="_blank"} offer a [mmWave Radar - 24GHz Human Presence Detection Sensor (9 Meters)](https://dfrobot.com/product-2282.html){target="_blank"} that seems perfect for this project and the folks at DFRobot were kind enough to provide me with one to evaluate.
 
 The sensor communicates with a microcontroller (or whatever you want to connect it to) using a serial interface, so you'll need to connect power (V+ and GND) as well as transmit (TX) and receive (RX) connections. Here's an image of my POC configuration:
 
@@ -35,7 +35,7 @@ Here's the code I used to validate the sensor's operation, I'll explain the code
    @ The sensor detection range and output delay time can be configured. Also you can restore the sensor to factory default settings.
    @n Experimental phenomenon: When the sensor starts successfully, 0 or 1 will be printed on the serial monitor.
    @ 0 means that there is no human or object moving in sensing area, 1 means the oppposite.
-   @copyright   Copyright (c) 2010 DFRobot Co.Ltd (https://www.dfrobot.com)
+   @copyright   Copyright (c) 2010 DFRobot Co.Ltd (https://dfrobot.com)
    @licence     The MIT License (MIT)
    @version  V1.0
    @date  2023-3-13
@@ -66,7 +66,7 @@ void loop() {
 
 The hardest aspect of this for me was configuring serial communication with the sensor. I'd never user serial communication to talk to a sensor before, so I was unfamiliar with `HardwareSerial` (and its sibling [`SoftwareSerial`](https://docs.arduino.cc/learn/built-in-libraries/software-serial){target="_blank"}).
 
-Apparently, due to microcontroller hardware configuration, some boards can support multiple Serial connections. Those devices use `HardwareSerial` to talk to the embedded serial communication hardware. For those devices that don't have the required hardware, use `SoftwareSerial` instead.  Once I sorted out that the board I used, the [Adafruit ESP32 Feather V2](https://www.adafruit.com/product/5400){target="_blank"} had the required hardware I was all set.
+Apparently, due to microcontroller hardware configuration, some boards can support multiple Serial connections. Those devices use `HardwareSerial` to talk to the embedded serial communication hardware. For those devices that don't have the required hardware, use `SoftwareSerial` instead.  Once I sorted out that the board I used, the [Adafruit ESP32 Feather V2](https://adafruit.com/product/5400){target="_blank"} had the required hardware I was all set.
 
 The code starts by defining a hardware serial port then initialized the mmWave library to use it:
 

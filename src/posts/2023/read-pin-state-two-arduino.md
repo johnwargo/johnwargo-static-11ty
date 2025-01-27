@@ -39,7 +39,7 @@ For this to work, both devices must share a common Ground connection. The easies
 
 {% image "src/images/2023/arduino-2-arduino.jpg", "Two Xiao boards connected together", "image-full" %}
 
-In the image, both devices are [Seeed Studio Xiao](https://www.seeedstudio.com/xiao-series-page){target="_blank"} Arduino-compatible devices and they have very similar pin configurations. I selected these devices because I could easily put two of them on a small breadboard. You can do this with Any Arduino devices, just pay close attention to the pin configurations. 
+In the image, both devices are [Seeed Studio Xiao](https://seeedstudio.com/xiao-series-page){target="_blank"} Arduino-compatible devices and they have very similar pin configurations. I selected these devices because I could easily put two of them on a small breadboard. You can do this with Any Arduino devices, just pay close attention to the pin configurations. 
 
 Here I connected the `GND` pin on both devices using a black wire (black traditionally indicates a ground connection) and I connected the A0/D0 pin on each device to each other. 
 
@@ -163,7 +163,7 @@ void loop() {
 }
 ```
 
-Now, I must mention here that it's not a good idea to tie up the whole processing loop for monitoring pin status. I only wrote it this way for demonstration purposes. Your sketch should leave processing time for other things to happen, moving the pin checking code into a separate function called something like `checkRemotePinStatus()` and putting other stuff in the `loop()` function. For more information regarding this approach, take a look at [A Better Arduino MicroFogger Controller Redux](posts/2023/arduino-microfogger-control-more-better/){target="_blank"}. 
+Now, I must mention here that it's not a good idea to tie up the whole processing loop for monitoring pin status. I only wrote it this way for demonstration purposes. Your sketch should leave processing time for other things to happen, moving the pin checking code into a separate function called something like `checkRemotePinStatus()` and putting other stuff in the `loop()` function. For more information regarding this approach, take a look at [A Better Arduino MicroFogger Controller Redux](/posts/2023/arduino-microfogger-control-more-better/){target="_blank"}. 
 
 To make it easy to use the same sketch for both the sender and receiver, I created the following code and also published it as a [GigHub Gist](https://gist.github.com/johnwargo/416b6ea38d8843a75ac7a5839386862c){target="_blank"}. Load this code into the Arduino IDE (or your compiler/deployer of choice) and leave `#define SENDER` as-is for the Sender version, but comment out the line (put two `/` in front of it `// #define SENDER`) to compile and deploy the receiver version on a separate device.
 

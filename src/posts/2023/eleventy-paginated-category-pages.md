@@ -9,7 +9,7 @@ categories:
   - Static Site Generators
 ---
 
-One of the features many content management systems (CMS) give users is the ability to generate paginated lists of posts/articles as well as a way to display a paginated list of all posts in a particular category. Static site generators like [Eleventy](https://www.11ty.dev/){target="_blank"} deliver pagination capabilities which allow you to generate pages that break up a list of items into batches on each page. 
+One of the features many content management systems (CMS) give users is the ability to generate paginated lists of posts/articles as well as a way to display a paginated list of all posts in a particular category. Static site generators like [Eleventy](https://11ty.dev/){target="_blank"} deliver pagination capabilities which allow you to generate pages that break up a list of items into batches on each page. 
 
 Eleventy has a limitation in that you can use its pagination feature to generate a separate page per category (which then lists all posts in the category) or pages which display a paginated list of posts for a particular category, but not both. What I want for this site is for Eleventy to generate separate pages for each category as well as to paginate the posts on each category page, something I call Nested Pagination (or paginated paginating pages). Eleventy can do it, just not automatically.
 
@@ -17,9 +17,9 @@ Earlier this year, I published an article that shows how to generate a simple pa
 
 To deliver what I want here, I could manually create a separate page for each category using the Eleventy pagination feature to display the posts in batches. Unfortunately, I don't want to do that because that means manually managing the category pages, creating a new one every time I add a new category for the site, and deleting pages when a category goes out of use. 
 
-To solve this problem, I created the *Eleventy Category Pages* preprocessor module (find it on [GitHub](https://github.com/johnwargo/eleventy-category-pages){target="_blank"} and [npm](https://www.npmjs.com/package/eleventy-category-pages){target="_blank"}). You can see it in use in this site at [Categories](/categories){target="_blank"}.
+To solve this problem, I created the *Eleventy Category Pages* preprocessor module (find it on [GitHub](https://github.com/johnwargo/eleventy-category-pages){target="_blank"} and [npm](https://npmjs.com/package/eleventy-category-pages){target="_blank"}). You can see it in use in this site at [Categories](/categories){target="_blank"}.
 
-**Note:** After posting this article, I finished reading [Eleventy by Example](https://www.packtpub.com/product/eleventy-by-example/9781804610497){target="_blank"} and I now see how I can make this an Eleventy plugin instead of a stand-alone utility. I'll start work on converting this to a plugin; stay tuned. 
+**Note:** After posting this article, I finished reading [Eleventy by Example](https://packtpub.com/product/eleventy-by-example/9781804610497){target="_blank"} and I now see how I can make this an Eleventy plugin instead of a stand-alone utility. I'll start work on converting this to a plugin; stay tuned. 
 
 The module essentially does two things:
 
@@ -291,7 +291,7 @@ If you open one up, you’ll see something like the following (I picked Dogs bec
 
 OK, so a lot of things happened here, so let me explain.
 
-First of all, notice that the generated file’s front matter changed from `yml` to `js`; that’s because on order to be able to filter the pages correctly using some JavaScript code, the front matter must be in JavaScript format (for details on this, refer to the Eleventy Pagination’s [`before` documentation](https://www.11ty.dev/docs/pagination/#the-before-callback){target="_blank"}).
+First of all, notice that the generated file’s front matter changed from `yml` to `js`; that’s because on order to be able to filter the pages correctly using some JavaScript code, the front matter must be in JavaScript format (for details on this, refer to the Eleventy Pagination’s [`before` documentation](https://11ty.dev/docs/pagination/#the-before-callback){target="_blank"}).
 
 The `pagination` section of the front matter now has a new property called `before`; this contains the JavaScript code the page executes to filter out all posts except the ones with the assigned category.
 

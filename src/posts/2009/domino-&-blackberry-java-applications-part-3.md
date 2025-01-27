@@ -17,9 +17,9 @@ In this installment, I'll demonstrate how to build a simple Java application tha
 
 1. A Domino server hosting the database provided in Part 1. The server must be running the HTTP process and the database ACL must be configured with the appropriate access.
 2. The generated class files for the service. These files were generated in Part 2.
-3. A functioning BlackBerry Java Development environment configured on your system that includes the appropriate Sun Java Development Kit (JDK) plus the appropriate BlackBerry Java development tools (either the JDE or the JDE Plug-in for Eclipse and the appropriate JDE Component package installed). Refer to the BlackBerry Developer's web site www.blackberry.com/developers for information on how to download and configure these tools. The ability to consume web services using JSR 172 was added in BlackBerry Device Software 4.3, so be sure you are using the right tools (version 4.3 or higher).
+3. A functioning BlackBerry Java Development environment configured on your system that includes the appropriate Sun Java Development Kit (JDK) plus the appropriate BlackBerry Java development tools (either the JDE or the JDE Plug-in for Eclipse and the appropriate JDE Component package installed). Refer to the BlackBerry Developer's web site blackberry.com/developers for information on how to download and configure these tools. The ability to consume web services using JSR 172 was added in BlackBerry Device Software 4.3, so be sure you are using the right tools (version 4.3 or higher).
 
-I'm going to assume you already know how to build a BlackBerry Java application – there's no time to dig into all of that before getting into the meat of this article. If you haven't worked with the BlackBerry Java development tools then you should either buy my book (www.bbdevfundamentals.com) or spend some time on the BlackBerry Developer's web site getting up to speed before continuing.
+I'm going to assume you already know how to build a BlackBerry Java application – there's no time to dig into all of that before getting into the meat of this article. If you haven't worked with the BlackBerry Java development tools then you should either buy my book (bbdevfundamentals.com) or spend some time on the BlackBerry Developer's web site getting up to speed before continuing.
 Building the Application
 
 Attached to this article is a zip file containing all of the code for this application. If you extract the files, you will see a folder structure similar to the one shown in Figure 1. In the source folder you'll find the `domdirlookup` files generated in the previous installment and the contactLookup folder contains the source files for the application. The application's pretty simple – it consists of three Java class files which will be explained below.
@@ -194,7 +194,7 @@ final class ContactLookupScreen extends MainScreen {
 
   public MenuItem mnuAbout = new MenuItem("About", 200000, 9) {
     public void run() {
-      Status.show("Created by:\nJohn M. Wargo\nwww.johnwargo.com");
+      Status.show("Created by:\nJohn M. Wargo\njohnwargo.com");
     }
   };
 

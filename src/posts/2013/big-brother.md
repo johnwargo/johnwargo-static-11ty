@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-I was reading an article recently on [Popular Science](https://www.popsci.com/technology/article/2012-06/our-web-videos-reveal-more-we-realize-and-perhaps-more-we-want){target="_blank"} about an algorithm that can stitch together mobile phone video footage of the same event into a single, synchronized, multi-angle film. Here's the description from the article:
+I was reading an article recently on [Popular Science](https://popsci.com/technology/article/2012-06/our-web-videos-reveal-more-we-realize-and-perhaps-more-we-want){target="_blank"} about an algorithm that can stitch together mobile phone video footage of the same event into a single, synchronized, multi-angle film. Here's the description from the article:
 
 "As we upload more and more videos to the Internet—one hour of new video every second to YouTube alone—experts are finding new ways to mine them. A team led by Igor Curcio of Nokia's Research Center, for example, has developed an algorithm that stitches concertgoers' cellphone footage into a single, synchronized multi-angle film. The concept is relatively simple: the audio track serves as a guide to sync up the footage, and the software chooses the best shots. Curcio has no real business model yet—photography is prohibited at most concerts—but giving people the ability to identify and coherently connect common elements in multiple videos is nonetheless a step toward something significant."
 

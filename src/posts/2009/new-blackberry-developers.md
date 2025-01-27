@@ -33,6 +33,6 @@ There is still a whole ton of ancillary information that must be understood befo
 
 and a whole bunch more. You can't just stare at the sample code or the JavaDocs and understand BlackBerry Development. You need more - and that's just what my book provides.
 
-Check it out when you get a chance: [www.bbdevfundamentals.com](https://www.bbdevfundamentals.com){target="_blank"}.
+Check it out when you get a chance: [bbdevfundamentals.com](https://bbdevfundamentals.com){target="_blank"}.
 
 Sorry about  the advertisement.

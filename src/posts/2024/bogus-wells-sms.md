@@ -22,7 +22,7 @@ First of all, I'm not a Wells Fargo customer so that was my first clue that this
 
 Next, I looked at the phone number: +1 141 020 0504
 
-The last time I checked, `141` isn't a US area code. From what I remember, area codes can't begin with a 0 or a 1. Neither is `020` a valid NNX. From [NANPA](https://www.nationalnanpa.com/number_resource_info/co_codes.html){target="_blank"}, the first reference I found using Google:
+The last time I checked, `141` isn't a US area code. From what I remember, area codes can't begin with a 0 or a 1. Neither is `020` a valid NNX. From [NANPA](https://nationalnanpa.com/number_resource_info/co_codes.html){target="_blank"}, the first reference I found using Google:
 
 > A Central Office (CO) code or NXX code refers to the second three digits (also called digits D-E-F) of a ten-digit telephone number in the form of NPA-NXX-XXXX, where N represents any one of the numbers 2 through 9 and X represents any one of the numbers 0 through 9.
 

@@ -36,7 +36,7 @@ When you click on 'Mobile Banking Sign In' you'd think it will prompt you for yo
 {% image "src/images/2010/bofa_app4.jpg", "Figure 4", "image-full" %}
 Figure 4
 
-What???? The Browser? What were they thinking? The iPhone application shows an interactive list of accounts then allows you to browse the account transactions inside of a native iPhone application. The BlackBerry application launches the browser and gives you the exact same functionality you'd get if you fired up the browser and typed in www.bankofamerica.com in the address bar. The browser???
+What???? The Browser? What were they thinking? The iPhone application shows an interactive list of accounts then allows you to browse the account transactions inside of a native iPhone application. The BlackBerry application launches the browser and gives you the exact same functionality you'd get if you fired up the browser and typed in bankofamerica.com in the address bar. The browser???
 
 Eventually you get to the login prompt and you just have to deal with the mobile browser version of the site.
   

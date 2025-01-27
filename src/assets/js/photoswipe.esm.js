@@ -2250,7 +2250,7 @@ class Gestures {
     // Desktop Safari allows to drag images when preventDefault isn't called on mousedown,
     // even though preventDefault IS called on mousemove. That's why we preventDefault mousedown.
     const isMousePointer = e.type === 'mousedown' || e.pointerType === 'mouse'; // Allow dragging only via left mouse button.
-    // http://www.quirksmode.org/js/events_properties.html
+    // http://quirksmode.org/js/events_properties.html
     // https://developer.mozilla.org/en-US/docs/Web/API/event.button
 
     if (isMousePointer && e.button > 0) {

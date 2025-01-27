@@ -24,7 +24,7 @@ Beginning with BlackBerry Device Software 4.2, Research in Motion added the abil
 
 After I left Research in Motion, I continued to present at the same conferences and added the Midwest Lotus User Group (MWLUG) conference to my standard tour. Because of the Web Services capabilities of Microsoft Visual Studio, it was pretty easy to add a demo of a Windows Mobile application to my presentations as well.
 
-The iPhone and Android platforms were released without the ability to connect to XML-based Web services, so I had to find a different way for those platforms to connect to Domino. Android includes the JSON libraries from [json.org](https://www.json.org){target="_blank"}, and there were several versions of JSON libraries for the iPhone platform up there as well, so I decided I'd use REST and JSON to accommodate Android and iPhone. At Lotusphere 2010, while recovering from pneumonia, I added an Android demo to the presentation and was even able to show an almost complete (I never finished it) iPhone example as well. At the conference I promised I'd publish an article here demonstrating how I built the Android application, so here it begins (finally). This article is the first part of a new series that's all about how to use REST and JSON to mobilize Domino data on Android. There'll be two articles in this series here, plus I'll eventually publish an article in the View illustrating the iPhone application.
+The iPhone and Android platforms were released without the ability to connect to XML-based Web services, so I had to find a different way for those platforms to connect to Domino. Android includes the JSON libraries from [json.org](https://json.org){target="_blank"}, and there were several versions of JSON libraries for the iPhone platform up there as well, so I decided I'd use REST and JSON to accommodate Android and iPhone. At Lotusphere 2010, while recovering from pneumonia, I added an Android demo to the presentation and was even able to show an almost complete (I never finished it) iPhone example as well. At the conference I promised I'd publish an article here demonstrating how I built the Android application, so here it begins (finally). This article is the first part of a new series that's all about how to use REST and JSON to mobilize Domino data on Android. There'll be two articles in this series here, plus I'll eventually publish an article in the View illustrating the iPhone application.
 
 ## The Sample Application
 
@@ -36,7 +36,7 @@ REST stands for [Representational State Transfer](https://en.wikipedia.org/wiki/
 
 ## About JSON
 
-JSON stands for JavaScript Object Notation and it's a way of representing data in a textual format that's easy to parse and manipulate. To quote json.org (www.json.org):
+JSON stands for JavaScript Object Notation and it's a way of representing data in a textual format that's easy to parse and manipulate. To quote json.org (json.org):
 
 > “JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language, Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Perl, Python, and many others. These properties make JSON an ideal data-interchange language.
 > 
@@ -58,7 +58,7 @@ And an Object looks like this:
 
 You'll see how these apply in the following section.
 
-*JSON Images shamelessly 'borrowed' from [www.json.org](https://www.json.org){target="_blank"}.
+*JSON Images shamelessly 'borrowed' from [json.org](https://json.org){target="_blank"}.
 
 ## Designing the JSON Agent
 

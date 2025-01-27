@@ -35,7 +35,7 @@ categories:
 ---
 ```
 
-With that in place, I modified the home page and the [Articles](/articles/){target="_blank"} page to display the contents of the post's `description` field if it was populated. If it's not populated, the site pulls the first paragraph of the article using some highly modified code I pulled from [Raymond Camden](https://www.raymondcamden.com/){target="_blank"}'s site.
+With that in place, I modified the home page and the [Articles](/articles/){target="_blank"} page to display the contents of the post's `description` field if it was populated. If it's not populated, the site pulls the first paragraph of the article using some highly modified code I pulled from [Raymond Camden](https://raymondcamden.com/){target="_blank"}'s site.
 
 I've been working in the Generative AI (GenAI) space for a few months now, and one of the things I wanted to do was use GenAI to populate post descriptions for me. I thought about building something that generated descriptions for the site's posts during the build process, but sometimes the first paragraph was good enough, so there's a lot of posts in this site that don't have a description populated. Yes, I know, I could build something that only generated descriptions for newer posts, but that wouldn't work for me for the same reason: I don't assign descriptions to all posts on this site.
 

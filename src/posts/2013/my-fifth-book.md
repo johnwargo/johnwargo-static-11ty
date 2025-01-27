@@ -9,7 +9,7 @@ tags: post
 
 {% image "src/images/covers/anthology-mobile.jpg", "View Anthology Cover", "image-full" %}
 
-A few minutes after finishing my 4th book, I received an email from the editor at the View (www.eview.com) letting me know that they'd published an anthology of their mobile development articles called Mastering Mobile for Notes/Domino. The book is essentially a collection of 22 articles and 16 of them are mine, so 72.73% of the 'chapters' are my work. You can find information about the anthology at [The View](https://www.eview.com/anthology.nsf/Anthology?OpenForm).[](https://www.eview.com/anthology.nsf/Anthology?OpenForm.)  If you order a copy, please tell them you heard about it here!
+A few minutes after finishing my 4th book, I received an email from the editor at [The View](https://eview.com) letting me know that they'd published an anthology of their mobile development articles called Mastering Mobile for Notes/Domino. The book is essentially a collection of 22 articles and 16 of them are mine, so 72.73% of the 'chapters' are my work. You can find information about the anthology at [The View](https://eview.com/anthology.nsf/Anthology?OpenForm).[](https://eview.com/anthology.nsf/Anthology?OpenForm.)  If you order a copy, please tell them you heard about it here!
 
 I didn't do a page calculation to figure out exactly how much of the book is my writing, but I'm still going to count this as a book I've 'written' a part of.
 

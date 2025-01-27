@@ -7,7 +7,7 @@ categories: [IBM Lotus Domino]
 tags: post
 ---
 
-Back in 2010, The View (www.eview.com) magazine approached me and asked me if I was interested in becoming a technical advisor to the publication. Being a long-time IBM Lotus Domino developer (a really, really long time) and a speaker at several View Domino Developer conferences, I of course said yes. We spent some time discussing what they needed from me and we decided that a series of articles on mobile development for Domino would be a great fit for my area of expertise. I was onboard.
+Back in 2010, [The View](http://eview.com) magazine approached me and asked me if I was interested in becoming a technical advisor to the publication. Being a long-time IBM Lotus Domino developer (a really, really long time) and a speaker at several View Domino Developer conferences, I of course said yes. We spent some time discussing what they needed from me and we decided that a series of articles on mobile development for Domino would be a great fit for my area of expertise. I was onboard.
 
 I spent some time thinking about some articles I wanted to write and I solicited some articles from mobile developers I knew. Before long its three years later and I've published 20 articles for the magazine (the official 20th one was published last week) and advised on some articles from other authors. It was a great relationship and a lot of fun. At times, I'd have multiple articles in a single edition of the print version of the publication. I even got an article into their best of 2011 Anthology which was distributed at Lotusphere 2012.
 

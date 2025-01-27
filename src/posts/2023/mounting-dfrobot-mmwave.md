@@ -16,7 +16,7 @@ After I published that article, I spoke with the product team at DFRobot and the
 
 My project is the Sleeping Dragon in a Mailbox project that I was supposed to finish for Halloween this year, but ran out of time due to hardware incompatibilities (a long story that I'll write about later). I needed a way to mount the mmWave device on top of the sign and I finally decided on a simple implementation.
 
-Adafruit makes a quarter-sized [Perma-Proto breadboard PCB](https://www.adafruit.com/product/1608){target="_blank"} that's just the right size for my purposes. I ordered some right-angle female headers and soldered them to the breadboard as shown in the following image.
+Adafruit makes a quarter-sized [Perma-Proto breadboard PCB](https://adafruit.com/product/1608){target="_blank"} that's just the right size for my purposes. I ordered some right-angle female headers and soldered them to the breadboard as shown in the following image.
 
 {% image "src/images/2023/mount-mmwave-01.jpg", "", "image-full" %}
 

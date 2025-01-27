@@ -13,7 +13,7 @@ So, for the last few years, I've actually tried to pay more attention to the spo
 
 The whole family even sat down the week before last and watched an entire afternoon of Football (there, I didn't call it American Football – although I wanted to).
 
-So, I'm excited for the Super Bowl game on Sunday and I went to the NFL web site ([www.nfl.com](https://www.nfl.com/){target="_blank"}) to see when the game started. I, of course, was struck by a couple of things I saw there.
+So, I'm excited for the Super Bowl game on Sunday and I went to the NFL web site ([nfl.com](https://nfl.com/){target="_blank"}) to see when the game started. I, of course, was struck by a couple of things I saw there.
 
 First of all, today, less than a week before the Super Bowl, I couldn't find the start time for the game anywhere on the home page. It's the biggest thing happening in the NFL and nowhere on the home page does it say when the game is being played. Nope, nowhere. That doesn't make sense. Either they're clueless, and nobody thought to put the game time on the site (which is unlikely), or their arrogant and assume that the game time is something EVERYONE must know and there's no reason to put it on the web site.
 

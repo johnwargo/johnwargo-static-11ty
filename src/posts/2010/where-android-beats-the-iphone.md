@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-When you get a chance, take a look at a recent article from InfoWorld: [Where Android beats the iPhone](https://www.infoworld.com/d/developer-world/where-android-beats-iphone-397){target="_blank"}. The author writes about his experience with the Google Nexus One and the Android platform from a developer's standpoint. What's interesting is his very accurate and honest comparison of Android development against Apple iPhone development - especially targeted at the Enterprise.
+When you get a chance, take a look at a recent article from InfoWorld: [Where Android beats the iPhone](https://infoworld.com/d/developer-world/where-android-beats-iphone-397){target="_blank"}. The author writes about his experience with the Google Nexus One and the Android platform from a developer's standpoint. What's interesting is his very accurate and honest comparison of Android development against Apple iPhone development - especially targeted at the Enterprise.
 
 I have an article I haven't published that talks about why the iPhone platform is like it is and I hope to publish it soon (just need to give it another read and clean it up a bit) but what's clear is that decisions that Apple has made are getting ready to bite them in the ass. The InfoWorld article is just one of many that compares the iPhone with how easy it is to do very useful things on other devices. It's not that the iPhone can't do them - it's that **Apple just won't let you do them**. Here you have an amazing, sexy, capable device and so many of the smart and useful things that consumer and enterprise developers want or need to do on their iPhones are just not allowed.
 

@@ -27,9 +27,9 @@ I don't want to show the actual URL because I don't want to be responsible for s
 
 Looking at this message, I was fairly certain it was some sort of scam or phishing attempt since the country code for the sender (`+63 906 755 6259`) is the Philippines. I don't expect to get text messages from the Philippines, especially since I've never ordered a package from the Philippines. 
 
-I also know from reading a lot of Wired Magazine and other sources that the Philippines is the source of a lot of scams; for example: [Hundreds rescued from love scam centre in the Philippines](https://www.bbc.com/news/world-asia-68562643){target="_blank"}.
+I also know from reading a lot of Wired Magazine and other sources that the Philippines is the source of a lot of scams; for example: [Hundreds rescued from love scam centre in the Philippines](https://bbc.com/news/world-asia-68562643){target="_blank"}.
 
-Anyway, since I wasn't sure about this message and I didn't recognize urtye dot com as a safe domain, I did some more research. First I looked up the domain registration and found that the domain is registered via Alibaba Cloud Computing Ltd. d/b/a HiChina (www.net.cn). 
+Anyway, since I wasn't sure about this message and I didn't recognize urtye dot com as a safe domain, I did some more research. First I looked up the domain registration and found that the domain is registered via Alibaba Cloud Computing Ltd. d/b/a HiChina (https://net.cn). 
 
 {% image "src/images/2024/urtye-domain-registration.png", "Urtye dot com domain registration information", "image-full" %}
 

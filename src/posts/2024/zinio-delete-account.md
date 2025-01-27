@@ -10,7 +10,7 @@ categories:
   - Miscellaneous
 ---
 
-I created a [Zinio](https://www.zinio.com/){target="_blank"} account many years ago (many, many years ago). Online magazines was a thing then and there were a couple of magazines I was interested in that had moved to the platform. I stopped reading those magazines years ago and completely forgot about my account. 
+I created a [Zinio](https://zinio.com/){target="_blank"} account many years ago (many, many years ago). Online magazines was a thing then and there were a couple of magazines I was interested in that had moved to the platform. I stopped reading those magazines years ago and completely forgot about my account. 
 
 I was bored the other day and I was poking around on my tablet. I suddenly remembered my Zinio account and opened the browser to see if it was still a thing. I found it, logged in, and browsed all of my magazines (going back into the early 2000's).  None of that interested me anymore and I'm not interested in reading magazines online, so I looked for the link or button to delete my account. I quickly found it and clicked it, but what happened next was just ridiculous.
 

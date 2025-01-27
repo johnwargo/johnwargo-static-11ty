@@ -13,7 +13,7 @@ We ended up not having enough room for all of the sample applications and the bo
 
 Local BlackBerry expert Ben Pijor asked to interview me for an article in an online publication, so I finished that up yesterday morning - expect to see it on or about the time the book pops into the warehouse. His questions were spot on and I really enjoyed answering them. Gave me a chance to give my thoughts on the BlackBerry space - I may even have made a prediction or two, who knows if they'll come true.
 
-If you happen to be attending the [BlackBerry Developer Conference](https://www.blackberrydeveloperconference.com/){target="_blank"}, look me up. I'll be there attending sessions (nope, I didn't get selected as a speaker) and the publisher will likely be there with a stack of books for sale.
+If you happen to be attending the [BlackBerry Developer Conference](https://blackberrydeveloperconference.com/){target="_blank"}, look me up. I'll be there attending sessions (nope, I didn't get selected as a speaker) and the publisher will likely be there with a stack of books for sale.
 
 Here's the full cover in case you wanted to look at it:
 

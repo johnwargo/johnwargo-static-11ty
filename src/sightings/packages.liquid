@@ -7,15 +7,15 @@ headerImageAltText:
 headerImageAttribution:
 ---
 
-<p>As <a href="https://www.npmjs.com/settings/johnwargo/packages" target="_blank">@johnwargo</a>, I published {{
-  packageList.length }} public packages in the <a href="https://www.npmjs.com/" target="_blank">npm Package Repository</a>.
+<p>As <a href="https://npmjs.com/settings/johnwargo/packages" target="_blank">@johnwargo</a>, I published {{
+  packageList.length }} public packages in the <a href="https://npmjs.com/" target="_blank">npm Package Repository</a>.
 </p>
 
 {% if packageList.length > 0 %}
 <table>
   {% tablerow item in packageList cols:2 %}
     <h4>
-      <a href="https://www.npmjs.com/package/{{ item.package.name }}" target="_blank">{{ item.package.name }}</a>
+      <a href="https://npmjs.com/package/{{ item.package.name }}" target="_blank">{{ item.package.name }}</a>
     </h4>
     {% if item.package.description %}
       <p>{{ item.package.description }}</p>

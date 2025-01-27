@@ -12,7 +12,7 @@ As I built the [Eleventy Post Stats](/posts/2023/eleventy-site-statistics) plugi
 
 Now I could copy over the posts from this site or make a few posts and copy them multiple times, I decided I didn't want to do anything like that. I knew that I'd build other plugins or Eleventy sites and hopefully present at conferences about Eleventy, so I decided to build a post generator that would accept as an input the number of posts and then generate the posts for me. 
 
-I didn't want to have to create a configuration file and post template like I did for my [Eleventy New Post](https://www.npmjs.com/package/eleventy-new-post){target="_blank"} package, so everything had to work from a simple command-line interface.
+I didn't want to have to create a configuration file and post template like I did for my [Eleventy New Post](https://npmjs.com/package/eleventy-new-post){target="_blank"} package, so everything had to work from a simple command-line interface.
 
 Because of the way my Post Stats plugin works, I also needed the posts spread across time to affect the average days between posts calculation the plugin does, so I needed a way to [optionally] give the package a start year for posts and a way to spread posts across a time period.
 
@@ -20,7 +20,7 @@ I use a `post` tag on my posts to tell Eleventy how to display them, so I needed
 
 Finally, since Eleventy sites can have different folder structures, I needed to be able to tell the package where to put the generated post files.
 
-The result of this is my [Eleventy Generate Posts](https://github.com/johnwargo/eleventy-generate-posts){target="_blank"} package available on [npm](https://www.npmjs.com/package/eleventy-generate-posts){target="_blank"}
+The result of this is my [Eleventy Generate Posts](https://github.com/johnwargo/eleventy-generate-posts){target="_blank"} package available on [npm](https://npmjs.com/package/eleventy-generate-posts){target="_blank"}
 
 Install the package using:
 

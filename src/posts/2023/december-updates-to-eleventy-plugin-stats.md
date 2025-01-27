@@ -16,4 +16,4 @@ First of all, I added a `avgPostsPerYear` property to the collection to capture 
 
 {% image "src/images/2023/eleventy-plugin-post-stats-average-posts-per-year.png", "Shows the Average Posts per year metric on the sample page", "image-full" %}. 
 
-I also added the [cli-logger](https://www.npmjs.com/package/cli-logger){target="_blank"} to the plugin. This helps me more easily manage the output to the console. 
+I also added the [cli-logger](https://npmjs.com/package/cli-logger){target="_blank"} to the plugin. This helps me more easily manage the output to the console. 

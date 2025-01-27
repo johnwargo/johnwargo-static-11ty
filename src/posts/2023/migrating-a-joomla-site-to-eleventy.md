@@ -8,7 +8,7 @@ categories:
   - Eleventy
 ---
 
-Earlier this year, I started playing with the Eleventy (https://www.11ty.dev/) static site generator. I ran this site on Joomla! (https://www.joomla.org/) for many years, and I love it, but they recently released a new update and I simply wasn’t up to doing the version migration. Migrating to a static site generator (SSG) would remove many of the security issues related to running Joomla sites on PHP. 
+Earlier this year, I started playing with the Eleventy (https://11ty.dev/) static site generator. I ran this site on Joomla! (https://joomla.org/) for many years, and I love it, but they recently released a new update and I simply wasn’t up to doing the version migration. Migrating to a static site generator (SSG) would remove many of the security issues related to running Joomla sites on PHP. 
 
 After playing with Eleventy for a while, I decided I would use it for this site going forward and started planning the migration. This site’s been around since 2009, so I had a lot of content to migrate, and I knew I needed migration tools to make this easier. 
 
@@ -24,9 +24,9 @@ Looking at the tasks I had to complete, the project looked something like this:
 
 ## Building the Eleventy Version of the Site
 
-Building out the site in Eleventy was easy, I’d just built a couple of sites using Raymond Camden’s [A Guide to Building a Blog in Eleventy](https://www.raymondcamden.com/2022/01/19/a-guide-to-building-a-blog-in-eleventy){target="_blank"}, so I had all the experience I needed with Eleventy. I created a list of features I wanted in the site and built each one out over several weeks.
+Building out the site in Eleventy was easy, I’d just built a couple of sites using Raymond Camden’s [A Guide to Building a Blog in Eleventy](https://raymondcamden.com/2022/01/19/a-guide-to-building-a-blog-in-eleventy){target="_blank"}, so I had all the experience I needed with Eleventy. I created a list of features I wanted in the site and built each one out over several weeks.
 
-One of the things I wanted for this site which was easy to do in Joomla but difficult to do in Eleventy is including category pages with pagination. Eleventy easily supports paginating article lists, and it’s also easy to make a categories page in Eleventy (/posts/2023/eleventy-site-categories-page), but Eleventy doesn’t support generating category pages with pagination. To get around this, I built a Node module called [Eleventy Category Pages](https://www.npmjs.com/package/eleventy-category-pages){target="_blank"} which I’ll write about here soon.
+One of the things I wanted for this site which was easy to do in Joomla but difficult to do in Eleventy is including category pages with pagination. Eleventy easily supports paginating article lists, and it’s also easy to make a categories page in Eleventy (/posts/2023/eleventy-site-categories-page), but Eleventy doesn’t support generating category pages with pagination. To get around this, I built a Node module called [Eleventy Category Pages](https://npmjs.com/package/eleventy-category-pages){target="_blank"} which I’ll write about here soon.
 
 For the site template, I decided to use one of the [Pixelarity](https://pixelarity.com/){target="_blank"} templates. It was really easy to apply their templates to Eleventy sites, I’ll write about that here someday too. If you don’t want to pay for a Pixelarity subscription, you can find free versions of many of the Pixelarity templates at [HTML5 Up](https://html5up.net/){target="_blank"}. 
 
@@ -137,7 +137,7 @@ It wasn't pretty and it wasn't fun, but I finally updated all 400 or so articles
 
 ## Going Live
 
-As I mentioned, I hosted the Joomla version of this site was at FatCow; for this new site, I host it at [Netlify](https://www.netlify.com/){target="_blank"} and I'm really happy with the experience. Netlify understands Eleventy projects and it works perfectly for my site's needs. 
+As I mentioned, I hosted the Joomla version of this site was at FatCow; for this new site, I host it at [Netlify](https://netlify.com/){target="_blank"} and I'm really happy with the experience. Netlify understands Eleventy projects and it works perfectly for my site's needs. 
 
 Hosting Eleventy sites on Netlify is relatively easy and they have great documentation, so I'm not sure if I need to write anything here about that. Once the site was safely setup on Netlify, I deleted everything from FatCow and moved the domain pointer from FatCow to Netlify.
 

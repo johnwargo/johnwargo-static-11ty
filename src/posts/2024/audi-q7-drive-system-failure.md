@@ -87,13 +87,13 @@ Apparently, Audi Drive System Failure is a known issue.
 
 One of the things I noticed recently was that I had to put a quart of oil in the engine more frequently than I expected.
 
-When my wife started looking around, she found this: [Mechanic says I have a burnt valve](https://www.audiworld.com/forums/q7-mkii-discussion-211/mechanic-says-i-have-burnt-valve-3067401/){target="_blank"}. It describes an Audi flawed engine design and failure that follows the engine burning more oil than expected.
+When my wife started looking around, she found this: [Mechanic says I have a burnt valve](https://audiworld.com/forums/q7-mkii-discussion-211/mechanic-says-i-have-burnt-valve-3067401/){target="_blank"}. It describes an Audi flawed engine design and failure that follows the engine burning more oil than expected.
 
 When you look at that post, the images of the broken valve matches what happened to my car.
 
 Here's the first response to the post:
 
-> Sorry to hear about this situation - here is a [thread](https://www.audiworld.com/forums/q7-mkii-discussion-211/insane-engine-repair-estimate-2017-q7-3066848/page3/){target="_blank"} that discusses this issue and potential cause (flawed engine design) which leads to burnt valves in spite of proper maintenance. This tends to happen when the 3.0T engines that has moderately high mileage. You can try reaching out to Audi corporate, but it is unlikely Audi will compensate (or admit fault) as others have tried. Only thing left to do is sell the car, file a report with NTHSA and hope at some point there will be a class-action that you can be a part of. My Q7 has less than 20K on the ODO, love the car and would generally hold on to it for 10+ years - but not in this case.
+> Sorry to hear about this situation - here is a [thread](https://audiworld.com/forums/q7-mkii-discussion-211/insane-engine-repair-estimate-2017-q7-3066848/page3/){target="_blank"} that discusses this issue and potential cause (flawed engine design) which leads to burnt valves in spite of proper maintenance. This tends to happen when the 3.0T engines that has moderately high mileage. You can try reaching out to Audi corporate, but it is unlikely Audi will compensate (or admit fault) as others have tried. Only thing left to do is sell the car, file a report with NTHSA and hope at some point there will be a class-action that you can be a part of. My Q7 has less than 20K on the ODO, love the car and would generally hold on to it for 10+ years - but not in this case.
 
 The most telling comment I found was:
 

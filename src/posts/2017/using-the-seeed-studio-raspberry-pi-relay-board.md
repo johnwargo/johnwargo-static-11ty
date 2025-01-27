@@ -7,9 +7,9 @@ categories: [Internet of Things (IoT)]
 tags: post
 ---
 
-I had an idea for a project, a Raspberry Pi-based power controller for my media center. I searched around for relay boards, and discovered the Seeed Studio Raspberry Pi Relay Board v1.0 [https://www.seeedstudio.com/Raspberry-Pi-Relay-Board-v1.0-p-2409.html](https://www.seeedstudio.com/Raspberry-Pi-Relay-Board-v1.0-p-2409.html){target="_blank"}, so I thought I'd give it a try.
+I had an idea for a project, a Raspberry Pi-based power controller for my media center. I searched around for relay boards, and discovered the Seeed Studio Raspberry Pi Relay Board v1.0 [https://seeedstudio.com/Raspberry-Pi-Relay-Board-v1.0-p-2409.html](https://seeedstudio.com/Raspberry-Pi-Relay-Board-v1.0-p-2409.html){target="_blank"}, so I thought I'd give it a try.
 
-**Note**: At the time, this was the only directly-mountable relay board I could find for the Raspberry Pi. Since then, I found another one in the ModMyPi PiOT Relay Board ([https://www.modmypi.com/raspberry-pi/breakout-boards/modmypi/modmypi-piot-relay-board](https://www.modmypi.com/raspberry-pi/breakout-boards/modmypi/modmypi-piot-relay-board){target="_blank"}). I'll play with that one soon and publish my findings here; stay tuned.
+**Note**: At the time, this was the only directly-mountable relay board I could find for the Raspberry Pi. Since then, I found another one in the ModMyPi PiOT Relay Board ([https://modmypi.com/raspberry-pi/breakout-boards/modmypi/modmypi-piot-relay-board](https://modmypi.com/raspberry-pi/breakout-boards/modmypi/modmypi-piot-relay-board){target="_blank"}). I'll play with that one soon and publish my findings here; stay tuned.
 
 When I finally got around to playing with the hardware, I used (or should I say tried to use) Seeed Studio's Wiki Page for the board ([https://wiki.seeed.cc/Raspberry_Pi_Relay_Board_v1.0/](https://wiki.seeed.cc/Raspberry_Pi_Relay_Board_v1.0/){target="_blank"}) to guide my efforts. Unfortunately, I quickly learned that the article was incomplete and didn't have everything I needed to work with the board. I mounted the board on my Raspberry Pi, powered it up, ran their sample test application, and got nowhere. It simply didn't work.
 

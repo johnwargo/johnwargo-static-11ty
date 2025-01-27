@@ -71,7 +71,7 @@ It just makes no sense to me to force developers to treat each function as a sep
 
 So, back to my Google Cloud Functions (GCF) project. 
 
-My site uses three cloud functions, two that deal with Google Analytics and another that pulls in my [GoodReads feed](https://www.goodreads.com/user/show/51500942-john-wargo){target="_blank"}. 
+My site uses three cloud functions, two that deal with Google Analytics and another that pulls in my [GoodReads feed](https://goodreads.com/user/show/51500942-john-wargo){target="_blank"}. 
 
 **Note:** I didn't need my Goodreads feed deployed as a cloud function, but putting it there let me easily share the code across multiple projects.
 

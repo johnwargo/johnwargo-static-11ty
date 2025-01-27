@@ -24,4 +24,4 @@ Here are some fun facts about Canada that you may not already know:
 9. Between 1984 and 2008, it was illegal to sell pop (this is 'soda' for Americans) in cans in PEI. All carbonated drinks had to be purchased in refillable glass bottles. PEI was the only place in North America to have a “can ban.”
 10. Forget the Loch Ness Monster: Canada has its own mysterious lake creature, Ogopogo, who reportedly lives in Lake Okanagan, British Columbia.
 
-And my absolute favorite fact: Canadians consume more mac and cheese than any nation on earth (source: [https://www.canadiangeographic.ca/kids/fun-facts/](https://www.canadiangeographic.ca/kids/fun-facts/){target="_blank"}).
+And my absolute favorite fact: Canadians consume more mac and cheese than any nation on earth (source: [https://canadiangeographic.ca/kids/fun-facts/](https://canadiangeographic.ca/kids/fun-facts/){target="_blank"}).

@@ -16,7 +16,7 @@ timestamp: 2025-01-25T00:09:00.924Z
 generatedDescription: true
 ---
 
-As I worked on the two Cert2Arduino projects ([Web](https://johnwargo.com/posts/2025/public-cert-arduino/){target="_blank"} and [Node.js](https://johnwargo.com/posts/2025/certificate-to-arduino-command-line/){target="_blank"}) I wrote about recently, I ran into a problem with one aspect of the conversion process.
+As I worked on the two Cert2Arduino projects ([Web](/posts/2025/public-cert-arduino/){target="_blank"} and [Node.js](/posts/2025/certificate-to-arduino-command-line/){target="_blank"}) I wrote about recently, I ran into a problem with one aspect of the conversion process.
 
 ## The Situation
 

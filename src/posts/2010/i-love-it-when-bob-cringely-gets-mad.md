@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-Robert X Cringely used to publish on [www.pbs.org](https://www.pbs.org){target="_blank"} and now publishes his own blog at [www.cringely.com](https://www.cringely.com/){target="_blank"}. He has done a bunch of cool things related to the PC industry over the years – including being the author of [Accidental Empires: How the Boys of Silicon Valley Make Their Millions, Battle Foreign Competition, and Still Can't Get a Date](https://www.amazon.com/gp/product/0887308554){target="_blank"} which I really loved.
+Robert X Cringely used to publish on [pbs.org](https://pbs.org){target="_blank"} and now publishes his own blog at [cringely.com](https://cringely.com/){target="_blank"}. He has done a bunch of cool things related to the PC industry over the years – including being the author of [Accidental Empires: How the Boys of Silicon Valley Make Their Millions, Battle Foreign Competition, and Still Can't Get a Date](https://amazon.com/gp/product/0887308554){target="_blank"} which I really loved.
 
 Anyway, he writes about US Security every once in a while and recently published the following regarding how hard it was for US Officials to determine whether this Christmas Day Bomber was a terrorist:
 
@@ -17,4 +17,4 @@ Anyway, he writes about US Security every once in a while and recently published
 > 
 > How is it that we can run our credit card operations so well and our national security so poorly?”
 
-He's right and has every right to be mad. Read the full article: [https://www.cringely.com/2010/01/predict-me-im-from-the-government](https://www.cringely.com/2010/01/predict-me-im-from-the-government/){target="_blank"}.
+He's right and has every right to be mad. Read the full article: [https://cringely.com/2010/01/predict-me-im-from-the-government](https://cringely.com/2010/01/predict-me-im-from-the-government/){target="_blank"}.

@@ -15,7 +15,7 @@ I decided recently that one of the things missing from this site was the ability
 
 This site uses [Markdown](https://daringfireball.net/projects/markdown/){target="_blank"} files for posts and Markdown already supports Blockquotes:
 
-> The [blockquote](https://www.w3.org/TR/2011/WD-html5-author-20110809/the-blockquote-element.html){target="_blank"} element represents a section that is quoted from another source. Content inside a blockquote must be quoted from another source, whose address, if it has one, may be cited in the cite attribute. If the cite attribute is present, it must be a valid URL potentially surrounded by spaces.
+> The [blockquote](https://w3.org/TR/2011/WD-html5-author-20110809/the-blockquote-element.html){target="_blank"} element represents a section that is quoted from another source. Content inside a blockquote must be quoted from another source, whose address, if it has one, may be cited in the cite attribute. If the cite attribute is present, it must be a valid URL potentially surrounded by spaces.
 
 This allows me to create indented text, but it doesn't feel like a call-out or sidebar.
 

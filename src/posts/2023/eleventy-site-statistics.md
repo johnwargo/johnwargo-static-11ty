@@ -9,13 +9,13 @@ categories:
   - Static Site Generators
 ---
 
-As I worked to migrate this site to [Eleventy](https://www.11ty.dev/docs/collections/){target="_blank"}, one of the final touches I wanted to add was a statistics page that showed 'stuff' about the site. The page started simple at first, but then I started thinking about what I could do with 14 years of post data. 
+As I worked to migrate this site to [Eleventy](https://11ty.dev/docs/collections/){target="_blank"}, one of the final touches I wanted to add was a statistics page that showed 'stuff' about the site. The page started simple at first, but then I started thinking about what I could do with 14 years of post data. 
 
 I knew I could add a collection to my site and use that to build a data set showing the number of posts per year as well as the average number of days between posts. At that point, I realized I could make an Eleventy plugin out of it so others could use it as well and this would give me an opportunity to learn how to make Eleventy plugins. 
 
-I published the plugin yesterday as [Eleventy-Plugin-Post-Stats](https://github.com/johnwargo/eleventy-plugin-post-stats){target="_blank"} and added the complete [Stats page](/statistics) to the site. 
+I published the plugin yesterday as [Eleventy-Plugin-Post-Stats](https://github.com/johnwargo/eleventy-plugin-post-stats){target="_blank"} and added the complete [Stats page](/about/statistics) to the site. 
 
-You can find the implementation of a page that uses all of the properties of the stats object in this repository's [index.liquid](https://github.com/johnwargo/eleventy-plugin-post-stats/blob/main/index.liquid) file. Here's the source code for the page:
+You can find the implementation of a page that uses all of the properties of the stats object in this repository's [index.liquid](http://github.com/johnwargo/eleventy-plugin-post-stats/blob/main/src/index.liquid) file. Here's the source code for the page:
 
 {% highlight liquid %}
 ---
@@ -54,7 +54,7 @@ layout: generic
     </li>
     <li>
       <strong>Generator:</strong>
-      <a href="https://www.11ty.dev/" target="_blank">{{ eleventyinfo.generatorStr }}</a>
+      <a href="https://11ty.dev/" target="_blank">{{ eleventyinfo.generatorStr }}</a>
     </li>
   </ul>
 

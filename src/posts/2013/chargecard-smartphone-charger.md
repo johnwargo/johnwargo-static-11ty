@@ -7,7 +7,7 @@ categories: [Mobile]
 tags: post
 ---
 
-I was reading through one of my tech magazines the other day (I can't remember whether it was PC Magazine or Popular Science, sorry) and noticed this cool charger cable called ChargeCard ([www.chargecardproject.com](https://www.chargecardproject.com){target="_blank"}). I used to travel a lot and bring a bunch of cables and so on with me in a little pouch. Over time, the pouch has gotten bigger and bigger and now, with all of the devices I carry with me, it looks like this:
+I was reading through one of my tech magazines the other day (I can't remember whether it was PC Magazine or Popular Science, sorry) and noticed this cool charger cable called [ChargeCard](https://chargecardproject.com){target="_blank"}. I used to travel a lot and bring a bunch of cables and so on with me in a little pouch. Over time, the pouch has gotten bigger and bigger and now, with all of the devices I carry with me, it looks like this:
 
 {% image "src/images/2013/chargecard1.png", "My Current Cable Pouch", "image-full" %}
 
@@ -22,5 +22,3 @@ It is pretty cool and takes up a whole lot less room than my assortment of cable
 It's a little pricy at $25, but well worth it when you consider how small and useful it is.
 
 For those devices that don't use a standard micro USB connector (that would pretty much only be iOS devices, too bad) the ChardgeCard folks also make a ChargeCard for those devices as well. It's not their fault, but if you carry both an Android and iOS device, you'll need to carry two ChargeCards with you in order to be able to charge both. Fortunately they're very small, so carrying two of them still takes up less room than a single, traditional USB cable.
-
-Check them out when you get a chance: www.chargecardproject.com.

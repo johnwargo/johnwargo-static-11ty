@@ -80,9 +80,9 @@ With those three components, I’d have a simplified way to manage my Moddable p
 
 ## Introducing Moddable Helper
 
-Based on the requirements listed at the end of the previous section, I created a node package called Moddable Helper (https://www.npmjs.com/package/moddable-helper). When you install the module on your Moddable development system (it works on Linux, macOS, and Windows), it adds a mddbl command you can use to streamline your command typing when working with Moddable projects.  mddbl is ‘moddable’ without any vowels; I did that in case the Moddable team someday releases a `moddable` package via npm (Node Package Manager - https://npmjs.com); I didn’t want there to be a conflict with ‘official’ software.
+Based on the requirements listed at the end of the previous section, I created a node package called [Moddable Helper](https://npmjs.com/package/moddable-helper). When you install the module on your Moddable development system (it works on Linux, macOS, and Windows), it adds a `mddbl` command you can use to streamline your command typing when working with Moddable projects.  `mddbl` is ‘moddable’ without any vowels; I did that in case the Moddable team someday releases a `moddable` package via [npm](https://npmjs.com); I didn’t want there to be a conflict with ‘official’ software.
 
-At the core of mddbl capabilities is a simple configuration file you add to your Moddable project folder containing settings about your project. The file is called, wait for it, `mddbl.json` and when you first create it, it looks like this:
+At the core of `mddbl`'s' capabilities is a simple configuration file you add to your Moddable project folder containing settings about your project. The file is called, wait for it, `mddbl.json` and when you first create it, it looks like this:
 
 ```json
 {

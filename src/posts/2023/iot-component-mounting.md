@@ -12,7 +12,7 @@ categories:
 
 I'm working on a Halloween project that requires some external hardware components mounted on different things. In this case, it's my Sleeping Dragon in a Mailbox project and I'm trying to figure out how to mount my project's LEDs and mm Wave RADAR devices. Let me explain...
 
-For the dragon's eyes (inside the mailbox) I selected the [NeoPixel Ring - 12 x 5050 RGB LED with Integrated Drivers](https://www.adafruit.com/product/1643){target="_blank"}. The NeoPixel ring is awesome, but it has some flaws. Take a look at the image below.
+For the dragon's eyes (inside the mailbox) I selected the [NeoPixel Ring - 12 x 5050 RGB LED with Integrated Drivers](https://adafruit.com/product/1643){target="_blank"}. The NeoPixel ring is awesome, but it has some flaws. Take a look at the image below.
 
 {% image "src/images/2023/1643-00.jpg", "NeoPixel Ring", "image-full" %}
 
@@ -20,7 +20,7 @@ From a mounting perspective it looks like the person who designed it didn't take
 
 The ring has three required connections, four if you want to connect the ring to other NeoPixel devices. Unfortunately, the solder points for the 4 possible connections are distributed around the ring. This means from a wiring perspective that you must split your wires and spread them around the ring. That works, but it's clunky - depending on the project, you could have these single wires spreading across the project. 
 
-If you think about how someone like me would use this device in a project, what I want is all of the connections grouped together one one side of the ring. If daisy changing multiple rings together, I'd want the three input connections on one side, and three output connections on the other side, just like they did for the [Breadboard-friendly RGB Smart NeoPixel](https://www.adafruit.com/product/1558){target="_blank"}. That just makes more sense.
+If you think about how someone like me would use this device in a project, what I want is all of the connections grouped together one one side of the ring. If daisy changing multiple rings together, I'd want the three input connections on one side, and three output connections on the other side, just like they did for the [Breadboard-friendly RGB Smart NeoPixel](https://adafruit.com/product/1558){target="_blank"}. That just makes more sense.
 
 {% image "src/images/2023/1558-02.jpg", "Breadboard-friendly RGB Smart NeoPixel", "image-full" %}
 
@@ -34,7 +34,7 @@ What Adafruit should have done here was leave an extra border on the inside and/
 
 Even if you don't want to support mounting holes, at least provide that border so users can cut a groove in a piece of wood or plastic and slide the ring in place. 
 
-A while back, I published an article here about the [DFRobot mmWave RADAR](https://johnwargo.com/posts/2023/dfrobot-mmwave-radar/) device. It's a great device and easy to use (as I described in the article) but now I'm trying to mount it in my project and it looks like my only option is to use Hot Glue again. 
+A while back, I published an article here about the [DFRobot mmWave RADAR](/posts/2023/dfrobot-mmwave-radar/) device. It's a great device and easy to use (as I described in the article) but now I'm trying to mount it in my project and it looks like my only option is to use Hot Glue again. 
 
 Here's a picture of the board:
 
@@ -49,7 +49,7 @@ Putting the mounting holes on either side of the soldered connections only prove
 
 If I use the bolt holes to mount the board to my project, I lose the ability to solder wires to the board. That makes absolutely no sense. 
 
-DFRobot should absolutely put the mounting holes somewhere else on the board and definitely used 4 holes instead of two as Seeed Studio did with their [24GHz mmWave Sensor - Human Static Presence Module Lite](https://www.seeedstudio.com/24GHz-mmWave-Sensor-Human-Static-Presence-Module-Lite-p-5524.html){target="_blank"}. When you look at the Seeed Studio board, you'll notice that they put mounting holes in the four corners of the board (excellent) plus put wire connections in the middle of the back of the board away from the bolt holes. 
+DFRobot should absolutely put the mounting holes somewhere else on the board and definitely used 4 holes instead of two as Seeed Studio did with their [24GHz mmWave Sensor - Human Static Presence Module Lite](https://seeedstudio.com/24GHz-mmWave-Sensor-Human-Static-Presence-Module-Lite-p-5524.html){target="_blank"}. When you look at the Seeed Studio board, you'll notice that they put mounting holes in the four corners of the board (excellent) plus put wire connections in the middle of the back of the board away from the bolt holes. 
 
 Now, the Seeed Studio board has some issues as well, the wire connections aren't solder points, but at least they gave me a way to mount the board.
 

@@ -11,7 +11,7 @@ categories:
   - JavaScript	
 ---
 
-In yesterday's post, I announced my [Future Post plugin for Eleventy](https://www.npmjs.com/package/eleventy-plugin-future-post){target="_blank"} and mentioned that I didn't configure the plugin so it would render posts with a future date when testing the site. Since then I found some time to look at the implementation for that and decided to go ahead and add it to version 0.0.2 which I published today.
+In yesterday's post, I announced my [Future Post plugin for Eleventy](https://npmjs.com/package/eleventy-plugin-future-post){target="_blank"} and mentioned that I didn't configure the plugin so it would render posts with a future date when testing the site. Since then I found some time to look at the implementation for that and decided to go ahead and add it to version 0.0.2 which I published today.
 
 The Eleventy Base Blog does something weird with a environment variable to implement this and I wanted to make my code cleaner.
 

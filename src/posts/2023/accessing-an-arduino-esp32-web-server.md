@@ -29,7 +29,7 @@ It turns out that's simply not the case.
 
 You can build a web application and use it to access the MDWS pretty easily. On your desktop PC, fire up your web app editor of choice, code the app, load the application in your browser, then access the MDWS. Here's a link to the app I built for this project: [Pumpkin LED Controller](https://github.com/johnwargo/glowing-pumpkin-controller-html){target="_blank"}; I discuss this app later in this article.
 
-As long as the PC running the browser/web application and the ESP32 web server are on the same local Wi-Fi network, it works. If you host the web application on a pub web server somewhere (like [Netlify](https://www.netlify.com/){target="_blank"}) you can make it work, but not out of the box; there are special settings you must change in the browser to make it work (described below).
+As long as the PC running the browser/web application and the ESP32 web server are on the same local Wi-Fi network, it works. If you host the web application on a pub web server somewhere (like [Netlify](https://netlify.com/){target="_blank"}) you can make it work, but not out of the box; there are special settings you must change in the browser to make it work (described below).
 
 My little microcontroller-driven ESP32 web server doesn't have an SSL/TLS certificate installed. Yes, I know I can generate and install it on the device, but I chose not to take that painful approach, because browsers won't like [self-signed certificates](https://en.wikipedia.org/wiki/Self-signed_certificate#:~:text=Self%2Dsigned%20certificates%20have%20limited,decrypt%20files%20on%20the%20fly.){target="_blank"}. When I host the web app on a custom domain (in this case [https://pumpkin-controller.netlify.app/](https://pumpkin-controller.netlify.app/){target="_blank"}), the browser doesn't like cross domain access (the web app hosted at pumpkin-controller.netlify.app connecting to a web server on a local network). The browser blocks it and that's where the special settings come into play (telling the browser to ignore the security risk).
 
@@ -42,7 +42,7 @@ So, what are your options for controlling the Pumpkin from a mobile device? The 
 * Native Android app written in Java or Kotlin.
 * Native iOS and/or iPadOS app written in Objective-C or Swift.
 * Native application written in Dart using [Flutter](https://flutter.dev/){target="_blank"}.
-* Native Hybrid application (such as [Apache Cordova](https://cordova.apache.org/){target="_blank"}, [Ionic Capacitor](https://capacitorjs.com/){target="_blank"}, or even [Electron](https://www.electronjs.org/){target="_blank"}).
+* Native Hybrid application (such as [Apache Cordova](https://cordova.apache.org/){target="_blank"}, [Ionic Capacitor](https://capacitorjs.com/){target="_blank"}, or even [Electron](https://electronjs.org/){target="_blank"}).
 
 I'm really not a native mobile developer even though I published multiple books on the topic, so that option doesn't work for me. I wrote [4 books on Apache Cordova](https://johnwargobooks.com/books/cordova){target="_blank"}, so I know I could do that pretty easily, but that particular technology is dead. I've also written a bunch of Ionic apps (I even have one in the app store: [Time Slicer](https://timeslicer.app/){target="_blank"}) so I could use that option if I wanted. My favorite mobile app development approach is Flutter, so for this project I built a Flutter app called [Pumpkin Controller](https://github.com/fumblystuff/pumpkin-controller-app-flutter){target="_blank"} that you can install and use to control the pumpkin.
 
@@ -52,7 +52,7 @@ You'll find detailed information for each of these topics in the following secti
 
 As I mentioned in the Background section, you can use a native desktop/laptop app to access the microprocessor-driven web server. I'm not suggesting that you write your own, but you could certainly do that; I may even spend some time doing that and share the project here.
 
-There are many API testing applications available to developers and they're an excellent way to exercise the microprocessor-driven web server. My favorite is [Postman](https://www.postman.com/){target="_blank"}. Postman is interesting in that they offer a fre version that allows you to pretty much anything you need to do to exercise the pumpkin web server. They also provide a paid offering that has a lot more capabilities. I've never used anything but the free version and that's what I'll show here.
+There are many API testing applications available to developers and they're an excellent way to exercise the microprocessor-driven web server. My favorite is [Postman](https://postman.com/){target="_blank"}. Postman is interesting in that they offer a fre version that allows you to pretty much anything you need to do to exercise the pumpkin web server. They also provide a paid offering that has a lot more capabilities. I've never used anything but the free version and that's what I'll show here.
 
 To use Postman to control the MDWS, you need either the IP address for the web server or the DNS name for the device (the Arduino sketch defaults to `pumpkin.local`), either works fine. To use the MDWS IP Address, look for it in the Serial Monitor after successfully connecting to the Wi-Fi network as shown below:
 
@@ -108,7 +108,7 @@ Using the Postman approach to test the MDWS API allowed me to ensure everything 
 
 ## Local Web Application
 
-In the previous article for this project, I described the [Pumpkin Controller web application](https://github.com/johnwargo/glowing-pumpkin-controller-html){target="_blank"} I created to control the ESP32 LED matrix through the MDWS. When you launch the web application locally (running on a web server on your local network - for example using the [http-server](https://www.npmjs.com/package/http-server){target="_blank"} module), browsers will warn you that the connection to the web server is not secure but lets you connect anyway. In the browser, the connection to the app shows as 'Not secure' as shown in the browser's address bar at the top of the following figure.
+In the previous article for this project, I described the [Pumpkin Controller web application](https://github.com/johnwargo/glowing-pumpkin-controller-html){target="_blank"} I created to control the ESP32 LED matrix through the MDWS. When you launch the web application locally (running on a web server on your local network - for example using the [http-server](https://npmjs.com/package/http-server){target="_blank"} module), browsers will warn you that the connection to the web server is not secure but lets you connect anyway. In the browser, the connection to the app shows as 'Not secure' as shown in the browser's address bar at the top of the following figure.
 
 {% image "src/images/2023/pumpkin-controller-browser-local.png", "Pumpkin Controller web app running in a browser locally", "image-full" %}
 
@@ -116,7 +116,7 @@ The app works and everything's fine unless you try to access it from a different
 
 ## Hosted Web Application
 
-To make it easier for me (and you) to control the pumpkin LEDs using a browser, I published the [Pumpkin Controller web application](https://github.com/johnwargo/glowing-pumpkin-controller-html){target="_blank"} to [Netlify](https://www.netlify.com/){target="_blank"}; you can access it using [https://pumpkin-controller.netlify.app/](https://pumpkin-controller.netlify.app/){target="_blank"}.  The following two sections describe how it works in Desktop and Mobile browsers.
+To make it easier for me (and you) to control the pumpkin LEDs using a browser, I published the [Pumpkin Controller web application](https://github.com/johnwargo/glowing-pumpkin-controller-html){target="_blank"} to [Netlify](https://netlify.com/){target="_blank"}; you can access it using [https://pumpkin-controller.netlify.app/](https://pumpkin-controller.netlify.app/){target="_blank"}.  The following two sections describe how it works in Desktop and Mobile browsers.
 
 ### Desktop Browser
 

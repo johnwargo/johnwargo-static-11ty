@@ -17,7 +17,7 @@ By John M. Wargo & August M. Wargo
 
 **August:** My dad and I had an idea that our last pinewood derby car should be really cool. My dad is a geek and really good with electronics so he did most of the coding. I did most of the design. I thought that it was a lot of fun because I got to spend more time with my dad and got to do a lot of things that I like. I couldn't wait until the race to see how fast it was. It did not win a single race. But we did win the most unique car design. It was the best Cub Scout experience I've ever had.
 
-**John:** My son is in Cub Scouts and for years we've been building Boy Scouts of America Pinewood Derby ([www.pinewoodderby.org](https://www.pinewoodderby.org){target="_blank"}) cars with the rest of the pack. I've always invited my son's Den into my workshop so the other scouts and their Dads can make use of my tools to build their cars. The Boy Scouts has a policy against Cub Scouts using power tools, but with the right guidance we've gotten along.
+**John:** My son is in Cub Scouts and for years we've been building Boy Scouts of America Pinewood Derby ([pinewoodderby.org](https://pinewoodderby.org){target="_blank"}) cars with the rest of the pack. I've always invited my son's Den into my workshop so the other scouts and their Dads can make use of my tools to build their cars. The Boy Scouts has a policy against Cub Scouts using power tools, but with the right guidance we've gotten along.
 
 It's always…interesting to see how much involvement the Scouts have vs. their parents in making the cars. For the most part, I've let my son do what he wants with his car; I've guided him, but let him cut the car, sand it, paint it and so on. I really only got directly involved when it came to putting the wheels on as he didn't, until recently, have the physical strength and control needed to do that right.
 
@@ -26,7 +26,7 @@ Figure 1 – A Boy and His Arduino Powered Pinewood Derby Car
 
 After watching one particular parent last year spend two hours or more in the shop painstakingly cutting, shaping, sanding and grinding the car into a particular shape, my son and I decided that we'd kick it up a notch this year. Even though I have a pretty nice wood shop, I'm more of a programmer type (I've written 6 books on mobile development), so I suggested that we do something with a programmable microcontroller and some LEDs for this year's race. I'd wanted to do something with Arduino, so this seemed like the perfect opportunity to do so while at the same time providing me with a chance to teach my son how to wire things together, solder and write code.
 
-In this project, we'll show you how to create an Arduino-powered Pinewood Derby car. We'll be using an Arduino ([www.arduino.cc](https://www.arduino.cc){target="_blank"}) microcontroller board, some LEDs and an accelerometer to flash a set of LEDs depending on the orientation of the car.
+In this project, we'll show you how to create an Arduino-powered Pinewood Derby car. We'll be using an Arduino ([arduino.cc](https://arduino.cc){target="_blank"}) microcontroller board, some LEDs and an accelerometer to flash a set of LEDs depending on the orientation of the car.
 
 For our first iteration of this, we configured the car so that when it sits in the pits, it will flash the lights in a certain pattern. When the car is at the starting gate, and when it's on the angled portion of the track, the light pattern changes and becomes much more active. Knowing that the car may jump off the track, we also added special added patterns for when the car is sitting on its left or right side. Since everything is done in code, it's super easy to completely change the light patterns and orientation settings in the software. You and your son can spend hours trying out different patterns to get the right, and potentially unique, ones for your car.
 
@@ -38,18 +38,18 @@ The project's Arduino source code available at https://github.com/johnwargo/Ardu
 
 The project uses the following materials:
 
-* Official Pinewood Derby car kit (2 or more: if you're like me, you'll make mistakes and need to start over). Available at any hobby or craft store or at https://www.pinewoodderby.org/#/three.
-* Arduino compatible microcontroller (1: for this project, I used a Teensy 3.0 https://www.pjrc.com/store/teensy3.html)
-* Arduino compatible battery (www.adafruit.com/products/258)
-* Battery charging module (www.adafruit.com/products/259)
-* Power switch (www.adafruit.com/products/1400)
-* Accelerometer (www.adafruit.com/products/163)
+* Official Pinewood Derby car kit (2 or more: if you're like me, you'll make mistakes and need to start over). Available at any hobby or craft store or at https://pinewoodderby.org/#/three.
+* Arduino compatible microcontroller (1: for this project, I used a Teensy 3.0 https://pjrc.com/store/teensy3.html)
+* Arduino compatible battery (adafruit.com/products/258)
+* Battery charging module (adafruit.com/products/259)
+* Power switch (adafruit.com/products/1400)
+* Accelerometer (adafruit.com/products/163)
 * LEDs (3.7 V or higher) with matching resistors (10)
-* Ribbon cable (2 feet: https://www.sparkfun.com/products/10647)
-* #2 wood screws (minimum 12: www.grainger.com, part #1LB35)
-* #2 nylon washers (minimum 12: www.mouser.com, part #534-3347)
+* Ribbon cable (2 feet: https://sparkfun.com/products/10647)
+* #2 wood screws (minimum 12: https://grainger.com, part #1LB35)
+* #2 nylon washers (minimum 12: https://mouser.com, part #534-3347)
 * Red and Black connector wire (24ga or equivalent)
-* Prototype board (www.veroboard.com)
+* Prototype board (https://veroboard.com)
 
 Tools:
 
@@ -67,47 +67,47 @@ Here are some details on the project’s components.
 
 ### Arduino Board
 
-The Arduino is an open-source programmable microcontroller. As its open-source, there are a lot of different versions of the board available. The Arduino team has designed some boards and different parts of the community have implemented their own designs. If you look on Maker Shed (www.makershed.com/collections/arduino-boards) you'll find a bevy of devices available of all sizes and capabilities.
+The Arduino is an open-source programmable microcontroller. As its open-source, there are a lot of different versions of the board available. The Arduino team has designed some boards and different parts of the community have implemented their own designs. If you look on Maker Shed (https://makershed.com/collections/arduino-boards) you'll find a bevy of devices available of all sizes and capabilities.
 
 You can use whatever Arduino compatible board you want, but since the Pinewood Derby car has specific requirements (confined by specific minimum and maximum length and width requirements as well as a weight limit), your choices will be limited based on what will actually fit on (or in) the car.
 
-To prove that we could create the thing we wanted, we initially prototyped the solution using a breadboard and the Arduino Micro (www.makershed.com/products/arduino-micro). This allowed me to teach my son breadboarding and gave me a chance to get him involved in wiring the solution before we started soldering things together.
+To prove that we could create the thing we wanted, we initially prototyped the solution using a breadboard and the Arduino Micro (https://makershed.com/products/arduino-micro). This allowed me to teach my son breadboarding and gave me a chance to get him involved in wiring the solution before we started soldering things together.
 
-The Arduino Micro turned out to be too big for the project when you take into consideration all of the other components we needed to mount on the car as well. So I looked around for a smaller board we could use. I selected the Arduino Teensy (www.pjrc.com/teensy) because it was small enough and had all of the connections we needed. For this project, I used a Teensy 3.0; I purchased the board about a year ago. Since then, a newer version of the board was released and I'm sure there are other, suitably sized alternatives you can select for your version of this project. The Lithium Ion battery I used output 3.7 Volts, so I had to make sure the board I selected could operate on less than 5V.
+The Arduino Micro turned out to be too big for the project when you take into consideration all of the other components we needed to mount on the car as well. So I looked around for a smaller board we could use. I selected the Arduino Teensy (https://pjrc.com/teensy) because it was small enough and had all of the connections we needed. For this project, I used a Teensy 3.0; I purchased the board about a year ago. Since then, a newer version of the board was released and I'm sure there are other, suitably sized alternatives you can select for your version of this project. The Lithium Ion battery I used output 3.7 Volts, so I had to make sure the board I selected could operate on less than 5V.
 
 For this project as configured, you'll need a board with minimum of 10 digital outputs and three analog inputs on whatever board you select.
 
 ### Power
 
-When we first started working on this project, I thought we'd power the car with one or more traditional alkaline batteries. We wired a battery pack into our solution and it worked great. As we started to figure out how everything would fit on/in the car and when we thought about the car's weight limitation, it quickly became clear that this wasn't an optimal solution. My son's a smartphone fanatic (even though he's too young to actually have a smartphone), so I started thinking about using a smartphone battery for this thing. A quick search pointed me to Adafruit's 3.7v 1200mAh Lithium Ion Polymer Battery (www.adafruit.com/products/258). It has enough juice to power the Arduino and LEDs plus run the car for several hours.
+When we first started working on this project, I thought we'd power the car with one or more traditional alkaline batteries. We wired a battery pack into our solution and it worked great. As we started to figure out how everything would fit on/in the car and when we thought about the car's weight limitation, it quickly became clear that this wasn't an optimal solution. My son's a smartphone fanatic (even though he's too young to actually have a smartphone), so I started thinking about using a smartphone battery for this thing. A quick search pointed me to Adafruit's 3.7v 1200mAh Lithium Ion Polymer Battery (adafruit.com/products/258). It has enough juice to power the Arduino and LEDs plus run the car for several hours.
 
 There are smaller (and bigger) batteries available, but for Pinewood Derby cars, it's important to keep in mind that for the best performing car you want the car's weight to be as close to the weight limit (5 ounces) as possible. With this battery and the other parts I selected, the car's total weight was 4.8 ounces, so we needed to add very little weight to the car to bring its weight up to the limit. If you select a smaller battery, keep in mind that you'll need to add weight if you want the car to perform as well.
 
-My original plan was to disconnect the battery to charge it using an external charging module. My son and I started thinking of how cool it would be to have the car itself be rechargeable so we decided on the Adafruit USB LiIon/LiPoly charging module (www.adafruit.com/products/259). With the battery embedded in the bottom of the car and the charging module mounted on the back, you can charge the car using a standard cell phone charger. The charging module uses a USB Mini-B connector (rather than the modern Micro USB connector), so I had to dig out an older BlackBerry charger to use to charge the car.
+My original plan was to disconnect the battery to charge it using an external charging module. My son and I started thinking of how cool it would be to have the car itself be rechargeable so we decided on the Adafruit USB LiIon/LiPoly charging module (adafruit.com/products/259). With the battery embedded in the bottom of the car and the charging module mounted on the back, you can charge the car using a standard cell phone charger. The charging module uses a USB Mini-B connector (rather than the modern Micro USB connector), so I had to dig out an older BlackBerry charger to use to charge the car.
 
-Adafruit now has an even smaller charging module available (www.adafruit.com/products/1904) that uses a Micro USB connector, so this may be a better choice for your project. It looks to be the same size as the power switch (described in the next section), so it would be really easy to stack them together and take up very little space on the back of the car.
+Adafruit now has an even smaller charging module available (adafruit.com/products/1904) that uses a Micro USB connector, so this may be a better choice for your project. It looks to be the same size as the power switch (described in the next section), so it would be really easy to stack them together and take up very little space on the back of the car.
 
-If you don't want to go the rechargeable route for this project, you could easily use the Maker Shed 9V Battery Case for Arduino (www.makershed.com/products/9v-battery-case-for-arduino). It should fit within the base of the car (although you'll have to make a taller car) and has a built-in power switch.
+If you don't want to go the rechargeable route for this project, you could easily use the Maker Shed 9V Battery Case for Arduino (https://makershed.com/products/9v-battery-case-for-arduino). It should fit within the base of the car (although you'll have to make a taller car) and has a built-in power switch.
 
 ### Power Switch
 
-With power sorted out, it's time to think about how to turn the car on and off. In my original alkaline battery design, I expected that I'd use something like the Adafruit Breadboard-friendly SPDT Slide Switch (www.adafruit.com/product/805). Instead I selected the Push-button Power Switch Breakout (www.adafruit.com/products/1400). It has mounting holes, so I knew I could easily mount it on the car, and it's got an LED indicator underneath so it's easy to tell whether the car is powered or not (just in case something else isn't working) and the red glow just looks cool. The switch is a toggle switch, push it once to turn the device on and push it again to turn it off.
+With power sorted out, it's time to think about how to turn the car on and off. In my original alkaline battery design, I expected that I'd use something like the Adafruit Breadboard-friendly SPDT Slide Switch (adafruit.com/product/805). Instead I selected the Push-button Power Switch Breakout (adafruit.com/products/1400). It has mounting holes, so I knew I could easily mount it on the car, and it's got an LED indicator underneath so it's easy to tell whether the car is powered or not (just in case something else isn't working) and the red glow just looks cool. The switch is a toggle switch, push it once to turn the device on and push it again to turn it off.
 
-You can use something like the Maker Shed Tactile On/Off Switch with Leads (www.makershed.com/products/tactile-on-off-switch) but it doesn't have an indicator light and you would have to have to figure out a way to mount the device on/in the car.
+You can use something like the Maker Shed Tactile On/Off Switch with Leads (https://makershed.com/products/tactile-on-off-switch) but it doesn't have an indicator light and you would have to have to figure out a way to mount the device on/in the car.
 
 ### Accelerometer
 
-To allow the Arduino to measure the car's orientation, I selected the Adafruit ADXL335 5V ready triple-axis accelerometer (www.adafruit.com/products/163). Even though it's rated at 5V, it will operate at the voltages provided by the battery I selected. It has a small form factor and easily mounts on the front of the car.
+To allow the Arduino to measure the car's orientation, I selected the Adafruit ADXL335 5V ready triple-axis accelerometer (adafruit.com/products/163). Even though it's rated at 5V, it will operate at the voltages provided by the battery I selected. It has a small form factor and easily mounts on the front of the car.
 
 ### Lighting
 
-We had a lot of options for implementing the lighting for the car. In the prototype we made, we simply wired in 5 white LEDs, but we were looking for something more. I was looking for something a little more professional looking than some hand-wired LEDs, so I tried the Adafruit 8 LED NeoPixel Stick (www.adafruit.com/products/1426). If you're looking for something simple that will mount cleanly on the car, this is a good option as everything is already connected together and only uses only a few wires. It's also multi-colored, so that's pretty cool. It wasn't bright enough for our purposes and I had some issues getting the sample code to work correctly, so I discarded it as an option.
+We had a lot of options for implementing the lighting for the car. In the prototype we made, we simply wired in 5 white LEDs, but we were looking for something more. I was looking for something a little more professional looking than some hand-wired LEDs, so I tried the Adafruit 8 LED NeoPixel Stick (adafruit.com/products/1426). If you're looking for something simple that will mount cleanly on the car, this is a good option as everything is already connected together and only uses only a few wires. It's also multi-colored, so that's pretty cool. It wasn't bright enough for our purposes and I had some issues getting the sample code to work correctly, so I discarded it as an option.
 
-Instead we decided to just wire up 10 LED bulbs and I'll show you how we did that later. To do this, I purchased three sets of 3.7V LEDs, blue, yellow and orange; yellow and blue to match the Cub Scouts colors and orange  simply because my son and I both like orange. I selected clear LEDs so that the LEDs all looked the same until they illuminate. You'll also need the appropriate resistors to use with the LEDs you select. For this project, I purchased LED/Resistor bundles from Amazon.com (blue: amzn.com/B004UZCADG, yellow: amzn.com/B004UZB9WO & orange: amzn.com/B004UZ3FNU).
+Instead we decided to just wire up 10 LED bulbs and I'll show you how we did that later. To do this, I purchased three sets of 3.7V LEDs, blue, yellow and orange; yellow and blue to match the Cub Scouts colors and orange  simply because my son and I both like orange. I selected clear LEDs so that the LEDs all looked the same until they illuminate. You'll also need the appropriate resistors to use with the LEDs you select. For this project, I purchased LED/Resistor bundles from Amazon.com (blue: https://amzn.com/B004UZCADG, yellow: https://amzn.com/B004UZB9WO & orange: https://amzn.com/B004UZ3FNU).
 
 ### Wiring
 
-To connect the LEDs to the Arduino board, I purchased some ribbon cable; since I was connecting 10 lights, this ribbon cable was perfect https://www.sparkfun.com/products/10647.
+To connect the LEDs to the Arduino board, I purchased some ribbon cable; since I was connecting 10 lights, this ribbon cable was perfect https://sparkfun.com/products/10647.
 
 The battery connected directly to the charging module, but I also needed to connect the charging module to the switch and from there to the Arduino board so I needed black and red connecting wire.
 
@@ -211,7 +211,7 @@ Step 3: The pin layout for the Teensy 3.0 microcontroller is shown in Figure 9 (
 {% image "src/images/2016/arduino-pinewood-derby-09.png", "Teensy 3.0 Pin Configuration (Used with Permission)", "image-full" %} 
 Figure 9 – Teensy 3.0 Pin Configuration (Used with Permission)
 
-At any point in the process from here, you can secure the battery in the battery cavity on the bottom of the car. You could use a non-permanent approach like duct tape or suitable alternative to hold it in place, but as there might be collisions and the battery could pop out, I decided to take a more permanent approach. For this project, we used Epoxy to cement the battery into the cavity. Make sure the battery is flush with the bottom of the car and that there's a little space between the battery and the car body. For epoxy, I used https://www.homedepot.com/p/Loctite-8-fl-oz-Professional-Job-Size-Epoxy-1365736/100371835 but you could also use something like https://www.homedepot.com/p/Loctite-0-85-fl-oz-Quick-Set-Epoxy-1395391/100371815. Mix an enough epoxy to fill the gaps between the battery and the car body and spread it over the cavity, covering enough of the battery to hold it in place. Only use enough epoxy to cover the gaps and make a smooth cover flush with the bottom of the car.
+At any point in the process from here, you can secure the battery in the battery cavity on the bottom of the car. You could use a non-permanent approach like duct tape or suitable alternative to hold it in place, but as there might be collisions and the battery could pop out, I decided to take a more permanent approach. For this project, we used Epoxy to cement the battery into the cavity. Make sure the battery is flush with the bottom of the car and that there's a little space between the battery and the car body. For epoxy, I used https://homedepot.com/p/Loctite-8-fl-oz-Professional-Job-Size-Epoxy-1365736/100371835 but you could also use something like https://homedepot.com/p/Loctite-0-85-fl-oz-Quick-Set-Epoxy-1395391/100371815. Mix an enough epoxy to fill the gaps between the battery and the car body and spread it over the cavity, covering enough of the battery to hold it in place. Only use enough epoxy to cover the gaps and make a smooth cover flush with the bottom of the car.
 
 **Note:** Keep in mind, that once the battery is epoxied in there, it's not coming out without destroying the car, so plan carefully.
 
@@ -266,9 +266,9 @@ Setting Up the Development Environment
 
 In order to program an Arduino board, you need to use the free Arduino IDE. The Teensy board I used for this project requires some extra software, Teensyduino and the Teensy Loader, in order to be able to download applications onto the board. Unfortunately, as I write this, the latest version of the Teensy Loader is not compatible with the latest version of the Arduino IDE; it can only work with Arduino IDE version 1.06. So, point your browser of choice to https://arduino.cc/en/Main/OldSoftwareReleases then download and install Arduino IDE version 1.06.
 
-You'll also need to install the https://www.pjrc.com/teensy/teensyduino.html in order to enable the IDE to see the Teensy board.
+You'll also need to install the https://pjrc.com/teensy/teensyduino.html in order to enable the IDE to see the Teensy board.
 
-Next, download and install the latest version of the Teensy Loader from https://www.pjrc.com/teensy/loader.html.
+Next, download and install the latest version of the Teensy Loader from https://pjrc.com/teensy/loader.html.
 
 With all of the software installed, open the Arduino IDE. You'll first need to configure the IDE so it knows what board you are working with. Open the tools menu and select the appropriate Teensy board as shown in Figure 14.
 

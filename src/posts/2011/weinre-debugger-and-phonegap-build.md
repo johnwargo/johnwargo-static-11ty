@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-I'm working on the example application for the last chapter of [PhoneGap Essentials](https://www.amazon.com/gp/product/0321814290){target="_blank"}. The chapter is about the Storage API and I've build a little mileage tracker (for expense management) application to highlight how to use the different capabilities of the API.
+I'm working on the example application for the last chapter of [PhoneGap Essentials](https://amazon.com/gp/product/0321814290){target="_blank"}. The chapter is about the Storage API and I've build a little mileage tracker (for expense management) application to highlight how to use the different capabilities of the API.
 
 I got most of the application working but ran into a problem. I was able to create a local database and write to it, but unfortunately the call to the SQL INSERT method returns an error, even though the record is being successfully written to the database. Weird. I can't find anything online that explains why this is happening. Ugh!
 

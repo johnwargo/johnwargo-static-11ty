@@ -24,4 +24,4 @@ Expecting that I'm going to be making a lot of Flutter apps in the future (I've 
 * lib/utils
 * lib/widgets
 
-You can find the project's GitHub repository at [https://github.com/johnwargo/flutter-folders](https://github.com/johnwargo/flutter-folders){target="_blank"}, and the CLI is available from NPM at [https://www.npmjs.com/package/flutter-folders](https://www.npmjs.com/package/flutter-folders){target="_blank"}. I hope this helps make your Flutter development a little easier.
+You can find the project's GitHub repository at [https://github.com/johnwargo/flutter-folders](https://github.com/johnwargo/flutter-folders){target="_blank"}, and the CLI is available from NPM at [https://npmjs.com/package/flutter-folders](https://npmjs.com/package/flutter-folders){target="_blank"}. I hope this helps make your Flutter development a little easier.

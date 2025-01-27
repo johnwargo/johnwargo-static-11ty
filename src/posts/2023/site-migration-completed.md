@@ -10,9 +10,9 @@ categories:
   - Static Site Generators
 ---
 
-For fourteen years now, this site ran on the [Joomla!](https://www.joomla.org/){target="_blank"} Content Management System hosted at [FatCow](https://fatcow.com/){target="_blank"}. I migrated the site several times between multiple versions of Joomla! 1x through Joomla! 3x and it was time to migrate to Joomla 4. 
+For fourteen years now, this site ran on the [Joomla!](https://joomla.org/){target="_blank"} Content Management System hosted at [FatCow](https://fatcow.com/){target="_blank"}. I migrated the site several times between multiple versions of Joomla! 1x through Joomla! 3x and it was time to migrate to Joomla 4. 
 
-Since I started working on this site, I built multiple sites using a variety of other content management systems (CMS) such as WordPress, Drupal, and Concrete 5. I also dabbled with several static site generators, most prominently [Jekyll](https://jekyllrb.com/){target="_blank"} and recently discovered [Eleventy](https://www.11ty.dev/){target="_blank"}.
+Since I started working on this site, I built multiple sites using a variety of other content management systems (CMS) such as WordPress, Drupal, and Concrete 5. I also dabbled with several static site generators, most prominently [Jekyll](https://jekyllrb.com/){target="_blank"} and recently discovered [Eleventy](https://11ty.dev/){target="_blank"}.
 
 At this point, I had to make a decision to stick with Joomla! or migrate the site to Eleventy. 
 

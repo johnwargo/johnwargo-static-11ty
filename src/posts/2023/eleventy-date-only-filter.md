@@ -12,7 +12,7 @@ categories:
   - Static Site Generators
 ---
 
-I was looking at the site's [stats page](https://johnwargo.com/statistics/){target="_blank"} yesterday and noticed that the output for First Post and Last Post date included an empty time `00:00:00 GMT+0000 (Coordinated Universal Time)`.  This is unnecessary since there was no time component in those values, only a date. Here's what it looked like:
+I was looking at the site's [stats page](/about/statistics/){target="_blank"} yesterday and noticed that the output for First Post and Last Post date included an empty time `00:00:00 GMT+0000 (Coordinated Universal Time)`.  This is unnecessary since there was no time component in those values, only a date. Here's what it looked like:
 
 {% image "src/images/2023/stats-page-post-dates-1.png", "This site's initial Stats Page Post Statistics", "image-full" %}
 
@@ -21,7 +21,7 @@ So I set out to fix the output so it looked exactly the way I wanted, which is:
 1. No time displayed
 2. The date formatted as text strings rather than numbers only
 
-The site captures the first and last post dates through my [Eleventy Site Statistics](https://johnwargo.com/posts/2023/eleventy-site-statistics/){target="_blank"} plugin and I started there thinking I would simply force the date format I wanted there. I checked the plugin's source code and saw that the plugin captures those dates as JavaScript Date objects. That was the right thing to do, and I was glad I did the right thing when I created that plugin. Saving it as a Date object allows the user (in this case me, but it could very well be you) to do whatever they want with the date format.
+The site captures the first and last post dates through my [Eleventy Site Statistics](/posts/2023/eleventy-site-statistics/){target="_blank"} plugin and I started there thinking I would simply force the date format I wanted there. I checked the plugin's source code and saw that the plugin captures those dates as JavaScript Date objects. That was the right thing to do, and I was glad I did the right thing when I created that plugin. Saving it as a Date object allows the user (in this case me, but it could very well be you) to do whatever they want with the date format.
 
 If I switched the plugin to store the date as a formatted string, formatted the way I wanted it, then I'd implement a breaking change in the plugin and force a particular date format on all other users of the plugin. I don't want to do either of those things.
 

@@ -12,7 +12,7 @@ categories:
 
 It's been a really long time since I've published a Stupid Developer Tricks post. Aaaah, it feels good to have one again.
  
-I wife and I flew home from Colorado this week; we vacationed in Telluride and attended the [Telluride Blues and Brews Festival](https://www.tellurideblues.com/){target="_blank"}. I tested positive for COVID while we were there and delayed our trip home. On the flight home, I decided to watch movies instead of reading books and when I launched the app to access streaming media I received the following message: "Free entertainment is not supported on this browser" as shown in the image below.
+I wife and I flew home from Colorado this week; we vacationed in Telluride and attended the [Telluride Blues and Brews Festival](https://tellurideblues.com/){target="_blank"}. I tested positive for COVID while we were there and delayed our trip home. On the flight home, I decided to watch movies instead of reading books and when I launched the app to access streaming media I received the following message: "Free entertainment is not supported on this browser" as shown in the image below.
 
 {% image "src/images/2023/unsupported-browser.png", "Unsupported browser message", "image-full" %}
 

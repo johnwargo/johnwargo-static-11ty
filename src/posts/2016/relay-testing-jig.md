@@ -9,7 +9,7 @@ tags: post
 
 I've been doing a few projects lately that work with relays. One was a Particle Photon project that I hope to write about soon, and the other is a Raspberry Pi project that I've not completed yet. As I worked on each of these projects, I found myself wiring up one or more LEDs and connecting it to the microcontroller so I could validate whether the code is working correctly. Yes, I know I could tell the relay is firing by the click it makes when I fire it, but I wanted something visual.
 
-Anyway, while browsing around on the Adafruit web site, I discovered their Perma-Proto boards ([https://www.adafruit.com/products/591](https://www.adafruit.com/products/591){target="_blank"}). These things are breadboards (of a sort) that you solder components into. They're a nice, easy way to quickly build projects in a more permanent way.
+Anyway, while browsing around on the Adafruit web site, I discovered their Perma-Proto boards ([https://adafruit.com/products/591](https://adafruit.com/products/591){target="_blank"}). These things are breadboards (of a sort) that you solder components into. They're a nice, easy way to quickly build projects in a more permanent way.
 
 {% image "src/images/2016/adafruit-perma-proto-board.png", "Adafruit Proto-board", "image-full" %}
 Figure 1 - Adafruit Proto-board - Image used with permission

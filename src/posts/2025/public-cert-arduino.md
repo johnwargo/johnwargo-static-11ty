@@ -24,13 +24,13 @@ I'm working on a project where I'm using an [M5Stack](https://m5stack.com/){targ
 I started investigating different options for my project:
 
 + Generating a self-signed cert won't work because it's Google's public cert I need for secure communications to the cloud function.
-+ I could build a local proxy device, running on a [Raspberry Pi Pico W](https://www.raspberrypi.com/products/raspberry-pi-pico-2/){target="_blank"}  for example. That allows me to connect via HTTP to a REST API exposed by the device while the code behind it connects via secure HTTPS connection to the Functions backend. This would definitely work, but leaving a Raspberry Pi running just for this use case didn't make sense.
++ I could build a local proxy device, running on a [Raspberry Pi Pico W](https://raspberrypi.com/products/raspberry-pi-pico-2/){target="_blank"}  for example. That allows me to connect via HTTP to a REST API exposed by the device while the code behind it connects via secure HTTPS connection to the Functions backend. This would definitely work, but leaving a Raspberry Pi running just for this use case didn't make sense.
 
 I did some research and learned that ESP32 devices had access to sending HTTPS requests. The drawback of the process is that you needed the server's public cert embedded in your code to make this work. Looking at examples, this looked like it was a reasonable approach, so I started digging into the details.
 
 ## Modifying the Public Cert for Arduino
 
-To start, you must download a server's public key into a .pem or .crt file. I'm not going to show you how to do that here, just follow the instructions found online. Here's a good example: [How to Download the SSL Certificate From a Website in Windows](https://www.instructables.com/How-to-Download-the-SSL-Certificate-From-a-Website/){target="_blank"}.
+To start, you must download a server's public key into a .pem or .crt file. I'm not going to show you how to do that here, just follow the instructions found online. Here's a good example: [How to Download the SSL Certificate From a Website in Windows](https://instructables.com/How-to-Download-the-SSL-Certificate-From-a-Website/){target="_blank"}.
 
 The download certificate is a text file with a specific format:
 

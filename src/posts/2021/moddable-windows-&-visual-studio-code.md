@@ -7,7 +7,7 @@ categories: [Internet of Things (IoT)]
 tags: post
 ---
 
-I've been working a bit lately with the [Moddable](https://www.moddable.com/){target="_blank"} platform; I set up their SDK on my macOS and Windows systems, but for several reasons I prefer to code on Windows unless I have to use macOS. The [Moddable SDK](https://github.com/Moddable-OpenSource/moddable){target="_blank"} is very command-line heavy (for reasons I agree with) and as I started coding Moddable JavaScript projects in Visual Studio Code, I realized that there are some tweaks I can document here that may help other Moddable developers using Visual Studio Code on Windows.
+I've been working a bit lately with the [Moddable](https://moddable.com/){target="_blank"} platform; I set up their SDK on my macOS and Windows systems, but for several reasons I prefer to code on Windows unless I have to use macOS. The [Moddable SDK](https://github.com/Moddable-OpenSource/moddable){target="_blank"} is very command-line heavy (for reasons I agree with) and as I started coding Moddable JavaScript projects in Visual Studio Code, I realized that there are some tweaks I can document here that may help other Moddable developers using Visual Studio Code on Windows.
 
 ### Environment Setup
 

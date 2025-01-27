@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-I'm a HUGE music fan, in my car, in the house, or when I'm working, there's always music playing. Having formerly lived near Cleveland, OH, I'm also a big concertgoer and see as many shows as I can. A while back, I signed up for Bandsintown ([www.bandsintown.com](https://www.bandsintown.com){target="_blank"}) as a way to know when the bands I'm interested in are going to be performing nearby. I don't use the app much, but I have used it to highlight the bands I like. Recently, I've started getting emails like the following:
+I'm a HUGE music fan, in my car, in the house, or when I'm working, there's always music playing. Having formerly lived near Cleveland, OH, I'm also a big concertgoer and see as many shows as I can. A while back, I signed up for [Bandsintown](https://bandsintown.com){target="_blank"} as a way to know when the bands I'm interested in are going to be performing nearby. I don't use the app much, but I have used it to highlight the bands I like. Recently, I've started getting emails like the following:
 
 {% image "src/images/2017/bandsintown-1.png", "Useless Bandsintown Email", "image-full" %}
 Figure 1: Useless Bandsintown Email

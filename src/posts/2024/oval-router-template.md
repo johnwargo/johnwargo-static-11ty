@@ -20,7 +20,7 @@ My sister in law wanted a house for an [Eastern Screech Owl](https://nestwatch.o
 
 One of the requirements for the house is an oval shaped hole on the front of the house for the bird to use to enter and exit the house. With that requirement in mind, I started thinking about how I'd cut that oval. 
 
-I use the Router in my shop a lot and because of that I had a set of [Rockler Circle/Grommet Templates](https://www.rockler.com/circle-grommet-templates){target="_blank"} that I can use to cut a circular opening on the house. The plans specifically call out that you can use a circle instead of an oval, but I wanted to do this right and figure out how to successfully (and that means do it so it doesn't look like crap) cut an oval hole on the birdhouse.
+I use the Router in my shop a lot and because of that I had a set of [Rockler Circle/Grommet Templates](https://rockler.com/circle-grommet-templates){target="_blank"} that I can use to cut a circular opening on the house. The plans specifically call out that you can use a circle instead of an oval, but I wanted to do this right and figure out how to successfully (and that means do it so it doesn't look like crap) cut an oval hole on the birdhouse.
 
 I have a 3D printer here, so I quickly opened TinkerCad and cranked out an oval piece to the dimensions I needed. With that in hand, I knew I could trace the hole on the front of the birdhouse using the oval piece I just made, then cut it out using a jigsaw. That would work, but it's hard to stay in the lines with a jigsaw. Since I wanted to impress my sister in law with my woodworking skills, I abandoned that approach.
 
@@ -28,7 +28,7 @@ That's when I realized that I could make a Router template to cut the oval just 
 
 {% image "src/images/2024/owl-house-template-tinkercad.png", "Owl House Oval Template in TinkerCAD", "image-full" %}
 
-Now, the original oval piece was 3x4 inches, but when working with a router, I had to take into account the thickness of the router bushing (shown below) used to hold the router and bit within the template. So I measured the distance from the outside of the bushing (shown below) to the outside edge of the straight router bit (not shown, sorry) I used with the template. I used the [Short Shank Guide Bushing and Nut, 5/8"](https://www.rockler.com/short-shank-guide-bushing-and-nut-5-8){target="_blank"} for this project (because that's what I had in my shop).
+Now, the original oval piece was 3x4 inches, but when working with a router, I had to take into account the thickness of the router bushing (shown below) used to hold the router and bit within the template. So I measured the distance from the outside of the bushing (shown below) to the outside edge of the straight router bit (not shown, sorry) I used with the template. I used the [Short Shank Guide Bushing and Nut, 5/8"](https://rockler.com/short-shank-guide-bushing-and-nut-5-8){target="_blank"} for this project (because that's what I had in my shop).
 
 That distance is 1/8th of an inch, so I added that to all sides of my oval in the template, making the templated oval 3.25" by 4.25". 
 
@@ -50,4 +50,4 @@ When I routed the hole, I used clamps to secure the cutting area off of the edge
 
 The only problem I encountered was that I didn't make the template large enough. I should have given myself three inches in all dimensions as a solid base for the router.
 
-I published the template on [Thingverse](https://www.thingiverse.com/thing:6696225){target="_blank"}; please let me know if this helps you. 
+I published the template on [Thingverse](https://thingiverse.com/thing:6696225){target="_blank"}; please let me know if this helps you. 

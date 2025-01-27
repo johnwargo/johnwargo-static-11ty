@@ -7,9 +7,9 @@ categories: [Microsoft Windows]
 tags: post
 ---
 
-In all of the different things I do, I often spend a lot of time writing about computer-related topics. With my book, magazine articles, conference presentations and in my regular day to day job activities, I find myself needing screen shots of Windows computer screens. While it's really easy to grab screen shots in Widows (I'm a huge fan of Snagit From [TechSmith Corporation](https://www.techsmith.com/)) it's not always easy to set the size of the window you're taking a snapshot of. When working with a full screen window, it's not that big of a deal, but I've got a huge monitor (at least it was huge 5 years ago when I bought it) so full size screen shots won't fit in most mediums I publish in.
+In all of the different things I do, I often spend a lot of time writing about computer-related topics. With my book, magazine articles, conference presentations and in my regular day to day job activities, I find myself needing screen shots of Windows computer screens. While it's really easy to grab screen shots in Widows (I'm a huge fan of Snagit From [TechSmith Corporation](https://techsmith.com/)) it's not always easy to set the size of the window you're taking a snapshot of. When working with a full screen window, it's not that big of a deal, but I've got a huge monitor (at least it was huge 5 years ago when I bought it) so full size screen shots won't fit in most mediums I publish in.
 
-A long time ago I went looking for a utility I could use to set the size of windows in Windows in order to be able to take screen shots at a more medium friendly size. I came across a free utility called Sizer from [Brian Apps](https://www.techsmith.com/) that does the job for me (almost - I'll explain later).
+A long time ago I went looking for a utility I could use to set the size of windows in Windows in order to be able to take screen shots at a more medium friendly size. I came across a free utility called Sizer from [Brian Apps](https://techsmith.com/) that does the job for me (almost - I'll explain later).
 
 When you install Sizer, it installs an application that, when launched, places an icon in the Windows system tray (shown in Figure 1 with an orange box around it) and also enables a context menu that you (shown in Figure 3) can use to resize any window.
 

@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-I love the [Ionic Framework](https://ionicframework.com/){target="_blank"}, I know I've said that here before. I learned how to write Ionic Apps from Josh Morony's [Building Mobile Apps with Ionic & Angular](https://www.joshmorony.com/building-mobile-apps-with-ionic-2){target="_blank"} book. In the book, Josh provides an example of implementing an Ionic Slides page, an interactive UI where app users swipe between a set of images (an approach you see in a lot of apps today).
+I love the [Ionic Framework](https://ionicframework.com/){target="_blank"}, I know I've said that here before. I learned how to write Ionic Apps from Josh Morony's [Building Mobile Apps with Ionic & Angular](https://joshmorony.com/building-mobile-apps-with-ionic-2){target="_blank"} book. In the book, Josh provides an example of implementing an Ionic Slides page, an interactive UI where app users swipe between a set of images (an approach you see in a lot of apps today).
 
 The book's example made sense to me, but when I implemented it in my [Time Slicer](https://timeslicer.app){target="_blank"} app I wanted to have some text at the top of each slide pages and the book didn't show me how to do that - Josh added the text to his slideshow images, but I didn't want to do that.
 

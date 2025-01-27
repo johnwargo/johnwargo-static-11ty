@@ -15,7 +15,7 @@ timestamp: 2025-01-24T11:59:08.380Z
 
 Before I created the web application described in [Automated Public Cert to Arduino Header Conversion](/posts/2025/public-cert-arduino/){target="_blank"}, I started with a simple [node.js](https://nodejs.org/en){target="_blank"} command-line utility. I like command-line tools and starting with the Node version made sense to me. I switched to the web app version once I realized that most people who needed to do the certificate conversion to Arduino wouldn't have node installed on their development systems. 
 
-So I stepped away from the incomplete command-line utility then built, deployed, and documented the web app version. Last night, I finished the command-line version and published it. Its called, hopefully not surprisingly, Cert2Arduino and you can find it on npm at [Certificate to Arduino Header Converter](https://www.npmjs.com/package/cert2arduino){target="_blank"}.
+So I stepped away from the incomplete command-line utility then built, deployed, and documented the web app version. Last night, I finished the command-line version and published it. Its called, hopefully not surprisingly, Cert2Arduino and you can find it on npm at [Certificate to Arduino Header Converter](https://npmjs.com/package/cert2arduino){target="_blank"}.
 
 When you execute it, it prompts for the same information the web application does:
 

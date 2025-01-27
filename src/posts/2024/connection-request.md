@@ -17,7 +17,7 @@ I don't understand some of the connection requests I get on LinkedIn. I received
 
 {% image "src/images/2024/linkedin-connection-liu.png", "Connection message", "image-full" %}
 
-Now, my [LinkedIn Profile](https://www.linkedin.com/in/jmwargo/){target="_blank"} clearly states:
+Now, my [LinkedIn Profile](https://linkedin.com/in/jmwargo/){target="_blank"} clearly states:
 
 > I restrict my LinkedIn connections to people I know, and have worked with professionally; if I do not know you, I will not accept your connection invitation.
 

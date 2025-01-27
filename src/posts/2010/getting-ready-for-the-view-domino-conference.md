@@ -7,7 +7,7 @@ categories: [IBM Lotus Domino]
 tags: post
 ---
 
-I've gotten involved with the [View Domino Admin/Developer Conference](https://www.viewadmin2010.com/eview/admin10bos.nsf/homepage?readForm){target="_blank"} again this year. The 2010 conference will be held in Boston (as usual) and runs from May 12th through the 14th.
+I've gotten involved with the [View Domino Admin/Developer Conference](https://viewadmin2010.com/eview/admin10bos.nsf/homepage?readForm){target="_blank"} again this year. The 2010 conference will be held in Boston (as usual) and runs from May 12th through the 14th.
 
 {% image "src/images/2010/view-domino2010.gif", "View Domino Logo", "image-full" %}
 

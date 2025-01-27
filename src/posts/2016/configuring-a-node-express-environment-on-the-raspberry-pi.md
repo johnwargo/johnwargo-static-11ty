@@ -9,7 +9,7 @@ tags: post
 
 As I posted last week, I'm working on a project on the Raspberry Pi. As I'm not a Python developer, I thought I'd write my server code using Node. My previous post was about how I configured my WebStorm instance so I could code my JavaScript on my PC and publish it on the Raspberry Pi. Once I had that working, I started testing my app on the Pi, and that's when I started running into problems. It took me a little while to figure this one out, so I thought I'd write about it here in case others have the same problem.
 
-As any hardware developer does, before I started, I made sure my Pi had the latest version of Raspian, the default OS for the Pi. In this case, I grabbed the latest version of Raspian from [https://www.raspberrypi.org/downloads/raspbian/](https://www.raspberrypi.org/downloads/raspbian/){target="_blank"}. In this case, it's Raspian Jessie (February 2016) as shown in Figure 1.
+As any hardware developer does, before I started, I made sure my Pi had the latest version of Raspian, the default OS for the Pi. In this case, I grabbed the latest version of Raspian from [https://raspberrypi.org/downloads/raspbian/](https://raspberrypi.org/downloads/raspbian/){target="_blank"}. In this case, it's Raspian Jessie (February 2016) as shown in Figure 1.
 
 {% image "src/images/2016/pi-node-express-1_640.png", "Raspian Download Page", "image-full" %}
 Figure 1 – Raspian Download Page
@@ -31,7 +31,7 @@ node -v
 
 It should return something like v0.12.0 or greater. OK, at this point, I know I'm running a newer version of Node than came with the latest version of Raspian.
 
-Now, I knew that interacting with the Pi's GPIO ports was a little different, so I knew I'd need a library to make this easier in Node. One of the articles I found mentioned a library called rpi-gpio ([https://www.npmjs.com/package/rpi-gpio](https://www.npmjs.com/package/rpi-gpio)), so I thought I'd give it a try.
+Now, I knew that interacting with the Pi's GPIO ports was a little different, so I knew I'd need a library to make this easier in Node. One of the articles I found mentioned a library called rpi-gpio ([https://npmjs.com/package/rpi-gpio](https://npmjs.com/package/rpi-gpio)), so I thought I'd give it a try.
 
 I opened a terminal window and tried to install `rpi-gpio` using the following command:
 

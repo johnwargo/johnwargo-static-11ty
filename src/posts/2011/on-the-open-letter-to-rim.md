@@ -8,7 +8,7 @@ tags: post
 ---
 
 
-I don't know if you heard about it or not, but a [RIM executive published an open letter to his bosses](https://www.bgr.com/2011/06/30/open-letter-to-blackberry-bosses-senior-rim-exec-tells-all-as-company-crumbles-around-him/){target="_blank"}: Mike L and Jim B of RIM. It's an interesting read and it had to be said. It's really sad, but RIM has been slow in its response to market changes and it's likely that they won't be able to recover.
+I don't know if you heard about it or not, but a [RIM executive published an open letter to his bosses](https://bgr.com/2011/06/30/open-letter-to-blackberry-bosses-senior-rim-exec-tells-all-as-company-crumbles-around-him/){target="_blank"}: Mike L and Jim B of RIM. It's an interesting read and it had to be said. It's really sad, but RIM has been slow in its response to market changes and it's likely that they won't be able to recover.
 
 {% image "src/images/2011/rim.jpg", "", "image-full" %}
 

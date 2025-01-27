@@ -11,7 +11,7 @@ There's something up with the site, it's not rendering correctly.The home page s
 
 I tried to install a FeedBurner module yesterday and now everything's hokey. I'll see what I can do to fix this.
 
-Update: I've been poking and prodding at this and I just can't figure it out. It's not only this site that's broken, but all of my Joomla sites being hosted on fatcow.com. I asked FatCow for help and what I got in response was this:
+Update: I've been poking and prodding at this and I just can't figure it out. It's not only this site that's broken, but all of my Joomla sites being hosted on Fatcow. I asked Fatcow for help and what I got in response was this:
 
 > Hello John,  
 >   

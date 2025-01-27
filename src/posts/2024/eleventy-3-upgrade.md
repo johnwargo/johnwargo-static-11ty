@@ -13,14 +13,14 @@ categories:
 timestamp: 2024-12-29T15:11:56.230Z
 ---
 
-I run quite a few sites on [Eleventy](https://www.11ty.dev/){target="_blank"}; you can see the complete list on this site's [Sites](https://johnwargo.com/sites/){target="_blank"} area. The Eleventy team released version 3.0 a while back and I finally got around to upgrading some of the sites. This post describes the process I used.
+I run quite a few sites on [Eleventy](https://11ty.dev/){target="_blank"}; you can see the complete list on this site's [Sites](/about/sites/){target="_blank"} area. The Eleventy team released version 3.0 a while back and I finally got around to upgrading some of the sites. This post describes the process I used.
 
 Eleventy provides some tooling to help with this process, specifically the Upgrade Helper, but I also found some other sites with articles explaining the upgrade process:
 
-- [Major Version Upgrade Helper](https://www.11ty.dev/docs/plugins/upgrade-help/){target="_blank"}
+- [Major Version Upgrade Helper](https://11ty.dev/docs/plugins/upgrade-help/){target="_blank"}
 - [eleventy-upgrade-help v3.0](https://github.com/11ty/eleventy-upgrade-help){target="_blank"}
 - [Upgrading to Eleventy v3](https://mxb.dev/blog/eleventy-v3-update/){target="_blank"}
-- [Upgraded to Eleventy 3.0 (Beta)](https://www.raymondcamden.com/2024/08/05/upgraded-to-eleventy-30-beta){target="_blank"}
+- [Upgraded to Eleventy 3.0 (Beta)](https://raymondcamden.com/2024/08/05/upgraded-to-eleventy-30-beta){target="_blank"}
 
 For this post, I upgraded my 2024 US Presidential Candidacy site: [Wargo 2024](https://wargo2024.com/){target="_blank"} which I'll pull down as soon as the domain expires and I don't expect to run again. I'll keep the source code available online, you can find it on GitHub at [wargo-2024-11ty](https://github.com/johnwargo/wargo-2024-11ty){target="_blank"}.
 
@@ -235,10 +235,10 @@ D:\dev\11ty\wargo-2024>npm run build
 [11ty/eleventy-upgrade-help] PASSED You aren’t using `--formats=` or  `--formats=''` but if you were you should know that these are now empty template format sets. In previous versions, they were aliased to "*". Read more: https://github.com/11ty/eleventy/issues/3255
 [11ty/eleventy-upgrade-help] PASSED No {pug,ejs,haml,mustache,handlebars} templates were found in this project. If you were, you would have needed to install plugins for these: https://github.com/11ty/eleventy-plugin-template-languages. Learn more: https://github.com/11ty/eleventy/issues/3124
 [11ty/eleventy-upgrade-help] NOTICE The `js-yaml` dependency was upgraded from v3 to v4 to improve error messaging when folks use tabs in their front matter. GitHub issue: https://github.com/11ty/eleventy/issues/2126 Most folks will be unaffected by this change but you can read the `js-yaml` migration guide: https://github.com/nodeca/js-yaml/blob/master/migrate_v3_to_v4.md
-[11ty/eleventy-upgrade-help] PASSED The Serverless plugin was removed from Eleventy core in 3.0. Any use will throw an error, so if you don’t see an error you’re not using it. Learn more: https://www.11ty.dev/docs/plugins/serverless/
-[11ty/eleventy-upgrade-help] PASSED The Edge plugin was removed from Eleventy core in 3.0. Any use will throw an error, so if you don’t see an error you’re not using it. Learn more: https://www.11ty.dev/docs/plugins/edge/
+[11ty/eleventy-upgrade-help] PASSED The Serverless plugin was removed from Eleventy core in 3.0. Any use will throw an error, so if you don’t see an error you’re not using it. Learn more: https://11ty.dev/docs/plugins/serverless/
+[11ty/eleventy-upgrade-help] PASSED The Edge plugin was removed from Eleventy core in 3.0. Any use will throw an error, so if you don’t see an error you’re not using it. Learn more: https://11ty.dev/docs/plugins/edge/
 [11ty/eleventy-upgrade-help] PASSED The `htmlOutputSuffix` feature was removed. It doesn’t look like you were using it! Learn more: https://github.com/11ty/eleventy/issues/3327
-[11ty/eleventy-upgrade-help] PASSED No aliases were added via `eleventyConfig.addExtension()`. If you had added an alias, it would need to be also added to your active template formats. Learn more about template formats: https://www.11ty.dev/docs/config/#template-formats or about this change: https://github.com/11ty/eleventy/issues/3302
+[11ty/eleventy-upgrade-help] PASSED No aliases were added via `eleventyConfig.addExtension()`. If you had added an alias, it would need to be also added to your active template formats. Learn more about template formats: https://11ty.dev/docs/config/#template-formats or about this change: https://github.com/11ty/eleventy/issues/3302
 (Use `node --trace-deprecation ...` to show where the warning was created)
 [11ty] Writing ./_site/algolia.json from ./src/algolia.liquid
 .
@@ -246,7 +246,7 @@ D:\dev\11ty\wargo-2024>npm run build
 .
 [11ty] Writing ./_site/posts/2023/debt-ceiling-ridiculousness/index.html from ./src/posts/2023/debt-ceiling-ridiculousness.md (liquid)
 [11ty/eleventy-upgrade-help] This plugin is intended for temporary use: once you’re satisfied please remove this plugin from your project.
-[11ty/eleventy-upgrade-help] NOTICE Your project has .html output files (×22) that don’t have a populated <meta name="generator" content> tag. It would be helpful to Eleventy if you added it (but isn’t required). Applicable input files: ./src/articles.liquid, ./src/index.md, ./src/search.liquid, ./src/store.liquid, ./src/categories/news.liquid, ./src/categories.liquid, ./src/policies.liquid, ./src/categories/announcements.liquid, ./src/categories/ridiculousness.liquid, ./src/about.md, ./src/404.md, ./src/policies/fiscal-responsibility.md, ./src/policies/womens-rights.md, ./src/posts/2020/announcing-my-presidential-campaign.md, ./src/policies/immigration.md, ./src/policies/legalizing-marijuana.md, ./src/policies/firearm-responsibility.md, ./src/posts/2024/suspending-campaign.md, ./src/posts/2023/connecting-with-voters-in-west-virginia.md, ./src/posts/2024/age-limits-all-around.md, ./src/posts/2024/the-stupidity-of-our-electorate.md, ./src/posts/2023/debt-ceiling-ridiculousness.md Read more: https://www.11ty.dev/docs/data-eleventy-supplied/#use-with-meta-namegenerator
+[11ty/eleventy-upgrade-help] NOTICE Your project has .html output files (×22) that don’t have a populated <meta name="generator" content> tag. It would be helpful to Eleventy if you added it (but isn’t required). Applicable input files: ./src/articles.liquid, ./src/index.md, ./src/search.liquid, ./src/store.liquid, ./src/categories/news.liquid, ./src/categories.liquid, ./src/policies.liquid, ./src/categories/announcements.liquid, ./src/categories/ridiculousness.liquid, ./src/about.md, ./src/404.md, ./src/policies/fiscal-responsibility.md, ./src/policies/womens-rights.md, ./src/posts/2020/announcing-my-presidential-campaign.md, ./src/policies/immigration.md, ./src/policies/legalizing-marijuana.md, ./src/policies/firearm-responsibility.md, ./src/posts/2024/suspending-campaign.md, ./src/posts/2023/connecting-with-voters-in-west-virginia.md, ./src/posts/2024/age-limits-all-around.md, ./src/posts/2024/the-stupidity-of-our-electorate.md, ./src/posts/2023/debt-ceiling-ridiculousness.md Read more: https://11ty.dev/docs/data-eleventy-supplied/#use-with-meta-namegenerator
 [11ty] Copied 110 Wrote 26 files in 0.69 seconds (v3.0.0)
 ```
 
@@ -265,7 +265,7 @@ If you're using a version of Node.js older than 22, the Upgrade Helper will like
 In a fit of self-promotion (that I don't disagree with), the Upgrade Helper recommends adding a `generator` meta tag to the site's pages:
 
 ```text
-[11ty/eleventy-upgrade-help] NOTICE Your project has .html output files (×22) that don’t have a populated <meta name="generator" content> tag. It would be helpful to Eleventy if you added it (but isn’t required). Read more: https://www.11ty.dev/docs/data-eleventy-supplied/#use-with-meta-namegenerator
+[11ty/eleventy-upgrade-help] NOTICE Your project has .html output files (×22) that don’t have a populated <meta name="generator" content> tag. It would be helpful to Eleventy if you added it (but isn’t required). Read more: https://11ty.dev/docs/data-eleventy-supplied/#use-with-meta-namegenerator
 ```
 
 **Note:** I removed the list of affected pages from the message to make reading it easier.
@@ -341,7 +341,7 @@ With that in place you're ready to deploy your upgraded site.
 
 ## Netlify Hosting Issue
 
-When I completed the upgrade, everything worked perfectly on my development system. When I deployed the updated site to [Netlify](https://www.netlify.com/){target="_blank"} I encountered an unexpected error:
+When I completed the upgrade, everything worked perfectly on my development system. When I deployed the updated site to [Netlify](https://netlify.com/){target="_blank"} I encountered an unexpected error:
 
 ```text
 10:07:18 AM: [11ty] Eleventy Error (CLI):

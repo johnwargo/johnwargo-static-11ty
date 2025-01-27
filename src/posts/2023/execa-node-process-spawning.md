@@ -11,7 +11,7 @@ categories:
   - JavaScript  
 ---
 
-At All Things Open session this year, I presented a session on some open source tools that simplify node.js process spawning. I intended to use my whole session to talk about [zx](https://github.com/google/zx){target="_blank"} (which I wrote about in [zx for Simplified Node Process Spawning](/posts/2023/zx-for-simplified-node-process-spawning/){target="_blank"}) but shortly after I learned about zx, I discovered a more mature alternative to zx called [execa](https://www.npmjs.com/package/execa){target="_blank"}. 
+At All Things Open session this year, I presented a session on some open source tools that simplify node.js process spawning. I intended to use my whole session to talk about [zx](https://github.com/google/zx){target="_blank"} (which I wrote about in [zx for Simplified Node Process Spawning](/posts/2023/zx-for-simplified-node-process-spawning/){target="_blank"}) but shortly after I learned about zx, I discovered a more mature alternative to zx called [execa](https://npmjs.com/package/execa){target="_blank"}. 
 
 The purpose of this post is to share some of my thoughts on execa.
 

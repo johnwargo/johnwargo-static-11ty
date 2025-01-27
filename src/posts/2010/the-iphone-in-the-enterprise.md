@@ -7,7 +7,7 @@ categories: [Mobile]
 tags: post
 ---
 
-A colleague asked me a while back to provide my comments on [InfoWorld's Enterprise iPhone Deep Dive Report](https://www.infoworld.com/iphone-deep-dive){target="_blank"}. I found it to be an interesting read and I was convinced when I finished that you should never allow a bigot to write an article if you're going to pretend that you're impartial.  
+A colleague asked me a while back to provide my comments on [InfoWorld's Enterprise iPhone Deep Dive Report](https://infoworld.com/iphone-deep-dive){target="_blank"}. I found it to be an interesting read and I was convinced when I finished that you should never allow a bigot to write an article if you're going to pretend that you're impartial.  
   
 I could be wrong on this, and as usual my comments below do not reflect the official position of AT&T, but here's my take on the report:  
   
@@ -37,10 +37,10 @@ The conclusion correctly reached in the report is that ActiveSync good, anything
   
 There's still the issue where any iPhone prior to the 3GS would report to ActiveSync that it was capable of encrypting or was actually encrypting the local data when it actually lacked the capability it said it had. That's got to have many enterprises scared to death and I'm waiting to see what lawsuits make it into the courts over that one. Take for example the Massachusetts law that goes into effect in March requiring any organization to encrypt data regarding any Massachusetts resident any time it's stored:  
   
-* [https://www.27001.com/massachusetts-data-protection-law.aspx](https://www.27001.com/massachusetts-data-protection-law.aspx){target="_blank"}
-* [https://www.mass.gov/Eoca/docs/idtheft/201CMR17faqs.pdf](https://www.mass.gov/Eoca/docs/idtheft/201CMR17faqs.pdf){target="_blank"}
+* [https://27001.com/massachusetts-data-protection-law.aspx](https://27001.com/massachusetts-data-protection-law.aspx){target="_blank"}
+* [https://mass.gov/Eoca/docs/idtheft/201CMR17faqs.pdf](https://mass.gov/Eoca/docs/idtheft/201CMR17faqs.pdf){target="_blank"}
 * [https://searchsecurity.techtarget.com/news/article/0,289142,sid14_gci1347836,00.html#](https://searchsecurity.techtarget.com/news/article/0,289142,sid14_gci1347836,00.html){target="_blank"}
-* [https://www.alertboot.com/blog/blogs/endpoint_security/archive/2009/01/06/massachusetts-data-encryption-law-201-cmr-17-00.aspx](https://www.alertboot.com/blog/blogs/endpoint_security/archive/2009/01/06/massachusetts-data-encryption-law-201-cmr-17-00.aspx){target="_blank"}
+* [https://alertboot.com/blog/blogs/endpoint_security/archive/2009/01/06/massachusetts-data-encryption-law-201-cmr-17-00.aspx](https://alertboot.com/blog/blogs/endpoint_security/archive/2009/01/06/massachusetts-data-encryption-law-201-cmr-17-00.aspx){target="_blank"}
   
 In the case of the iPhone, enterprises would believe it's encrypted and they're in compliance with the law when on older iPhones it won't be the case even though the device is saying it is. Not good for enterprises.  
   

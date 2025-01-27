@@ -17,7 +17,7 @@ Apple's lengthy statement included a number of interesting tidbits. The company 
 
 In letters sent earlier this month to Apple and Google as well as iPhone operator partner AT&T, the FCC asked why Apple chose to turn down Google Voice.'
 
-Read more: [https://www.fiercewireless.com/story/apple-fcc-were-still-evaluating-google-voice-app/2009-08-21](https://www.fiercewireless.com/story/apple-fcc-were-still-evaluating-google-voice-app/2009-08-21){target="_blank"}.
+Read more: [https://fiercewireless.com/story/apple-fcc-were-still-evaluating-google-voice-app/2009-08-21](https://fiercewireless.com/story/apple-fcc-were-still-evaluating-google-voice-app/2009-08-21){target="_blank"}.
 
 The carriers are so afraid of VOIP since it allows customers to just use their network - even for voice calls. All of that revenue from phone minutes that are never used would go away if I could do VOIP over my BlackBerry data plan.
 

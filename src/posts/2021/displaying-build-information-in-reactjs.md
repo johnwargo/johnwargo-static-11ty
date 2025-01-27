@@ -90,10 +90,9 @@ You can easily modify it to automatically update the version number at build tim
 
 Unfortunately, as far as I can tell, a React project doesn’t have access to the project’s package.json file at runtime, so I needed a way to access the version number in my application.
 
-Since React projects already use node and npm, I decided to create a simple node module that takes the version number from the package.json file and copies it into a file in the React project; the module is called react-build-info (https://
-www.npmjs.com/package/react-build-info). 
+Since React projects already use node and npm, I decided to create a simple node module that takes the version number from the package.json file and copies it into a file in the React project; the module is called [react-build-info](https://npmjs.com/package/react-build-info). 
 
-You have to install it globally since you can’t easily execute the module locally (that I could figure out anyway), but when you execute it, it creates a file called buildinfo.js in the project’s src folder and copies over the version number from the package.json file and adds the date/time stamp for the build event. Here’s the file:
+You have to install it globally since you can’t easily execute the module locally (that I could figure out anyway), but when you execute it, it creates a file called `buildinfo.js` in the project’s src folder and copies over the version number from the package.json file and adds the date/time stamp for the build event. Here’s the file:
 
 ```typescript
 module.exports = {
@@ -102,7 +101,7 @@ module.exports = {
 }
 ```
 
-To execute the module every time you do a build, just update the build entry in the project’s package.json file:
+To execute the module every time you do a build, just update the build entry in the project’s `package.json` file:
 
 ```json
 "build": "react-build-info && react-scripts build",

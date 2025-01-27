@@ -72,7 +72,7 @@ You can easily modify it to automatically update the version number at build tim
 
 Unfortunately, as far as I can tell, an Ionic project doesn’t have access to the project’s package.json file at runtime, so I needed a way to access the version number in my application.
 
-Since Ionic projects already use node and npm, I decided to create a simple node module that takes the version number from the package.json file and copies it into a file in the Ionic project; the module is called ionic-build-info (https://www.npmjs.com/package/ionic-build-info). 
+Since Ionic projects already use node and npm, I decided to create a simple node module that takes the version number from the package.json file and copies it into a file in the Ionic project; the module is called [ionic-build-info](https://npmjs.com/package/ionic-build-info). 
 
 You have to install it globally since you can’t easily execute the module locally (that I could figure out anyway), but when you execute it, it creates a file called `buildinfo.ts` in the project’s `src/ap`p folder and copies over the version number from the package.json file and adds the date/time stamp for the build event. Here’s the file:
 

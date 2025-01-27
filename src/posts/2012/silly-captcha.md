@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-I was registering for access to the Sencha forums ([www.sencha.com](https://www.sencha.com){target="_blank"}) today when I saw the following on the registration form:
+I was registering for access to the [Sencha Forums](https://sencha.com){target="_blank"} today when I saw the following on the registration form:
 
 {% image "src/images/2012/silly_captcha.png", "", "image-full" %}
 Figure 1

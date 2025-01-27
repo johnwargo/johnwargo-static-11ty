@@ -13,7 +13,7 @@ Last week I published an article, [Eleventy Paginated Category Pages](/posts/202
 
 I wrote it as command-line tool because I didn't know how to build something like that and inject it into the Eleventy build process. I expected that I should be able to publish it as a Node module and call it from the build process, but I didn't want it to be clunky.
 
-A few minutes after I published the article, I finished reading [Eleventy by Example](https://www.packtpub.com/product/eleventy-by-example/9781804610497){target="_blank"} and found the answer I needed there. I wasn't aware of the Eleventy build events and the book showed me everything I needed to know to execute the module `before` Eleventy starts its build process like this:
+A few minutes after I published the article, I finished reading [Eleventy by Example](https://packtpub.com/product/eleventy-by-example/9781804610497){target="_blank"} and found the answer I needed there. I wasn't aware of the Eleventy build events and the book showed me everything I needed to know to execute the module `before` Eleventy starts its build process like this:
 
 ```js
   eleventyConfig.on('eleventy.before', async ({ dir, runMode, outputMode }) => {

@@ -19,8 +19,8 @@ Last year I wrote slightly less posts than the previous year (59 vs. 68). One of
 
 In 2024:
 
-* I wrote a lot more posts about spam and [phishing](https://johnwargo.com/categories/phishing/){target="_blank"} emails and text messages I received.
-* I wrote a lot more posts about [Eleventy(11ty)](https://johnwargo.com/categories/eleventy/){target="_blank"}, including adding some new capabilities to existing utilities.
+* I wrote a lot more posts about spam and [phishing](/categories/phishing/){target="_blank"} emails and text messages I received.
+* I wrote a lot more posts about [Eleventy(11ty)](/categories/eleventy/){target="_blank"}, including adding some new capabilities to existing utilities.
 * I suspended my US Presidential campaign and decided not to run again.
 * I spent a lot more time in my workshop than at my desk writing code, so that explains part of the deficit. 
 * I released a [Path Backup (and Restore)](https://fumblydiddle.com/products/pathbackup/){target="_blank"} utility for Windows.
@@ -66,6 +66,6 @@ What does 2025 look like for me?
 * I plan on finishing this site's upgrade to Eleventy 3.  I figured it out and upgraded several sites, but upgrading this one is biting me in the ass.
 * I bought a better 3D printer last year (a Bambu Labs X1C), so I plan on learning how to design my own projects for printing. 
 * I'd like to add a newsletter to the site so people can subscribe to updates
-* [Raymond Camden](https://www.raymondcamden.com/){target="_blank"} publishes periodic lists of links to things he's looking at, I may do that this year as well (that's the goal anyway).
+* [Raymond Camden](https://raymondcamden.com/){target="_blank"} publishes periodic lists of links to things he's looking at, I may do that this year as well (that's the goal anyway).
 
 That's all I have right now, see you soon

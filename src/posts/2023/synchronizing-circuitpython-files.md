@@ -8,7 +8,7 @@ categories:
   - Internet of Things (IoT)
 ---
   
-I love working with a variety of microcontroller devices and a lot of my projects use LEDs, so I was pleasantly surprised when the folks at Adafruit added the FeatherS2 Neo ([https://www.adafruit.com/product/5629](https://www.adafruit.com/product/5629){target="_blank"}) board to their catalog. It has an ESP32 processor and a 5x5 grid of little NeoPixels onboard, so it is perfect for some of my projects.
+I love working with a variety of microcontroller devices and a lot of my projects use LEDs, so I was pleasantly surprised when the folks at Adafruit added the FeatherS2 Neo ([https://adafruit.com/product/5629](https://adafruit.com/product/5629){target="_blank"}) board to their catalog. It has an ESP32 processor and a 5x5 grid of little NeoPixels onboard, so it is perfect for some of my projects.
 
 The board comes configured to use CircuitPython ([https://circuitpython.org/](https://circuitpython.org/){target="_blank"}) by default, although you can also program it in C in the Arduino IDE. I haven't done much CircuitPython work in the past, so I thought I'd learn more about it as I worked with the board. I'll publish some of my projects for it as I progress, but this article is about the CircuitPython development workflow and a tool I created to tweak that workflow to suit my particular needs.
 
@@ -31,7 +31,7 @@ Another option is to code locally, then copy the files to the CP device. This co
 What I decided to do instead is leave the development workflow like it is, use the CP-aware tools that expect to interact directly with the connected device and copy the code to my local project folder. I could create a local folder for the project code, set up a Git repository in the folder, then copy the code files from the CP device periodically as I work on the project. I could implement this as a simple script, all I'd have to do is make sure I ran it whenever I had new code to copy.  
 Rather than write a script or copy a script into every project, I decided to create a tool I could use in any project and share with others to use with their projects as well.
 
-The tool I created is a node-based command-line module called CircuitPython Sync (cpsync), you can access the code on GitHub ([https://github.com/johnwargo/circuitpython-sync](https://github.com/johnwargo/circuitpython-sync){target="_blank"}) and install it on your development systems using Node Package Manager (npm) ([https://www.npmjs.com/package/cpsync](https://www.npmjs.com/package/cpsync){target="_blank"}).
+The tool I created is a node-based command-line module called CircuitPython Sync (cpsync), you can access the code on GitHub ([https://github.com/johnwargo/circuitpython-sync](https://github.com/johnwargo/circuitpython-sync){target="_blank"}) and install it on your development systems using Node Package Manager (npm) ([https://npmjs.com/package/cpsync](https://npmjs.com/package/cpsync){target="_blank"}).
 
 I wrote it in NodeJS because I have a lot of experience using node in many of my other projects and it's a standard part of many modern software development workflows. I expect I'll someday rewrite it as a standalone executable using Rust.  
 To use the tool, you open a terminal window (macOS or Linux) or command prompt (Windows) and execute the `cpsync` command (passing in the correct arguments, of course - all describe on the Github or NPM pages) and it will setup a file change listener on the CP device. Then, with that running, use the CircuitPython editor of choice to modify the code on the device. Every time you save a change to an existing file, create a new file, or delete a file on the device, cpsync copies, creates, or deletes the file in the designated project folder. You can see an example of cpsync in action in the following figure.
@@ -40,7 +40,7 @@ To use the tool, you open a terminal window (macOS or Linux) or command prompt (
 
 In this example, the tool synchronizes CP files from drive H:\ to my project folder in c:\Users\john\dev\cp-project\. The CP device has a lot of extra files on it that aren't generally used or accessed by a developer, so in the example I used a command-line flag (-i for ignore) that tells cpsync to ignore (not synchronize) the unnecessary files.
 
-So, when this runs, my local project folder will only contain the lib folder plus the code.py and feather2neo.py files updated with the latest changes every time those changes are written to the CP device. If I added a new file or folder, those would automatically synchronize to the local project folder. If I deleted a file or folder, those changes would reflect in the local project folder within a few seconds.
+So, when this runs, my local project folder will only contain the lib folder plus the `code.py` and `feather2neo.py` files updated with the latest changes every time those changes are written to the CP device. If I added a new file or folder, those would automatically synchronize to the local project folder. If I deleted a file or folder, those changes would reflect in the local project folder within a few seconds.
 
 {% image "src/images/2023/cp-sync-2.png", "Windows Explorer Project Folder", "image-full" %}
 

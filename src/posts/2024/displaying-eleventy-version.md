@@ -15,7 +15,7 @@ timestamp: 2024-12-29T16:25:44.548Z
 
 **Update:** Soon after I posted a link to this article on Mastodon, the Eleventy team responded with 
 
-> @johnwargo you needn’t parse your package.json for a meta generator element: you can use `{{ eleventy.generator }}` directly, it’s supplied for free by Eleventy! Docs: https://www.11ty.dev/docs/data-eleventy-supplied/#use-with-meta-namegenerator
+> @johnwargo you needn’t parse your package.json for a meta generator element: you can use `{{ eleventy.generator }}` directly, it’s supplied for free by Eleventy! Docs: https://11ty.dev/docs/data-eleventy-supplied/#use-with-meta-namegenerator
 
 So it turns out you don't need any of the stuff that follows. :-)
 
@@ -44,7 +44,7 @@ With that in place, any page in the site can display the `generatorStr` value us
 {% highlight liquid %}
  <footer id="footer">
   <div class="copyright">
-    &copy; John M. Wargo; All rights reserved | Powered by <a href="https://www.11ty.dev/" target="_blank">{{ eleventyinfo.generatorStr }}</a> | Template by <a href="https://pixelarity.com/" target="_blank">Pixelarity (Faction)</a>
+    &copy; John M. Wargo; All rights reserved | Powered by <a href="https://11ty.dev/" target="_blank">{{ eleventyinfo.generatorStr }}</a> | Template by <a href="https://pixelarity.com/" target="_blank">Pixelarity (Faction)</a>
   </div>
 </footer>
 {% endhighlight %}
@@ -70,7 +70,7 @@ This worked very well for a long time, but when I started playing around with El
 ERROR: "build:eleventy" exited with 1.
 ```
 
-A quick online [search](https://www.google.com/search?q=eleventy+%22Package+subpath+%27.%2Fpackage.json%27+is+not+defined+by+%22exports%22%22&oq=eleventy+%22Package+subpath+%27.%2Fpackage.json%27+is+not+defined+by+%22exports%22%22&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgcIARAhGI8CMgcIAhAhGI8C0gEIMzE1OWowajmoAgCwAgE&sourceid=chrome&ie=UTF-8){target="_blank"} took me to the following Google AI generated message:
+A quick online [search](https://google.com/search?q=eleventy+%22Package+subpath+%27.%2Fpackage.json%27+is+not+defined+by+%22exports%22%22&oq=eleventy+%22Package+subpath+%27.%2Fpackage.json%27+is+not+defined+by+%22exports%22%22&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgcIARAhGI8CMgcIAhAhGI8C0gEIMzE1OWowajmoAgCwAgE&sourceid=chrome&ie=UTF-8){target="_blank"} took me to the following Google AI generated message:
 
 > The error message "Package subpath './package.json' is not defined by 'exports'" in Eleventy means that you're trying to import a file directly from your project's package.json file, but your package.json file is configured to only export specific modules through the "exports" field, and the root directory (where package.json resides) is not explicitly included in those exports
 
@@ -112,5 +112,5 @@ export default function () {
 Then, in the site content, reference the individual properties like this:
 
 {% highlight liquid %}
-<p class="copyright">Powered by <a href="https://www.11ty.dev/" target="_blank" >{{ eleventyinfo.packageName}} {{eleventyinfo.packageVersion}}</a>.</p>
+<p class="copyright">Powered by <a href="https://11ty.dev/" target="_blank" >{{ eleventyinfo.packageName}} {{eleventyinfo.packageVersion}}</a>.</p>
 {% endhighlight %}

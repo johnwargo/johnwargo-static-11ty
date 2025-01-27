@@ -11,9 +11,9 @@ tags: post
 
 I keep hearing from readers who have just started reading my PhoneGap Essentials book. That book was published more than two years ago and PhoneGap has changed dramatically since then. The code in the book should still work - not much has changed on the API side of things. The content covered in the first half of the book however is no longer valid.  
   
-I rewrote the first half of PhoneGap Essentials last year and released it as Apache Cordova 3 Programming in December. That book takes the first 150 pages dedicated to PhoneGap development and PhoneGap tools and updates it for Cordova 3 plus expands it out to about 250 pages. There's an additional 50 pages on the APIs that covers them at a high level, but if you have the Essentials book you have the same information (just a little older).  You can read more about the book at www.cordovaprogramming.com.
+I rewrote the first half of PhoneGap Essentials last year and released it as Apache Cordova 3 Programming in December. That book takes the first 150 pages dedicated to PhoneGap development and PhoneGap tools and updates it for Cordova 3 plus expands it out to about 250 pages. There's an additional 50 pages on the APIs that covers them at a high level, but if you have the Essentials book you have the same information (just a little older).  You can read more about the book at https://cordovaprogramming.com.
   
-The second half of PhoneGap Essentials was all about the Cordova APIs, about 150 pages worth. I just finished rewriting that content (and expanding it to about 300 pages) and published it as Apache Cordova API Cookbook - the book will be in stores in about a week. You can read more about the book at www.cordovacookbook.com.
+The second half of PhoneGap Essentials was all about the Cordova APIs, about 150 pages worth. I just finished rewriting that content (and expanding it to about 300 pages) and published it as Apache Cordova API Cookbook - the book will be in stores in about a week. You can read more about the book at https://cordovacookbook.com.
   
 With these two books, you've got 600 pages of coverage for Cordova 3.
 

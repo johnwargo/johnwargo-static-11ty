@@ -9,7 +9,7 @@ tags: post
 
 I've said this for a long time now and I'm speaking for myself, NOT my employer: The best thing that can happen to AT&T is for Verizon to get the iPhone. As I've written here before, Apple doesn't care about the network, they just don't. So, Verizon getting the iPhone is going to really show how good AT&T's network really is.
 
-What's interesting is the "Verizon Deal May Expose iPhone Flaws" article in the [New york Times](https://www.nytimes.com/2011/01/15/business/15nocera.html){target="_blank"}. Like the wired article of last summer, it's a good, even, balanced & impartial look at the iPhone. Some parts of the article that struck me as interesting (and true):
+What's interesting is the "Verizon Deal May Expose iPhone Flaws" article in the [New york Times](https://nytimes.com/2011/01/15/business/15nocera.html){target="_blank"}. Like the wired article of last summer, it's a good, even, balanced & impartial look at the iPhone. Some parts of the article that struck me as interesting (and true):
 
 > Yet for all that it offers, the iPhone has always been plagued by serious drawbacks. The “phone” part of the iPhone has never worked very well, dropping calls with annoying regularity. Even when the phone works, the sound quality is often substandard. You would think in an age when fewer people are using landlines this would matter. Apparently not.
 

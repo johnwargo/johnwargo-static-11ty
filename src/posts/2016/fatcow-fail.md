@@ -21,13 +21,13 @@ Every week or so, I receive the same email from the FatCow Security team:
 
 "During a routine scan, the security team at FatCow discovered infected files in your "account_name" account. Typically, these security vulnerabilities are due to the presence of an outdated application or script in your account.
 
-You can view a list of the infected files in the /stats directory of your account, in a file named 'websitescan.txt.' You can find more information on how to access this file, interpret its contents, and remove infected files in the article below: [https://www.fatcow.com/knowledgebase/beta/article.bml?ArticleID=437](https://www.fatcow.com/knowledgebase/beta/article.bml?ArticleID=437){target="_blank"}.
+You can view a list of the infected files in the /stats directory of your account, in a file named 'websitescan.txt.' You can find more information on how to access this file, interpret its contents, and remove infected files in the article below: [https://fatcow.com/knowledgebase/beta/article.bml?ArticleID=437](https://fatcow.com/knowledgebase/beta/article.bml?ArticleID=437){target="_blank"}.
 
 Please make sure to check any file backup(s) you have for a clean copy of the infected files. If you have clean copies, you can upload those. If not, once you get the infected files cleaned or removed, we recommend you keep regular backups of your website going forward
 
-However, If you don't feel comfortable removing the infected files yourself, or would like to talk to a security expert, we recommend that you contact our preferred partner, SiteLock. You can find out about their security solutions at https://www.fatcow.com/product/sitelock, or call them directly at 1-855-378-6200.
+However, If you don't feel comfortable removing the infected files yourself, or would like to talk to a security expert, we recommend that you contact our preferred partner, SiteLock. You can find out about their security solutions at https://fatcow.com/product/sitelock, or call them directly at 1-855-378-6200.
 
-Finally, to learn more about how to keep your site safe, visit the article below: https://www.fatcow.com/knowledgebase/beta/article.bml?ArticleID=2324#Nugget_5264 .
+Finally, to learn more about how to keep your site safe, visit the article below: https://fatcow.com/knowledgebase/beta/article.bml?ArticleID=2324#Nugget_5264 .
 
 Sincerely,  
 The FatCow Team"
@@ -55,7 +55,7 @@ So, I told the folks at FatCow that they're getting false positives and I get th
 "Hello,  
 Thank you for your reply.
 
-You have received the message from sitelock saying there are infected files in the account. If you have removed the infected files from the account and if you wish to scan the account again, please let us know. With authentication to the account: You can provide us the authentication of the account by answering security question set in the account: Question removed for security? You can check the security answer by going to: https://www.fatcow.com/secureControl/security-question.html?pid=4059212 .
+You have received the message from sitelock saying there are infected files in the account. If you have removed the infected files from the account and if you wish to scan the account again, please let us know. With authentication to the account: You can provide us the authentication of the account by answering security question set in the account: Question removed for security? You can check the security answer by going to: https://fatcow.com/secureControl/security-question.html?pid=4059212 .
 
 Also, we have given below some suggestions to safeguard your website:
 
@@ -94,9 +94,9 @@ As a result, we had to suspend your account, to avoid problems for site visitors
 2000 messages per day  
 100 recipients per execution
 
-Once you have taken the necessary action, please reply back to us with the confirmation. I suggest you to use bulk mailer service for emailing purpose. You can use Constant Contact to send out emails. To learn more about this, please refer the URL https://www.fatcow.com/product/constantcontact.bml .
+Once you have taken the necessary action, please reply back to us with the confirmation. I suggest you to use bulk mailer service for emailing purpose. You can use Constant Contact to send out emails. To learn more about this, please refer the URL https://fatcow.com/product/constantcontact.bml .
 
-If this is not your script, it suggests that your account has been compromised. To learn more about reasons for account getting hacked and the ways to prevent it, please visit the KB link: https://www.fatcow.com/knowledgebase/beta/article.bml?ArticleID=2324#Nugget_5264 .
+If this is not your script, it suggests that your account has been compromised. To learn more about reasons for account getting hacked and the ways to prevent it, please visit the KB link: https://fatcow.com/knowledgebase/beta/article.bml?ArticleID=2324#Nugget_5264 .
 
 In order to re-enable the account, we ask you or your administrator reply to this message after taking necessary action on the script specified above.
 

@@ -12,7 +12,7 @@ categories:
 timestamp: 2024-11-10T17:18:40.346Z
 ---
 
-Over the years, I published a variety of Node.js modules and CLIs; the CLIs because I wanted to automate some operation I needed to make easily repeatable. For my CLIs, I started building them using command-line arguments, but I quickly forgot the arguments and order. Next I used configuration files, but then that tied me into a specific file or set of files for different operations. Eventually I started using an npm module called [prompts](https://www.npmjs.com/package/prompts){target="_blank"} that allows me to prompt for all of the configuration options either as the only input into the program or for writing the settings to a default configuration file. Yesterday I spent some time figuring out how to do conditional prompts, so that's the topic of this post.
+Over the years, I published a variety of Node.js modules and CLIs; the CLIs because I wanted to automate some operation I needed to make easily repeatable. For my CLIs, I started building them using command-line arguments, but I quickly forgot the arguments and order. Next I used configuration files, but then that tied me into a specific file or set of files for different operations. Eventually I started using an npm module called [prompts](https://npmjs.com/package/prompts){target="_blank"} that allows me to prompt for all of the configuration options either as the only input into the program or for writing the settings to a default configuration file. Yesterday I spent some time figuring out how to do conditional prompts, so that's the topic of this post.
 
 {% sidebar "My Node Code" %}
 You can find all (most?) of my node.js modules on <a href="https://johnwargo.io/node" target="_blank">https://johnwargo.io/node</a>.

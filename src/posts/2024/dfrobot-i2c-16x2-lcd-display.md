@@ -11,7 +11,7 @@ categories:
 timestamp: 2024-04-13T14:22:10.436Z
 ---
 
-I'm a fan of many products from [DFRobot](https://www.dfrobot.com/){target="_blank"} and they occasionally gift me with newer products to use and write about here. I'm working on something now that leverages their [Gravity: Lightning Distance Sensor](https://www.dfrobot.com/product-1828.html){target="_blank"} and I wanted to use a display to show lightning distance. For this I'm using the [I2C 16x2(1602) LCD Display Module for Arduino](https://www.dfrobot.com/product-135.html){target="_blank"} and as I started to build the project, I wanted to test the LED display separately to learn how to write to it. I ran into some problems with the DFRobot Wiki and drivers for the board, so I decided to write this post to help others get through the same issues.
+I'm a fan of many products from [DFRobot](https://dfrobot.com/){target="_blank"} and they occasionally gift me with newer products to use and write about here. I'm working on something now that leverages their [Gravity: Lightning Distance Sensor](https://dfrobot.com/product-1828.html){target="_blank"} and I wanted to use a display to show lightning distance. For this I'm using the [I2C 16x2(1602) LCD Display Module for Arduino](https://dfrobot.com/product-135.html){target="_blank"} and as I started to build the project, I wanted to test the LED display separately to learn how to write to it. I ran into some problems with the DFRobot Wiki and drivers for the board, so I decided to write this post to help others get through the same issues.
 
 ## Connections
 

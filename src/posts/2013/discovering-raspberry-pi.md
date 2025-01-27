@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-Many months ago I learned about the [Raspberry Pi](https://www.raspberrypi.org){target="_blank"} hobbyist computer. Apparently it was created to provide an inexpensive system that kids could use to learn programming. At $35US it really hits the mark.
+Many months ago I learned about the [Raspberry Pi](https://raspberrypi.org){target="_blank"} hobbyist computer. Apparently it was created to provide an inexpensive system that kids could use to learn programming. At $35US it really hits the mark.
 
 I understand their goals well; I had access to micro computers in High School back in the late 70's, at home at about the same time and in college as well. The reason I'm a computer developer is because I was able to be one so early in life and it definitely stuck. My first computer was a Ti Ti-99-4a and the second was a tricked out Apple //e that I kept for many, many years. I spent a ton of time writing code for those boxes and that quite possibly have something to do with why it took me so long to get married. That's a story for another time.
 

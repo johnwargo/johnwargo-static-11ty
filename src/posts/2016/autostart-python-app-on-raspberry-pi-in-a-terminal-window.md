@@ -9,8 +9,8 @@ tags: post
 
 I've coded a few Raspberry Pi Python projects recently that need to execute when the device boots:
 
-* Raspberry Pi Weather Station: [https://github.com/johnwargo/pi_weather_station](https://github.com/johnwargo/pi_weather_station){target="_blank"}
-* Raspberry Pi Reminder App: [https://github.com/johnwargo/pi_remind](https://github.com/johnwargo/pi_remind){target="_blank"}
+* [Raspberry Pi Weather Station](https://github.com/johnwargo/pi-weather-station){target="_blank"}
+* [Raspberry Pi Reminder App](https://github.com/johnwargo/pi-remind){target="_blank"}
 
 As these apps throw status and diagnostic information out to the console as they run, I wanted to be able to run the applications in a terminal window once the Pi boots. I poked and prodded at Google search results and found a couple of solutions, but, until recently, none of them worked quite right for me. I finally figured out why, so I thought I'd write about it here.
 
@@ -112,9 +112,9 @@ Exec=lxterminal -e "/home/pi/pi_remind/start-remind.sh"
 Type=Application
 ```
 
-Here's where I learned this trick: [https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=80096](https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=80096){target="_blank"}.
+Here's where I learned this trick: [https://raspberrypi.org/forums/viewtopic.php?f=91&t=80096](https://raspberrypi.org/forums/viewtopic.php?f=91&t=80096){target="_blank"}.
 
-The next solution is a little easier and you can read about it here: [https://www.raspberrypi-spy.co.uk/2014/05/how-to-autostart-apps-in-rasbian-lxde-desktop](https://www.raspberrypi-spy.co.uk/2014/05/how-to-autostart-apps-in-rasbian-lxde-desktop){target="_blank"}. All you have to do is add an entry into a specific file and it will run your bash script at startup. Open a terminal window and execute the following command:
+The next solution is a little easier and you can read about it here: [https://raspberrypi-spy.co.uk/2014/05/how-to-autostart-apps-in-rasbian-lxde-desktop](https://raspberrypi-spy.co.uk/2014/05/how-to-autostart-apps-in-rasbian-lxde-desktop){target="_blank"}. All you have to do is add an entry into a specific file and it will run your bash script at startup. Open a terminal window and execute the following command:
 
 ```shell
 sudo nano ~/.config/lxsession/LXDE-pi/autostart

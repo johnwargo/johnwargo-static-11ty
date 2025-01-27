@@ -11,11 +11,11 @@ categories:
   - JavaScript  
 ---
 
-I'm building a new web site for a software company I created using [11ty](https://www.11ty.dev/){target="_blank"}, and one of the things I want to do in this site is have the Products menu item open the product page for the first product in a sorted list of product pages. 
+I'm building a new web site for a software company I created using [11ty](https://11ty.dev/){target="_blank"}, and one of the things I want to do in this site is have the Products menu item open the product page for the first product in a sorted list of product pages. 
 
 ## Hard-coding a Navigation Menu URL
 
-The site uses the [Eleventy Navigation](https://www.11ty.dev/docs/plugins/navigation/){target="_blank"} plugin, and as a potential solution for this. The plugin offers the ability to [override the url](https://www.11ty.dev/docs/plugins/navigation/#overriding-the-url){target="_blank"} for a specific menu item. 
+The site uses the [Eleventy Navigation](https://11ty.dev/docs/plugins/navigation/){target="_blank"} plugin, and as a potential solution for this. The plugin offers the ability to [override the url](https://11ty.dev/docs/plugins/navigation/#overriding-the-url){target="_blank"} for a specific menu item. 
 
 The way this works is you make a page on the site for the menu item and set the front matter's `url` property to the URL you want opened when a site visitor clicks the menu item. The URL can point to a local page or an external page, the plugin doesn't care as it's just a URL. Here's an example of this in action:
 

@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-I was reading through the Cordova dev mailing list and noticed that one of the guys had an hi.im (Hi I'm – www.hi.im) URL in his signature. I took a look at the site and saw that it's a pretty cool way to define a simple landing page for yourself. Here's my profile:
+I was reading through the Cordova dev mailing list and noticed that one of the guys had an hi.im (Hi I'm – https://hi.im) URL in his signature. I took a look at the site and saw that it's a pretty cool way to define a simple landing page for yourself. Here's my profile:
 
 {% image "src/images/2013/hi.im-1.im_640.png", "Figure 1", "image-full" %}
 

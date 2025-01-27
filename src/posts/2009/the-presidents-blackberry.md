@@ -1,5 +1,5 @@
 ---
-title: The President's BlackBerry
+title: The Presidents BlackBerry
 description: 
 date: 2009-10-07
 headerImage: 
@@ -54,7 +54,7 @@ He points to a Wikipedia article about determining the location of a mobile devi
 He refers to a roaming phone tap used in some mafia trial – yep, it was roaming alright, it was a physical transmitter physically implanted in the suspect’s phone. Yep, needed physical access to the device to be able to install the hardware. When the President says ‘you can have this when  you pry it from my hands’ do you think that means it will be easy to implant the transmitter? If you can get close enough to implant a transmitter in the President’s smartphone, you probably already have the access you need to do bad things.
 
 He even for some bizarre reason argues that one would need to maintain a database of malware information and regularly check for it on the device. Not true – with a few very simple (simple, seriously – I promise) you can completely lock down a BlackBerry device and protect it from any malware. Because of the security capabilities of the BlackBerry device – there’s a reduced need for antivirus software on the BlackBerry.
-Every single one of you should immediately go to www.blackberry.com/security and do some reading. There are a couple of very simple settings you can set on the device – the first of which is the most important. Disable access to any third party applications. There, got it set? OK then, nobody can install any malware on your device. Even if the user physically cables the device to a computer and tries to manually install ANY application – it won’t install and it definitely wouldn’t run on the device. Done, done and done. Next!
+Every single one of you should immediately go to blackberry.com/security and do some reading. There are a couple of very simple settings you can set on the device – the first of which is the most important. Disable access to any third party applications. There, got it set? OK then, nobody can install any malware on your device. Even if the user physically cables the device to a computer and tries to manually install ANY application – it won’t install and it definitely wouldn’t run on the device. Done, done and done. Next!
 
 There’s an option to support white listing of applications as a way to block all applications then specifically list the ones that are allowed – but that’s still pretty secure. If the President tries to install an application with a digital signature different than any of the applications on the white list, it won’t install – nope, just won’t.
 

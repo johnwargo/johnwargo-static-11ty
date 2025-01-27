@@ -16,7 +16,7 @@ Since I plan to do a lot of writing here this year and beyond, I started looking
 
 Since Eleventy is node-based and I love working in JavaScript and writing node-based command-line utilities, I (surprise!) decided to build a node package/command for this.
 
-The package is called Eleventy New Post and you can find the source on [Github](https://github.com/johnwargo/eleventy-new-post){target="_blank"} and [npm](https://www.npmjs.com){target="_blank"}.
+The package is called Eleventy New Post and you can find the source on [Github](https://github.com/johnwargo/eleventy-new-post){target="_blank"} and [npm](https://npmjs.com){target="_blank"}.
 
 To install the command, open a terminal window or command prompt and execute the following command:
 

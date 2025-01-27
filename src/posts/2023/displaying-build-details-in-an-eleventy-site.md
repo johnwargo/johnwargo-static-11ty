@@ -9,7 +9,7 @@ categories:
     - Static Site Generators
 ---
 
-I recently started using [Eleventy](https://www.11ty.dev/){target="_blank"}, a node-based static site generator and quickly put up a new site using it. With that under my belt, I migrated my [Random Errors](https://randomerrors.dev/){target="_blank"} site from Jekyll to Eleventy pretty quickly. My long term plan is to migrate this site from Joomla to Eleventy as soon as I figure out a couple of extra features I need for this site's migration.
+I recently started using [Eleventy](https://11ty.dev/){target="_blank"}, a node-based static site generator and quickly put up a new site using it. With that under my belt, I migrated my [Random Errors](https://randomerrors.dev/){target="_blank"} site from Jekyll to Eleventy pretty quickly. My long term plan is to migrate this site from Joomla to Eleventy as soon as I figure out a couple of extra features I need for this site's migration.
 
 In the meantime, I will share my learnings along the way.
 
@@ -52,7 +52,7 @@ Since Eleventy is node-based, Eleventy projects have a `package.json` file that 
 
 That means I can use the `version` property along with the date/time that the version number was updated and display that data as my platform version and timestamp in the site. Let me show you how I did that.
 
-In Eleventy projects, you can create data files in the project's `_data` folder and the site generator will automatically load the file's contents as a data set named with the data file's root file name (the part before the dot and file extension). So, as described in [Global Data Files](https://www.11ty.dev/docs/data-global){target="_blank"} in the Eleventy documentation, if I create a JSON file in the `_data` folder with the package version and a date/time stamp, I can automatically access the data as Eleventy generates the static site files.
+In Eleventy projects, you can create data files in the project's `_data` folder and the site generator will automatically load the file's contents as a data set named with the data file's root file name (the part before the dot and file extension). So, as described in [Global Data Files](https://11ty.dev/docs/data-global){target="_blank"} in the Eleventy documentation, if I create a JSON file in the `_data` folder with the package version and a date/time stamp, I can automatically access the data as Eleventy generates the static site files.
 
 I could just add a `buildDate` property to the site's `package.json` file and copy that file into the `_data` folder every time I generate a new version of the site's files. But I'm an automation guy, so I knew there had to be a better way.
 
@@ -92,7 +92,7 @@ That gets me an updated version number for my site, but doesn't help me put the 
 
 Since Eleventy is a npm-based static site generator and I like to write node-based command-line utilities, I realized I could build a little utility that took care of building the data file I needed, even copying the file to the `_data` folder in my site.
 
-The utility is called Generate Build Info and you can find it on npm at [https://www.npmjs.com/package/generate-build-info.](https://www.npmjs.com/package/generate-build-info.){target="_blank"} What it does is read the `version` property of the current project's `package.json` file, then writes a `buildinfo.json` file to a folder you specify containing the build details for the project:
+The utility is called Generate Build Info and you can find it on npm at [https://npmjs.com/package/generate-build-info.](https://npmjs.com/package/generate-build-info.){target="_blank"} What it does is read the `version` property of the current project's `package.json` file, then writes a `buildinfo.json` file to a folder you specify containing the build details for the project:
 
 ```json
 {
@@ -130,7 +130,7 @@ When you look at the site, you'll see this in the footer of every page:
 
 {% image "src/images/2023/random-errors-footer.png", "Random Errors footer screenshot", "image-full" %}
 
-I built this with the understanding that I would run this process locally on my development workstation. Once the process updates the package version and writes the JSON file, I can just commit the files to my local repo and synchronize them with the cloud. My hosting site, in this case [Netlify](https://www.netlify.com/){target="_blank"} picks up the changes, generates the site (again), and publishes it.
+I built this with the understanding that I would run this process locally on my development workstation. Once the process updates the package version and writes the JSON file, I can just commit the files to my local repo and synchronize them with the cloud. My hosting site, in this case [Netlify](https://netlify.com/){target="_blank"} picks up the changes, generates the site (again), and publishes it.
 
 I set it up this way because I don't want to change the package version when I publish a new post. I only want to update the build information when I make changes to the platform (my Eleventy App), and that means I'm perfectly happy doing this manually when I need it.
 

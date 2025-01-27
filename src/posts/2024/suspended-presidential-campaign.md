@@ -15,6 +15,6 @@ A few weeks before the 2024 election, I suspended my campaign for president. I d
 
 Here's links to the two stores:
 
-<a href="https://www.cafepress.com/shop/wargo2024/products?designId=136000491" target="_blank"><img src="/images/common/wargo-2024-rectangle.png" width="400" alt="Wargo 2024 Rectangular Logo"/></a>
+<a href="https://cafepress.com/shop/wargo2024/products?designId=136000491" target="_blank"><img src="/images/common/wargo-2024-rectangle.png" width="400" alt="Wargo 2024 Rectangular Logo"/></a>
 
-<a href="https://www.cafepress.com/shop/wargo2024/products?designId=136000489" target="_blank"><img src="/images/common/wargo-2024-circle.png" width="400" alt="Wargo 2024 Circular Logo"/></a>
+<a href="https://cafepress.com/shop/wargo2024/products?designId=136000489" target="_blank"><img src="/images/common/wargo-2024-circle.png" width="400" alt="Wargo 2024 Circular Logo"/></a>

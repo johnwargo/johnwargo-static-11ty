@@ -29,7 +29,7 @@ It turns out that Shop allows you to set the default address for your account. O
 
 ## Overriding Store Purchase Options
 
-Another really annoying issue I discoverd with the Shop app is that it overrides the default purchase and shipping options for sites when active. I was looking at CNC Routers from [Inventables](https://www.inventables.com/){target="_blank"} and noticed that they supported a specific payment method I wanted to use for my purchase. 
+Another really annoying issue I discoverd with the Shop app is that it overrides the default purchase and shipping options for sites when active. I was looking at CNC Routers from [Inventables](https://inventables.com/){target="_blank"} and noticed that they supported a specific payment method I wanted to use for my purchase. 
 
 The site also used Shop and I was already logged into the Shop app when I visited the site. Because of that, the only purchase option I had was to use Shop; it overrode the purchasing capabilities of the hosting site and kept me from purchasing the product the way I wanted to. 
 

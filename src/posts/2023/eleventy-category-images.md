@@ -188,7 +188,7 @@ After the post content, the code pulls in the header image attribution (if there
 
 You can find all the code for the two shortcodes in [eleventy.config.headerimage.js](https://github.com/johnwargo/johnwargo-static-11ty/blob/main/eleventy.config.headerimage.js){target="_blank"}. You can use this as a template for your site, replacing my code that generates `img` and `p` tags with whatever code is appropriate for your site's configuration, layout and styling. 
 
-I kept all of the code in a separate file so I can reuse it for other [sites](http://localhost:8888/sites/){target="_blank"} I maintain. Notice that when I load the module, I pass in the name of the category data file (it could be different depending on the site) as well as the style to apply to the generated image tag (which will vary depending on the site).
+I kept all of the code in a separate file so I can reuse it for other [sites](/about/sites/){target="_blank"} I maintain. Notice that when I load the module, I pass in the name of the category data file (it could be different depending on the site) as well as the style to apply to the generated image tag (which will vary depending on the site).
 
 ```js
 const pluginImageHeaders = require("./eleventy.config.headerimage.js");

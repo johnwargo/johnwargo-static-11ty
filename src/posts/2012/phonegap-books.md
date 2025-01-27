@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-There's a site out there that contains information about each of the PhoneGap books on the market.It's called appropriately enough PhoneGap Books (www.phonegapbooks.com).
+There's a site out there that contains information about each of the PhoneGap books on the market.It's called appropriately enough PhoneGap Books (phonegapbooks.com).
 
 No entry for PhoneGap Essentials yet, but I'm sure that will get fixed once the book is actually on the market.
 

@@ -11,7 +11,7 @@ categories:
 
 I had shoulder surgery just about a month ago. Surprisingly, I had very little pain, so I went back to work much earlier than expected. Not being able to do much, I spent my free time migrating a couple of WordPress sites to Eleventy. Typing one-handed is cumbersome, but I got good at it and got a lot of work done. 
 
-Having gotten caught up on my web development tasks, I started on another project. I keep all of my personal mail in Outlook, and archive anything older than a year old to an archive file. I noticed recently that because of this archiving process I had a bunch of empty folders in my inbox. Having done a fair amount of Outlook automation in the past using [Delphi](https://www.embarcadero.com/products/delphi){target="_blank"} I thought I'd write a quick little utility to delete all of those empty folders.
+Having gotten caught up on my web development tasks, I started on another project. I keep all of my personal mail in Outlook, and archive anything older than a year old to an archive file. I noticed recently that because of this archiving process I had a bunch of empty folders in my inbox. Having done a fair amount of Outlook automation in the past using [Delphi](https://embarcadero.com/products/delphi){target="_blank"} I thought I'd write a quick little utility to delete all of those empty folders.
 
 I fired up RAD Studio (the IDE for Delphi) and started copying in a bunch of code I found on the Internet and quickly found that it was really hard to code in RAD Studio one-handed.
 

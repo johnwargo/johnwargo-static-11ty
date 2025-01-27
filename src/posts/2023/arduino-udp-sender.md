@@ -12,11 +12,11 @@ categories:
   - Internet of Things (IoT)
 ---
 
-With my [Glowing Pumpkin Project Refresh](https://johnwargo.com/posts/2023/glowing-pumpkin-project-refresh/) my ultimate goal was to synchronize LED Matrix colors across multiple devices so I could place one in a pumpkin in each of the front dormers in my house. I finally got it all working and published the project yesterday at [Glowing Pumpkin Sync UDP](https://github.com/johnwargo/glowing-pumpkin-udp-sync){target="_blank"}.
+With my [Glowing Pumpkin Project Refresh](/posts/2023/glowing-pumpkin-project-refresh/) my ultimate goal was to synchronize LED Matrix colors across multiple devices so I could place one in a pumpkin in each of the front dormers in my house. I finally got it all working and published the project yesterday at [Glowing Pumpkin Sync UDP](https://github.com/johnwargo/glowing-pumpkin-udp-sync){target="_blank"}.
 
 Here's the project in action (without pumpkins this time):
 
-https://www.youtube.com/watch?v=L2v5T3hO6S4
+https://youtube.com/watch?v=L2v5T3hO6S4
 
 With this version of the GLowing Pumpkin project, you deploy one Glowing Pumpkin Xiao 5x5 BFF device with the [Sender](https://github.com/johnwargo/glowing-pumpkin-udp-sync/tree/main/udp-sender-arduino){target="_blank"} sketch deployed to it and all of the other devices with the [Receiver](https://github.com/johnwargo/glowing-pumpkin-udp-sync/tree/main/udp-receiver-arduino){target="_blank"} sketch. As long as all of the devices are one the same Wi-Fi network, they all connect to the network and the Sender starts sending commands to each of the Receiver devices using UDP Broadcast messages. 
 
@@ -115,12 +115,12 @@ As I worked on this project, I had some trouble getting the Sender sketch workin
 
 ## Wrap-up
 
-This all works really well except that I periodically have some difficulty connecting several of my devices to my Wi-Fi network. I'm not sure whether it's a problem with the [Seeed Studio Xiao](https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html){target="_blank"} devices or my network (Nest Wi-Fi) not trusting the devices because I keep rebooting them during development. I found that with one of the devices, if I let it sit for a couple of hours, it connects just find. For another device, I have to fiddle with it for a while to get it to connect. I'm going to swap out the hardware (I have some spares here) and see what happens. 
+This all works really well except that I periodically have some difficulty connecting several of my devices to my Wi-Fi network. I'm not sure whether it's a problem with the [Seeed Studio Xiao](https://seeedstudio.com/XIAO-ESP32S3-p-5627.html){target="_blank"} devices or my network (Nest Wi-Fi) not trusting the devices because I keep rebooting them during development. I found that with one of the devices, if I let it sit for a couple of hours, it connects just find. For another device, I have to fiddle with it for a while to get it to connect. I'm going to swap out the hardware (I have some spares here) and see what happens. 
 
 I hope you enjoy this project, I'm excited that I was able to accomplish what I wanted to do using UDP broadcasts. 
 
 Here's links to the articles in the Glowing Pumpkin Xiao 5x5 BFF series:
 
-* [Glowing Pumpkin Project Refresh](https://johnwargo.com/posts/2023/glowing-pumpkin-project-refresh/)
-* [Arduino UDP Broadcast Receiver](https://johnwargo.com/posts/2023/arduino-udp-broadcast-receiver/)
-* [Arduino ESP32 Web Server on a Processor Core](https://johnwargo.com/posts/2023/arduino-esp32-web-server-on-a-processor-core/)
+* [Glowing Pumpkin Project Refresh](/posts/2023/glowing-pumpkin-project-refresh/)
+* [Arduino UDP Broadcast Receiver](/posts/2023/arduino-udp-broadcast-receiver/)
+* [Arduino ESP32 Web Server on a Processor Core](/posts/2023/arduino-esp32-web-server-on-a-processor-core/)

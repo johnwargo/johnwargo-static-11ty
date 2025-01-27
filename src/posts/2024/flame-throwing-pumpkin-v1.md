@@ -18,7 +18,7 @@ I built my pumpkin out of a steel coal bucket because I didn't want to have to c
 
 Anyway, I used this project for several years now, but realized I never published the source code. I finally got around to that yesterday, you can find it here: [Sparky, the Flame Throwing Pumpkin](https://github.com/johnwargo/flame-throwing-pumpkin-feather){target="_blank"}.
 
-Here's a video of one of my [first tests of the flame throwing mechanism](https://www.youtube.com/shorts/WcZAg1KJ5VQ){target="_blank"}
+Here's a video of one of my [first tests of the flame throwing mechanism](https://youtube.com/shorts/WcZAg1KJ5VQ){target="_blank"}
 
 And here's a full demonstration by our exchange student (at the time) Jannis:
 

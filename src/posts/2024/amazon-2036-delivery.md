@@ -11,7 +11,7 @@ categories:
 timestamp: 2024-11-10T17:06:38.801Z
 ---
 
-Imagine my surprise when I received an email from Amazon letting me know that an album I purchased a while ago, ([Opeth's Last Will and Testament](https://www.amazon.com/LAST-WILL-TESTAMENT-OPETH/dp/B0DBSY58RZ){target="_blank"}), wouldn't be delivered until 2036.
+Imagine my surprise when I received an email from Amazon letting me know that an album I purchased a while ago, ([Opeth's Last Will and Testament](https://amazon.com/LAST-WILL-TESTAMENT-OPETH/dp/B0DBSY58RZ){target="_blank"}), wouldn't be delivered until 2036.
 
 {% image "src/images/2024/amazon-delivery-2036.png", "An email from Amazon indicating that an order I placed would be delivered in 2036", "image-full" %}
 

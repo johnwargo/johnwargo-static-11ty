@@ -18,7 +18,7 @@ After getting my Microsoft store account setup and validated, I set about config
 
 I started looking at the pricing page to determine what this would cost me, but I couldn't accurately assess my costs. Not knowing my costs is a problem, but since I had some Azure credits lying around, I started poking around in the Azure Portal to see if I could create one anyway. After following the instructions to create a CDN, I learned that neither my credits nor my pay as you go accounts were enabled for CDN creation. **Strike 1**.
 
-Next I Googled setting up a CDN and found that one of the top recommendations was [Fastly](https://www.fastly.com/){target="_blank"}. I started poking around on their site only to find that for every pricing package the only option was to **Request Pricing**. If they're not going to let me know what their service costs, I'm out. **Strike 2**.
+Next I Googled setting up a CDN and found that one of the top recommendations was [Fastly](https://fastly.com/){target="_blank"}. I started poking around on their site only to find that for every pricing package the only option was to **Request Pricing**. If they're not going to let me know what their service costs, I'm out. **Strike 2**.
 
 Google's next best option was a recommendation for [Bunny.net](https://bunny.net/){target="_blank"} and they actually publish pricing on their public web site. A quick look told me I'd pay a minimum of $1 per month and their other charges were very reasonable based on what I expected my needs to be. 
 

@@ -15,7 +15,7 @@ Anyway, I'd been having a problem with power in my home office, for some reason 
 
 I have two options to fix this problem:
 
-1. Configure the Pi to wait for the network before booting (described at [https://www.raspberrypi.org/blog/latest-raspbian-update/](https://www.raspberrypi.org/blog/latest-raspbian-update/){target="_blank"})
+1. Configure the Pi to wait for the network before booting (described at [https://raspberrypi.org/blog/latest-raspbian-update/](https://raspberrypi.org/blog/latest-raspbian-update/){target="_blank"})
 2. Modify my project's code so it detects that it's not been able to connect to the network for a number of minutes (defaults to 10), then reboots the Pi so it can reconnect.
 
 I chose not to use the first option since I didn't want the Pi sitting there in limbo if my network didn't come up in a reasonable time. The project displays a red warning light (LED) when it can't see the network, so it was better for me if it booted, then notified me via the HAT's LEDs that it couldn't connect to the network.

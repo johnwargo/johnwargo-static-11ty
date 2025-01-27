@@ -51,4 +51,4 @@ Take a look at the application's configuration screen; I don't understand why de
 {% image "src/images/2009/devcon-app-3.jpg", "Figure 3", "image-full" %}
 Figure 3
   
-The developer of the application is Sweet Caesar Inc (https://www.sweetcaesar.com/){target="_blank"} – I'd suggest that they spend a little more time making their application usable and less time making it pretty. There are going to be 1,000 people in San Francisco this week cursing their product every single time they use it. Not a good thing for a company's reputation.
+The developer of the application is Sweet Caesar Inc (https://sweetcaesar.com/){target="_blank"} – I'd suggest that they spend a little more time making their application usable and less time making it pretty. There are going to be 1,000 people in San Francisco this week cursing their product every single time they use it. Not a good thing for a company's reputation.

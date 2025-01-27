@@ -35,7 +35,7 @@ An issue I have with the W3C link checker is that I can't save the results to a 
 
 ## @johnwargo/link-checker
 
-As I wrote in [Yet Another Link Checker Utility](/posts/2024/link-checker-utility/), I recently published a node.js-based command-line utility that uses the [linkinator](https://www.npmjs.com/package/linkinator){target="_blank"} package to validate a site's links. This utility does a rudimentary job at scanning links. I can use it to quickly find broken links in the site; for example: those caused by typos and errant spaces.
+As I wrote in [Yet Another Link Checker Utility](/posts/2024/link-checker-utility/), I recently published a node.js-based command-line utility that uses the [linkinator](https://npmjs.com/package/linkinator){target="_blank"} package to validate a site's links. This utility does a rudimentary job at scanning links. I can use it to quickly find broken links in the site; for example: those caused by typos and errant spaces.
 
 The link checker also generates failures for a variety of reasons, some of which are not valid. As I mentioned in the previous post, sites that perform a human check before letting you in report as broken links. I could probably set some HTTP headers to let those checks pass, perhaps I'll do that in the future.
 

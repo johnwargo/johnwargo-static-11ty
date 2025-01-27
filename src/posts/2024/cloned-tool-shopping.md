@@ -13,11 +13,11 @@ timestamp: 2024-07-24T23:26:59.645Z
 
 As you probably know from this site, I'm a geek and a software developer. I'm also a woodworker and it feels like I'm going to pull in more woodworker stories this year - mostly because I've been doing more woodworking than coding lately.
 
-I recently discovered [Woodpeckers Precision Woodworking Tools](https://www.woodpeck.com/){target="_blank"} and I really love their stuff. It's really (really, really) expensive, but I like that it's US Made (Ohio) and seems to be good quality stuff (it would have to be at those prices). I've experienced some quality issues with lately, so I'm starting to look for alternatives.
+I recently discovered [Woodpeckers Precision Woodworking Tools](https://woodpeck.com/){target="_blank"} and I really love their stuff. It's really (really, really) expensive, but I like that it's US Made (Ohio) and seems to be good quality stuff (it would have to be at those prices). I've experienced some quality issues with lately, so I'm starting to look for alternatives.
 
 I'm replacing the quickly thrown together wooden storage drawers I use in my shop. I made them 20 years or so ago and frankly I'm embarrassed of them. I've been playing around with two different finger joint jigs, so I'm in a position where I'm ready to start making some new drawers.
 
-One of the things I know I want to do for these boxes is use library card deck like [pulls](https://www.rockler.com/oil-rubbed-bronze-florence-pull-3-11-16){target="_blank"} to pull them out from the shelves. Thinking through that, I realized I needed a reliable way to attach the pulls to the drawer faces so I started looking for jigs to use.
+One of the things I know I want to do for these boxes is use library card deck like [pulls](https://rockler.com/oil-rubbed-bronze-florence-pull-3-11-16){target="_blank"} to pull them out from the shelves. Thinking through that, I realized I needed a reliable way to attach the pulls to the drawer faces so I started looking for jigs to use.
 
 Of course, I started at Woodpeckers, but quickly realized that for the amount of use I was going to get out of it, it wasn't worth the expenditure. $219 is way too much for something like this unless you use it weekly.
 

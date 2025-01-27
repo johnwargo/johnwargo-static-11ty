@@ -12,12 +12,12 @@ categories:
   - Web Development
 ---
 
-When I migrated this site from Joomla to [Eleventy](https://www.11ty.dev/){target="_blank"}, a couple of the features I added pulled data from Google Analytics (GA):
+When I migrated this site from Joomla to [Eleventy](https://11ty.dev/){target="_blank"}, a couple of the features I added pulled data from Google Analytics (GA):
 
 * The site's [Home](/){target="_blank"} page uses GA to pull in the 10 most popular posts. 
-* The site's [Statistics](/statistics){target="_blank"} page uses GA to display some access statistics.
+* The site's [Statistics](/about/statistics){target="_blank"} page uses GA to display some access statistics.
 
-For the GA integration, I used instructions I found on [fjolt.com](https://fjolt.com/article/javascript-ga-api-most-popular-posts){target="_blank"}. The article was pretty clear, so I was able to code the integration in no time. One issue though, was that the [Google Analytics Data: Node.js Client](https://www.npmjs.com/package/@google-analytics/data){target="_blank"} uses an external credential file and that's where this story begins.
+For the GA integration, I used instructions I found on [fjolt.com](https://fjolt.com/article/javascript-ga-api-most-popular-posts){target="_blank"}. The article was pretty clear, so I was able to code the integration in no time. One issue though, was that the [Google Analytics Data: Node.js Client](https://npmjs.com/package/@google-analytics/data){target="_blank"} uses an external credential file and that's where this story begins.
 
 ## The Problem
 
@@ -43,7 +43,7 @@ Anyway, I acknowledge it was a bit of a security risk, so I set about finding so
 
 Now, I want the site's code to be publicly available. I'm not an Eleventy expert, but there's a lot of cool code in there and I wanted to be able to both write about it and let people access the source. Pulling the site's repo down (changing its visibility) wasn't an option.
 
-Next, I started playing around with using environment variables on my local system and my hosting project on [Netlify](https://www.netlify.com/){target="_blank"} and feed the key or key values into the code at build time. Unfortunately, the key object was too large to store in an environment variable. Playing around further, I tried to just store the key itself in an environment variable, but it was too long as well.
+Next, I started playing around with using environment variables on my local system and my hosting project on [Netlify](https://netlify.com/){target="_blank"} and feed the key or key values into the code at build time. Unfortunately, the key object was too large to store in an environment variable. Playing around further, I tried to just store the key itself in an environment variable, but it was too long as well.
 
 I thought about putting the key in a cloud key vault, but after poking at a couple of them, I abandoned that approach because none of them allowed me to store an existing key in a vault. I even played around with storing the file in a cloud blob storage account and pulling it down during the build process. I tried it on Azure, but struggled to find a simple way to keep the key file secure but still access it using a public URL. I used to be a Product Manager for an Azure service, so I thought I knew it pretty well, but after hours of searching for a solution I simply gave up. The docs are just not useful.
 

@@ -16,7 +16,7 @@ As I explained in [Relaunched A World Without Apps](/posts/2023/relaunched-a-wor
 
 Since the World Without Apps site has a [JSON-based RSS feed](https://aworldwithoutapps.com/feed.json){target="_blank"}, there wasn't a lot I had to do to make this work. 
 
-First, I created a data file called [`wwa-posts.js`](https://github.com/johnwargo/johnwargo-static-11ty/blob/main/src/_data/wwa-posts.js){target="_blank"} in this site's `scr/_data` folder that looks like this:
+First, I created a data file called `wwa-posts.js` in this site's `scr/_data` folder that looks like this:
 
 ```js
 'use strict'

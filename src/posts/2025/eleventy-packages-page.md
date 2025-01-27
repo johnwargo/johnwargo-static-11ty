@@ -13,9 +13,9 @@ categories:
 timestamp: 2025-01-04T14:07:55.886Z
 ---
 
-When I migrated this site to [Eleventy (11ty)](https://www.11ty.dev/){target="_blank"} Eleventy last year, one of the reasons I did it was because I wanted to have more control over how my site worked and what features it had.  The previous site ran on [Joomla!](https://www.joomla.org/){target="_blank"}, and I didn't have the PHP skills to tweak and tune the behavior of the site. Eleventy, being JavaScript/Node.js-based, allows me complete control over the site's capabilities and I love it. 
+When I migrated this site to [Eleventy (11ty)](https://11ty.dev/){target="_blank"} Eleventy last year, one of the reasons I did it was because I wanted to have more control over how my site worked and what features it had.  The previous site ran on [Joomla!](https://joomla.org/){target="_blank"}, and I didn't have the PHP skills to tweak and tune the behavior of the site. Eleventy, being JavaScript/Node.js-based, allows me complete control over the site's capabilities and I love it. 
 
-A while back, I started thinking about adding a list of all of my published [npm](https://www.npmjs.com/){target="_blank"} packages. I didn't believe it was critical to list them on the site, but I wanted to figure out how. I created a Eleventy plugin project for this and worked on it for a while, but left it alone for a while. This week I rediscovered the project and started working on it again. 
+A while back, I started thinking about adding a list of all of my published [npm](https://npmjs.com/){target="_blank"} packages. I didn't believe it was critical to list them on the site, but I wanted to figure out how. I created a Eleventy plugin project for this and worked on it for a while, but left it alone for a while. This week I rediscovered the project and started working on it again. 
 
 npm makes it easy to get a package list for a specific publisher (in my case johnwargo) through a public API. As I worked on the plugin, I realized that I didn't need a plugin for this, all I needed was a little bit of JavaScript code.
 
@@ -65,15 +65,15 @@ title: npm Packages
 description: Displays a list of all of my published npm packages.
 ---
 
-<p>As <a href="https://www.npmjs.com/settings/johnwargo/packages" target="_blank">@johnwargo</a>, I published {{
-  packageList.length }} public packages in the <a href="https://www.npmjs.com/" target="_blank">npm Package Repository</a>.
+<p>As <a href="https://npmjs.com/settings/johnwargo/packages" target="_blank">@johnwargo</a>, I published {{
+  packageList.length }} public packages in the <a href="https://npmjs.com/" target="_blank">npm Package Repository</a>.
 </p>
 
 {% if packageList.length > 0 %}
 <table>
   {% tablerow item in packageList cols:2 %}
     <h4>
-      <a href="https://www.npmjs.com/package/{{ item.package.name }}" target="_blank">{{ item.package.name }}</a>
+      <a href="https://npmjs.com/package/{{ item.package.name }}" target="_blank">{{ item.package.name }}</a>
     </h4>
     {% if item.package.description %}
       <p>{{ item.package.description }}</p>

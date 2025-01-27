@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-I've been doing a lot of IoT projects lately; both for work and for personal growth (fun). I want to be a bit more structured in how I secure microcontroller boards, so I've been picking up different packs of spacers, standoffs, screws and so on. I was working on a project where I needed M2 standoffs, so I hopped on Amazon to see if they had something I could use. I found a promising collection of standoffs, screws and nuts in [https://www.amazon.com/gp/product/B013ZWM1F6](https://www.amazon.com/gp/product/B013ZWM1F6){target="_blank"}. I ordered it and it quickly arrived at my door (who doesn't love Amazon Prime?).
+I've been doing a lot of IoT projects lately; both for work and for personal growth (fun). I want to be a bit more structured in how I secure microcontroller boards, so I've been picking up different packs of spacers, standoffs, screws and so on. I was working on a project where I needed M2 standoffs, so I hopped on Amazon to see if they had something I could use. I found a promising collection of standoffs, screws and nuts in [https://amazon.com/gp/product/B013ZWM1F6](https://amazon.com/gp/product/B013ZWM1F6){target="_blank"}. I ordered it and it quickly arrived at my door (who doesn't love Amazon Prime?).
 
 {% image "src/images/2017/amazon-review-1.png", "Figure 1", "image-full" %}
 
@@ -27,11 +27,11 @@ Here's the text so you'll be able to read it:
 
 "Your review could not be posted.
 
-Thanks for submitting a customer review on Amazon. Your review could not be posted to the website in its current form. While we appreciate your time and comments, reviews must adhere to the following guidelines: [https://www.amazon.com/review-guidelines](https://www.amazon.com/review-guidelines).
+Thanks for submitting a customer review on Amazon. Your review could not be posted to the website in its current form. While we appreciate your time and comments, reviews must adhere to the following guidelines: [https://amazon.com/review-guidelines](https://amazon.com/review-guidelines).
 
 We encourage you to revise your review and submit it again. A few common issues to keep in mind:
 
-* Your review should focus on specific features of the product and your experience with it. Feedback on the seller or your shipment experience should be provided at www.amazon.com/feedback.
+* Your review should focus on specific features of the product and your experience with it. Feedback on the seller or your shipment experience should be provided at amazon.com/feedback.
 * We do not allow profane or obscene content. This applies to adult products too.
 * Advertisements, promotional material or repeated posts that make the same point excessively are considered spam.
 * Please do not include URLs external to Amazon or personally identifiable content in your review."

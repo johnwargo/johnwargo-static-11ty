@@ -24,24 +24,24 @@ You can find the project's source code at [https://github.com/johnwargo/Arduino-
 
 The project (as I've implemented it) uses the following required hardware:
 
-* Adafruit Pro Trinket - 3V 12MHz ([https://www.adafruit.com/products/2010](https://www.adafruit.com/products/2010){target="_blank"}).
-* Adafruit Pro Trinket LiIon/LiPoly Backpack Add-On ([https://www.adafruit.com/products/2124](https://www.adafruit.com/products/2124){target="_blank"}).
-* Lithium Ion Polymer Battery - 3.7v 500mAh ([https://www.adafruit.com/products/1578](https://www.adafruit.com/products/1578){target="_blank"}).
+* Adafruit Pro Trinket - 3V 12MHz ([https://adafruit.com/products/2010](https://adafruit.com/products/2010){target="_blank"}).
+* Adafruit Pro Trinket LiIon/LiPoly Backpack Add-On ([https://adafruit.com/products/2124](https://adafruit.com/products/2124){target="_blank"}).
+* Lithium Ion Polymer Battery - 3.7v 500mAh ([https://adafruit.com/products/1578](https://adafruit.com/products/1578){target="_blank"}).
 * Toggle switch; all you need is a SPST switch, but I used a SPDT switch I had lying around.
 * A couple inches of 22 or 24 ga stranded wire.
 
-If you chose to use a different microcontroller, you can replace the Adafruit Pro Trinket LiIon/LiPoly Backpack Add-On, which is purpose built for the Adafruit Pro Trinket, with the USB LiIon/LiPoly charger - v1.2 ([https://www.adafruit.com/products/259](https://www.adafruit.com/products/259){target="_blank"}).
+If you chose to use a different microcontroller, you can replace the Adafruit Pro Trinket LiIon/LiPoly Backpack Add-On, which is purpose built for the Adafruit Pro Trinket, with the USB LiIon/LiPoly charger - v1.2 ([https://adafruit.com/products/259](https://adafruit.com/products/259){target="_blank"}).
 
 For the white LED version, I used the following hardware:
 
-* Ikea ENSIDIG Glass Jar ([https://www.ikea.com/us/en/catalog/products/10239888](https://www.ikea.com/us/en/catalog/products/10239888){target="_blank"}).
-* 2 Ikea SÄRDAL LED light chain with 12 lights ([https://www.ikea.com/us/en/catalog/products/60277514](https://www.ikea.com/us/en/catalog/products/60277514){target="_blank"}).
+* Ikea ENSIDIG Glass Jar ([https://ikea.com/us/en/catalog/products/10239888](https://ikea.com/us/en/catalog/products/10239888){target="_blank"}).
+* 2 Ikea SÄRDAL LED light chain with 12 lights ([https://ikea.com/us/en/catalog/products/60277514](https://ikea.com/us/en/catalog/products/60277514){target="_blank"}).
 
 For the Christmas version, I used the following hardware:
 
 * Small Mason jar
-* Wire Light LED Strand - 12 Green LEDs + Coin Cell Holder ([https://www.adafruit.com/products/896](https://www.adafruit.com/products/896){target="_blank"}).
-* Wire Light LED Strand - 12 Red LEDs + Coin Cell Holder ([https://www.adafruit.com/products/897](https://www.adafruit.com/products/897){target="_blank"}).
+* Wire Light LED Strand - 12 Green LEDs + Coin Cell Holder ([https://adafruit.com/products/896](https://adafruit.com/products/896){target="_blank"}).
+* Wire Light LED Strand - 12 Red LEDs + Coin Cell Holder ([https://adafruit.com/products/897](https://adafruit.com/products/897){target="_blank"}).
 
 The LED strand is smaller for the Christmas version, so I used a smaller jar. A benefit of the mason jar is that you can mount the hardware to the underside of the lid, which makes it easier to turn on/off and charge.
 
@@ -184,8 +184,8 @@ delay(1000);
 
 Make a version of this for different holidays. For example, Adafruit sells white and blue LED strands, so you can easily make a US 4th of July edition of the twinkle lights using the following parts:
 
-* Wire Light LED Strand - 12 Red LEDs + Coin Cell Holder ([https://www.adafruit.com/products/897](https://www.adafruit.com/products/897){target="_blank"}).
-* Wire Light LED Strand - 12 Cool White LEDs + Coin Cell Holder ([https://www.adafruit.com/products/894](https://www.adafruit.com/products/894){target="_blank"}).
-* Wire Light LED Strand - 12 Blue LEDs + Coin Cell Holder ([https://www.adafruit.com/products/895](https://www.adafruit.com/products/895){target="_blank"}).
+* Wire Light LED Strand - 12 Red LEDs + Coin Cell Holder ([https://adafruit.com/products/897](https://adafruit.com/products/897){target="_blank"}).
+* Wire Light LED Strand - 12 Cool White LEDs + Coin Cell Holder ([https://adafruit.com/products/894](https://adafruit.com/products/894){target="_blank"}).
+* Wire Light LED Strand - 12 Blue LEDs + Coin Cell Holder ([https://adafruit.com/products/895](https://adafruit.com/products/895){target="_blank"}).
 
 The code must be adjusted to sequentially fade the light strands – first red, then white, and finally blue, before repeating the series. My code for this implementation can be found at [https://github.com/johnwargo/Arduino-Twinkle-Lights-Array](https://github.com/johnwargo/Arduino-Twinkle-Lights-Array){target="_blank"}.

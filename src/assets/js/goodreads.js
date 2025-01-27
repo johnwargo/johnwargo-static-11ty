@@ -13,7 +13,7 @@ const feedURL = 'https://us-east1-jmw-static-site.cloudfunctions.net/getReadingL
   let content = '<p>';
   if (res.readingList.length > 0) {
     content = (res.readingList.length < 2) ? "The book" : "Books";
-    content += " I'm currently reading (<a href=\"https://www.goodreads.com/user/show/51500942-john-wargo\" target=\"_blank\">according to Goodreads</a>):</p>";
+    content += " I'm currently reading (<a href=\"https://goodreads.com/user/show/51500942-john-wargo\" target=\"_blank\">according to Goodreads</a>):</p>";
     content += "<ul class=\"posts\">";
     content += res.readingList.map(book => {
       let tmpContent = "<li>";

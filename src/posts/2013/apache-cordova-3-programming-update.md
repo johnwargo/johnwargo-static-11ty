@@ -9,7 +9,7 @@ tags: post
 
 {% image "src/images/covers/acp-cover-160.png", "Apache Cordova 3 Programming", "image-full" %}
 
-Apache Cordova 3 Programming is currently available for order from [InformIT](https://www.informit.com/store/apache-cordova-3-programming-9780321957368){target="_blank"}.
+Apache Cordova 3 Programming is currently available for order from [InformIT](https://informit.com/store/apache-cordova-3-programming-9780321957368){target="_blank"}.
 
 Yesterday, Pearson Education released a sample chapter from Apache Cordova 3 Programming. [Click here](https://ptgmedia.pearsoncmg.com/images/9780321957368/samplepages/0321957369.pdf){target="_blank"} to access the chapter.
 

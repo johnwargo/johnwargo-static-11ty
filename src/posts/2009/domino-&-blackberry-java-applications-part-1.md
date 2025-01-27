@@ -9,7 +9,7 @@ tags: post
 
 ## Introduction
 
-When I worked at Research In Motion and after, I've presented at [Lotusphere](https://www.lotusphere.com){target="_blank"} and the [View Domino Developer Conference](https://www.lotusdeveloper2010.com/){target="_blank"} on how to access Domino applications from BlackBerry devices.
+When I worked at Research In Motion and after, I've presented at [Lotusphere](https://lotusphere.com){target="_blank"} and the [View Domino Developer Conference](https://lotusdeveloper2010.com/){target="_blank"} on how to access Domino applications from BlackBerry devices.
 
 Of course, the lead approach was to use the browser to access mobile friendly Domino applications. It's not a very exciting demo though – you take a domino database and scrunch it down so it fits the smaller screen and uses rich media sparingly.
 
@@ -29,7 +29,7 @@ Before we begin, it's important to highlight that Research In Motion has publish
 
 When I first set about learning about how to build Web Services in Domino, there really wasn't much information available. The first I'd heard about it was from some old articles that Gary Devendorf (now at Microsoft, go figure) on how to do web services in ND6 (that's Notes & Domino 6 for the uninitiated). It was quite a mess; you had to build an agent that could read and write XML and had to hand craft the service's WSDL to use with some tools.
 
-With the release of Domino 7, IBM made it much easier to build web services. Ultimately, the way I learned how to create the sample application in this article was from reading this: [https://www.ibm.com/developerworks/lotus/library/nd7-webservices/](https://www.ibm.com/developerworks/lotus/library/nd7-webservices/){target="_blank"}. If you don't know how to do web services in Domino, that's a great place to start reading.
+With the release of Domino 7, IBM made it much easier to build web services. Ultimately, the way I learned how to create the sample application in this article was from reading this: [https://ibm.com/developerworks/lotus/library/nd7-webservices/](https://ibm.com/developerworks/lotus/library/nd7-webservices/){target="_blank"}. If you don't know how to do web services in Domino, that's a great place to start reading.
 
 ## About the Project
 

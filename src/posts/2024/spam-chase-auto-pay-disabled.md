@@ -53,7 +53,7 @@ Looking at the domain registration, it looks like a valid registration - created
 Anyway, testing the link and I get a broken link page with the following content:
 
 ``` html
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://w3.org/TR/html4/strict.dtd">
 <title>Security Error</title>
 <style type="text/css">
 body {
@@ -83,6 +83,6 @@ The big block of code in the `img` tag is the image file displayed on the page.
 
 ## Postscript 
 
-A few days later, I received a very similar email, but this email's links point to [r.mail.mycaptain.in](http://r.mail.mycaptain.in){target="_blank"} with a completely different experience. That domain forwards to [brevo.com/](https://www.brevo.com/){target="_blank"}.
+A few days later, I received a very similar email, but this email's links point to [r.mail.mycaptain.in](http://r.mail.mycaptain.in){target="_blank"} with a completely different experience. That domain forwards to [brevo.com/](https://brevo.com/){target="_blank"}.
 
 Surprisingly, this phishing email has an actual email address as the sender: `sruthi.r@mycaptain.in` - I wonder if that points to the actual person who sent the email? I'm not going to reply to the email, but you can if you want to.

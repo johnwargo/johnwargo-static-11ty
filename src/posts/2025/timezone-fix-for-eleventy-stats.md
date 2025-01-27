@@ -84,7 +84,7 @@ It generated the following error message:
 
 > The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.ts
 
-I code my site in Visual Studio Code, so since I know that code is good code, I could simply add a [`//@ts-ignore`](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-6.html#suppress-errors-in-ts-files-using--ts-ignore-comments){target="_blank"} to the line above the code and the error would go away. I don't like hacks like that, I'd rather fix errors if I can rather than telling the compiler to ignore them. 
+I code my site in Visual Studio Code, so since I know that code is good code, I could simply add a [`//@ts-ignore`](https://typescriptlang.org/docs/handbook/release-notes/typescript-2-6.html#suppress-errors-in-ts-files-using--ts-ignore-comments){target="_blank"} to the line above the code and the error would go away. I don't like hacks like that, I'd rather fix errors if I can rather than telling the compiler to ignore them. 
 
 What I did instead was use the `getTime()` method on the `Date` object to do the subtraction in milliseconds directly:
 

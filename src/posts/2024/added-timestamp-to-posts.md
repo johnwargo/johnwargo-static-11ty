@@ -43,7 +43,7 @@ Originally, the site used something like this to display the post date:
 Posted {{ post.date | readableDate }}        
 {% endhighlight %}
 
-It uses the readableDate filter from the [eleventy-plugin-date](https://www.npmjs.com/package/eleventy-plugin-date){target="_blank"} plugin to format the date for output.
+It uses the readableDate filter from the [eleventy-plugin-date](https://npmjs.com/package/eleventy-plugin-date){target="_blank"} plugin to format the date for output.
 
 **Note:** You may have noticed the name of the filter I listed above - I specifically picked the filter name to align it with the one from the Eleventy date plugin.
 

@@ -8,9 +8,9 @@ categories:
   - Eleventy
 ---
 
-When I created the [Eleventy Generate Posts](https://www.npmjs.com/package/eleventy-generate-posts){target="_blank"} command-line utility, I configured the command to expect all of its configuration parameters on the command-line. I did this thinking it would be simple to use, but weeks later I already forgot which command-line options I needed in what order.
+When I created the [Eleventy Generate Posts](https://npmjs.com/package/eleventy-generate-posts){target="_blank"} command-line utility, I configured the command to expect all of its configuration parameters on the command-line. I did this thinking it would be simple to use, but weeks later I already forgot which command-line options I needed in what order.
 
-I migrated a couple of Wordpress sites to [Eleventy](https://www.11ty.dev/){target="_blank"} using the [wordpress-export-to-markdown](https://www.npmjs.com/package/wordpress-export-to-markdown){target="_blank"} and that utility does an excellent job prompting for all of its configuration options. With that in mind, I decided to do the same thing with my `11ty-gp` utility.
+I migrated a couple of Wordpress sites to [Eleventy](https://11ty.dev/){target="_blank"} using the [wordpress-export-to-markdown](https://npmjs.com/package/wordpress-export-to-markdown){target="_blank"} and that utility does an excellent job prompting for all of its configuration options. With that in mind, I decided to do the same thing with my `11ty-gp` utility.
 
 With this version, just published, you can execute the utility using:
 

@@ -1,5 +1,5 @@
 ---
-title: BlackBerry Developer's Blog
+title: BlackBerry Developer Blog
 description: 
 date: 2009-08-11
 headerImage: 

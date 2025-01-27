@@ -23,7 +23,7 @@ I really enjoyed working on the platform and wish I could do more with it, but i
 
 ## Espruino
 
-Another popular JavaScript hardware platform is [Espruino](https://www.espruino.com/){target="_blank"}. Espruino produces a variety of device formats which gives you a lot of flexibility for different types of projects. 
+Another popular JavaScript hardware platform is [Espruino](https://espruino.com/){target="_blank"}. Espruino produces a variety of device formats which gives you a lot of flexibility for different types of projects. 
 
 Coding for Espruino is easy, you can use their CLI to deploy code to devices just like I described for Tessel above. They also offer a browser-based integrated development environment (IDE) they call the Web IDE. The Web IDE allows you to code your application, then push it directly to devices from the same interface; you simply plug the device in via a USB cable and work iteratively with the device through the browser.
 

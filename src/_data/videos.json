@@ -8,7 +8,7 @@
   {
     "title": "Cross Platform Mobile Development Using Open Source Tools",
     "date": "2013-10-13",
-    "url": "https://www.youtube.com/watch?v=nYHdbvPewu4&list=PLz6r7YssJoKSlZk78GeJdIlLzXcSg4w1d&index=14",
+    "url": "https://youtube.com/watch?v=nYHdbvPewu4&list=PLz6r7YssJoKSlZk78GeJdIlLzXcSg4w1d&index=14",
     "description": "This is a link to a video recording of my Building Mobile Applications using Open Source Frameworks session from NCDevCon 2017. I thought I’d leverage my experience with Cordova and Ionic while at the same time using this opportunity to learn more about NativeScript and React Native. I bit off way, way more than I could cover in my short 50 minute session, but it was fun. I basically built the same application four ways, one for each target I listed above. You'll find the presentation file as an attachment to this article."
   },
   {
@@ -20,31 +20,31 @@
   {
     "title": "Phone Gap Day 2017: Streamline Manual Testing With Cordova Simulate",
     "date": "2017-10-11",
-    "url": "https://www.youtube.com/watch?v=3YEAqB_ujeg&list=PLqoBTl91Z2GFuMzdnTq_OjNgYlCOUcfNj&index=13",
+    "url": "https://youtube.com/watch?v=3YEAqB_ujeg&list=PLqoBTl91Z2GFuMzdnTq_OjNgYlCOUcfNj&index=13",
     "description": "A video recording of my 2017 PhoneGap Day presentation. This was my first, and probably my last, PhoneGap Day presentation. I presented a session on how to implement better Cordova plugin testing using Cordova Simulate.  I published a Cordova blog article on the topic as well."
   },
   {
     "title": "ReactiveConf 2017 Session",
     "date": "2017-10-25",
-    "url": "https://www.youtube.com/watch?v=X9iqnovPGyY&t=21280s",
+    "url": "https://youtube.com/watch?v=X9iqnovPGyY&t=21280s",
     "description": "For ReactiveConf 2017, I was scheduled to deliver one session, but ended up delivering two on the first conference day. Conference presentations are delivered on two stages, the link here is for the main stage on conference day one. My session was late in the afternoon (at 2 or 3, I can't remember) and demonstrated how to use Visual Studio Mobile Center CodePush capabilities to deliver A/B testing for React Native applications. I also did a quick 4 minute (literally) lightning talk on how to use a new feature of Visual Studio Code to apply the TypeScript compiler to a JavaScript file."
   },
   {
     "title": "ReactiveConf 2017: The State of Mobile Development",
     "date": "2017-10-26",
-    "url": "https://www.youtube.com/watch?v=DrHx9ei_-2o",
+    "url": "https://youtube.com/watch?v=DrHx9ei_-2o",
     "description": "During ReactiveConf 2017, the conference organizers asked me if I'd be willing to deliver an additional session. I brainstormed (with myself) for a few minutes, then came up with a session on the state of mobile development. In this 30 minute session, I talk a bit about mobile development approaches, then wrap up with where mobile development is going."
   },
   {
     "title": "ReactiveConf 2017: Inspiration talks",
     "date": "2017-10-27",
-    "url": "https://www.youtube.com/watch?v=ivCI2YJPCDQ",
+    "url": "https://youtube.com/watch?v=ivCI2YJPCDQ",
     "description": "While presenting at ReactiveConf 2017, the organizers asked me to participate in a panel discussion during the conference's Festival day at a local university. In this session, several presenters discussed how we got into software development and what inspired us."
   },
   {
     "title": "Oracle Database Service for Azure, the easiest way to use OCI Databases for your Azure Application",
     "date": "2022-08-03",
-    "url": "https://www.youtube.com/watch?v=HiJLZxUZk5A",
+    "url": "https://youtube.com/watch?v=HiJLZxUZk5A",
     "description": "In July, 2022 Oracle released the Oracle Database Service for Azure and I'm the PM for the product. This video is a recording of an announcement webinar I participated in. I delivered the product demo in the middle of the session."
   }
 ]

@@ -11,8 +11,8 @@ A few weeks ago, I presented a session at the [NCDevCon](https://ncdevcon.com){t
 
 Anyway, for my presentation, I decided to present on *Building Mobile Applications using Open Source Frameworks*. I thought I'd leverage my experience with Cordova and Ionic while at the same time using this opportunity to learn more about NativeScript and React Native. I bit off way, way more than I could cover in my short 50 minute session, but it was fun. I basically built the same application four ways, one for each target I listed above. You'll find the presentation file as an attachment to this article.  
 
-You can find the project source code I demonstrated on [Github](https://github.com/johnwargo/NCDevCon-2017){target="_blank"}. I posted the slide deck at slideshare.net, but I can't find it there anymore. I'll update the link tomorrow and update this blog. Finally, a video of the presentation can be found on the conference's [YouTube Page](https://www.youtube.com/watch?v=nYHdbvPewu4&index=13&list=PLz6r7YssJoKSlZk78GeJdIlLzXcSg4w1d){target="_blank"}.
+You can find the project source code I demonstrated on [Github](https://github.com/johnwargo/NCDevCon-2017){target="_blank"}. I posted the slide deck at slideshare.net, but I can't find it there anymore. I'll update the link tomorrow and update this blog. Finally, a video of the presentation can be found on the conference's [YouTube Page](https://youtube.com/watch?v=nYHdbvPewu4&index=13&list=PLz6r7YssJoKSlZk78GeJdIlLzXcSg4w1d){target="_blank"}.
 
 Don't laugh too hard as you watch me try to stuff two hours of presentation materials into 50 minutes. Next year I'll make sure to pick a topic I can easily cover in the allotted time.
 
-https://www.youtube.com/watch?v=nYHdbvPewu4
+https://youtube.com/watch?v=nYHdbvPewu4

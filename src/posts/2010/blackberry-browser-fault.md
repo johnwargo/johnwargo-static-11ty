@@ -1,5 +1,5 @@
 ---
-title: It's the BlackBerry Browser's Fault
+title: It is the BlackBerry Browser's Fault
 description: 
 date: 2010-11-18
 headerImage: 

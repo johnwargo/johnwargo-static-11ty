@@ -25,11 +25,11 @@ The hardware for the project is pretty simple, all you need is a Pi, the Unicorn
 
 For this project, I used the following components:
 
-* [Raspberry Pi](https://www.raspberrypi.org){target="_blank"}. The Pimoroni Unicorn HAT supports Raspberry Pi models 3, 2, B+, and A+, so you'll have to pick one of them. For this project I used a Raspberry Pi 2 Model B.
-* Micro SD memory card (4 GB or higher) to hold Raspbian, the Raspberry Pi OS ([https://www.raspberrypi.org/downloads/raspbian](https://www.raspberrypi.org/downloads/raspbian){target="_blank"}).
-* [Pimoroni Unicorn HAT](https://shop.pimoroni.com/products/unicorn-hat). I purchased mine from Adafruit ([https://www.adafruit.com/products/2288](https://www.adafruit.com/products/2288){target="_blank"}).
-* Raspberry Pi Power Supply. Any Pi compatible power supply will work, I used the CanaKit 5V 2.5A Raspberry Pi 3 Power Supply / Adapter / Charger ([https://www.amazon.com/CanaKit-Raspberry-Supply-Adapter-Charger/dp/B00MARDJZ4](https://www.amazon.com/CanaKit-Raspberry-Supply-Adapter-Charger/dp/B00MARDJZ4){target="_blank"}).
-* Raspberry Pi case. Again, you can use whatever case you want, I selected the Adafruit Raspberry Pi B+ / Pi 2 / Pi 3 Case - Smoke Base - w/ Clear Top ([https://www.adafruit.com/products/2258](https://www.adafruit.com/products/2258){target="_blank"}). I picked this one because it had a clear front, so the lights would show clearly even with the top on, and because it looked cool.
+* [Raspberry Pi](https://raspberrypi.org){target="_blank"}. The Pimoroni Unicorn HAT supports Raspberry Pi models 3, 2, B+, and A+, so you'll have to pick one of them. For this project I used a Raspberry Pi 2 Model B.
+* Micro SD memory card (4 GB or higher) to hold Raspbian, the Raspberry Pi OS ([https://raspberrypi.org/downloads/raspbian](https://raspberrypi.org/downloads/raspbian){target="_blank"}).
+* [Pimoroni Unicorn HAT](https://shop.pimoroni.com/products/unicorn-hat). I purchased mine from Adafruit ([https://adafruit.com/products/2288](https://adafruit.com/products/2288){target="_blank"}).
+* Raspberry Pi Power Supply. Any Pi compatible power supply will work, I used the CanaKit 5V 2.5A Raspberry Pi 3 Power Supply / Adapter / Charger ([https://amazon.com/CanaKit-Raspberry-Supply-Adapter-Charger/dp/B00MARDJZ4](https://amazon.com/CanaKit-Raspberry-Supply-Adapter-Charger/dp/B00MARDJZ4){target="_blank"}).
+* Raspberry Pi case. Again, you can use whatever case you want, I selected the Adafruit Raspberry Pi B+ / Pi 2 / Pi 3 Case - Smoke Base - w/ Clear Top ([https://adafruit.com/products/2258](https://adafruit.com/products/2258){target="_blank"}). I picked this one because it had a clear front, so the lights would show clearly even with the top on, and because it looked cool.
 
 ## Assembling the Hardware
 
@@ -48,7 +48,7 @@ With the HAT properly positioned, push down gently to seat the board securely on
 {% image "src/images/2016/pi-reminder-03_1.jpg", "Completed HAT installation", "image-full" %}
 Figure 3 – Completed HAT installation
 
-Right now, the HAT is floating free over the Pi, connected only through the header pins. Since the whole contraption will be sealed in a case, I didn't feel the need to mount the HAT any more securely, but you may want to. Adafruit sells a set of spacers ([https://www.adafruit.com/products/2336](https://www.adafruit.com/products/2336){target="_blank"}) you can use to secure the other side of the HAT against the Pi.
+Right now, the HAT is floating free over the Pi, connected only through the header pins. Since the whole contraption will be sealed in a case, I didn't feel the need to mount the HAT any more securely, but you may want to. Adafruit sells a set of spacers ([https://adafruit.com/products/2336](https://adafruit.com/products/2336){target="_blank"}) you can use to secure the other side of the HAT against the Pi.
 
 Next, install the Pi and HAT in the case as shown in Figure 4, then attach the cover (not shown).
 
@@ -62,7 +62,7 @@ Figure 5 – Hardware Installation Completed
 
 ## Setting Up the Raspberry Pi
 
-The Raspberry PI needs an OS to boot, so grab Micro SD card then follow the instructions at [https://www.raspberrypi.org/documentation/installation/installing-images/README.md](https://www.raspberrypi.org/documentation/installation/installing-images/README.md){target="_blank"} to download and install the OS on the SD card. Once that's completed, insert the SD card in the Pi.
+The Raspberry PI needs an OS to boot, so grab Micro SD card then follow the instructions at [https://raspberrypi.org/documentation/installation/installing-images/README.md](https://raspberrypi.org/documentation/installation/installing-images/README.md){target="_blank"} to download and install the OS on the SD card. Once that's completed, insert the SD card in the Pi.
 
 At this point, you're ready to power up the Pi. Turn on your monitor then plug the power supply into a power outlet and the Micro USB port on the Pi (upper right corner of the Pi shown in Figure 5). You have a few steps to perform. The first step is to configure some system-wide settings on the Raspberry Pi. You could get away without doing this, but you may run into problems later if you don't compete these steps. To start, open the Raspberry menu in the upper left corner of the Pi screen. In the menu that appears, select Preferences then select Raspberry Pi Configuration as shown in Figure 6.
 
@@ -96,7 +96,7 @@ sudo apt-get upgrade
 
 This updates the Raspbian OS and associated programs to the latest version. This process will take quite a while, but the benefit is that at the end of the process, your Pi is running the latest and greatest supported version of all apps and code for the device.
 
-Note: When it comes to writing code, the Raspberry Pi is too slow and the available screen resolution is too small for me to work effectively. For that reason, I prefer to code on my desktop and upload the code to the Pi for testing. I coded the Python app for this project using the [PyCharm IDE](https://www.jetbrains.com/pycharm){target="_blank"}. The commercial version of the IDE enables me to remotely deploy the app to the pi device; you can read how I did it here: [https://johnwargo.com/index.php/microcontrollers-single-board-computers/webstorm-development-on-the-raspberry-pi.html](https://johnwargo.com/index.php/microcontrollers-single-board-computers/webstorm-development-on-the-raspberry-pi.html){target="_blank"}. In order to be able to push code updates to the Pi, you'll need to figure out the Pi's IP address, the referenced article has instructions on how to do so. To simplify this on your home network, you may want to set a static IP address on the Pi so the IP address won't change if you switch routers or network providers.
+Note: When it comes to writing code, the Raspberry Pi is too slow and the available screen resolution is too small for me to work effectively. For that reason, I prefer to code on my desktop and upload the code to the Pi for testing. I coded the Python app for this project using the [PyCharm IDE](https://jetbrains.com/pycharm){target="_blank"}. The commercial version of the IDE enables me to remotely deploy the app to the pi device; you can read how I did it here: [WebStorm Development on the Raspberry Pi](/posts/2016/webstorm-development-on-the-raspberry-pi/){target="_blank"}. In order to be able to push code updates to the Pi, you'll need to figure out the Pi's IP address, the referenced article has instructions on how to do so. To simplify this on your home network, you may want to set a static IP address on the Pi so the IP address won't change if you switch routers or network providers.
 
 ## Installing Required Python Modules
 
@@ -130,7 +130,7 @@ cd pi_remind
 wget https://github.com/johnwargo/pi_remind/archive/master.zip   unzip -j master.zip
 ```
 
-This creates a folder for the project's code then pulls down the files and extracts the files to the folder. When everything finishes, you should see a file called remind.py (along with some other files) in the folder. Make note of the folder location you used for the project files, you'll need the folder path later.
+This creates a folder for the project's code then pulls down the files and extracts the files to the folder. When everything finishes, you should see a file called `remind.py` (along with some other files) in the folder. Make note of the folder location you used for the project files, you'll need the folder path later.
 
 ## Configuring Access to Google Calendar
 
@@ -193,7 +193,7 @@ Figure 14 – Pi Reminder Checking for Appointments
 
 ## Configuring Auto Startup
 
-There are a few steps you must complete to configure the Raspberry Pi so it executes the the remind app on startup. You can read more about this here: [Autostart Python App on Raspberry Pi in a Terminal Window](https://johnwargo.com/index.php/microcontrollers-single-board-computers/autostart-python-app-on-raspberry-pi-in-a-terminal-window.html)Executing the Reminder Code for the First Time.
+There are a few steps you must complete to configure the Raspberry Pi so it executes the the remind app on startup. You can read more about this here: [Autostart Python App on Raspberry Pi in a Terminal Window](/posts/2016/autostart-python-app-on-raspberry-pi-in-a-terminal-window/) Executing the Reminder Code for the First Time.
 
 Note: Don't forget to authorize the Google Calendar API to access your Google Calendar by running the manual startup process described in the previous session before enabling autostart.
 

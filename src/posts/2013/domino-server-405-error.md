@@ -7,13 +7,13 @@ categories: [IBM Lotus Domino]
 tags: post
 ---
 
-I'm trying to wrap up an article series for The View (www.eview.com) on developing Sencha Touch applications for IBM Lotus Domino and ran into a problem that I can't seem to find a solution for – can you help me out? Please?
+I'm trying to wrap up an article series for [The View](https://eview.com) on developing Sencha Touch applications for IBM Lotus Domino and ran into a problem that I can't seem to find a solution for – can you help me out? Please?
 
-I've created a simple competitive information database in Notes and exposed it to mobile devices using several methods. I first built a Rhodes application (www.rhomobile.com) that synchronized data with the Domino server and wrote a series of articles about it. You can see a sample screen shot of the Rhodes application in Figure 1.
+I've created a simple competitive information database in Notes and exposed it to mobile devices using several methods. I first built a Rhodes application (https://rhomobile.com) that synchronized data with the Domino server and wrote a series of articles about it. You can see a sample screen shot of the Rhodes application in Figure 1.
 
 {% image "src/images/2013/domino-405-error-1.png", "Figure 1", "image-full" %}
 
-Next I did the same thing using Sencha Touch (www.sencha.com); you can see the application in Figure 2.
+Next I did the same thing using Sencha Touch (sencha.com); you can see the application in Figure 2.
 
 {% image "src/images/2013/domino-405-error-2.png", "Figure 2", "image-full" %}
 

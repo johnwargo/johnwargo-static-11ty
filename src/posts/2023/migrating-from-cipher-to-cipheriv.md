@@ -103,7 +103,7 @@ Again, this isn't a heavily hacked app, so I'm secure including the iv in the pa
 Decrypting the data looks like this:
 
 ```ts
-// https://www.java2s.com/example/nodejs/string/convert-hex-string-to-byte-array.html
+// https://java2s.com/example/nodejs/string/convert-hex-string-to-byte-array.html
 function hexStringToByteArray(hexString: String): Uint8Array {
   if (hexString.length % 2 !== 0) {
       throw "Must have an even number of hex digits to convert to bytes";
@@ -128,7 +128,7 @@ decrypted += decipher.final("utf8");
 const reqData = JSON.parse(decrypted);
 ```
 
-The first thing the code has to do is extract the iv from the URL. Since it's 16 bytes of hex, that means its 32 bytes of string, so the code pulls the first 32 bytes off of the content then converts it to a byte array using `hexStringToByteArray` I found at [java2s.com](https://www.java2s.com/example/nodejs/string/convert-hex-string-to-byte-array.html){target="_blank"}.
+The first thing the code has to do is extract the iv from the URL. Since it's 16 bytes of hex, that means its 32 bytes of string, so the code pulls the first 32 bytes off of the content then converts it to a byte array using `hexStringToByteArray` I found at [java2s.com](https://java2s.com/example/nodejs/string/convert-hex-string-to-byte-array.html){target="_blank"}.
 
 The data to be decrypted is the rest of the data from the URL (starting at byte 32 through the end of the string).
 

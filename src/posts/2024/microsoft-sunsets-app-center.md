@@ -12,7 +12,7 @@ categories:
 
 Back in 2017, I had an opportunity to work on the Visual Studio documentation as a contractor. I was trying to find full time work, but jumped at the opportunity to write some docs for Visual Studio. I wrote/updated most of the docs for Visual Studio Tools for Apache Cordova (TACO) and since I had multiple books under my belt about Apache Cordova, I was a perfect fit.
 
- It was supposed to be a contract to hire opportunity, but that didn't work out so I went and did something else for a while. A few months later, I found an opportunity on the Visual Studio App Center (https://visualstudio.microsoft.com/app-center/) team. App Center was Mobile DevOps in the cloud and it was an amazing product. You can read about the launch [here](https://johnwargo.com/posts/2017/visual-studio-app-center-launched-today/).
+ It was supposed to be a contract to hire opportunity, but that didn't work out so I went and did something else for a while. A few months later, I found an opportunity on the Visual Studio App Center (https://visualstudio.microsoft.com/app-center/) team. App Center was Mobile DevOps in the cloud and it was an amazing product. You can read about the launch [here](/posts/2017/visual-studio-app-center-launched-today/).
 
  One of the most important and interesting (for me anyway) parts of App Center was CodePush, a platform that allowed over the air (OTA) updates to Cordova and React Native applications.
 
