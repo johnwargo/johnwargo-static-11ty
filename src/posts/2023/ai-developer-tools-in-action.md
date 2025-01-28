@@ -11,7 +11,7 @@ categories:
 
 **Note:** This article cross-posted from [A World Without Apps](https://aworldwithoutapps.com/posts/2023/ai-developer-tools-in-action/){target="_blank"}.
 
-A while back, I created a plugin for Eleventy web sites; [Eleventy](https://11ty.dev/){target="_blank"} is a static site generator I use for this site and [several others](/about/sites/){target="_blank"}. The plugin calculates some simple statistics from the articles in the site, you can see the plugin in action on [johnwargo.com](h/about/statistics/){target="_blank"}. 
+A while back, I created a plugin for Eleventy web sites; [Eleventy](https://11ty.dev/){target="_blank"} is a static site generator I use for this site and [several others](/about/sites/){target="_blank"}. The plugin calculates some simple statistics from the articles in the site, you can see the plugin in action on [johnwargo.com](/about/statistics/){target="_blank"}. 
 
 One of the features I've been wanting to add to the plugin is article word, paragraph, and code block counts. My wife is out of town this weekend and my kids work, so I have some extra time this weekend to work on this. I've been a little nervous about these new features because I know I need to use Regular Expressions (RegEx) and I'm not an expert in Regular Expressions. Since the project is open source, free to use by anybody, I knew that my code could get some scrutiny so I wanted to write clean and efficient code.
 

@@ -13,7 +13,7 @@ categories:
 
 The Categories list on this site is getting pretty long, so one of the things I wanted to do this weekend was migrate the Unordered List (`<ul></ul>`) the site used today into a two column table. I asked Bard and it generated relatively useless code for me; after three tries I finally got something that looked like it would work, but didn't. 
 
-As I poked around in the Liquid docs, I noticed that Liquid has a [https://shopify.github.io/liquid/tags/iteration/](`tablerow`){target="_blank"} tag I could use for this. Basically you give it a collection and number of columns and it automatically generates columns for you. 
+As I poked around in the Liquid docs, I noticed that Liquid has a [`tablerow`](https://shopify.github.io/liquid/tags/iteration/){target="_blank"} tag I could use for this. Basically you give it a collection and number of columns and it automatically generates columns for you. 
 
 {% highlight liquid %}
 <table>
