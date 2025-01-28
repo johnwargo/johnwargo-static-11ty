@@ -1,0 +1,44 @@
+---
+layout: generic
+title: Articles by Year
+description: All posts by year in reverse chronological order.
+headerImage: /images/headers/header-articles.jpg
+headerImageAltText: An image of a stack of magazines
+headerImageAttribution: Photo by <a href="https://unsplash.com/@bk71">Bernd Klutsch</a> on <a href="https://unsplash.com/photos/nE2HV5AUXFo">Unsplash</a>
+---
+
+// all years as a list
+// posts per year count if you can do it
+// build year list based on stats data.
+// add filter to get posts per year sorted
+
+<p>I added this section mostly for me; I often look for a specific post and having them grouped by year helps me.</p>
+
+<ul class="posts">
+  {% for post in posts %}
+    <li>
+      <h4>
+        <a href="{{post.url}}" style="cursor: pointer">{{ post.data.title }}</a>
+      </h4>
+      Posted {%- if post.data.timestamp %}
+        {{ post.data.timestamp | readableTimestamp }}
+        {%- else %}
+        {{ post.date | readableDate }}
+        {%- endif %}&nbsp;
+      {% if post.data.categories.length > 0 %}
+        in
+        {% for cat in post.data.categories %}
+          <a href="/categories/{{ cat | slugify }}">{{ cat }}</a>
+          {%- unless forloop.last %},
+          {% endunless %}
+        {% endfor %}
+      {% endif %}
+      <br/>
+      {% if post.data.description %}
+        {% include 'generated.html' %}
+      {% else %}
+        {% excerpt post %}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
