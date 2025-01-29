@@ -177,7 +177,7 @@
   },
   {
     "category": "Phishing",
-    "count": 9,
+    "count": 10,
     "description": "Articles describing Phishing attacks I've seen or received.",
     "imageFilePath": "/images/headers/header-phishing.png",
     "imageAltText": "Image of a fishing hook lifting an email envelope",
