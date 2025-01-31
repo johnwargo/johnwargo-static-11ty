@@ -29,7 +29,7 @@ module.exports = eleventyConfig => {
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(syntaxHighlight);
-	
+
 	const apiKey = process.env.GITHUB_API_KEY;
 	eleventyConfig.addPlugin(githubRepos, { userAccount: 'johnwargo', apiKey });
 	eleventyConfig.addPlugin(pluginGallery);
@@ -152,6 +152,10 @@ module.exports = eleventyConfig => {
 			day: 'numeric'
 		};
 		return theDate.toLocaleDateString(locale, options);
+	});
+
+	eleventyConfig.addFilter('postsForYear', (posts, year) => {
+		return posts.filter(post => new Date(post.date).getFullYear() === year);
 	});
 
 	eleventyConfig.addFilter('readableTimestamp', function (dateVal, locale = 'en-us') {
