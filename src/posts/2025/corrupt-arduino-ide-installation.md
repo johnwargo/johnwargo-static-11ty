@@ -13,6 +13,7 @@ headerImage: null
 headerImageAltText: null
 headerImageAttribution: null
 categories:
+  - Arduino
   - Internet of Things (IoT)
 timestamp: 2025-01-11T13:57:18.087Z
 generatedDescription: true
