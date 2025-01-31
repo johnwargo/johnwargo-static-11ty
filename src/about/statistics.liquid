@@ -114,13 +114,17 @@ title: Site Statistics
   <div id="statsChart1"></div>
   <div id="statsChart2"></div>
   <div id="statsChart3"></div>
+  <div id="statsChart4"></div>
 {%- else %}
 <p><strong>No data to display</strong></p>
 {%- endif %}
 
 <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-<script>
-  // Posts per month heat map
+
+//==========================================
+// Posts per month heat map
+//==========================================
+<script>  
   var chartHeight = 50 * {{ collections.postStats.years.length }};
   var options = {
     series: [{% for year in collections.postStats.years %}
@@ -138,7 +142,31 @@ title: Site Statistics
   var chart0 = new ApexCharts(document.querySelector("#heatmap"), options);
   chart0.render();
 
+  //==========================================
+  // Posts line graph
+  //==========================================
+  {% assign post_counter = 0 %}
   var options1 = {
+    chart: { type: 'line' },
+    title: { text: 'Total Post Count by Year' },
+    series: [{
+        type: 'column',
+        name: 'Number of Posts',
+        data: [{% for year in collections.postStats.years %}{% assign year_count = year.postCount | plus: 0 %}{% assign post_counter = post_counter | plus: year_count %}{{ post_counter }}{%- unless forloop.last -%}, {% endunless %}{% endfor %}] 
+      }],
+    dataLabels: { enabled: true, enabledOnSeries: [0, 1] },
+    stroke: { curve: 'smooth' },
+    xaxis: {
+      categories: [{% for year in collections.postStats.years %}'{{ year.year }}'{%- unless forloop.last -%}, {% endunless %}{% endfor %}]
+    }
+  }
+  var chart1 = new ApexCharts(document.querySelector("#statsChart1"), options1);
+  chart1.render();
+
+  //==========================================
+  // Posts stats 0
+  //==========================================
+  var options2 = {
     chart: { type: 'line' },
     title: { text: 'Post Count & Frequency' },
     series: [
@@ -169,10 +197,13 @@ title: Site Statistics
       categories: [{% for year in collections.postStats.years %}'{{ year.year }}'{%- unless forloop.last -%}, {% endunless %}{% endfor %}]
     }
   }
-  var chart1 = new ApexCharts(document.querySelector("#statsChart1"), options1);
-  chart1.render();
+  var chart2 = new ApexCharts(document.querySelector("#statsChart2"), options2);
+  chart2.render();
 
-  var options2 = {
+  //==========================================
+  // Posts stats 1
+  //==========================================
+  var options3 = {
     chart: { type: 'line' },
     title: { text: 'Content Stats (Part 1)' },
     series: [
@@ -195,10 +226,13 @@ title: Site Statistics
       categories: [{% for year in collections.postStats.years %}'{{ year.year }}'{%- unless forloop.last -%}, {% endunless %}{% endfor %}]
     }
   }
-  var chart2 = new ApexCharts(document.querySelector("#statsChart2"), options2);
-  chart2.render();
+  var chart3 = new ApexCharts(document.querySelector("#statsChart3"), options3);
+  chart3.render();
 
-  var options3 = {
+  //==========================================
+  // Posts stats 2
+  //==========================================
+  var options4 = {
     chart: { type: 'line' },
     title: { text: 'Content Stats (Part 2)' },
     series: [
@@ -221,8 +255,8 @@ title: Site Statistics
       categories: [{% for year in collections.postStats.years %} '{{ year.year }}'{%- unless forloop.last -%}, {% endunless %}{% endfor %}]
     }
   }
-  var chart3 = new ApexCharts(document.querySelector("#statsChart3"), options3);
-  chart3.render();
+  var chart4 = new ApexCharts(document.querySelector("#statsChart4"), options4);
+  chart4.render();
 
 </script>
 <script src="{{ " /" | htmlBaseUrl }}assets/js/google-analytics.js"></script>

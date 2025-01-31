@@ -9,7 +9,7 @@
   },
   {
     "category": "Arduino",
-    "count": 17,
+    "count": 18,
     "description": "Articles related to lessons learned or projects built using Arduino devices or Arduino-compatible devices.",
     "imageFilePath": "/images/headers/header-arduino.jpg",
     "imageAltText": "An image of an arduino device and other electronic components",
