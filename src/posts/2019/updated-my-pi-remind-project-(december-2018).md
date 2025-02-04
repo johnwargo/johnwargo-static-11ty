@@ -3,7 +3,9 @@ title: Updated My Pi Remind Project (December, 2018)
 description: 
 date: 2019-01-13
 headerImage: 
-categories: [Internet of Things (IoT)]
+categories: 
+  - Raspberry Pi
+  - Internet of Things (IoT)
 tags: post
 ---
 

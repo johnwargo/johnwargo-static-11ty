@@ -3,7 +3,9 @@ title: Give Me a Library, Please
 description: Expressing my frustration at hardware vendors that provide sample apps but not libraries.
 date: 2017-07-17
 headerImage: 
-categories: [Miscellaneous]
+categories: 
+  - Raspberry Pi
+  - Internet of Things (IoT)
 tags: post
 ---
 

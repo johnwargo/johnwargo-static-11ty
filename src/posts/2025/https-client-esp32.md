@@ -1,5 +1,5 @@
 ---
-title: Arduino ESP32 Connect Using HTTPS
+title: ESP32 Connect Using HTTPS
 description: 
 date: 2025-01-22
 showCoffee: true
@@ -14,10 +14,10 @@ timestamp: 2025-01-22T12:02:56.022Z
 
 As I described in my previous post, I'm working on a project where I'm using an [M5Stack](https://m5stack.com/){target="_blank"} device to interact with a Google Firebase Function I have running in the cloud. As I started planning my project's code, I realized that the SSL (HTTPS) requirement Firebase Functions forces on applications would be a problem for me.
 
-Initially, I panicked a bit thinking that using HTTPS connections on an Arduino compatible device would be painful. I knew I'd have to manage certificates in my sketch and I wasn't looking forward to embedding certificates in my code and troubleshooting connection issues. It turns out the process is not that bad, so I decided to build a sample project, publish to [GitHub](https://github.com/johnwargo/arduino-https-client-example){target="_blank"} and describe it here. 
+Initially, I panicked a bit thinking that using HTTPS connections on an Arduino compatible device would be painful. I knew I'd have to manage certificates in my sketch and I wasn't looking forward to embedding certificates in my code and troubleshooting connection issues. It turns out the process is not that bad, so I decided to build a sample project, publish to [GitHub](https://github.com/johnwargo/https-client-esp32){target="_blank"} and describe it here. 
 
 {% sidebar "Code Available on GitHub" %}
-You'll find all of the code for this project at <a href="https://github.com/johnwargo/arduino-https-client-example" target="_blank">Arduino HTTPS Client Example</a>.
+You'll find all of the code for this project at <a href="https://github.com/johnwargo/https-client-esp32" target="_blank">Arduino HTTPS Client Example</a>.
 {% endsidebar %}
 
 ## The Goal

@@ -13,6 +13,7 @@ headerImageAltText: null
 headerImageAttribution: null
 categories:
   - ESP32
+  - Raspberry Pi
   - Internet of Things (IoT)
   - Web Development
 timestamp: 2025-01-21T00:59:48.693Z

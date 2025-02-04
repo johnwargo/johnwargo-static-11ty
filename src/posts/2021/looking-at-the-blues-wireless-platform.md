@@ -3,7 +3,8 @@ title: Looking at the Blues Wireless Platform
 description: I discovered the Blues Wireless platform and started playing around with it. A conference buddy went to work there and he hooked me up with some devices. Its a low power consumption data collection platform (essentially) with ten years of data. This post describes my initial impressions of the platform.
 date: 2021-10-10
 headerImage: 
-categories: [Internet of Things (IoT)]
+categories: 
+  - Internet of Things (IoT)
 tags: post
 ---
 

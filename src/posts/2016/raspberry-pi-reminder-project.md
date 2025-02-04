@@ -3,7 +3,9 @@ title: Raspberry Pi Reminder Project
 description: Describes my Raspberry Pi Reminder project
 date: 2016-09-29
 headerImage: 
-categories: [Internet of Things (IoT)]
+categories: 
+  - Raspberry Pi
+  - Internet of Things (IoT)
 tags: post
 ---
 

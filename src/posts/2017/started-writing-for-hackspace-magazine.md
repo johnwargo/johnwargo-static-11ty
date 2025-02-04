@@ -3,7 +3,9 @@ title: Started Writing for HackSpace Magazine
 description: Announcing that I started writing a series of articles for HackSpace magazine.
 date: 2017-11-27
 headerImage: 
-categories: [Internet of Things (IoT)]
+categories: 
+  - Raspberry Pi
+  - Internet of Things (IoT)
 tags: post
 ---
 

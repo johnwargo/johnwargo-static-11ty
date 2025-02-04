@@ -3,7 +3,9 @@ title: Raspberry Pi Reminder App
 description: 
 date: 2016-06-16
 headerImage: 
-categories: [Internet of Things (IoT)]
+categories: 
+  - Raspberry Pi
+  - Internet of Things (IoT)
 tags: post
 ---
 

@@ -3,7 +3,9 @@ title: Using the Seeed Studio Raspberry Pi Relay Board
 description: 
 date: 2017-02-15
 headerImage: 
-categories: [Internet of Things (IoT)]
+categories: 
+  - Raspberry Pi
+  - Internet of Things (IoT)
 tags: post
 ---
 

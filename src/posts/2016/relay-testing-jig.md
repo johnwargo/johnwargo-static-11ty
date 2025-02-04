@@ -3,7 +3,9 @@ title: Relay Testing Jig
 description: 
 date: 2016-06-21
 headerImage: 
-categories: [Internet of Things (IoT)]
+categories: 
+  - Raspberry Pi
+  - Internet of Things (IoT)
 tags: post
 ---
 

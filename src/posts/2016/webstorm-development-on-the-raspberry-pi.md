@@ -3,7 +3,9 @@ title: WebStorm Development on the Raspberry Pi
 description: Doing web development on the Raspberry Pi using WebStorm
 date: 2016-02-10
 headerImage: 
-categories: [Internet of Things (IoT)]
+categories: 
+  - Raspberry Pi
+  - Internet of Things (IoT)
 tags: post
 ---
 

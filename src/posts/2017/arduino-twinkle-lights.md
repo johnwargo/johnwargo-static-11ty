@@ -4,8 +4,9 @@ description:
 date: 2017-01-14
 headerImage: 
 categories: 
-  - Internet of Things (IoT)
   - Arduino
+  - Raspberry Pi
+  - Internet of Things (IoT)
 tags: post
 ---
 

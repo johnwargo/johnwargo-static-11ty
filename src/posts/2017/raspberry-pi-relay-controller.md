@@ -3,7 +3,9 @@ title: Raspberry Pi Relay Controller
 description: 
 date: 2017-03-07
 headerImage: 
-categories: [Internet of Things (IoT)]
+categories: 
+  - Raspberry Pi
+  - Internet of Things (IoT)
 tags: post
 ---
 

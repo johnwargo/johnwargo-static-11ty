@@ -9,6 +9,7 @@ headerImageAttribution:
 categories:
   - Arduino
   - ESP32
+  - Raspberry Pi
   - Internet of Things (IoT)
 ---
 

@@ -3,7 +3,9 @@ title: PyMongo & Google Charts Data Tables
 description: 
 date: 2016-07-21
 headerImage: 
-categories: [Miscellaneous]
+categories: 
+  - Raspberry Pi
+  - Internet of Things (IoT)
 tags: post
 ---
 

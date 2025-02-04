@@ -3,7 +3,9 @@ title: First Arduino Project
 description: Describes my first Arduino project, something I built with my son. 
 date: 2014-03-16
 headerImage: 
-categories: [Internet of Things (IoT)]
+categories: 
+  - Raspberry Pi
+  - Internet of Things (IoT)
 tags: post
 ---
 

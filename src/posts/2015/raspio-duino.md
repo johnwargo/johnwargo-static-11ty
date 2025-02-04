@@ -3,7 +3,9 @@ title: RasPiO Duino
 description: 
 date: 2015-08-16
 headerImage: 
-categories: [Internet of Things (IoT)]
+categories: 
+  - Raspberry Pi
+  - Internet of Things (IoT)
 tags: post
 ---
 

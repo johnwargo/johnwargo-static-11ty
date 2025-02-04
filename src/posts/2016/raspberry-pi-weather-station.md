@@ -3,7 +3,9 @@ title: Raspberry Pi Weather Station
 description: 
 date: 2016-12-17
 headerImage: 
-categories: [Internet of Things (IoT)]
+categories: 
+  - Raspberry Pi
+  - Internet of Things (IoT)
 tags: post
 ---
 

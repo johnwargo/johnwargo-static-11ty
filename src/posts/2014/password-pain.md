@@ -3,7 +3,9 @@ title: Password Pain
 description: Describes some weird password requirements to use Google Coder on a Raspberry Pi.
 date: 2014-02-04
 headerImage: 
-categories: [Miscellaneous]
+categories: 
+  - Raspberry Pi
+  - Internet of Things (IoT)
 tags: post
 ---
 

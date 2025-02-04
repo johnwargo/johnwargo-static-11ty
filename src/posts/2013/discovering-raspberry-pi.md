@@ -3,7 +3,8 @@ title: Discovering Raspberry Pi
 description: 
 date: 2013-01-27
 headerImage: 
-categories: [Miscellaneous]
+categories: 
+  - Raspberry Pi
 tags: post
 ---
 
