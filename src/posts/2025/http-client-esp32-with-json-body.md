@@ -19,7 +19,7 @@ I started with a simple example that requested data using a simple URL with one 
 As I wrote that post, and example code, I knew that what I really wanted was to able to call a remote REST API and pass data in the request body in JSON format.
 
 {% sidebar "Sample Project" %}
-All of the source code highlighted in this post is from a GitHub repository called [ESP32 HTTPS Client Request with JSON Body](https://github.com/johnwargo/https-client-esp32-json-body){target="_blank"}.
+All of the source code highlighted in this post is from a GitHub repository called <a href="https://github.com/johnwargo/https-client-esp32-json-body" target="_blank">ESP32 HTTPS Client Request with JSON Body</a>.
 {% endsidebar %}
 
 ## Background
