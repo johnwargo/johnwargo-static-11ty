@@ -32,8 +32,8 @@ This sample sketch described in this post came from me wanting to build an Ardui
 
 For this project, I built and published a cloud function that simulates the requirements for the sketch. It's a public service and it requires two parameters passed in the request body in JSON format. When it received the data, it parses it and:
 
-+ Returns 200 (HTTP OK) and a success string if both request parameters are populated.
-+ Returns 400 (Bad Request) if any of the required parameters are missing or empty.
++ Returns 200 (`HTTP OK`) and a success string if both request parameters are populated.
++ Returns 400 (`Bad Request`) if any of the required parameters are missing or empty.
 
 I'll publish an article soon that describes that service and shares the source code.
 
