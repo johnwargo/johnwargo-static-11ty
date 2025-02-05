@@ -17,7 +17,7 @@ As I described in my previous post, I'm working on a project where I'm using an 
 Initially, I panicked a bit thinking that using HTTPS connections on an Arduino compatible device would be painful. I knew I'd have to manage certificates in my sketch and I wasn't looking forward to embedding certificates in my code and troubleshooting connection issues. It turns out the process is not that bad, so I decided to build a sample project, publish to [GitHub](https://github.com/johnwargo/https-client-esp32){target="_blank"} and describe it here. 
 
 {% sidebar "Code Available on GitHub" %}
-You'll find all of the code for this project at <a href="https://github.com/johnwargo/https-client-esp32" target="_blank">Arduino HTTPS Client Example</a>.
+You'll find all of the code for this project at <a href="https://github.com/johnwargo/https-client-esp32" target="_blank">HTTPS Client ESP32 Example</a>.
 {% endsidebar %}
 
 ## The Goal
