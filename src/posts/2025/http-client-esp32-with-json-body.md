@@ -9,7 +9,7 @@ headerImageAttribution:
 categories:
   - ESP32
   - Internet of Things (IoT)
-timestamp: 2025-04-04T21:57:18.300Z
+timestamp: 2025-02-05T11:57:18.300Z
 ---
 
 A few weeks ago I published an article called [ESP32 Connect Using HTTPS](/posts/2025/https-client-esp32/){target="_blank"} that demonstrated how to build an Arduino sketch for the ESP32 platform that connected to a remote server using [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security){target="_blank"} (HTTPS). I wrote that article because I wanted to learn how to connect to a [REST](https://en.wikipedia.org/wiki/REST){target="_blank"} API running on a server online and I knew that most (all) modern API servers required TLS. 
