@@ -26,6 +26,6 @@ My father taught me how to solder when I was about 10 years old (I'm now over 60
 
 When I assembled all the parts and deployed the compiled sketch to the device, one of the orbs was blank and the one next to it had content overlapping on it. I hopped on the project's Discord and after a quick search I found the solution. 
 
-The project apparantly uses the `cs` pin on the displays to select which display gets which content. When soldering the last display, I did two things wrong. I didn't make a solid solder connection on the Ground (`gnd`) pin and I also didn't seem to have enough solder on the `cs` pin.  I touched up all the connections on the failed display and everything worked perfectly (as you can see from the image).
+The project apparently uses the `cs` pin on the displays to select which display gets which content. When soldering the last display, I did two things wrong. I didn't make a solid solder connection on the Ground (`gnd`) pin and I also didn't seem to have enough solder on the `cs` pin.  I touched up all the connections on the failed display and everything worked perfectly (as you can see from the image).
 
 I'll let you know when I get the extra sat of parts and start building my wooden enclosure. In the mean time, I'm 3D printing an enclosure for it right now. 
