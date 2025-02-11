@@ -1,5 +1,5 @@
 ---
-title: Coding Unihiker Programs Using Pycharm
+title: Coding Unihiker Programs Using PyCharm
 description: I recently had the opportunity to work with the Unihiker M10 device
   from DF Robot. Using PyCharm, I was able to easily create a new project, write
   Python code, and deploy it to the Unihiker device. By configuring the
