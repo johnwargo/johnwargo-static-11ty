@@ -81,13 +81,11 @@ Click the **OK** button when you're all set the the SSH connection works.
 
 Back at the Deployment configuration, the **SSH Configuration** field should populate with the SSH configuration you just created (and validated).
 
-For **Root path** use `/`.  Again, ignore the stuff about the web server URL, you don't need one since we won't have one.
+For **Root path** use `/root`.  Again, ignore the stuff about the web server URL, you don't need one since we won't have one.
 
 {% image "src/images/2025/unihiker-pycharm-09.png", "PyCharm Deployment Configuration with an SSH Configuration configured", "image-full" %}
 
-Switch to the **Mappings** tab on the dialog and set the **Deployment path** to `root` since that's the folder where the Unihiker expects to find python programs it can execute. Click the dialog's **OK** button to save your changes. 
-
-{% image "src/images/2025/unihiker-pycharm-10.png", "PyCharm Deployment Mapping", "image-full" %}
+Click the dialog's **OK** button to save your changes. 
 
 Back in the code editor, right-click on the python program you want to deploy to the Unihiker device. In the menu that appears, select **Deployment** then **Upload to Unihiker** as highlighted in the following figure. 
 
