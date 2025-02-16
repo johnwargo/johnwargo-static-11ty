@@ -9,7 +9,7 @@
   },
   {
     "category": "Arduino",
-    "count": 21,
+    "count": 22,
     "description": "Articles related to lessons learned or projects built using Arduino devices or Arduino-compatible devices.",
     "imageFilePath": "/images/headers/header-arduino.jpg",
     "imageAltText": "An image of an arduino device and other electronic components",
@@ -65,7 +65,7 @@
   },
   {
     "category": "ESP32",
-    "count": 12,
+    "count": 13,
     "description": "Articles related to lessons learned or projects built using Espressif ESP32 devices.",
     "imageFilePath": "/images/headers/header-esp32.jpg",
     "imageAltText": "An image of an ESP32 Development board",
@@ -113,7 +113,7 @@
   },
   {
     "category": "Internet of Things (IoT)",
-    "count": 62,
+    "count": 63,
     "description": "Articles related to Microcontrollers, single board computers, and other stuff.",
     "imageFilePath": "/images/headers/header-iot.jpg",
     "imageAltText": "An image of an Arduino device and other Electric components",

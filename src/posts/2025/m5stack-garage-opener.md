@@ -18,7 +18,7 @@ In [ESP32 HTTP Client Request with JSON Body](https://johnwargo.com/posts/2025/h
 This post is about that garage door opener.
 
 {% sidebar "Code Available Online" %}
-All the code for this project is online at <a href="https://github.com/johnwargo/m5stickc-plus-cloud-function" target="_blank">M5StackC-Plus Cloud Function Execution</a>
+All the code for this project is online at <a href="https://github.com/johnwargo/m5stickc-plus-cloud-function" target="_blank">M5StackC-Plus Cloud Function Execution</a>.
 {% endsidebar %}
 
 To build my garage door opener, I used the [M5StickC PLUS ESP32-PICO Mini IoT Development Kit](https://shop.m5stack.com/products/m5stickc-plus-esp32-pico-mini-iot-development-kit){target="_blank"}; it's a small ESP32 device with a small screen and a button on the face of the device. The form factor is perfect for my needs here.
