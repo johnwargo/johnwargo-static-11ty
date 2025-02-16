@@ -9,7 +9,7 @@
   },
   {
     "category": "Arduino",
-    "count": 20,
+    "count": 21,
     "description": "Articles related to lessons learned or projects built using Arduino devices or Arduino-compatible devices.",
     "imageFilePath": "/images/headers/header-arduino.jpg",
     "imageAltText": "An image of an arduino device and other electronic components",
@@ -65,7 +65,7 @@
   },
   {
     "category": "ESP32",
-    "count": 10,
+    "count": 12,
     "description": "Articles related to lessons learned or projects built using Espressif ESP32 devices.",
     "imageFilePath": "/images/headers/header-esp32.jpg",
     "imageAltText": "An image of an ESP32 Development board",
@@ -113,7 +113,7 @@
   },
   {
     "category": "Internet of Things (IoT)",
-    "count": 59,
+    "count": 62,
     "description": "Articles related to Microcontrollers, single board computers, and other stuff.",
     "imageFilePath": "/images/headers/header-iot.jpg",
     "imageAltText": "An image of an Arduino device and other Electric components",
@@ -145,7 +145,7 @@
   },
   {
     "category": "Miscellaneous",
-    "count": 147,
+    "count": 148,
     "description": "Posts that didn't fit in any other categories.",
     "imageFilePath": "/images/headers/header-misc.jpg",
     "imageAltText": "random bands of color",
