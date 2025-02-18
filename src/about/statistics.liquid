@@ -121,10 +121,10 @@ title: Site Statistics
 
 <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 
-//==========================================
-// Posts per month heat map
-//==========================================
 <script>  
+  //==========================================
+  // Posts per month heat map
+  //==========================================
   var chartHeight = 50 * {{ collections.postStats.years.length }};
   var options = {
     series: [{% for year in collections.postStats.years %}
