@@ -1,5 +1,5 @@
 ---
-title: Putting an ESP32 Device to Sleep (ESP32 Repeat Request HTTP)
+title: Putting an ESP32 Device to Sleep
 description: 
 date: 2025-02-16
 showCoffee: true
