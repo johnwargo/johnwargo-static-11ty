@@ -23,8 +23,6 @@ All the code for this project is online at <a href="https://github.com/johnwargo
 
 To build my garage door opener, I used the [M5StickC PLUS ESP32-PICO Mini IoT Development Kit](https://shop.m5stack.com/products/m5stickc-plus-esp32-pico-mini-iot-development-kit){target="_blank"}; it's a small ESP32 device with a small screen and a button on the face of the device. The form factor is perfect for my needs here.
 
-**Note:** The blue arrow in the figure below highlights the device's power button; I was lazy and copied the picture from the code repository.
-
 {% image "src/images/2025/m5stick-01.jpg", "An image of a M5Stack M5StickC-Plus device running my sketch", "image-full" %}
 
 Using the cloud function as a starting point, I built a sketch for the M5StickC-PLUS device that:
