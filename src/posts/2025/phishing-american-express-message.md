@@ -11,15 +11,15 @@ categories:
 timestamp: 2025-02-22T15:48:20.084Z
 ---
 
-I received an email message the other day that seemed to be from American Express, but wasn't. Here's the message:
-
-{% image "src/images/2025/phishing-amex-message.png", "The contents of a phishing message supposedly from American Express", "image-full" %}
-
-The message said it was from "American Express Customer Care", but I've never received a message from American Express Customer Care. When you look at the message, you notice that Outlook blocked the images in the message. If the message had actually come from American Express (it didn't) the images automatically appear since I've already allowed image files from AmEx.
+I received an email message the other day that seemed to be from American Express, but wasn't.
 
 {% sidebar "Definitely a Phishing Email" %}
 This message, for a lot of reasons, is not from American Express and you shouldn't click any of the links in the message.
 {% endsidebar %}
+
+The message said it was from "American Express Customer Care", but I've never received a message from American Express Customer Care. When you look at the message, you notice that Outlook blocked the images in the message. If the message had actually come from American Express (it didn't) the images automatically appear since I've already allowed image files from AmEx.
+
+{% image "src/images/2025/phishing-amex-message.png", "The contents of a phishing message supposedly from American Express", "image-full" %}
 
 Looking at the actual email for the message, I saw the following:
 
