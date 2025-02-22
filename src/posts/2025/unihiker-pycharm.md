@@ -47,9 +47,11 @@ In the PyCharm IDE, select the **Tools** menu, then **Deployment** and finally *
 
 {% image "src/images/2025/unihiker-pycharm-03.png", "PyCharm Deployment menu", "image-full" %}
 
-Click the **+** in the upper left corner of the dialog to create a new deployment configuration. PyCharm, for some bizarre reason, assumes you're connecting to a web server to deploy server code. This makes no sense to me; you'd think they'd consider other options as well like deploying Python code to a Raspberry Pi or Unihiker device. 😄 Ignore the "Please add a web server to configure" since that doesn't matter here.
+Click the **+** in the upper left corner of the dialog to create a new deployment configuration. 
 
 {% image "src/images/2025/unihiker-pycharm-04.png", "PyCharm Deployment Dialog with new Deployment highlighted", "image-full" %}
+
+PyCharm, for some bizarre reason, assumes you're connecting to a web server to deploy server code. This makes no sense to me; you'd think they'd consider other options as well like deploying Python code to a Raspberry Pi or Unihiker device. 😄 Ignore the "Please add a web server to configure" since that doesn't matter here.
 
 PyCharm first prompts for you to select the deployment connection type; I chose **SFTP** since that made the most sense to me. You may be able to use **FTP** or one of the other options as well.
 
@@ -84,6 +86,10 @@ Back at the Deployment configuration, the **SSH Configuration** field should pop
 For **Root path** use `/root`.  Again, ignore the stuff about the web server URL, you don't need one since we won't have one.
 
 {% image "src/images/2025/unihiker-pycharm-09.png", "PyCharm Deployment Configuration with an SSH Configuration configured", "image-full" %}
+
+On the dialog's **Mappings** tab, set the **Deployment path** to `/`
+
+{% image "src/images/2025/unihiker-pycharm-10.png", "PyCharm Deployment Configuration with an SSH Configuration configured", "image-full" %}
 
 Click the dialog's **OK** button to save your changes. 
 
