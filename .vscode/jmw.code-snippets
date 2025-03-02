@@ -50,6 +50,21 @@
 		],
 		"description": "Liquid Code Block"
 	},
+	"External Pub Object": {
+		"scope": "json",
+		"prefix": "!pub",
+		"body": [
+			",{",
+        "\"title\": \"\",",
+        "\"date\": \"\",",
+        "\"url\": \"\",",
+        "\"format\": 1,",
+        "\"description\": \"\",",
+        "\"publication\": \"\"",
+    "}"
+		],
+		"description": "External Publication Object"
+	},
 	"Sidebar": {
 		"scope": "markdown, liquid",
 		"prefix": "!sidebar",
