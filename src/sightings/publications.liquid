@@ -1,7 +1,7 @@
 ---js
 {
   "title":"External Publications",
-  "description": "Displays a list of all the external publications where I publshed articles. The list goes back into the early 2000s.",  
+  "description": "Displays a list of all the external publications where I published articles. The list goes back into the early 2000s.",
   "layout": "generic",
   "pagination": {
     "data": "externalPublications",
@@ -25,8 +25,12 @@
   {% for item in items %}
     <li>
       <h4>
-        {{ item.title }}
-      </h4>
+        {% if item.url.length > 0 %}
+          <a style="cursor: pointer" href="{{item.url}}" target="_blank">{{ item.title }}</a>
+        {% else %}
+          {{ item.title }}
+        {% endif %}
+      </h4>      
       <span class="date">
         <strong>Date:
         </strong>
@@ -36,17 +40,15 @@
         {{ item.publication }} |
         <strong>Format:
         </strong>
-        {% if item.format == 1 %}
-          Online
+        {% if item.format == 1 %}          
+          {% if item.url.length > 0 %}
+            <a href="{{item.url}}" target="_blank">Online</a>
+          {% else %}
+            Online
+          {% endif %}
         {% else %}
           Print
-        {% endif %}
-        {% if item.url.length > 0 %}
-          |
-          <a href="{{ item.url }}" target="_blank">
-            <strong>Link to Article</strong>
-          </a>
-        {% endif %}
+        {% endif %}        
       </span>
       {% if item.description %}
         {{ item.description }}
