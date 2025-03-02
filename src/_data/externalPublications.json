@@ -334,5 +334,13 @@
         "format": 1,
         "description": "I did a lot of research this year into Flutter and React Native and every time I mentioned Flutter to a developer, they'd immediately respond that they weren't interested in using Flutter because that meant they'd have to learn Dart (the language Flutter uses). I wrote the article to highlight that I've been an active Flutter developer for more than a year now and I really don't 'know' Dart.",
         "publication": "Medium"
+    },
+    {
+        "title": "USB 3.0 Cable Power Switch",
+        "date": "2025-03-02",
+        "url": "https://www.instructables.com/USB-30-Cable-Power-Switch/",
+        "format": 1,
+        "description": "While working on microcontroller projects, I found myself repeatedly plugging and unplugging USB cables to power the device. I built a simple USB power switch to make the process easier.",
+        "publication": "Instructables"
     }
 ]
