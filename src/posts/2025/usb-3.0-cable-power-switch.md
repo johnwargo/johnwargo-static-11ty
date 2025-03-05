@@ -21,7 +21,7 @@ This started me looking for an USB cable switch that I could use to just disconn
 
 So, I decided to build my own. 
 
-I found some panel mount USB 3.0 ports and a DPST switch and got to work. First I designed a panel for the switch and printed it. I knew I'd ultimately build a wooden enclosure around it, but haven't done that yet. Here's an image of the panel, USB ports, some wires, and other stuff:
+I found some panel mount USB 3.0 ports and a double throw, single pull (DPST) switch and got to work. First I designed a panel for the switch and printed it. I knew I'd ultimately build a wooden enclosure around it, but haven't done that yet. Here's an image of the panel, USB ports, some wires, and other stuff:
 
 {% image "src/images/2025/usb-switch-components.jpg", "a panel, two USB panel mount ports and some wires", "image-full" %}
 
