@@ -342,5 +342,21 @@
         "format": 1,
         "description": "While working on microcontroller projects, I found myself repeatedly plugging and unplugging USB cables to power the device. I built a simple USB power switch to make the process easier.",
         "publication": "Instructables"
+    },
+    {
+        "title": "Arduino (Trinket) Twinkle Lights",
+        "date": "2017-01-19",
+        "url": "https://www.hackster.io/johnwargo/arduino-trinket-twinkle-lights-4ff9f2",
+        "format": 1,
+        "description": "A variant of my twinkle lights in a jar project",
+        "publication": "Hackster.io"
+    },
+    {
+        "title": "Tessel Garage Door Controller",
+        "date": "2017-01-19",
+        "url": "https://www.hackster.io/johnwargo/tessel-garage-door-controller-75a265",
+        "format": 1,
+        "description": "Describes how to build a remote garage door opener project on the Tessel platform",
+        "publication": "Hackster.io"
     }
 ]
