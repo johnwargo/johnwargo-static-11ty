@@ -4,17 +4,20 @@
     "date": "2023-05-31",
     "url": "https://11tybundle.dev/blog/11ty-bundle-8/",
     "description": "Announces the addition of links to my Eleventy articles."
-  },  {
+  },
+  {
     "title": "Eleventy Posts by John M. Wargo",
     "date": "2023-05-31",
     "url": "https://11tybundle.dev/authors/john-m-wargo/",
     "description": "This site publishes references to articles on this site related the the Eleventy Static Site Generator."
-  },  {
+  },
+  {
     "title": "Eleventy Plugins",
     "date": "2023-06-16",
     "url": "https://11ty.dev/docs/plugins/",
     "description": "References the Eleventy Plugin Post Stats plugin I created."
-  } ,  {
+  },
+  {
     "title": "All Things Open 2023 - Round 1 Speakers",
     "date": "2023-06-23",
     "url": "https://2023.allthingsopen.org/speakers/john-wargo/",
@@ -25,9 +28,5 @@
     "date": "2025-03-06",
     "url": "https://www.hackster.io/news/john-wargo-s-chunky-desktop-usb-switch-means-never-having-to-yank-a-cable-again-d193570fff09",
     "description": "References my first Instructables article."
-  } 
+  }
 ]
-
-
-
-
