@@ -29,7 +29,7 @@ module.exports = eleventyConfig => {
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(syntaxHighlight);
-	
+
 	const apiKey = process.env.GITHUB_API_KEY;
 	eleventyConfig.addPlugin(githubRepos, { userAccount: 'johnwargo', apiKey });
 	eleventyConfig.addPlugin(pluginGallery);
@@ -139,7 +139,11 @@ module.exports = eleventyConfig => {
 	});
 
 	eleventyConfig.addFilter('commaize', function (num, locale = 'en-us') {
-		return num.toLocaleString(locale);
+		if (isNaN(num)) {
+			return `Error: ${num} is not a number`;
+		} else {
+			return num.toLocaleString(locale);
+		}
 	});
 
 	eleventyConfig.addFilter('dateOnly', function (dateVal, locale = 'en-us') {

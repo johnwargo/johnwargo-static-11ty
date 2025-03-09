@@ -1,0 +1,43 @@
+---
+layout: generic
+title: Books
+description: Lists all the books I published or worked on.
+headerImage: /images/headers/header-books.jpg
+headerImageAltText: An image of a bunch of my books
+headerImageAttribution:
+---
+
+{% assign books = collections.books | sort %}
+{% assign edits = collections.booksTechEdit | sort %}
+
+The following section lists all the books I wrote or wrote a portion of.
+
+<ul class="posts">
+  {% for book in books %}
+    <li>
+      <h4>
+        <a href="{{ '/' | htmlBaseUrl }}projects/{{ project.data.title | slugify }}/">{{ project.data.title }}</a>
+      </h4>      
+      {% if project.data.description.length > 0 %}
+        {{ project.data.description }}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
+
+<h2>Technical Edit</h2>
+
+For these books and video course, my role was a technical editor.
+
+<ul class="posts">
+  {% for edit in edits %}
+    <li>
+      <h4>
+        <a href="{{ '/' | htmlBaseUrl }}projects/{{ project.data.title | slugify }}/">{{ project.data.title }}</a>
+      </h4>      
+      {% if project.data.description.length > 0 %}
+        {{ project.data.description }}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
