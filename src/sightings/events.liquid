@@ -28,7 +28,12 @@
   {% for item in items %}
     <li>
       <h4>
-        {{ item.title }}
+        <h4>
+        {% if item.url.length > 0 %}
+          <a style="cursor: pointer" href="{{item.url}}" target="_blank">{{ item.title }}</a>
+        {% else %}
+          {{ item.title }}
+        {% endif %}
       </h4>
       <span class="date">
         <strong>Date:
