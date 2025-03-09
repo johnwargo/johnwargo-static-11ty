@@ -3,7 +3,6 @@
   "title":"Online References",
   "description": "Lists external sites that mention me and/or my work.",  
   "layout": "generic",
-  "headerImage": "/images/common/link-1024.jpg",
   "pagination": {
     "data": "references",
     "size": 20,
@@ -14,7 +13,10 @@
         return a.date > b.date ? 1 : -1;
       });
     }
-  }
+  },
+  "headerImage": "/images/headers/header-references.jpg",
+  "headerImageAltText": "An image of a bunch of paperclips",
+  "headerImageAttribution": "Photo by <a href=\"https://unsplash.com/@dancristianpaduret?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Dan Cristian Pădureț</a> on <a href=\"https://unsplash.com/photos/multi-colored-paper-clips-on-black-surface-Oj7nnln5k3k?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash\">Unsplash</a>"
 }
 ---
 
@@ -26,18 +28,16 @@
   {% for item in items %}
     <li>
       <h4>
-        {{ item.title }}
+        {% if item.url.length > 0 %}
+          <a style="cursor: pointer" href="{{item.url}}" target="_blank">{{ item.title }}</a>
+        {% else %}
+          {{ item.title }}
+        {% endif %}
       </h4>
       <span class="date">
         <strong>Date:
         </strong>
         {{ item.date }}
-        {% if item.url.length > 0 %}
-          |
-          <a href="{{ item.url }}" target="_blank">
-            <strong>Link to Reference</strong>
-          </a>
-        {% endif %}
       </span>
       {% if item.description %}
         {{ item.description }}
