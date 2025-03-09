@@ -7,37 +7,32 @@ headerImageAltText: An image of a bunch of my books
 headerImageAttribution:
 ---
 
-{% assign books = collections.books | sort %}
-{% assign edits = collections.booksTechEdit | sort %}
+{% assign bookList = books | sort | reverse %}
 
 The following section lists all the books I wrote or wrote a portion of.
 
 <ul class="posts">
-  {% for book in books %}
-    <li>
-      <h4>
-        <a href="{{ '/' | htmlBaseUrl }}projects/{{ project.data.title | slugify }}/">{{ project.data.title }}</a>
-      </h4>      
-      {% if project.data.description.length > 0 %}
-        {{ project.data.description }}
+  {% for book in bookList %}
+    <div class="grid left">
+      <div class='content'>
+        <h3>
+          {% if book.url.length > 0 %}
+            <a style="cursor: pointer" href="{{book.url}}" target="_blank">{{ book.title }}</a>
+          {% else %}
+            {{ book.title }}
+          {% endif %}
+        </h3>
+        <span class="date">
+          <strong>Published: </strong>{{ book.date | dateOnly }}
+        </span>
+        <p>{{ book.description }}</p>
+      </div>
+      {% if book.url.length > 0 %}
+        <a style="cursor: pointer" href="{{book.url}}" target="_blank"><img src="{{book.img}}"
+          alt="{{ book.title }} cover image" /></a>
+      {% else %}
+        <img src="{{book.img}}" alt="{{ book.title }} cover image" />
       {% endif %}
-    </li>
-  {% endfor %}
-</ul>
-
-<h2>Technical Edit</h2>
-
-For these books and video course, my role was a technical editor.
-
-<ul class="posts">
-  {% for edit in edits %}
-    <li>
-      <h4>
-        <a href="{{ '/' | htmlBaseUrl }}projects/{{ project.data.title | slugify }}/">{{ project.data.title }}</a>
-      </h4>      
-      {% if project.data.description.length > 0 %}
-        {{ project.data.description }}
-      {% endif %}
-    </li>
+    </div>
   {% endfor %}
 </ul>

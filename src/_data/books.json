@@ -1,58 +1,58 @@
 [
   {
-    "title": "",
-    "date": "",
-    "url": "",
-    "img": "",
-    "description": ""
+    "title": "What Now? The Essential Guide for New Soccer Referees",
+    "date": "2007-11-27",
+    "url": "https://www.amazon.com/What-Now-Essential-Soccer-Referees/dp/1419682334",
+    "img": "/images/covers/what-now-cover-160.png",
+    "description": "Being a US Soccer State Referee Instructor for many years, I had a lot of experience working with brand new referees. I knew that in the rush to get information on the Soccer Laws of the Game into the brains of the new Soccer Referee, that only a small amount of time is spent at the end of the standard US Soccer New Referee Clinic teaching new Referees how to actually be Referees. I knew what I had to do - I had to write a book that was designed to supplement the New Referee Clinic material. The purpose of the book then is to cover everything the new Referee needs to know and do between the end of their first Referee clinic and the beginning of their second game. There's nothing in the book about the Laws of the Game, but a whole lot of detailed information on about how to start your Soccer Referee Career."
   },
   {
-    "title": "",
-    "date": "",
-    "url": "",
-    "img": "",
-    "description": ""
+    "title": "BlackBerry Development Fundamentals",
+    "date": "2009-01-01",
+    "url": "https://www.amazon.com/BlackBerry-Development-Fundamentals-John-Wargo/dp/0321647424",
+    "img": "/images/covers/bbdf-cover-160.png",
+    "description": "This book thoroughly reviews the BlackBerry's unique app development capabilities and limitations, helps you optimize your upfront design choices, and covers native rich-client applications and Web-based mobile applications for both business and consumer environments."
   },
   {
-    "title": "",
-    "date": "",
-    "url": "",
-    "img": "",
-    "description": ""
+    "title": "Phonegap Essentials : Building Cross Platform Mobile Apps",
+    "date": "2012-06-21",
+    "url": "https://www.amazon.com/PhoneGap-Essentials-Building-Crossplatform-Version/dp/B0092J8UI4",
+    "img": "/images/covers/phonegap-essentials-cover-160.png",
+    "description": "PhoneGap is Adobe’s distribution of the free and open source framework (originally developed by Nitobi) that is now also available from the Apache Foundation as Apache Cordova. Using PhoneGap, developers can build native mobile apps using standard HTML5, JavaScript, and CSS, and then deploy those apps to every leading mobile platform with little or no recoding. Up to now, though, PhoneGap was lacking complete, practical documentation. PhoneGap Essentials fills that It’s the first concise, yet complete, tutorial for succeeding with PhoneGap in real-world development. Experienced mobile developer John M. Wargo thoroughly introduces the PhoneGap platform, explaining what it is, what it does, and how it works. He then guides you through configuring PhoneGap environments—creating complete mobile apps—and building them for the Google Android, Samsung bada, BlackBerry devices, Apple iOS, Symbian OS, and Windows Phone. Through realistic examples, you’ll master key PhoneGap APIs for everything from GPS to the file system, contacts to camera, device to events, and more. Wargo also demonstrates how to take full advantage of PhoneGap Build, PhoneGap’s cloud-based packaging utility."
   },
   {
-    "title": "",
-    "date": "",
+    "title": "Apache Cordova 3 Programming",
+    "date": "2013-12-12",
     "url": "",
-    "img": "",
-    "description": ""
+    "img": "/images/covers/acp-cover-160.png",
+    "description": "This book is a complete rewrite of PhoneGap Essentials, updated for Apache Cordova 3; the first release after the project was moved to the Apache Foundation and renamed to Cordova. This book dramatically expanded the depth of topic coverage from the previous edition, delivering more details on how to use the framework for cross-platform mobile app development. This book never went to print, it is only available as an ebook and is no longer available."
   },
   {
-    "title": "",
-    "date": "",
-    "url": "",
-    "img": "",
-    "description": ""
+    "title": "Apache Cordova 4 Programming",
+    "date": "2015-04-20",
+    "url": "https://www.amazon.com/Apache-Cordova-Programming-Mobile/dp/0134048199",
+    "img": "/images/covers/ac4p-160.png",
+    "description": "Using Apache Cordova 4, you can leverage native technologies and web standards to quickly build cross-platform apps for most mobile devices. You can deliver a high-end user experience where it matters, while radically simplifying code maintenance and reuse. Apache Cordova 4 Programming is the most concise, accessible introduction to this remarkable technology. In this essential guide, expert mobile developer John Wargo quickly gets you up to speed with all the essentials, from installation, configuration, and tools, to building plugins and using Cordova’s powerful APIs. Wargo helps you make the most of Cordova 4’s major enhancements, while offering practical guidance for all versions, including Adobe PhoneGap. Full chapters are dedicated to five major mobile platforms: Android, iOS, Windows Phone, Firefox OS, and Ubuntu."
   },
   {
-    "title": "",
-    "date": "",
-    "url": "",
-    "img": "",
-    "description": ""
+    "title": "Apache Cordova API Cookbook",
+    "date": "2014-06-24",
+    "url": "https://www.amazon.com/Apache-Cordova-Cookbook-Mobile-Programming-ebook/dp/B00LB6X2SO",
+    "img": "/images/covers/acac-cover-160.png",
+    "description": "Using Apache Cordova, mobile developers can write cross-platform mobile apps using standard HTML5, JavaScript, and CSS, and then deploy those apps to every leading mobile platform with little or no re-coding. Apache Cordova API Cookbook provides experienced mobile developers with details about how each Cordova API works and how to use the APIs in their own applications. Coverage is included for all Cordova/PhoneGap 3 APIs. Instead of just showing short snippets of code to explain a particular API, this guide is chock full of complete examples. You’ll find more than thirty complete Cordova applications that work on Android, iOS, Windows, and more. The sample applications demonstrate exactly what each API does and how it works, while the chapter content describes the limitations on the leading target platforms (and even offers possible workarounds)."
   },
   {
-    "title": "",
-    "date": "",
+    "title": "Mastering Mobile for Notes/Domino",
+    "date": "2013-01-01",
     "url": "",
-    "img": "",
-    "description": ""
+    "img": "/images/covers/anthology-mobile.jpg",
+    "description": "For several years, I was a technical advisor for The View, a magazine for IBM Lotus Domino developers and administrators. During that period, I published 20 articles in the publication. The majority of my articles were on mobile development for IBM Lotus Domino and this anthology contains 16 of my articles out of a total of 22 in the book. In the article series, I wrote about all of the different ways a developer could mobilize IBM Lotus Domino application data. I also covered several generic topics like cross platform development and how to think like a mobile developer."
   },
   {
-    "title": "",
-    "date": "",
-    "url": "",
-    "img": "",
-    "description": ""
+    "title": "Learning Progressive Web Apps",
+    "date": "2020-03-19 ",
+    "url": "https://www.amazon.com/Learning-Progressive-Apps-Wargo-John-ebook/dp/B084T4JK3S",
+    "img": "/images/covers/learning-pwa-160.jpg",
+    "description": "Software developers have two options for the apps they build: native apps targeting a specific device or web apps that run on any device. Building native apps is challenging, especially when your app targets multiple system types―i.e., desktop computers, smartphones, televisions―because user experience varies dramatically across devices. Service Workers―a relatively new technology―make it easier for web apps to bridge the gap between native and web capabilities. The book demonstrates how to use Service Workers to enhance the capabilities of a web app to create Progressive Web Apps (PWA). It focuses on the technologies that enable PWAs and how to use those technologies to enhance your web apps to deliver a more native-like experience."
   }
 ]
