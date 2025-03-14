@@ -27,7 +27,7 @@ headerImageAttribution: Photo by <a href="https://unsplash.com/@bk71">Bernd Klut
       <h4>
         <a href="{{post.url}}" style="cursor: pointer">{{ post.data.title }}</a>
       </h4>
-      Posted {%- if post.data.timestamp %}
+      <strong>{%- if post.data.timestamp %}
         {{ post.data.timestamp | readableTimestamp }}
         {%- else %}
         {{ post.date | readableDate }}
@@ -40,6 +40,7 @@ headerImageAttribution: Photo by <a href="https://unsplash.com/@bk71">Bernd Klut
           {% endunless %}
         {% endfor %}
       {% endif %}
+      </strong>
       <br/>
       {% if post.data.description %}
         {% include 'generated.html' %}

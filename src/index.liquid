@@ -34,21 +34,19 @@ categories:
           <h4>
             <a style="cursor: pointer" href="{{post.url}}">{{ post.data.title }}</a>
           </h4>
-          <span class="date">
-            <strong>Date: </strong>
-            Posted {%- if post.data.timestamp %}
-              {{ post.data.timestamp | readableTimestamp }}
+          <span class="date">{%- if post.data.timestamp %}
+            <strong>{{ post.data.timestamp | relativeTime}}
               {%- else %}
-              {{ post.date | readableDate }}
+                {{ post.date | relativeTime }}
               {%- endif %}&nbsp;
             {%- if post.data.categories.length > 0 %}
-              | <strong>Categories:</strong>
-              {%- for cat in post.data.categories %}
+              | Categories: {%- for cat in post.data.categories %}
                 <a href="/categories/{{ cat | slugify }}/">{{ cat | strip }}</a>
                 {%- unless forloop.last %},
                 {% endunless %}
               {% endfor %}
             {% endif %}
+            </strong>
           </span>
           {%- if post.data.description %}
             {% include 'generated.html' %}

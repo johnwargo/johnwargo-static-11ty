@@ -14,6 +14,7 @@ const pluginStats = require('eleventy-plugin-post-stats');
 const pluginImages = require('./eleventy.config.images.js');
 const pluginGallery = require("./eleventy.config.gallery.js");
 const pluginImageHeaders = require('./eleventy.config.headerimage.js');
+const relativeTime = require('./eleventy.config.relativeTime.js');
 
 // Transforms
 const htmlMinTransform = require('./src/transforms/html-min.js');
@@ -34,6 +35,7 @@ module.exports = eleventyConfig => {
 	eleventyConfig.addPlugin(githubRepos, { userAccount: 'johnwargo', apiKey });
 	eleventyConfig.addPlugin(pluginGallery);
 	eleventyConfig.addPlugin(pluginImageHeaders, { dataFileName: categoryDataFile, imageClass: 'image fit' });
+	eleventyConfig.addPlugin(relativeTime);
 	eleventyConfig.addPlugin(pluginImages, { debugMode: false });
 	eleventyConfig.addPlugin(pluginStats);
 
@@ -157,6 +159,7 @@ module.exports = eleventyConfig => {
 		};
 		return theDate.toLocaleDateString(locale, options);
 	});
+
 
 	eleventyConfig.addFilter('readableTimestamp', function (dateVal, locale = 'en-us') {
 		// Used by home, articles, & post pages to render timestamp as human readable
