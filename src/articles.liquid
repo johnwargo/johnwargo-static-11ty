@@ -31,10 +31,8 @@ headerImageAttribution: Photo by <a href="https://unsplash.com/@bk71">Bernd Klut
         {{ post.data.timestamp | readableTimestamp }}
         {%- else %}
         {{ post.date | readableDate }}
-        {%- endif %}&nbsp;
-      {% if post.data.categories.length > 0 %}
-        in
-        {% for cat in post.data.categories %}
+        {%- endif %}&nbsp;{% if post.data.categories.length > 0 %}in
+          {% for cat in post.data.categories %}
           <a href="/categories/{{ cat | slugify }}">{{ cat }}</a>
           {%- unless forloop.last %},
           {% endunless %}
