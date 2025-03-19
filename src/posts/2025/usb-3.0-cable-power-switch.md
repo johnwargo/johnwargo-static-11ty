@@ -19,9 +19,17 @@ I also noticed that for some Microcontroller projects, like the [M5Stack M5Stick
 
 This started me looking for an USB cable switch that I could use to just disconnect power from the device but leave the cable plugged in between my desktop computer and the microcontroller device. I found quite a few online and even bought one, but they tend to be short cables with a switch in the middle which doesn't work for my use case. My development system is a massive tower computer sitting on the floor under my desk and a cable that short wouldn't reach the top of my desk with enough room to not pull the microcontroller off of the desktop with the weight of the cable.
 
-So, I decided to build my own. 
+So, I decided to build my own.
 
-I found some panel mount USB 3.0 ports and a double throw, single pull (DPST) switch and got to work. First I designed a panel for the switch and printed it. I knew I'd ultimately build a wooden enclosure around it, but haven't done that yet. Here's an image of the panel, USB ports, some wires, and other stuff:
+{% sidebar "Complete Project on Instructables" %}
+I published this project on Instructables as <a href="https://www.instructables.com/USB-30-Cable-Power-Switch/" target="_blank">USB 3.0 Cable Power Switch</a>.
+{% endsidebar %}
+
+Here's an image of the completed project.
+
+{% image "src/images/2025/usb-switch-final.jpg", "An image of the completed project", "image-full" %}
+
+I found some panel mount USB 3.0 ports and a double throw single pull (DPST) switch and got to work. First I designed a panel for the switch and printed it. I knew I'd ultimately build a wooden enclosure around it, but haven't done that yet. Here's an image of the panel, USB ports, some wires, and other stuff:
 
 {% image "src/images/2025/usb-switch-components.jpg", "a panel, two USB panel mount ports and some wires", "image-full" %}
 
@@ -33,6 +41,6 @@ And finally wired everything together and added the switch.
 
 {% image "src/images/2025/usb-switch-panel-back.jpg", "The completed assembly from the back", "image-full" %}
 
-I've been wanting to publish something on [Instructables](https://www.instructables.com){target="_blank"}, so I made this my first project. It's currently in a queue to be reviewed before its available to the public, but you can hopefully find the project soon at [USB 3.0 Cable Power Switch](https://www.instructables.com/USB-30-Cable-Power-Switch/){target="_blank"}.
+I've been wanting to publish something on [Instructables](https://www.instructables.com){target="_blank"}, so I made this my first project: [USB 3.0 Cable Power Switch](https://www.instructables.com/USB-30-Cable-Power-Switch/){target="_blank"}.
 
 I'll finish the enclosure for it this week and post some pictures.
