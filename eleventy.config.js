@@ -196,10 +196,11 @@ module.exports = eleventyConfig => {
 		'src/assets/webfonts/',
 		'src/files/*',
 		'src/images/*',
-		'src/images/headers/*',
 		'src/images/avatar/*',
+		'src/images/banner/*',
 		'src/images/common/*',
 		'src/images/covers/*',
+		'src/images/headers/*',
 		'src/images/sites/*'
 	].forEach((path) => {
 		eleventyConfig.addPassthroughCopy(path);
