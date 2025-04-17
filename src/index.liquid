@@ -35,9 +35,9 @@ categories:
             <a style="cursor: pointer" href="{{post.url}}">{{ post.data.title }}</a>
           </h4>
           <span class="date">{%- if post.data.timestamp %}
-            <strong>{{ post.data.timestamp | relativeTime}}
+            <strong>{{ post.data.timestamp | readableTimestamp }}</strong>
               {%- else %}
-                {{ post.date | relativeTime }}
+                {{ post.date | readableDate }}
               {%- endif %}&nbsp;
             {%- if post.data.categories.length > 0 %}
               | Categories: {%- for cat in post.data.categories %}
