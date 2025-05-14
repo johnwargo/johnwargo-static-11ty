@@ -9,7 +9,7 @@
   },
   {
     "category": "Arduino",
-    "count": 24,
+    "count": 25,
     "description": "Articles related to lessons learned or projects built using Arduino devices or Arduino-compatible devices.",
     "imageFilePath": "/images/headers/header-arduino.jpg",
     "imageAltText": "An image of an arduino device and other electronic components",
@@ -65,7 +65,7 @@
   },
   {
     "category": "ESP32",
-    "count": 16,
+    "count": 17,
     "description": "Articles related to lessons learned or projects built using Espressif ESP32 devices.",
     "imageFilePath": "/images/headers/header-esp32.jpg",
     "imageAltText": "An image of an ESP32 Development board",
@@ -185,7 +185,7 @@
   },
   {
     "category": "Project Builds",
-    "count": 5,
+    "count": 6,
     "description": "Articles about the different projects I've built. This could be workshop projects or electronics projects.",
     "imageFilePath": "/images/headers/header-project-builds.jpg",
     "imageAltText": "",
