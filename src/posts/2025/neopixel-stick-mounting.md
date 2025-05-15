@@ -9,6 +9,7 @@ headerImageAttribution:
 categories:
   - Arduino
   - ESP32
+  - Internet of Things (IoT)
   - Project Builds
 timestamp: 2025-05-14T21:48:40.648Z
 ---
@@ -24,7 +25,7 @@ For this project, I needed 20 or so LEDs for the throttle gauge; adding 4 for th
 When you look at the back of the NeoPixel Stick, you'll see that the device offers two mounting holes plus solder pads on each end for power, ground, and a single data connection to the microcontroller.
 
 {% image "src/images/2025/adafruit-neopixel-stick-back.jpg", "An image of the back of the NeoPixel Stick", "image-full" %}
-Image credit: Adafruit.
+Image credit: Adafruit. (cropped by me)
 
 ## Solution
 

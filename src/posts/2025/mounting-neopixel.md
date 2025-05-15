@@ -7,6 +7,8 @@ headerImage:
 headerImageAltText: 
 headerImageAttribution: 
 categories:
+  - Arduino
+  - ESP32
   - Internet of Things (IoT)
   - Project Builds
 timestamp: 2025-03-16T10:11:02.159Z
