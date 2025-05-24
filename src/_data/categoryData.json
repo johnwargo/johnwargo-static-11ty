@@ -137,7 +137,7 @@
   },
   {
     "category": "Microsoft Windows",
-    "count": 13,
+    "count": 14,
     "description": "Articles covering topics related Microsoft Windows or the Windows applications I created.",
     "imageFilePath": "/images/headers/header-outlook.jpg",
     "imageAltText": "An image of the Windows logo on a keyboard",
@@ -145,7 +145,7 @@
   },
   {
     "category": "Miscellaneous",
-    "count": 148,
+    "count": 149,
     "description": "Posts that didn't fit in any other categories.",
     "imageFilePath": "/images/headers/header-misc.jpg",
     "imageAltText": "random bands of color",
