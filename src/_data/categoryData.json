@@ -24,6 +24,14 @@
     "imageAttribution": ""
   },
   {
+    "category": "Automobiles",
+    "count": 2,
+    "description": "",
+    "imageFilePath": "",
+    "imageAltText": "",
+    "imageAttribution": ""
+  },
+  {
     "category": "BlackBerry",
     "count": 69,
     "description": "Articles about the BlackBerry platform, BlackBerry development, and my time working at BlackBerry (Research in Motion).",
@@ -145,7 +153,7 @@
   },
   {
     "category": "Miscellaneous",
-    "count": 149,
+    "count": 148,
     "description": "Posts that didn't fit in any other categories.",
     "imageFilePath": "/images/headers/header-misc.jpg",
     "imageAltText": "random bands of color",

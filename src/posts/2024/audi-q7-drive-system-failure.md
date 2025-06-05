@@ -7,7 +7,7 @@ headerImage:
 headerImageAltText: 
 headerImageAttribution: 
 categories:
-  - Miscellaneous
+  - Automobiles
 timestamp: 2024-12-27T00:52:22.131Z
 ---
 
