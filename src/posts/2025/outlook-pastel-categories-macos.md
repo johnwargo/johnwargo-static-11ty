@@ -1,0 +1,40 @@
+---
+title: Outlook Pastel Categories macOS
+description: I recently had an issue with Microsoft Outlook on my work MacBook
+  where the Calendar view displayed categories in annoying pastel colors instead
+  of solid ones. After searching for a solution online and contacting IT support
+  with no luck, I stumbled upon a fix in the Outlook for macOS Help menu under
+  **Clear Application Data**. By selecting the option to clear data for
+  Experimental Features, I was able to revert the category colors back to solid.
+date: 2025-06-05
+showCoffee: true
+headerImage: null
+headerImageAltText: null
+headerImageAttribution: null
+categories:
+  - Microsoft Outlook
+timestamp: 2025-06-05T22:41:03.019Z
+generatedDescription: true
+---
+
+A few weeks ago, I launched Microsoft Outlook on my work MacBook and noticed that the Calendar view displayed categories in pastel colors. I don't know what happened and I know I didn't do anything, but those had always been solid colors. The pastel colors were really annoying and made it hard to see my appointments the way I wanted to see them. 
+
+I did a quick search online and couldn't find any current documents that provided a solution to this problem. Poking around in Settings (both in Outlook and in macOS), I couldn't find anything I could do to revert the colors to solid.
+
+I submitted an IT ticket with my employer's help desk and didn't get anywhere. Even with the support technician controlling my system and poking around in the same places I did.
+
+At this point, I gave up and realized I was stuck with these ridiculous pastel colored categories in Outlook. 
+
+Around the same time, I noticed that my Zoom plugin for Outlook no longer worked. As I poked around looking for a solution to that problem, I found a way to fix the pastel categories issue.
+
+In the Outlook for macOS **Help** menu, there's an option called **Clear Application Data** :
+
+{% image "src/images/2025/outlook-macos-appdata-1.png", "macOS Outlook Help Menu", "image-full" %}
+
+Select that menu item and Outlook will open the following dialog:
+
+{% image "src/images/2025/outlook-macos-appdata-2.png", "macOS Outlook Clear Application Data dialog", "image-full" %}
+
+Next, select the option to clear data for **Experimental Features** and click the **Clear** button. 
+
+When I did this and restarted Outlook, all my solid category colors came back; the pastels are gone.
