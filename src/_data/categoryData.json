@@ -25,7 +25,7 @@
   },
   {
     "category": "Automobiles",
-    "count": 2,
+    "count": 3,
     "description": "",
     "imageFilePath": "",
     "imageAltText": "",
@@ -145,7 +145,7 @@
   },
   {
     "category": "Microsoft Windows",
-    "count": 14,
+    "count": 15,
     "description": "Articles covering topics related Microsoft Windows or the Windows applications I created.",
     "imageFilePath": "/images/headers/header-outlook.jpg",
     "imageAltText": "An image of the Windows logo on a keyboard",
