@@ -1,15 +1,19 @@
 ---
 title: Simplifying Coping Music Files to a Flash Drive
-description: 
+description: I created a Windows application called Subdirectory Copy (SubCopy)
+  to automate the process of copying music files from my computer to an external
+  drive for my car's music player. By populating the root directory with my music files and selecting the artist folders to
+  copy, I can easily update my music collection on the external drive.
 date: 2025-06-06
 showCoffee: true
-headerImage: 
-headerImageAltText: 
-headerImageAttribution: 
+headerImage: null
+headerImageAltText: null
+headerImageAttribution: null
 categories:
   - Microsoft Windows
   - Automobiles
 timestamp: 2025-06-06T18:56:28.003Z
+generatedDescription: true
 ---
 
 In my [previous post](/posts/2025/acura-play-music-usb/){target="_blank"} I discussed options for playing music files from an SD card or Flash drive on some automobiles. One of the things I didn't mention was how to get those music files onto the drives.
