@@ -38,3 +38,13 @@ Select that menu item and Outlook will open the following dialog:
 Next, select the option to clear data for **Experimental Features** and click the **Clear** button. 
 
 When I did this and restarted Outlook, all my solid category colors came back; the pastels are gone.
+
+## Postscript
+
+I made the change described above and it worked for me, **but only temporarily.** Sigh. Clearing experimental features clears them from the local config, but then Outlook pulls them down from the server some time later. So, the next morning when I started outlook the pastels were back.  
+
+I performed the reset steps again, restarted Outlook,  and the pastels came back a few minutes later.
+
+What a horrible, horrible experience. Why would Microsoft even consider forcing pale/muted colors for categories when I've used solid colors in Outlook for DECADES. It's a ridiculous change and as far as I can tell there's no getting around it. WTF?
+
+Searching around I found a Microsoft Feedback site with feedback called [Calendar Category Colors Only Pastel Now!](https://feedbackportal.microsoft.com/feedback/idea/6ae6581c-7bf8-ef11-a4dd-7c1e52c1c6b2){target="_blank"}. Follow that link and make your voice heard if you hate this 'feature' as much as I do.
