@@ -1,5 +1,5 @@
 ---
-title: TechSmith Snagit Stops Loading or Capturing 
+title: TechSmith Windows Snagit Stops Loading or Capturing 
 description: 
 date: 2025-06-13
 showCoffee: true

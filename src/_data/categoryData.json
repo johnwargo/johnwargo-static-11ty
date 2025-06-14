@@ -57,7 +57,7 @@
   },
   {
     "category": "Delphi",
-    "count": 11,
+    "count": 12,
     "description": "Posts related to application development using Embarcadero Delphi (formerly Borland Delphi).",
     "imageFilePath": "/images/headers/header-delphi.jpg",
     "imageAltText": "A screen shot of the Delphi IDE",
@@ -145,7 +145,7 @@
   },
   {
     "category": "Microsoft Windows",
-    "count": 16,
+    "count": 17,
     "description": "Articles covering topics related Microsoft Windows or the Windows applications I created.",
     "imageFilePath": "/images/headers/header-outlook.jpg",
     "imageAltText": "An image of the Windows logo on a keyboard",
