@@ -1,15 +1,20 @@
 ---
 title: Delphi Single Instance App With Runtime Parameters
-description: 
+description: In the article, I learned how to prevent multiple instances of a
+  Delphi application from running simultaneously and published a complete sample application demonstrating it. By assigning a unique name to the application and implementing code to check for existing instances, I can
+  ensure only one instance runs at a time. The article also covered passing
+  command-line parameters between instances and activating the initial instance
+  when a second one is launched. 
 date: 2025-06-15
 showCoffee: true
-headerImage: 
-headerImageAltText: 
-headerImageAttribution: 
+headerImage: null
+headerImageAltText: null
+headerImageAttribution: null
 categories:
   - Delphi
   - Microsoft Windows
 timestamp: 2025-06-15T19:58:01.490Z
+generatedDescription: true
 ---
 
 After I published Subdirectory Copy version 1.1 (v1.1.1.1), I realized that I should probably update the application so users can launch the application by double-clicking on one of the application project in Windows File Explorer (or its alternatives). I quickly added support for a single runtime parameter (the full path pointing to the project file):
