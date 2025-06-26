@@ -1,5 +1,5 @@
 ---
-title: Simplifying Coping Music Files to a Flash Drive
+title: Simplifying Copying Music Files to a Flash Drive
 description: I created a Windows application called Subdirectory Copy (SubCopy)
   to automate the process of copying music files from my computer to an external
   drive for my car's music player. By populating the root directory with my music files and selecting the artist folders to

@@ -25,7 +25,7 @@ headerImageAttribution: Photo by <a href="https://unsplash.com/@bk71">Bernd Klut
   {% for post in posts %}
     <li>
       <h4>
-        <a href="{{post.url}}" style="cursor: pointer">{{ post.data.title }}</a>
+        <a href="{{ post.url }}" style="cursor: pointer">{{ post.data.title }}</a>
       </h4>
       <strong>{%- if post.data.timestamp %}
         {{ post.data.timestamp | readableTimestamp }}
