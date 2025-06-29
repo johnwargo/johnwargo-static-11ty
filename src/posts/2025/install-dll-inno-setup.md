@@ -39,11 +39,9 @@ There's a lot more to a complete Inno Setup file, but I want to focus on the thi
 
 ## Setup
 
-| Option                            | Description | 
-| --------------------------------- | ----------- |
-| `UninstallDisplayIcon`            | The project doesn't install with an app executable, so I can't point the installer at the app executable for the uninstall icon. So, I found some representative icon and included its file in the installer (see the `Files` section below). |
-| `ArchitecturesInstallIn64BitMode` | I compiled my DLL only for Windows 64, so this tells Inno Setup to support a 64 bit install. |
-| `PrivilegesRequired`              | I'm registering a DLL, so the installer must run with admin privileges. This enables Admin install and is the default, but I set it anyways just to make sure. |
++ `UninstallDisplayIcon`: The project doesn't install with an app executable, so I can't point the installer at the app executable for the uninstall icon. So, I found some representative icon and included its file in the installer (see the `Files` section below).
++ `ArchitecturesInstallIn64BitMode`: I compiled my DLL only for Windows 64, so this tells Inno Setup to support a 64 bit install.
++ `PrivilegesRequired`: I'm registering a DLL, so the installer must run with admin privileges. This enables Admin install and is the default, but I set it anyways just to make sure.
 
 ## Files
 
