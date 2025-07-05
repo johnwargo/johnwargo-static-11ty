@@ -15,7 +15,6 @@ const pluginImages = require('./eleventy.config.images.js');
 const pluginGallery = require("./eleventy.config.gallery.js");
 const pluginImageHeaders = require('./eleventy.config.headerimage.js');
 const relativeTime = require('./eleventy.config.relativeTime.js');
-
 // Transforms
 const htmlMinTransform = require('./src/transforms/html-min.js');
 
