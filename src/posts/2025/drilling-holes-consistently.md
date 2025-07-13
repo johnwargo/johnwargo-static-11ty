@@ -1,6 +1,6 @@
 ---
 title: Drilling Holes Consistently Across Multiple Pieces
-description: For a woodworking project I completed recently, I had to drill 16 countersink holes in the same location on 8 boards. I created a jig to make this easy and consistent.
+description: For a woodworking project I completed recently, I had to drill 16 countersink holes in the same location across 8 boards. I created a jig to make this easy and consistent.
 date: 2025-07-13
 showCoffee: true
 headerImage: 
