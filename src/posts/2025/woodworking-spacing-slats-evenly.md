@@ -11,7 +11,7 @@ categories:
 timestamp: 2025-07-16T11:24:54.999Z
 ---
 
-When I built the love seat I described in my [previous post](/posts/2025/drilling-holes-consistently/){target="_blank"}, one of the assembly tasks for the seat was to screw slats to the frame spaces a quarter inch apart. Since each slat was 46 inches wide, I had to come up with a unique approach to doing this consistently with only a single pair of hands.
+When I built the love seat I described in my [previous post](/posts/2025/woodworking-drilling-holes-consistently/){target="_blank"}, one of the assembly tasks for the seat was to screw slats to the frame spaces a quarter inch apart. Since each slat was 46 inches wide, I had to come up with a unique approach to doing this consistently with only a single pair of hands.
 
 The simplest solution would be to just cut a piece of 1/4 plywood 46 inches wide and insert it in place. Unfortunately, any pieces of 1/4 inch plywood I had that long wasn't straight enough to do the job and I'd need another set of hands or a clamp to hold it flat between the slats. 
 
