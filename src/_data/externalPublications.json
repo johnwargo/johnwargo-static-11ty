@@ -358,5 +358,13 @@
         "format": 1,
         "description": "Describes how to build a remote garage door opener project on the Tessel platform",
         "publication": "Hackster.io"
+    },
+    {
+        "title": "Introducing ODB Network in Oracle Database@Google Cloud with support for Shared VPC",
+        "date": "2025-07-17",
+        "url": "https://blogs.oracle.com/cloud-infrastructure/post/oracle-db-google-cloud-odb-network-shared-vpc",
+        "format": 1,
+        "description": "I'm a Product Manager at Oracle Cloud Infrastructure (OCI) and this is a blog post announcing a new feature for the Oracle Database@Google Cloud service. This is, I think, the first OCI blog post I published under my own name. The post announces a new networking configuration option for the service plus support for the Google Cloud Shared VPC feature.",
+        "publication": "OCI Blog"
     }
 ]
