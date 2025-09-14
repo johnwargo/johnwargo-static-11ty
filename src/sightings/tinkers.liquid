@@ -1,0 +1,29 @@
+---
+title: Tinkercad Designs
+description: Lists my public Tinkercad designs.
+layout: generic
+headerImage: 
+headerImageAltText: 
+headerImageAttribution: 
+---
+
+<p>I created a few designs for my 3D printer, mostly to help me with projects in my workshop, using Tinkercad. Click the title of the design to open the design in <a href="https://www.tinkercad.com/" target="_blank">Tinkercad</a>.</p>
+
+{% assign tinkersList = tinkers | sort: "title" %}
+
+<ul class="posts">
+  {% for item in tinkersList %}
+    <li>
+      <h4>
+        {% if item.url.length > 0 %}
+          <a style="cursor: pointer" href="{{item.url}}" target="_blank">{{ item.title }}</a>
+        {% else %}
+          {{ item.title }}
+        {% endif %}
+      </h4>      
+      {% if item.description %}
+        {{ item.description }}
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>
