@@ -1,5 +1,5 @@
 ---
-title: Deceitful Soul Cage Creator
+title: Greedy Soul Cage Creator
 description: Describes my interaction with a Hackster.io creator who published what appears to be an amazing Halloween project, but won't distribute the project source code until after Halloween. Offering instead to sell it to me before then.
 date: 2025-09-27
 showCoffee: true
