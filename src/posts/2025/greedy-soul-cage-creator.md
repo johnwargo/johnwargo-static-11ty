@@ -58,3 +58,15 @@ I think that I won't be building this project. I cancelled my hardware order and
 I noticed that the author has a **Buy me a Coffee** link on their project and would have been happy to toss $20US their way for what looked like an amazing project. But to hold the code hostage and demand payment is not the way to build a name for yourself and support the maker community.
 
 Too bad, the project looked cool.
+
+## What Are My Issue With This?
+
+Certainly not that the author wants to make money off of his creation. It probably was a lot of work and if he wants paid for it, he should be paid. 
+
+Unfortunately, the author makes no mention of wanting money for the source code or even compiled binary in the project description (that I could find anyway). Most visitors on Hackster.io expect full access to the project resources while Hackster.io offers for fee projects on [Hackster Pro](https://www.hackster.io/pro){target="_blank"}. 
+
+My issue is that he published the project on Hackster.io and referred to the project's GitHub repository which indicates that the code is freely available. Its not. The code isn't even there even though the project refers to it being there. 
+
+My other issue is that the author lies in the project repository's `readme.md` file: "Coming Soon (fixing some bugs for you ;-))". Well, it's not necessarily a lie, the code is coming, just not soon. Its coming AFTER Halloween even though most of us only care about it before Halloween. He's offering to make the code free to all of us, but only after he gets as much money out of it as possible this Halloween season. That's fine, but that approach doesn't work for me. When I write code and publish it online, its always free; that's what it means to be a part of the community.
+
+He is likely lying in the "fixing some bugs" statement since he's willing to send me a compiled binary for $20, so what bugs could be there if it works enough to sell it to me?
