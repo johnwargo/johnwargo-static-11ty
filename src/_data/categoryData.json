@@ -41,7 +41,7 @@
   },
   {
     "category": "Cloud Development",
-    "count": 6,
+    "count": 7,
     "description": "Articles related to cloud software development (AWS, Google, Microsoft Azure, OCI, etc.).",
     "imageFilePath": "/images/headers/header-cloud.jpg",
     "imageAltText": "an image of a cloud",
@@ -225,7 +225,7 @@
   },
   {
     "category": "Web Development",
-    "count": 15,
+    "count": 16,
     "description": "Posts related to web development topics, development tools, strategies, etc.",
     "imageFilePath": "/images/headers/header-web-development.jpg",
     "imageAltText": "An image of a code editor displaying HTML code",
