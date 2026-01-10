@@ -47,14 +47,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginImageHeaders, {
 		dataFileName: categoryDataFile,
 		imageClass: 'image fit'
-	});
-	eleventyConfig.addPlugin(pageLinks, {
-		linkType: 1,
-		Collapsible: true,
-		sectionTitle: 'Links On This Page',
-		minimumLinks: 5,
-		externalLinksOnly: true
-	});
+	});	
 	eleventyConfig.addPlugin(pluginImages, { debugMode: false });
 	eleventyConfig.addPlugin(pluginStats);
 
