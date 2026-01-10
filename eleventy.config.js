@@ -15,7 +15,6 @@ import pluginStats from 'eleventy-plugin-post-stats';
 import pluginImages from './eleventy.config.images.js';
 import pluginGallery from "./eleventy.config.gallery.js";
 import pluginImageHeaders from './eleventy.config.headerimage.js';
-// import relativeTime from './eleventy.config.relativeTime.js';
 // Transforms
 import htmlMinTransform from './src/transforms/html-min.js';
 
@@ -52,8 +51,7 @@ export default function (eleventyConfig) {
 		minimumLinks: 5,
 		externalLinksOnly: true
 	});
-	// eleventyConfig.addPlugin(relativeTime);
-	eleventyConfig.addPlugin(pluginImages, { debugMode: false });
+		eleventyConfig.addPlugin(pluginImages, { debugMode: false });
 	eleventyConfig.addPlugin(pluginStats);
 
 	// https://github.com/11ty/eleventy/issues/2301
