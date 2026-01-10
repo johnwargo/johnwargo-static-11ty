@@ -2,7 +2,6 @@ import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
 import embedYouTube from 'eleventy-plugin-youtube-embed';
 import markdownIt from 'markdown-it';
 import markdownItAttrs from 'markdown-it-attrs';
-import pageLinks from 'eleventy-plugin-markdown-page-links';
 import pluginDate from 'eleventy-plugin-date';
 import pluginRss from '@11ty/eleventy-plugin-rss';
 import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
