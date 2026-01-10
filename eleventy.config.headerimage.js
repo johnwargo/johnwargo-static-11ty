@@ -3,7 +3,7 @@
 // By John M. Wargo
 // ==============================================
 
-var path = require("path");
+import path from "path";
 
 export default function (eleventyConfig, options = {}) {
 

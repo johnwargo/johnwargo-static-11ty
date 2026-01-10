@@ -3,8 +3,8 @@
 // ==============================================
 // https://www.aleksandrhovhannisyan.com/blog/eleventy-image-plugin/
 
-const Image = require('@11ty/eleventy-img');
-const outdent = require('outdent');
+import Image from '@11ty/eleventy-img';
+import outdent from 'outdent';
 
 export default function (eleventyConfig, options = {}) {
 
