@@ -51,7 +51,7 @@ Normally I'd simply take a picture of my hardware, but I've already completed as
 
 ## Using the GPIO Ports
 
-Now, here's where it gets funny. NCD calls the single relay board the NCD1, the 4-relay board is the NCD4, and the 8-relay board is the, wait for it…, the NCD8. The [software library for the NCD1](https://github.com/ControlEverythingCom/NCD1Relay) exposes a single set of methods for interacting with the relay: `turnOnRelay`, `turnOffRelay`, and `toggleRelay`. Since the relay board only has 1 relay, those methods don't even require a parameter to indicate which relay you're turning on/off or toggling. You simply call the method and it does what you want with the single relay on the board.
+Now, here's where it gets funny. NCD calls the single relay board the NCD1, the 4-relay board is the NCD4, and the 8-relay board is the, wait for it…, the NCD8. The [software library for the NCD1](https://github.com/ControlEverythingCom/NCD1Relay){target="_blank"} exposes a single set of methods for interacting with the relay: `turnOnRelay`, `turnOffRelay`, and `toggleRelay`. Since the relay board only has 1 relay, those methods don't even require a parameter to indicate which relay you're turning on/off or toggling. You simply call the method and it does what you want with the single relay on the board.
 
 Remember the 7 GPIO channels?  Well, the library only exposes methods you can use to read values from the GPIO channels used as inputs.  You Photon firmware can call `readInputStatus` and pass it the number (1-7) of the GPIO port you want to read, and it will return a value indicating the value read from the port. Your project's firmware can also call `readAllInputs` which returns the status of all of the GPIO ports represented as binary values in a byte of data.
 
@@ -63,7 +63,7 @@ Having 7 GPIO ports available is merely the side effect of using the MCP23008 to
 
 So, since the board's library doesn't support anything but the ability to read data from the GPIO ports, what do you do?
 
-Well, the 4 and 8-relay boards have different libraries that enable you to control more than one relay using the `turnOnRelay`, `turnOffRelay`, and `toggleRelay` methods. To drive an output voltage on the GPIO ports, you have to use the [NCD4](https://github.com/ControlEverythingCom/NCD4Relay{target="_blank"}) or [NCD8](https://github.com/ControlEverythingCom/NCD8Relay){target="_blank"} libraries in your project.
+Well, the 4 and 8-relay boards have different libraries that enable you to control more than one relay using the `turnOnRelay`, `turnOffRelay`, and `toggleRelay` methods. To drive an output voltage on the GPIO ports, you have to use the [NCD4](https://github.com/ControlEverythingCom/NCD4Relay){target="_blank"} or [NCD8](https://github.com/ControlEverythingCom/NCD8Relay){target="_blank"} libraries in your project.
 
 So, if you want to drive a voltage output on the GPIO ports, all you have to do is call `turnOnRelay` and pass it the GPIO port number. Now, the relay eats up the first GPIO port (on the NCD1 anyway), so your GPIO numbers are shifted as shown in the following table:
 

@@ -2,6 +2,7 @@ import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
 import embedYouTube from 'eleventy-plugin-youtube-embed';
 import markdownIt from 'markdown-it';
 import markdownItAttrs from 'markdown-it-attrs';
+import pageLinks from 'eleventy-plugin-markdown-page-links';
 import pluginDate from 'eleventy-plugin-date';
 import pluginRss from '@11ty/eleventy-plugin-rss';
 import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
@@ -25,7 +26,15 @@ export default function (eleventyConfig) {
 
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(embedYouTube);
-	eleventyConfig.addPlugin(fileList, { targetFolder: 'src/files' });
+	eleventyConfig.addPlugin(fileList, {
+		targetFolder: 'src/files'
+	});
+	eleventyConfig.addPlugin(pageLinks, {
+		listType: 1,
+		collapsible: true,
+		sectionTitle: "Links On This Page",
+		minimumLinks: 5
+	});
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(syntaxHighlight);
@@ -47,7 +56,7 @@ export default function (eleventyConfig) {
 		minimumLinks: 5,
 		externalLinksOnly: true
 	});
-		eleventyConfig.addPlugin(pluginImages, { debugMode: false });
+	eleventyConfig.addPlugin(pluginImages, { debugMode: false });
 	eleventyConfig.addPlugin(pluginStats);
 
 	// https://github.com/11ty/eleventy/issues/2301
