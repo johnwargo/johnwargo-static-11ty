@@ -16,7 +16,7 @@ function _compareFunction(a, b) {
   return 0;
 }
 
-module.exports = async function () { 
+export default async function () {
   console.log(`[packageList] Fetching npm packages for "${author}"`);
   try {
     var response = await fetch(`https://registry.npmjs.com/-/v1/search?text=author:${author}`);

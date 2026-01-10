@@ -1,6 +1,6 @@
 // https://learneleventyfromscratch.com/lesson/31.html#minifying-html-output
 
-const htmlmin = require('html-minifier');
+import htmlmin from 'html-minifier';
 
 export default function(value, outputPath){
   

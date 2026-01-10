@@ -1,7 +1,7 @@
 // https://www.bash.lk/posts/tech/1-elventy-image-gallery/
 // https://photoswipe.com/getting-started/
-const sharp = require('sharp');
-const Image = require('@11ty/eleventy-img');
+import sharp from 'sharp';
+import Image from '@11ty/eleventy-img';
 
 const GALLERY_IMAGE_WIDTH = 256;
 const LANDSCAPE_LIGHTBOX_IMAGE_WIDTH = 1280;

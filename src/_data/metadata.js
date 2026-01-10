@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	title: "John M. Wargo",
 	url: "https://johnwargo.com",
 	language: "en",
