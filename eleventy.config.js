@@ -9,6 +9,8 @@ const embedYouTube = require('eleventy-plugin-youtube-embed');
 const fileList = require('eleventy-plugin-file-list');
 const generateCategoryPages = require('eleventy-generate-category-pages');
 const githubRepos = require('eleventy-plugin-github-repos');
+// const pageLinks = require('eleventy-plugin-markdown-page-links');
+import pageLinks from 'eleventy-plugin-markdown-page-links';
 const pluginStats = require('eleventy-plugin-post-stats');
 // local plugins
 const pluginImages = require('./eleventy.config.images.js');
@@ -34,6 +36,7 @@ module.exports = eleventyConfig => {
 	eleventyConfig.addPlugin(githubRepos, { userAccount: 'johnwargo', apiKey });
 	eleventyConfig.addPlugin(pluginGallery);
 	eleventyConfig.addPlugin(pluginImageHeaders, { dataFileName: categoryDataFile, imageClass: 'image fit' });
+	eleventyConfig.addPlugin(pageLinks, { linkType: 1, Collapsible: true, sectionTitle: 'Links On This Page', minimumLinks: 5, externalLinksOnly: true });
 	eleventyConfig.addPlugin(relativeTime);
 	eleventyConfig.addPlugin(pluginImages, { debugMode: false });
 	eleventyConfig.addPlugin(pluginStats);
