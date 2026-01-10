@@ -36,7 +36,7 @@ function determineUnit(x) {
   return 'year';
 }
 
-module.exports = function (eleventyConfig, options = {}) {
+export default function (eleventyConfig, options = {}) {
 
   eleventyConfig.addFilter('relativeTime', function (dateVal, locale = 'en-us') {
     let date = new Date(dateVal);

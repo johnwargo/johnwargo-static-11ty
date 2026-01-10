@@ -1,29 +1,28 @@
-const { EleventyHtmlBasePlugin } = require('@11ty/eleventy');
-const markdownIt = require('markdown-it');
-const markdownItAttrs = require('markdown-it-attrs');
-const pluginDate = require('eleventy-plugin-date');
-const pluginRss = require('@11ty/eleventy-plugin-rss');
-const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
-const embedYouTube = require('eleventy-plugin-youtube-embed');
+import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
+import embedYouTube from 'eleventy-plugin-youtube-embed';
+import markdownIt from 'markdown-it';
+import markdownItAttrs from 'markdown-it-attrs';
+import pluginDate from 'eleventy-plugin-date';
+import pluginRss from '@11ty/eleventy-plugin-rss';
+import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 // my plugins
-const fileList = require('eleventy-plugin-file-list');
-const generateCategoryPages = require('eleventy-generate-category-pages');
-const githubRepos = require('eleventy-plugin-github-repos');
-// const pageLinks = require('eleventy-plugin-markdown-page-links');
+import fileList from 'eleventy-plugin-file-list';
+import generateCategoryPages from 'eleventy-generate-category-pages';
+import githubRepos from 'eleventy-plugin-github-repos';
 import pageLinks from 'eleventy-plugin-markdown-page-links';
-const pluginStats = require('eleventy-plugin-post-stats');
+import pluginStats from 'eleventy-plugin-post-stats';
 // local plugins
-const pluginImages = require('./eleventy.config.images.js');
-const pluginGallery = require("./eleventy.config.gallery.js");
-const pluginImageHeaders = require('./eleventy.config.headerimage.js');
-const relativeTime = require('./eleventy.config.relativeTime.js');
+import pluginImages from './eleventy.config.images.js';
+import pluginGallery from "./eleventy.config.gallery.js";
+import pluginImageHeaders from './eleventy.config.headerimage.js';
+// import relativeTime from './eleventy.config.relativeTime.js';
 // Transforms
-const htmlMinTransform = require('./src/transforms/html-min.js');
+import htmlMinTransform from './src/transforms/html-min.js';
 
 const isProduction = process.env.NODE_ENV === 'production';
 const categoryDataFile = 'categoryData.json';
 
-module.exports = eleventyConfig => {
+export default function (eleventyConfig) {
 
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(embedYouTube);
@@ -33,11 +32,23 @@ module.exports = eleventyConfig => {
 	eleventyConfig.addPlugin(syntaxHighlight);
 
 	const apiKey = process.env.GITHUB_API_KEY;
-	eleventyConfig.addPlugin(githubRepos, { userAccount: 'johnwargo', apiKey });
+	eleventyConfig.addPlugin(githubRepos, {
+		userAccount: 'johnwargo',
+		apiKey
+	});
 	eleventyConfig.addPlugin(pluginGallery);
-	eleventyConfig.addPlugin(pluginImageHeaders, { dataFileName: categoryDataFile, imageClass: 'image fit' });
-	eleventyConfig.addPlugin(pageLinks, { linkType: 1, Collapsible: true, sectionTitle: 'Links On This Page', minimumLinks: 5, externalLinksOnly: true });
-	eleventyConfig.addPlugin(relativeTime);
+	eleventyConfig.addPlugin(pluginImageHeaders, {
+		dataFileName: categoryDataFile,
+		imageClass: 'image fit'
+	});
+	eleventyConfig.addPlugin(pageLinks, {
+		linkType: 1,
+		Collapsible: true,
+		sectionTitle: 'Links On This Page',
+		minimumLinks: 5,
+		externalLinksOnly: true
+	});
+	// eleventyConfig.addPlugin(relativeTime);
 	eleventyConfig.addPlugin(pluginImages, { debugMode: false });
 	eleventyConfig.addPlugin(pluginStats);
 

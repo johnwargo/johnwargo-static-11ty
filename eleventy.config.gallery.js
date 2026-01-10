@@ -55,7 +55,7 @@ function galleryShortcode(content, name) {
         .replace(/(\r\n|\n|\r)/gm, "");
 }
 
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
     eleventyConfig.addPairedLiquidShortcode('gallery', galleryShortcode)
     eleventyConfig.addLiquidShortcode('galleryImage', galleryImageShortcode)
 }
