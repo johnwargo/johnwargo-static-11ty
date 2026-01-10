@@ -18,14 +18,10 @@ import pluginImageHeaders from './eleventy.config.headerimage.js';
 // Transforms
 import htmlMinTransform from './src/transforms/html-min.js';
 
-import UpgradeHelper from "@11ty/eleventy-upgrade-help";
-
 const isProduction = process.env.NODE_ENV === 'production';
 const categoryDataFile = 'categoryData.json';
 
 export default function (eleventyConfig) {
-
-	eleventyConfig.addPlugin(UpgradeHelper);
 
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(embedYouTube);
