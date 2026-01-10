@@ -20,17 +20,18 @@
     "build": "npm-run-all --sequential clean build:eleventy"
   },
   "dependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-img": "^3.1.1",
-    "@11ty/eleventy-plugin-rss": "^1.2.0",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-img": "^6.0.4",
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+    "@11ty/eleventy-upgrade-help": "^3.0.2",
     "eleventy-generate-category-pages": "^0.1.4",
     "eleventy-plugin-date": "^1.0.0",
     "eleventy-plugin-file-list": "^0.0.5",
     "eleventy-plugin-github-repos": "^0.0.2",
     "eleventy-plugin-markdown-page-links": "^0.0.14",
     "eleventy-plugin-post-stats": "^0.2.13",
-    "eleventy-plugin-youtube-embed": "^1.9.1",
+    "eleventy-plugin-youtube-embed": "^1.13.1",
     "execa": "^8.0.1",
     "generate-build-info": "^0.0.3",
     "html-minifier": "^4.0.0",
@@ -38,9 +39,9 @@
     "markdown-it-attrs": "^4.3.1",
     "npm-run-all": "^4.1.5",
     "outdent": "^0.8.0",
-    "rimraf": "^6.0.1",
+    "rimraf": "^6.1.2",
     "rss-parser": "^3.13.0",
-    "sharp": "^0.32.1"
+    "sharp": "^0.34.5"
   },
   "keywords": [
     "eleventy"

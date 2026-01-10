@@ -19,10 +19,14 @@ import pluginImageHeaders from './eleventy.config.headerimage.js';
 // Transforms
 import htmlMinTransform from './src/transforms/html-min.js';
 
+import UpgradeHelper from "@11ty/eleventy-upgrade-help";
+
 const isProduction = process.env.NODE_ENV === 'production';
 const categoryDataFile = 'categoryData.json';
 
 export default function (eleventyConfig) {
+
+	eleventyConfig.addPlugin(UpgradeHelper);
 
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(embedYouTube);
@@ -203,30 +207,24 @@ export default function (eleventyConfig) {
 	// copy the rest of the files
 	[
 		'src/_data/*',
-		'src/assets/css/',
-		'src/assets/js/',
-		'src/assets/sass/',
-		'src/assets/webfonts/',
+		'src/assets/',
+		// 'src/assets/css/',
+		// 'src/assets/js/',
+		// 'src/assets/sass/',
+		// 'src/assets/webfonts/',
 		'src/files/*',
-		'src/images/*',
-		'src/images/headers/*',
-		'src/images/avatar/*',
-		'src/images/common/*',
-		'src/images/covers/*',
-		'src/images/sites/*'
+		'src/images/',
+		// 'src/images/headers/*',
+		// 'src/images/avatar/*',
+		// 'src/images/common/*',
+		// 'src/images/covers/*',
+		// 'src/images/sites/*'
 	].forEach((path) => {
 		eleventyConfig.addPassthroughCopy(path);
 	});
 
-	// instead of the 'src/images/*', above, you can use the following to copy images by year
-	// Assumes cascading folders per year
-	// let thisYear = new Date().getFullYear();
-	// for (let i = 2009; i <= thisYear; i++) {
-	// 	eleventyConfig.addPassthroughCopy(`src/images/${i}/*`);
-	// }
-
-	// Only minify HTML if we are in production because it slows builds
 	if (isProduction) {
+		// Only minify HTML if we are in production because it slows builds
 		eleventyConfig.addTransform('htmlmin', htmlMinTransform);
 	}
 
