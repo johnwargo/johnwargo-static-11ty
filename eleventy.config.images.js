@@ -29,7 +29,7 @@ export default function (eleventyConfig, options = {}) {
     src,
     alt,
     className = undefined,
-    widths = [400, 800, 1280],
+    widths = [400, 800, 1024],
     formats = ['webp', 'jpeg'],
     sizes = '100vw'
   ) => {
