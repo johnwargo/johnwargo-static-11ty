@@ -1,4 +1,5 @@
 import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
+// import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 import embedYouTube from 'eleventy-plugin-youtube-embed';
 import markdownIt from 'markdown-it';
 import markdownItAttrs from 'markdown-it-attrs';
@@ -37,6 +38,23 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginDate);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(syntaxHighlight);
+
+	// // https://www.aleksandrhovhannisyan.com/blog/eleventy-image-transform/
+	// eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+	// 	// which file extensions to process
+	// 	extensions: 'html',
+	// 	// optional, output image formats
+	// 	formats: ['jpg', 'webp'],
+	// 	// optional, output image widths
+	// 	widths: ['auto', 400, 800],
+	// 	// optional, attributes assigned on <img> override these values.
+	// 	defaultAttributes: {
+	// 		loading: 'lazy',
+	// 		sizes: '100vw',
+	// 		decoding: 'async',
+	// 		class: 'image-full'
+	// 	},
+	// });
 
 	const apiKey = process.env.GITHUB_API_KEY;
 	eleventyConfig.addPlugin(githubRepos, {
