@@ -68,21 +68,21 @@ export default function (eleventyConfig, options = {}) {
     const largestUnoptimizedImg = getLargestImage(formats[0]);
     const imgAttributes = stringifyAttributes({
       src: largestUnoptimizedImg.url,
-      // Added classname here because the scott.css file needs it on the img tag
-      class: className,
       width: largestUnoptimizedImg.width,
       // removed because it was messing with the aspect ratio
       // height: largestUnoptimizedImg.height,
       alt,
       loading: 'lazy',
       decoding: 'async',
+      // Added classname here because the scott.css file needs it on the img tag
+      class: className
+
     });
     const imgHtmlString = `<img ${imgAttributes}>`;
     const pictureAttributes = stringifyAttributes({ class: className });
     const picture = `<picture ${pictureAttributes}>${sourceHtmlString} ${imgHtmlString}</picture>`;
 
     return outdent`${picture}`;
-
   };
 
   eleventyConfig.addShortcode('image', imageShortcode);
