@@ -1,14 +1,20 @@
 ---
 title: Eleventy Adding Page Links to a Post
-description: 
+description: I created a plugin called Eleventy Plugin Markdown Post Links that
+  adds a list of links to the top of my posts. The plugin has options for
+  different types of lists and can generate links based on a minimum number
+  specified. I implemented it on my site with a collapsible link list feature.
+  You can find the source code on GitHub and a demo site showcasing the plugin's
+  capabilities.
 date: 2026-01-10
 showCoffee: true
-headerImage: 
-headerImageAltText: 
-headerImageAttribution: 
+headerImage: null
+headerImageAltText: null
+headerImageAttribution: null
 categories:
   - Eleventy
 timestamp: 2026-01-11T00:04:51.178Z
+generatedDescription: true
 ---
 
 I often put a lot of links in my longer posts and a few months ago I started thinking about adding a list of links to the top of my posts on this site. I had some extra time this week, so I created a plugin to do that for me. This post introduces the plugin.
