@@ -47,7 +47,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginImageHeaders, {
 		dataFileName: categoryDataFile,
 		imageClass: 'image fit'
-	});	
+	});
 	eleventyConfig.addPlugin(pluginImages, { debugMode: false });
 	eleventyConfig.addPlugin(pluginStats);
 

@@ -44,7 +44,7 @@ The plugin supports the following options:
 
 ## Implementation on this Site
 
-My favorite features of the plugin are the `minimumLinks` setting (which allows me to only generate the link list when there's more than the specified minimum links on the page) and the Collapsible link type which uses a very small amount of space on the page; click the list title to expand the links on the page. You can see this in action on this site, most pages don't have a link list, but the site's [Mounting Breadboard-friendly NeoPixels](https://johnwargo.com/posts/2025/mounting-neopixel/){target="_blank"} article has enough links to exceed the minimumLinks threshold defined on the site and generate the link list.
+My favorite features of the plugin are the `minimumLinks` setting (which allows me to only generate the link list when there's more than the specified minimum links on the page) and the Collapsible link type which uses a very small amount of space on the page; click the list title to expand the links on the page. You can see an example of this in action at the top of this page. 
 
 Here's how I've implemented the plugin on this site:
 
