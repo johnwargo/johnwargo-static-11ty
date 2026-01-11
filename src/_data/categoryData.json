@@ -224,14 +224,6 @@
     "imageAttribution": "Photo by <a href=\"https://unsplash.com/@raspopovamarisha\" target=\"_blank\">Raspopova Marina</a> on <a href=\"https://unsplash.com/photos/PHIJC0jpx9U\" target=\"_blank\">Unsplash</a>."
   },
   {
-    "category": "Uncategorized",
-    "count": 1,
-    "description": "",
-    "imageFilePath": "",
-    "imageAltText": "",
-    "imageAttribution": ""
-  },
-  {
     "category": "Web Development",
     "count": 16,
     "description": "Posts related to web development topics, development tools, strategies, etc.",
