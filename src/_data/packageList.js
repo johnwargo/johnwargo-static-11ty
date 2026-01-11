@@ -16,19 +16,17 @@ function _compareFunction(a, b) {
   return 0;
 }
 
-// export default async function () {
-export default function () {
-  // console.log(`[packageList] Fetching npm packages for "${author}"`);
-  return [];
-  // try {
-  //   var response = await fetch(`https://registry.npmjs.com/-/v1/search?text=author:${author}`);
-  //   var data = await response.json();
-  //   var packages = data.objects;
-  //   packages.sort(_compareFunction);
-  //   return packages;
-  // } catch (error) {
-  //   console.error(error);
-  //   if (exitOnError) process.exit(1);
-  //   return [];
-  // }
+export default async function () {
+  console.log(`[packageList] Fetching npm packages for "${author}"`);  
+  try {
+    var response = await fetch(`https://registry.npmjs.com/-/v1/search?text=author:${author}`);
+    var data = await response.json();
+    var packages = data.objects;
+    packages.sort(_compareFunction);
+    return packages;
+  } catch (error) {
+    console.error(error);
+    if (exitOnError) process.exit(1);
+    return [];
+  }
 }
