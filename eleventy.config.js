@@ -1,5 +1,5 @@
 import { EleventyHtmlBasePlugin } from '@11ty/eleventy';
-// import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
+import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 import embedYouTube from 'eleventy-plugin-youtube-embed';
 import markdownIt from 'markdown-it';
 import markdownItAttrs from 'markdown-it-attrs';
@@ -39,22 +39,22 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(syntaxHighlight);
 
-	// // https://www.aleksandrhovhannisyan.com/blog/eleventy-image-transform/
-	// eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-	// 	// which file extensions to process
-	// 	extensions: 'html',
-	// 	// optional, output image formats
-	// 	formats: ['jpg', 'webp'],
-	// 	// optional, output image widths
-	// 	widths: ['auto', 400, 800],
-	// 	// optional, attributes assigned on <img> override these values.
-	// 	defaultAttributes: {
-	// 		loading: 'lazy',
-	// 		sizes: '100vw',
-	// 		decoding: 'async',
-	// 		class: 'image-full'
-	// 	},
-	// });
+	// https://www.aleksandrhovhannisyan.com/blog/eleventy-image-transform/
+	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+		// which file extensions to process
+		extensions: 'html',
+		// optional, output image formats
+		formats: ['jpg', 'webp'],
+		// optional, output image widths
+		widths: ['auto', 400, 800],
+		// optional, attributes assigned on <img> override these values.
+		defaultAttributes: {
+			loading: 'lazy',
+			sizes: '100vw',
+			decoding: 'async',
+			class: 'image-full'
+		},
+	});
 
 	const apiKey = process.env.GITHUB_API_KEY;
 	eleventyConfig.addPlugin(githubRepos, {
@@ -190,7 +190,6 @@ export default function (eleventyConfig) {
 		return theDate.toLocaleDateString(locale, options);
 	});
 
-
 	eleventyConfig.addFilter('readableTimestamp', function (dateVal, locale = 'en-us') {
 		// Used by home, articles, & post pages to render timestamp as human readable
 		var theDate = new Date(dateVal);
@@ -221,17 +220,8 @@ export default function (eleventyConfig) {
 	[
 		'src/_data/*',
 		'src/assets/',
-		// 'src/assets/css/',
-		// 'src/assets/js/',
-		// 'src/assets/sass/',
-		// 'src/assets/webfonts/',
 		'src/files/*',
-		'src/images/',
-		// 'src/images/headers/*',
-		// 'src/images/avatar/*',
-		// 'src/images/common/*',
-		// 'src/images/covers/*',
-		// 'src/images/sites/*'
+		'src/images/'
 	].forEach((path) => {
 		eleventyConfig.addPassthroughCopy(path);
 	});

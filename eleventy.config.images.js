@@ -82,6 +82,7 @@ export default function (eleventyConfig, options = {}) {
     const picture = `<picture ${pictureAttributes}>${sourceHtmlString} ${imgHtmlString}</picture>`;
 
     return outdent`${picture}`;
+
   };
 
   eleventyConfig.addShortcode('image', imageShortcode);
