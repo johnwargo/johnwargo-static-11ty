@@ -75,8 +75,8 @@ export default function (eleventyConfig, options = {}) {
       loading: 'lazy',
       decoding: 'async',
       // Added classname here because the scott.css file needs it on the img tag
-      class: className
-
+      class: className,
+      eleventy: 'ignore'
     });
     const imgHtmlString = `<img ${imgAttributes}>`;
     const pictureAttributes = stringifyAttributes({ class: className });
