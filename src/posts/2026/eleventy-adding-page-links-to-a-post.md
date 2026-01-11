@@ -57,10 +57,6 @@ eleventyConfig.addPlugin(pageLinks, {
 });
 ```
 
-Here's what it looks like in action:
-
-{% image "src/images/2026/pagelinks-collapsible-example.png", "An article from this site with a link list displayed", "image-full" %}
-
 ## Sample Application
 
 Rather than duplicating the docs here, you can learn more about the plugin in the project's [readme](https://github.com/johnwargo/eleventy-plugin-markdown-page-links/blob/main/readme.md){target="_blank"} file. I also built a [Demonstration](https://mdpagelinks.netlify.app/){target="_blank"} Eleventy site that demonstrates all of the options available in the plugin.
