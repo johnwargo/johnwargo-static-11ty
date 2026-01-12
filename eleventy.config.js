@@ -221,25 +221,14 @@ export default function (eleventyConfig) {
 	[
 		'src/_data/*',
 		'src/assets/',
-		// 'src/assets/css/',
-		// 'src/assets/js/',
-		// 'src/assets/sass/',
-		// 'src/assets/webfonts/',
 		'src/files/*',
-		'src/images/',
-		// 'src/images/headers/*',
-		// 'src/images/avatar/*',
-		// 'src/images/common/*',
-		// 'src/images/covers/*',
-		// 'src/images/sites/*'
+		'src/images/'
 	].forEach((path) => {
 		eleventyConfig.addPassthroughCopy(path);
 	});
 
-	if (isProduction) {
-		// Only minify HTML if we are in production because it slows builds
-		eleventyConfig.addTransform('htmlmin', htmlMinTransform);
-	}
+	// Only minify HTML if we are in production
+	if (isProduction) eleventyConfig.addTransform('htmlmin', htmlMinTransform);
 
 	return {
 		dir: {
