@@ -1,5 +1,13 @@
 # Changelog
 
+## 20260112 v0.1.75
+
+Added the eleventy-fetch plugin to the npm packages and top posts data files to reduce the number of external calls made during the build process.
+
+## 20260111 v0.1.74
+
+Cleaned up errors with existing `<img>` tags in use in the site in preparation for moving to the updated `@11ty/eleventy-img` plugin version 6.x.
+
 ## 20250104 v0.1.63
 
 + Added OpenGraph (https://ogp.me/) meta tags to the ite

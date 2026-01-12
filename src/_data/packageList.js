@@ -7,6 +7,8 @@
 
 // https://github.com/npm/registry/blob/main/docs/REGISTRY-API.md
 
+import Fetch from "@11ty/eleventy-fetch";
+
 const author = 'johnwargo';
 const exitOnError = true;
 
@@ -19,8 +21,10 @@ function _compareFunction(a, b) {
 export default async function () {
   console.log(`[packageList] Fetching npm packages for "${author}"`);  
   try {
-    var response = await fetch(`https://registry.npmjs.com/-/v1/search?text=author:${author}`);
-    var data = await response.json();
+    var data = await Fetch(`https://registry.npmjs.com/-/v1/search?text=author:${author}`, {
+      duration: '1d',
+      type: 'json'
+    });
     var packages = data.objects;
     packages.sort(_compareFunction);
     return packages;
