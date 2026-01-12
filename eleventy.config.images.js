@@ -40,7 +40,7 @@ export default function (eleventyConfig, options = {}) {
       widths: [...widths, null],
       formats: [...formats, null],
       outputDir: '_site/img',
-      urlPath: '/img',
+      urlPath: '/img'
     });
 
     const sourceHtmlString = Object.values(imageMetadata)
@@ -75,10 +75,9 @@ export default function (eleventyConfig, options = {}) {
       loading: 'lazy',
       decoding: 'async',
       // Added classname here because the scott.css file needs it on the img tag
-      class: className,
-      eleventy: 'ignore'
+      class: className      
     });
-    const imgHtmlString = `<img ${imgAttributes}>`;
+    const imgHtmlString = `<img eleventy:ignore, ${imgAttributes}>`;
     const pictureAttributes = stringifyAttributes({ class: className });
     const picture = `<picture ${pictureAttributes}>${sourceHtmlString} ${imgHtmlString}</picture>`;
 
