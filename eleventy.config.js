@@ -190,7 +190,6 @@ export default function (eleventyConfig) {
 		return theDate.toLocaleDateString(locale, options);
 	});
 
-
 	eleventyConfig.addFilter('readableTimestamp', function (dateVal, locale = 'en-us') {
 		// Used by home, articles, & post pages to render timestamp as human readable
 		var theDate = new Date(dateVal);
