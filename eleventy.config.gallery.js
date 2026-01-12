@@ -30,7 +30,7 @@ async function galleryImageShortcode(src, alt) {
 
     return `<a href="${genMetadata.jpeg[1].url}" data-pswp-width="${genMetadata.jpeg[1].width}" 
         data-pswp-height="${genMetadata.jpeg[1].height}" target="_blank">
-        <img src="${genMetadata.jpeg[0].url}" alt="${alt}" /></a>`
+        <img eleventy:ignore src="${genMetadata.jpeg[0].url}" alt="${alt}" /></a>`
         .replace(/(\r\n|\n|\r)/gm, "");
 }
 
