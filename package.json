@@ -37,6 +37,7 @@
     "html-minifier": "^4.0.0",
     "markdown-it": "^14.1.0",
     "markdown-it-attrs": "^4.3.1",
+    "netlify-plugin-cache": "^1.0.3",
     "npm-run-all": "^4.1.5",
     "outdent": "^0.8.0",
     "rimraf": "^6.1.2",
@@ -45,8 +46,5 @@
   },
   "keywords": [
     "eleventy"
-  ],
-  "devDependencies": {
-    "netlify-plugin-cache": "^1.0.3"
-  }
+  ]
 }
