@@ -1,14 +1,21 @@
 ---
 title: Added Eleventy-Fetch to the Site
-description: 
+description: The article discusses how the Eleventy Fetch plugin can be used to
+  cache API requests in al 11ty site. By making a few changes
+  to the code, the plugin handles data processing automatically. This simplifies the code and
+  reduces the need for manual data conversion. Additionally, the plugin supports
+  custom headers and options for more complex API calls. Overall, implementing
+  the Eleventy Fetch plugin can improve performance and reduce the risk of rate
+  limiting when making repeated API requests on a website.
 date: 2026-01-13
 showCoffee: true
-headerImage: 
-headerImageAltText: 
-headerImageAttribution: 
+headerImage: null
+headerImageAltText: null
+headerImageAttribution: null
 categories:
   - Eleventy
 timestamp: 2026-01-13T12:13:16.979Z
+generatedDescription: true
 ---
 
 A while back, I found an article from [Raymond Camden](https://www.raymondcamden.com/2025/04/30/a-test-of-eleventy-fetch){target="_blank"} demonstrating how the [Eleventy Fetch](https://www.11ty.dev/docs/plugins/fetch/){target="_blank"} plugin works. 
