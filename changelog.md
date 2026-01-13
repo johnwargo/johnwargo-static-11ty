@@ -1,5 +1,9 @@
 # Changelog
 
+## 20260113 v0.1.76
+
+Upgraded the `eleventy-plugin-github-repos` plugin, adding request caching (`eleventy-fetch`) so when I'm playing around with the site I don't hit the GitHub APIs too frequently.
+
 ## 20260112 v0.1.75
 
 Added the eleventy-fetch plugin to the npm packages and top posts data files to reduce the number of external calls made during the build process.

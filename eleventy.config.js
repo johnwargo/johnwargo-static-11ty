@@ -59,7 +59,9 @@ export default function (eleventyConfig) {
 	const apiKey = process.env.GITHUB_API_KEY;
 	eleventyConfig.addPlugin(githubRepos, {
 		userAccount: 'johnwargo',
-		apiKey
+		apiKey,
+		cacheRequests: true,
+		cacheDuration: '1d'
 	});
 	eleventyConfig.addPlugin(pluginGallery);
 	eleventyConfig.addPlugin(pluginImageHeaders, {

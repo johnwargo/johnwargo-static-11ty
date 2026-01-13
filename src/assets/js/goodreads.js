@@ -5,21 +5,23 @@
  */
 
 const feedURL = 'https://us-east1-jmw-static-site.cloudfunctions.net/getReadingList';
+const goodreadsProfileURL = 'https://goodreads.com/user/show/51500942-john-wargo';
 
 (async function () {
   let bookDiv = document.getElementById('readingList');
   const response = await fetch(feedURL, { mode: 'cors' });
   const res = await response.json();
-  let content = '<p>';
+  let content = '';
   if (res.readingList.length > 0) {
-    content = (res.readingList.length < 2) ? "The book" : "Books";
-    content += " I'm currently reading (<a href=\"https://goodreads.com/user/show/51500942-john-wargo\" target=\"_blank\">according to Goodreads</a>):</p>";
-    content += "<ul class=\"posts\">";
+    content += '<p>';
+    content += (res.readingList.length < 2) ? 'A book' : 'Books';
+    content += ` I am currently reading (<a href="${goodreadsProfileURL}" target="_blank">according to Goodreads</a>):</p>`;
+    content += '<ul class="posts">';
     content += res.readingList.map(book => {
-      let tmpContent = "<li>";
+      let tmpContent = '<li>';
       tmpContent += `<a href="${book.link}" target="_blank"><img src="${book.images.medium}" alt="${book.title}" /></a><br />`;
       tmpContent += `<a href="${book.link}" target="_blank">${book.title}</a><br /> by ${book.author}`
-      tmpContent += "</li>";
+      tmpContent += '</li>';
       return tmpContent;
     }).join('');
     content += "</ul>";
