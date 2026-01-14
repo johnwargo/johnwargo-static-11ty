@@ -1,5 +1,11 @@
+/********************************************************************
+ * Gallery Image Shortcode
+ * 
+ ********************************************************************/
+
 // https://www.bash.lk/posts/tech/1-elventy-image-gallery/
 // https://photoswipe.com/getting-started/
+
 import sharp from 'sharp';
 import Image from '@11ty/eleventy-img';
 
@@ -10,25 +16,24 @@ const PLUGIN_NAME = 'galleryImageShortcode';
 
 async function galleryImageShortcode(src, alt) {
 
-    const metadata = await sharp(src).metadata();
-
-    let lightboxImageWidth = LANDSCAPE_LIGHTBOX_IMAGE_WIDTH;
-
     console.log(`[${PLUGIN_NAME}] ${src}`);
 
-    if (metadata.height > metadata.width) {
-        lightboxImageWidth = PORTRAIT_LIGHTBOX_IMAGE_WIDTH;
-    }
+    const metadata = await sharp(src).metadata();
+    // console.log('\nMetadata');
+    // console.dir(metadata);
+
+    let lightboxImageWidth = metadata.width > metadata.height ? LANDSCAPE_LIGHTBOX_IMAGE_WIDTH : PORTRAIT_LIGHTBOX_IMAGE_WIDTH;
 
     const options = {
         formats: ['jpeg'],
         widths: [GALLERY_IMAGE_WIDTH, lightboxImageWidth],
-        urlPath: "/gen/",
+        // urlPath: "/gen/",
         outputDir: './_site/gen/'
     }
 
     const genMetadata = await Image(src, options);
-    console.dir(genMetadata);
+    // console.log('\nGenerated Metadata');
+    // console.dir(genMetadata);
 
     return `<a href="${genMetadata.jpeg[1].url}" data-pswp-width="${genMetadata.jpeg[1].width}" 
         data-pswp-height="${genMetadata.jpeg[1].height}" target="_blank">
@@ -58,6 +63,6 @@ function galleryShortcode(content, name) {
 }
 
 export default function (eleventyConfig) {
-    eleventyConfig.addPairedLiquidShortcode('gallery', galleryShortcode)
-    eleventyConfig.addLiquidShortcode('galleryImage', galleryImageShortcode)
+    eleventyConfig.addPairedLiquidShortcode('gallery', galleryShortcode);
+    eleventyConfig.addLiquidShortcode('galleryImage', galleryImageShortcode);
 }
