@@ -25,7 +25,7 @@ export default async function () {
     packages.sort(_compareFunction);
     return packages;
   } catch (error) {
-    console.error(error);
+    console.error(`Error fetching packages: ${error}`);
     if (exitOnError) process.exit(1);
     return [];
   }

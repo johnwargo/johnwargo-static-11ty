@@ -22,15 +22,16 @@ async function galleryImageShortcode(src, alt) {
     const options = {
         formats: ['jpeg'],
         widths: [GALLERY_IMAGE_WIDTH, lightboxImageWidth],
-        urlPath: "/gen/",
+        urlPath: "gen/",
         outputDir: './_site/gen/'
     }
 
     const genMetadata = await Image(src, options);
+    console.dir(genMetadata);
 
     return `<a href="${genMetadata.jpeg[1].url}" data-pswp-width="${genMetadata.jpeg[1].width}" 
         data-pswp-height="${genMetadata.jpeg[1].height}" target="_blank">
-        <img eleventy:ignore src="${genMetadata.jpeg[0].url}" alt="${alt}" /></a>`
+        <img src="${genMetadata.jpeg[0].url}" alt="${alt}" /></a>`
         .replace(/(\r\n|\n|\r)/gm, "");
 }
 
