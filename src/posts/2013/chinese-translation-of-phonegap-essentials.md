@@ -15,6 +15,6 @@ Anyway, my new book, Apache Cordova 3 Programming is supposed to go up on Amazon
 
 Here's an image of the cover.
 
-<img src="src/images/2013/phonegap-essentials-chinese-cover.jpg" alt="PhoneGap Essentials Mandarin" />
+<img src="/images/2013/phonegap-essentials-chinese-cover.jpg" alt="PhoneGap Essentials Mandarin" />
 
 My boss is going to China in a few weeks for SAP TechEd, so I'm hoping I can get one of my colleagues to order it and give it to him to bring back for me. My cousin and his wife are in Hong Kong, so perhaps they can get me a copy. We'll see what happens.

@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-<img src="src/images/covers/phonegap-essentials-cover-160.png" alt="PhoneGap Essentials Cover" />
+<img src="/images/covers/phonegap-essentials-cover-160.png" alt="PhoneGap Essentials Cover" />
 
 I keep hearing from readers who have just started reading my PhoneGap Essentials book. That book was published more than two years ago and PhoneGap has changed dramatically since then. The code in the book should still work - not much has changed on the API side of things. The content covered in the first half of the book however is no longer valid.  
   

@@ -13,13 +13,13 @@ timestamp: 2025-07-13T17:46:03.444Z
 
 Last week, I competed construction of the Rockler [Rockler Modern Patio Love Seat Plan with Templates](https://www.rockler.com/rockler-modern-patio-love-seat-plan-with-templates){target="_blank"} project. We have a couple of iron chairs next to our garage that we use all the time, and I was looking to replace them with something more comfortable and much better looking. Here's the completed project; I used Cypress wood for my version of it:
 
-<img src="src/images/2025/loveseat-01.jpg" alt="An image of the completed love seat" />
+<img src="/images/2025/loveseat-01.jpg" alt="An image of the completed love seat" />
 
 One of the features of the seat is a row of 8 slats lined up as the base. The plans called for countersinking screws holding the slats onto supports hidden underneath and I wanted to ensure I did a good job on this since the screws are visible from the top of the seat; I wanted them all to align beautifully!
 
 Here's a close-up of the resulting holes I wanted to make (and eventually did). All lined up and beautiful. 
 
-<img src="src/images/2025/loveseat-02.jpg" alt="" />
+<img src="/images/2025/loveseat-02.jpg" alt="" />
 
 The easiest way to do this is to grab a cordless drill or use a drill press to drill the countersink holes. With this approach, you can try to align your holes across multiple boards (both ends, of course), but your chances of doing that successfully are really small. 
 
@@ -33,13 +33,13 @@ I realized that there was no way for me to accurately drill 16 countersink holes
 
 So I fired up [Tinkercad](https://www.tinkercad.com/){target="_blank"} and built a simple block with an opening that was exactly as wide and tall as the slat with some extra space around it for strength. Here's what it looks like in Tinkercad:
 
-<img src="src/images/2025/loveseat-03.png" alt="" />
+<img src="/images/2025/loveseat-03.png" alt="" />
 
 I knew I'd use my drill press instead of a handheld drill and the table for my drill press was cast iron, so I added holes to mount some rare earth magnets to the jig to hold it in place on the drill press. I ended up not having any magnets lying around to use for this purpose, so I ended up using two-sided woodworker's tape to hold the jig to the drill press while I drilled the holes.
 
 Here's an image of the jig in action. 
 
-<img src="src/images/2025/loveseat-04.jpg" alt="" />
+<img src="/images/2025/loveseat-04.jpg" alt="" />
 
 I didn't use a true countersink bit for this project. For mounting the slats, I used pan head screws, so I used a 3/8" forstner bit to drill the countersink - the forstner bit gives the countersink a flat bottom. Next, I used a traditional bit to drill a pilot hole through the remainder of the slat thickness.
 

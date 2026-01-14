@@ -83,7 +83,7 @@ Making those changes to the certificate file isn't impossible, but at 184 lines 
 
 To automate this conversion process, I published a simple web application that converts a public certificate into the source code needed to use the certificate in an Arduino sketch. The utility is called [Cert2Arduino](https://cert2arduino.netlify.app/){target="_blank"} and it's hosted on Netlify.
 
-<img src="src/images/2025/cert-to-arduino-app.png" alt="Cert2Arduino main page" />
+<img src="/images/2025/cert-to-arduino-app.png" alt="Cert2Arduino main page" />
 
 To use the app: 
 

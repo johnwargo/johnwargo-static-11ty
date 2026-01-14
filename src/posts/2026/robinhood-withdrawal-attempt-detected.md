@@ -15,7 +15,7 @@ Received a simple phishing email today; this one's interesting because the scamm
 
 Here's the email:
 
-<img src="src/images/2026/phishing-robinhood-withdrawal.png" alt="Robinhood Phising email" />
+<img src="/images/2026/phishing-robinhood-withdrawal.png" alt="Robinhood Phising email" />
 
 The message starts with:
 

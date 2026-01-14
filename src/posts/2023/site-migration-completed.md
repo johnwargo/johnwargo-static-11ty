@@ -26,6 +26,6 @@ I'm a software developer in my core, and I love writing code and figuring out co
 
 If you're reading this post, you're on the new site already. It took me a few weeks to complete the migration, and I built and published a few tools to help others with similar migrations. I'll publish articles about the migration and all of the tools as soon as I can. In the mean time, you're looking at the new site, here's what it used to look like:
 
-<img src="src/images/2023/jmw-home-old-800.png" alt="The Old johnwargo.com home page" />
+<img src="/images/2023/jmw-home-old-800.png" alt="The Old johnwargo.com home page" />
 
 This is quite an improved Interface, and should be a lot faster than the old site. I'll also be able to build out some new data-driven areas of the site for my books, articles, GitHub projects, and so on. Stay tuned for more posts about all the things I'm doing here.

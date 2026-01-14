@@ -16,7 +16,7 @@ I recently learned about Ray Ozzie's latest project: Blues Wireless ([https://ge
 
 Blues' primary hardware product is the Notecard, a tiny wireless device with a processor, some sensors, and an interface that allows other hardware devices to use it to send and receive data to and from the cloud.
 
-<img src="src/images/2021/blues-wireless-notecard.png" alt="Blues Wireless Notecard" />
+<img src="/images/2021/blues-wireless-notecard.png" alt="Blues Wireless Notecard" />
 
 Note:  Image 'borrowed' from the Blues Wireless web site at [https://blues.io](https://blues.io){target="_blank"}.
 

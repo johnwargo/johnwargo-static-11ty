@@ -54,4 +54,4 @@ That was a huge miss for me and cost me a lot of time.
 
 Here are some examples from the PR:
 
-<img src="src/images/2026/11ty-3-upgrade-pr.png" alt="" />
+<img src="/images/2026/11ty-3-upgrade-pr.png" alt="" />

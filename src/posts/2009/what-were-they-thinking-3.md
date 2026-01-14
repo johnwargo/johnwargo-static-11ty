@@ -13,13 +13,13 @@ This example of 'What Were They Thinking' is for a Java application, not a web a
 
 As i've mentioned before, I'm getting older and with my advanced age comes reduced eyesight. If you see in the sample screen shot below, my BlackBerry client is configured to use pretty large fonts:
 
-<img src="src/images/2009/screenshot-dec0909-104528a.jpg" alt="My BlackBerry Messages Application" />
+<img src="/images/2009/screenshot-dec0909-104528a.jpg" alt="My BlackBerry Messages Application" />
 
 This approach makes it easy for me to read the screen without my reading glasses (which I've not yet gotten around to keeping with me always). I know this takes up more screen space, but it's something I just have to do.
 
 Now, last week I was working in RIM's Chalk application (Chalk is a recent purchase and allows organizations to easily push rich content to devices). When I opened the application's main screen, here's what I saw:
 
-<img src="src/images/2009/screenshot-dec0809-063122p.jpg" alt="BlackBerry Chalk Application Screen" />
+<img src="/images/2009/screenshot-dec0809-063122p.jpg" alt="BlackBerry Chalk Application Screen" />
 
 The developer (or developers) who built this application, selected a font and size to be used for the application without paying any attention to how I had my particular device configured. For me, it's completely unusable without my glasses.
 

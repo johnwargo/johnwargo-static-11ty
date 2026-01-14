@@ -27,12 +27,12 @@ So, the way this JSR 172 stuff works is you download the [Sun Java Wireless Tool
 
 To get this process rolling, go to Sun's web site and download the Sun Java Wireless Toolkit for CLDC – the link is provided in the previous paragraph. After you have downloaded the package, run its installation program to install it on your local hard drive. As someone complained on the forums last week, it's a whole lot of stuff for that one little utility. Unfortunately that's true – the toolkit has a whole bunch of tools and utilities in it, we're only using a very small part of it. I don't know of any other way to get this to work than to just install the whole thing and live with it. After you install it, you'll find a folder for the toolkit off the root of your system's hard drive as shown in the following figure.
 
-<img src="src/images/2009/dbja2-1.jpg" alt="Figure 1" />
+<img src="/images/2009/dbja2-1.jpg" alt="Figure 1" />
 Figure 1
 
 Fortunately it also puts the shortcuts you need onto the Windows Start menu right where you expect them to be as shown in Figure 2.  
    
-<img src="src/images/2009/dbja2-2.jpg" alt="Figure 2" />
+<img src="/images/2009/dbja2-2.jpg" alt="Figure 2" />
 Figure 2
 
 ## Generating the Java Stub
@@ -52,31 +52,31 @@ https://jwargo1/bb_names.nsf/domdirlookup?wsdl
 
 When I paste this URL into the browser, I will see the following page (or something similar):  
    
-<img src="src/images/2009/dbja2-3.jpg" alt="Figure 3" />
+<img src="/images/2009/dbja2-3.jpg" alt="Figure 3" />
 Figure 3
 
 Note that some browsers such as Google Chrome don't know how to render WSDL files. When I opened the same URL in the Chrome browser, all I got was a blank page.
 
 Once you have a working WSDL URL, you're ready to generate your stubs. In the Start menu folder for the Sun Java Wireless Toolkit (shown in Figure 2) select the 'Utilities' shortcut. Windows will open a screen similar to the one shown below:  
    
-<img src="src/images/2009/dbja2-4.jpg" alt="Figure 4" />
+<img src="/images/2009/dbja2-4.jpg" alt="Figure 4" />
 Figure 4
 
 Scroll down and select the item labeled 'Stub Generator' and click the 'Launch' button. The stub generator program will open as shown below:
 
-<img src="src/images/2009/dbja2-5.jpg" alt="Figure 5" />
+<img src="/images/2009/dbja2-5.jpg" alt="Figure 5" />
 Figure 5
 
 In the dialog, paste the Domino WSDL file URL into the 'WSDL Filename or URL' field on the form. You DO NOT want to navigate to a folder where you have exported the WSDL from the database – an exported WSDL does not contain the destination information the stub program will need to locate the server and database file name containing the web service. 
 
 For the 'Output Path', specify a folder location on your hard drive where you want the stub class files created. For 'Output Package' specify the package name you want to use for the stub class. In this case, I'm saving the output to c:\dev\java and the program will create the necessary subfolders to match the output package (com.johnwargo.domdirlookup).  
    
-<img src="src/images/2009/dbja2-6.jpg" alt="Figure 6" />
+<img src="/images/2009/dbja2-6.jpg" alt="Figure 6" />
 Figure 6
 
 The program will gyrate for a few seconds and inform you that the process completed. When you open Windows Explorer and look at the output path, What you'll find is a complete folder structure shown below:  
    
-<img src="src/images/2009/dbja2-7.jpg" alt="Figure 7" />
+<img src="/images/2009/dbja2-7.jpg" alt="Figure 7" />
 Figure 7
 
 Notice that the stub files were created in c:\dev\java\com\johnwargo\domdirlookup – the concatenation of the output folder and the output package name.

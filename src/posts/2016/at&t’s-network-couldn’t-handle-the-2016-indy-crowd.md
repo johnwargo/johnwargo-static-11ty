@@ -16,7 +16,7 @@ Data service is blocked.
 
 Here's a screen shot of the error:
 
-<img src="src/images/2016/att-data-violation-cropped.png" alt="AT&T Data Violation Error" />
+<img src="/images/2016/att-data-violation-cropped.png" alt="AT&T Data Violation Error" />
 Figure 1
 
 While the error message isn't very clear, I wasn't surprised. Even though Verizon sponsored the event, I'm sure of the 500k participants at the race, a good many of them were AT&T customers and the network simply got overloaded. Having previously worked at AT&T, I know they work really hard to accommodate large crowds at events, but this one, being the largest event EVER, was probably more than they could handle.

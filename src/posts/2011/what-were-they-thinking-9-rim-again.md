@@ -13,7 +13,7 @@ For a long time now, I've been running a series on mobile applications, highligh
 
 I received the following email this morning from Research In Motion. I'd signed up for updates, so they would notify me when new software was available for my device.  I thought it was a good idea to keep my BlackBerry device up to date and it was great to receive the notification.
 
-<img src="src/images/2011/rim_email1.png" alt="Figure 1" />
+<img src="/images/2011/rim_email1.png" alt="Figure 1" />
 Figure 1
 
 What struck me as odd was not that the image they'd included in the email didn't load, but instead that they included a note at the top of the message saying:
@@ -26,7 +26,7 @@ What they did was format the message so it had a nice layout when opened in the 
 
 Here's what the message looked like on my BlackBerry:
 
-<img src="src/images/2011/rim_email2.png" alt="Figure 2" />
+<img src="/images/2011/rim_email2.png" alt="Figure 2" />
 Figure 2
 
 Yes, I have my fonts cranked up (I'm old), so it's bigger that it would be on your device.  The image at the top of the message doesn't appear on my BlackBerry device either, so I'm not sure what's going on there.

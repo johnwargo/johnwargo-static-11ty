@@ -13,7 +13,7 @@ timestamp: 2025-01-26T17:09:55.938Z
 
 An interesting email showed up in my inbox this morning. Interesting because it appears to be from Oracle (and I work for Oracle) but there's a whole bunch of weirdness about the message. Take a look, here's the message:
 
-<img src="src/images/2025/phishing-oracle-elon.png" alt="Phishing email that looks like it's from Oracle" />
+<img src="/images/2025/phishing-oracle-elon.png" alt="Phishing email that looks like it's from Oracle" />
 
 Like I said, there's a lot of weirdness in this one:
 

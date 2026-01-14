@@ -29,7 +29,7 @@ categories:
 
 Here's the description on the home page:
 
-<img src="src/images/2023/yaml-home-page.png" alt="This article on the home page" />
+<img src="/images/2023/yaml-home-page.png" alt="This article on the home page" />
 
 And here's the `description` meta tag:
 
@@ -79,6 +79,6 @@ To display additional information in the console during execution, enable debug 
 
 When the command executes, it will update the console as shown in the following figure:
 
-<img src="src/images/2023/yaml-add-property-terminal.png" alt="an image of the command running in the terminal" />
+<img src="/images/2023/yaml-add-property-terminal.png" alt="an image of the command running in the terminal" />
 
 I hope you find this utility helpful. 

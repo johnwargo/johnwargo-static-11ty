@@ -53,27 +53,27 @@ To use an HTTPS connection, the sketch must have access to the public version of
 
 I opened my browser of choice (Chrome) and navigated to [https://baconipsum.com/](https://baconipsum.com/){target="_blank"}. On the page that appears, I clicked the security options icon that appears left of the URL in the interface (highlighted by the green arrow in the figure below). 
 
-<img src="src/images/2025/arduino-esp32-connect-https-01.png" alt="Bacon Ipsum home page in the browser" />
+<img src="/images/2025/arduino-esp32-connect-https-01.png" alt="Bacon Ipsum home page in the browser" />
 
 In the window that pops up, I clicked the **Connection is secure** option highlighted in the image:
 
-<img src="src/images/2025/arduino-esp32-connect-https-02.png" alt="Browser Certificate and Cookie information" />
+<img src="/images/2025/arduino-esp32-connect-https-02.png" alt="Browser Certificate and Cookie information" />
 
 In the window that appears, I clicked the external link next to **Certificate is valid** highlighted in the image:
 
-<img src="src/images/2025/arduino-esp32-connect-https-03.png" alt="Browser Certificate Options" />
+<img src="/images/2025/arduino-esp32-connect-https-03.png" alt="Browser Certificate Options" />
 
 A dialog appears that displays general information about the certificate. 
 
-<img src="src/images/2025/arduino-esp32-connect-https-04.png" alt="Certificate Viewer" />
+<img src="/images/2025/arduino-esp32-connect-https-04.png" alt="Certificate Viewer" />
 
 I clicked the **Details** tab in the dialog and the dialog content updates to show the hierarchical relationship between the server's certificate (baconipsum dot com) and the Certificate Authority Root certificate (ISRG Root X1). As I understand this, the site has a site-specific certificate, which is signed by the *R11* certificate which is signed by the *ISRG Root X1* certificate.
 
-<img src="src/images/2025/arduino-esp32-connect-https-05.png" alt="Certificate Hierarchy Details in Chrome" />
+<img src="/images/2025/arduino-esp32-connect-https-05.png" alt="Certificate Hierarchy Details in Chrome" />
 
 I selected the *ISRG Root X1* certificate in the dialog's Certificate Hierarchy section (as I did in the previous image), then clicked the **Export...** button.
 
-<img src="src/images/2025/arduino-esp32-connect-https-06.png" alt="Certificate export dialog" />
+<img src="/images/2025/arduino-esp32-connect-https-06.png" alt="Certificate export dialog" />
 
 I saved the exported certificate to my Arduino project on my local system. When I opened the file in a text editor, I saw the following (with the three vertical dots indicating there's more to the file than what I'm showing here):
 
@@ -152,11 +152,11 @@ To use it:
 3. Select the certificate file you downloaded by clicking the **Choose File** button in the app.
 3. Generate the file and save it to disk somewhere (probably best to place it in your Arduino project folder) by clicking the **Generate Header File** button..
 
-<img src="src/images/2025/arduino-esp32-connect-https-07.png" alt="Cert2Arduino App main page" />
+<img src="/images/2025/arduino-esp32-connect-https-07.png" alt="Cert2Arduino App main page" />
 
 When you save the file, the file name should already be populated with the variable name you specified.
 
-<img src="src/images/2025/arduino-esp32-connect-https-08.png" alt="Chrome's Save Dialog" />
+<img src="/images/2025/arduino-esp32-connect-https-08.png" alt="Chrome's Save Dialog" />
 
 ## Project Code
 
@@ -166,7 +166,7 @@ Alright, lets start looking at the code.
 
 The project is a little different than what you normally see for Arduino projects.  
 
-<img src="src/images/2025/arduino-esp32-connect-https-09.png" alt="Arduino IDE showing project files as tabs" />
+<img src="/images/2025/arduino-esp32-connect-https-09.png" alt="Arduino IDE showing project files as tabs" />
 
 As I mentioned at the top of the post, I broke out configuration settings (like the Wi-Fi credentials) into a separate file. To load the settings in the project, all I do is `include` them like this:
 

@@ -71,11 +71,11 @@ The extension installs just like any other Visual Studio Code extension, simply 
 
 You must configure the extension before you can use it. To open the extension's configuration settings, open the Visual Studio Code Command Palette and select **Open Describer Settings** as shown in the figure below:
 
-<img src="src/images/2024/describer-genai-01.png" alt="Visual Studio Code Command Palette" />
+<img src="/images/2024/describer-genai-01.png" alt="Visual Studio Code Command Palette" />
 
 Visual Studio Code will open the settings panel for the extension as shown in the figure below:
 
-<img src="src/images/2024/describer-genai-02.png" alt="Describer GenAI Settings in Visual Studio Code" />
+<img src="/images/2024/describer-genai-02.png" alt="Describer GenAI Settings in Visual Studio Code" />
 
 The following table describes each of the configuration options.
 
@@ -89,7 +89,7 @@ The following table describes each of the configuration options.
 
 Once you configured the extension with an API key, to generate a description of an article, right click in the article content and select **Generate Description** as shown in the following figure:
 
-<img src="src/images/2024/describer-genai-03.png" alt="Invoking the generator" />
+<img src="/images/2024/describer-genai-03.png" alt="Invoking the generator" />
 
 The extension will spin for a few seconds, then update the front matter with a description as shown in the following example:
 

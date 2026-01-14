@@ -147,4 +147,4 @@ layout: generic
 
 I'm in the process of tightening up the table, but here's what the page looks like today:
 
-<img src="src/images/2023/site-stats.png" alt="Site Statistics Page" />
+<img src="/images/2023/site-stats.png" alt="Site Statistics Page" />

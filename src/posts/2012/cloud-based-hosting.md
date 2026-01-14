@@ -9,4 +9,4 @@ tags: post
 
 Saw this in an email tonight from Network Solutions. Since when is hosting not cloud-based?
 
-<img src="src/images/2012/blackberry_status_pane.jpg" alt="" />
+<img src="/images/2012/blackberry_status_pane.jpg" alt="" />

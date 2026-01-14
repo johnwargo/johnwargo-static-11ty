@@ -25,7 +25,7 @@ So, what I did was create a little Windows utility called [Path Backup & Restore
 
 Using the utility, you can backup the path to a file or use an existing backup file to restore the system path (replacing the existing Path entries).
 
-<img src="src/images/2024/path-backup-home.png" alt="Path Backup & Restore application" />
+<img src="/images/2024/path-backup-home.png" alt="Path Backup & Restore application" />
 
 I chose supporting the `.reg` format because it allowed me to let Windows restore the Path using the file (a standard capability of the Windows RegEdit utility). This allows you to take a working Path backup and share it with another user who can restore it without needing access to the Path Backup & Restore application.
 

@@ -36,13 +36,13 @@ The tool I created is a node-based command-line module called CircuitPython Sync
 I wrote it in NodeJS because I have a lot of experience using node in many of my other projects and it's a standard part of many modern software development workflows. I expect I'll someday rewrite it as a standalone executable using Rust.  
 To use the tool, you open a terminal window (macOS or Linux) or command prompt (Windows) and execute the `cpsync` command (passing in the correct arguments, of course - all describe on the Github or NPM pages) and it will setup a file change listener on the CP device. Then, with that running, use the CircuitPython editor of choice to modify the code on the device. Every time you save a change to an existing file, create a new file, or delete a file on the device, cpsync copies, creates, or deletes the file in the designated project folder. You can see an example of cpsync in action in the following figure.
 
-<img src="src/images/2023/cp-sync-1.png" alt="cpsync terminal window" />
+<img src="/images/2023/cp-sync-1.png" alt="cpsync terminal window" />
 
 In this example, the tool synchronizes CP files from drive H:\ to my project folder in c:\Users\john\dev\cp-project\. The CP device has a lot of extra files on it that aren't generally used or accessed by a developer, so in the example I used a command-line flag (-i for ignore) that tells cpsync to ignore (not synchronize) the unnecessary files.
 
 So, when this runs, my local project folder will only contain the lib folder plus the `code.py` and `feather2neo.py` files updated with the latest changes every time those changes are written to the CP device. If I added a new file or folder, those would automatically synchronize to the local project folder. If I deleted a file or folder, those changes would reflect in the local project folder within a few seconds.
 
-<img src="src/images/2023/cp-sync-2.png" alt="Windows Explorer Project Folder" />
+<img src="/images/2023/cp-sync-2.png" alt="Windows Explorer Project Folder" />
 
 Synchronized Project
 

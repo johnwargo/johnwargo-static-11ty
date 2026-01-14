@@ -9,4 +9,4 @@ tags: post
 
 Apparently the folks at PhoneGap have decided to adopt the Microsoft Metro interface for the PhoneGap web site ([phonegap.com](https://phonegap.com){target="_blank"}). It's pretty cool what happens when you resize the browser window - whoever implemented this really paid attention to that particular detail. Cool stuff.
 
-<img src="src/images/2012/phonegap-metro.png" alt="" />
+<img src="/images/2012/phonegap-metro.png" alt="" />

@@ -18,7 +18,7 @@ That particular device is long gone and I've burned through a couple of replacem
 
 Anyway, I drew out a wireframe diagram of the app's UI (see below) and I've open sourced the code so you can follow along as I build this thing. No guarantees for when I'll finish this thing, but I have some time over the next few weeks to dedicate to this, so it may not be too long. You can find the code in [Simple RPN Calculator](https://github.com/fumblystuff/simple-rpn-calculator){target="_blank"}. 
 
-<img src="src/images/2023/simple-rpn-calculator.png" alt="Simple RPN Calculator Wireframe diagram" />
+<img src="/images/2023/simple-rpn-calculator.png" alt="Simple RPN Calculator Wireframe diagram" />
 
 I'm writing the app using [Flutter](https://flutter.io){target="_blank"} for a variety of reasons:
 

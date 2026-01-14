@@ -11,7 +11,7 @@ tags: post
 
 At first I thought I might have difficulty finding enough examples to make this an interesting series but that's turning out to not be the case. Just on a whim, I navigated over to linkedin.com to see how their site looked on the BlackBerry Browser. I expected that they'd detect that I'm running a BlackBerry and give me a mobile version of their site, but I was wrong - take a look at the following screen shot:
 
-<img src="src/images/2009/screenshot-dec0909-024858p.jpg" alt="LinkedIn web site on the BlackBerry Browser" />
+<img src="/images/2009/screenshot-dec0909-024858p.jpg" alt="LinkedIn web site on the BlackBerry Browser" />
 
 The LinkedIn developers broke the first rule of Mobile Web Development: Always (and yes, I do mean always) Detect the Browser!
 

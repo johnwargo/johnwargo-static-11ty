@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-<img src="src/images/covers/ac4p-160.png" alt="Apache Cordova 4 Programming Cover" />
+<img src="/images/covers/ac4p-160.png" alt="Apache Cordova 4 Programming Cover" />
 
 My latest book, Apache Cordova 4 Programming , is now available in stores. This is my 7th book overall and my 4th book on Apache Cordova/Adobe PhoneGap.
 

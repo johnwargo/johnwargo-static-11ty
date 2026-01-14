@@ -11,7 +11,7 @@ tags: post
 
 US Airways is such a technology unsavvy airline. I've been signed up for alerts for a long time now, but they just refuse to alert me when it's time to check in for example. Their day of travel alerts are next to useless as well (see Figure 1). They're notifying me that my flight is expected to be on time, but they refuse to tell me what gate the flight is scheduled to depart from.
 
-<img src="src/images/2011/usair_alert.png" alt="Figure 1" />
+<img src="/images/2011/usair_alert.png" alt="Figure 1" />
 Figure 1
 
 If I already have my boarding pass (which I did) and I'm heading to the airport, many airlines leave out of multiple terminals, so how am I supposed to know which terminal I'm supposed to be dropped off at?

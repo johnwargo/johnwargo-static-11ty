@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-<img src="src/images/2014/acac-print-copies cropped-150.png" alt="Apache Cordova API Cookbook" />
+<img src="/images/2014/acac-print-copies cropped-150.png" alt="Apache Cordova API Cookbook" />
 
 Print copies of *Apache Cordova API Cookbook* arrived on Friday; my expectation is that they will be available for shipment from Amazon.com and other retailers by the end of next week.
 

@@ -93,6 +93,6 @@ Report created by <a href="https://github.com/johnwargo/link-checker" target="_b
 
 The report looks like this in a markdown editor:
 
-<img src="src/images/2024/link-checker-results-md.png" alt="Link checker results in a markdown editor" />
+<img src="/images/2024/link-checker-results-md.png" alt="Link checker results in a markdown editor" />
 
 Give it a try and let me know if you like it.

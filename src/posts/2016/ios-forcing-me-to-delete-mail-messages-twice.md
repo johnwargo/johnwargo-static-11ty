@@ -11,7 +11,7 @@ Once again iOS is making my life harder for me. I'm one of those people who has 
 
 Unfortunately, that won't work. Apple, in its infinite wisdom, has decided that when I delete a message from my inbox on iOS that I really don't want it deleted from my device right now. As you can see in Figure 1, when I delete a message from my inbox, the soonest it will be deleted from the server is after one day.
 
-<img src="src/images/2016/ios-mail-settings-advanced-delete-mail.png" alt="iOS Advanced Mail Settings - Remove Message" />
+<img src="/images/2016/ios-mail-settings-advanced-delete-mail.png" alt="iOS Advanced Mail Settings - Remove Message" />
 Figure 1
 
 Also, with Apple's email services, what seems to be happening is that Apple is downloading new messages for me in the background (at the server level) and delivering them to the device when I open the email client. So, what this means is that if I've opened my mail on my desktop and filed and/or deleted all messages, when I open my iOS mailbox, I'm going to have to go through all of the messages and delete them again.

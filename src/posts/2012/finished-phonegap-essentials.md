@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-<img src="src/images/covers/phonegap-essentials-cover-160.png" alt="PhoneGap Essentials Cover" />
+<img src="/images/covers/phonegap-essentials-cover-160.png" alt="PhoneGap Essentials Cover" />
 
 I didn't get a chance to write a formal post about this, but on December 11th I finished the writing process of my forthcoming PhoneGap book called *PhoneGap Essentials*. I had a contract with the publisher that said I had to deliver the manuscript on February 2nd, but I delivered it about 6 weeks earlier – whew! It was a lot of work and a lot of fun, I really like writing.
 

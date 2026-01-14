@@ -13,7 +13,7 @@ I guess I'm not that surprised they're dropping support for BlackBerry, since Bl
 
 It's funny though, when you look at Seesmic's web site how very lame the BlackBerry version of their premier application looks against the others (although the iPhone version seems even lamer – that must be the wrong screen shot).
 
-<img src="src/images/2011/seesmic-1.png" alt="" />
+<img src="/images/2011/seesmic-1.png" alt="" />
 
 What surprised me, and other people too (from reading reader comments on the Seesmic site), was this comment:
 

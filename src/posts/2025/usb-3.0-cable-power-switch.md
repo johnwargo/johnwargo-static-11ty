@@ -27,19 +27,19 @@ I published this project on Instructables as <a href="https://www.instructables.
 
 Here's an image of the completed project.
 
-<img src="src/images/2025/usb-switch-final.jpg" alt="An image of the completed project" />
+<img src="/images/2025/usb-switch-final.jpg" alt="An image of the completed project" />
 
 I found some panel mount USB 3.0 ports and a double throw single pull (DPST) switch and got to work. First I designed a panel for the switch and printed it. I knew I'd ultimately build a wooden enclosure around it, but haven't done that yet. Here's an image of the panel, USB ports, some wires, and other stuff:
 
-<img src="src/images/2025/usb-switch-components.jpg" alt="a panel, two USB panel mount ports and some wires" />
+<img src="/images/2025/usb-switch-components.jpg" alt="a panel, two USB panel mount ports and some wires" />
 
 Next, I mounted the USB ports to the panel
 
-<img src="src/images/2025/usb-switch-panel-front.jpg" alt="The front of the panel with the USB ports mounted" />
+<img src="/images/2025/usb-switch-panel-front.jpg" alt="The front of the panel with the USB ports mounted" />
 
 And finally wired everything together and added the switch. 
 
-<img src="src/images/2025/usb-switch-panel-back.jpg" alt="The completed assembly from the back" />
+<img src="/images/2025/usb-switch-panel-back.jpg" alt="The completed assembly from the back" />
 
 I've been wanting to publish something on [Instructables](https://www.instructables.com){target="_blank"}, so I made this my first project: [USB 3.0 Cable Power Switch](https://www.instructables.com/USB-30-Cable-Power-Switch/){target="_blank"}.
 

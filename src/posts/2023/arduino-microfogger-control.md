@@ -23,15 +23,15 @@ https://youtu.be/hNl9zjcL8mQ
 
 To use the controller board to control the MicroFogger from an Arduino sketch, you'll have to change two settings on the device. Follow the instructions in the user guide to navigate to the Advanced settings section. There, you'll first need to disable Charge Lock (set it to OFF) so you can charge the device from the connected Arduino while using it.
 
-<img src="src/images/2023/microfogger-01.jpg" alt="MicroFogger Advanced Settings 1" />
+<img src="/images/2023/microfogger-01.jpg" alt="MicroFogger Advanced Settings 1" />
 
 Next, enable the control cable (set it to ON) as shown in the following figure.
 
-<img src="src/images/2023/microfogger-02.jpg" alt="MicroFogger Advanced Settings 2" />
+<img src="/images/2023/microfogger-02.jpg" alt="MicroFogger Advanced Settings 2" />
 
 With the correct settings in place, connect the Arduino-compatible device to the controller card as shown in the following figure. For this, I connected the 3V, Ground, and the A0 connections on the controller card, in this case an Adafruit Feather, to the MicroFogger.  Plug the controller cable into the controller card and MicroFogger and you're all set.
 
-<img src="src/images/2023/microfogger-03.jpg" alt="Connecting the Arduino device" />
+<img src="/images/2023/microfogger-03.jpg" alt="Connecting the Arduino device" />
 
 To control smoke generation, all you have to do is set the Arduino output pin (A0 in this example) to HIGH and as long as it's HIGH, the MicroFogger will generate smoke. Turn the output pin off (LOW) to stop smoke generation.
 

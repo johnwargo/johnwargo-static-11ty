@@ -21,7 +21,7 @@ https://youtube.com/watch?v=L2v5T3hO6S4
 
 With this version of the GLowing Pumpkin project, you deploy one Glowing Pumpkin Xiao 5x5 BFF device with the [Sender](https://github.com/johnwargo/glowing-pumpkin-udp-sync/tree/main/udp-sender-arduino){target="_blank"} sketch deployed to it and all of the other devices with the [Receiver](https://github.com/johnwargo/glowing-pumpkin-udp-sync/tree/main/udp-receiver-arduino){target="_blank"} sketch. As long as all of the devices are one the same Wi-Fi network, they all connect to the network and the Sender starts sending commands to each of the Receiver devices using UDP Broadcast messages. 
 
-<img src="src/images/2023/udp-sync-diagram.png" alt="UDP Sync Connection Diagram" />
+<img src="/images/2023/udp-sync-diagram.png" alt="UDP Sync Connection Diagram" />
 
 ## Arduino Sender 
 

@@ -13,6 +13,6 @@ My son and I finished assembling our Million Color Flashlight [https://makezine.
 
 Here it is all assembled, it was fun to practice my soldering skills:
 
-<img src="src/images/2015/RasPiO-Duino.png" alt="Completed Project Board" />
+<img src="/images/2015/RasPiO-Duino.png" alt="Completed Project Board" />
 
 I think this would be an excellent addition to any elementary or middle school class on microcontrollers. It allows someone to learn how to program the Arduino with limited computer hardware (just a $35US Raspberry Pi, keyboard, mouse and monitor). I'm going to see if I can come up with an interesting project for this thing soon.

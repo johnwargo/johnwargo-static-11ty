@@ -19,7 +19,7 @@ Starting at the [I2C_TWI_LCD1602_Module__Gadgeteer_Compatible___SKU__DFR0063_-DF
 
 So, to understand the connections, I looked to the back of the display and found the I2C connections properly labeled on the board.
 
-<img src="src/images/2024/dfrobot-led-display-01.jpg" alt="IC2 connections" />
+<img src="/images/2024/dfrobot-led-display-01.jpg" alt="IC2 connections" />
 
 Top to bottom, the connections are:
 
@@ -36,7 +36,7 @@ In other wiki tutorials, DFRobot links to the library source with instructions f
 
 Download that file and unzip it into your Arduino libraries folder on your system. To locate your system's Arduino Libraries, open the Arduino IDE, then open the **File** menu and select **Preferences**. The **Sketchbook location** field contains the location of the system's `Arduino` folder, the `libraries` folder should be right underneath that folder (`Arduino/libraries`).
 
-<img src="src/images/2024/dfrobot-led-display-02.png" alt="Arduino IDE Preferences Dialog" />
+<img src="/images/2024/dfrobot-led-display-02.png" alt="Arduino IDE Preferences Dialog" />
 
 ## Alternate Library Installation
 

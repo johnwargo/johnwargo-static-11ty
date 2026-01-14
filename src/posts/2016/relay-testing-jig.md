@@ -13,19 +13,19 @@ I've been doing a few projects lately that work with relays. One was a Particle 
 
 Anyway, while browsing around on the Adafruit web site, I discovered their Perma-Proto boards ([https://adafruit.com/products/591](https://adafruit.com/products/591){target="_blank"}). These things are breadboards (of a sort) that you solder components into. They're a nice, easy way to quickly build projects in a more permanent way.
 
-<img src="src/images/2016/adafruit-perma-proto-board.png" alt="Adafruit Proto-board" />
+<img src="/images/2016/adafruit-perma-proto-board.png" alt="Adafruit Proto-board" />
 Figure 1 - Adafruit Proto-board - Image used with permission
 
 I bought a handful and they sat around for a while looking for something to do. As I wired up yet another LED configuration, I remembered these boards and started thinking. I decided to create a relay testing jig using a proto-board, some LEDs, resistors and a battery. You can see the finished project in the following figure.
 
-<img src="src/images/2016/relay-testing-jig-cropped-640.png" alt="Relay Testing Jig" />
+<img src="/images/2016/relay-testing-jig-cropped-640.png" alt="Relay Testing Jig" />
 Figure 2 - Relay Testing Jig
 
 The battery provides power for each of the LEDs, but the negative wire to the LED is broken (the pairs of colored wire at the top of the figure). When you put AA batteries in the holder then collect one or more pair of colored wires to a relay, you have a simple jig you can easily wire in to help you test the software before you finish building the final hardware project. Connect both wires of the same color to the relay's NO or NC connections and you're set.
 
 Here's a rough circuit diagram. My long term goal (who knows, perhaps it will become a short term goal) is to learn how to use Fritzing. Once I do, I'll come back and provide a circuit diagram for this project so you can easily create your own.
 
-<img src="src/images/2016/relay-testing-jig.png" alt="Circuit Diagram" />
+<img src="/images/2016/relay-testing-jig.png" alt="Circuit Diagram" />
 Figure 3 - Circuit Diagram
 
 Now, whenever I'm working on a project, I can grab this jig and be up in running in seconds.

@@ -11,11 +11,11 @@ I'm trying to wrap up an article series for [The View](https://eview.com) on dev
 
 I've created a simple competitive information database in Notes and exposed it to mobile devices using several methods. I first built a Rhodes application (https://rhomobile.com) that synchronized data with the Domino server and wrote a series of articles about it. You can see a sample screen shot of the Rhodes application in Figure 1.
 
-<img src="src/images/2013/domino-405-error-1.png" alt="Figure 1" />
+<img src="/images/2013/domino-405-error-1.png" alt="Figure 1" />
 
 Next I did the same thing using Sencha Touch (sencha.com); you can see the application in Figure 2.
 
-<img src="src/images/2013/domino-405-error-2.png" alt="Figure 2" />
+<img src="/images/2013/domino-405-error-2.png" alt="Figure 2" />
 
 As you can see, I finally got around to populating the application with more interesting content.
 
@@ -41,7 +41,7 @@ PUT /view/compete.nsf/(rest2)?openagent/2035EE2523E794D785257B4900086A2C&_dc=136
 
 You can see the complete Domino log entry in Figure 3.
 
-<img src="src/images/2013/domino-405-error-3.png" alt="Figure 3" />
+<img src="/images/2013/domino-405-error-3.png" alt="Figure 3" />
 
 I've searched and searched and can't seem to find the solution to this problem.
 
@@ -51,7 +51,7 @@ Can anyone help me understand more about this problem and hopefully (although ho
 
 In a side note, I wanted to take a look at the server's notes.ini file and remember that I'd written a utility (back in 1996) called Configuration Manager for Lotus Notes that allowed me to work with a sorted version of the notes.ini . So funny that a utility I wrote 19 years ago is still useful. What fun!
 
-<img src="src/images/2013/domino-405-error-4.png" alt="Figure 4" />
+<img src="/images/2013/domino-405-error-4.png" alt="Figure 4" />
 
 I wonder if I should do an update (the DRCC ini reference link isn't working anymore). You can see the application in Figure 4. I just looked and Wolcott Systems Group has pulled the link to this utility from their web site. No surprise, but sad.
 

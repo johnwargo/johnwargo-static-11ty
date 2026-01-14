@@ -38,7 +38,7 @@ This wasn't a spam email, but a submission from the site's contact form; a diffe
 
 I'm scared to think of all of the people who will fall for this email and plunk down money to renew the domain registration. Looking at the email, the renewal registration URL looks like a reputable domain, except for the '.ga' top level domain (TLD) which should give any recipient pause in every case. The URL includes a query string which makes it look like a valid URL. I didn't click the link, but when I opened the browser to the root domain ([https://domain-registration.ga](https://domain-registration.ga){target="_blank"}) I saw a generic page prompting visitors to re-register their domain for one year, two years, etc. as shown in the following figure:
 
-<img src="src/images/2021/fake-domain-registration.png" alt="Fake Domain Registration" />
+<img src="/images/2021/fake-domain-registration.png" alt="Fake Domain Registration" />
 
 Unfortunately this makes it really, really easy for people to give these criminals their money.
 

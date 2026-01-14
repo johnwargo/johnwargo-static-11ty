@@ -24,7 +24,7 @@ I hunted around and finally found some on one of those large component vendor we
 
 Fast forward a couple of years and I specifically went looking for USB connectors on Ali Express and found so many different options at incredible prices. Take a look at the two bags below, each contains 50 panel mount USB connectors with pigtails in two different styles and I was able to purchase the whole lot, with shipping, for about $20US.
 
-<img src="src/images/2024/usb-connectors-bulk.jpg" alt="USB connectors in bulk" />
+<img src="/images/2024/usb-connectors-bulk.jpg" alt="USB connectors in bulk" />
 
 It's just amazing. I've even started looking there for larger electronics too like LASER engravers, Reflow Ovens, hot air rework stations, etc.
 

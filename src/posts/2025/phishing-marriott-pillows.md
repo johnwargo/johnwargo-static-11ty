@@ -15,7 +15,7 @@ I received a lot of new spam and phishing messages lately; I have some analysis 
 
 Here's the email I received:
 
-<img src="src/images/2025/phishing-marriott-1.png" alt="Marriott Phishing Email" />
+<img src="/images/2025/phishing-marriott-1.png" alt="Marriott Phishing Email" />
 
 Notice how its very professional looking, that's what first caught my eye when I received it. The writing is excellent and there's only one misspelled word that I noticed. 
 
@@ -51,16 +51,16 @@ In the very early days of spam messages, scammers hid paragraphs of text in the 
 
 When you look at the link behind the **Participate to Get Your Pillows + 2 Night Stay** button on the email, you can definitely see that this email is a problem. The link points to the following URL:
 
-<img src="src/images/2025/phishing-marriott-2.png" alt="Marriott Phishing Email Link" />
+<img src="/images/2025/phishing-marriott-2.png" alt="Marriott Phishing Email Link" />
 
 **Note:** I'm showing this as an image so people don't accidentally click on it and I don't want to get blocked by search engines.
 
 When you click on a link, a browser window opens and redirects to the following link (with a bunch of data omitted):
 
-<img src="src/images/2025/phishing-marriott-3.png" alt="Marriott Phishing Email Link Redirected" />
+<img src="/images/2025/phishing-marriott-3.png" alt="Marriott Phishing Email Link Redirected" />
 
 It opens a page that looks very much like a Marriott page asking you to fill out a survey in order to earn your prize. Its not a Marriott page, look at the URL in the previous image. I didn't try this, but I assume that when you click the **Start Survey** button you'll be prompted to provide your Marriott credential and that's where they get you.
 
-<img src="src/images/2025/phishing-marriott-4.png" alt="Marriott Phishing Site" />
+<img src="/images/2025/phishing-marriott-4.png" alt="Marriott Phishing Site" />
 
 Notice the sense of urgency they create at the bottom of the page: *Offer expires in 4 minutes*. When they do this, they're trying to get you to ignore any issues with the page and start the survey as quickly as possible.

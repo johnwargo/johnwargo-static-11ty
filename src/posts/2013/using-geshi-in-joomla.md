@@ -33,7 +33,7 @@ That's exactly what I'd been searching for – the other sites mentioned the pre
 
 So, now I finally knew how to enable GeSHi in a Joomla! web site. Simply bracket the code you want highlighted with the pre and /pre tags, but do it within the HTML editor as shown in the following figure:
 
-<img src="src/images/2013/geshi-example.png" alt="GeSHi Example" />
+<img src="/images/2013/geshi-example.png" alt="GeSHi Example" />
 
 Of course, going back to the GeSHi web site, I see now that the documentation describe the pre tags but doesn't mention that you have to insert them from the HTML editor. Another perfect example of how many developers write documentation from the standpoint that you already know how to do something instead of writing it from the standpoint of someone who DOESN'T know how to do something.
 

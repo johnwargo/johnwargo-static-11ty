@@ -19,7 +19,7 @@ Anyway, I started looking around for a potential culprit. My Android dev tools w
 
 When I tried the command again, I got the following…
 
-<img src="src/images/2014/ionic-error-20140811-1.png" alt="Figure 1" />
+<img src="/images/2014/ionic-error-20140811-1.png" alt="Figure 1" />
 
 I have the Ionic tools installed and the command runs. It downloads some stuff, then downloads some more stuff then sets about creating a project and adding some plugins to it. As you can see, it's able to install two Cordova plugins (device and console), but where it fails is when it's trying to install a proprietary Ionic plugin.
 
@@ -37,7 +37,7 @@ Why would you tell me I'm running an older version of a tool only AFTER I've tri
 
 OK, so I updated the Ionic CLI and ran the command again, only to receive the same error – apparently the Ionic CLI can install Cordova plugins, but not their own as shown below.
 
-<img src="src/images/2014/ionic-error-20140811-2.png" alt="Figure 2" />
+<img src="/images/2014/ionic-error-20140811-2.png" alt="Figure 2" />
 
 I'd ask for help again, but I've already done that and all I hear back is that I should check to make sure my development environment is up to date. Nobody seems to want to try to understand what's happening here or suggest actual steps I can take to try to fix this.
 

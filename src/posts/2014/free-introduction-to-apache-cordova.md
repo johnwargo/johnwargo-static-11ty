@@ -9,7 +9,7 @@ tags: post
 
 Whenever I publish a book with my publisher, they always pick one chapter and post it online for anyone to read. Picking the right chapter has always been a challenge for me because I want them to publish a chapter that's interesting enough to make you want to buy the book while at the same time not being so good that you get everything you need and don't buy the book.
 
-<img src="src/images/2014/introduction-to-apache-cordova-120.png" alt="Inform IT Web site image" />
+<img src="/images/2014/introduction-to-apache-cordova-120.png" alt="Inform IT Web site image" />
 
 Get it? Please buy my books. I write them because I like to write and think I have a special skill when it comes to describing technical topics, but at the end of the day I like the extra income. Buy my books, please?
 

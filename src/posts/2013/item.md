@@ -9,7 +9,7 @@ tags: post
 
 A while back, my brother in law gave me the item shown in the figure below. I'll let you take a look at it for a minute before I tell you what it is.
 
-<img src="src/images/2013/f-bomb.png" alt="F-Bomb" />
+<img src="/images/2013/f-bomb.png" alt="F-Bomb" />
 
 As soon as he handed it to me, he asked me 'do you know what this is?' Of course it did, it's an F-bomb. Get it?
 

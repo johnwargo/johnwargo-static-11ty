@@ -13,4 +13,4 @@ A few months ago, the folks at the Raspberry Pi Foundation asked me to write a s
 
 My first article starts on page 82; its an introduction to coding for the Arduino platform.
 
-[<img src="src/images/2017/001_HackSpace_01-1b-web.jpg" alt="Hackspace Logo" />](https://hsmag.cc)
+[<img src="/images/2017/001_HackSpace_01-1b-web.jpg" alt="Hackspace Logo" />](https://hsmag.cc)

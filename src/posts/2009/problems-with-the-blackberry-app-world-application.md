@@ -11,6 +11,6 @@ I've been having a problem with the BlackBerry App World application lately. I g
 
 I just reinstalled it and when I start the application, I get the following error:
 
-<img src="src/images/2009/screenshot-dec1509-041837p.jpg" alt="BlackBerry App World Error" />
+<img src="/images/2009/screenshot-dec1509-041837p.jpg" alt="BlackBerry App World Error" />
 
 I just uninstalled and it's rebooting. We'll see if a clean install fixes this problem. Perhaps I was running a version for the 8900 that got moved over when I upgraded to the 9700 so maybe there was some weird incompatibility with the version I was running. We'll see what happens.

@@ -11,17 +11,17 @@ Something's up with the latest version of the Facebook app for BlackBerry. Parts
 
 Anyway, to my problem! If you look at Figure 1, you'll see the standard Facebook home screen running on my BlackBerry Bold 9930. Notice the three images at the top center (in the blue bar). What it's showing me is that there are three 'view's available here and that one of them has new items.
 
-<img src="src/images/2013/blackberry-facebook-1.png" alt="" />
+<img src="/images/2013/blackberry-facebook-1.png" alt="" />
 Figure 1
 
 Unfortunately, when I tap on one of those images (or even click on them using the touch pad that the Bold 9900 still has) nothing happens as shown in Figure 2. I can click on that image repeatedly and nothing happens except that the image gets highlighted.
 
-<img src="src/images/2013/blackberry-facebook-2.png" alt="" />
+<img src="/images/2013/blackberry-facebook-2.png" alt="" />
 Figure 2
 
 Same thing with the little globe icon – click on it and it highlights but doesn't change anything on the screen.
 
-<img src="src/images/2013/blackberry-facebook-3.png" alt="" />
+<img src="/images/2013/blackberry-facebook-3.png" alt="" />
 Figure 3
 
 I can click on the chat icon and see the messages that have been sent to me by my friends, but clicking on either the people or globe icons does…nothing. Are any of you experiencing the same issue? Any suggestions on how I can let the folks at BlackBerry know and hopefully get a fix?

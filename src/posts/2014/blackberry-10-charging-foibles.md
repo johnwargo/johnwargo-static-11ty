@@ -16,7 +16,7 @@ Fortunately for me, the folks at Adobe gave me a free USB battery at PhoneGap Da
 
 As the battery started to lose its charge, the warning shown in the figure below started to appear. Not a big deal, I like being notified that I'm running low on juice. The problem is that I couldn't get the darn thing to go away.
 
-<img src="src/images/2014/blackberry-10-battery-warning.png" alt="BlackBerry Charge Warning" />
+<img src="/images/2014/blackberry-10-battery-warning.png" alt="BlackBerry Charge Warning" />
 
 Here's what happened, I was trying to charge the device, but my USB battery was out of juice itself. So, the BlackBerry knew it was connected to a power source of some kind, but since it wasn't getting any juice itself, it threw up that warning. It would display for a while, go away for a few seconds then immediately come back – over and over again. The problem is that it's really hard to use the device with this message constantly popping up and going away. The touch screen is essentially unusable as long as this behavior continues.
 

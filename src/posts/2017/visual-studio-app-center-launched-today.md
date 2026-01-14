@@ -13,4 +13,4 @@ Right now, App Center is the Visual Studio Team Services build service coupled w
 
 If you watched the announcement, you may have noticed that we highlighted additional capabilities for App Center; things like Identity and Tables. Those capabilities aren't part of App Center today, but something that I'm working on going forward. My day job is helping to understand which additional capabilities do we expose through App Center. If you have any insights you'd like to share, please let me know.
 
-<img src="src/images/2017/app-center-landing.png" alt="Visual Studio App Center Landing Page" />
+<img src="/images/2017/app-center-landing.png" alt="Visual Studio App Center Landing Page" />

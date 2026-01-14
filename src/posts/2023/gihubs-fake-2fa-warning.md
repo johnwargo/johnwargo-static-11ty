@@ -12,4 +12,4 @@ categories:
 
 Why exactly is GitHub warning me that I must use 2FA for my account when I already have it enabled (and have had it enabled for years)? End of post.
 
-<img src="src/images/2023/github-2fa-warning.png" alt="A silly GitHub settings page warning to enable 2FA when I already have it enabled" />
+<img src="/images/2023/github-2fa-warning.png" alt="A silly GitHub settings page warning to enable 2FA when I already have it enabled" />

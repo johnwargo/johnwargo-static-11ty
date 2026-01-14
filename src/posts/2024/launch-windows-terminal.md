@@ -21,7 +21,7 @@ I think most people know about this one, but sharing just in case you don't. To 
 3. Hold down the Shift key and hover the mouse over the target folder
 4. Right-click on the folder and select **Open in Terminal** as shown in the following figure
 
-<img src="src/images/2024/file-explorer-open-windows-terminal-01.png" alt="An image showing a user right-clicking on a folder to open a Windows Terminal" />
+<img src="/images/2024/file-explorer-open-windows-terminal-01.png" alt="An image showing a user right-clicking on a folder to open a Windows Terminal" />
 
 At this point, File Explorer opens the command prompt/terminal window to the scope of the selected folder as expected.
 
@@ -35,15 +35,15 @@ Another method for opening a terminal window to a particular folder, is to type 
 
 Selecting the folder input field:
 
-<img src="src/images/2024/file-explorer-open-windows-terminal-02.png" alt="An image of Windows File Explorer with the folder location entry field selected" />
+<img src="/images/2024/file-explorer-open-windows-terminal-02.png" alt="An image of Windows File Explorer with the folder location entry field selected" />
 
 Entering the command into the folder location input field:
 
-<img src="src/images/2024/file-explorer-open-windows-terminal-03.png" alt="An image showing the `cmd` command entered in the folder location field" />
+<img src="/images/2024/file-explorer-open-windows-terminal-03.png" alt="An image showing the `cmd` command entered in the folder location field" />
 
 At this point, File Explorer opens the terminal window to the scope of the selected folder as expected.
 
-<img src="src/images/2024/file-explorer-open-windows-terminal-04.png" alt="Windows terminal window open to the selected folder" />
+<img src="/images/2024/file-explorer-open-windows-terminal-04.png" alt="Windows terminal window open to the selected folder" />
 
 **Note:** If you have the [Windows Terminal App](https://apps.microsoft.com/detail/9n0dx20hk701?amp%3Bgl=US&hl=en-us&gl=US){target="_blank"} installed, which is different from the default command prompt application, you can also type `wt` instead of `cmd` to open the Windows Terminal app. With the Windows Terminal app installed either command opens the app.
 

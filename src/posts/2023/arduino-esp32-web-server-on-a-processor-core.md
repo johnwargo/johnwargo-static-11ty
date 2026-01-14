@@ -328,7 +328,7 @@ What this code does is define a network device in DNS with the name `pumpkin.loc
 
 If I open a browser and type `pumpkin.local` in the address bar, the browser will connect to the web server running on the device and request the page at `/`. How cool is that? It even works with the `ping` command:
 
-<img src="src/images/2023/ping-pumpkin-local.png" alt="windows terminal showing the results of the ping command" />
+<img src="/images/2023/ping-pumpkin-local.png" alt="windows terminal showing the results of the ping command" />
 
 With this in place, any user trying to connect to the web server only needs the name for the device, nothing more. Without this, the user would have to determine the IP Address for the device (perhaps pulling it from the Serial Monitor while the sketch runs in the Arduino IDE) and type it in manually every time they wanted to use it.
 
@@ -447,7 +447,7 @@ When the web server serves it, this is the page that's delivered to the web brow
 
 And this is what the page looks like in the browser:
 
-<img src="src/images/2023/pumpkin-controller-redirect-page.png" alt="The project's redirect web page running in the browser" />
+<img src="/images/2023/pumpkin-controller-redirect-page.png" alt="The project's redirect web page running in the browser" />
 
 To access the page, all you have to do is open your browser of choice and type `pumpkin.local` in the address bar. The browser will connect to the web server running on the ESP32 and request the root page. 
 
@@ -467,7 +467,7 @@ Here's how this process works:
 2. After the page loads, JavaScript code on the page pulls the IP Address from the query string and stores it in the app's configuration.
 3. Next, the page redirects the browser to the same page **without** the IP Address in the query string (as shown in the figure below).
 
-<img src="src/images/2023/pumpkin-controller-redirect.png" alt="A diagram illustrating how the project redirects a browser request" />
+<img src="/images/2023/pumpkin-controller-redirect.png" alt="A diagram illustrating how the project redirects a browser request" />
 
 This is a really clean way to minimize the amount of code you must server from the ESP32 web server and eliminates manual configuration of the device's IP address in the app. 
 
@@ -495,7 +495,7 @@ void handleNotFound() {
 
 What this does is return a block of text explaining the error which the browser renders without any styling:
 
-<img src="src/images/2023/pumpkin-controller-not-found.png" alt="An error message rendering in a browser window" />
+<img src="/images/2023/pumpkin-controller-not-found.png" alt="An error message rendering in a browser window" />
 
 #### Color
 

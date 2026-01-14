@@ -18,7 +18,7 @@ In the post I published earlier today I mentioned that someday I might make a na
 
 I guess I wasn't paying attention when I wrote that because Flutter apps are cross platform apps and all it took me was a minute or so to create, build, and test the Windows version of the app. Here's a screen shot:
 
-<img src="src/images/2023/pumpkin-controller-flutter-windows.png" alt="Pumpkin Controller Windows" />
+<img src="/images/2023/pumpkin-controller-flutter-windows.png" alt="Pumpkin Controller Windows" />
 
 Everything seems to work OK except that the Toast module I used doesn't support Windows, so you won't see any notifications when it completes successfully or when it fails. I'll see what I can do to fix that.
 
@@ -28,7 +28,7 @@ I'll have to figure out how to generate a Windows executable out of Android Stud
 
 I did a little Delphi development this weekend, so when I decided to build a native Windows version of the Pumpkin Controller app I used RAD Studio and FireMonkey to create a cross-platform native version of the app using Object Pascal. Here's a screen shot of the app:
 
-<img src="src/images/2023/pumpkin-controller-firemonkey-windows.png" alt="Pumpkin Controller Windows" />
+<img src="/images/2023/pumpkin-controller-firemonkey-windows.png" alt="Pumpkin Controller Windows" />
 
 I didn't do anything to make the app pretty, I was just trying to figure out how to make it work using FireMonkey.
 

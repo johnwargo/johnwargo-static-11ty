@@ -9,7 +9,7 @@ tags: post
 
 If you remember a while ago I published an article that explained some of the issues I encountered trying to build and run a PhoneGap application for the Samsung bada OS. Well, with the help of the developer who wrote the bada code for PhoneGap I was able to finally figure it out, get it working and finished the bada chapter for PhoneGap Essentials.
 
-<img src="src/images/2012/jmw04_23.png" alt="Image of a PhoneGap application running on bada" />
+<img src="/images/2012/jmw04_23.png" alt="Image of a PhoneGap application running on bada" />
 
 First I'm going to complain a little and then I'll tell you what you need to do to build PhoneGap applications for bada.
 

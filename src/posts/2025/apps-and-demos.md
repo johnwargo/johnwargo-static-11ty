@@ -15,6 +15,6 @@ Over the years, I created several apps that solve a particular problem I had. Th
 
 The site is [John Wargo's Apps and Demos](https://jmwdemos.netlify.app/){target="_blank"}, and it looks like this:
 
-<img src="src/images/2025/apps-n-demos.png" alt="Apps and Demos page" />
+<img src="/images/2025/apps-n-demos.png" alt="Apps and Demos page" />
 
 As I create more public facing apps and demos, I'll update the site to reference them. 

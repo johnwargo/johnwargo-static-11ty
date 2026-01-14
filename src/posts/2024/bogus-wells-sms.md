@@ -16,7 +16,7 @@ categories:
 
 I got a spam, malware, phishing text message today that said it was from Wells Fargo but I knew better. After looking at it for a couple of seconds, I had to laugh then write about it. Here's the message I received:
 
-<img src="src/images/2024/bogus-wells-sms.png" alt="Bogus Wells SMS Message" />
+<img src="/images/2024/bogus-wells-sms.png" alt="Bogus Wells SMS Message" />
 
 First of all, I'm not a Wells Fargo customer so that was my first clue that this was a phishing message or something.
 

@@ -17,7 +17,7 @@ Here's a link to the [original article](/posts/2024/amazon-digital-music-hell/){
 
 I have the Amazon music app installed on my primary system (Windows 11 x64) - not because I listen to music on it, but because I assumed it would be an easy way to download digital music purchases. It's not. Since I don't listen to music using the app, I've shutdown (disabled) the startup apps that run in the background listening for who knows what (see picture).
 
-<img src="src/images/2024/amazon-digital-music-hell-09.png" alt="PC Manager showing startup apps" />
+<img src="/images/2024/amazon-digital-music-hell-09.png" alt="PC Manager showing startup apps" />
 
 I thought perhaps the email link was trying to launch the app and that "Amazon Music Helper" app was how they did it. 
 
@@ -27,6 +27,6 @@ Failure.
 
 OK, so next step was to assume that Amazon assumed I open all of my email on my mobile phone (I don't). I quickly opened my email, found the link, tapped it, and the browser immediately opened then displayed the same error message. 
 
-<img src="src/images/2024/amazon-digital-music-hell-10.png" alt="Amazon error page" />
+<img src="/images/2024/amazon-digital-music-hell-10.png" alt="Amazon error page" />
 
 So I'm out of ideas. Apparently Amazon sends out broken links in emails and has no idea they're broken. 

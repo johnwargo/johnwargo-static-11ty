@@ -22,14 +22,14 @@ Looking at the [NeoPixel Stick - 8 x 5050 RGBW LEDs - Cool White - ~6000K](https
 
 Taking a look at the product, it's pretty much as small as it can possibly be; the folks at Adafruit did a really good job making the product as small as possible. I imagine they did this in order to allow the product to be used in as many possible scenarios as possible.
 
-<img src="src/images/2025/adafruit-neopixel-stick-front.jpg" alt="An image of the back of the NeoPixel Stick" />
+<img src="/images/2025/adafruit-neopixel-stick-front.jpg" alt="An image of the back of the NeoPixel Stick" />
 Image credit: Adafruit. (cropped by me)
 
 Making the product bigger, in order to offer simpler or more flexible options for mounting the product, could potentially eliminate the product's ability to be included in some projects.
 
 When I started complaining to myself about how hard it was to connect three of these boards together, I started thinking of ways to keep the solder pads for people who want to use them (I find it extremely difficult to solder wires to solder pads, you need at least three hands) but drill holes in the pads so I can solder wires using through holes if I wanted (much easier to solder).
 
-<img src="src/images/2025/adafruit-neopixel-stick-back.jpg" alt="An image of the back of the NeoPixel Stick" />
+<img src="/images/2025/adafruit-neopixel-stick-back.jpg" alt="An image of the back of the NeoPixel Stick" />
 Image credit: Adafruit. (cropped by me)
 
 I thought that was an amazing idea, until I looked at the front of the board. Right behind the solder pads on each end of the board is a NeoPixel. There's not room for through holes. Sigh.
@@ -40,7 +40,7 @@ See what I mean?
 
 Here's what I think Adafruit should do with this device. Make it a little wider, not much, then add needle sized holes on each side that someone can use to stitch this device into clothing.
 
-<img src="src/images/2025/neopixel-stick-redux.png" alt="a mockup of what I think Adafruit should do" />
+<img src="/images/2025/neopixel-stick-redux.png" alt="a mockup of what I think Adafruit should do" />
 
 Keep the solder pads on the end if they want, but add through-hole connections so I can solder wires securely to the board without needing three hands. 
 

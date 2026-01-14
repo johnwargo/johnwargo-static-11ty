@@ -17,4 +17,4 @@ If you happen to be attending the [BlackBerry Developer Conference](https://blac
 
 Here's the full cover in case you wanted to look at it:
 
-<img src="src/images/covers/bbdf-cover-640.jpg" alt="BlackBerry Development Fundamentals Cover" />
+<img src="/images/covers/bbdf-cover-640.jpg" alt="BlackBerry Development Fundamentals Cover" />

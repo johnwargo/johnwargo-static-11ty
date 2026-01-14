@@ -13,7 +13,7 @@ I took the XML-based web service I created for the BlackBerry Java and Windows M
 
 I created a Android Java project in Eclipse and started coding through my sample application, reading a couple of books as I went. I got the main application working, got the search box and the button that called the service working and was finally able to connect to the local Domino server to request the data (read about that here). As I tried to figure out the Android ListView widget, my application crashed and I just couldn't get any further. I poked and prodded in Eclipse and the simulator and just couldn't get anywhere.  Whenever I load the application, I get the following screen:
 
-<img src="src/images/2010/android-error.png" alt="Android Application Error" />
+<img src="/images/2010/android-error.png" alt="Android Application Error" />
 
 It's something in the startup of the application, but it's not telling me anything about the source of the problem. On the flight home, I read more about the LogCat view in Eclipse that would allow me to see what Android is saying when the application crashes. It turns out that there's an uncaught exception being generated when the application starts. Here's the relevant log lines:
 

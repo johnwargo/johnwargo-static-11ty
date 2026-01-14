@@ -13,7 +13,7 @@ For this installment of my What Were They Thinking series I'm going to pick on R
 
 I was browsing through the list of free applications in the BlackBerry App World application yesterday and was struck with how hard it was to read the application names in the list of free applications. See the figure below for an example of what I saw:
 
-<img src="src/images/2010/appworld.jpg" alt="" />
+<img src="/images/2010/appworld.jpg" alt="" />
   
 When building a mobile application, you have to pay special attention to first of all how much data is delivered across the wireless network and how much work the application has to do to process and render the data. This is wireless application 101 stuff.
 

@@ -132,4 +132,4 @@ To save your changes, press ctrl-o then press the Enter key. Next, press ctrl-x 
 
 Here's an example from a project I'm working on that opens two windows:
 
-<img src="src/images/2016/pi-weather-monitor-startup-640.png" alt="Pi Weather Monitor Startup" />
+<img src="/images/2016/pi-weather-monitor-startup-640.png" alt="Pi Weather Monitor Startup" />

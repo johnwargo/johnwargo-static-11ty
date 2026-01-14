@@ -25,6 +25,6 @@ A while back, I discovered [MVP.css](https://andybrewer.github.io/mvp/){target="
 
 The app was old, so I had to upgrade it to React 19. Next, I stripped out all the Bootstrap stuff and converted it to MVP.css. Here's a screenshot of the results:
 
-<img src="src/images/2025/goodreads-page-adjuster.png" alt="An image showing the new and improved Goodreads Page Adjuster app" />
+<img src="/images/2025/goodreads-page-adjuster.png" alt="An image showing the new and improved Goodreads Page Adjuster app" />
 
 It looks much better and the code is a lot easier to read.

@@ -9,7 +9,7 @@ tags: post
 
 I received another really interesting email the other day and I thought I'd write about it in my continuing series on Internet Scams. I got an email supposedly from American Express as shown in the following figure:
 
-<img src="src/images/2009/internet-scam-20091207-blurred.png" alt="Figure 1" />
+<img src="/images/2009/internet-scam-20091207-blurred.png" alt="Figure 1" />
 Figure 1
 
 The thing about it though was I knew that American Express didn't have this email address. My ISP flagged it as Spam, always a useful aid and there were a lot of other things about the message that confirmed that it was just another scam.

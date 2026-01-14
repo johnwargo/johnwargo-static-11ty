@@ -23,7 +23,7 @@ First of all, here's the content of the message I received:
 
 and here's a screenshot of the message I received:
 
-<img src="src/images/2025/amazon-refundable-01.png" alt="A screenshot of a scam message purportedly from Amazon" />
+<img src="/images/2025/amazon-refundable-01.png" alt="A screenshot of a scam message purportedly from Amazon" />
 
 There's a lot of things wrong about this message:
 
@@ -34,6 +34,6 @@ There's a lot of things wrong about this message:
 
 When I tapped on the message details at the top of the text, my SMS application displays the list of phone numbers included in the group. Again, Amazon would never send a group chat message to a customer.
 
-<img src="src/images/2025/amazon-refundable-01.png" alt="A screen shot of the group membership for the message" />
+<img src="/images/2025/amazon-refundable-01.png" alt="A screen shot of the group membership for the message" />
 
 If you get this message, don't click on the link. It's either a scam or some sort of phishing attack.

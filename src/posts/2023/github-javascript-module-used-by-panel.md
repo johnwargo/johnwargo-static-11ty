@@ -12,4 +12,4 @@ This isn't going to be an earth shattering post, but I was looking at the GitHub
 
 Apparently when you publish a JavaScript module to GitHub then use it in another project published to GitHub GitHub shows you all the projects that use the module on the module's page. That's pretty cool and, I assume, time saving. Its cool to see GitHub add quick little time-saving features to the portal. 
 
-<img src="src/images/2023/github-module-used-by.png" alt="GitHub Module page with Used By" />
+<img src="/images/2023/github-module-used-by.png" alt="GitHub Module page with Used By" />

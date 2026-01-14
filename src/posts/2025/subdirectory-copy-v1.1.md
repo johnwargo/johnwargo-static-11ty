@@ -22,7 +22,7 @@ You can download the project's source code and installer from <a href="https://g
 
 Here's the application's new home screen. Notice that I added a menu to the application and moved the **Copy** button to the bottom of the screen.
 
-<img src="src/images/2025/subcopy-v11.png" alt="Subdirectory Copy v1.1" />
+<img src="/images/2025/subcopy-v11.png" alt="Subdirectory Copy v1.1" />
 
 ## Implementation Details
 

@@ -27,7 +27,7 @@ Another popular JavaScript hardware platform is [Espruino](https://espruino.com/
 
 Coding for Espruino is easy, you can use their CLI to deploy code to devices just like I described for Tessel above. They also offer a browser-based integrated development environment (IDE) they call the Web IDE. The Web IDE allows you to code your application, then push it directly to devices from the same interface; you simply plug the device in via a USB cable and work iteratively with the device through the browser.
 
-<img src="src/images/2021/espruino-web-ide.png" alt="Espruino IDE" />
+<img src="/images/2021/espruino-web-ide.png" alt="Espruino IDE" />
 
 I’ve purchased several Espruino devices over the years, but haven’t done anything with them. I just haven’t found something interesting I want to do with them. I played around many years ago with the Espruino Pico device, it’s a USB stick with a microcontroller in it, but again struggled to find an interesting purpose for it. 
 

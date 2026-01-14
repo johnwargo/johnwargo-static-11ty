@@ -13,7 +13,7 @@ As you may have noticed, I've been working on a few projects lately that use rel
 
 Anyway I got this cool Paddle Breakout HAT from ModMyPi, so I had an easy way to wire up the Pi to the relay board. I connected the relay board to the Pi's 5V output, Ground, and GPIO pin 18 then wrote a simple app to test it out. It worked! First try. Here's a picture of the setup, the board on the left is the relay testing jig I wrote about here.
 
-<img src="src/images/2017/pi-relay-board-setup.png" alt="Figure 1" />
+<img src="/images/2017/pi-relay-board-setup.png" alt="Figure 1" />
 
 I created a GitHub Gist with the code, you can find that here in an easily digestible format: [https://gist.github.com/johnwargo/ea5edc8516b24e0658784ae116628277](https://gist.github.com/johnwargo/ea5edc8516b24e0658784ae116628277){target="_blank"}.  
 

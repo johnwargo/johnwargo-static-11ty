@@ -26,27 +26,27 @@ I have a 3D printer here, so I quickly opened TinkerCad and cranked out an oval 
 
 That's when I realized that I could make a Router template to cut the oval just like those circle templates I mentioned earlier. I quickly reopened my oval project in TinkerCAD and inverted it into a template I can use with my router:
 
-<img src="src/images/2024/owl-house-template-tinkercad.png" alt="Owl House Oval Template in TinkerCAD" />
+<img src="/images/2024/owl-house-template-tinkercad.png" alt="Owl House Oval Template in TinkerCAD" />
 
 Now, the original oval piece was 3x4 inches, but when working with a router, I had to take into account the thickness of the router bushing (shown below) used to hold the router and bit within the template. So I measured the distance from the outside of the bushing (shown below) to the outside edge of the straight router bit (not shown, sorry) I used with the template. I used the [Short Shank Guide Bushing and Nut, 5/8"](https://rockler.com/short-shank-guide-bushing-and-nut-5-8){target="_blank"} for this project (because that's what I had in my shop).
 
 That distance is 1/8th of an inch, so I added that to all sides of my oval in the template, making the templated oval 3.25" by 4.25". 
 
-<img src="src/images/2024/owl-house-router-bushing.jpg" alt="Router Bushing" />
+<img src="/images/2024/owl-house-router-bushing.jpg" alt="Router Bushing" />
 
 I made the overall piece 5" by 5" and printed it to my printer.
 
-<img src="src/images/2024/owl-house-template-bambu.png" alt="Owl House Oval Template in Bambu Studio" />
+<img src="/images/2024/owl-house-template-bambu.png" alt="Owl House Oval Template in Bambu Studio" />
 
 The print worked like a champ, so I took it down to my workshop to put it to work.
 
 The following image was taken after I completed cutting the oval, but it shows how I setup the template before I started cutting. I used two-sided woodworking tape to hole the template in place on the owl house front panel. Using a plunge router and a small template, you don't have any room to clamp down the template to keep it from moving during routing. The tape kept in place and I was able to cut the hole successfully and cleanly.
 
-<img src="src/images/2024/owl-house-template-taped.jpg" alt="The router template with double-sided tape on the back" />
+<img src="/images/2024/owl-house-template-taped.jpg" alt="The router template with double-sided tape on the back" />
 
 When I routed the hole, I used clamps to secure the cutting area off of the edge of my assembly table - so I wouldn't cut my assembly table top. 
 
-<img src="src/images/2024/owl-house-template-routed.jpg" alt="The finished oval hole the my owl house front facing" />
+<img src="/images/2024/owl-house-template-routed.jpg" alt="The finished oval hole the my owl house front facing" />
 
 The only problem I encountered was that I didn't make the template large enough. I should have given myself three inches in all dimensions as a solid base for the router.
 

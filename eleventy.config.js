@@ -13,7 +13,7 @@ import githubRepos from 'eleventy-plugin-github-repos';
 import pageLinks from 'eleventy-plugin-markdown-page-links';
 import pluginStats from 'eleventy-plugin-post-stats';
 // local plugins
-import pluginImages from './eleventy.config.images.js';
+// import pluginImages from './eleventy.config.images.js';
 import pluginGallery from "./eleventy.config.gallery.js";
 import pluginImageHeaders from './eleventy.config.headerimage.js';
 // Transforms
@@ -54,8 +54,8 @@ export default function (eleventyConfig) {
 			class: 'image-full'
 		}
 	});
-		
-				// class: 'image-full'
+
+	// class: 'image-full'
 
 	const apiKey = process.env.GITHUB_API_KEY;
 	eleventyConfig.addPlugin(githubRepos, {
@@ -67,7 +67,7 @@ export default function (eleventyConfig) {
 		dataFileName: categoryDataFile,
 		imageClass: 'image fit'
 	});
-	eleventyConfig.addPlugin(pluginImages, { debugMode: false });
+	// eleventyConfig.addPlugin(pluginImages, { debugMode: false });
 	eleventyConfig.addPlugin(pluginStats);
 
 	// https://github.com/11ty/eleventy/issues/2301
