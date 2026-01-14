@@ -21,7 +21,7 @@ By John M. Wargo & August M. Wargo
 
 It's always…interesting to see how much involvement the Scouts have vs. their parents in making the cars. For the most part, I've let my son do what he wants with his car; I've guided him, but let him cut the car, sand it, paint it and so on. I really only got directly involved when it came to putting the wheels on as he didn't, until recently, have the physical strength and control needed to do that right.
 
-{% image "src/images/2016/arduino-pinewood-derby-01.png", "A Boy and His Arduino Powered Pinewood Derby Car", "image-full" %}
+<img src="src/images/2016/arduino-pinewood-derby-01.png" alt="A Boy and His Arduino Powered Pinewood Derby Car" />
 Figure 1 – A Boy and His Arduino Powered Pinewood Derby Car
 
 After watching one particular parent last year spend two hours or more in the shop painstakingly cutting, shaping, sanding and grinding the car into a particular shape, my son and I decided that we'd kick it up a notch this year. Even though I have a pretty nice wood shop, I'm more of a programmer type (I've written 6 books on mobile development), so I suggested that we do something with a programmable microcontroller and some LEDs for this year's race. I'd wanted to do something with Arduino, so this seemed like the perfect opportunity to do so while at the same time providing me with a chance to teach my son how to wire things together, solder and write code.
@@ -119,7 +119,7 @@ Note: Be sure to check your Pack's Pinewood Derby race rules to make sure the ca
 
 Figure 2 shows the car we created. In our implementation, the battery is underneath the car and all of the rest of the electronics are mounted to the top of the car as shown in the figure. You don't have to do it this way, we just selected this approach as it highlighted the electronics and that was what we were leading with; it was important that our car looked like it had a bunch of hardware on it.
 
-{% image "src/images/2016/arduino-pinewood-derby-02.png", "Arduino Powered Pinewood Derby Car", "image-full" %}
+<img src="src/images/2016/arduino-pinewood-derby-02.png" alt="Arduino Powered Pinewood Derby Car" />
 Figure 2 – Arduino Powered Pinewood Derby Car
 
 For your car, you may want to hide everything or only some components. You could for example, carve out a cavity for all of the components and only show the charging connector and the LEDs. For our race, I was concerned that someone would complain about potential cheating if anything was hidden, so I made sure that everything (except for the wires connecting the battery to the charging module) were easily visible. If any complaint was made, I could simply unscrew a few screws (12 total) and the whole thing would come off and could be easily inspected before being reattached to the car for a race.
@@ -134,14 +134,14 @@ With the car in this position, figure out where you want to put the battery. Con
 
 With the battery held against the bottom of the car, mark the battery's position by either placing marks at each corner or tracing the battery profile with a pencil. Remove the battery and use a ruler or some sort of straight-edge to mark the complete battery cavity. Be sure to leave a little extra space around the battery as we'll be using epoxy later to cement the battery in place and it will need some room to purchase. Be sure to also leave a little room at the top of the battery for the power cable. Figure 1 shows the results of this step on our car. The X in the figure marks the area of the car body that will be chiseled out.
 
-{% image "src/images/2016/arduino-pinewood-derby-03.png", "Marking the Battery Position", "image-full" %}
+<img src="src/images/2016/arduino-pinewood-derby-03.png" alt="Marking the Battery Position" />
 Figure 3 – Marking the Battery Position
 
 Using an X-Acto knife or other hobby knife, trace the edges of the battery compartment you just marked. Make multiple passes and cut down to the approximate height of the battery.
 
 Using a chisel, cut away the wood within the cavity lines to the thickness of the battery as shown in Figure 4. When chiseling out the material, do as much of your carving away from the rear axle. When you carve toward the axle, you run the risk of cutting underneath the material between the battery cavity and the rear axle, popping off a chunk of wood between the two. If this happens, there won't be solid wood in place to hold the axle in place, so the car body will be ruined.
 
-{% image "src/images/2016/arduino-pinewood-derby-04.png", "Finished Battery Cavity", "image-full" %} 
+<img src="src/images/2016/arduino-pinewood-derby-04.png" alt="Finished Battery Cavity" /> 
 Figure 4 – Finished Battery Cavity
 
 When finished, sand the cavity to smooth out any remaining rough spots. Place the battery in the finished cavity to make sure it fits and that it's flush with the bottom of the car.
@@ -158,7 +158,7 @@ For this car, we cut the body into the traditional Pinewood Derby wedge profile.
 
 Using a pencil, mark the side of the car with the wedge design, making sure that the car's thickness doesn't fall below 1/2 inch at the front of the car as shown in Figure 5. In the figure, the back of the car is to the left of the image. To make this easy, I marked the front of the car at 1/2 in and drew a line to an arbitrary point on the back of the car, enough space to accommodate the battery height and length of the mounting screws.
 
-{% image "src/images/2016/arduino-pinewood-derby-05.png", "Marking the Wedge", "image-full" %}
+<img src="src/images/2016/arduino-pinewood-derby-05.png" alt="Marking the Wedge" />
 Figure 5 – Marking the Wedge
 
 Note: when it comes to cutting the car's body, use caution when making the cut. I do not recommend you allow your son to make the cut – you should make it using the appropriate safety precautions and necessary safety gear. I let my son cut his Pinewood Derby car on the band saw, but only under my direct supervision. Whether or not you let your son use power tools is up to you (not me).
@@ -191,24 +191,24 @@ Now that you have a car design, it's time to start assembling the electronic com
 
 The charging module is smart enough so that you plug a rechargeable battery into it and wire the charging module to the electronic components that need electricity. When the charging module is plugged into a cell phone charger or USB cable, it will charge the battery and pass the appropriate voltage onto the electronic components. When you disconnect the charger, the battery provides voltage to the electronic components.
  
-{% image "src/images/2016/arduino-pinewood-derby-06.png", "Logical Connection Diagram", "image-full" %}
+<img src="src/images/2016/arduino-pinewood-derby-06.png" alt="Logical Connection Diagram" />
 Figure 6 – Logical Connection Diagram
 
 Step 1: Pass the battery wires up through the hole you drilled in the bottom of the car and solder them to the input pins on the charging module. The battery connects to the BATT connectors shown in the top right of Figure 7 (highlighted in a red box in the figure). Solder the battery's red wire to the charging module's + (positive) BATT connector. Solder the battery's black wire to the charging module's – (negative) BATT connector.
 
-{% image "src/images/2016/arduino-pinewood-derby-07.jpg", "Charging Module (used with permission)", "image-full" %} 
+<img src="src/images/2016/arduino-pinewood-derby-07.jpg" alt="Charging Module (used with permission)" /> 
 Figure 7 – Charging Module (used with permission)
 
 Step 2: Begin by soldering the pushbutton to the switch module shown in Figure 8. The top and bottom connectors on the pushbutton (left) solder into the top and bottom module connections (right) in the figure.
 
-{% image "src/images/2016/arduino-pinewood-derby-08.jpg", "Power Switch Module (used with permission)", "image-full" %} 
+<img src="src/images/2016/arduino-pinewood-derby-08.jpg" alt="Power Switch Module (used with permission)" /> 
 Figure 8 – Power Switch Module (used with permission)
 
 The power switch takes two wires (positive and negative) wired to the input connectors and another two off of the output connectors. The connections are the same on both sides of the module, so for this step, pick one side of the module and make both connections to the same side. Solder a red wire from the charging module's + (positive) LOAD connector (Figure 7) to the switch's In connector. Solder a black wire from the charging module's – (negative) LOAD connector to the switch's G (ground) connector.
 
 Step 3: The pin layout for the Teensy 3.0 microcontroller is shown in Figure 9 (Image used with permission); for this project, we'll be connecting a bunch of stuff to it.
 
-{% image "src/images/2016/arduino-pinewood-derby-09.png", "Teensy 3.0 Pin Configuration (Used with Permission)", "image-full" %} 
+<img src="src/images/2016/arduino-pinewood-derby-09.png" alt="Teensy 3.0 Pin Configuration (Used with Permission)" /> 
 Figure 9 – Teensy 3.0 Pin Configuration (Used with Permission)
 
 At any point in the process from here, you can secure the battery in the battery cavity on the bottom of the car. You could use a non-permanent approach like duct tape or suitable alternative to hold it in place, but as there might be collisions and the battery could pop out, I decided to take a more permanent approach. For this project, we used Epoxy to cement the battery into the cavity. Make sure the battery is flush with the bottom of the car and that there's a little space between the battery and the car body. For epoxy, I used https://homedepot.com/p/Loctite-8-fl-oz-Professional-Job-Size-Epoxy-1365736/100371835 but you could also use something like https://homedepot.com/p/Loctite-0-85-fl-oz-Quick-Set-Epoxy-1395391/100371815. Mix an enough epoxy to fill the gaps between the battery and the car body and spread it over the cavity, covering enough of the battery to hold it in place. Only use enough epoxy to cover the gaps and make a smooth cover flush with the bottom of the car.
@@ -233,17 +233,17 @@ To create the LED block, I cut a piece of prototyping board to fit the top of th
 
 Note: I used a block of two-sided tape (shown under the ribbon cable on the left of Figure 10) to hold the ribbon cable in place as I made the connections.
 
-{% image "src/images/2016/arduino-pinewood-derby-10.png", "Completed LED Block", "image-full" %}
+<img src="src/images/2016/arduino-pinewood-derby-10.png" alt="Completed LED Block" />
 Figure 10 – Completed LED Block
 
 For our car, we used three different color LEDs: blue on the outside, yellow just inside the blue and orange in the middle as shown in Figure 11. There are 4 blue and yellow LEDs and only 2 orange ones. The LEDs are clear so when the car is off, you can't tell what colors are used. You can, of course, use whatever colors and patterns you want for your car.
 
-{% image "src/images/2016/arduino-pinewood-derby-11.png", "LED Color Placement", "image-full" %}
+<img src="src/images/2016/arduino-pinewood-derby-11.png" alt="LED Color Placement" />
 Figure 11 – LED Color Placement
 
 If you look at Figure 12 you'll see a logical wiring diagram that shows how the different components are connected. 
 
-{% image "src/images/2016/arduino-pinewood-derby-12.png", "LED Block Wiring Diagram", "image-full" %}
+<img src="src/images/2016/arduino-pinewood-derby-12.png" alt="LED Block Wiring Diagram" />
 Figure 12 – LED Block Wiring Diagram
 
 On the board, each LED's negative lead (shorter wire) is soldered to the nearest resistor lead. Then the other resistor lead is soldered to the ground wire. To make this work cleanly with the one ground wire, I used a knife to strip all of the insulation off the ground wire between the first and last resistors. Where the resistors come through the board, I wrapped the leads from two aligned resistors around the ground wire and soldered them in place. This was the easiest way for me to use a single ground wire for all of the LEDs as well as the accelerometer.
@@ -252,7 +252,7 @@ Next, I put a piece of double-sided tape on the board and connected the ribbon t
 
 Step 5: Now, cut the remaining length of the black ground wire to fit the location of the accelerometer on the car then strip the end and solder the wire to the ground connection (GND) on the accelerometer shown in Figure 13.
 
-{% image "src/images/2016/arduino-pinewood-derby-13.jpg", "Accelerometer Module (used with permission)", "image-full" %}
+<img src="src/images/2016/arduino-pinewood-derby-13.jpg" alt="Accelerometer Module (used with permission)" />
 Figure 13 – Accelerometer Module (used with permission)
 
 Cut the 4-wire ribbon cable to length then strip the wire ends and solder them to the accelerometer. Solder the red wire to the voltage input (Vin) connector on the accelerometer. Solder the remaining wires to the Xout, Yout and Zout connectors on the accelerometer shown in the figure. In our configuration, we have the accelerometer's X output to the Arduino pin 14, Y output to pin 15 and Z output to pin 16. If you wire yours differently, you'll have to make some minor changes to the application source code shown later in the article.
@@ -272,18 +272,18 @@ Next, download and install the latest version of the Teensy Loader from https://
 
 With all of the software installed, open the Arduino IDE. You'll first need to configure the IDE so it knows what board you are working with. Open the tools menu and select the appropriate Teensy board as shown in Figure 14.
 
-{% image "src/images/2016/arduino-pinewood-derby-14.png", "Configuring the Arduino IDE for the Teensy Board", "image-full" %} 
+<img src="src/images/2016/arduino-pinewood-derby-14.png" alt="Configuring the Arduino IDE for the Teensy Board" /> 
 Figure 14 – Configuring the Arduino IDE for the Teensy Board
 
 You'll also need to configure the IDE so it knows how to communicate with the board. Open the Tools menu again and make sure USB Type: Serial is selected as shown in Figure 15.
 
-{% image "src/images/2016/arduino-pinewood-derby-15.png", "Configuring the Arduino IDE Connection Type", "image-full" %} 
+<img src="src/images/2016/arduino-pinewood-derby-15.png" alt="Configuring the Arduino IDE Connection Type" /> 
 Figure 15 – Configuring the Arduino IDE Connection Type
 
 With the software in place, download this project's code from https://github.com/johnwargo/Arduino-Pinewood-Derby. Once you have the code, open the Arduino IDE then open the downloaded project file called pinewood1.ino.
 Connect a USB cable from one of the USB ports on your computer system to the Micro USB cable on the Arduino board. If you followed the instructions in this project, you'll actually have two USB ports available to you, one on the charging module and another on the Arduino board. Be sure to plug the USB cable to the one on the Arduino board (shown in Figure 9).
 
-{% image "src/images/2016/arduino-pinewood-derby-16.png", "Arduino IDE and Teensy Loader", "image-full" %} 
+<img src="src/images/2016/arduino-pinewood-derby-16.png" alt="Arduino IDE and Teensy Loader" /> 
 Figure 16 – Arduino IDE and Teensy Loader
 
 You can compile the application code by clicking the checkmark button in the upper left corner of Figure 16. You can also compile and load the application code onto a connected Arduino board by clicking the right arrow button to the right of the checkmark button.

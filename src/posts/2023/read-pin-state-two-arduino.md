@@ -37,7 +37,7 @@ For this example, I'm not trying to read a button, instead I want to be able to 
 
 For this to work, both devices must share a common Ground connection. The easiest way to do this is to connect the `GND` pin on one Arduino to the same labeled pin on the other Arduino. Next, you must connect an input/output pin on one Arduino to an input/output pin on the other Arduino. The following figure illustrates these connections.
 
-{% image "src/images/2023/arduino-2-arduino.jpg", "Two Xiao boards connected together", "image-full" %}
+<img src="src/images/2023/arduino-2-arduino.jpg" alt="Two Xiao boards connected together" />
 
 In the image, both devices are [Seeed Studio Xiao](https://seeedstudio.com/xiao-series-page){target="_blank"} Arduino-compatible devices and they have very similar pin configurations. I selected these devices because I could easily put two of them on a small breadboard. You can do this with Any Arduino devices, just pay close attention to the pin configurations. 
 

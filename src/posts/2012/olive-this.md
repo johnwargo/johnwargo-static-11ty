@@ -13,7 +13,7 @@ I set them up with a hosting account (at [Fatcow](https://fatcow.com/join/index.
 
 Here's a shot of the web site, it looks great:
 
-{% image "src/images/2012/olivethis_site_snap.png", "Olive This Web Site", "image-full" %}
+<img src="src/images/2012/olivethis_site_snap.png" alt="Olive This Web Site" />
 
 Once they opened, some of their initial customers were involved with different publications in the area, so they're already getting some great publicity. The first was an article in the local community paper about new stores in the area ([https://charlotteobserver.com/2012/08/01/3407032/new-stores-opening-all-over-the.html](https://charlotteobserver.com/2012/08/01/3407032/new-stores-opening-all-over-the.html){target="_blank"}) but I imagine more will come soon.
 

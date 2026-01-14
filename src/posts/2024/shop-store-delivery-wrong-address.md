@@ -25,7 +25,7 @@ Because of this, my package went to her out in Seattle instead of to my house he
 
 It turns out that Shop allows you to set the default address for your account. Once I did that, Shop uses my default address unless I tell it specifically to use a different one. To change the default address, login to the Shop app, access your account settings, and open your primary address for editing. Once there, you can make a selection on the form to make this your default shipping address.
 
-{% image "src/images/2024/shop-app-default-address.png", "Shop App Default Address", "image-full" %}
+<img src="src/images/2024/shop-app-default-address.png" alt="Shop App Default Address" />
 
 ## Overriding Store Purchase Options
 
@@ -40,6 +40,6 @@ This issue is easy to fix though, all you have to do is:
 3. Click on the account icon in the upper-right corner of the page.
 4. Select **Sign Out** as highlighted in the following figure.
 
-{% image "src/images/2024/shop-app-logout.png", "Shop App Sign Out option", "image-full" %}
+<img src="src/images/2024/shop-app-logout.png" alt="Shop App Sign Out option" />
 
 When you switch back the product site and access your shopping cart, the site's default purchasing options should be available to you again.

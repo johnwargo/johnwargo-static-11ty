@@ -50,11 +50,11 @@ JSON stands for JavaScript Object Notation and it's a way of representing data i
 
 In JSON, an array looks like this:
 
-{% image "src/images/2011/jsonarray.gif", "", "image-full" %}
+<img src="src/images/2011/jsonarray.gif" alt="" />
 
 And an Object looks like this:
 
-{% image "src/images/2011/jsonobject.gif", "", "image-full" %}
+<img src="src/images/2011/jsonobject.gif" alt="" />
 
 You'll see how these apply in the following section.
 

@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-{% image "src/images/covers/acp-cover-160.png", "Apache Cordova 3 Programming", "image-full" %}
+<img src="src/images/covers/acp-cover-160.png" alt="Apache Cordova 3 Programming" />
 
 Last week I put the finishing touches on [*Apache Cordova 3 Programming*](https://cordovaprogramming.com){target="_blank"}, my 4th book. The Cordova team recently released version 3 of the popular open source mobile development framework and this should be the first book on the topic.
 

@@ -50,7 +50,7 @@ find /d/dev -name "*.sh"
 These commands will list all the .cmd and .sh files in the /d/dev directory and its subdirectories. You can then manually check which directories contain both file types. Please replace /d/dev with D:\\dev if you are using Windows Command Prompt.
 ```
 
-{% image "src/images/2023/windows-copilot-01.png", "Windows Copilot Response", "image-full" %}
+<img src="src/images/2023/windows-copilot-01.png" alt="Windows Copilot Response" />
 
 This proves that Copilot understood very little of the intent of the prompt I entered.
 
@@ -97,6 +97,6 @@ foreach ($folder in $folders) {
 
 Running that code, I finally got the solution I needed.  This is really interesting, I wonder what happened that it suddenly started to understand my question. I personally don't believe that my initial prompts were unclear. I wonder what changed.
 
-{% image "src/images/2023/powershell-find-01.png", "Windows PowerShell search results", "image-full" %}
+<img src="src/images/2023/powershell-find-01.png" alt="Windows PowerShell search results" />
 
 Look at that, it seems to work.

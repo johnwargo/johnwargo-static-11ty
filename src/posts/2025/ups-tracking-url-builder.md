@@ -14,7 +14,7 @@ timestamp: 2025-09-27T00:52:17.580Z
 
 When you order packages online, a lot of vendors provide you with a tracking number instead of a tracking URL for your package. Or, when you get a tracking URL from UPS, the URL has a bunch of extra junk in it that isn't needed to actually track the package. In frustration, I built a little Windows app (in Delphi, of course) that takes a UPS tracking number and converts it into a tracking URL you can use to, you know, track the package.
 
-{% image "src/images/2025/ups-tracking-url-builder.png", "UPS Tracking URL Builder App window", "image-full" %}
+<img src="src/images/2025/ups-tracking-url-builder.png" alt="UPS Tracking URL Builder App window" />
 
 You can find the app's source code at [UPS-Tracking-URL-Builder-Delphi](https://github.com/johnwargo/UPS-Tracking-URL-Builder-Delphi){target="_blank"} and download a Windows installer from [Releases](https://github.com/johnwargo/UPS-Tracking-URL-Builder-Delphi/releases){target="_blank"}.
 

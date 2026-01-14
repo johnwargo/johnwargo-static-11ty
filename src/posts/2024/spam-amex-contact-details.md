@@ -19,7 +19,7 @@ The email message discussed in this post is NOT a valid email from American Expr
 
 First of all, when you look at the image, you'll see that Outlook blocked downloading images. I am an American Express customer, but outlook knows to trust email messages from them and automatically download images. The fact that images didn't download automatically means this wasn't a message from American Express, or, American Express changed the email user and/or domain for messages they send to me
 
-{% image "src/images/2024/spam-amex-profile-update.png", "A scam email claiming to be an American Express contact details update", "image-full" %}
+<img src="src/images/2024/spam-amex-profile-update.png" alt="A scam email claiming to be an American Express contact details update" />
 
 ## About the Email Address
 
@@ -52,7 +52,7 @@ Definitely not American Express.
 
 When you check the registration for the `develtio.dev` domain, you'll see the following:
 
-{% image "src/images/2024/spam-amex-profile-update-registration.png", "Domain registration details", "image-full" %}
+<img src="src/images/2024/spam-amex-profile-update-registration.png" alt="Domain registration details" />
 
 This tells you that it's an individual domain registration, not for a corporation.
 
@@ -78,7 +78,7 @@ I'm not sure what it does and I'm not going to click on it (neither should you) 
 
 Normally I'd fire up a Virtual computer, install an operating system then open the link in that environment but the last couple of times I tried that the domain was blocked by the time I did so. Lets see what happens. Yep, here it is, a bogus login page:
 
-{% image "src/images/2024/spam-amex-profile-update-target.png", "Phishing web site image", "image-full" %}
+<img src="src/images/2024/spam-amex-profile-update-target.png" alt="Phishing web site image" />
 
 Notice the URL of the target site:
 

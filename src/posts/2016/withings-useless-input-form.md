@@ -11,7 +11,7 @@ I use the Withings ([https://withings.com/us/en/](https://withings.com/us/en/){t
 
 Every week or so, the Withings app sends me an email summary of my stats. In this morning's email, they offered me a chance to set a weight goal, and I quickly clicked on the link. After logging me in, I'm presented with the following form:
 
-{% image "src/images/2016/withings-weight-goal.png", "Withings Set Weight Goal", "image-full" %}
+<img src="src/images/2016/withings-weight-goal.png" alt="Withings Set Weight Goal" />
 
 As you can see, it's asking me to set my goal (my desired weight). So, recognizing where my weight currently is, I decided that my goal should be 230 lbs. and I dutifully tried to enter that value. Apparently I can't do that.
 

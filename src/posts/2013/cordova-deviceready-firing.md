@@ -51,8 +51,8 @@ Here's the code:
 
 Here's the application running on an iOS simulator.
 
-{% image "src/images/2013/deviceready-sample-app.png", "[Sample Cordova Application Running on an iOS Simulator", "image-full" %}
+<img src="src/images/2013/deviceready-sample-app.png" alt="[Sample Cordova Application Running on an iOS Simulator" />
 
 And here's the output from the application's call to console.log.
 
-{% image "src/images/2013/deviceready-sample-log.png", "Xcode Output Log", "image-full" %}
+<img src="src/images/2013/deviceready-sample-log.png" alt="Xcode Output Log" />

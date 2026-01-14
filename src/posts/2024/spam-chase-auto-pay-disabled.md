@@ -17,7 +17,7 @@ I received another supposed [Chase Bank Phishing email](/posts/2024/spam-chase-b
 
 Here's the email I received:
 
-{% image "src/images/2024/spam-chase-auto-pay-disabled.png", "", "image-full" %}
+<img src="src/images/2024/spam-chase-auto-pay-disabled.png" alt="" />
 
 And here's the content from the email (just to help search engines find it):
 
@@ -48,7 +48,7 @@ Next, I started looking at the links on the page - they all point to the same `r
 
 Looking at the domain registration, it looks like a valid registration - created back in 2011. So that one has me a little confused since it doesn't feel like a Phisher would register their phishing domain 13 years ago.
 
-{% image "src/images/2024/spam-chase-20240711-whois.png", "Domain registration information", "image-full" %}
+<img src="src/images/2024/spam-chase-20240711-whois.png" alt="Domain registration information" />
 
 Anyway, testing the link and I get a broken link page with the following content:
 

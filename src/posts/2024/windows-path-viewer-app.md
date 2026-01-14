@@ -81,7 +81,7 @@ end;
 
 Here's a screen shot of the application:
 
-{% image "src/images/2024/windows-path-viewer-app.png", "Windows Path View App", "image-full" %}
+<img src="src/images/2024/windows-path-viewer-app.png" alt="Windows Path View App" />
 
 ## Changing the Path
 
@@ -95,11 +95,11 @@ Reg := TRegistry.Create(KEY_ALL_ACCESS);
 
 Next, you must run the application with Administrator access. This is because an everyday Windows user doesn't have access to modify the System Path. Users can modify their User path all day long, but as soon as you try to change the System Path, the app will crash. To enable admin mode in the Delphi IDE, open **Projects** -> **Options** and select the **Manifest** section. Set **Execution Level** to **Require Administrator** and save your changes. 
 
-{% image "src/images/2024/delphi-project-options-manifest.png", "Delphi Project Settings Manifest Settings dialog", "image-full" %}
+<img src="src/images/2024/delphi-project-options-manifest.png" alt="Delphi Project Settings Manifest Settings dialog" />
 
 Finally, you must run Delphi with administrator privileges, otherwise you won't be able to test write access to the System Path. If you forget to do this and you launch a project that requires administrator access, Delphi will display an error indicating "The requested operation requires elevation."
 
-{% image "src/images/2024/delphi-requires-elevation.png", "Delphi Error Requires Elevation", "image-full" %}
+<img src="src/images/2024/delphi-requires-elevation.png" alt="Delphi Error Requires Elevation" />
 
 ## Source Code
 

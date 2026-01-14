@@ -21,21 +21,21 @@ One of the things I know I want to do for these boxes is use library card deck l
 
 Of course, I started at Woodpeckers, but quickly realized that for the amount of use I was going to get out of it, it wasn't worth the expenditure. $219 is way too much for something like this unless you use it weekly.
 
-{% image "src/images/2024/cabinet-hardware-jig-woodpeckers.png", "Woodpeckers True Position Cabinet Hardware Jig", "image-full" %}
+<img src="src/images/2024/cabinet-hardware-jig-woodpeckers.png" alt="Woodpeckers True Position Cabinet Hardware Jig" />
 
 I knew there were some companies that cloned Woodpeckers tools, so quickly started looking around. I discovered Levoite a while back and knew they very deliberately cloned Woodpecker products. For their site, they generally copy the product images from the Woodpecker site then Photoshop out the Woodpecker name from product images.
 
 In this case, their Woodpecker clone is $147.59 but they're going to let me have it for $92.99. Not bad, and I almost purchased it. 
 
-{% image "src/images/2024/cabinet-hardware-jig-levoite.png", "Levoite Pro Cabinet Hardware Jig", "image-full" %}
+<img src="src/images/2024/cabinet-hardware-jig-levoite.png" alt="Levoite Pro Cabinet Hardware Jig" />
 
 Yesterday, I discovered a company called Trek Drill that had a very similar product. The pictures are different at least, but it looks like the exactly same product.
 
-{% image "src/images/2024/cabinet-hardware-jig-trekdrill.png", "TrekDrill Pro Cabinet Hardware Jig", "image-full" %}
+<img src="src/images/2024/cabinet-hardware-jig-trekdrill.png" alt="TrekDrill Pro Cabinet Hardware Jig" />
 
 I've also been buying a lot of electronic components and some tools and parts from Ali Express, so hopped over to their site to see what I could find. There, the same product is only $18.62. Recognizing that I'd only use this tool rarely and maybe only enough times to build my 14 drawers or so, I went ahead and purchased it for less than $20 with shipping.
 
-{% image "src/images/2024/cabinet-hardware-jig-ali-express.png", "Ali Express Cabinet Hardware Jig", "image-full" %}
+<img src="src/images/2024/cabinet-hardware-jig-ali-express.png" alt="Ali Express Cabinet Hardware Jig" />
 
 I wish I had the expendable cash to buy each one and compare them, but I don't. 
 

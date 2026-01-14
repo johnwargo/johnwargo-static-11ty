@@ -17,7 +17,7 @@ Let's take a look at what I mean.
 
 If you take a look at Figure 1, you'll see a screen capture from the device as soon as I attempted to record video from the application. The alert box is the application's way to let me know what happened during the process. In this case, the device refused to take the video (because the battery was too low) and returned a canceled error to the PhoneGap application.
 
-{% image "src/images/2012/phonegap_video_capture_1.png", "Figure 1", "image-full" %}
+<img src="src/images/2012/phonegap_video_capture_1.png" alt="Figure 1" />
 
 I didn't notice at first, but the device also displays (for a very short time) an error indicating why it can't capture video. It wasn't until I'd tested this a few times that I noticed that little pop-up below the alert dialog.
 

@@ -25,7 +25,7 @@ With this site, you enter the site URL and select some configuration options and
 
 Here's a small example from the results:
 
-{% image "src/images/2024/w3c-link-checker.png", "A screenshot of W3C Link Checker Results", "image-full" %}
+<img src="src/images/2024/w3c-link-checker.png" alt="A screenshot of W3C Link Checker Results" />
 
 It shows a couple of links that failed because the server blocked robots. That's helpful, it lets me know I need to manually validate those links. It also shows some redirect issues that indicate changes I had to make to my site's code to avoid the delay caused by a redirect.
 

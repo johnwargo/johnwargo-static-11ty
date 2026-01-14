@@ -18,7 +18,7 @@ Last night, I started playing around with a new [Firebase](https://firebase.goog
 
 I started by placing my HTML project in a folder within the Firebase project, lets call the folder... `static`. With the standard settings (including functions), my project folder looks like the following:
 
-{% image "src/images/2025/firebase-01.png", "Firebase Folder Structure", "image-full" %}
+<img src="src/images/2025/firebase-01.png" alt="Firebase Folder Structure" />
 
 Within the `static` folder, I have a `dist` folder where the HTML Boilerplate project build process puts the generated site files. To configure Firebase hosting to deploy the site using the files in the `dist` folder, all I had to do was make a small change to the project's `firebase.json` file:
 

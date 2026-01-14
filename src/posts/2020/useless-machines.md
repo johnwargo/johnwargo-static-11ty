@@ -9,7 +9,7 @@ tags: post
 
 Many years ago (I can't remember how many), I bought a Useless Machine kit from [Frivolous Engineering](https://instructables.com/member/Frivolous%20Engineering/instructables/){target="_blank"}. It's this amazing kit that enables you to build a machine that when you turn it on, it immediately turns itself off; a finger pokes out the lid to flip the power switch back to off again.
 
-{% image "src/images/2020/uesless-machine_1.jpg", "Useless Machine Image", "image-full" %}
+<img src="src/images/2020/uesless-machine_1.jpg" alt="Useless Machine Image" />
 
 I bought it so I could build it with one of my children and was pleasantly surprised when Elizabeth wanted to build it with me. We had an amazing hour or so putting this thing together and big laughs every time we turned it on.
 

@@ -11,7 +11,7 @@ Through my kids, I recently met another couple and quickly realized we had a lot
 
 Fast forward a few months and I was sitting in my bedroom reading a book when my wife grabbed me and dragged me to the front door. Apparently she 'saw some movement outside' and I had to 'check it out'. Anyway, I grab a firearm (just kidding) fling open the door, and what do I find? This, full of gifts:
 
-{% image "src/images/2017/tim-the-enchanter-01.png", "Tim the Enchanter", "image-full" %}
+<img src="src/images/2017/tim-the-enchanter-01.png" alt="Tim the Enchanter" />
 
 Tim and his family reproduced the Trojan rabbit from Monty Python and the Holy Grail and left it on my front porch filled with presents. Inside was a Ministry of Silly Walks wrist watch, a Monty Python coffee mug, and a Legendary Black Beast of Aaargh hat. What fun!
 

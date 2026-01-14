@@ -13,14 +13,14 @@ A long time ago I went looking for a utility I could use to set the size of wind
 
 When you install Sizer, it installs an application that, when launched, places an icon in the Windows system tray (shown in Figure 1 with an orange box around it) and also enables a context menu that you (shown in Figure 3) can use to resize any window.
 
-{% image "src/images/2010/sizer-system-tray.png", "Sizer System Tray Icon", "image-full" %}
+<img src="src/images/2010/sizer-system-tray.png" alt="Sizer System Tray Icon" />
 Figure 1 – Sizer System Tray Icon
 
 ## Configuring the Program
 
 Before you can use the program, you need to configure the different window sizes you want to be available in the program. If you right-click the Sizer system tray icon and select 'Configure Sizer…' from the menu that appears, you will be presented with a screen similar to the one shown in Figure 2.  
 
-{% image "src/images/2010/sizer-config.png", "Sizer Configuration Dialog", "image-full" %}  
+<img src="src/images/2010/sizer-config.png" alt="Sizer Configuration Dialog" />  
 Figure 2 – Sizer Configuration Dialog
 
 From this dialog, you configure the different window sizes you wish to be able to use when resizing windows. You can set specific window dimensions or use the program to set a specific window position.  When you have the settings configured the way you want them, click the OK button and you're ready to go.
@@ -29,7 +29,7 @@ From this dialog, you configure the different window sizes you wish to be able t
 
 To resize the window, right click on the window's title bar and you will be presented with a menu similar to the one shown in Figure 3. At this point, you can select one of the pre-configured window sizes and Sizer will resize the window to the selected dimensions, keeping the window's upper left corner in the current position (unless you selected an option that also moves the window).  
   
-{% image "src/images/2010/sizer-rightclick.png", "Sizer Context Menu", "image-full" %}
+<img src="src/images/2010/sizer-rightclick.png" alt="Sizer Context Menu" />
 Figure 3
 
 The program works pretty well and I've used it for many, many years now. It's proven to be very useful and well worth the cost (it's free!) What bothers me though is that some windows won't display the context menu. The Windows Explorer application in Vista 64 won't display the context menu when you right-click on the title bar. It's not really a problem though since I can still select the window and resize it by right-clicking on the system tray icon then picking a window dimension from the pre-configured list.  

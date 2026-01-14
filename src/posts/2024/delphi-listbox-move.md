@@ -14,7 +14,7 @@ I worked on a Windows application project in Delphi that required moving selecte
 
 Here's an image of the application in action:
 
-{% image "src/images/2024/delphi-listbox-move.png", "An image of the application running", "image-full" %}
+<img src="src/images/2024/delphi-listbox-move.png" alt="An image of the application running" />
 
 When you run the app, it opens with a list of random words paired into 2, 3 or 4 word phrases in the list box. Select one or more items in the list, then click the buttons to move the selected items to the Top or Bottom of the list or to move them up or down.
 

@@ -17,21 +17,21 @@ With GitHub Projects, you could:
 
 I recently did a big site migration from Joomla to Eleventy and I wanted a place to track all of the action items I made for myself as I worked through the migration. Remembering that GitHub Projects would likely give me what I needed, I opened a browser window, navigated to the repository, then clicked on the Projects tab. 
 
-{% image "src/images/2023/github-projects-01.png", "GitHub Repository", "image-full" %}
+<img src="src/images/2023/github-projects-01.png" alt="GitHub Repository" />
 
 What I saw there confused me. Instead of the **Create Project** button I expected, instead I saw an option to Link a Project. **Link a project**? What does that mean?  
 
-{% image "src/images/2023/github-projects-02.png", "GitHub Projects Page", "image-full" %}
+<img src="src/images/2023/github-projects-02.png" alt="GitHub Projects Page" />
 
 It took me a few seconds to realize the button was also a drop-down, so I clicked the arrow and found the **New Project** button I expected. When I clicked the button, Projects gives me the opportunity to select the type of project I want as shown below.
 
-{% image "src/images/2023/github-projects-03.png", "GitHub Projects New Project", "image-full" %}
+<img src="src/images/2023/github-projects-03.png" alt="GitHub Projects New Project" />
 
 I created a Board since I wanted a Kanban board for my tasks and got to work.
 
 What I didn’t understand was that projects are no longer actually associated with the repository. GitHub now associates projects with the GitHub Organization or Account, not the repository as shown below. You can still access the project from the repository, but scoping the project to the account breaks everything I expect from Projects.
 
-{% image "src/images/2023/github-projects-04.png", "GitHub Repository Global Projects List", "image-full" %}
+<img src="src/images/2023/github-projects-04.png" alt="GitHub Repository Global Projects List" />
 
 I understand that GitHub is trying to replicate capabilities from Azure DevOps, for small time single developers this doesn’t make sense. It also makes it much more complicated to use Projects for what I want to use them for. 
 
@@ -39,7 +39,7 @@ Let me explain.
 
 When you create a new task in the board, it shows on the board like this:
 
-{% image "src/images/2023/github-projects-05.png", "GitHub Project Board New Task", "image-full" %}
+<img src="src/images/2023/github-projects-05.png" alt="GitHub Project Board New Task" />
 
 Apparently the task is on the board, but for some bizarre reason the task is in Draft mode. Draft has no context here, I created it and added it to the board column I wanted, there is no draft context here.
 
@@ -47,11 +47,11 @@ I had to start searching around on the Internet to find the answer to this one. 
 
 To convert the task to an issue, you must hover over the task and click the little three-button thingie that appears. Once you do that you see an option to convert the task to an issue.
 
-{% image "src/images/2023/github-projects-06.png", "GitHub Projects Convert to Issue", "image-full" %}
+<img src="src/images/2023/github-projects-06.png" alt="GitHub Projects Convert to Issue" />
 
 Once you select that option, you’re prompted to select the repository you want to link the task to. 
 
-{% image "src/images/2023/github-projects-07.png", "GitHub Projects Repository List", "image-full" %}
+<img src="src/images/2023/github-projects-07.png" alt="GitHub Projects Repository List" />
 
 OK, that makes sense when you look at this from an organizational standpoint and GitHub thankfully puts the current repository (the repository I created the project in) as the first option in the list. What doesn’t make sense is that I have to do this at all.
 

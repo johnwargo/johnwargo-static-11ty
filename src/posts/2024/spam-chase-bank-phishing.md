@@ -13,7 +13,7 @@ timestamp: 2024-06-29T19:35:04.669Z
 
 I received an email the other day that I was certain was a phishing attempt; here's the email message:
 
-{% image "src/images/2024/spam-chase-20240626.png", "Phishing email contents", "image-full" %}
+<img src="src/images/2024/spam-chase-20240626.png" alt="Phishing email contents" />
 
 ## Initial Take on the Email
 
@@ -35,7 +35,7 @@ Besides, if I was a Chase customer, I'd likely be a customer of theirs in the US
 
 Taking a look at the link behind the **Get Started** button in the email; it points to `notifications-center dot su`. When I lookup that domain at [https://who.is/whois/notifications-center.su](https://who.is/whois/notifications-center.su){target="_blank"}, here's what I get:
 
-{% image "src/images/2024/spam-chase-20240626-whois.png", "Who is registration for the phishing web site", "image-full" %}
+<img src="src/images/2024/spam-chase-20240626-whois.png" alt="Who is registration for the phishing web site" />
 
 Notice that its registered to a private person, not Chase Bank as you'd normally expect. 
 

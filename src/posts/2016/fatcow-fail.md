@@ -121,7 +121,7 @@ What I'd like to see is them trying to actually block the hackers from trying to
 
 Anyway, I took a look at the admin tools console and noticed the following:
 
-{% image "src/images/2016/website-login-surge-640.png", "Website login surge", "image-full" %}
+<img src="src/images/2016/website-login-surge-640.png" alt="Website login surge" />
 Figure 1
 
 As you can see from the figure, the server was humming along, then suddenly had more than 8,000 bad login attempts in a very short period of time. This site has a maximum of about 100 users, no more than 10 or so would ever be on the site at the same time, so clearly there's a problem. Does my hosting account need to be shut down because of it? No, not really. Are the hackers getting in? Nope, they're not, and each IP address is being blocked, so they have to come up with a new one to try again. Clearly there's a botnet at work here.

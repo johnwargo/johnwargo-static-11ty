@@ -80,7 +80,7 @@ set DEBUG=Eleventy* & npx @11ty/eleventy
 ### Image Shortcode
 
 ```liquid
-{% image "src/images/", "", "image-full" %}
+<img src="src/images/" alt="" />
 ```
 
 ### Publications record

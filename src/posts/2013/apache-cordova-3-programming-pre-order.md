@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-{% image "src/images/covers/acp-cover-160.png", "Apache Cordova 3 Programming", "image-full" %}
+<img src="src/images/covers/acp-cover-160.png" alt="Apache Cordova 3 Programming" />
 
 Apache Cordova 3 Programming is **finally** available for pre-order. Apparently Amazon has issues with taking pre-orders for eBooks - people expect immediate gratification when they order eBooks, so Amazon won't list it until they have it. In the mean time, I was able to get my publisher to open up pre-orders on its web site, [InformIT.com](https://informit.com/store/apache-cordova-3-programming-9780321957368){target="_blank"}.
 

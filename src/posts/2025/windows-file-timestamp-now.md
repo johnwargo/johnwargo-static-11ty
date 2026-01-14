@@ -26,7 +26,7 @@ Download <strong>Timestamp Now</strong> from <a href="https://fumblydiddle.com/p
 
 The application's interface is very simple and its easy to use. In Windows File Explorer, simply select a set of files and/or directories, then right-click on one of the selected files and select **Timestamp Now**. The shell extension loads and displays the following interface.
 
-{% image "src/images/2025/timestampnow-ui.png", "Timestamp Now UI", "image-full" %}
+<img src="src/images/2025/timestampnow-ui.png" alt="Timestamp Now UI" />
 
 From here, you can select which timestamps you want modified:
 

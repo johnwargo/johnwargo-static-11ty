@@ -15,7 +15,7 @@ I'm a big fan of [Instructables](https://instructables.com/){target="_blank"} an
 
 What I liked about this project was that it did a few different things I needed in my shop. I had a bench power supply on my workbench for some time, but it was variable power only, I had to dig out a phone charger whenever I wanted to power an Arduino device or Raspberry Pi. It also has a 3D printable enclosure and with my recent acquisition of a Bambu Labs P1s I knew I had the equipment I needed to build it.
 
-Here's the finished project on my workbench: {% image "src/images/2024/bench-power-supply.jpg", "An imaged of the finished project", "image-full" %}
+Here's the finished project on my workbench: <img src="src/images/2024/bench-power-supply.jpg" alt="An imaged of the finished project" />
 
 The project includes complete assembly instructions, which is nice, but not a complete part list with links to purchase the items. I found that I had to go digging around for the specific parts I needed. For example, the project's **2 single-pole round switches** didn't tell me anything about the diameter of the switches. I purchased some switches I thought would work, but they were too big. After that failure, I measured the switch openings in the printed panels and hunted around for switches that were 14mm diameter (which took me a little longer to find).
 

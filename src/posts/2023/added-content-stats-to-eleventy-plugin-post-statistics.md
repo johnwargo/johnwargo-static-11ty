@@ -63,4 +63,4 @@ The plugin delivers a lot more data now:
 
 I also updated the sample statistics page in the plugin repository (and this site) to display all the new data:
 
-{% image "src/images/2023/plugin-stats-example.png", "Plugin Sample Page", "image-full" %}
+<img src="src/images/2023/plugin-stats-example.png" alt="Plugin Sample Page" />

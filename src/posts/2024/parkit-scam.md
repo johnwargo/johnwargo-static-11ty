@@ -15,7 +15,7 @@ I received an interesting phishing/scam text message this morning. It seemed to 
 
 Here's a screenshot of the message:
 
-{% image "src/images/2024/parkit-scam-01.png", "Parkit Scam Text Message", "image-full" %}
+<img src="src/images/2024/parkit-scam-01.png" alt="Parkit Scam Text Message" />
 
 There's a few things that make it clear its a scam pretty quickly:
 
@@ -27,7 +27,7 @@ There's a few things that make it clear its a scam pretty quickly:
 
 Anyway, at this point I'm certain that it's a scam so I typed in the link address in my mobile device's browser. Chrome quickly blocked access and warned me about the site:
 
-{% image "src/images/2024/parkit-scam-02.png", "Browser's Danger warning", "image-full" %}
+<img src="src/images/2024/parkit-scam-02.png" alt="Browser's Danger warning" />
 
 It's crystal clear at this point that someone's trying to harm me or steal from me. 
 
@@ -35,7 +35,7 @@ It's crystal clear at this point that someone's trying to harm me or steal from 
 
 Just to make double certain, I started searching for "Parkit" as a parking solution in Charlotte. It turns out that the city of Charlotte does have a parking service called Parkit, but the site URL is http://charlottenc.gov/Transportation/Programs/Pages/ParkIT.aspx. This is a city service, so it wouldn't have a `-nc` in its site URL.
 
-{% image "src/images/2024/parkit-scam-03.png", "Charlotte Parkit details", "image-full" %}
+<img src="src/images/2024/parkit-scam-03.png" alt="Charlotte Parkit details" />
 
 ## Targeted Message
 

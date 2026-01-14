@@ -128,7 +128,7 @@ In your Eleventy project, Eleventy automatically makes the `buildinfo.json` file
     
 When you look at the site, you'll see this in the footer of every page:
 
-{% image "src/images/2023/random-errors-footer.png", "Random Errors footer screenshot", "image-full" %}
+<img src="src/images/2023/random-errors-footer.png" alt="Random Errors footer screenshot" />
 
 I built this with the understanding that I would run this process locally on my development workstation. Once the process updates the package version and writes the JSON file, I can just commit the files to my local repo and synchronize them with the cloud. My hosting site, in this case [Netlify](https://netlify.com/){target="_blank"} picks up the changes, generates the site (again), and publishes it.
 

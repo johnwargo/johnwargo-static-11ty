@@ -12,7 +12,7 @@ tags: post
 
 I recently received a copy of Simon Monk's [*The Maker's Guide to the Zombie Apocalypse*](https://shop.oreilly.com/product/9781593276676.do?sortby=publicationDate){target="_blank"}. I'd read several of Simon's books (*Programming the BeagleBone Black* and *Make: Getting Started with the Photon*). I've enjoyed his books, and they've helped me learn how to work with the Photon and BeagleBone Black.
 
-{% image "src/images/2016/zombie-cover-160.png", "The Maker's Guide to the Zombie Apocalypse Cover", "image-full" %}
+<img src="src/images/2016/zombie-cover-160.png" alt="The Maker's Guide to the Zombie Apocalypse Cover" />
 
 I travel a lot and when I'm trying to learn something, I prefer to pick up a book and work through the book step by step. Online documentation is OK, especially when you're trying to find a quick fix to something, but I find that books are better at the overall learning you need when you first start working with a hardware device, developer tool or programming language. There's something about the structure of a book vs. poking around in product documentation that makes it easier for me to learn from a book.
 

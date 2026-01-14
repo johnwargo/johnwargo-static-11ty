@@ -9,7 +9,7 @@ tags: post
 
 I posted a little while ago about how marketing organizations were ignoring mobile clients when crafting email blasts and provided some examples (which I continue to update as I find more). My analysis of these emails focused mainly on how the email messages are not formatted correctly for smaller devices, but as I looked into this more, I realized that many of these email messages, not marketing blasts, but specific notification emails sent directly to me, weren't structured in a way that made them immediately useful to me as the consumer. Take the following email notification from American Airlines for example:
 
-{% image "src/images/2016/email-formatting-for-use-640.png", "American Airlines Flight Notification", "image-full" %}
+<img src="src/images/2016/email-formatting-for-use-640.png" alt="American Airlines Flight Notification" />
 Figure 1 – American Airlines Departure Reminder Email
 
 When you look at the email on my Nexus 5x device as shown in the figure, there is no useful information displayed once I open the email. All I can tell by looking at this email is that I have a departure coming up and that it has a specific record locator. The developer who crafted this email message paid no attention to providing me with useful information above the fold (in the first page displayed).

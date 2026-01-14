@@ -15,7 +15,7 @@ In [Postal Scam Urtye dot com](/posts/2024/scam-postal-urtye/), I pointed out a 
 
 Here's a screen shot of one I received the other day:
 
-{% image "src/images/2024/spam-postal-svc-20241121.png", "Spam Text Message", "image-full" %}
+<img src="src/images/2024/spam-postal-svc-20241121.png" alt="Spam Text Message" />
 
 A couple of things are different. Most importantly the phone number is a US Phone number (Michigan), which at least makes some sense. Most of these I get are International phone numbers which, of course, the US Postal Service would NEVER use to send me a text message.
 

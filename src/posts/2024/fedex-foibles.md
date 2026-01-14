@@ -12,7 +12,7 @@ categories:
 
 I noticed lately that FedEx seems incapable of knowing where packages are in their delivery network. As an example, take a look at the following screen shot taken this morning:
 
-{% image "src/images/2024/fedex-foibles.png", "FedEx Tracking Page", "image-full" %}
+<img src="src/images/2024/fedex-foibles.png" alt="FedEx Tracking Page" />
 
 This particular package shipped on March first from Strongsville, OH. It traveled through FedEx's shipping network to Charlotte (where I live), arriving in the delivery city the next day (Saturday, March 2nd). The package sat there for a few days, in the delivery city mind you, before FedEx shipped it to a small town outside of Charleston SC. Then it made its way to Spartanburg, back to Charlotte and was supposed to be delivered but never made it on the truck.
 

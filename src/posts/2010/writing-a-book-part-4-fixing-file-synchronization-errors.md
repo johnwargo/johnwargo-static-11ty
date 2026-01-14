@@ -63,7 +63,7 @@ I quickly encountered a problem – I was running Vista 64 and the Power Tools '
 
 To use the utility, you open Windows Explorer, select the files you want to manipulate the right-click to bring up a list of options. Select 'Change Date' from the list of options and you will be presented with a dialog similar to the one shown in the following figure.
 
-{% image "src/images/2010/powertools2.png", "PowerTools", "image-full" %}
+<img src="src/images/2010/powertools2.png" alt="PowerTools" />
 Figure 1
 
 In this case, I change all date/time stamps (created, modified an accessed) and set them all to the current time. Once everything's set the way I needed it, I would click the 'Accept' button to commit the changes. The following listing shows the results.

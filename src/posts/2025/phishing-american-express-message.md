@@ -19,7 +19,7 @@ This message, for a lot of reasons, is not from American Express and you shouldn
 
 The message said it was from "American Express Customer Care", but I've never received a message from American Express Customer Care. When you look at the message, you notice that Outlook blocked the images in the message. If the message had actually come from American Express (it didn't) the images automatically appear since I've already allowed image files from AmEx.
 
-{% image "src/images/2025/phishing-amex-message.png", "The contents of a phishing message supposedly from American Express", "image-full" %}
+<img src="src/images/2025/phishing-amex-message.png" alt="The contents of a phishing message supposedly from American Express" />
 
 Looking at the actual email for the message, I saw the following:
 

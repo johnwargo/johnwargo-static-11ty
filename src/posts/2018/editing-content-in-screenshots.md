@@ -23,7 +23,7 @@ Using your browser's developer tools, you can edit the content of any page. When
 
 Let me give you an example, since I work for Microsoft, I thought I'd use the Azure portal as an example. If you look at the following figure, you can see that the portal thinks my email address is joe dev at acmedynamite dot com and my user name is Joe Developer. Those aren't my actual account details, I simply changed them before taking the screenshot.
 
-{% image "src/images/2018/web-content-editing-01.png", "Microsoft Azure Portal (modified)", "image-full" %}
+<img src="src/images/2018/web-content-editing-01.png" alt="Microsoft Azure Portal (modified)" />
 
 Microsoft Azure Portal (modified)
 
@@ -46,13 +46,13 @@ Google Chrome Dev Tools
 
 To 'fix' content on a page using the Chrome browser, open the browser to the page you want to screenshot. Next, open the Chrome developer tools (press Ctrl-Shift-I on Windows) then select the Elements tab (highlighted as step 1 in the following figure).
 
-{% image "src/images/2018/web-content-editing-02.png", "Chrome Developer Tools", "image-full" %}
+<img src="src/images/2018/web-content-editing-02.png" alt="Chrome Developer Tools" />
 
 Chrome Developer Tools
 
 Use search to locate the text you want to edit; press Ctrl-F on Windows or Command-F on macOS, then type the text you want to find on the page (step 2 in the figure). Chrome will highlight the selected text on the page (step 3 in the figure).
 
-{% image "src/images/2018/web-content-editing-03.png", "Chrome Developer Tools: Searching Text", "image-full" %}
+<img src="src/images/2018/web-content-editing-03.png" alt="Chrome Developer Tools: Searching Text" />
 Chrome Developer Tools: Searching Text
 
 Double-click on the selected text in the window as shown in the figure below, then type the text you want to replace the selected text.
@@ -61,7 +61,7 @@ When you press the Enter key to end input, the page will update with your change
 
 You can also use the Chrome Inspector to locate the source for a particular element on the page. Click the icon highlighted in the following figure, then point to the page element you want to edit. The developer tools will highlight the selected text in the Elements pane - simply double-click on the text you want to edit and make your changes.
 
-{% image "src/images/2018/web-content-editing-04.png", "Chrome Developer Tools: Inspector", "image-full" %}
+<img src="src/images/2018/web-content-editing-04.png" alt="Chrome Developer Tools: Inspector" />
 Chrome Developer Tools: Inspector
 
 Firefox Dev Tools
@@ -69,7 +69,7 @@ Firefox Dev Tools
 
 The Firefox developer tools work a little differently. Open the page you want to screenshot in Firefox, then press Ctrl-Shift-I to open the developer tools. Then use the search field highlighted in the following figure to find the content you want to edit. If your page has more than one instance of your search text, Firefox doesn't display a visual mechanism to navigate between the different instances. Instead, press enter in the search field to navigate to the next instance.
 
-{% image "src/images/2018/web-content-editing-05.png", "Firefox Developer Tools", "image-full" %}
+<img src="src/images/2018/web-content-editing-05.png" alt="Firefox Developer Tools" />
 Firefox Developer Tools
 
 As you did with the Chrome developer tools, simply double-click on the text you want to edit, make your changes, then press the Enter key to commit your changes.
@@ -79,7 +79,7 @@ Edge Dev Tools
 
 In the Edge browser, things are about the same except that you press F12 to open the developer tools. Once there, you can use the search window highlighted in the following figure to find the text you want to update. Notice that for multiple search hits, Edge gives you arrows you can use to move between instances.
 
-{% image "src/images/2018/web-content-editing-06.png", "Microsoft Edge Developer Tools", "image-full" %}
+<img src="src/images/2018/web-content-editing-06.png" alt="Microsoft Edge Developer Tools" />
 Microsoft Edge Developer Tools
 
 Conclusion

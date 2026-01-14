@@ -9,4 +9,4 @@ tags: post
 
 I'd forgotten something even older than the MS-DOS books I posted about yesterday. Remember this? Also in my collection (I have two of them)
 
-{% image "src/images/2009/charlie-chaplin.jpg", "Old IBM PC Manuals", "image-full" %}
+<img src="src/images/2009/charlie-chaplin.jpg" alt="Old IBM PC Manuals" />

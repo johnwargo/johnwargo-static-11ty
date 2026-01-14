@@ -32,29 +32,29 @@ Here's some of the projects I built last year:
 
 A benchtop power supply with a 3D-printed case. 
 
-{% image "src/images/2025/shop-project-2024-01.jpg", "A benchtop power supply", "image-full" %}
+<img src="src/images/2025/shop-project-2024-01.jpg" alt="A benchtop power supply" />
 
 I made three Owl houses:
 
-{% image "src/images/2025/shop-project-2024-02.jpg", "an owl house under construction", "image-full" %}
+<img src="src/images/2025/shop-project-2024-02.jpg" alt="an owl house under construction" />
 
 A cherry napkin holder:
 
-{% image "src/images/2025/shop-project-2024-03.jpg", "a cherry wood napkin holder", "image-full" %}
+<img src="src/images/2025/shop-project-2024-03.jpg" alt="a cherry wood napkin holder" />
 
 A set of storage shelves for some jars full of nuts I had in my shop:
 
-{% image "src/images/2025/shop-project-2024-04.jpg", "A jar holder drawer", "image-full" %}
-{% image "src/images/2025/shop-project-2024-05.jpg", "A stack of jar drawers in a case", "image-full" %}
+<img src="src/images/2025/shop-project-2024-04.jpg" alt="A jar holder drawer" />
+<img src="src/images/2025/shop-project-2024-05.jpg" alt="A stack of jar drawers in a case" />
 
 A new storage cabinet for the shop
 
-{% image "src/images/2025/shop-project-2024-06.jpg", "A storage cabinet with sliding doors", "image-full" %}
+<img src="src/images/2025/shop-project-2024-06.jpg" alt="A storage cabinet with sliding doors" />
 
 A new stand, with amplifier and speakers, for Sparky, my remote control flame throwing pumpkin"
 
-{% image "src/images/2025/shop-project-2024-07.jpg", "A stand for my flame throwing pumpkin project with amplifier and speakers", "image-full" %}
-{% image "src/images/2025/shop-project-2024-08.jpg", "Sparky, my remote control flame throwing pumpkin project", "image-full" %}
+<img src="src/images/2025/shop-project-2024-07.jpg" alt="A stand for my flame throwing pumpkin project with amplifier and speakers" />
+<img src="src/images/2025/shop-project-2024-08.jpg" alt="Sparky, my remote control flame throwing pumpkin project" />
 
 ## Looking Forward
 

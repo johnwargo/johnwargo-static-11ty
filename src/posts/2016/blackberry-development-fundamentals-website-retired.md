@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-{% image "src/images/covers/bbdf-cover-160.png", "Blackberry Development Fundamentals Cover", "image-full" %}
+<img src="src/images/covers/bbdf-cover-160.png" alt="Blackberry Development Fundamentals Cover" />
 
 The website for my BlackBerry Development Fundamentals was retired today. The book was published back in 2009 and focused on BlackBerry 6 (or was it 7? I can't remember it's been so long) development. At the time, BlackBerry apps were written in Java, but now, with BlackBerry 10, BlackBerry devices run a completely different OS and apps are written in C. BlackBerry's newest device is an Android device, so BlackBerry as a development platform is essentially dead.
 

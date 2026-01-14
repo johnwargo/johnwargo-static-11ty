@@ -14,7 +14,7 @@ It's been a really long time since I've published a Stupid Developer Tricks post
  
 I wife and I flew home from Colorado this week; we vacationed in Telluride and attended the [Telluride Blues and Brews Festival](https://tellurideblues.com/){target="_blank"}. I tested positive for COVID while we were there and delayed our trip home. On the flight home, I decided to watch movies instead of reading books and when I launched the app to access streaming media I received the following message: "Free entertainment is not supported on this browser" as shown in the image below.
 
-{% image "src/images/2023/unsupported-browser.png", "Unsupported browser message", "image-full" %}
+<img src="src/images/2023/unsupported-browser.png" alt="Unsupported browser message" />
 
 I use my iPad every day, but I hate Safari, so my default browser on the device is Chrome. I'm a little surprised by this issue as apparently this works on Chrome on Android. I didn't dig into the details, but I imagine its because of an issue on the iOS side rather than Chrome because Chrome is Chrome. 
 

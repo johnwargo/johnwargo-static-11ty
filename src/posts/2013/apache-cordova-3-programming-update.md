@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-{% image "src/images/covers/acp-cover-160.png", "Apache Cordova 3 Programming", "image-full" %}
+<img src="src/images/covers/acp-cover-160.png" alt="Apache Cordova 3 Programming" />
 
 Apache Cordova 3 Programming is currently available for order from [InformIT](https://informit.com/store/apache-cordova-3-programming-9780321957368){target="_blank"}.
 

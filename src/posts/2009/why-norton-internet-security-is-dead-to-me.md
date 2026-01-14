@@ -11,7 +11,7 @@ I've been a HUGE Norton fan since the beginning of my career. I loved Norton Uti
 
 Well, my subscription ran out a while ago and the final straw for me was this:
 
-{% image "src/images/2009/norton.jpg", "Norton Image", "image-full" %}
+<img src="src/images/2009/norton.jpg" alt="Norton Image" />
 
 It's telling me I need to renew, but it's giving me a ridiculously limited number of options. Instead of letting me say 'don't bother me again' or 'remind me in a week' - the only options available to me are buy now or remind me tomorrow. I was trying to decide what I wanted to do with this, so I had to fire up Task Manager and kill the task to get it to stop reminding me every day. As soon as I reboot my machine, it starts reminding me again and again and again. Enough already - it's unfair to consumers to be this relentless; all it's doing is making me want to use somebody else's product. Now, I happen to own a 5 pack license for Symantec antivirus, so I'm going to switch to that. If I didn't already have that license, I would likely purchase some other product.
 

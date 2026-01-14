@@ -23,7 +23,7 @@ So it turns out you don't need any of the stuff that follows. :-)
 
 A while back, I added the Eleventy build details to the footer of this site; here's what it looks like today:
 
-{% image "src/images/2024/jmw-site-footer.png", "A screenshot of this site's footer", "image-full" %}
+<img src="src/images/2024/jmw-site-footer.png" alt="A screenshot of this site's footer" />
 
 Doing this was pretty easy. First, I added a data file to the site, creating a file called `eleventyinfo.js` in the site's `_data` folder (`_data/eleventyinfo.js`) with the following code:
 

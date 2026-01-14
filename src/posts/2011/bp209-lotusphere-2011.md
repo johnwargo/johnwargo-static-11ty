@@ -13,7 +13,7 @@ Attached is the presentation that [Rob Wunderlich](https://dominounplugged.com){
 
 The attachment is below, the following image is just a screen shot of the first page of our presentation.
 
-{% image "src/images/2011/bp209.png", "", "image-full" %}
+<img src="src/images/2011/bp209.png" alt="" />
 
 One of the things I did in the session was demonstrate some applications. I showed how to use Apple's Dashcode development environment (Dashcode is a code generator for Safari web applications) to build an application that talked to a Domino data source. I tried to build the application in less than a minute but was only able to do it in a minute and two seconds. Drat. It was still fun to do - I quickly built the app then went back and showed what I did. The complete walkthrough has been submitted as an article to the [View](https://eview.com){target="_blank"} and should be published in the next couple of months.
 

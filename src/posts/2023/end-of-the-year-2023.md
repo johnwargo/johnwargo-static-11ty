@@ -19,7 +19,7 @@ This was a big year for this site:
 
 You can see the current stats on the [Statistics](/about/statistics){target="_blank"} page; with a end of year snapshot in the image below.
 
-{% image "src/images/2023/post-count-graph-2023.png", "Post Count Graph from this site on this day", "image-full" %}
+<img src="src/images/2023/post-count-graph-2023.png" alt="Post Count Graph from this site on this day" />
 
 One of the reasons for so many posts was that I did a lot more coding this year and that generated a lot of articles I needed to write about the cool stuff I learned. I also migrated the site from [Joomla!](https://joomla.org/){target="_blank"} to [Eleventy](https://11ty.dev/){target="_blank"} which was a lot of work and generated a lot of new learnings for me and new code I wrote that I could share with the world here.
 

@@ -11,11 +11,11 @@ tags: post
 
 Apparently March 18th was a big day for updates to applications in the BlackBerry App World. As the screen shot below shows, my device inbox was all of a sudden filled with notices of applications that needed to be upgraded.
 
-{% image "src/images/2010/app-world-updates-1.jpg", "", "image-full" %}
+<img src="src/images/2010/app-world-updates-1.jpg" alt="" />
 
 Nice, I like that the system notifies me and I can tell quickly which applications need updates. When I opened the App World application, one of the things I quickly noticed was that App World didn't have the means to update all of the applications simultaneously. Instead, I was presented with a list like the one shown in the following screen shot.
 
-{% image "src/images/2010/app-world-updates-2.jpg", "", "image-full" %}
+<img src="src/images/2010/app-world-updates-2.jpg" alt="" />
 
 Rather than give me an easy option to update all of the applications, I had to select each application individually and start the update for each manually. Granted the developers of the application didn't expect so many updates on the same day, but they probably should have.  
 This is one of the things I like about the Apple App Store, when there are a bunch of updates, you can click the 'Update all' button and all of the affected applications are updated.

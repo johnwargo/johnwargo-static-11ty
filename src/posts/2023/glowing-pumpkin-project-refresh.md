@@ -24,4 +24,4 @@ https://youtu.be/05cMcB_vGCM
 
 And here's the original project (on the right) and the latest version on the left. See how much smaller the new version is? And its much easier to assemble.
 
-{% image "src/images/2023/glowing-pumpkins-old-and-new.jpg", "An image showing the old project next to the new one", "image-full" %}
+<img src="src/images/2023/glowing-pumpkins-old-and-new.jpg" alt="An image showing the old project next to the new one" />

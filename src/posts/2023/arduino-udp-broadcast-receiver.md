@@ -21,13 +21,13 @@ I knew the web server approach wouldn't help me because its server focused and I
 
 The mobile app I created to control the web server version of the project is able to easily use a TCP connection to an Arduino device. With that in mind, I started investigating whether I could use TCP's close cousin UDP to deliver synchronization across the pumpkins. It turns out it can and I quickly updated my mobile app ([Pumpkin Controller (Flutter)](https://github.com/fumblystuff/pumpkin-controller-app-flutter){target="_blank"}) to support both HTTP requests over TCP (for the web server version) and UDP broadcasts (for the synchronized version). Basically it works something like this:
 
-{% image "src/images/2023/udp-broadcast-connection.png", "Connection Diagram", "image-full" %}
+<img src="src/images/2023/udp-broadcast-connection.png" alt="Connection Diagram" />
 
 Every time you tap one of the buttons in the app, it sends a UDP broadcast messages on the local network and any device listening for the messages will read the message and act upon them.
 
 In the mobile app, open settings and from there you enable the UDP broadcast capabilities in the app as shown in the following figure. 
 
-{% image "src/images/2023/pumpkin-controller-udp.png", "Pumpkin Controller UDP Broadcast Configuration", "image-full" %}
+<img src="src/images/2023/pumpkin-controller-udp.png" alt="Pumpkin Controller UDP Broadcast Configuration" />
 
 Next, you install the [Glowing Pumpkin Receiver (UDP)](https://github.com/johnwargo/glowing-pumpkin-receiver-udp){target="_blank"} code on all of the Glowing Pumpkin BFF devices you want controlled by the mobile app and you're all set.
 

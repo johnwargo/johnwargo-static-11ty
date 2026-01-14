@@ -36,11 +36,11 @@ In Joomla sites, Joomla links articles and categories using the category ID in t
 
 At the time, I hosted the site at FatCow (https://fatcow.com/) and from the control panel I opened the MySQL database manager, selected my site’s database, then opened the MySQL Admin tool. From there, I selected the `categories` table as shown in the following figure.
 
-{% image "src/images/2023/joomla-migration-01.png", "MySQL Admin Table Columns View", "image-full" %}
+<img src="src/images/2023/joomla-migration-01.png" alt="MySQL Admin Table Columns View" />
 
 Once I had the database table listed, I clicked the Export button at the top of the column list. MySQL Admin opens the export page offering me several options for the table export. In this case, all I needed was a Quick JSON export as shown in the following figure.
 
-{% image "src/images/2023/joomla-migration-02.png", "MySQL Table Export Page", "image-full" %}
+<img src="src/images/2023/joomla-migration-02.png" alt="MySQL Table Export Page" />
 
 This created a `categories.json` file that looked like the following (with many of the categories removed from the example):
 
@@ -108,11 +108,11 @@ When the command runs, it:
 
 Once I confirmed everything looked good, I typed `yes` and the migration process began.
 
-{% image "src/images/2023/joomla-migration-03.png", "Joomla to Markdown Configuration Confirmation", "image-full" %}
+<img src="src/images/2023/joomla-migration-03.png" alt="Joomla to Markdown Configuration Confirmation" />
 
 The module creates a separate file for each article in the `articles` folder.
 
-{% image "src/images/2023/joomla-migration-04.png", "Joomla to Markdown article export completed", "image-full" %}
+<img src="src/images/2023/joomla-migration-04.png" alt="Joomla to Markdown article export completed" />
 
 ## Cleaning Up the Data
 
@@ -120,7 +120,7 @@ At the end of the process described in the previous section, the Eleventy projec
 
 Since my Eleventy site uses a separate folder for each year's posts, the next step is to move the files by year into the appropriate folder. Since each post file name begins with the year, this is really easy to do. Once I copied all of the files, I no longer needed the year at the beginning of the file name. So, at this point I used [Microsoft PowerRename](https://learn.microsoft.com/en-us/windows/powertoys/powerrename){target="_blank"} to remove the year from the file names as shown in the figure below.
 
-{% image "src/images/2023/joomla-migration-05.png", "Microsoft PowerRename in action", "image-full" %}
+<img src="src/images/2023/joomla-migration-05.png" alt="Microsoft PowerRename in action" />
 
 The data migration process I built isn't perfect. For example, over the years I:
 

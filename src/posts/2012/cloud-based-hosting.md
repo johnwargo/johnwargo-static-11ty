@@ -9,4 +9,4 @@ tags: post
 
 Saw this in an email tonight from Network Solutions. Since when is hosting not cloud-based?
 
-{% image "src/images/2012/blackberry_status_pane.jpg", "", "image-full" %}
+<img src="src/images/2012/blackberry_status_pane.jpg" alt="" />

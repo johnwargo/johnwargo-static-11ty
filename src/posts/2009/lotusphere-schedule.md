@@ -9,7 +9,7 @@ tags: post
 
 I received the Lotusphere schedule last week. I was very excited to see that our BP212 session was selected to be a repeat session - that's never happened to me before. Way cool.
 
-{% image "src/images/2009/ls.gif", "Lotusphere Logo", "image-full" %}
+<img src="src/images/2009/ls.gif" alt="Lotusphere Logo" />
 
 Here's the schedule:
 

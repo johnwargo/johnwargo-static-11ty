@@ -16,7 +16,7 @@ Google recently started asking for ID verification for Play Store developers. Th
 
 After failing a couple of times, I finally responded to one of the emails I received on this topic asking what the issue was. Only then did I learn that their issue was that I'd uploaded a black and white scan of my Driver's License. 
 
-{% image "src/images/2024/google-id-verification.png", "", "image-full" %}
+<img src="src/images/2024/google-id-verification.png" alt="" />
 
 I don't know why I scanned it in black and white, but I did and that's why they wouldn't accept it. 
 

@@ -11,6 +11,6 @@ During BlackBerry DevCon 2011 I did some analysis of the BlackBerry DevCon 2011 
 
 Quickly after I wrote that article, I was able to validate that it is a WebWorks application. I was working in the application and accidentally selected some of the text on one of the screens (or should I say pages since it's a WebWorks application?) and saw the screen shown in the following figure. Those little blue pointy things shown in the figure are the text selection icons you get when working within the browser.
 
-{% image "src/images/2011/bb_devcon_app.png", "", "image-full" %}
+<img src="src/images/2011/bb_devcon_app.png" alt="" />
 
 I wonder if there's a way to turn that off in WebWorks? There should be, but I haven't seen any settings in the config.xml file that would allow that. Something for RIM to consider adding.

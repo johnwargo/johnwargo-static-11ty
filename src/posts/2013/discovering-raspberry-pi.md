@@ -14,7 +14,7 @@ I understand their goals well; I had access to micro computers in High School ba
 
 Anyway, I was excited about the potential for the Pi, so I ordered one and it sat in a box for a while. My 9 year old son and I got a chance to hook it up yesterday afternoon and had a blast. If you haven't seen one before, here's a picture.
 
-{% image "src/images/2013/raspberry-pi.png", "Raspberry PI", "image-full" %}
+<img src="src/images/2013/raspberry-pi.png" alt="Raspberry PI" />
 
 Essentially it's a mini-PC with an ARM processor, HDMI port, Ethernet Port, two USB ports and some more stuff. It runs on a cell phone charger (I'm using a BlackBerry charger in the photo). You burn a special version of Linux to an appropriately sized (2GB minimum) SD card, plug everything in and you're ready to go.
 
@@ -22,7 +22,7 @@ When it fires up,  you get the standard linux command prompt and can interact w
 
 I'm not going to go into all of the details here, there's some good books on the subject (I've read two) and a bunch of information available online. It's really easy to setup and to use. Knowing a little bit about Linux makes it a little easier, but not much. My son and I fired up the Scratch IDE and using an example from the O'Reilly book on the subject created an alien shooter game in an hour and had a blast doing so. My son's learning a little bit about computer programming, we've already added some enhancements to game and have more planned. Here's a picture of my son working on the latest version of his game.
 
-{% image "src/images/2013/son-with-raspberry-pi.png", "Figure 2", "image-full" %}
+<img src="src/images/2013/son-with-raspberry-pi.png" alt="Figure 2" />
 
 I ordered a few 8 GB SD cards yesterday. I'm going to set one up for my daughter so she can work with Scratch in her own environment. I have a 32 GB card I'm going to use as my personal playground – along with the default debian distro, there are Fedora and other Linux distributions available for the Pi, so I'm going to give them a try.
 

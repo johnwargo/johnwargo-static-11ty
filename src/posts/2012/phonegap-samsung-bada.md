@@ -31,7 +31,7 @@ Once you download and extract the files, you'll have the files you need to impor
 
 Before you can run the program though, there's one more step you have to complete and this isn't documented anywhere either. Open Windows Explorer (the bada stuff only runs on Windows) and navigate to the bada source folder you extracted. Within the Res/phonegap folder is the phonegap.bat file highlighted in the following figure. You must execute that batch file to generate the phonegap.js file used by the sample application. I don't understand why you have to take this extra step, there's no reason I can think of that would prohibit the PhoneGap team from generating this file in advance, but it is what it is.
 
-{% image "src/images/2012/phonegap-bada-1.png", "", "image-full" %}
+<img src="src/images/2012/phonegap-bada-1.png" alt="" />
 
 If you later make any changes to the JavaScript source files shown in the figure, you can just rerun the batch file to generate a new phonegap.js file from your modified source.
 

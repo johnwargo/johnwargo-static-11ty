@@ -13,7 +13,7 @@ As I posted last week, I'm working on a project on the Raspberry Pi. As I'm not 
 
 As any hardware developer does, before I started, I made sure my Pi had the latest version of Raspian, the default OS for the Pi. In this case, I grabbed the latest version of Raspian from [https://raspberrypi.org/downloads/raspbian/](https://raspberrypi.org/downloads/raspbian/){target="_blank"}. In this case, it's Raspian Jessie (February 2016) as shown in Figure 1.
 
-{% image "src/images/2016/pi-node-express-1_640.png", "Raspian Download Page", "image-full" %}
+<img src="src/images/2016/pi-node-express-1_640.png" alt="Raspian Download Page" />
 Figure 1 – Raspian Download Page
 
 I burned the OS to a memory card, inserted it in the device and booted it up. After it booted, I opened a terminal window and checked the node version. Raspian Jessie ships with Node 0.10, which is pretty old. So, before I went any further, I knew I had to update my Node installation. I checked and npm wasn't installed as well, so I had to do that installation as well.

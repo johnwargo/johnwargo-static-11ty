@@ -11,7 +11,7 @@ I've been catching up on my Joomla reading; I picked up a few Joomla books over 
 
 I pulled out [Joomla! 1.5: A User's Guide: Building a Successful Joomla! Powered Website (2nd Edition)](https://amazon.com/gp/product/0137012314?ie=UTF8&tag=mcnsof-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0137012314){target="_blank"} and looked up the page covering FTP settings and found...nothing. Just a screen shot and no explanation of how this should actually be configured. So, I created an FTP account for Joomla and went into the Joomla Server configuration to enable the settings. Here's a picture of the settings page:
 
-{% image "src/images/2009/joomla-ftp.png", "Joomla FTP Settings", "image-full" %}
+<img src="src/images/2009/joomla-ftp.png" alt="Joomla FTP Settings" />
 Figure 1
 
 I had the FTP account configured, but I couldn't figure out what to do with the 'FTP Root' field. Originally I configured the FTP account so it's root was the root folder for the particular Joomla implementation. I did this assuming that Joomla would want to login and see it's own folder structure. Nope, wrong approach. What I had to do was configure the FTP client to use the domain's root folder as it's root folder then leave the FTP root folder blank in the dialog shown above. That way, both Joomla and the FTP login are looking at the same folder structure.

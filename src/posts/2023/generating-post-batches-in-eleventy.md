@@ -73,6 +73,6 @@ You can generate between 1 and 100 posts per command execution; I added the limi
 
 Here's an example of the command in action:
 
-{% image "src/images/2023/11ty-generate-post-example.png", "Eleventy Generate Posts Command in Action", "image-full" %}
+<img src="src/images/2023/11ty-generate-post-example.png" alt="Eleventy Generate Posts Command in Action" />
 
 Please let me know what you think of it; I'm unsure whether `tags` is the most flexible way to identify posts.
