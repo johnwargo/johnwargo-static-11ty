@@ -6,6 +6,7 @@ import Image from '@11ty/eleventy-img';
 const GALLERY_IMAGE_WIDTH = 256;
 const LANDSCAPE_LIGHTBOX_IMAGE_WIDTH = 1280;
 const PORTRAIT_LIGHTBOX_IMAGE_WIDTH = 1024;
+const PLUGIN_NAME = 'galleryImageShortcode';
 
 async function galleryImageShortcode(src, alt) {
 
@@ -13,7 +14,7 @@ async function galleryImageShortcode(src, alt) {
 
     let lightboxImageWidth = LANDSCAPE_LIGHTBOX_IMAGE_WIDTH;
 
-    console.log(`[galleryImageShortcode] ${src}`);
+    console.log(`[${PLUGIN_NAME}] ${src}`);
 
     if (metadata.height > metadata.width) {
         lightboxImageWidth = PORTRAIT_LIGHTBOX_IMAGE_WIDTH;
@@ -22,7 +23,7 @@ async function galleryImageShortcode(src, alt) {
     const options = {
         formats: ['jpeg'],
         widths: [GALLERY_IMAGE_WIDTH, lightboxImageWidth],
-        urlPath: "gen/",
+        urlPath: "/gen/",
         outputDir: './_site/gen/'
     }
 
@@ -31,12 +32,12 @@ async function galleryImageShortcode(src, alt) {
 
     return `<a href="${genMetadata.jpeg[1].url}" data-pswp-width="${genMetadata.jpeg[1].width}" 
         data-pswp-height="${genMetadata.jpeg[1].height}" target="_blank">
-        <img src="${genMetadata.jpeg[0].url}" alt="${alt}" /></a>`
+        <img src="${genMetadata.jpeg[0].url}" alt="${alt}" eleventy:ignore /></a>`
         .replace(/(\r\n|\n|\r)/gm, "");
 }
 
 function galleryShortcode(content, name) {
-    console.log(`[galleryShortcode] "${name}"`);
+    console.log(`[${PLUGIN_NAME}] "${name}"`);
     return `<div>
         <div class="pswp-gallery" id="gallery-${name}">
             ${content}
