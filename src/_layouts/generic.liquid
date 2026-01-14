@@ -38,7 +38,7 @@ License: pixelarity.com/license
         {% endif %}
         <header>
           {% if headerImage %}
-          <span class="image fit"><img src="{{ headerImage }}" alt="{{ headerImageAltText }}"
+          <span class="image fit"><img eleventy:ignore src="{{ headerImage }}" alt="{{ headerImageAltText }}"
               class="image fit" /></span>
           {% else %}
           {% if categories %}

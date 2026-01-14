@@ -17,7 +17,7 @@ const feedURL = 'https://us-east1-jmw-static-site.cloudfunctions.net/getReadingL
     content += "<ul class=\"posts\">";
     content += res.readingList.map(book => {
       let tmpContent = "<li>";
-      tmpContent += `<a href="${book.link}" target="_blank"><img src="${book.images.medium}" alt="${book.title}" /></a><br />`;
+      tmpContent += `<a href="${book.link}" target="_blank"><img eleventy:ignore src="${book.images.medium}" alt="${book.title}" /></a><br />`;
       tmpContent += `<a href="${book.link}" target="_blank">${book.title}</a><br /> by ${book.author}`
       tmpContent += "</li>";
       return tmpContent;

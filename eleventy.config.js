@@ -50,12 +50,12 @@ export default function (eleventyConfig) {
 		// optional, attributes assigned on <img> override these values.
 		defaultAttributes: {
 			loading: 'lazy',
-			sizes: '100vw',
 			decoding: 'async',
-			sizes: "auto",
 			class: 'image-full'
-		},
+		}
 	});
+		
+				// class: 'image-full'
 
 	const apiKey = process.env.GITHUB_API_KEY;
 	eleventyConfig.addPlugin(githubRepos, {

@@ -9,7 +9,7 @@ categories:
 ---
 
 <span class="image right">
-<img src="/images/avatar/jmw-avatar-200.png" alt="Avatar">
+<img eleventy:ignore src="/images/avatar/jmw-avatar-200.png" alt="Avatar">
 </span>
 
 I'm John M. Wargo; I'm a professional software developer, writer, presenter, father, husband, and Geek. I've been a professional software developer for my entire professional career (more than 30 years); for the last 15 years or so, I focused on enterprise mobility and building mobile apps. I wrote 7 books and I have an 8th which is an anthology containing a lot of magazine articles I wrote for a publication. 7 of my books are on web and mobile development topics. I love tinkering with IoT, building and writing about projects for Arduino, Particle Photon, Raspberry Pi, and more.

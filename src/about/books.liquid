@@ -28,7 +28,7 @@ The following section lists all the books I wrote or wrote a portion of.
   </div>
   <div>
     {% if book.url.length > 0 %}
-      <a style="cursor: pointer" href="{{book.url}}" target="_blank"><img src="{{book.img}}"
+      <a style="cursor: pointer" href="{{book.url}}" target="_blank"><img eleventy:ignore src="{{book.img}}"
         alt="{{ book.title }} cover image" /></a>
     {% else %}
       <img src="{{book.img}}" alt="{{ book.title }} cover image" />

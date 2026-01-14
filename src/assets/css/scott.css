@@ -9,6 +9,7 @@
 
 .main section .image-full {
   max-width: 100%;
+  height: auto;
 }
 
 .generated {
@@ -77,6 +78,11 @@ div.wim p {
     top: -0.2rem;
   }
 }
+
+/*********************************
+ Details styling
+ For collapsible sections (page-links)
+*********************************/
 
 details {
   border: 1pt solid #ddd;
