@@ -19,7 +19,7 @@ It just doesn't make sense – why do they continue to produce unusable applicat
 
 Let's take a look at the app. When I first launched the application, I saw what's shown in Figure 1.
 
-{% image "src/images/2012/bbworld_app_2012_1.png", "BlackBerry World Application Screen Shot 1", "image-full" %}
+<img src="/images/2012/bbworld_app_2012_1.png" alt="BlackBerry World Application Screen Shot 1" />
 Figure 1
 
 The first thing I noticed was that it appears that the only option available to me is the 'Share This' option. All of the other icons appear to be disabled. I seriously spent the 30 seconds or or so trying to figure out why all of the application's options except for 'Share This' were disabled.
@@ -28,7 +28,7 @@ Taking a hint from Windows or Mac OS, disabled options usually appear without an
 
 This particular effect is even more prominent in the BlackBerry 10 Jam application shown in the figure below. In this example, the icons look even worse. Clearly nothing except for 'Share This' is a valid option, right?  The dull grey tone of the remaining icons on the screen screams 'this option is disabled.'
 
-{% image "src/images/2012/bbworld_app_2012_2.png", "BlackBerry World Application Screen Shot 2", "image-full" %}
+<img src="/images/2012/bbworld_app_2012_2.png" alt="BlackBerry World Application Screen Shot 2" />
 Figure 2
 
 The next thing I noticed in Figure 1 is that this is a browser application (see the 'mouse' cursor in the upper-left corner of the screen?) The first thing I did was swipe on the device's touchpad to scroll through the options (the icons) on the screen. No can do, the touchpad does nothing but move the mouse cursor. You can touch the screen to click the icons, but if you use the little optical touch pad, all you can do is move the cursor around on the screen (and click buttons). What an inefficient input mechanism.
@@ -39,14 +39,14 @@ Whoever developed this application didn't take into account users like me who ha
 
 When you scroll down the page, you see what I'm showing in Figure 3. Why did the developer feel the need to use a background graphic that's far bigger than what is needed for the application? When you scroll to the bottom of the icon list, it should stop immediately below the last screen element displayed. It should not take up so much additional space on the screen. There's no need to waste the space like this.
 
-{% image "src/images/2012/bbworld_app_2012_3.jpg", "BlackBerry World Application Screen Shot", "image-full" %}
+<img src="/images/2012/bbworld_app_2012_3.jpg" alt="BlackBerry World Application Screen Shot" />
 Figure 3
 
 Now, I know the developer setup that background image to accommodate all of the icons that appear after you login. But why not show all of the icons, only disabling the ones that are not active – that way, this scrolling issue goes away and with that little extra effort you would have been able to tell that some icons were active and others inactive.
 
 All that aside, I can't seem to use the application since when I start it, I get the following error and I can't do anything with my schedule.
 
-{% image "src/images/2012/bbworld_app_2012_4.png", "BlackBerry World Application Screen Shot 4", "image-full" %}
+<img src="/images/2012/bbworld_app_2012_4.png" alt="BlackBerry World Application Screen Shot 4" />
 Figure 4
 
 On the second day of the conference, RIM released an update to the application, but because I didn't get around to updating it. However, it doesn't make sense that you'd need to release a new version of an application in the middle of a three-day window where the application would actually be used. They really should have done more testing. I'm assuming they fixed this particular problem, but I don't know.

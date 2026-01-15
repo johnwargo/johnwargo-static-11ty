@@ -18,19 +18,19 @@ My project is the Sleeping Dragon in a Mailbox project that I was supposed to fi
 
 Adafruit makes a quarter-sized [Perma-Proto breadboard PCB](https://adafruit.com/product/1608){target="_blank"} that's just the right size for my purposes. I ordered some right-angle female headers and soldered them to the breadboard as shown in the following image.
 
-{% image "src/images/2023/mount-mmwave-01.jpg", "", "image-full" %}
+<img src="/images/2023/mount-mmwave-01.jpg" alt="" />
 
 With male headers soldered to the mmWave device, the RADAR points to the front as I needed it for my project.
 
-{% image "src/images/2023/mount-mmwave-02.jpg", "", "image-full" %}
-{% image "src/images/2023/mount-mmwave-03.jpg", "", "image-full" %}
+<img src="/images/2023/mount-mmwave-02.jpg" alt="" />
+<img src="/images/2023/mount-mmwave-03.jpg" alt="" />
 
 Next, soldered the connections from the ESP32 device I'm using for this project.
 
-{% image "src/images/2023/mount-mmwave-04.jpg", "", "image-full" %}
+<img src="/images/2023/mount-mmwave-04.jpg" alt="" />
 
 Finally, I mounted the Perma-Proto board on top of the Sleeping Dragon sign.
 
-{% image "src/images/2023/mount-mmwave-05.jpg", "", "image-full" %}
+<img src="/images/2023/mount-mmwave-05.jpg" alt="" />
 
 I could have done more to hide the wires and I definitely should have painted the Perma-Proto board black, but this solved my mounting issue and aims the mmWave device right where I want.

@@ -13,7 +13,7 @@ I knew it was a scam as soon as I read further: “Best of Business Award in the
 
 Here's the text of the message:
 
-{% image "src/images/2009/internet-scam-20091216.png", "Figure 1", "image-full" %}
+<img src="/images/2009/internet-scam-20091216.png" alt="Figure 1" />
 Figure 1
 
 I started looking around to try to see if this message had anything in it that would help me understand the nature of the scam, but it didn't look funky at all. I went to their web site and noticed that it was just a front for what looked like a fake organization. As soon as I saw the announcement that the company was funded by the Federal Government (in very poor English) I knew I had a confirmed scam. I searched around the Internet and found the following link: https://scam.com/showthread.php?p=806477 explaining the source of the scam.

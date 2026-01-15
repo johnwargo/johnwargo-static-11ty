@@ -11,17 +11,17 @@ I'm staying in San Francisco this week and when I checked into my hotel, they of
 
 For some bizarre reason, Hilton requires some legal process to get my key; I had to agree to some terms in order to use this option (I don't understand why, and I didn't read them before I accepted them). I eventually got an email letting me know that my digital key was being generated and would be delivered to my phone (actually the hotel app on the phone) once my room was ready. When I got to my hotel and opened the app, I saw what you see in the following figure; a button in the lower-left corner with an option to open my room using the app. Nice!
 
-{% image "src/images/2018/digital-hotel-key-01.png", "Digital Room Key 1", "image-full" %}
+<img src="/images/2018/digital-hotel-key-01.png" alt="Digital Room Key 1" />
 Digital Room Key 1
 
 When I tapped on the key, I was instructed to get close to the door I wanted to open as shown in the following figure. I'm assuming it's using Bluetooth Low Energy to detect if I'm close to the door, and hopefully it knows which door I'm close to.
 
-{% image "src/images/2018/digital-hotel-key-02.png", "Digital Room Key 2", "image-full" %}
+<img src="/images/2018/digital-hotel-key-02.png" alt="Digital Room Key 2" />
 Digital Room Key 2
 
 Once the system recognizes the phone/app, the page/screen changes to a button you can use to actually open the door. God forbid that you'd be in a hurry, as this process takes much longer that it takes to pull a key out of your pocket and use it. If there was a rapist or robber on your tail, you'd be a victim before you could ever have the door open.
 
-{% image "src/images/2018/digital-hotel-key-03.png", "Digital Room Key 3", "image-full" %}
+<img src="/images/2018/digital-hotel-key-03.png" alt="Digital Room Key 3" />
 Digital Room Key 3
 
 The challenging aspect of this feature is that this process only works when all of the intermediate parts work as well. When I got back from breakfast this morning, I opened the app and the app hung with a incompletely rendered screen. After poking around for a short while (closing and reopening the app a couple of times), the app finally told me that there was a problem and it was on the hotel's end of things. Comforting information, but not even at all useful as I'm standing outside my room and can't get in. Sigh.
@@ -32,12 +32,12 @@ When I went to the gym this morning, a sign outside the door said I could find t
 
 It turns out that that little unlabeled blue key icon on the middle-top right of the screen opens some options for the key system. You can either access your room key or the key manager (whatever that is).
 
-{% image "src/images/2018/digital-hotel-key-04.png", "Digital Room Key 4", "image-full" %}
+<img src="/images/2018/digital-hotel-key-04.png" alt="Digital Room Key 4" />
 Digital Room Key 4
 
 I only needed one key, so I had no idea what the key manager would be used for. I imagined I'd use it if I needed keys to two rooms (when I'm traveling with my family for example). Well, this inappropriately labeled option grants me access to other keys I'll need when I'm staying at the hotel as you can see from the following figure.
 
-{% image "src/images/2018/digital-hotel-key-05.png", "Digital Room Key 5", "image-full" %}
+<img src="/images/2018/digital-hotel-key-05.png" alt="Digital Room Key 5" />
 Digital Room Key 5
 
 From a UX standpoint, the list of public keys should not be hidden away under a double sub-menu, those options belong on the bottom of the main key screen or under a separate, but easy to locate, tab on the key page. It should take one tap, or at worse two taps, to get to the fitness center key. In this app, it costs me three taps at a minimum, but only if I'm able to figure out in a hurry what that key icon means to me.

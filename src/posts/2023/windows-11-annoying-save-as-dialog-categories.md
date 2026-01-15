@@ -12,7 +12,7 @@ categories:
 
 In the Windows 11 browser download dialog, Microsoft categorizes the target folder contents based on which folders you accessed most recently. Windows shows folders categorized by Today, Yesterday, Last Week, Earlier This Month, Last Month, then Earlier this year as shown in the following figure:
 
-{% image "src/images/2023/windows-save-dialog-before.png", "Windows Browser Download Save Dialog", "image-full" %}
+<img src="/images/2023/windows-save-dialog-before.png" alt="Windows Browser Download Save Dialog" />
 
 They did this, I think, in the mistaken belief that this is helpful for the user but I think they really missed the mark. I can see the value in doing this when downloading multiple files, but the browser automatically returns to the same folder for subsequent saves, so it still doesn't make sense. 
 
@@ -32,7 +32,7 @@ I downloaded the utility, extracted the files to a folder, then executed the mai
 
 The next time I saved a file from the browser the dialog was fixed and everything is good with the world.
 
-{% image "src/images/2023/windows-save-dialog-after.png", "Windows Browser Download Save Dialog FIXED", "image-full" %}
+<img src="/images/2023/windows-save-dialog-after.png" alt="Windows Browser Download Save Dialog FIXED" />
 
 If you look close, the default settings turns on a denser mode in the dialog which I really like since I can scan more folder names without having to scroll the list. 
 

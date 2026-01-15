@@ -48,8 +48,8 @@ This will copy files and automatically overwrite only those that are older at th
 
 Opening up Explorer, I navigated to the application data folder and found the configuration file. 
 
-{% image "src/images/2025/teracopy-disk-space-fix-01.png", "", "image-full" %}
+<img src="/images/2025/teracopy-disk-space-fix-01.png" alt="" />
 
 After a quick edit, changing the highlighted value from 1 to 0 (as shown in the figure below), everything worked as expected. I'm so happy they had a solution for this.
 
-{% image "src/images/2025/teracopy-disk-space-fix-02.png", "", "image-full" %}
+<img src="/images/2025/teracopy-disk-space-fix-02.png" alt="" />

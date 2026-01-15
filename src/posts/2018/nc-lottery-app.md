@@ -15,7 +15,7 @@ Let me show you the ways…
 
 The app has a feature which allows me to check to see if my ticket is a winner. Unfortunately, the NC Lottery created two major issues that affect my ability to actually do that. For some bizarre reason, NC lottery tickets have two barcodes on them. One is for their Lucke Rewards Program (their typo in the name, not mine), and the other is so the vendor (and the app) can check to see if the ticket is a winner.
 
-{% image "src/images/2018/nc-lottery-1.png", "NC Lottery App #1", "image-full" %}
+<img src="/images/2018/nc-lottery-1.png" alt="NC Lottery App #1" />
 
 Note: I imagine the reason there are two barcodes on the ticket is because North Carolina is the only state that has the poorly named Lucke Rewards program, so there's no way for them to use the same barcode for both. Unfortunately, the barcode scanner on your phone (its camera) you'll use to check to see if your ticket is a winner can't read the barcode when there's two barcodes on the ticket. You can scan the top barcode (toward the middle of the ticket) to collect your rewards, but when you try to check to see if you're a winner, the scanner fails most every time.
 
@@ -23,13 +23,13 @@ To get around this, you have to cover the upper barcode with a piece of paper or
 
 Notice the SCAN NOW button in the figure. It's a smartphone app screen, right? Notice how the button's too small to tap with your finger? The same is true for the collecting rewards section of the app as shown in the following figure. Poor design, not paying attention at all that users will be doing this on a smartphone.
 
-{% image "src/images/2018/nc-lottery-2.png", "NC Lottery App #2", "image-full" %}
+<img src="/images/2018/nc-lottery-2.png" alt="NC Lottery App #2" />
 
 The second major issue with the app is that the designer, or the development team that crafted the app didn't seem to consider the use case where a user needs to check more than one ticket at a time. They seemed to just assume you'd check a ticket every draw day, rather than collect them, and check them all at once.
 
 If you look at the results image below, you can see that the last ticket I checked was not a winner. Bummer, right? From a design standpoint, what's wrong here? Well, why do I need two buttons on the screen that both do the same thing?
 
-{% image "src/images/2018/nc-lottery-3.png", "NC Lottery App #3", "image-full" %}
+<img src="/images/2018/nc-lottery-3.png" alt="NC Lottery App #3" />
 
 Also, notice that the top button is finger-friendly. If the designer noticed that this button needed to be bigger so it can be easily tapped by a finger, why wasn't the same approach taken with the original button (which is still displayed)?
 

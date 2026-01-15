@@ -19,7 +19,7 @@ Next, I checked continuity on the two spindle wires on the CNC Router; all good.
 
 There's a switch on the Controller and the instructions tell you to move the switch to the right as shown in the figure below.
 
-{% image "src/images/2025/foxalien-masuter-pro-manual.jpg", "FoxAlien Masuter Pro Manual", "image-full" %}
+<img src="/images/2025/foxalien-masuter-pro-manual.jpg" alt="FoxAlien Masuter Pro Manual" />
 
 Well, it turns out there's an error in the FoxAlien Masuter Manual. The switch must be set to the left. As soon as I made that change, the spindle started turning on and off as expected.
 

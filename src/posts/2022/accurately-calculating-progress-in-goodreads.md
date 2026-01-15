@@ -25,7 +25,7 @@ So, if I’m on page 100 of the book and I update Goodreads with that number, it
 
 After years of posting inaccurate progress percentages I decided to do something about it. I sat down and cranked out a quick application that takes the page number, actual page count, and total page count then spits out an adjusted value scaled to the total page count. You can find the application here: https://goodreads-page-adjuster.netlify.app/ and the source code for the project here: https://github.com/johnwargo/goodreads-page-adjuster.
 
-{% image "src/images/2022/goodreads-page-adjuster.png", " Page Adjuster", "image-full" %}
+<img src="/images/2022/goodreads-page-adjuster.png" alt=" Page Adjuster" />
 
 When you access the app, you’re prompted for the values shown in the image below. Enter the appropriate values for the book you’re reading and you’re all set. I added a copy button because I frequently do this on a mobile phone and I didn’t want to have to mess around with selecting and copying the resulting value.
 

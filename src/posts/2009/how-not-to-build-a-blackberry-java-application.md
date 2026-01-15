@@ -21,12 +21,12 @@ When you first launch the application, a splash screen fades in (showing the con
 
 OK, when the splash screen finally fades away and I can get into the application I'm presented with the screen you see below. They've selected a VERY busy background and used these battery wasting scroll-in effects for the menu so it takes even longer before I can begin working in the application.
 
-{% image "src/images/2009/devcon-app-1.jpg", "[Figure 1", "image-full" %}
+<img src="/images/2009/devcon-app-1.jpg" alt="[Figure 1" />
 Figure 1
 
 As you scroll from menu item to menu item, the application uses this smooth fade-in ad fade-out for the selected menu item then changes the entire background image (as shown in the following figure).
 
-{% image "src/images/2009/devcon-app-2.jpg", "Figure 2", "image-full" %}  
+<img src="/images/2009/devcon-app-2.jpg" alt="Figure 2" />  
 Figure 2
 
 OK, so not only do I have a very busy (too busy) background image for the application, I have to wait as the application applies fancy effects to the menu and swaps out the complete background for the application. Yet another waste of my time and a huge waste of device battery life.  Developers should not add screen effects that slow down application performance for the user. If you can implement them without affecting the user, great – otherwise leave them out of your application.
@@ -48,7 +48,7 @@ When you look at the content on screens, the developer did not make any effort t
 
 Take a look at the application's configuration screen; I don't understand why developers feel the need to build special screen elements for configuration screens. This one is just like the main screen, a slow and unresponsive menu system that doesn't add any value. Why not just make a simple screen with the appropriate fields? Why take up the extra memory for all of these extra features? Why kill the battery life by forcing the user to go through all of these custom menu and field animations when the ability to have normal, everyday fields is built into the platform?  In later versions of the BlackBerry Device Software, RIM added the background factory which allows developers to easily place a screen or field background in their applications – there's no need for all of this extra junk – it adds no value for the end user, all it does is allow the developer to show off and it's just wasting my time (and battery performance).
 
-{% image "src/images/2009/devcon-app-3.jpg", "Figure 3", "image-full" %}
+<img src="/images/2009/devcon-app-3.jpg" alt="Figure 3" />
 Figure 3
   
 The developer of the application is Sweet Caesar Inc (https://sweetcaesar.com/){target="_blank"} – I'd suggest that they spend a little more time making their application usable and less time making it pretty. There are going to be 1,000 people in San Francisco this week cursing their product every single time they use it. Not a good thing for a company's reputation.

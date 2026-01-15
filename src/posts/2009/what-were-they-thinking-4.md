@@ -11,7 +11,7 @@ tags: post
 
 My company recently asked us to install and use an application on our BlackBerry devices and as soon as I saw the application icon, I knew I had another topic for my 'What were they thinking' series.  Please take a look at the following BlackBerry screen shot:
 
-{% image "src/images/2009/app-icon-example.jpg", "Misfit Application Icon", "image-full" %}
+<img src="/images/2009/app-icon-example.jpg" alt="Misfit Application Icon" />
 
 If you take a look at the last icon in the first row, you should be able to easily tell that it just doesn't match the look of all of the other icons on the device's home screen. When working with the Apple iPhone or Windows Mobile devices, there isn't really any adherence to any theme when it comes to application icons. On the BlackBerry platform on the other hand, the icons on the home screen are designed specifically to look similar to all of the other icons in the theme - mostly because it's a theme and that's how themes work.
 

@@ -17,7 +17,7 @@ The first example for this series is is shown below. I am at a hotel attending s
 
 Take a look at the following image:
 
-{% image "src/images/2009/screenshot-dec0809-123242p.jpg", "iBAHN Login Page", "image-full" %}
+<img src="/images/2009/screenshot-dec0809-123242p.jpg" alt="iBAHN Login Page" />
 
 The site gave me an easy way to select my language that didn't consume too much screen real estate (always a good thing). Imagine how much harder it would have been to use if there was a big list of languages or a drop-down list containing the list of supported languages?
 

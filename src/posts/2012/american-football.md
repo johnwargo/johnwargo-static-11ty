@@ -19,6 +19,6 @@ First of all, today, less than a week before the Super Bowl, I couldn't find the
 
 Something else interesting was the advertisement at the top of the site's home page – shown in the following figure. Help me understand something – why does the NFL need to sell advertisements on their home page? The site is likely hugely popular and they get a gazillion dollars from their licensed products, why would they need advertisements? It makes no sense – they're a huge brand and can stand alone on their brand. Why would they possibly need ad revenue? Are things that tough at the NFL?
 
-{% image "src/images/2012/nfl.png", "", "image-full" %}
+<img src="/images/2012/nfl.png" alt="" />
 
 One of the things that bothers me is that on sports related sites, when you see a game time posted, in most cases, it's the start of the television Pregame activities, not the actual game time shown. I was planning on watching the Women's World Cup Final last year and was an hour off because of this – I dutifully sat down in front of the TV at the specified time only to find out that the game started an hour later. I had a plane to catch, so I ended up watching the whole game from a bar at the airport.

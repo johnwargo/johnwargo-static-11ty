@@ -13,12 +13,12 @@ Why is it then that Lands' End won't give you an easy way to track your order?
 
 I got an email from them for an order I placed (shhhhh, it's a gift for my Wife) that included the track order button shown in the figure below:
 
-{% image "src/images/2012/lands_end_1.png", "Lands' End Shipped Order Confirmation Email", "image-full" %}
+<img src="/images/2012/lands_end_1.png" alt="Lands' End Shipped Order Confirmation Email" />
 Figure 1 – Lands' End Shipped Order Confirmation Email
 
 Being interested in knowing where said order was, I clicked said Track Order button and was presented with the following page:
 
-{% image "src/images/2012/lands_end_2.png", "Lands' End Track Order Page", "image-full" %}
+<img src="/images/2012/lands_end_2.png" alt="Lands' End Track Order Page" />
 Figure 2 – Lands' End Track Order Page
 
 Help me understand why they're prompting me to enter my order number? They already know what my order number is – they're the ones who sent me the email listing the order number (which I've blurred out in Figure 1. They even know what country I'm interested in as well as the zip code).

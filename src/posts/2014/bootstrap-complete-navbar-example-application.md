@@ -19,7 +19,7 @@ Anyway, I found a post on Stack Overflow that showed the JavaScript code needed 
 
 Let me show you what I created:
 
-{% image "src/images/2014/bootstrap1.png", "Figure 1", "image-full" %}
+<img src="/images/2014/bootstrap1.png" alt="Figure 1" />
 
 As you can see from the image, the navbar has two menus, one on the left (menu 1, menu 2 and menu 3) and one on the right (with settings and an about page). So my JavaScript code has to deal with setting the active menu, no matter which navbar item was selected.
 

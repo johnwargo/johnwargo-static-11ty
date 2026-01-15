@@ -11,7 +11,7 @@ I don't know why I like writing about these Internet email scams, but I just do.
 
 Here's the email I got:
 
-{% image "src/images/2009/internet-scam-20091106.jpg", "Figure 1", "image-full" %}
+<img src="/images/2009/internet-scam-20091106.jpg" alt="Figure 1" />
 Figure 1
 
 The good thing is that my ISP recognized the email as Spam (no, Spam is not an acronym, it's a breakfast meat product – why do people type it in all caps?) and modified the subject of the message on its way to me. Anyone receiving this should benefit from those types of services that ISP's provide. 

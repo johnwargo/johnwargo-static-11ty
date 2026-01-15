@@ -15,7 +15,7 @@ In the last year, I've received a whole bunch of spam designed to look like the 
 
 What's funny is watching the spammers as they test their spamming software. I received the following email today:
 
-{% image "src/images/2011/spam-20111227.png", "", "image-full" %}
+<img src="/images/2011/spam-20111227.png" alt="" />
 
 Oooh, a Bank of America bill payment was cancelled. I'd better do something about that. Actually, I usually get emails from all sorts of banks – ones I don't have accounts with, so it's easy to tell which ones are spam.  This one happens to 'be' from a bank I actually do business with, so it was worth looking into this one. The first thing I noticed was that even though the message was 'from' Bank of America, it actually came from a Yahoo address. Yep, times must be tough if BofA has switched to using Yahoo for it's corporate email. Right!
 

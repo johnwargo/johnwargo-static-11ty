@@ -30,10 +30,10 @@ To resolve this, I created a simple Windows application that automates this whol
 
 To use the application, you start by populating the root directory where you have your music files. I've used iTunes for decades, so all my music is in my Itunes Media Music directory (`C:\Users\john\Music\iTunes\iTunes Media\Music`). Next, you drag all of the artist folders you want to copy to an external drive. This configuration looks like this in the application:
 
-{% image "src/images/2025/subcopy-1.png", "", "image-full" %}
+<img src="/images/2025/subcopy-1.png" alt="" />
 
 Once you have everything setup, click the **Start** button in the UI. The application opens a window that lets you configure options for the copy process.
-{% image "src/images/2025/subcopy-2.png", "", "image-full" %}
+<img src="/images/2025/subcopy-2.png" alt="" />
 
 ## Why TeraCopy?
 

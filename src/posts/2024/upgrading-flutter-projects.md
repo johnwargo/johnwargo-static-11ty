@@ -55,17 +55,17 @@ That should help you get through many of the issues with the app, but there's no
 
 During this process, Android Studio will identify other problems with the application code. In many cases, Android Studio has enough smarts to recognize the error and offer a solution. Using the following image as an example, Android Studio underlines the problem code in yellow (warning) or red (error). Hovering the mouse over the underlined code opens a window that displays the error.
 
-{% image "src/images/2024/flutter-app-upgrade-1.png", "Android Studio warning", "image-full" %}
+<img src="/images/2024/flutter-app-upgrade-1.png" alt="Android Studio warning" />
 
 In this case, Android Studio doesn't offer a fix (which is too bad) so note that you can make the warning go away by replacing the `print` statement with `debugPrint`.
 
 The following image shows a code error and Android Studio knows enough to recommend a fix:
 
-{% image "src/images/2024/flutter-app-upgrade-2.png", "Android Studio error", "image-full" %}
+<img src="/images/2024/flutter-app-upgrade-2.png" alt="Android Studio error" />
 
 The easiest way to address all of the issues like this in your code is to use the **Dart Analysis** tool shown below:
 
-{% image "src/images/2024/flutter-app-upgrade-3.png", "Android Studio Dart Analysis tool", "image-full" %}
+<img src="/images/2024/flutter-app-upgrade-3.png" alt="Android Studio Dart Analysis tool" />
 
 It lists all of the errors in the project and, when you double-click on an item in the list, the related file opens in the editor with the offending line of code highlighted. Work your way through each of the items in the list until there's no more changes you can make. In the example, these are items I don't have an immediate fix for; the app runs anyway so I'm not worried about them.
 

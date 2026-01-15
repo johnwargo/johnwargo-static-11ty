@@ -75,7 +75,7 @@ pumpkin.local/color:3
 
 Here's what it looks like in Postman:
 
-{% image "src/images/2023/pmpkn-crtl-postman-01.png", "Postman GET command to set color", "image-full" %}
+<img src="/images/2023/pmpkn-crtl-postman-01.png" alt="Postman GET command to set color" />
 
 Click the Send button and if Postman can see the device, the Arduino Serial Monitor will show the command executing as shown below:
 
@@ -98,11 +98,11 @@ If something else happens, you're going to have to troubleshoot it yourself, I c
 
 Here's what a Postman command looks like using an IP address instead of a DNS name:
 
-{% image "src/images/2023/pmpkn-crtl-postman-02.png", "Postman GET command Using DNS Name", "image-full" %}
+<img src="/images/2023/pmpkn-crtl-postman-02.png" alt="Postman GET command Using DNS Name" />
 
 You can also save requests in workspaces as shown below. This allows you to save multiple commands together and easily switch between them as you code and test an API.
 
-{% image "src/images/2023/pmpkn-crtl-postman-03.png", "Postman Save Request Dialog", "image-full" %}
+<img src="/images/2023/pmpkn-crtl-postman-03.png" alt="Postman Save Request Dialog" />
 
 Using the Postman approach to test the MDWS API allowed me to ensure everything on the ESP32 worked correctly before starting on the associated web application or Flutter app (both described below). This eliminates any concerns about "well, is the API responding correctly" when testing a custom application during development. 
 
@@ -110,7 +110,7 @@ Using the Postman approach to test the MDWS API allowed me to ensure everything 
 
 In the previous article for this project, I described the [Pumpkin Controller web application](https://github.com/johnwargo/glowing-pumpkin-controller-html){target="_blank"} I created to control the ESP32 LED matrix through the MDWS. When you launch the web application locally (running on a web server on your local network - for example using the [http-server](https://npmjs.com/package/http-server){target="_blank"} module), browsers will warn you that the connection to the web server is not secure but lets you connect anyway. In the browser, the connection to the app shows as 'Not secure' as shown in the browser's address bar at the top of the following figure.
 
-{% image "src/images/2023/pumpkin-controller-browser-local.png", "Pumpkin Controller web app running in a browser locally", "image-full" %}
+<img src="/images/2023/pumpkin-controller-browser-local.png" alt="Pumpkin Controller web app running in a browser locally" />
 
 The app works and everything's fine unless you try to access it from a different network; with the web app hosted from a different network (domain), the browser will load the app, but blocks access to the MDWS API. I describe how to make it work in the following section. 
 
@@ -122,7 +122,7 @@ To make it easier for me (and you) to control the pumpkin LEDs using a browser, 
 
 When you access the Pumpkin Controller app from a desktop browser, the connection to the web server shows Secure as highlighted in the following figure (in this case Google Chrome):
 
-{% image "src/images/2023/pumpkin-controller-browser-remote-1.png", "Pumpkin Controller web app hosted remotely", "image-full" %}
+<img src="/images/2023/pumpkin-controller-browser-remote-1.png" alt="Pumpkin Controller web app hosted remotely" />
 
 However, as soon as you try to connect to the MDWS, the app fails to connect. This happens because of the cross domain stuff I mentioned previously. The browser knows the web app is hosted/running on https://netlify.app and that site has a site certificate that matches the host domain (netlify.com), so it trusts the app. When you click one of the buttons on the app and the app's code makes an HTTP connection to the MDWS, the request fails for a couple of reasons:
 
@@ -131,7 +131,7 @@ However, as soon as you try to connect to the MDWS, the app fails to connect. Th
 
 You can see the browser blocking the request in the browser console (through Developer Tools) as shown below:
 
-{% image "src/images/2023/pmpkn-ctrl-netlify-03.png", "Pumpkin Controller access error in browser tools", "image-full" %}
+<img src="/images/2023/pmpkn-ctrl-netlify-03.png" alt="Pumpkin Controller access error in browser tools" />
 
 Notice the console errors as well as the Not Secure warning in the address bar. 
 
@@ -139,19 +139,19 @@ If the MDWS had a trusted site certificate then there's code in the web app that
 
 Now, don't panic. Desktop browsers have a work-around that fixes this, mobile browsers don't! To fix this issue, click on the lock icon next to the site address in the browser address bar as shown in the figure, then select **Site Settings**.
 
-{% image "src/images/2023/pumpkin-controller-browser-remote-2.png", "Pumpkin Controller web app hosted remotely", "image-full" %}
+<img src="/images/2023/pumpkin-controller-browser-remote-2.png" alt="Pumpkin Controller web app hosted remotely" />
 
 The browser opens a long page (truncated in the image below) that allows you to control security settings for this particular web page. Change that setting from `Blocked` to `Allow` then close the Settings page.
 
-{% image "src/images/2023/pumpkin-controller-browser-remote-3.png", "Pumpkin Controller web app hosted remotely", "image-full" %}
+<img src="/images/2023/pumpkin-controller-browser-remote-3.png" alt="Pumpkin Controller web app hosted remotely" />
 
 To apply the settings change, reload the page as shown in the following figure:
 
-{% image "src/images/2023/pumpkin-controller-browser-remote-4.png", "Pumpkin Controller web app hosted remotely", "image-full" %}
+<img src="/images/2023/pumpkin-controller-browser-remote-4.png" alt="Pumpkin Controller web app hosted remotely" />
 
 With the page reloaded, the app can access the MDWS successfully, but the address bar still shows the Not Secure warning and the console displays a warning as well as shown below:
 
-{% image "src/images/2023/pumpkin-controller-browser-remote-5.png", "Pumpkin Controller web app hosted remotely", "image-full" %}
+<img src="/images/2023/pumpkin-controller-browser-remote-5.png" alt="Pumpkin Controller web app hosted remotely" />
 
 As much as the warnings are annoying, the app still works and you can control the ESP32 device's LED Matrix from a desktop or laptop browser. 
 
@@ -159,19 +159,19 @@ As much as the warnings are annoying, the app still works and you can control th
 
 On mobile browsers, the browser blocks access to "insecure content", there's no Site Settings option to allow an app to access the API on the MDWS. As soon as you try to access the web server (trying to open `http://pumpkin.local` for example), the browser displays the warning shown in the figure below. The user must accept the risk and choose to access the site. 
 
-{% image "src/images/2023/pumpkin-controller-browser-android-1.png", "Android Chrome Security Warning", "image-full" %}
+<img src="/images/2023/pumpkin-controller-browser-android-1.png" alt="Android Chrome Security Warning" />
 
 Next, the redirection page appears as expected.
 
-{% image "src/images/2023/pumpkin-controller-browser-android-2.png", "Pumpkin Controller Redirect page", "image-full" %}
+<img src="/images/2023/pumpkin-controller-browser-android-2.png" alt="Pumpkin Controller Redirect page" />
 
 Finally, the browser opens the app from Netlify and displays the buttons as expected. However, as soon as the app tries to consume one of the APIs on the MDWS, it fails and there's nothing I could find to get around the error.
 
-{% image "src/images/2023/pumpkin-controller-browser-android-3.png", "Pumpkin Controller failure calling API", "image-full" %}
+<img src="/images/2023/pumpkin-controller-browser-android-3.png" alt="Pumpkin Controller failure calling API" />
 
 Chrome on Android does have a Site Settings option as shown in the figure below, but there's no Insecure Content option to enable like there was in the desktop version of Chrome.
 
-{% image "src/images/2023/pumpkin-controller-browser-android-4.png", "Pumpkin Controller failure calling API", "image-full" %}
+<img src="/images/2023/pumpkin-controller-browser-android-4.png" alt="Pumpkin Controller failure calling API" />
 
 I tried this process on an iOS device with the same results.
 

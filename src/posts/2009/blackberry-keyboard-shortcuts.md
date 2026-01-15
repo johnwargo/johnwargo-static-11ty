@@ -13,7 +13,7 @@ On the BlackBerry smartphone, most business people spend the majority of their t
 
 When you open the BlackBerry 'Messages' application, the highlight is always on the current date. To create a new email message, merely press the enter key with the date selected and the BlackBerry will open a new message for you to start typing in. There's no need to click the menu button and select 'Compose Email.'
 
-{% image "src/images/2009/messages-client.jpg", "BlackBerry Message List", "image-full" %}
+<img src="/images/2009/messages-client.jpg" alt="BlackBerry Message List" />
 
 To open an email message, there's no need to click the trackball or use the menu to open a message, just select the message and press the 'Enter' key.
 

@@ -14,7 +14,7 @@ timestamp: 2025-02-08T13:59:53.164Z
 
 A while back, I learned about this ESP32 project called [Info Orbs](https://brett.tech/products/info-orbs-full-dev-kit?srsltid=AfmBOoryum6iekEf54HDhbxM65KiyPTtgzT__YydExUVYKeITumiN_2k){target="_blank"}; it's a simple project that pairs 5 1.8 inch circular displays with a simple stand and some pretty cool software. The kit seems to be designed as a first project for people interested in getting into Arduino; it requires a little bit of soldering and the entire software configuration and deployment process runs in Visual Studio Code. The assembly instructions are simple and easy to follow. 
 
-{% image "src/images/2025/info-orbs-01.jpg", "My assembled Info Orbs project sitting on my desk", "image-full" %}
+<img src="/images/2025/info-orbs-01.jpg" alt="My assembled Info Orbs project sitting on my desk" />
 
 If you're looking for an excellent way to quickly build a very interesting project with a young learner, this one's pretty cool; especially since you can use it to teach soldering.
 

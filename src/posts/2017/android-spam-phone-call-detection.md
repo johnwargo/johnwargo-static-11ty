@@ -11,12 +11,12 @@ A recent update to the Android OS on my smartphone triggered a new feature I rea
 
 When a call comes in from a suspicious caller, after you hang up, Android asks me if this was a spam message. If I want, I can block the number right here as shown in the figure.
 
-{% image "src/images/2017/android-spam-call-detection-01.png", "Android Spam Call Detection 1", "image-full" %}
+<img src="/images/2017/android-spam-call-detection-01.png" alt="Android Spam Call Detection 1" />
 Figure 1
 
 If I skip this for whatever reason, I can still pull down the alerts list and activate blocking as shown in the following figure.
 
-{% image "src/images/2017/android-spam-call-detection-02.png", "Android Spam Call Detection 2", "image-full" %}
+<img src="/images/2017/android-spam-call-detection-02.png" alt="Android Spam Call Detection 2" />
 Figure 2
 
 This is a really cool feature, something I'm sure a lot of companies would try to charge you for, but in Google's case, it's just another feature of the OS.

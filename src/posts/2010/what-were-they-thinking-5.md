@@ -11,12 +11,12 @@ tags: post
 
 As part of my family's move to Charlotte, it was time to start looking for a new bank. We selected Bank Of America and proceeded to setup our new accounts. It occurred to me to take a look to see if the bank had an iPhone application and I was pleased to find that they did. I downloaded the application from the iTunes and proceeded to launch it. When the application starts, it presents you with the screen shown in the following figure.
 
-{% image "src/images/2010/bofa_app1.jpg", "Figure 1", "image-full" %}
+<img src="/images/2010/bofa_app1.jpg" alt="Figure 1" />
 Figure 1
 
 You can then define your account login information (including the same additional security measures Bank of America uses on their desktop browser application) and access all of your accounts and transactions. It's pretty cool and I like it. I'm not going to show you this with my own accounts (yes, I blanked out my login name in the figure below), but I'll describe it. What you see after you login is a list of your accounts. When you select an account, you're provided with a list of transactions and other information.
 
-{% image "src/images/2010/bofa_app2.jpg", "Figure 2", "image-full" %}
+<img src="/images/2010/bofa_app2.jpg" alt="Figure 2" />
 Figure 2
 
 The only complaint I have about the application is that it's very sluggish – after you login and start navigating through the account information, the screen response is very slow. Whoever wrote the application apparently didn't know how to optimize the menu items and so on to provide the best user experience.
@@ -27,20 +27,20 @@ I didn't expect that there'd be a BlackBerry version of the app. It wasn't until
 
 When you open the BlackBerry version of the app, you see the screen shown below.
   
-{% image "src/images/2010/bofa_app3.jpg", "Figure 3", "image-full" %}
+<img src="/images/2010/bofa_app3.jpg" alt="Figure 3" />
 Figure 3
 
 It looks like the same features of the iPhone application. When you open the 'Locations Near Me' option, the application uses the GPS information available on the device to determine the location of the nearest bank locations – very nice.  
 When you click on 'Mobile Banking Sign In' you'd think it will prompt you for your credentials and allow you to view account information (just like the iPhone app). Nope, that's not how it works here. When you select this option, you're presented with the following screen.
   
-{% image "src/images/2010/bofa_app4.jpg", "Figure 4", "image-full" %}
+<img src="/images/2010/bofa_app4.jpg" alt="Figure 4" />
 Figure 4
 
 What???? The Browser? What were they thinking? The iPhone application shows an interactive list of accounts then allows you to browse the account transactions inside of a native iPhone application. The BlackBerry application launches the browser and gives you the exact same functionality you'd get if you fired up the browser and typed in bankofamerica.com in the address bar. The browser???
 
 Eventually you get to the login prompt and you just have to deal with the mobile browser version of the site.
   
-{% image "src/images/2010/bofa_app5.jpg", "Figure 5", "image-full" %}
+<img src="/images/2010/bofa_app5.jpg" alt="Figure 5" />
 Figure 5
 
 What's the point? It's essentially useless except for the branch finder. I just don't know what they were thinking. The bank spent the time and money to build a fully functional iPhone app but relegated BlackBerry users to a simple application that merely launches a particular URL in the BlackBerry browser.

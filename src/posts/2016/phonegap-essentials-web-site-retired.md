@@ -7,7 +7,7 @@ categories: [Mobile Development]
 tags: post
 ---
 
-{% image "src/images/covers/phonegap-essentials-cover-160.png", "PhoneGap Essentials Cover", "image-full" %}
+<img src="/images/covers/phonegap-essentials-cover-160.png" alt="PhoneGap Essentials Cover" />
 
 The *PhoneGap Essentials* web site was retired today. The site was a repository of information about my PhoneGap Essentials book. I retired the site because the book was published more than three years ago and is woefully outdated. The book targeted PhoneGap 2 and since then many things have changed. PhoneGap was changed to Apache Cordova the PhoneGap became Adobe's distribution of Apache Cordova (with some extra things added). As Apache Cordova and PhoneGap are both now at version 6, it didn't seem appropriate to maintain a site dealing with technologies 4 versions back.
 

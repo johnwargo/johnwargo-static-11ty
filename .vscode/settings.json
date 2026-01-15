@@ -11,5 +11,6 @@
     "Snagit",
     "Telepresence",
     "Unihiker"
-  ]
+  ],
+  "editor.fontFamily": "Cascadia, Consolas, 'Courier New', monospace"
 }

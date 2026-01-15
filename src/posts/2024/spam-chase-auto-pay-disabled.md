@@ -17,7 +17,7 @@ I received another supposed [Chase Bank Phishing email](/posts/2024/spam-chase-b
 
 Here's the email I received:
 
-{% image "src/images/2024/spam-chase-auto-pay-disabled.png", "", "image-full" %}
+<img src="/images/2024/spam-chase-auto-pay-disabled.png" alt="" />
 
 And here's the content from the email (just to help search engines find it):
 
@@ -48,7 +48,7 @@ Next, I started looking at the links on the page - they all point to the same `r
 
 Looking at the domain registration, it looks like a valid registration - created back in 2011. So that one has me a little confused since it doesn't feel like a Phisher would register their phishing domain 13 years ago.
 
-{% image "src/images/2024/spam-chase-20240711-whois.png", "Domain registration information", "image-full" %}
+<img src="/images/2024/spam-chase-20240711-whois.png" alt="Domain registration information" />
 
 Anyway, testing the link and I get a broken link page with the following content:
 
@@ -68,7 +68,7 @@ h1 { font-size: 1.5em; font-weight: 500; margin: 0; }
 p { margin: 1.5em 0; }
 </style>
 <h1>
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABvCAMAAAAT8jiuAAAAq1BMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Nr6iZAAAAOHRSTlMAL/27zIjdBfkJAuzknRf2xkQpDQHz8Nm1o4FqY1xVIBDo4NaqlntxTz04MyQbE9LArpCMdkrOyYXKbkMAAAKjSURBVGjexdlXbiJBFIXhS5Oa0GQwOZhsm2TAc/a/spFGqOUxUNX4cKu/FZyXUunXFdL5LLHKvrxkJU5LYCkx2raAVkniMweAucQm4QGA9y5xSeKfvcRkiIuhEJgniItMTuKwQGghMSi1EGpuxL0OvumIc+8evvHexLFGBf+pNMStAX4YiFO5V/xQrItLXVzpikObMq6UR+LODDfMxJm1h1vW4kg+hZu+8uJGH3f0xYn6BHdMxuLCEXcdxYEPH3f5NdHXhkFb1FVhpB5K2R2MptqhtISReihtC7AobEXTHEbqoVTzYeUlRE8SESRFzQqRrMSATCEj9VBaIKKTGPApZNcsiYYAkQViQKSQkXYoNfYwUg+lAWzsocSnUHTFnDxXF0b2UOJTyEg9lGYwUg+lNw+PW2unUCUZquCGVF45hRISSuiGUr1oHaAbSkf8bgDSuilkH+B/qKaQfQAOOikUfQCqCilkGKASSj0wA9AT0rhADeBDaQ5uAD7ZFKIG8KHUBjsASS6F+AFYcSnED8hk5bdOYAbwoVRqUQP4UArADQgFxGGWHkAcd/dgBvChNAQ/IDQkUogYQIVSF8wAPpQ2TWoAH0odWBUzoSKsOlwK8bz1Qyn0BxQ6lPpQ0OdSiDepS1RpkMhQGvkgkaF0AIsLpSpoVCjld6BRodSDoh6RQlemqdAUERXGYvOJC+YzIkKp5usO8GtECvED7KG0gvYAnM0ppDrAHkon6A/A0pRC1AD+ohTAxQAEhhTSHGAPpT2YAfxFaQhXAzBkrkKhIB0K8JjXnPkwq29hSCECdVHqwKkOkUIqodTgUogPpQGcGxAp9PxQSoPBh9KoDAYfSgfEYkak0FNDKf+FmOyyXArxeuYU0lfYmlNI39GSQjx7KLURq+RfvHqqm/n3Nn4AAAAASUVORK5CYII=" alt="some image">
+<img eleventy:ignore src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABvCAMAAAAT8jiuAAAAq1BMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////Nr6iZAAAAOHRSTlMAL/27zIjdBfkJAuzknRf2xkQpDQHz8Nm1o4FqY1xVIBDo4NaqlntxTz04MyQbE9LArpCMdkrOyYXKbkMAAAKjSURBVGjexdlXbiJBFIXhS5Oa0GQwOZhsm2TAc/a/spFGqOUxUNX4cKu/FZyXUunXFdL5LLHKvrxkJU5LYCkx2raAVkniMweAucQm4QGA9y5xSeKfvcRkiIuhEJgniItMTuKwQGghMSi1EGpuxL0OvumIc+8evvHexLFGBf+pNMStAX4YiFO5V/xQrItLXVzpikObMq6UR+LODDfMxJm1h1vW4kg+hZu+8uJGH3f0xYn6BHdMxuLCEXcdxYEPH3f5NdHXhkFb1FVhpB5K2R2MptqhtISReihtC7AobEXTHEbqoVTzYeUlRE8SESRFzQqRrMSATCEj9VBaIKKTGPApZNcsiYYAkQViQKSQkXYoNfYwUg+lAWzsocSnUHTFnDxXF0b2UOJTyEg9lGYwUg+lNw+PW2unUCUZquCGVF45hRISSuiGUr1oHaAbSkf8bgDSuilkH+B/qKaQfQAOOikUfQCqCilkGKASSj0wA9AT0rhADeBDaQ5uAD7ZFKIG8KHUBjsASS6F+AFYcSnED8hk5bdOYAbwoVRqUQP4UArADQgFxGGWHkAcd/dgBvChNAQ/IDQkUogYQIVSF8wAPpQ2TWoAH0odWBUzoSKsOlwK8bz1Qyn0BxQ6lPpQ0OdSiDepS1RpkMhQGvkgkaF0AIsLpSpoVCjld6BRodSDoh6RQlemqdAUERXGYvOJC+YzIkKp5usO8GtECvED7KG0gvYAnM0ppDrAHkon6A/A0pRC1AD+ohTAxQAEhhTSHGAPpT2YAfxFaQhXAzBkrkKhIB0K8JjXnPkwq29hSCECdVHqwKkOkUIqodTgUogPpQGcGxAp9PxQSoPBh9KoDAYfSgfEYkak0FNDKf+FmOyyXArxeuYU0lfYmlNI39GSQjx7KLURq+RfvHqqm/n3Nn4AAAAASUVORK5CYII=" alt="some image">
 Link Unavailable.
 </h1>
 <p>

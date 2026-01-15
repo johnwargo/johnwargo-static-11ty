@@ -19,10 +19,10 @@ In my [A World Without Apps](https://aworldwithoutapps.com){target="_blank"} sit
   <div class="container">
     {% if page.url != '/' %}
       {% if headerImage %}
-        <span class="image featured"><img src="{{ headerImage }}" alt="{{ headerImageAltText }}" /></span>
+        <span class="image featured"><img eleventy:ignore src="{{ headerImage }}" alt="{{ headerImageAltText }}" /></span>
       {% else %}
         {% if categories.length > 0 %}
-          <span class="image featured"><img src="/images/headers/category-{{ categories[0] | slugify }}.jpg" alt="{{ categories[0] }} image" /></span>
+          <span class="image featured"><img eleventy:ignore src="/images/headers/category-{{ categories[0] | slugify }}.jpg" alt="{{ categories[0] }} image" /></span>
         {% endif %}
       {% endif %}
       {% if title %}
@@ -161,7 +161,7 @@ Now, all I have to do is use the data file to add the necessary `img` tag and at
 <section>
   <header>
     {% if headerImage %}
-      <span class="image fit"><img
+      <span class="image fit"><img eleventy:ignore 
           src="{{ headerImage }}"
           alt="{{ headerImageAltText }}"
           class="image fit" /></span>

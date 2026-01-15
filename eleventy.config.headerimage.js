@@ -75,8 +75,8 @@ export default function (eleventyConfig, options = {}) {
     function _buildImageTag(imagePath, imageAltText) {
       if (imagePath) {
         return imageClass.length > 0
-          ? `<img src="${imagePath}" alt="${imageAltText}" class="${imageClass}" />`
-          : `<img src="${imagePath}" alt="${imageAltText}" />`;
+          ? `<img eleventy:ignore src="${imagePath}" alt="${imageAltText}" class="${imageClass}" />`
+          : `<img eleventy:ignore src="${imagePath}" alt="${imageAltText}" />`;
       } else {
         return '';
       }

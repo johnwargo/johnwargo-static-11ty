@@ -29,15 +29,15 @@ The remote deployment capabilities of PyCharm demonstrated in this post require 
 
 To start coding for the Unihiker using PyCharm, start by creating a new project in PyCharm. When PyCharm loads, it prompts you to either open an existing project or create a new one, select the new project option as highlighted in the following figure:
 
-{% image "src/images/2025/unihiker-pycharm-00.png", "Pycharm Launch Dialog", "image-full" %}
+<img src="/images/2025/unihiker-pycharm-00.png" alt="Pycharm Launch Dialog" />
 
 In the **New Project** dialog that appears, select a folder for the new project. The project folder must already exist, but you can click the folder icon on the far right side of the dialog to select a folder or create a new one. Once you have a target folder selected, click the **Create** button to create the project.
 
-{% image "src/images/2025/unihiker-pycharm-01.png", "Pycharm New Project dialog", "image-full" %}
+<img src="/images/2025/unihiker-pycharm-01.png" alt="Pycharm New Project dialog" />
 
 Create a new python file in the new project, in the example below, I called the program `unihiker_demo.py`. In the Editor, paste in one of the sample programs or write your own. 
 
-{% image "src/images/2025/unihiker-pycharm-02.png", "PyCharm IDE with a new project opened", "image-full" %}
+<img src="/images/2025/unihiker-pycharm-02.png" alt="PyCharm IDE with a new project opened" />
 
 Once you have a program coded, you're ready to deploy it. 
 
@@ -45,11 +45,11 @@ Once you have a program coded, you're ready to deploy it.
 
 In the PyCharm IDE, select the **Tools** menu, then **Deployment** and finally **Configuration...**. PyCharm will open the following dialog:
 
-{% image "src/images/2025/unihiker-pycharm-03.png", "PyCharm Deployment menu", "image-full" %}
+<img src="/images/2025/unihiker-pycharm-03.png" alt="PyCharm Deployment menu" />
 
 Click the **+** in the upper left corner of the dialog to create a new deployment configuration. 
 
-{% image "src/images/2025/unihiker-pycharm-04.png", "PyCharm Deployment Dialog with new Deployment highlighted", "image-full" %}
+<img src="/images/2025/unihiker-pycharm-04.png" alt="PyCharm Deployment Dialog with new Deployment highlighted" />
 
 PyCharm, for some bizarre reason, assumes you're connecting to a web server to deploy server code. This makes no sense to me; you'd think they'd consider other options as well like deploying Python code to a Raspberry Pi or Unihiker device. 😄 Ignore the "Please add a web server to configure" since that doesn't matter here.
 
@@ -57,15 +57,15 @@ PyCharm first prompts for you to select the deployment connection type; I chose 
 
 In the **Create New Server** dialog (again, we're not creating a server location here, so just ignore the nomenclature) enter a name for the new deployment. I chose **Unihiker** for my deployment configuration since that made the most sense to me. 
 
-{% image "src/images/2025/unihiker-pycharm-05.png", "PyCharm Create New Server Dialog", "image-full" %}
+<img src="/images/2025/unihiker-pycharm-05.png" alt="PyCharm Create New Server Dialog" />
 
 Next, PyCharm opens the configuration dialog for the new Deployment connection. The first thing you must do is configure an SSH configuration for the deployment. Click the **...*** button highlighted in the figure.
 
-{% image "src/images/2025/unihiker-pycharm-06.png", "PyCharm Deployment Configuration", "image-full" %}
+<img src="/images/2025/unihiker-pycharm-06.png" alt="PyCharm Deployment Configuration" />
 
 In the **SSH Configurations** dialog that appears, click the **+** button to create a new connection.
 
-{% image "src/images/2025/unihiker-pycharm-07.png", "PyCharm SSH Configuration Dialog", "image-full" %}
+<img src="/images/2025/unihiker-pycharm-07.png" alt="PyCharm SSH Configuration Dialog" />
 
 In the dialog that appears, enter:
 
@@ -79,17 +79,17 @@ Click the **Test Connection** button to validate the settings. If it doesn't wor
 
 Click the **OK** button when you're all set the the SSH connection works.
 
-{% image "src/images/2025/unihiker-pycharm-08.png", "PyCharm SSH Configuration Settings", "image-full" %}
+<img src="/images/2025/unihiker-pycharm-08.png" alt="PyCharm SSH Configuration Settings" />
 
 Back at the Deployment configuration, the **SSH Configuration** field should populate with the SSH configuration you just created (and validated).
 
 For **Root path** use `/root`.  Again, ignore the stuff about the web server URL, you don't need one since we won't have one.
 
-{% image "src/images/2025/unihiker-pycharm-09.png", "PyCharm Deployment Configuration with an SSH Configuration configured", "image-full" %}
+<img src="/images/2025/unihiker-pycharm-09.png" alt="PyCharm Deployment Configuration with an SSH Configuration configured" />
 
 On the dialog's **Mappings** tab, set the **Deployment path** to `/`
 
-{% image "src/images/2025/unihiker-pycharm-10.png", "PyCharm Deployment Configuration with an SSH Configuration configured", "image-full" %}
+<img src="/images/2025/unihiker-pycharm-10.png" alt="PyCharm Deployment Configuration with an SSH Configuration configured" />
 
 Click the dialog's **OK** button to save your changes. 
 
@@ -97,8 +97,8 @@ Back in the code editor, right-click on the python program you want to deploy to
 
 **Note:** PyCharm doesn't know anything about a connected Unihiker; Unihiker was just the name I chose for my deployment profile. Naming it that way makes it crystal clear what I'm deploying to, right?
 
-{% image "src/images/2025/unihiker-pycharm-11.png", "PyCharm Deployment Menu", "image-full" %}
+<img src="/images/2025/unihiker-pycharm-11.png" alt="PyCharm Deployment Menu" />
 
 The selected python program should deploy to the connected device. On the Unihiker device, when you press the Home button to open the app menu, select **2-Run Programs** and pick the `root/` folder and you should see your deployed python program in the menu as shown in the following figure. 
 
-{% image "src/images/2025/unihiker-pycharm-12.jpg", "An image of a UniHiker device with a new Python program loaded", "image-full" %}
+<img src="/images/2025/unihiker-pycharm-12.jpg" alt="An image of a UniHiker device with a new Python program loaded" />

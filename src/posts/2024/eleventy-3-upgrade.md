@@ -210,7 +210,7 @@ npm run build
 
 The Upgrade Helper will analyze your site and display the results of multiple tests it performed against the site. You'll also see the normal build process output as shown in the following image:
 
-{% image "src/images/2024/11ty-upgrade-01.png", "Eleventy Upgrade Helper output", "image-full" %}
+<img src="/images/2024/11ty-upgrade-01.png" alt="Eleventy Upgrade Helper output" />
 
 Here's the complete output from the process:
 
@@ -370,4 +370,4 @@ The beauty of this error message, and big kudos to the Eleventy team for writing
 
 To fix the problem, all I had to do was change the build environment for my site to Node.js 22 and the site published correctly.
 
-{% image "src/images/2024/11ty-upgrade-02.png", "Netlify Build Settings", "image-full" %}
+<img src="/images/2024/11ty-upgrade-02.png" alt="Netlify Build Settings" />

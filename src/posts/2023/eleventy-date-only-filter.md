@@ -14,7 +14,7 @@ categories:
 
 I was looking at the site's [stats page](/about/statistics/){target="_blank"} yesterday and noticed that the output for First Post and Last Post date included an empty time `00:00:00 GMT+0000 (Coordinated Universal Time)`.  This is unnecessary since there was no time component in those values, only a date. Here's what it looked like:
 
-{% image "src/images/2023/stats-page-post-dates-1.png", "This site's initial Stats Page Post Statistics", "image-full" %}
+<img src="/images/2023/stats-page-post-dates-1.png" alt="This site's initial Stats Page Post Statistics" />
 
 So I set out to fix the output so it looked exactly the way I wanted, which is:
 
@@ -56,7 +56,7 @@ To use the filter in your site, simply add the filter to the templated content l
 
 And now the resulting page looks exactly like I want it:
 
-{% image "src/images/2023/stats-page-post-dates-2.png", "This site's final Stats Page Post Statistics", "image-full" %}
+<img src="/images/2023/stats-page-post-dates-2.png" alt="This site's final Stats Page Post Statistics" />
 
 To use a specific locale, like Portuguese for example, simply add the locale to the filter like this:
 

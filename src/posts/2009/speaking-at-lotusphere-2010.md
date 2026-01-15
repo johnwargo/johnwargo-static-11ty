@@ -9,7 +9,7 @@ tags: post
 
 I'm excited to announce that I've been selected to present two sessions at Lotusphere 2010.
 
-{% image "src/images/2009/ls.gif", "", "image-full" %}
+<img src="/images/2009/ls.gif" alt="" />
 
 Rob Wunderlich and I are presenting a session entitled: '_Delivering IBM Lotus Domino to Mobile Devices: Top 10 Mobile Browser Dev Tricks_.' The topic stems from some sessions Rob's done at previous Lotuspheres and some sessions I've done at the View Domino Administrator/Developer Conference. It's designed to highlight the trips and tricks of building Domino browser based application for mobile phones and smartphones. There's so many things web developers need to worry about when working with mobile devices – we're going to try to lay it all out for people who attend the session.
 

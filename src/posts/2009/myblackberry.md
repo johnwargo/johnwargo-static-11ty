@@ -9,12 +9,12 @@ tags: post
 
 A few weeks back the press announced a new BlackBerry site managed by RIM called myblackberry.com. I quickly went online to see what it was and was frustrated for several weeks by its unavailability. Last week the pundits started announcing that the site was live so I went out again to try to access the site. Here's what I got:
 
-{% image "src/images/2009/myblackberry1sm.png", "Figure 1", "image-full" %}
+<img src="/images/2009/myblackberry1sm.png" alt="Figure 1" />
 Figure 1
 
 I decided to try again today and was able to access then register with the site. Funny thing happened when I registered, it allowed me (actually required me) to set my own security question, but for some bizarre reason forced a minimum length for my answer. See below:
 
-{% image "src/images/2009/myblackberry2sm.png", "Figure 2", "image-full" %}
+<img src="/images/2009/myblackberry2sm.png" alt="Figure 2" />
 Figure 2
 
 I dutifully entered my question and the answer but found that it was too short. What was I to do? I couldn't change my answer to fit the minimum length required by the form. Ridiculous. I had to pick a different question to use.

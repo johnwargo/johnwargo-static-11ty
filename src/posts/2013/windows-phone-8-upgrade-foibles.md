@@ -17,6 +17,6 @@ Ugh. Probably my favorite expression for 2013.
 
 Anyway, I spent some time thinking through this and, after reading some internet posts about the Visual Studio error I was getting (a timeout error when trying to load the app on the device) I decided to unregister it as a development device then re-register it using the Windows Phone Developer Registration tool shown in the figure below.
 
-{% image "src/images/2013/wp8-device-registration.jpg", "WP8 Device Registration", "image-full" %}
+<img src="/images/2013/wp8-device-registration.jpg" alt="WP8 Device Registration" />
 
 It worked. Something about the upgrade set the device in a mode that  kept Visual Studio from talking to it. Re-registering it apparently put the device back in a better state.

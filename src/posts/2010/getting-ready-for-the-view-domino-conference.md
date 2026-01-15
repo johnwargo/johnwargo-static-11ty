@@ -9,7 +9,7 @@ tags: post
 
 I've gotten involved with the [View Domino Admin/Developer Conference](https://viewadmin2010.com/eview/admin10bos.nsf/homepage?readForm){target="_blank"} again this year. The 2010 conference will be held in Boston (as usual) and runs from May 12th through the 14th.
 
-{% image "src/images/2010/view-domino2010.gif", "View Domino Logo", "image-full" %}
+<img src="/images/2010/view-domino2010.gif" alt="View Domino Logo" />
 
 For this year's conference, I'm doing my Domino Rich Client application session I did last year at the conference and also this year at Lotusphere. Of course I have to change it up a bit between each session. In last year's View conference, I showed how to build a Domino Web Service (the same web service I've written about here) then how to build a BlackBerry MDS Runtime application that talked to the service, a BlackBerry Java application and a Windows Mobile application.
 

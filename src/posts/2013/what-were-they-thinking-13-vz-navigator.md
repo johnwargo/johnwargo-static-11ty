@@ -11,14 +11,14 @@ tags: post
 
 While I worked at AT&T, I became a big fan of the TeleNav Navigator application which later became AT&T Navigator. The interface was intuitive and it worked pretty well. When I joined SAP, they gave me a Verizon BlackBerry 9900 and I lost access to the navigation solution I was accustomed to using. On Verizon, they have their own navigation solution called VZ Navigator; here's what it looks like:
 
-{% image "src/images/2013/verizon-navigation-app-1.png", "Figure 1", "image-full" %}
+<img src="/images/2013/verizon-navigation-app-1.png" alt="Figure 1" />
 
 
 I was using it recently to navigate somewhere and noticed something about the UI that really struck me as stupid, so of course I had to write about it here.
 
 When you press the volume buttons on the side of the device to increase or decrease volume, instead of actually increasing or decreasing the navigation volume (which is what ANY smartphone user will expect), the application instead opens up the dialog shown in Figure 2.
 
-{% image "src/images/2013/verizon-navigation-app-2.png", "Figure 2", "image-full" %}
+<img src="/images/2013/verizon-navigation-app-2.png" alt="Figure 2" />
 
 This is simply the wrong way to implement this interface, and, to make matters worse, you can't use the volume controls (those buttons on the side of a BlackBerry device) to move the selection on this dialog. I thought perhaps they simply made a mistake by implementing this dialog, but they compounded their error by forcing me to physically touch an item to make a selection rather than to just allow me to use the volume buttons to move the selection down and up on the screen.
 

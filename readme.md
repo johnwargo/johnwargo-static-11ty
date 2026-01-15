@@ -6,8 +6,9 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 
 [Task List](https://trello.com/b/eoqh8Fte/jmw-site-tasks)
 
-- [ ] Swap out image library for internal support: https://www.aleksandrhovhannisyan.com/blog/eleventy-image-transform/
-- [ ] Implement Fetch plugin
+- [x] Swap out image library for internal support: https://www.aleksandrhovhannisyan.com/blog/eleventy-image-transform/
+- [x] Implement Fetch plugin
+- [ ] Search page - focus on input field on load
 - [ ] Fix Google analytics stats, they seem off
 
 ## The Site at Launch
@@ -80,8 +81,10 @@ set DEBUG=Eleventy* & npx @11ty/eleventy
 ### Image Shortcode
 
 ```liquid
-{% image "src/images/", "", "image-full" %}
+<img src="/images/" alt="" />
 ```
+
+![Image test](/images/2026/11ty-3-upgrade-pr.png)
 
 ### Publications record
 

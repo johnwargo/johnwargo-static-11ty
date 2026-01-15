@@ -11,16 +11,16 @@ A while back I got really interested in content management systems (CMS). When I
 
 I decided a few weeks ago to build the John Wargo Books site (https://johnwargobooks.com) and thought doing the site using Concrete5 would be fun. I quickly registered the domain, downloaded the files and got started. Knowing now that I was working with a site builder, it was really easy to populate the home page with the content I wanted (shown in Figure 1).
 
-{% image "src/images/2011/jmwb1.png", "Figure 1", "image-full" %}
+<img src="/images/2011/jmwb1.png" alt="Figure 1" />
 
 Once I had that done, all I had to do was add a navigational component (shown in orange on the right side of Figure 1) then create the additional 'pages' I needed for my site.
 
 The cool thing about this tool is that your site building is all done in the browser. When you access the home page, you can easily login (the default Concrete5 template includes a login link in the footer, the template I'm using now does not) and directly manipulate the site using buttons that appear at the top of the page (as shown in Figure 2).
 
-{% image "src/images/2011/jmwb2.png", "Figure 2", "image-full" %}
+<img src="/images/2011/jmwb2.png" alt="Figure 2" />
 
 To edit a page, you navigate to the page then click the 'Edit page' button. To add a new page to the site, you simply click the 'Add Page' button and start typing your content. The system allows you to define a hierarchy for your pages then the navigational component automatically reflects your changes. There's plug-ins such as the 'Share' button and the site search shown in Figure 1. Behind the scenes there's a Dashboard view (shown in Figure 3) that allows you to configure the site as a whole.
 
-{% image "src/images/2011/jmwb3.png", "Figure 3", "image-full" %}
+<img src="/images/2011/jmwb3.png" alt="Figure 3" />
 
 In all, it's a pretty easy system to setup and use.

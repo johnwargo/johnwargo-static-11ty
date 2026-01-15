@@ -105,7 +105,7 @@ I love working with the [Particle](https://particle.io/){target="_blank"} platfo
 
 Over the years, I built several native mobile apps that remotely invoke code on Particle Photon devices. In order to be able to call a Particle API, the application must include a Particle API access token and device ID with each request and rather than hard code the values in the app, I use a settings page instead.
 
-{% image "src/images/2023/flutter-garage-controller-settings.png", "An image of an Android Application with an input field for Particle Access Token", "image-full" %}
+<img src="/images/2023/flutter-garage-controller-settings.png" alt="An image of an Android Application with an input field for Particle Access Token" />
 
 Every time I test the app on a new device or when I wipe the memory on one of the device emulators, I must re-enter the required values (Particle access token and device ID). Since the values are long strings of numbers, it’s painful to type those values in or copy from a file on my development system and paste them into the appropriate fields on the device.
 Fortunately, the Android SDK offers a command you can execute to poke characters into the keyboard buffer on a connected device. The command looks like this:

@@ -13,7 +13,7 @@ timestamp: 2025-01-29T12:25:23.641Z
 
 Received a scam/phishing email the other day that really surprised me. The message is so clearly a scam that I wonder why they even bothered to send it. Here's the email message:
 
-{% image "src/images/2025/phishing-amazon-prime.png", "Bogus Amazon Prime email", "image-full" %}
+<img src="/images/2025/phishing-amazon-prime.png" alt="Bogus Amazon Prime email" />
 
 {% sidebar "Definitely a Scam" %}
 There's a lot of reasons why this is a scam, do not call the phone number in the email.

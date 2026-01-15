@@ -19,64 +19,64 @@ The requirements for the solution were:
 
 Now let's dig into how to setup the batch process I needed for my project. When you open any of the later versions of WinZip in Classic mode, you'll see a window similar to the one shown in Figure 1. You'll need to click on the 'Backup' tab to expose the options you need to create batch processes.
 
-{% image "src/images/2010/winzip1.png", "Figure 1", "image-full" %}
+<img src="/images/2010/winzip1.png" alt="Figure 1" />
 Figure 1
 
 As highlighted in the figure, select 'Create' to create a new backup job. WinZip will prompt you to provide a file name for your backup job. I suggest you put the job somewhere else than the folder you will be backing up. Use either you're my Documents folder or, as shown in the figure, a folder immediately above the folder you will be backing-up. In this case, I named the file FoBAD Backup.
 
-{% image "src/images/2010/winzip2.png", "Figure 2", "image-full" %}
+<img src="/images/2010/winzip2.png" alt="Figure 2" />
 Figure 2
 
 With the WinZip job created, it's time to start configuring the settings for the backup archive. WinZip uses a wizard metaphor for setting up jobs, so you'll be stepping through multiple screens as the job's settings are defined.
 
 In the next part of the wizard, you're prompted to identify the files and folders that are included and excluded from the backup job.  In this case, I want to backup the contents of my FoBAD folder, but I don't want to have to store my backups somewhere else. So, I'm including the FoBAD folder but excluding my Backup folder (as shown in Figure 3. For the manuscript, I also had a folder where I stored all of the source code and research documentation I used as reference for the book. Since the content of that folder never got updated (only new items added to it) I didn't feel the need to include those files in my backup – it would take up too much hard drive space to be useful and I can always replace the content through an internet search. You can see the folders I'm excluding by looking for the 'Exc+Sub' in the Action column in the figure.
 
-{% image "src/images/2010/winzip3.png", "Figure 3", "image-full" %}
+<img src="/images/2010/winzip3.png" alt="Figure 3" />
 Figure 3
 
 Click the 'Select items…' button to pick the items that are included and excluded from the backup job. The file selection dialog is shown in Figure 4. Place a check mark on the files or folders you want included.
 
-{% image "src/images/2010/winzip4.png", "Figure 4", "image-full" %}
+<img src="/images/2010/winzip4.png" alt="Figure 4" />
 Figure 4
 
 In the next step of the wizard, you can select which type of backup being performed. For my manuscript backup, I selected a normal backup which grabs all files regardless of the file's archive attribute setting. You can also use settings that allow for an incremental backup, differential backup or an update (refresh the contents of an existing backup archive).
 
-{% image "src/images/2010/winzip5.png", "Figure 5", "image-full" %}
+<img src="/images/2010/winzip5.png" alt="Figure 5" />
 Figure 5
 
 Next the wizard prompts you to select some additional settings for the archive. I like to use the selection for relative folder information – that way I don't end up with the full folder path in my archive. With relative folders set, only the folder structure information below the starting folder is included with each file.
 
-{% image "src/images/2010/winzip6.png", "Figure 6", "image-full" %}
+<img src="/images/2010/winzip6.png" alt="Figure 6" />
 Figure 6
 
 In the next step is where the batch processing capabilities of WinZip become most useful. As you can see in Figure 7, you can specify a root file name for the backup (in the 'Zip File Name' field) then append the current date and/or time to the file name as well.
 
-{% image "src/images/2010/winzip7.png", "Figure 7", "image-full" %}
+<img src="/images/2010/winzip7.png" alt="Figure 7" />
 Figure 7
 
 This feature supports additional options as shown in Figure 8.
 
-{% image "src/images/2010/winzip8.png", "Figure 8", "image-full" %}
+<img src="/images/2010/winzip8.png" alt="Figure 8" />
 Figure 8
 
 You can also click the 'Subfolder Options…' button to specify the output folder options shown in Figure 9.
 
-{% image "src/images/2010/winzip9.png", "Figure 9", "image-full" %}
+<img src="/images/2010/winzip9.png" alt="Figure 9" />
 Figure 9
 
 Or you can click the 'Special Folders…' button to specify the output folder options shown in Figure 10
 
-{% image "src/images/2010/winzip10.png", "Figure 10", "image-full" %}
+<img src="/images/2010/winzip10.png" alt="Figure 10" />
 Figure 10
 
 Clicking the next button gives you a summary of the job's settings as shown in Figure 11.
 
-{% image "src/images/2010/winzip11.png", "Figure 11", "image-full" %}
+<img src="/images/2010/winzip11.png" alt="Figure 11" />
 Figure 11
 
 As this point, what I have is a backup job that backs up my manuscript folder but ignores the Backup and Research folders. The archive is called `FoBAD BackupFILEDATETIME.zip` or `FoBAD BackupFILEDATETIME.zipx` depending on which system I created the backup on. Figure 12 shows a snapshot of my Backup folder listing all of my backups.
 
-{% image "src/images/2010/winzip12.png", "Figure 12", "image-full" %}
+<img src="/images/2010/winzip12.png" alt="Figure 12" />
 Figure 12
 
 Notice the difference between the file extensions on many of the backups. On my laptop I have WinZip configured for Legacy mode (standard Zip file format) but on my desktop I have the new and improved file format in use (zipx). I did this because on my laptop I needed to share zip files with other people who didn't have a version of zip that supported the new file format. On my desktop I work in isolation, so the format of the zip files doesn't matter.

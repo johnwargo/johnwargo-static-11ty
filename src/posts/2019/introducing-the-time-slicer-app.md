@@ -13,25 +13,25 @@ I worked a bit with the [Ionic framework](https://ionicframework.com/){target="_
 
 I completed the app a few months ago, but finally got around to publishing it in the Google Play Store last week. The app's public web site is [https://timeslicer.app](https://timeslicer.app){target="_blank"} and you can view the app in the Google Play Store using the link immediately following this paragraph. The iOS version is ready to go, so I'll submit it to Apple soon.
 
-[{% image "https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png", "Get it on Google Play", "image-full" %}](https://play.google.com/store/apps/details?id=com.fumblydiddle.timeslicer&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1){target="_blank"}
+[<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" />](https://play.google.com/store/apps/details?id=com.fumblydiddle.timeslicer&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1){target="_blank"}
 
 The way I describe the app is as a stopwatch with categories. Let me show you how it works.
 
 The app uses projects to define a grouping of categories. When the app launches, you're presented with an empty project list. You can quickly create your own, or load a set of sample projects to work with. The list of sample projects is shown in the figure below.
 
-{% image "src/images/2019/time-slicer-01.png", "Time Slicer Project List", "image-full" %}
+<img src="/images/2019/time-slicer-01.png" alt="Time Slicer Project List" />
 
 Swipe left on an item to edit or delete it. Tap the plus sign at the top of the list to add a new project. When adding or editing projects, you'll see the following screen.
 
-{% image "src/images/2019/time-slicer-02.png", "Time Slicer Project Edit", "image-full" %}
+<img src="/images/2019/time-slicer-02.png" alt="Time Slicer Project Edit" />
 
 From the main screen, tap a project to open it; you'll see a screen similar to the one shown below.
 
-{% image "src/images/2019/time-slicer-03.png", "Time Slicer Project (Stopwatch)", "image-full" %}
+<img src="/images/2019/time-slicer-03.png" alt="Time Slicer Project (Stopwatch)" />
 
 Tap the start button or one of the categories to start the stopwatch. When you tap one of the categories, the stopwatch starts tracking time spent on that category as shown in the following figure.
 
-{% image "src/images/2019/time-slicer-04.png", "Time Slicer Stopwatch (running)", "image-full" %}
+<img src="/images/2019/time-slicer-04.png" alt="Time Slicer Stopwatch (running)" />
 
 When you stop the stopwatch, you can share the results with any local application using the mobile device's standard sharing process.
 

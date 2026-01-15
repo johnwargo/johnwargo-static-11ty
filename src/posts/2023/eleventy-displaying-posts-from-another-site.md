@@ -12,7 +12,7 @@ categories:
 
 As I explained in [Relaunched A World Without Apps](/posts/2023/relaunched-a-world-without-apps/) I just relaunched a sister site to this one. After I posted that article, I started thinking about pulling in the most recent posts from that site to this one's home page, just to cross link the sites. You can see the results on the home page, it looks something like this:
 
-{% image "src/images/2023/wwa-posts.png", "A World Without Apps Post List", "image-full" %}
+<img src="/images/2023/wwa-posts.png" alt="A World Without Apps Post List" />
 
 Since the World Without Apps site has a [JSON-based RSS feed](https://aworldwithoutapps.com/feed.json){target="_blank"}, there wasn't a lot I had to do to make this work. 
 

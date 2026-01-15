@@ -13,7 +13,7 @@ Notice I'm calling it spam and not SPAM or Spam. In an email context, spam is no
 
 Anyways, spammers have been trying all sorts of tricks to get past filters, and it's always interesting to see how it works inside. This morning I received the following email message.
 
-{% image "src/images/2013/spam-1-10-28-2013_640.png", "", "image-full" %}
+<img src="/images/2013/spam-1-10-28-2013_640.png" alt="" />
 
 My email client recognized the from address, so it let the graphics display (the PayPal logo), but I knew immediately that it couldn't have been from PayPal mostly because I'm pretty sure they'll never email me to tell me that my account has been limited. They might email me to tell me that my account has been disabled, and probably tell me why, but what the heck does “your account has been limited” even mean?
 
@@ -21,12 +21,12 @@ Looking at the email, you can see that the email content is in a san serif font 
 
 Anyway, I always look at the email message source to make sure and when I looked at the source for this message, I found the following:
 
-{% image "src/images/2013/spam-2-10-28-2013_640.png", "", "image-full" %}
+<img src="/images/2013/spam-2-10-28-2013_640.png" alt="" />
 
 The way to tell that this email did not come from PayPal is through the links to resources embedded within the email as well as links to outside entities. For example, as you can see from Figure 2, the logo image comes from a site called jewelleryminx dot com. Hmmm, that doesn't sound like a paypal server to me.
 
 Notice too the link to 'validate my account info' – this one is the tricky part. If you look at this, you should notice immediately that it looks like it is pointing you to PayPal because the link points to paypal.com, right? Wrong. The link URL begins with paypal.com, but in reality, the URL is a very long and complicated subdomain of givarperu dot org. Anyone who thinks they know what they're doing, including spam filters I think, will see that the URL begins with [https://paypal.com](https://paypal.com){target="_blank"} and assume it's pointing to PayPal when it is actually pointing to a server registered in Lima Peru, see the domain registration below.
 
-{% image "src/images/2013/spam-3-10-28-2013.png", "", "image-full" %}
+<img src="/images/2013/spam-3-10-28-2013.png" alt="" />
 
 So, these are a few simple things you can do to tell whether an email is spam or not.

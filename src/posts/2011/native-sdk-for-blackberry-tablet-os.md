@@ -9,7 +9,7 @@ tags: post
 
 This could be fun!
 
-{% image "src/images/2011/bb_native_qnx_sdk_beta.png", "BlackBerry Native SDK Beta", "image-full" %}
+<img src="/images/2011/bb_native_qnx_sdk_beta.png" alt="BlackBerry Native SDK Beta" />
 
 RIM announced today private beta for the Native SDK for BlackBerry Tablet OS. You can [read the announcement here](https://devblog.blackberry.com/2011/08/native-sdk-for-blackberry-tablet-os-closed-beta/){target="_blank"}.
 

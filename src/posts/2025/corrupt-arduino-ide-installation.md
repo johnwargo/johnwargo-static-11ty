@@ -33,17 +33,17 @@ I uninstalled and deleted everything again, but then started looking for any oth
 
 The first set of files was in `c:\users\john\.arduinoIDE` as shown in the following figure. Delete that folder.
 
-{% image "src/images/2025/arduino-file-explorer-1.png", "Windows File Explorer showing the arduinoIDE folder", "image-full" %}
+<img src="/images/2025/arduino-file-explorer-1.png" alt="Windows File Explorer showing the arduinoIDE folder" />
 
 Next, I looked in the system's Application Data folder and found the following:
 
-{% image "src/images/2025/arduino-file-explorer-2.png", "Windows File Explorer showing the app data folder", "image-full" %}
+<img src="/images/2025/arduino-file-explorer-2.png" alt="Windows File Explorer showing the app data folder" />
 
 > The easiest way to find the system's AppData folder is to open File Explorer, select the path input field, type %appdata% then press the Enter key. AppData is an environment variable that points to the system's roaming data folder. 
 
 There's two different Arduino IDE folders in that location: `Arduino IDE` and `arduino-ide`. Sigh. I'm not sure why there's two of them, but the `arduino-ide` folder contains settings, code cache, and other stuff as shown below.
 
-{% image "src/images/2025/arduino-file-explorer-3.png", "Windows File Explorer showing the arduino-ide folder contents", "image-full" %}
+<img src="/images/2025/arduino-file-explorer-3.png" alt="Windows File Explorer showing the arduino-ide folder contents" />
 
 This must have been the source of my issue. Once I whacked (deleted) all three folders and reinstalled every one of my existing issues went away. 
 

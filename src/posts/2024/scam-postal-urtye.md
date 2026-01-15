@@ -23,7 +23,7 @@ Since the package does not have a house number, the package transportation is in
 
 I don't want to show the actual URL because I don't want to be responsible for someone clicking on it and getting hacked. Here's an image of the message with the full URL:
 
-{% image "src/images/2024/urtye-scam.png", "An image of a text message with a suspicions URL", "image-full" %}
+<img src="/images/2024/urtye-scam.png" alt="An image of a text message with a suspicions URL" />
 
 Looking at this message, I was fairly certain it was some sort of scam or phishing attempt since the country code for the sender (`+63 906 755 6259`) is the Philippines. I don't expect to get text messages from the Philippines, especially since I've never ordered a package from the Philippines. 
 
@@ -31,7 +31,7 @@ I also know from reading a lot of Wired Magazine and other sources that the Phil
 
 Anyway, since I wasn't sure about this message and I didn't recognize urtye dot com as a safe domain, I did some more research. First I looked up the domain registration and found that the domain is registered via Alibaba Cloud Computing Ltd. d/b/a HiChina (https://net.cn). 
 
-{% image "src/images/2024/urtye-domain-registration.png", "Urtye dot com domain registration information", "image-full" %}
+<img src="/images/2024/urtye-domain-registration.png" alt="Urtye dot com domain registration information" />
 
 That's interesting because I have some purchases on the way from Ali Express in China but since no additional information is available, like an order number or vendor, I'm still wary at this point.
 

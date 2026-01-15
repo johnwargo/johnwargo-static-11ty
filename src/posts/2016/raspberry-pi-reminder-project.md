@@ -37,29 +37,29 @@ For this project, I used the following components:
 
 Figure 1 shows the parts I used for this project (minus the power supply). The Unicorn HAT on the left is facing down so you can easily see the female headers on the back of the board that match the male Pi's GPIO headers.
 
-{% image "src/images/2016/pi-reminder-01_1.jpg", "Project Parts Ready For Assembly", "image-full" %}
+<img src="/images/2016/pi-reminder-01_1.jpg" alt="Project Parts Ready For Assembly" />
 Figure 1 – Project Parts Ready For Assembly
 
 Flip the Unicorn HAT over and align the GPIO Pins with the female header socket on the HAT as shown in Figure 2
 
-{% image "src/images/2016/pi-reminder-02_1.jpg", "Unicorn HAT Connected to the Raspberry Pi", "image-full" %}
+<img src="/images/2016/pi-reminder-02_1.jpg" alt="Unicorn HAT Connected to the Raspberry Pi" />
 Figure 2 – Unicorn HAT Connected to the Raspberry Pi
 
 With the HAT properly positioned, push down gently to seat the board securely on the Raspberry Pi as shown in Figure 3.
 
-{% image "src/images/2016/pi-reminder-03_1.jpg", "Completed HAT installation", "image-full" %}
+<img src="/images/2016/pi-reminder-03_1.jpg" alt="Completed HAT installation" />
 Figure 3 – Completed HAT installation
 
 Right now, the HAT is floating free over the Pi, connected only through the header pins. Since the whole contraption will be sealed in a case, I didn't feel the need to mount the HAT any more securely, but you may want to. Adafruit sells a set of spacers ([https://adafruit.com/products/2336](https://adafruit.com/products/2336){target="_blank"}) you can use to secure the other side of the HAT against the Pi.
 
 Next, install the Pi and HAT in the case as shown in Figure 4, then attach the cover (not shown).
 
-{% image "src/images/2016/pi-reminder-04_1.jpg", "Installing the Project Components in the Case", "image-full" %}
+<img src="/images/2016/pi-reminder-04_1.jpg" alt="Installing the Project Components in the Case" />
 Figure 4 – Installing the Project Components in the Case
 
 At this point, the hardware is all installed and ready to go. When finished, the Pi will only need network and power connections, but for the remainder of the setup process, you're going to need a display (monitor), keyboard, and mouse. Connect those components to the Pi as shown in Figure 5. Don't connect power, you have some more work to do before you can do that.
 
-{% image "src/images/2016/pi-reminder-05_1.png", "Hardware Installation Completed", "image-full" %}
+<img src="/images/2016/pi-reminder-05_1.png" alt="Hardware Installation Completed" />
 Figure 5 – Hardware Installation Completed
 
 ## Setting Up the Raspberry Pi
@@ -68,7 +68,7 @@ The Raspberry PI needs an OS to boot, so grab Micro SD card then follow the inst
 
 At this point, you're ready to power up the Pi. Turn on your monitor then plug the power supply into a power outlet and the Micro USB port on the Pi (upper right corner of the Pi shown in Figure 5). You have a few steps to perform. The first step is to configure some system-wide settings on the Raspberry Pi. You could get away without doing this, but you may run into problems later if you don't compete these steps. To start, open the Raspberry menu in the upper left corner of the Pi screen. In the menu that appears, select Preferences then select Raspberry Pi Configuration as shown in Figure 6.
 
-{% image "src/images/2016/pi-reminder-06_1.png", "Opening the Raspberry Pi Configuration Utility", "image-full" %}
+<img src="/images/2016/pi-reminder-06_1.png" alt="Opening the Raspberry Pi Configuration Utility" />
 Figure 6 – Opening the Raspberry Pi Configuration Utility
 
 By default, the default Raspbian image only utilizes a part of the SD card's storage (3 GB); if the SD Card you used for your Raspbian installation is larger than 3 GB, you'll need to expand the file system to use the whole disk. If you don't do this, your Pi's storage system may not have enough room to install of the additional software this project utilizes. (editor note: It seems like later versions of Raspbian do this automatically, but you'd better check).
@@ -79,7 +79,7 @@ If you want, use this opportunity to change the host name for the Pi device. In 
 
 As a US-based hacker, I find that the default settings don't work for me. Switch to the Localization tab and check all of the settings exposed there to ensure its properly configured for your locale, time zone and keyboard settings. Click the OK button when you're done to save your changes. Don't be surprised if you're prompted to reboot the Pi.
 
-{% image "src/images/2016/pi-reminder-07_1.png", "Raspberry Pi Configuration Utility", "image-full" %}
+<img src="/images/2016/pi-reminder-07_1.png" alt="Raspberry Pi Configuration Utility" />
 Figure 7 – Raspberry Pi Configuration Utility
 
 Next you'll need to update the Pi's core software and install some additional software needed to communicate with the Unicorn HAT and Google Calendar.
@@ -138,12 +138,12 @@ This creates a folder for the project's code then pulls down the files and extra
 
 Before the project's software can access your Google Calendar, you need to setup a developer account with Google (if you don't already have one) and define an application in the Google Developer Console that makes use of the Google Calendar APIs. Start by opening a browser window and navigating to [https://console.developers.google.com](https://console.developers.google.com){target="_blank"}. Login or create an account then look for the developer console shown in Figure 8.
 
-{% image "src/images/2016/pi-reminder-08_1.png", "Google API Developer Console", "image-full" %}
+<img src="/images/2016/pi-reminder-08_1.png" alt="Google API Developer Console" />
 Figure 8 – Google API Developer Console
 
 Click the link for Calendar API highlighted in the figure and Enable the API then define an application for this project. Once that's done, you'll need to create credentials for your project as shown in Figure 9.
 
-{% image "src/images/2016/pi-reminder-09_1.png", "Google API Application Credentials", "image-full" %}
+<img src="/images/2016/pi-reminder-09_1.png" alt="Google API Application Credentials" />
 Figure 9 – Google API Application Credentials
 
 Once your credentials are ready, click the Download JSON button highlighted in the figure. Download the file to the folder where you extracted the python project files in the previous section (in my example, it's the pi user's home folder in a subfolder called pi_remind (/home/pi/pi_remind)). When you save the file, Google will automatically assign a long file name including the unique identifier for the project. For this project, save the file with the file name client_secret.json.
@@ -163,24 +163,24 @@ sudo python ./remind.py
 
 If everything is setup correctly, the python code will execute and show a screen similar to the one shown in Figure 10.
 
-{% image "src/images/2016/pi-reminder-10_1.png", "Executing the Reminder Code for the First Time", "image-full" %}
+<img src="/images/2016/pi-reminder-10_1.png" alt="Executing the Reminder Code for the First Time" />
 Figure 10 – Executing the Reminder Code for the First Time
 
 At this point, the application will open the default browser and display the page shown in Figure 11.
 
-{% image "src/images/2016/pi-reminder-11_1.png", "Google Account Login Page", "image-full" %}
+<img src="/images/2016/pi-reminder-11_1.png" alt="Google Account Login Page" />
 Figure 11 – Google Account Login Page
 
 Login to your Google account and click the Next button. If you're like me, you probably have multiple Google accounts, so be sure to provide the email address for your primary Google Calendar account.
 
 After you provide your password, the browser will prompt you to authorize the project's Python application to access your calendar as shown in Figure 12. The application name, Pi Reminder in this case, will be the same one you created in the Google Developer Console just a few steps back.
 
-{% image "src/images/2016/pi-reminder-12_1.png", "Google Calendar API Authorization", "image-full" %}
+<img src="/images/2016/pi-reminder-12_1.png" alt="Google Calendar API Authorization" />
 Figure 12 – Google Calendar API Authorization
 
 After you complete the authentication process, the browser will display a page similar to the one shown in Figure 13. At this point you can close the browser window.
 
-{% image "src/images/2016/pi-reminder-13_1.png", "Completed Google Calendar Authorization", "image-full" %}
+<img src="/images/2016/pi-reminder-13_1.png" alt="Completed Google Calendar Authorization" />
 Figure 13 – Completed Google Calendar Authorization
 
 The python application may quit after the authentication process completes, so you may have to restart the python application by executing the following command:  
@@ -190,7 +190,7 @@ The easiest way to execute the command again is to simply press the keyboard's u
 
 At this point, the application should connect to the authorized calendar and start checking for appointments as shown in Figure 14. To see a video of the app in action, see: [https://youtu.be/X111pAaEP-k](https://youtu.be/X111pAaEP-k)Executing the Reminder Code for the First Time.
 
-{% image "src/images/2016/pi-reminder-14_1.png", "Pi Reminder Checking for Appointments", "image-full" %}
+<img src="/images/2016/pi-reminder-14_1.png" alt="Pi Reminder Checking for Appointments" />
 Figure 14 – Pi Reminder Checking for Appointments
 
 ## Configuring Auto Startup

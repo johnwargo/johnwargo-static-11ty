@@ -18,7 +18,7 @@ Here's the text of the message my daughter received:
 
 Here's the screenshot:
 
-{% image "src/images/2024/spam-usps-20240111.png", "An image of a spam text supposedly from the USPS", "image-full" %}
+<img src="/images/2024/spam-usps-20240111.png" alt="An image of a spam text supposedly from the USPS" />
 
 I received a bunch of these over the last few months, but surprisingly every one of them was sent from a non-US telephone number (I didn't keep track, but I think the sender primarily used a 46 country code (Sweden)). It was pretty easy to ignore the messages once I noticed that, but I wonder how many people fell for it anyway. I imagine that most Americans don't get a lot of phone calls from outside of North America, so I bet they thought the 46 at the start of the number was a system number or something like that. 
 

@@ -9,14 +9,14 @@ tags: post
 
 I'm a HUGE music fan, in my car, in the house, or when I'm working, there's always music playing. Having formerly lived near Cleveland, OH, I'm also a big concertgoer and see as many shows as I can. A while back, I signed up for [Bandsintown](https://bandsintown.com){target="_blank"} as a way to know when the bands I'm interested in are going to be performing nearby. I don't use the app much, but I have used it to highlight the bands I like. Recently, I've started getting emails like the following:
 
-{% image "src/images/2017/bandsintown-1.png", "Useless Bandsintown Email", "image-full" %}
+<img src="/images/2017/bandsintown-1.png" alt="Useless Bandsintown Email" />
 Figure 1: Useless Bandsintown Email
 
 When I saw this, I immediately said: “Oh, I wonder what Beth has to announce.” I'd be much happier if they'd just include the message content in the email to me – after all, why send me a message letting me know I have a message and NOT include the message in the message? That makes absolutely no sense and already Bandsintown is delivering a poor user experience UX.
 
 So, I clicked the link to see what Beth had to say and was presented with the following web page:
 
-{% image "src/images/2017/bandsintown-2.png", "Useless Bandsintown Web Page", "image-full" %}
+<img src="/images/2017/bandsintown-2.png" alt="Useless Bandsintown Web Page" />
 Figure 2: Useless Bandsintown Web Page
 
 Apparently I don't get to know what Beth has to say unless I fire up the app and see what her message is. I'm not going to do that. They've lost me as a user.

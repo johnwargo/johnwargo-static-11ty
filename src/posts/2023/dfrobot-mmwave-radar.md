@@ -12,7 +12,7 @@ A couple of months ago, I started planning my Halloween project for this year. I
 
 This year I'm making a sleeping dragon. The first step for this project is to make an interactive lighted sign. I reached out to a designer I've used on [Fiverr](https://fiverr.com/andraeus){target="_blank"} and he quickly drew this up for me:
 
-{% image "src/images/2023/sleeping-dragon-sign-design.jpg", "Sleeping Dragon Sign Design", "image-full" %}
+<img src="/images/2023/sleeping-dragon-sign-design.jpg" alt="Sleeping Dragon Sign Design" />
 
 Next, I sent the design to the folks at [Ponoko](https://ponoko.com/){target="_blank"} to have them LASER cut the design on some acrylic. Finally, I wired up a Microcontroller to some NeoPixels to illuminate the sign.  I'll write more about the sign hardware after I've built an enclosure for it. 
 
@@ -22,7 +22,7 @@ What I want to do with this project, or at least this part of it, is illuminate 
 
 The sensor communicates with a microcontroller (or whatever you want to connect it to) using a serial interface, so you'll need to connect power (V+ and GND) as well as transmit (TX) and receive (RX) connections. Here's an image of my POC configuration:
 
-{% image "src/images/2023/mmwave-hardware.jpg", "image of the mmWave Hardware project", "image-full" %}
+<img src="/images/2023/mmwave-hardware.jpg" alt="image of the mmWave Hardware project" />
 
 To use this sensor, you face the antennas toward the detection area and the SDK offers multiple options for configuring detection range and more. The device was really easy to wire into my project; I'll show you the full hardware build out for this closer to Halloween. Installing the required library and getting it working was very easy as well.
 

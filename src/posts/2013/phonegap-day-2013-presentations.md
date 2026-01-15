@@ -11,7 +11,7 @@ I had a chance to attend PhoneGap Day in Portland this summer. Now that my day j
 
 Here's a picture of the goodie bag they gave all attendees. My favorite gift was the PhoneGap branded cell phone charger thingie. I love that and I was able to score a second bag and therefore get two of them.
 
-{% image "src/images/2013/phonegap-day-gift.png", "Figure 1", "image-full" %}
+<img src="/images/2013/phonegap-day-gift.png" alt="Figure 1" />
 
 There were some very interesting sessions. My favorite session was by Lyza Danger Gardner where she covered PhoneGap Self Defense for Web Devs. It was a fast-paced and very interesting session about the things that a PhoneGap (and Cordova or course) developer must keep in mind while developing web applications for the PhoneGap container. It all made perfect sense as I listened to her speak, but it happened so fast that I know I'm going to have to watch it again to make it sink in. This is an absolute must see for anyone building hybrid applications. You can find the video recording of her session at [https://phonegap.com/blog/2013/10/18/phonegap-self-defense/](https://phonegap.com/blog/2013/10/18/phonegap-self-defense/){target="_blank"}.
 

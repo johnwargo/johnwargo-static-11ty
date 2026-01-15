@@ -14,6 +14,6 @@ I made some enhancements this month to my [Eleventy Post Statistics](https://git
 
 First of all, I added a `avgPostsPerYear` property to the collection to capture that metric; you can see the property in the [sample page](https://eleventy-plugin-post-stats.netlify.app/){target="_blank"}.
 
-{% image "src/images/2023/eleventy-plugin-post-stats-average-posts-per-year.png", "Shows the Average Posts per year metric on the sample page", "image-full" %}. 
+<img src="/images/2023/eleventy-plugin-post-stats-average-posts-per-year.png" alt="Shows the Average Posts per year metric on the sample page" />. 
 
 I also added the [cli-logger](https://npmjs.com/package/cli-logger){target="_blank"} to the plugin. This helps me more easily manage the output to the console. 

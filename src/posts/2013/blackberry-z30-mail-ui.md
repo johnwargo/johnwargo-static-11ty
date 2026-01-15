@@ -13,13 +13,13 @@ Anyway, I do miss the keyboard though. One of the things that has always made th
 
 Anyway, as I've been using the Z30, I've noticed how they don't make it easy to delete messages after you've read them. There's no delete key (because there's no physical keyboard) and they don't expose the delete button in the default UI shown at the bottom-right of the following figure.
 
-{% image "src/images/2013/z30-mail-1.png", "Z30 Mail UI Portrait", "image-full" %}
+<img src="/images/2013/z30-mail-1.png" alt="Z30 Mail UI Portrait" />
 
 If you want to delete a message, you have to tap that three-button more thingie (whatever that is) and select delete from the menu that appears. Inconveniencing, but I'm OK with it. Although I would argue that delete would be used a lot more than the Search button, so they could switch the position of the two and make a LOT of users happier.
 
 As I looked at the screen, it occurred to me that perhaps if I turn the device sideways, the delete button I need so much would appear (since there's much more room in landscape mode). So, I rotated the device then took the screen shot shown below.
 
-{% image "src/images/2013/z30-mail-2.png", "Z30 Mail UI Landscape", "image-full" %}
+<img src="/images/2013/z30-mail-2.png" alt="Z30 Mail UI Landscape" />
 
 Notice that with all of that additional available real estate, all they did was expand the distance between the buttons. What a waste. With all of that extra room, what I expect is that the most used items from the menu will drop down into that lower menu and be available to me in one click instead of two. Nope, they didn't do that.
 

@@ -15,7 +15,7 @@ I don't understand some of the connection requests I get on LinkedIn. I received
 
 > John Hi! Judging from your LinkedIn profile, you have achieved a lot in your field of work. I hope we can chat, and I look forward to our conversation!
 
-{% image "src/images/2024/linkedin-connection-liu.png", "Connection message", "image-full" %}
+<img src="/images/2024/linkedin-connection-liu.png" alt="Connection message" />
 
 Now, my [LinkedIn Profile](https://linkedin.com/in/jmwargo/){target="_blank"} clearly states:
 

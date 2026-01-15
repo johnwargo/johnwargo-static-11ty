@@ -28,7 +28,7 @@
     "eleventy-generate-category-pages": "^0.1.4",
     "eleventy-plugin-date": "^1.0.0",
     "eleventy-plugin-file-list": "^0.0.5",
-    "eleventy-plugin-github-repos": "^0.1.3",
+    "eleventy-plugin-github-repos": "^0.1.7",
     "eleventy-plugin-markdown-page-links": "^0.0.14",
     "eleventy-plugin-post-stats": "^0.2.13",
     "eleventy-plugin-youtube-embed": "^1.13.1",

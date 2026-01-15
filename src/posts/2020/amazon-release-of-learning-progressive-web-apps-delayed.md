@@ -7,7 +7,7 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-{% image "src/images/covers/learning-pwa-160.jpg", "Learning Progressive Web Apps Cover", "image-full" %}
+<img src="/images/covers/learning-pwa-160.jpg" alt="Learning Progressive Web Apps Cover" />
 
 Surprisingly, the Amazon release of [Learning Progressive Web Apps](https://learningpwa.com){target="_blank"} is delayed because of the Coronavirus. Apparently Amazon told publishers they're only accepting shipments of essential items due to the Coronavirus, so it's going to be a few weeks before any Amazon pre-orders ship. 
 

@@ -17,7 +17,7 @@ Then I started thinking about Adobe Brackets. This code editor worked on Windows
 
 I started digging into the Brackets code to see how they'd done it. A while back, a colleague convinced me that Brackets was written in PhoneGap, but in reading around on the blogs it quickly became clear that it was created using the Chromium Embedded Framework ([https://code.google.com/p/chromiumembedded/](https://code.google.com/p/chromiumembedded/){target="_blank"}).
 
-{% image "src/images/2014/cef-site-640.png", "Figure 1", "image-full" %}
+<img src="/images/2014/cef-site-640.png" alt="Figure 1" />
 
 So, I started digging around in the CEF documentation and found a bunch of information. There was an introduction page at [https://code.google.com/p/chromiumembedded/](https://code.google.com/p/chromiumembedded/){target="_blank"}, a tutorial at [https://code.google.com/p/chromiumembedded/wiki/Tutorial](https://code.google.com/p/chromiumembedded/wiki/Tutorial){target="_blank"} and some general usage stuff at [https://code.google.com/p/chromiumembedded/wiki/GeneralUsage](https://code.google.com/p/chromiumembedded/wiki/GeneralUsage){target="_blank"} 
 Nice! I love it when an open source project has actual guides (that's one of the things I love about Apache Cordova).
@@ -33,7 +33,7 @@ Even the Brackets source didn't help me as it's just the source code for the app
   
 Finally, I started searching around again to find some post or article somewhere that told me what I needed to do to make this thing my own. I finally stumbled on an article from Intel at [https://software.intel.com/en-us/html5/blogs/an-html5-project-with-chromium-embedded-framework](https://software.intel.com/en-us/html5/blogs/an-html5-project-with-chromium-embedded-framework){target="_blank"} Here they told me exactly what I needed to do to make the CEF my own – open a configuration file and edit a particular variable to point it to the web application content you want to load.
 
-{% image "src/images/2014/cef-intel-page.png", "Figure 2", "image-full" %}
+<img src="/images/2014/cef-intel-page.png" alt="Figure 2" />
 
 Ah ha! That's what I needed to know. All that other stuff about threads, plugins, callbacks and so on is interesting, and that's information I'll eventually need, but for now I simply need to understand how to get started. All those pages of content and somebody simply forgot to add the important part – how to specify what content is loaded into the browser container.
 

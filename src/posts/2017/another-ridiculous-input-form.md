@@ -9,7 +9,7 @@ tags: post
 
 Welcome to another installment of Stupid Developer Tricks. In this particular instance, I was filling out a form on a particular web site when I encountered the following:
 
-{% image "src/images/2017/ridiculous-form-01.png", "Ridiculous Form", "image-full" %}
+<img src="/images/2017/ridiculous-form-01.png" alt="Ridiculous Form" />
 Figure 1
 
 Apparently the 'form' is a wizard and whomever defined the requirements for this particular form apparently decided that the Next and Cancel buttons (highlighted in the figure) absolutely must be in the exact same place on every pane of the process. Unfortunately, I have a 30 inch monitor, so this doesn't work very well.

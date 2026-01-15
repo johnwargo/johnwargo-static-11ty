@@ -13,7 +13,7 @@ I'm at the BlackBerry World conference this week and I thought it was a good tim
 
 Take a look at the following screen shot; you'll see the warning that it will take from 2 to 3 minutes to load the data for the application. Unfortunately, this delay (and the corresponding warning) happens every single time you load the application (yep, every single time). I don't know about you, but no mobile application should take 2 to 3 minutes to start up; that's completely unacceptable.
 
-{% image "src/images/2011/bb-app-world-app-1.jpg", "BlackBerry World Conference Application Startup Screen", "image-full" %}
+<img src="/images/2011/bb-app-world-app-1.jpg" alt="BlackBerry World Conference Application Startup Screen" />
 Figure 1
 
 Why do that? Why not cache some or all of the data? This approach essentially makes this application unusable. I expect that there's an expectation that you'll leave the application running during the day, but I don't use mobile applications that way. I use the application then escape out so I can recover some memory and not have a bunch of applications running in the background all the time. Steve Job's approach is to deny you an Escape button, so every application suspends when backgrounded, but it's much better (for me anyway) to just let me decide what happens. 
@@ -30,7 +30,7 @@ Somebody wasn't thinking.
 
 One good thing I saw was that the developer coded the application so the 'my schedule' portion of the app doesn't show days where you don't have sessions scheduled. If you take a look at Figure 2, you'll see that it's not showing events for Thursday because I don't have anything scheduled for that day. That's good attention to detail.
 
-{% image "src/images/2011/bb-app-world-app-1.jpg", "My Schedule", "image-full" %}
+<img src="/images/2011/bb-app-world-app-1.jpg" alt="My Schedule" />
 Figure 2
 
 Unfortunately, what they did with this option is the same thing that other vendors have done with other conference apps. When I open the application on Tuesday for example, it should automatically highlight the current day in the schedule. Instead, I have to click on a day or scroll down to a day and press return. If they'd thought about the use cases, they would have realized that if I'm looking at the schedule, there's a high likelihood that I care most about the current day's schedule before any other option.  Don't force me to pick the day every single time I look at the schedule when you know that today's what I'm most likely to need.

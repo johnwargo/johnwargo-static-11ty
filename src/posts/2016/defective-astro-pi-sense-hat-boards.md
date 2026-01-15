@@ -13,7 +13,7 @@ Anyway, I've been having problems with the Sense HAT board, I've purchased two o
 
 Here's the results I got from my second Sense HAT board:
 
-{% image "src/images/2016/pi_sense_hat_output.png", "Astro Pi Sense Hat Output", "image-full" %}
+<img src="/images/2016/pi_sense_hat_output.png" alt="Astro Pi Sense Hat Output" />
 
 That temperature reading? It's in degrees Celsius - can you imagine 140 degrees C?
 
