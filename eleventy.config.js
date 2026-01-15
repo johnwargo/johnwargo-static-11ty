@@ -55,8 +55,6 @@ export default function (eleventyConfig) {
 		}
 	});
 
-	// class: 'image-full'
-
 	const apiKey = process.env.GITHUB_API_KEY;
 	eleventyConfig.addPlugin(githubRepos, {
 		userAccount: 'johnwargo',

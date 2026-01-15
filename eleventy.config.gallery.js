@@ -27,18 +27,20 @@ async function galleryImageShortcode(src, alt) {
     const options = {
         formats: ['jpeg'],
         widths: [GALLERY_IMAGE_WIDTH, lightboxImageWidth],
-        // urlPath: "/gen/",
-        outputDir: './_site/gen/'
+        // urlPath: '/_site/img/',
+        outputDir: './_site/img/',
+        failOnError: true
     }
-
     const genMetadata = await Image(src, options);
     // console.log('\nGenerated Metadata');
     // console.dir(genMetadata);
 
-    return `<a href="${genMetadata.jpeg[1].url}" data-pswp-width="${genMetadata.jpeg[1].width}" 
+    let htmlOutput = `<a href="${genMetadata.jpeg[1].url}" data-pswp-width="${genMetadata.jpeg[1].width}" 
         data-pswp-height="${genMetadata.jpeg[1].height}" target="_blank">
-        <img src="${genMetadata.jpeg[0].url}" alt="${alt}" /></a>`
-        .replace(/(\r\n|\n|\r)/gm, "");
+        <img src="${genMetadata.jpeg[0].url}" alt="${alt}" /></a>`;
+    console.log(htmlOutput);
+
+    return htmlOutput.replace(/(\r\n|\n|\r)/gm, "");
 }
 
 function galleryShortcode(content, name) {
