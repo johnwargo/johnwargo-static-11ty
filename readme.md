@@ -84,6 +84,8 @@ set DEBUG=Eleventy* & npx @11ty/eleventy
 <img src="/images/" alt="" />
 ```
 
+![Image test](/images/2026/11ty-3-upgrade-pr.png)
+
 ### Publications record
 
 ```json
