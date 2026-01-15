@@ -1,5 +1,10 @@
 # Changelog
 
+## 20260115 v0.1.77
+
++ Converted from the borrowed images plugin to built-in image processing
++ Removed Image Gallery support, I couldn't make it work with the native image processing.
+
 ## 20260113 v0.1.76
 
 Upgraded the `eleventy-plugin-github-repos` plugin, adding request caching (`eleventy-fetch`) so when I'm playing around with the site I don't hit the GitHub APIs too frequently.
