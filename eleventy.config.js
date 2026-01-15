@@ -13,8 +13,6 @@ import githubRepos from 'eleventy-plugin-github-repos';
 import pageLinks from 'eleventy-plugin-markdown-page-links';
 import pluginStats from 'eleventy-plugin-post-stats';
 // local plugins
-// import pluginImages from './eleventy.config.images.js';
-// import pluginGallery from "./eleventy.config.gallery.js";
 import pluginImageHeaders from './eleventy.config.headerimage.js';
 // Transforms
 import htmlMinTransform from './src/transforms/html-min.js';
@@ -62,10 +60,7 @@ export default function (eleventyConfig) {
 		cacheRequests: true,
 		cacheDuration: '1d'
 	});
-
-	// eleventyConfig.addPlugin(pluginGallery);
-	// eleventyConfig.addPlugin(pluginImages, { debugMode: false });
-	
+		
 	eleventyConfig.addPlugin(pluginImageHeaders, {
 		dataFileName: categoryDataFile,
 		imageClass: 'image fit'
