@@ -9,6 +9,9 @@
     "type": "git",
     "url": "git+https://github.com/johnwargo/johnwargo-static-11ty"
   },
+  "keywords": [
+    "eleventy"
+  ],
   "bugs": {
     "url": "https://github.com/johnwargo/johnwargo-static-11ty/issues"
   },
@@ -42,8 +45,5 @@
     "rimraf": "^6.1.2",
     "rss-parser": "^3.13.0",
     "sharp": "^0.34.5"
-  },
-  "keywords": [
-    "eleventy"
-  ]
+  }
 }
