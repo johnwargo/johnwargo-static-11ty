@@ -26,6 +26,14 @@ https://youtu.be/NKz0V5vYwB8?si=Gw-L9_2vB_EBNYtp
 
 As I prepared for this Halloween, I decided to kill the whole 8 foot tall pumpkin monster and instead build a 48" tall pedestal for just the pumpkin portion. I also thought about refreshing the code, but I decided to put that off until after Halloween this year. My plan is to migrate the project to an ESP32 device and a web app instead of using the remote control relay device. Stay tuned for details on that one.  Here's some pictures of the project.
 
+{% gallery "sparky-1" %}
+{% galleryImage "/images/2024/flame-throwing-pumpkin-01.jpg", "" %}
+{% galleryImage "/images/2024/flame-throwing-pumpkin-02.jpg", "" %}
+{% galleryImage "/images/2024/flame-throwing-pumpkin-03.jpg", "" %}
+{% galleryImage "/images/2024/flame-throwing-pumpkin-04.jpg", "" %}
+{% galleryImage "/images/2024/flame-throwing-pumpkin-05.jpg", "" %}
+{% endgallery %}
+
 ![A photo of the Flame Throwing Pumpkin project](/images/2024/flame-throwing-pumpkin-01.jpg)
 ![A photo of the Flame Throwing pumpkin project stand under construction](/images/2024/flame-throwing-pumpkin-02.jpg)
 ![a photo of the inside of the stand](/images/2024/flame-throwing-pumpkin-03.jpg)
