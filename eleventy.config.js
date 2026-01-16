@@ -9,6 +9,7 @@ import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 // my plugins
 import fileList from 'eleventy-plugin-file-list';
 import generateCategoryPages from 'eleventy-generate-category-pages';
+import pluginGallery from "./eleventy.config.gallery.js";
 import githubRepos from 'eleventy-plugin-github-repos';
 import pageLinks from 'eleventy-plugin-markdown-page-links';
 import pluginStats from 'eleventy-plugin-post-stats';
@@ -27,6 +28,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(fileList, {
 		targetFolder: 'src/files'
 	});
+	eleventyConfig.addPlugin(pluginGallery);
 	eleventyConfig.addPlugin(pageLinks, {
 		listType: 1,
 		collapsible: true,
@@ -60,12 +62,12 @@ export default function (eleventyConfig) {
 		cacheRequests: true,
 		cacheDuration: '1d'
 	});
-		
+
 	eleventyConfig.addPlugin(pluginImageHeaders, {
 		dataFileName: categoryDataFile,
 		imageClass: 'image fit'
 	});
-	
+
 	eleventyConfig.addPlugin(pluginStats);
 
 	// https://github.com/11ty/eleventy/issues/2301
