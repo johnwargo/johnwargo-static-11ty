@@ -25,11 +25,12 @@ async function galleryImageShortcode(src, alt) {
     let lightboxImageWidth = metadata.width > metadata.height ? LANDSCAPE_LIGHTBOX_IMAGE_WIDTH : PORTRAIT_LIGHTBOX_IMAGE_WIDTH;
 
     const options = {
-        formats: ['jpeg'],
         widths: [GALLERY_IMAGE_WIDTH, lightboxImageWidth],
-        // urlPath: "/gen/",
-        outputDir: './_site/gen/'
+        formats: ['jpeg'],
+        urlPath: "/img/",
+        outputDir: './_site/img/'
     }
+    console.dir(options);
 
     const genMetadata = await Image(src, options);
     console.log('\nGenerated Metadata');
@@ -40,11 +41,26 @@ async function galleryImageShortcode(src, alt) {
     //     <img src="${genMetadata.jpeg[0].url}" alt="${alt}" /></a>`
     //     .replace(/(\r\n|\n|\r)/gm, "");
 
+    let returnVal = `<a href="${genMetadata.jpeg[1].url}" `;
+    returnVal += `data-pswp-width="${genMetadata.jpeg[1].width}" `;
+    returnVal += `data-pswp-height="${genMetadata.jpeg[1].height}" `;
+    returnVal += 'target="_blank">';
+    returnVal += `<img src="${genMetadata.jpeg[0].url}" alt="${alt}" />`;
+    returnVal += '</a>';
+
     // Image link
-    returnVal = `[![${alt}](${genMetadata.jpeg[0].url})](${genMetadata.jpeg[1].url}){data-pswp-width="${genMetadata.jpeg[1].width}" data-pswp-height="${genMetadata.jpeg[1].height}" target="_blank"}`;
+    // let returnVal = '[';
+    // returnVal += `![${alt}](${genMetadata.jpeg[0].url})`;
+    // returnVal += '](';
+    // returnVal += genMetadata.jpeg[1].url;
+    // returnVal += '){';
+    // returnVal += 'target="_blank" ';
+    // returnVal += `data-pswp-width="${genMetadata.jpeg[1].width}" `;
+    // returnVal += `data-pswp-height="${genMetadata.jpeg[1].height}"`;
+    // returnVal += '}';
+
     console.log(returnVal);
     return returnVal.replace(/(\r\n|\n|\r)/gm, "");
-
 }
 
 function galleryShortcode(content, name) {
