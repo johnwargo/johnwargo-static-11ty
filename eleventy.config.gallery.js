@@ -6,6 +6,8 @@
 // https://www.bash.lk/posts/tech/1-elventy-image-gallery/
 // https://photoswipe.com/getting-started/
 
+// https://github.com/11ty/eleventy/issues/1784
+
 import sharp from 'sharp';
 import Image from '@11ty/eleventy-img';
 
