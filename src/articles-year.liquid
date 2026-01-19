@@ -7,3 +7,25 @@ headerImageAltText: An image of folders fanned out
 headerImageAttribution: Photo by <a href="https://unsplash.com/@aquadrata">Iwona Castiello d'Antonio</a> on <a href="https://unsplash.com/photos/vXwXZS5_HgY">Unsplash</a>
 ---
 
+
+{%- if collections.postStats.postCount > 0 %}
+
+  {% assign years = collections.postStats.years | reverse%}
+
+  <p>This site hosts articles published over <strong>{{ years.length }} years</strong>; click one of the years in the table below to view all posts for the selected year.</p>
+
+  {% if years.length > 0 %}
+    <table>
+      {% tablerow yearData in years cols:2 %}
+        <h4>
+          <a href="{{ '/' | htmlBaseUrl }}year/{{ yearData.year | slugify }}/">{{ yearData.year }}</a>
+        </h4>
+        {{ yearData.postCount }} article{%- if yearData.postCount > 1 %}s{% endif %}, aith an average of {{ yearData.avgDays }} days between each.
+      {% endtablerow %}
+    </table>  
+  {% else %}
+      <p>No year data to display (this should never happen).</p>
+  {% endif %} 
+{%- else %}
+  <p><strong>No data to display</strong></p>
+{%- endif %}
