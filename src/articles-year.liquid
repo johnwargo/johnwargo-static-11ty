@@ -20,7 +20,7 @@ headerImageAttribution: Photo by <a href="https://unsplash.com/@aquadrata">Iwona
         <h4>
           <a href="{{ '/' | htmlBaseUrl }}year/{{ yearData.year | slugify }}/">{{ yearData.year }}</a>
         </h4>
-        {{ yearData.postCount }} article{%- if yearData.postCount > 1 %}s{% endif %}, aith an average of {{ yearData.avgDays }} days between each.
+        {{ yearData.postCount }} article{%- if yearData.postCount > 1 %}s{% endif %}, with an average of {{ yearData.avgDays }} days between.
       {% endtablerow %}
     </table>  
   {% else %}
