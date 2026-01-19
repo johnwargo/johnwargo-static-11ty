@@ -21,47 +21,26 @@ async function galleryImageShortcode(src, alt) {
     console.log(`[${PLUGIN_NAME}] ${src}`);
 
     const metadata = await sharp(src).metadata();
-    // console.log('\nMetadata');
-    // console.dir(metadata);
-
     let lightboxImageWidth = metadata.width > metadata.height ? LANDSCAPE_LIGHTBOX_IMAGE_WIDTH : PORTRAIT_LIGHTBOX_IMAGE_WIDTH;
 
     const options = {
         widths: [GALLERY_IMAGE_WIDTH, lightboxImageWidth],
         formats: ['jpeg'],
-        urlPath: "/img/",
+        // urlPath: "/img/",
         outputDir: './_site/img/'
     }
-    console.dir(options);
-
+    
     const genMetadata = await Image(src, options);
-    console.log('\nGenerated Metadata');
-    console.dir(genMetadata);
 
-    // return `<a href="${genMetadata.jpeg[1].url}" data-pswp-width="${genMetadata.jpeg[1].width}" 
-    //     data-pswp-height="${genMetadata.jpeg[1].height}" target="_blank">
-    //     <img src="${genMetadata.jpeg[0].url}" alt="${alt}" /></a>`
-    //     .replace(/(\r\n|\n|\r)/gm, "");
-
+    // Refactored this
+    // return `<a href="${genMetadata.jpeg[1].url}" data-pswp-width="${genMetadata.jpeg[1].width}" data-pswp-height="${genMetadata.jpeg[1].height}" target="_blank"><img src="${genMetadata.jpeg[0].url}" alt="${alt}" /></a>`.replace(/(\r\n|\n|\r)/gm, "");
+    // to this so it would be easier to read during this troubleshooting
     let returnVal = `<a href="${genMetadata.jpeg[1].url}" `;
     returnVal += `data-pswp-width="${genMetadata.jpeg[1].width}" `;
     returnVal += `data-pswp-height="${genMetadata.jpeg[1].height}" `;
     returnVal += 'target="_blank">';
-    returnVal += `<img src="${genMetadata.jpeg[0].url}" alt="${alt}" />`;
+    returnVal += `<img src="${genMetadata.jpeg[0].url}" alt="${alt}" eleventy:ignore />`;
     returnVal += '</a>';
-
-    // Image link
-    // let returnVal = '[';
-    // returnVal += `![${alt}](${genMetadata.jpeg[0].url})`;
-    // returnVal += '](';
-    // returnVal += genMetadata.jpeg[1].url;
-    // returnVal += '){';
-    // returnVal += 'target="_blank" ';
-    // returnVal += `data-pswp-width="${genMetadata.jpeg[1].width}" `;
-    // returnVal += `data-pswp-height="${genMetadata.jpeg[1].height}"`;
-    // returnVal += '}';
-
-    console.log(returnVal);
     return returnVal.replace(/(\r\n|\n|\r)/gm, "");
 }
 
