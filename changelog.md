@@ -1,5 +1,9 @@
 # Changelog
 
+## 20260119 v0.1.78
+
+With help from the 11ty Discord, fixed the issues with the Image Gallery plugin, so galleries display correctly now.
+
 ## 20260115 v0.1.77
 
 + Converted from the borrowed images plugin to built-in image processing
