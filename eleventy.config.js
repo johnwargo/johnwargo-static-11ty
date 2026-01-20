@@ -109,6 +109,23 @@ export default function (eleventyConfig) {
 		});
 	});
 
+	eleventyConfig.addCollection("postsByYear", collections => {
+		// Filter posts and sort by date descending
+		const posts = collections.getFilteredByTag("post").reverse();
+		const postsByYear = posts.reduce((postsByYear, post) => {
+			const year = post.date.getFullYear();
+			// Group posts by year
+			return {
+				...postsByYear,
+				[year]: [...(postsByYear[year] || []), post]
+			};
+		}, {});
+
+		// Convert the object of years into an array of [year, posts] tuples,
+		// which makes it easier to iterate over in Nunjucks.
+		return Object.entries(postsByYear).reverse(); // Reverse for newest years first
+	});
+
 	eleventyConfig.addShortcode('GetKeywords', categories => {
 		return categories.join(', ');
 	});

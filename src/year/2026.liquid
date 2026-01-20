@@ -1,0 +1,22 @@
+---
+layout: generic
+title: 2026
+year: 2026
+---
+
+<p>Articles published in the year <strong>{{ year }}</strong>:</p>
+
+{% assign yearData = postsByYear[year] %}
+
+{%- if yearData.length > 0 %}
+  <ul>
+    {%- for post in yearData %}
+    <li>
+      <a href="{{ post.url | htmlBaseUrl }}">{{ post.data.title }}</a>
+      <span class="post-date">({{ post.date | date: "%B %d, %Y" }})</span>
+    </li>
+    {%- endfor %}
+  </ul>
+{%- else %}
+  <p><strong>No articles found for the year {{ year }}.</strong></p>
+{%- endif %}
