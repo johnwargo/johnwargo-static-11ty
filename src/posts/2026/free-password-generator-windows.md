@@ -1,5 +1,5 @@
 ---
-title: Password Generator for Windows
+title: Free Password Generator for Windows
 description: 
 date: 2026-01-25
 showCoffee: true
