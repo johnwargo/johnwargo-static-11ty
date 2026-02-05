@@ -1,14 +1,21 @@
 ---
 title: Biscuit Joiner Jig
-description: 
+description: I recently purchased a new table saw and decided to create a
+  plywood cover for it. To ensure a secure assembly, I used biscuits to connect
+  the legs to the top. Since working with a large piece of plywood posed
+  challenges, I designed a 3D printed jig to help with cutting biscuit slots
+  accurately. The jig has clamping pads and a guide for alignment, making the
+  process easier and more reliable. Overall, the jig provided a solid solution
+  for cutting biscuit slots in the plywood cover for my table saw.
 date: 2026-02-04
 showCoffee: true
-headerImage: 
-headerImageAltText: 
-headerImageAttribution: 
+headerImage: null
+headerImageAltText: null
+headerImageAttribution: null
 categories:
   - Woodworking
 timestamp: 2026-02-05T01:26:43.041Z
+generatedDescription: true
 ---
 
 Back in September, I purchased a new table saw for my workshop. I have a really small shop, so for the one I replaced, I created a plywood top for it so I could use the saw for storage when I wasn't using it. I recently decided to do the same thing for the new saw; here's a picture of the result.
