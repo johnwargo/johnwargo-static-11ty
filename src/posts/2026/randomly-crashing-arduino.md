@@ -23,7 +23,7 @@ I previously had a divide by zero error in the code, so when this random rebooti
 
 Next, I started looking for other places the sketch could crash and, fortunately, I found it.
 
-My friend wanted to narrow the range of throttle values that drove the LED gauge. The ESP32 device running the sketch measures analog voltages in a range from 0 to 4096, but for a variety of reasons (that aren't important now) we only card about values between 450 and 2000 as shown below:
+My friend wanted to narrow the range of throttle values that drove the LED gauge. The ESP32 device running the sketch measures analog voltages in a range from 0 to 4096, but for a variety of reasons (that aren't important now) we only cared about values between 450 and 2000 as shown below:
 
 ```c
 #define NUM_THROTTLE_LEDS 15
