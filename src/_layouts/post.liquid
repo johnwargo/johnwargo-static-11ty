@@ -19,11 +19,8 @@ layout: generic
   {% endunless %}
   {% endfor %}
 </p>
-
 {% pageLinks %}
-
 {{ content }}
-
 <hr />
 {% if nextPost %}
 <p>Next Post:
@@ -34,8 +31,4 @@ layout: generic
 <p>Previous Post:
   <a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a>
 </p>
-{% endif %}
-
-{% if showCoffee %}
-{% include "coffee.html" %}
 {% endif %}
