@@ -153,7 +153,7 @@
   },
   {
     "category": "Miscellaneous",
-    "count": 151,
+    "count": 152,
     "description": "Posts that didn't fit in any other categories.",
     "imageFilePath": "/images/headers/header-misc.jpg",
     "imageAltText": "random bands of color",
@@ -185,7 +185,7 @@
   },
   {
     "category": "Phishing",
-    "count": 13,
+    "count": 14,
     "description": "Articles describing Phishing attacks I've seen or received.",
     "imageFilePath": "/images/headers/header-phishing.png",
     "imageAltText": "Image of a fishing hook lifting an email envelope",
