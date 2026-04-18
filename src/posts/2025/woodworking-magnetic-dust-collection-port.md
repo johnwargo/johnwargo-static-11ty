@@ -1,6 +1,6 @@
 ---
 title: Magnetic Dust Collection Port
-description: 
+description: Describes a magnetic dust collection port I created to grab sawdust on many of my cast iron topped tools.
 date: 2025-06-28
 showCoffee: true
 headerImage: 
@@ -10,6 +10,8 @@ categories:
   - Woodworking
 timestamp: 2025-06-28T19:19:05.383Z
 ---
+
+> **Note:** I moved all my woodworking posts to my new woodworking blog at [fumblyworkshop.com](https://fumblyworkshop.com){target="_blank"}.
 
 Dust collection is a pretty big problem in my workshop; I've ignored it for a long time, but I decided I had to do something about it. My router table has built-in dust collection under the table and in the fence, but if I'm not using the fence, I make quite a mess in my workshop.
 

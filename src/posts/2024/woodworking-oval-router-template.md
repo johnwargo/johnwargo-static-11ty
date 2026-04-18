@@ -1,6 +1,6 @@
 ---
 title: Oval Router Template
-description: 
+description: Describes a template I created which made it easy for me to route an opening in an owl house I built.
 date: 2024-07-14
 showCoffee: true
 headerImage: 
@@ -11,6 +11,8 @@ categories:
   - 3D Printing
 timestamp: 2024-07-14T12:41:17.064Z
 ---
+
+> **Note:** I moved all my woodworking posts to my new woodworking blog at [fumblyworkshop.com](https://fumblyworkshop.com){target="_blank"}.
 
 Over the US 4th of July holiday, we were hanging around with family when my sister in law mentioned that she wanted to get an Owl House for her back yard in order to attract an owl to live in her yard. I'd never made an Owl House before, so I quickly volunteered to make one for her. 
 

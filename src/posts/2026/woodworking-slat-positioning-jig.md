@@ -11,6 +11,8 @@ categories:
 timestamp: 2026-02-03T22:42:01.836Z
 ---
 
+> **Note:** I moved all my woodworking posts to my new woodworking blog at [fumblyworkshop.com](https://fumblyworkshop.com){target="_blank"}.
+
 I recently build a love seat/bench for my driveway using plans I purchased from Rockler. I made the bench out of Cypress wood so I wouldn't have to finish it, it would age naturally in the elements. Here's the bench:
 
 ![An image of the completed bench](/images/2026/slat-positioning-jig-01.jpg)

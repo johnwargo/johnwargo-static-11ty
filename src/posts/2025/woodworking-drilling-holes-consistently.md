@@ -11,6 +11,8 @@ categories:
 timestamp: 2025-07-13T17:46:03.444Z
 ---
 
+> **Note:** I moved all my woodworking posts to my new woodworking blog at [fumblyworkshop.com](https://fumblyworkshop.com){target="_blank"}.
+
 Last week, I competed construction of the Rockler [Rockler Modern Patio Love Seat Plan with Templates](https://www.rockler.com/rockler-modern-patio-love-seat-plan-with-templates){target="_blank"} project. We have a couple of iron chairs next to our garage that we use all the time, and I was looking to replace them with something more comfortable and much better looking. Here's the completed project; I used Cypress wood for my version of it:
 
 <img src="/images/2025/loveseat-01.jpg" alt="An image of the completed love seat" />

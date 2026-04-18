@@ -1,6 +1,6 @@
 ---
 title: Cloned Tool Shopping
-description: 
+description: There's a lot of crappy cloned tools out there ready for the unsuspecting woodworker.
 date: 2024-07-24
 showCoffee: true
 headerImage: 
@@ -10,6 +10,8 @@ categories:
   - Woodworking
 timestamp: 2024-07-24T23:26:59.645Z
 ---
+
+> **Note:** I moved all my woodworking posts to my new woodworking blog at [fumblyworkshop.com](https://fumblyworkshop.com){target="_blank"}.
 
 As you probably know from this site, I'm a geek and a software developer. I'm also a woodworker and it feels like I'm going to pull in more woodworker stories this year - mostly because I've been doing more woodworking than coding lately.
 

@@ -18,6 +18,8 @@ timestamp: 2026-02-05T01:26:43.041Z
 generatedDescription: true
 ---
 
+> **Note:** I moved all my woodworking posts to my new woodworking blog at [fumblyworkshop.com](https://fumblyworkshop.com){target="_blank"}.
+
 Back in September, I purchased a new table saw for my workshop. I have a really small shop, so for the one I replaced, I created a plywood top for it so I could use the saw for storage when I wasn't using it. I recently decided to do the same thing for the new saw; here's a picture of the result.
 
 ![An image of the table saw cover](/images/2026/biscuit-joiner-jig-01.jpg)

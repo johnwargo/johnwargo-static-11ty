@@ -1,6 +1,6 @@
 ---
 title: Spacing Slats Evenly
-description: 
+description: Describes a jig I created that allowed me to easly space slats on a bench I built.
 date: 2025-07-16
 showCoffee: true
 headerImage: 
@@ -10,6 +10,8 @@ categories:
   - Woodworking
 timestamp: 2025-07-16T11:24:54.999Z
 ---
+
+> **Note:** I moved all my woodworking posts to my new woodworking blog at [fumblyworkshop.com](https://fumblyworkshop.com){target="_blank"}.
 
 When I built the love seat I described in my [previous post](/posts/2025/woodworking-drilling-holes-consistently/){target="_blank"}, one of the assembly tasks for the seat was to screw slats to the frame spaces a quarter inch apart. Since each slat was 46 inches wide, I had to come up with a unique approach to doing this consistently with only a single pair of hands.
 
