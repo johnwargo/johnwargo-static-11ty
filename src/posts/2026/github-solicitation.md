@@ -52,3 +52,7 @@ First of all, the `replyto` address  (`topcodebeast53@gmail.com`) doesn't match 
 Next, I checked out the worldtechglobal dot site, well, um site. It doesn't exist. Now, it's possible, but not likely that the domain's used solely for email, but if I worked for a reputable company, why wouldn't there be a web presence associated with the email domain?
 
 Anyway, I'm not responding to the email and I've blocked the sender address. You should stay away from this on in my opinion. 
+
+## Postscript
+
+I received another email from James today, but it was from a `worldtechglobal.website` email address except from `worldtechglobal.site`. Why would anyone fall for this? There's no way I'm tarnishing my reputation by working with this guy, but why send me two messages from different addresses? Because he's a scammer.
