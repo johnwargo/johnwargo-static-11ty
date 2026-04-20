@@ -1,14 +1,15 @@
 ---
 title: Really Stupid Phishing Attempt
-description: 
+description: I got a clearly phishing email pretending to be a password reset notice for my domain. It was easy to spot because it used my domain in a way that didn’t match how my hosting actually works, had no branding or personal greeting, and the links pointed to a completely unrelated URL.
 date: 2026-04-07
 showCoffee: true
-headerImage: 
-headerImageAltText: 
-headerImageAttribution: 
+headerImage: null
+headerImageAltText: null
+headerImageAttribution: null
 categories:
   - Phishing
 timestamp: 2026-04-07T20:56:48.986Z
+generatedDescription: true
 ---
 
 Received a really stupid phishing message today. Here's the message content with my personal email domain replaced with `mydomain`:

@@ -1,15 +1,16 @@
 ---
 title: Inappropriate GitHub Solicitation
-description: 
+description: I got a suspicious email from someone named James Ferry proposing a “partnership” where I’d use my profile to land US jobs while he did the work and we’d split the money. At first it just seemed shady and unprofessional, but then I noticed red flags.
 date: 2026-04-04
 showCoffee: true
-headerImage: 
-headerImageAltText: 
-headerImageAttribution: 
+headerImage: null
+headerImageAltText: null
+headerImageAttribution: null
 categories:
   - Miscellaneous
   - Phishing
 timestamp: 2026-04-04T13:24:17.490Z
+generatedDescription: true
 ---
 
 I received a few emails like the following recently:

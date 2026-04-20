@@ -1,15 +1,16 @@
 ---
 title: Eleventy Generate Posts Utility Updates
-description: 
+description: I updated my Eleventy Generate Posts utility after the random-word API it depended on stopped working. I switched to a new API, cleaned up a few things, and added an option to write timestamps to front matter in version 0.0.7.
 date: 2026-03-20
 showCoffee: true
-headerImage: 
-headerImageAltText: 
-headerImageAttribution: 
+headerImage: null
+headerImageAltText: null
+headerImageAttribution: null
 categories:
   - Eleventy
   - Node.js
 timestamp: 2026-03-20T23:29:27.627Z
+generatedDescription: true
 ---
 
 I'm building a new site that I plan to launch soon. As part of the development process, I wanted to load the site with a bunch of posts, so I turned to my handy dandy [Eleventy Generate Posts](https://www.npmjs.com/package/eleventy-generate-posts){target="_blank"} to do the job for me. Unfortunately, the API I used in the utility to generate post titles using random words was no longer available. 

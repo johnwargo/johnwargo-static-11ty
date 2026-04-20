@@ -3,9 +3,7 @@ title: Eleventy Require Not Defined in ES Module Scope
 description: "I recently published a new Eleventy plugin that generates a list
   of links from the current page. However, when I tried to implement it on my
   site, which was still running on Eleventy 2.x, I ran into module problems.
-  After upgrading to Eleventy 3.x, I still encountered errors. It wasn't until I sought help from the
-  Eleventy Discord community that I realized I had missed fixing `require`
-  statements within my site's modules and global data files."
+  After upgrading to Eleventy 3.x, I still encountered errors."
 date: 2026-01-11
 showCoffee: true
 headerImage: null

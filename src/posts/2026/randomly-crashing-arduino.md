@@ -1,14 +1,15 @@
 ---
 title: Randomly Crashing An Arduino
-description: 
+description: I was building a NeoPixel throttle gauge for an Autocross car and kept running into random Arduino resets. After debugging, I discovered that the problem was a stupid developer trick, allowing the loop index to drop below zero.
 date: 2026-02-24
 showCoffee: true
-headerImage: 
-headerImageAltText: 
-headerImageAttribution: 
+headerImage: null
+headerImageAltText: null
+headerImageAttribution: null
 categories:
   - Internet of Things (IoT)
 timestamp: 2026-02-24T23:16:45.040Z
+generatedDescription: true
 ---
 
 I'm helping a friend build a NeoPixel-based throttle gauge for his Autocross race car. He records video of all his runs and wants the gauge to show in the recording. For a variety of reasons, we've been plugging away at this project for months and I've been struggling to complete it. I designed a custom circuit board for the gauge and my friend designed a custom enclosure for it. The most difficult parts of this project is debugging an Arduino-based solution inside a race car in real time. 

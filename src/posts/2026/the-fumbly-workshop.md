@@ -1,14 +1,16 @@
 ---
 title: The Fumbly Workshop
-description: 
+description: I’ve been spending more time on woodworking than tech lately, so I
+  launched a separate site for those posts called **The Fumbly Workshop**.
 date: 2026-04-05
 showCoffee: true
-headerImage: 
-headerImageAltText: 
-headerImageAttribution: 
+headerImage: null
+headerImageAltText: null
+headerImageAttribution: null
 categories:
   - Woodworking
 timestamp: 2026-04-05T10:37:23.051Z
+generatedDescription: true
 ---
 
 Lately, I spent more time working on woodworking projects than technology projects. I found that I needed to spend more time moving around rather than sitting at my desk typing. Starting back in 2024, I started adding woodworking posts to this site, talking about projects I built or cool jigs I created using my 3D printer. 

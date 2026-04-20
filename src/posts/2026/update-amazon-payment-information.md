@@ -1,13 +1,12 @@
 ---
 title: Update Amazon Payment Information Scam
-description: I received a phishing email that looked very real at first,
-  claiming to be from Amazon and asking me to update my payment information.
-  However, upon closer inspection, I noticed several red flags that indicated it
-  was fake. The email had a confusing mix of messages, such as locking my
-  account but also saying I could ignore the email. The reply-to email address
-  was not from Amazon, and the email even included a fake copyright notice. It's
-  important to be cautious and not click on any links in suspicious emails like
-  this.
+description: I got a phishing email that looked very convincing on my phone, but
+  once I read it closely I saw it was fake. The subject claimed I needed to
+  update my Amazon payment information, while the body said my account was
+  locked for unusual sign-in activity and then oddly told me I could ignore the
+  email. I also noticed the reply-to address was clearly not Amazon, and the
+  fake copyright notice at the bottom was another giveaway. The main takeaway is
+  to be cautious and never click links in suspicious emails.
 date: 2026-04-19
 showCoffee: true
 headerImage: null

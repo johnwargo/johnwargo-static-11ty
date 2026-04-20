@@ -1,14 +1,19 @@
 ---
 title: Robinhood Withdrawal Attempt Detected
-description: 
+description: I received a phishing email that pretended to be from Robinhood and
+  warned me about a withdrawal attempt, urging me to call a phone number to
+  “take action.” It looked suspicious because I don’t even have a Robinhood
+  account, the sender was a Brazilian wireless provider email address, and the
+  phone number was formatted to target non-U.S. users.
 date: 2026-01-05
 showCoffee: true
-headerImage: 
-headerImageAltText: 
-headerImageAttribution: 
+headerImage: null
+headerImageAltText: null
+headerImageAttribution: null
 categories:
   - Phishing
 timestamp: 2026-01-05T12:05:38.744Z
+generatedDescription: true
 ---
 
 Received a simple phishing email today; this one's interesting because the scammers sending this email avoided many sophisticated ways to make this email look legitimate and simply pushed me to call a number where they'll supposedly help me resolve the issue. 

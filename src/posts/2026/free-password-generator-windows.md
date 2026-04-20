@@ -1,15 +1,15 @@
 ---
 title: Free Password Generator for Windows
-description: 
-date: 2026-01-25
+description: I built a simple Windows Password Generator app for my PC because I wanted an easy way to create passwords outside of my browser. The app lets me choose the password length and other options, then generate a new password with one click.
 showCoffee: true
-headerImage: 
-headerImageAltText: 
-headerImageAttribution: 
+headerImage: null
+headerImageAltText: null
+headerImageAttribution: null
 categories:
   - Delphi
   - Microsoft Windows
 timestamp: 2026-01-25T21:35:28.511Z
+generatedDescription: true
 ---
 
 While I sat around the house waiting for Winter Storm Fern to hit us, I decided to spend some time finishing a simple Windows application I started a while back; a simple Password Generator for Windows. 
