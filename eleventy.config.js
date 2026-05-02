@@ -16,8 +16,8 @@ import pluginStats from 'eleventy-plugin-post-stats';
 // local plugins
 import pluginImageHeaders from './eleventy.config.headerimage.js';
 // Transforms
-import htmlMinify from './src/transforms/transform-minify.js';
-import htmlPrettify from './src/transforms/transform-prettify.js';
+import htmlMinify from './transforms/transform-minify.js';
+import htmlPrettify from './transforms/transform-prettify.js';
 
 const isProduction = process.env.NODE_ENV === 'production';
 const categoryDataFile = 'categoryData.json';
