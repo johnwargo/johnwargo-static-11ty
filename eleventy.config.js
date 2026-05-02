@@ -228,7 +228,7 @@ export default function (eleventyConfig) {
 		eleventyConfig.addPassthroughCopy(path);
 	});
 
-		if (isProduction) {
+	if (isProduction) {
 		// Only minify HTML if we are in production
 		eleventyConfig.addTransform('txHtmlMinify', htmlMinify);
 	} else {
