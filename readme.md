@@ -10,6 +10,7 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 - [x] Implement Fetch plugin
 - [ ] Search page - focus on input field on load
 - [ ] Fix Google analytics stats, they seem off
+- [ ] Figure out how to cut down copying all image files to `_site`
 
 ## The Site at Launch
 

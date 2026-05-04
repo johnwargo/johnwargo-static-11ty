@@ -1,8 +1,10 @@
 # Posts
 
-- [ ] Write about prettify/minify
+- [ ] Adding maps with markers to an 11ty site
+- [ ] Geocoder CLI and what it means to community development (two parts)
+- [ ] Prettify/minify in an 11ty site
+- [ ] NeoPixel strip circuit board
 - [ ] Orbits kit
-- [ ] NeoPixel strip (I think I did this one already)
 - [ ] Thing Pulse
 - [ ] 
 - [ ] 
