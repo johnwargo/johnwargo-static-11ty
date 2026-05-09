@@ -9,12 +9,12 @@ import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 // my plugins
 import fileList from 'eleventy-plugin-file-list';
 import generateCategoryPages from 'eleventy-generate-category-pages';
-import pluginGallery from "./eleventy.config.gallery.js";
 import githubRepos from 'eleventy-plugin-github-repos';
 import pageLinks from 'eleventy-plugin-markdown-page-links';
 import pluginStats from 'eleventy-plugin-post-stats';
 // local plugins
-import pluginImageHeaders from './eleventy.config.headerimage.js';
+import pluginGallery from "./.eleventy.gallery.js";
+import pluginImageHeaders from './.eleventy.headerimage.js';
 // Transforms
 import htmlMinify from './transforms/transform-minify.js';
 import htmlPrettify from './transforms/transform-prettify.js';
