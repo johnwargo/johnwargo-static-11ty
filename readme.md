@@ -9,8 +9,10 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 - [x] Swap out image library for internal support: https://www.aleksandrhovhannisyan.com/blog/eleventy-image-transform/
 - [x] Implement Fetch plugin
 - [ ] Search page - focus on input field on load
+  - [ ] Or replace with the one on Breakfast Quest
 - [ ] Fix Google analytics stats, they seem off
 - [ ] Figure out how to cut down copying all image files to `_site`
+- [ ] Newsletter on https://buttondown.com/
 
 ## The Site at Launch
 
