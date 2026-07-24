@@ -21,7 +21,7 @@
 			"{% galleryImage \"src/images/\", \"\" %}",
 			"{% endgallery %}"
 		],
-		"description": "Image Tag"
+		"description": "Image Gallery"
 	},
 	"Image": {
 		"scope": "markdown, liquid",

@@ -89,6 +89,11 @@ set DEBUG=Eleventy* & npx @11ty/eleventy
 
 ![Image test](/images/2026/11ty-3-upgrade-pr.png)
 
+### Image Caption
+
+{% imageCaption "/images/2026/" "" %}
+{% imageReference "/images/2026/" %}
+
 ### Publications record
 
 ```json

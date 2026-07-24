@@ -23,6 +23,12 @@
     width: min(25rem, 100%);
 }
 
+.caption {
+  margin-top: -1.0rem;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
 @media (max-width: 900px) {
     .grid .content {
         grid-column: span 1;

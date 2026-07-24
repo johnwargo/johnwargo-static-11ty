@@ -10,6 +10,7 @@ import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 import fileList from 'eleventy-plugin-file-list';
 import generateCategoryPages from 'eleventy-generate-category-pages';
 import githubRepos from 'eleventy-plugin-github-repos';
+import imageCaptionPlugin from 'eleventy-plugin-image-caption';
 import pageLinks from 'eleventy-plugin-markdown-page-links';
 import pluginStats from 'eleventy-plugin-post-stats';
 // local plugins
@@ -29,6 +30,7 @@ export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(fileList, {
 		targetFolder: 'src/files'
 	});
+	eleventyConfig.addPlugin(imageCaptionPlugin);
 	eleventyConfig.addPlugin(pluginGallery);
 	eleventyConfig.addPlugin(pageLinks, {
 		listType: 1,
