@@ -23,11 +23,11 @@ layout: generic
 {% pageLinks %}
 {{ content }}
 <hr />
-<p>Next and/or Previous Posts<p>
 {% if nextPost %}
   <a href="{{ nextPost.url }}" class="button primary">&lt;&lt;&nbsp;{{ nextPost.data.title }}</a>
 {% endif %}
 {% if previousPost %}
   <a href="{{ previousPost.url }}" class="button primary">{{ previousPost.data.title }}&nbsp;&gt;&gt;</a>
 {% endif %}
+<br />
 <br />
