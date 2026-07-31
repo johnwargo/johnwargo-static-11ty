@@ -31,22 +31,22 @@ Let me show you some examples...
 Below is a picture from a recent vacation, to caption it with a label and image number, all I have to do is add a liquid tag immediately following the picture:
 
 {% highlight liquid %}
-{% imageCaption "/images/2026/vacation-feet.jpg" "Vacationing Feet" %}
+{% imageCaption "vacationFeet" "Vacationing Feet" %}
 {% endhighlight %}
 
 The plugin adds a paragraph tag with a label, number, and provided caption.
 
 ![vacation feet](/images/2026/vacation-feet.jpg)
-{% imageCaption "/images/2026/vacation-feet.jpg" "Vacationing Feet" %}
+{% imageCaption "vacationFeet" "Vacationing Feet" %}
 
 Say for example that I want to refer to an image later in the document. To do that, add a different shortcode:
 
 {% highlight liquid %}
-{% imageReference "/images/2026/vacation-feet.jpg" %}
+{% imageReference "vacationFeet" %}
 {% endhighlight %}
 
 This shortcode returns the label and image number for the specified image file. Here's an example:
 
-> Yes, the feet you see in {% imageReference "/images/2026/vacation-feet.jpg" %} are mine.
+> Yes, the feet you see in {% imageReference "vacationFeet" %} are mine.
 
 The plugin has a couple of small limitations, but it works really well within those limitations. For me, this plugin is most useful for tutorials, especially long ones, where you may want to refer to an image later on a page and not need to describe it to the reader, just use an image caption and reference and you're all set. 
