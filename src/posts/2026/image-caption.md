@@ -50,3 +50,9 @@ This shortcode returns the label and image number for the specified image file. 
 > Yes, the feet you see in {% imageReference "vacationFeet" %} are mine.
 
 The plugin has a couple of small limitations, but it works really well within those limitations. For me, this plugin is most useful for tutorials, especially long ones, where you may want to refer to an image later on a page and not need to describe it to the reader, just use an image caption and reference and you're all set. 
+
+## Postscript
+
+After I published the plugin, I realized that I made a mistake in the original implementation requiring the image file path as the index, you can use anything for that parameter, as long as its unique per image caption. I published an update that fixes the docs (`readme.md`) to reflect that. 
+
+I also realized that not everybody will want to reference the image from elsewhere in the document. For that reason I'll publish a 'simple' plugin that only captions and takes a simpler set of parameters in the shortcode. Stay tuned for that one.
