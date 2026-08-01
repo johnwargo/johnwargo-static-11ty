@@ -1,6 +1,6 @@
 ---
 title: Eleventy Auto-numbering Image Captions
-description: 
+description: I published an Eleventy (11ty) plugin that generates image captions on a page and auto numbers the image label. The plugin also delivers a shortcode you can use to refer to an image by index elsewhere on the page.
 date: 2026-07-24
 showCoffee: true
 headerImage: 
