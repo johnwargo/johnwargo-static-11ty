@@ -24,10 +24,10 @@ layout: generic
 {{ content }}
 <hr />
 {% if nextPost %}
-  <a href="{{ nextPost.url }}" class="button primary">&lt;&lt;&nbsp;{{ nextPost.data.title }}</a>
+  <a href="{{ nextPost.url }}" class="button primary">Previous: {{ nextPost.data.title }}</a>
 {% endif %}
 {% if previousPost %}
-  <a href="{{ previousPost.url }}" class="button primary">{{ previousPost.data.title }}&nbsp;&gt;&gt;</a>
+  <a href="{{ previousPost.url }}" class="button primary">Next: {{ previousPost.data.title }}</a>
 {% endif %}
 <br />
 <br />
