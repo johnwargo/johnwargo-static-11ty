@@ -2,8 +2,8 @@
 layout: generic
 ---
 
-{% assign previousPost = collections.post | getPreviousCollectionItem %}
-{% assign nextPost = collections.post | getNextCollectionItem %}
+{% assign previousPost = collections.articlesByTimestamp | getPreviousCollectionItem %}
+{% assign nextPost = collections.articlesByTimestamp | getNextCollectionItem %}
 {% include 'pretty-print.html' %}
 
 <p>
@@ -23,11 +23,10 @@ layout: generic
 {% pageLinks %}
 {{ content }}
 <hr />
-{% if nextPost %}
+{%- if nextPost %}
   <a href="{{ nextPost.url }}" class="button primary">Previous: {{ nextPost.data.title }}</a>
-{% endif %}
-{% if previousPost %}
+{%- endif -%}
+{%- if previousPost %}
   <a href="{{ previousPost.url }}" class="button primary">Next: {{ previousPost.data.title }}</a>
-{% endif %}
-<br />
-<br />
+{%- endif -%}
+<br /><br />
