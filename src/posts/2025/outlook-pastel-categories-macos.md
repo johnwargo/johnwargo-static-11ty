@@ -29,11 +29,11 @@ Around the same time, I noticed that my Zoom plugin for Outlook no longer worked
 
 In the Outlook for macOS **Help** menu, there's an option called **Clear Application Data** :
 
-<img src="/images/2025/outlook-macos-appdata-1.png" alt="macOS Outlook Help Menu" />
+![macOS Outlook Help Menu](/images/2025/outlook-macos-appdata-1.png)
 
 Select that menu item and Outlook will open the following dialog:
 
-<img src="/images/2025/outlook-macos-appdata-2.png" alt="macOS Outlook Clear Application Data dialog" />
+![macOS Outlook Clear Application Data dialog](/images/2025/outlook-macos-appdata-2.png)
 
 Next, select the option to clear data for **Experimental Features** and click the **Clear** button. 
 

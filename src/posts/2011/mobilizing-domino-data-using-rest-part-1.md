@@ -50,11 +50,11 @@ JSON stands for JavaScript Object Notation and it's a way of representing data i
 
 In JSON, an array looks like this:
 
-<img src="/images/2011/jsonarray.gif" alt="" />
+![](/images/2011/jsonarray.gif)
 
 And an Object looks like this:
 
-<img src="/images/2011/jsonobject.gif" alt="" />
+![](/images/2011/jsonobject.gif)
 
 You'll see how these apply in the following section.
 

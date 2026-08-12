@@ -15,33 +15,33 @@ Amazon sent me an email this morning letting me know that a digital album I purc
 
 Take a look at the email. The first link is supposed to be a link to download the music from my library.
 
-<img src="/images/2024/amazon-digital-music-hell-01.png" alt="" />
+![](/images/2024/amazon-digital-music-hell-01.png)
 
 When I click on the link, I get the following page:
 
-<img src="/images/2024/amazon-digital-music-hell-02.png" alt="" />
+![](/images/2024/amazon-digital-music-hell-02.png)
 
 Well that's not good. Let me see if I click the order details link:
 
-<img src="/images/2024/amazon-digital-music-hell-03.png" alt="" />
+![](/images/2024/amazon-digital-music-hell-03.png)
 
 OK, that works. So when I click the **Launch Music Library** button it's going to take me to the downloads for my most recent purchase, right?
 
-<img src="/images/2024/amazon-digital-music-hell-04.png" alt="" />
+![](/images/2024/amazon-digital-music-hell-04.png)
 
 Oops, nope. The first thing I see is a pitch to pay more to gain access to millions of songs. I'be been buying digital music from Amazon for years and they prompt me like this EVERY SINGLE TIME I open the app. You'd think that after likely hundreds of No's they'd realize I'm not going to sign up and stop asking me. Nope, the product manager for this obviously isn't paying attention to the telemetry from this feature.
 
-<img src="/images/2024/amazon-digital-music-hell-05.png" alt="" />
+![](/images/2024/amazon-digital-music-hell-05.png)
 
 After I dismiss the sales pitch I've seen a hundred times or more, the app opens and shows me some of the bands I've purchased in the past, but then a bunch of artists I know nothing about. I'm into the blues and southern rock (among others) how did I get a station listing musicians I've never heard of. That list should all be progressive rock, blues, folk, rock, heavy metal. Such a horrible experience. 
 
 Alright, so I'm here to download my latest purchase. Where do I do that? I clicked on Library to bring up my, you know, library and this is what I see.
 
-<img src="/images/2024/amazon-digital-music-hell-06.png" alt="" />
+![](/images/2024/amazon-digital-music-hell-06.png)
 
 Alright, I think I'm almost there. I clicked on **Purchased** and FINALLY the album I purchased shows up. 
 
-<img src="/images/2024/amazon-digital-music-hell-07.png" alt="" />
+![](/images/2024/amazon-digital-music-hell-07.png)
 
 A few questions:
 
@@ -53,6 +53,6 @@ A few questions:
 
 Now, one of the things I tried to resolve this was go to my orders page and there was a button labeled **Download Music** that should be able to help me, right? When I clicked on the button, the actual button that should allow me to download the entire album as a single file. What did I get? See below.
 
-<img src="/images/2024/amazon-digital-music-hell-08.png" alt="" />
+![](/images/2024/amazon-digital-music-hell-08.png)
 
 My point here is the whole Amazon music thing is seriously broken and since Amazon doesn't provide a forum where I can let them know, I'm writing about it here.

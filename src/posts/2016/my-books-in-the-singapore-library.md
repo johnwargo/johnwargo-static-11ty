@@ -7,8 +7,8 @@ categories: [Miscellaneous]
 tags: post
 ---
 
-<img src="/images/covers/phonegap-essentials-cover-160.png" alt="PhoneGap Essentials Cover" />
+![PhoneGap Essentials Cover](/images/covers/phonegap-essentials-cover-160.png)
 
 I'm not sure what this means, but a former colleague shared this image with me. Apparently the Singapore Government Library web site has entries for some of my books. How cool is that?
 
-<img src="/images/2016/singapore-library.PNG" alt="PhoneGap Essentials Book" />
+![PhoneGap Essentials Book](/images/2016/singapore-library.PNG)

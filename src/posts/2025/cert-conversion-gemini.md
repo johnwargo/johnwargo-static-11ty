@@ -17,6 +17,6 @@ I was playing around in Google last night checking to see if my post on Arduino 
 
 Here's the generative API results for a search on "Convert Certificate Arduino":
 
-<img src="/images/2025/gemini-cert-conversion.jpeg" alt="" />
+![](/images/2025/gemini-cert-conversion.jpeg)
 
 It was fun to see how quickly that made it into generative AI.

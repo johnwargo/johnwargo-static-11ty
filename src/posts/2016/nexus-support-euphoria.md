@@ -25,20 +25,20 @@ I don't know if you've migrated between Android devices lately, but the process 
 
 Being a modern, technical guy, I immediately tweeted about my euphoria over my support experience:
 
-<img src="/images/2016/nexus-1.png" alt="Nexus twitter image" />
+![Nexus twitter image](/images/2016/nexus-1.png)
 
 Within seconds, someone from the Google Nexus support team saw my tweet (OK, it's probably a bot, but who cares – this is cool) and offered to help:
 
-<img src="/images/2016/nexus-2.png" alt="Nexus twitter image 2" />
+![Nexus twitter image 2](/images/2016/nexus-2.png)
 
 So, I didn't even have to go to the support site, I could have tweeted “my Nexus 5x is broken” and gotten immediate help. How cool is that?
 
 The conversation continued:
 
-<img src="/images/2016/nexus-3.png" alt="Nexus twitter image 3" />
+![Nexus twitter image 3](/images/2016/nexus-3.png)
 
 And the helpful, happy response:
 
-<img src="/images/2016/nexus-4.png" alt="Nexus twitter image 4" />
+![Nexus twitter image 4](/images/2016/nexus-4.png)
 
 Anyway, I'm pretty impressed with how easy this was. The device broke, which I'm not entirely happy about, but the experience was so painless that I simply didn't mind. Well done Google (LG).
