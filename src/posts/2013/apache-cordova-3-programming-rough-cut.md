@@ -7,8 +7,8 @@ categories: [Mobile Development]
 tags: post
 ---
 
-<img src="/images/covers/acp-cover-160.png" alt="Apache Cordova 3 Programming" />
+![Apache Cordova 3 Programming](/images/covers/acp-cover-160.png)
 
 The rough cut version of Apache Cordova 3 Programming is now available on Safari Books Online at [https://my.safaribooksonline.com/9780133521832.](https://my.safaribooksonline.com/9780133521832){target="_blank"}
 
-[<img src="/images/2013/acp-safari.png" alt="" />](https://my.safaribooksonline.com/9780133521832)
+[![](/images/2013/acp-safari.png)](https://my.safaribooksonline.com/9780133521832)

@@ -17,11 +17,11 @@ The service supports a wide range of options including minute, hour, day of the 
 
 You'll get an email confirmation that the system has recorded your request as shown in the figure below:
 
-<img src="/images/2013/followupthen-confirmation.png" alt="Figure 1" />
+![Figure 1](/images/2013/followupthen-confirmation.png)
 
 And, at the appointed time you'll receive another email with the actual reminder message:
 
-<img src="/images/2013/followupthen-reminder.png" alt="Figure 2" />
+![Figure 2](/images/2013/followupthen-reminder.png)
 
 Notice that it even allows you to 'snooze' your reminders.
 

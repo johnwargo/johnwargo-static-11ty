@@ -98,15 +98,15 @@ Before you can use this code, you must create a GitHub API token (GitHub calls t
 
 To access your GitHub account's Access Tokens, open a browser, authenticate to your GitHub account, then navigate to [https://github.com/settings/tokens](https://github.com/settings/tokens){target="_blank"} to manage your account's access tokens. 
 
-<img src="/images/2023/github-access-token-1.png" alt="GitHub Personal Access Token List" />
+![GitHub Personal Access Token List](/images/2023/github-access-token-1.png)
 
 Click the **Generate new token** button, then select **Generate new token (classic)**.
 
-<img src="/images/2023/github-access-token-2.png" alt="Create GitHub Access Token" />
+![Create GitHub Access Token](/images/2023/github-access-token-2.png)
 
 Populate the form that appears with a unique name for the access token. For scopes (access areas for the access token), the only option you need for this is `public_repo`. 
 
-<img src="/images/2023/github-access-token-3.png" alt="Creating a GitHub Access Token" />
+![Creating a GitHub Access Token](/images/2023/github-access-token-3.png)
 
 I could grant more scopes here, but that's unnecessary since all the code's doing is reading the public repo list.
 
@@ -114,4 +114,4 @@ Click the **Generate token** button to create the token. GitHub generates the to
 
 Next, create an environment variable on the system; the following figure shows part of the process on Microsoft Windows:
 
-<img src="/images/2023/github-access-token-4.png" alt="Creating an Environment Variable" />
+![Creating an Environment Variable](/images/2023/github-access-token-4.png)

@@ -51,8 +51,8 @@ Here's the code:
 
 Here's the application running on an iOS simulator.
 
-<img src="/images/2013/deviceready-sample-app.png" alt="[Sample Cordova Application Running on an iOS Simulator" />
+![[Sample Cordova Application Running on an iOS Simulator](/images/2013/deviceready-sample-app.png)
 
 And here's the output from the application's call to console.log.
 
-<img src="/images/2013/deviceready-sample-log.png" alt="Xcode Output Log" />
+![Xcode Output Log](/images/2013/deviceready-sample-log.png)

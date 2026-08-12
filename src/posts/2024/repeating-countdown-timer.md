@@ -31,7 +31,7 @@ When you run the app, it keeps a running countdown until the selected event date
 
 Here's a screenshot of the app in action:
 
-<img src="/images/2024/repeat-countdown-app.png" alt="Repeat Countdown App" />
+![Repeat Countdown App](/images/2024/repeat-countdown-app.png)
 
 ## Digging Into The Code
 

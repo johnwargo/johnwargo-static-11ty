@@ -15,4 +15,4 @@ Also, RIM recently removed all of the Developer Journal issues from their web si
 
 Here's the cover for Volume 2, Issue 1 from 2005 - Looks like good stuff, huh?
 
-<img src="/images/2009/10-6-2009-8-31-56-am.jpg" alt="BlackBerry Developer Journal Cover" />
+![BlackBerry Developer Journal Cover](/images/2009/10-6-2009-8-31-56-am.jpg)

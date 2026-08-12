@@ -83,10 +83,6 @@ set DEBUG=Eleventy* & npx @11ty/eleventy
 
 ### Image Shortcode
 
-```liquid
-<img src="/images/" alt="" />
-```
-
 ![Image test](/images/2026/11ty-3-upgrade-pr.png)
 
 ### Image Caption
