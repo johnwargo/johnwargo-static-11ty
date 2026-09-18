@@ -27,9 +27,7 @@ export default function (eleventyConfig) {
 
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 	eleventyConfig.addPlugin(embedYouTube);
-	eleventyConfig.addPlugin(fileList, {
-		targetFolder: 'src/files'
-	});
+	eleventyConfig.addPlugin(fileList, { targetFolder: 'src/files' });
 	eleventyConfig.addPlugin(imageCaptionPlugin);
 	eleventyConfig.addPlugin(pluginGallery);
 	eleventyConfig.addPlugin(pageLinks, {
