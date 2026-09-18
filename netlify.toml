@@ -1,5 +1,6 @@
 [build.environment]
   TZ = "America/New_York"
+  NODE_ENV = "production"
 
 [[plugins]]
 package = "netlify-plugin-cache"
