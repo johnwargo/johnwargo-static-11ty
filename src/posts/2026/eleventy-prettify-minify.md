@@ -13,8 +13,6 @@ timestamp: 2026-09-18T22:23:24.061Z
 
 Years ago, I don't remember where, I found some code I could use to minify the code on this site during deployment in production. Aaah, here it is: [Minifying HTML output](https://learneleventyfromscratch.com/lesson/31.html#minifying-html-output){target="_blank"}. 
 
-**Note:** The code only minifies page HTML; if a page has embedded JavaScript, the transform ignores the JavaScript code. 
-
 Fast forward a few years, I realized that I didn't like how sloppy the site's code was when viewing source when debugging locally. The generated site code often has a lot of extra spacing and no effort is made to align the code. I realized that if I could minimize for production, I could also prettify the site's source when not in production (when working locally or hosting a dev version of the site) and set about making it happen.
 
 I started by creating a `transforms` folder in my Eleventy project then moved the minify code from the article linked above into a file called [`transform-minify.js`](https://github.com/johnwargo/johnwargo-static-11ty/blob/main/transforms/transform-minify.js){target="_blank"}.
