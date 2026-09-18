@@ -5,7 +5,7 @@
     "data": "collections.articlesByTimestamp",
     "size": 20,
     "alias": "catposts",
-    "before": function(paginationData, fullData){ let data = paginationData.filter((item) => item.data.categories && item.data.categories.includes('Project Builds')); return Array.from(data).sort((a, b) => { return a.date < b.date ? 1 : -1; });}
+    "before": function(paginationData, fullData){ let data = paginationData.filter((item) => { if (!item.data.categories) return false; let cats = [...item.data.categories]; return cats.includes(`Project Builds`);}); return data.sort((a, b) => new Date(b.date) - new Date(a.date));}
   },
   "category": "Project Builds",
   "description": "Articles about the different projects I've built. This could be workshop projects or electronics projects.",

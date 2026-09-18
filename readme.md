@@ -8,6 +8,7 @@ The static site generated version of [johnwargo.com](https://johnwargo.com), imp
 
 - [ ] Search page - focus on input field on load
   - [ ] Or replace with the one on Breakfast Quest
+- [ ] Update Algolia index to use content from other pages.
 - [ ] Fix Google analytics stats, they seem off
 - [ ] Newsletter on https://buttondown.com/
 

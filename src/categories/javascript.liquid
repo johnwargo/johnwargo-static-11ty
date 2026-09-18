@@ -5,7 +5,7 @@
     "data": "collections.articlesByTimestamp",
     "size": 20,
     "alias": "catposts",
-    "before": function(paginationData, fullData){ let data = paginationData.filter((item) => item.data.categories && item.data.categories.includes('JavaScript')); return Array.from(data).sort((a, b) => { return a.date < b.date ? 1 : -1; });}
+    "before": function(paginationData, fullData){ let data = paginationData.filter((item) => { if (!item.data.categories) return false; let cats = [...item.data.categories]; return cats.includes(`JavaScript`);}); return data.sort((a, b) => new Date(b.date) - new Date(a.date));}
   },
   "category": "JavaScript",
   "description": "Articles that cover JavaScript and TypeScript development topics. This can be examples of how to solve problems using JavaScript or posts describing new Node.js modules I've published that are written in JavaScript or TypeScript.",

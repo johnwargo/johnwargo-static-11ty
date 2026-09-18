@@ -5,7 +5,7 @@
     "data": "collections.articlesByTimestamp",
     "size": 20,
     "alias": "catposts",
-    "before": function(paginationData, fullData){ let data = paginationData.filter((item) => item.data.categories && item.data.categories.includes('BlackBerry')); return Array.from(data).sort((a, b) => { return a.date < b.date ? 1 : -1; });}
+    "before": function(paginationData, fullData){ let data = paginationData.filter((item) => { if (!item.data.categories) return false; let cats = [...item.data.categories]; return cats.includes(`BlackBerry`);}); return data.sort((a, b) => new Date(b.date) - new Date(a.date));}
   },
   "category": "BlackBerry",
   "description": "Articles about the BlackBerry platform, BlackBerry development, and my time working at BlackBerry (Research in Motion).",
