@@ -223,3 +223,7 @@ map.data.addListener('click', function (event) {
 ```
 
 You can view the complete source code for this in the site's [`maps.js`](https://github.com/johnwargo/the-breakfast-quest-11ty/blob/main/src/assets/js/maps.js){target="_blank"} file.
+
+## Postscript
+
+After publishing this post, I started thinking a little more about the project. I realized that I might have readers questioning why I didn't just generate a global data file in my 11ty project then embed the locations data on the page. I don't remember the exact reason, but loading the data from an external file was so simple and easy. I know I wanted to keep the locations page as simple as possible as well. Who knows, maybe I'll try the other approach some day.
